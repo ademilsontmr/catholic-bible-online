@@ -7,111 +7,64 @@
     <meta name="description" content="Explore the Holy Bible, Catholic prayers, novenas, and lives of the saints in one place.">
     <meta name="keywords" content="catholic bible, holy bible, catholic prayers, novenas, saints, catholic online">
     <meta name="author" content="Catholic Bible Online">
-    
-    <!-- Favicon and icons -->
-    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✝️</text></svg>">
-    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✝️</text></svg>">
-    
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="canonical" href="https://catholicbibleonline.com/">
 </head>
-<body class="light-mode">
-    <!-- Theme Toggle -->
-    <div class="theme-toggle" id="themeToggle">
-        <div class="toggle-icon">🌙</div>
-    </div>
-
+<body>
     <header class="header">
         <div class="container">
-            <div class="header-content">
-                <h1 class="logo">
-                    <span class="logo-icon">✝️</span>
-                    <span class="logo-text">Catholic Bible Online</span>
-                </h1>
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li><a href="/" class="nav-link active">Home</a></li>
-                        <li><a href="/bible/" class="nav-link">Bible</a></li>
-                        <li><a href="/prayers/" class="nav-link">Prayers</a></li>
-                        <li><a href="/saints/" class="nav-link">Saints</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <h1 class="logo">Catholic Bible Online</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="/" class="nav-link">Home</a></li>
+                    <li><a href="/bible/" class="nav-link">Bible</a></li>
+                    <li><a href="/novenas/" class="nav-link">Novenas</a></li>
+                    <li><a href="/saints/" class="nav-link">Saints</a></li>
+                    <li><a href="/prayers/" class="nav-link">Prayers</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <main class="main">
         <section class="hero">
             <div class="container">
-                <div class="hero-content">
-                    <h2 class="hero-title">Discover the Word of God</h2>
-                    <p class="hero-subtitle">Explore the Holy Bible, find prayers, and learn about saints</p>
-                    
-                    <!-- Simplified Search Bar -->
-                    <div class="search-container">
-                        <div class="search-box" id="searchBox">
-                            <div class="search-icon">🔍</div>
-                            <input type="text" class="search-input" placeholder="Search Bible verses, prayers..." id="searchInput">
-                            <button class="search-button" id="searchButton">Search</button>
-                        </div>
-                    </div>
-                </div>
+                <h2 class="hero-title">Catholic Bible Online</h2>
+                <p class="hero-subtitle">Access the Holy Bible, Novenas, Saints, and Catholic Prayers in one place.</p>
+                <a href="/bible/" class="btn btn-primary">Start Reading</a>
             </div>
         </section>
 
         <section class="features">
             <div class="container">
                 <div class="features-grid">
-                    <div class="feature-card" data-category="bible">
+                    <div class="feature-card">
                         <div class="feature-icon">📖</div>
-                        <div class="feature-content">
-                            <h3>Read the Bible</h3>
-                            <p>Immerse yourself in the Holy Scriptures with beautiful typography.</p>
-                            <a href="/bible/" class="feature-link">Start Reading</a>
-                        </div>
+                        <h3>Read the Bible</h3>
+                        <p>Explore the complete Holy Bible with daily readings and reflections.</p>
+                        <a href="/bible/" class="feature-link">Explore Bible</a>
                     </div>
                     
-                    <div class="feature-card" data-category="prayers">
+                    <div class="feature-card">
                         <div class="feature-icon">🙏</div>
-                        <div class="feature-content">
-                            <h3>Daily Prayers</h3>
-                            <p>Find peace and spiritual growth with Catholic prayers and devotions.</p>
-                            <a href="/prayers/" class="feature-link">Explore Prayers</a>
-                        </div>
+                        <h3>Popular Novenas</h3>
+                        <p>Discover traditional nine-day prayers to saints and the Blessed Virgin Mary.</p>
+                        <a href="/novenas/" class="feature-link">View Novenas</a>
                     </div>
                     
-                    <div class="feature-card" data-category="saints">
+                    <div class="feature-card">
+                        <div class="feature-icon">✝️</div>
+                        <h3>Catholic Prayers</h3>
+                        <p>Find essential Catholic prayers for daily devotion and spiritual growth.</p>
+                        <a href="/prayers/" class="feature-link">Read Prayers</a>
+                    </div>
+                    
+                    <div class="feature-card">
                         <div class="feature-icon">🕊</div>
-                        <div class="feature-content">
-                            <h3>Lives of Saints</h3>
-                            <p>Be inspired by the extraordinary lives of Catholic saints.</p>
-                            <a href="/saints/" class="feature-link">Meet Saints</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="daily-reading">
-            <div class="container">
-                <div class="daily-content">
-                    <h2 class="section-title">Today's Reading</h2>
-                    
-                    <div class="reading-card">
-                        <div class="reading-header">
-                            <span class="reading-reference">John 3:16-17</span>
-                            <span class="reading-date">July 25, 2025</span>
-                        </div>
-                        
-                        <blockquote class="reading-text">
-                            "For God so loved the world that he gave his only Son, so that everyone who believes in him might not perish but might have eternal life. For God did not send his Son into the world to condemn the world, but that the world might be saved through him."
-                        </blockquote>
-                        
-                        <div class="reading-actions">
-                            <button class="btn btn-primary" id="readFullBtn">Read Full Chapter</button>
-                            <button class="btn btn-outline" id="shareBtn">Share</button>
-                        </div>
+                        <h3>Saints</h3>
+                        <p>Learn about the lives and teachings of Catholic saints and holy men and women.</p>
+                        <a href="/saints/" class="feature-link">Meet Saints</a>
                     </div>
                 </div>
             </div>
@@ -122,137 +75,18 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <div class="footer-logo">
-                        <span class="logo-icon">✝️</span>
-                        Catholic Bible Online
-                    </div>
-                    <p>Your digital companion for spiritual growth.</p>
+                    <p>&copy; 2025 CatholicBibleOnline.com. All rights reserved.</p>
                 </div>
-                
                 <div class="footer-section">
                     <ul class="footer-links">
-                        <li><a href="/about/">About</a></li>
-                        <li><a href="/privacy/">Privacy</a></li>
+                        <li><a href="/about/">About Us</a></li>
+                        <li><a href="/privacy/">Privacy Policy</a></li>
+                        <li><a href="/terms/">Terms of Use</a></li>
                         <li><a href="/contact/">Contact</a></li>
                     </ul>
                 </div>
             </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2025 CatholicBibleOnline.com</p>
-            </div>
         </div>
     </footer>
-
-    <!-- Toast Notifications -->
-    <div class="toast-container" id="toastContainer"></div>
-
-    <script>
-        // Simplified JavaScript
-        class CatholicBibleApp {
-            constructor() {
-                this.init();
-            }
-
-            init() {
-                this.setupEventListeners();
-                this.initializeTheme();
-                this.setupSearch();
-            }
-
-            setupEventListeners() {
-                // Theme toggle
-                document.getElementById('themeToggle').addEventListener('click', () => this.toggleTheme());
-
-                // Search functionality
-                document.getElementById('searchInput').addEventListener('keypress', (e) => {
-                    if (e.key === 'Enter') this.performSearch();
-                });
-                document.getElementById('searchButton').addEventListener('click', () => this.performSearch());
-
-                // Reading actions
-                document.getElementById('readFullBtn').addEventListener('click', () => this.showToast('Opening full chapter...'));
-                document.getElementById('shareBtn').addEventListener('click', () => this.shareVerse());
-            }
-
-            initializeTheme() {
-                const savedTheme = localStorage.getItem('theme') || 'light';
-                document.body.className = `${savedTheme}-mode`;
-                this.updateThemeIcon(savedTheme);
-            }
-
-            toggleTheme() {
-                const currentTheme = document.body.classList.contains('light-mode') ? 'light' : 'dark';
-                const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-                
-                document.body.className = `${newTheme}-mode`;
-                localStorage.setItem('theme', newTheme);
-                this.updateThemeIcon(newTheme);
-                this.showToast(`Switched to ${newTheme} mode`);
-            }
-
-            updateThemeIcon(theme) {
-                const icon = document.querySelector('.theme-toggle');
-                icon.innerHTML = theme === 'light' ? '🌙' : '☀️';
-            }
-
-            setupSearch() {
-                const searchBox = document.getElementById('searchBox');
-                const searchInput = document.getElementById('searchInput');
-
-                searchInput.addEventListener('focus', () => {
-                    searchBox.classList.add('focused');
-                });
-
-                searchInput.addEventListener('blur', () => {
-                    searchBox.classList.remove('focused');
-                });
-            }
-
-            performSearch() {
-                const query = document.getElementById('searchInput').value.trim();
-                if (query) {
-                    this.showToast(`Searching for: "${query}"`);
-                    console.log('Search query:', query);
-                }
-            }
-
-            shareVerse() {
-                if (navigator.share) {
-                    navigator.share({
-                        title: 'Today\'s Bible Verse',
-                        text: 'John 3:16-17 - For God so loved the world...',
-                        url: window.location.href
-                    });
-                } else {
-                    this.showToast('Sharing feature not supported');
-                }
-            }
-
-            showToast(message) {
-                const toast = document.createElement('div');
-                toast.className = 'toast';
-                toast.textContent = message;
-                
-                document.getElementById('toastContainer').appendChild(toast);
-                
-                setTimeout(() => {
-                    toast.classList.add('show');
-                }, 100);
-                
-                setTimeout(() => {
-                    toast.classList.remove('show');
-                    setTimeout(() => {
-                        toast.remove();
-                    }, 300);
-                }, 3000);
-            }
-        }
-
-        // Initialize the app when DOM is loaded
-        document.addEventListener('DOMContentLoaded', () => {
-            new CatholicBibleApp();
-        });
-    </script>
 </body>
 </html> 
