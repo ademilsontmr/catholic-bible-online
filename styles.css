@@ -221,22 +221,7 @@ h1, h2, h3 {
     color: #3498db;
 }
 
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
 
-.social-link {
-    color: #666;
-    text-decoration: none;
-    font-size: 0.9rem;
-    transition: color 0.3s ease;
-}
-
-.social-link:hover {
-    color: #3498db;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
