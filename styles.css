@@ -67,6 +67,22 @@ h1, h2, h3 {
     color: #3498db;
 }
 
+/* Ad Placeholders */
+.ad-placeholder {
+    background-color: #f8f9fa;
+    border: 2px dashed #dee2e6;
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+.ad-placeholder p {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -219,6 +235,23 @@ h1, h2, h3 {
     color: #3498db;
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-link {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #3498db;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .header .container {
@@ -250,6 +283,11 @@ h1, h2, h3 {
     }
     
     .footer-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .social-links {
         flex-direction: column;
         gap: 0.5rem;
     }
@@ -302,7 +340,8 @@ h1, h2, h3 {
 /* Print styles */
 @media print {
     .header,
-    .footer {
+    .footer,
+    .ad-placeholder {
         display: none;
     }
     
