@@ -67,21 +67,7 @@ h1, h2, h3 {
     color: #3498db;
 }
 
-/* Ad Placeholders */
-.ad-placeholder {
-    background-color: #f8f9fa;
-    border: 2px dashed #dee2e6;
-    padding: 2rem;
-    text-align: center;
-    margin: 1rem 0;
-    border-radius: 8px;
-}
 
-.ad-placeholder p {
-    color: #6c757d;
-    font-size: 0.9rem;
-    margin: 0;
-}
 
 /* Hero Section */
 .hero {
