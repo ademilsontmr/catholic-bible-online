@@ -13,23 +13,10 @@
     <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✝️</text></svg>">
     
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="canonical" href="https://catholicbibleonline.com/">
-    
-    <!-- Preload critical resources -->
-    <link rel="preload" href="styles.css" as="style">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap" as="style">
 </head>
 <body class="light-mode">
-    <!-- Loading Screen -->
-    <div class="loading-screen" id="loadingScreen">
-        <div class="loading-content">
-            <div class="loading-logo">✝️</div>
-            <div class="loading-text">Catholic Bible Online</div>
-            <div class="loading-spinner"></div>
-        </div>
-    </div>
-
     <!-- Theme Toggle -->
     <div class="theme-toggle" id="themeToggle">
         <div class="toggle-icon">🌙</div>
@@ -40,15 +27,14 @@
             <div class="header-content">
                 <h1 class="logo">
                     <span class="logo-icon">✝️</span>
-                    Catholic Bible Online
+                    <span class="logo-text">Catholic Bible Online</span>
                 </h1>
                 <nav class="nav">
                     <ul class="nav-list">
-                        <li><a href="/" class="nav-link active" data-section="home">Home</a></li>
-                        <li><a href="/bible/" class="nav-link" data-section="bible">Bible</a></li>
-                        <li><a href="/novenas/" class="nav-link" data-section="novenas">Novenas</a></li>
-                        <li><a href="/saints/" class="nav-link" data-section="saints">Saints</a></li>
-                        <li><a href="/prayers/" class="nav-link" data-section="prayers">Prayers</a></li>
+                        <li><a href="/" class="nav-link active">Home</a></li>
+                        <li><a href="/bible/" class="nav-link">Bible</a></li>
+                        <li><a href="/prayers/" class="nav-link">Prayers</a></li>
+                        <li><a href="/saints/" class="nav-link">Saints</a></li>
                     </ul>
                 </nav>
             </div>
@@ -59,122 +45,49 @@
         <section class="hero">
             <div class="container">
                 <div class="hero-content">
-                    <div class="hero-badge">✨ Welcome to your spiritual journey</div>
-                    <h2 class="hero-title">
-                        <span class="title-line">Discover the</span>
-                        <span class="title-highlight">Word of God</span>
-                    </h2>
-                    <p class="hero-subtitle">Explore the Holy Bible, find prayers, novenas, and learn about saints in a beautiful, modern way</p>
+                    <h2 class="hero-title">Discover the Word of God</h2>
+                    <p class="hero-subtitle">Explore the Holy Bible, find prayers, and learn about saints</p>
                     
-                    <!-- Enhanced Search Bar -->
+                    <!-- Simplified Search Bar -->
                     <div class="search-container">
                         <div class="search-box" id="searchBox">
                             <div class="search-icon">🔍</div>
-                            <input type="text" class="search-input" placeholder="Search Bible verses, prayers, saints..." id="searchInput">
-                            <div class="search-actions">
-                                <button class="voice-search" title="Voice Search">🎤</button>
-                                <button class="search-button" id="searchButton">Search</button>
-                            </div>
-                        </div>
-                        <div class="search-suggestions" id="searchSuggestions">
-                            <div class="suggestion-group">
-                                <span class="suggestion-label">Popular searches:</span>
-                                <span class="suggestion" data-search="John 3:16">"John 3:16"</span>
-                                <span class="suggestion" data-search="Our Father prayer">"Our Father prayer"</span>
-                                <span class="suggestion" data-search="Saint Francis">"Saint Francis"</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Quick Stats -->
-                    <div class="quick-stats">
-                        <div class="stat-item">
-                            <span class="stat-number">73</span>
-                            <span class="stat-label">Books</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">1,189</span>
-                            <span class="stat-label">Chapters</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">31,102</span>
-                            <span class="stat-label">Verses</span>
+                            <input type="text" class="search-input" placeholder="Search Bible verses, prayers..." id="searchInput">
+                            <button class="search-button" id="searchButton">Search</button>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <!-- Animated Background -->
-            <div class="hero-background">
-                <div class="floating-element" style="--delay: 0s">✝️</div>
-                <div class="floating-element" style="--delay: 2s">📖</div>
-                <div class="floating-element" style="--delay: 4s">🙏</div>
-                <div class="floating-element" style="--delay: 6s">🕊</div>
             </div>
         </section>
 
         <section class="features">
             <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Explore Our Collection</h2>
-                    <p class="section-subtitle">Everything you need for your spiritual journey in one place</p>
-                </div>
-                
                 <div class="features-grid">
                     <div class="feature-card" data-category="bible">
                         <div class="feature-icon">📖</div>
                         <div class="feature-content">
                             <h3>Read the Bible</h3>
-                            <p>Immerse yourself in the Holy Scriptures with beautiful typography and easy navigation.</p>
-                            <div class="feature-meta">
-                                <span class="meta-item">73 Books</span>
-                                <span class="meta-item">Multiple Translations</span>
-                            </div>
+                            <p>Immerse yourself in the Holy Scriptures with beautiful typography.</p>
                             <a href="/bible/" class="feature-link">Start Reading</a>
                         </div>
-                        <div class="card-glow"></div>
                     </div>
                     
                     <div class="feature-card" data-category="prayers">
                         <div class="feature-icon">🙏</div>
                         <div class="feature-content">
                             <h3>Daily Prayers</h3>
-                            <p>Find peace and spiritual growth with our collection of Catholic prayers and devotions.</p>
-                            <div class="feature-meta">
-                                <span class="meta-item">Traditional</span>
-                                <span class="meta-item">Contemporary</span>
-                            </div>
+                            <p>Find peace and spiritual growth with Catholic prayers and devotions.</p>
                             <a href="/prayers/" class="feature-link">Explore Prayers</a>
                         </div>
-                        <div class="card-glow"></div>
-                    </div>
-                    
-                    <div class="feature-card" data-category="novenas">
-                        <div class="feature-icon">✨</div>
-                        <div class="feature-content">
-                            <h3>Popular Novenas</h3>
-                            <p>Discover powerful nine-day prayers to saints and the Blessed Virgin Mary.</p>
-                            <div class="feature-meta">
-                                <span class="meta-item">9-Day Devotions</span>
-                                <span class="meta-item">Marian Prayers</span>
-                            </div>
-                            <a href="/novenas/" class="feature-link">View Novenas</a>
-                        </div>
-                        <div class="card-glow"></div>
                     </div>
                     
                     <div class="feature-card" data-category="saints">
                         <div class="feature-icon">🕊</div>
                         <div class="feature-content">
                             <h3>Lives of Saints</h3>
-                            <p>Be inspired by the extraordinary lives and teachings of Catholic saints.</p>
-                            <div class="feature-meta">
-                                <span class="meta-item">Biographies</span>
-                                <span class="meta-item">Teachings</span>
-                            </div>
+                            <p>Be inspired by the extraordinary lives of Catholic saints.</p>
                             <a href="/saints/" class="feature-link">Meet Saints</a>
                         </div>
-                        <div class="card-glow"></div>
                     </div>
                 </div>
             </div>
@@ -183,22 +96,12 @@
         <section class="daily-reading">
             <div class="container">
                 <div class="daily-content">
-                    <div class="section-header">
-                        <h2 class="section-title">Today's Reading</h2>
-                        <p class="section-subtitle">A daily verse to inspire and guide your day</p>
-                    </div>
+                    <h2 class="section-title">Today's Reading</h2>
                     
                     <div class="reading-card">
                         <div class="reading-header">
-                            <div class="reading-info">
-                                <span class="reading-reference">John 3:16-17</span>
-                                <span class="reading-translation">New American Bible</span>
-                            </div>
-                            <div class="reading-date">
-                                <span class="date-day">25</span>
-                                <span class="date-month">July</span>
-                                <span class="date-year">2025</span>
-                            </div>
+                            <span class="reading-reference">John 3:16-17</span>
+                            <span class="reading-date">July 25, 2025</span>
                         </div>
                         
                         <blockquote class="reading-text">
@@ -206,57 +109,8 @@
                         </blockquote>
                         
                         <div class="reading-actions">
-                            <button class="btn btn-outline" id="readFullBtn">
-                                <span class="btn-icon">📖</span>
-                                Read Full Chapter
-                            </button>
-                            <button class="btn btn-primary" id="shareBtn">
-                                <span class="btn-icon">📤</span>
-                                Share
-                            </button>
-                            <button class="btn btn-ghost" id="bookmarkBtn">
-                                <span class="btn-icon">🔖</span>
-                                Bookmark
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- New Section: Recent Activity -->
-        <section class="recent-activity">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Recently Popular</h2>
-                    <p class="section-subtitle">What others are reading and praying</p>
-                </div>
-                
-                <div class="activity-grid">
-                    <div class="activity-card">
-                        <div class="activity-icon">🔥</div>
-                        <div class="activity-content">
-                            <h4>Psalm 23</h4>
-                            <p>The Lord is my shepherd...</p>
-                            <span class="activity-stats">2.3k reads today</span>
-                        </div>
-                    </div>
-                    
-                    <div class="activity-card">
-                        <div class="activity-icon">🙏</div>
-                        <div class="activity-content">
-                            <h4>Hail Mary</h4>
-                            <p>Traditional Marian prayer</p>
-                            <span class="activity-stats">1.8k prayers today</span>
-                        </div>
-                    </div>
-                    
-                    <div class="activity-card">
-                        <div class="activity-icon">🕊</div>
-                        <div class="activity-content">
-                            <h4>St. Francis of Assisi</h4>
-                            <p>Patron saint of animals</p>
-                            <span class="activity-stats">956 views today</span>
+                            <button class="btn btn-primary" id="readFullBtn">Read Full Chapter</button>
+                            <button class="btn btn-outline" id="shareBtn">Share</button>
                         </div>
                     </div>
                 </div>
@@ -272,35 +126,20 @@
                         <span class="logo-icon">✝️</span>
                         Catholic Bible Online
                     </div>
-                    <p>Your digital companion for spiritual growth and biblical study.</p>
+                    <p>Your digital companion for spiritual growth.</p>
                 </div>
                 
                 <div class="footer-section">
-                    <h4>Quick Links</h4>
                     <ul class="footer-links">
-                        <li><a href="/about/">About Us</a></li>
-                        <li><a href="/privacy/">Privacy Policy</a></li>
-                        <li><a href="/terms/">Terms of Use</a></li>
+                        <li><a href="/about/">About</a></li>
+                        <li><a href="/privacy/">Privacy</a></li>
                         <li><a href="/contact/">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Resources</h4>
-                    <ul class="footer-links">
-                        <li><a href="/bible/">Bible Study</a></li>
-                        <li><a href="/prayers/">Prayer Guide</a></li>
-                        <li><a href="/saints/">Saints Calendar</a></li>
-                        <li><a href="/novenas/">Novenas</a></li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 CatholicBibleOnline.com. All rights reserved.</p>
-                <div class="footer-actions">
-                    <button class="theme-toggle-small" id="themeToggleSmall">🌙</button>
-                </div>
+                <p>&copy; 2025 CatholicBibleOnline.com</p>
             </div>
         </div>
     </footer>
@@ -309,7 +148,7 @@
     <div class="toast-container" id="toastContainer"></div>
 
     <script>
-        // Enhanced JavaScript with modern features
+        // Simplified JavaScript
         class CatholicBibleApp {
             constructor() {
                 this.init();
@@ -318,41 +157,22 @@
             init() {
                 this.setupEventListeners();
                 this.initializeTheme();
-                this.hideLoadingScreen();
-                this.setupAnimations();
                 this.setupSearch();
             }
 
             setupEventListeners() {
                 // Theme toggle
                 document.getElementById('themeToggle').addEventListener('click', () => this.toggleTheme());
-                document.getElementById('themeToggleSmall').addEventListener('click', () => this.toggleTheme());
 
                 // Search functionality
-                document.getElementById('searchInput').addEventListener('input', (e) => this.handleSearchInput(e));
-                document.getElementById('searchButton').addEventListener('click', () => this.performSearch());
                 document.getElementById('searchInput').addEventListener('keypress', (e) => {
                     if (e.key === 'Enter') this.performSearch();
                 });
-
-                // Suggestion clicks
-                document.querySelectorAll('.suggestion').forEach(suggestion => {
-                    suggestion.addEventListener('click', (e) => {
-                        document.getElementById('searchInput').value = e.target.dataset.search;
-                        this.performSearch();
-                    });
-                });
+                document.getElementById('searchButton').addEventListener('click', () => this.performSearch());
 
                 // Reading actions
                 document.getElementById('readFullBtn').addEventListener('click', () => this.showToast('Opening full chapter...'));
                 document.getElementById('shareBtn').addEventListener('click', () => this.shareVerse());
-                document.getElementById('bookmarkBtn').addEventListener('click', () => this.toggleBookmark());
-
-                // Card interactions
-                document.querySelectorAll('.feature-card').forEach(card => {
-                    card.addEventListener('mouseenter', (e) => this.handleCardHover(e));
-                    card.addEventListener('mouseleave', (e) => this.handleCardLeave(e));
-                });
             }
 
             initializeTheme() {
@@ -372,34 +192,8 @@
             }
 
             updateThemeIcon(theme) {
-                const icons = document.querySelectorAll('.theme-toggle, .theme-toggle-small');
-                icons.forEach(icon => {
-                    icon.innerHTML = theme === 'light' ? '🌙' : '☀️';
-                });
-            }
-
-            hideLoadingScreen() {
-                setTimeout(() => {
-                    document.getElementById('loadingScreen').style.opacity = '0';
-                    setTimeout(() => {
-                        document.getElementById('loadingScreen').style.display = 'none';
-                    }, 500);
-                }, 1500);
-            }
-
-            setupAnimations() {
-                // Intersection Observer for scroll animations
-                const observer = new IntersectionObserver((entries) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('animate-in');
-                        }
-                    });
-                }, { threshold: 0.1 });
-
-                document.querySelectorAll('.feature-card, .reading-card, .activity-card').forEach(el => {
-                    observer.observe(el);
-                });
+                const icon = document.querySelector('.theme-toggle');
+                icon.innerHTML = theme === 'light' ? '🌙' : '☀️';
             }
 
             setupSearch() {
@@ -415,38 +209,12 @@
                 });
             }
 
-            handleSearchInput(e) {
-                const query = e.target.value.trim();
-                const suggestions = document.getElementById('searchSuggestions');
-                
-                if (query.length > 0) {
-                    suggestions.style.opacity = '1';
-                    suggestions.style.transform = 'translateY(0)';
-                } else {
-                    suggestions.style.opacity = '0.7';
-                    suggestions.style.transform = 'translateY(-10px)';
-                }
-            }
-
             performSearch() {
                 const query = document.getElementById('searchInput').value.trim();
                 if (query) {
                     this.showToast(`Searching for: "${query}"`);
-                    // In a real app, this would search the database
                     console.log('Search query:', query);
                 }
-            }
-
-            handleCardHover(e) {
-                const card = e.currentTarget;
-                card.style.transform = 'translateY(-12px) scale(1.02)';
-                card.querySelector('.card-glow').style.opacity = '1';
-            }
-
-            handleCardLeave(e) {
-                const card = e.currentTarget;
-                card.style.transform = 'translateY(0) scale(1)';
-                card.querySelector('.card-glow').style.opacity = '0';
             }
 
             shareVerse() {
@@ -457,22 +225,7 @@
                         url: window.location.href
                     });
                 } else {
-                    this.showToast('Sharing feature not supported in this browser');
-                }
-            }
-
-            toggleBookmark() {
-                const btn = document.getElementById('bookmarkBtn');
-                const icon = btn.querySelector('.btn-icon');
-                
-                if (btn.classList.contains('bookmarked')) {
-                    btn.classList.remove('bookmarked');
-                    icon.textContent = '🔖';
-                    this.showToast('Removed from bookmarks');
-                } else {
-                    btn.classList.add('bookmarked');
-                    icon.textContent = '⭐';
-                    this.showToast('Added to bookmarks');
+                    this.showToast('Sharing feature not supported');
                 }
             }
 
