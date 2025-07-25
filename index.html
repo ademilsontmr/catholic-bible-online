@@ -13,37 +13,50 @@
     <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✝️</text></svg>">
     
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="canonical" href="https://catholicbibleonline.com/">
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <h1 class="logo">Catholic Bible Online</h1>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="/" class="nav-link">Home</a></li>
-                    <li><a href="/bible/" class="nav-link">Bible</a></li>
-                    <li><a href="/novenas/" class="nav-link">Novenas</a></li>
-                    <li><a href="/saints/" class="nav-link">Saints</a></li>
-                    <li><a href="/prayers/" class="nav-link">Prayers</a></li>
-                </ul>
-            </nav>
+            <div class="header-content">
+                <h1 class="logo">Catholic Bible Online</h1>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="/" class="nav-link active">Home</a></li>
+                        <li><a href="/bible/" class="nav-link">Bible</a></li>
+                        <li><a href="/novenas/" class="nav-link">Novenas</a></li>
+                        <li><a href="/saints/" class="nav-link">Saints</a></li>
+                        <li><a href="/prayers/" class="nav-link">Prayers</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
-
-
 
     <main class="main">
         <section class="hero">
             <div class="container">
-                <h2 class="hero-title">Catholic Bible Online</h2>
-                <p class="hero-subtitle">Access the Holy Bible, Novenas, Saints, and Catholic Prayers in one place.</p>
-                <a href="/bible/" class="btn btn-primary">Start Reading</a>
+                <div class="hero-content">
+                    <h2 class="hero-title">Discover the Word of God</h2>
+                    <p class="hero-subtitle">Explore the Holy Bible, find prayers, novenas, and learn about saints in a beautiful, modern way</p>
+                    
+                    <!-- Search Bar -->
+                    <div class="search-container">
+                        <div class="search-box">
+                            <div class="search-icon">🔍</div>
+                            <input type="text" class="search-input" placeholder="Search Bible verses, prayers, saints..." id="searchInput">
+                            <button class="search-button">Search</button>
+                        </div>
+                        <div class="search-suggestions">
+                            <span class="suggestion">Try: "John 3:16"</span>
+                            <span class="suggestion">"Our Father prayer"</span>
+                            <span class="suggestion">"Saint Francis"</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-
-
 
         <section class="features">
             <div class="container">
@@ -51,36 +64,55 @@
                     <div class="feature-card">
                         <div class="feature-icon">📖</div>
                         <h3>Read the Bible</h3>
-                        <p>Explore the complete Holy Bible with daily readings and reflections.</p>
-                        <a href="/bible/" class="feature-link">Explore Bible</a>
+                        <p>Immerse yourself in the Holy Scriptures with beautiful typography and easy navigation.</p>
+                        <a href="/bible/" class="feature-link">Start Reading</a>
                     </div>
                     
                     <div class="feature-card">
                         <div class="feature-icon">🙏</div>
+                        <h3>Daily Prayers</h3>
+                        <p>Find peace and spiritual growth with our collection of Catholic prayers and devotions.</p>
+                        <a href="/prayers/" class="feature-link">Explore Prayers</a>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
                         <h3>Popular Novenas</h3>
-                        <p>Discover traditional nine-day prayers to saints and the Blessed Virgin Mary.</p>
+                        <p>Discover powerful nine-day prayers to saints and the Blessed Virgin Mary.</p>
                         <a href="/novenas/" class="feature-link">View Novenas</a>
                     </div>
                     
                     <div class="feature-card">
-                        <div class="feature-icon">✝️</div>
-                        <h3>Catholic Prayers</h3>
-                        <p>Find essential Catholic prayers for daily devotion and spiritual growth.</p>
-                        <a href="/prayers/" class="feature-link">Read Prayers</a>
-                    </div>
-                    
-                    <div class="feature-card">
                         <div class="feature-icon">🕊</div>
-                        <h3>Saints</h3>
-                        <p>Learn about the lives and teachings of Catholic saints and holy men and women.</p>
+                        <h3>Lives of Saints</h3>
+                        <p>Be inspired by the extraordinary lives and teachings of Catholic saints.</p>
                         <a href="/saints/" class="feature-link">Meet Saints</a>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="daily-reading">
+            <div class="container">
+                <div class="daily-content">
+                    <h2 class="section-title">Today's Reading</h2>
+                    <div class="reading-card">
+                        <div class="reading-header">
+                            <span class="reading-reference">John 3:16-17</span>
+                            <span class="reading-date">July 25, 2025</span>
+                        </div>
+                        <blockquote class="reading-text">
+                            "For God so loved the world that he gave his only Son, so that everyone who believes in him might not perish but might have eternal life. For God did not send his Son into the world to condemn the world, but that the world might be saved through him."
+                        </blockquote>
+                        <div class="reading-actions">
+                            <button class="btn btn-outline">Read Full Chapter</button>
+                            <button class="btn btn-primary">Share</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-
-
 
     <footer class="footer">
         <div class="container">
@@ -96,9 +128,41 @@
                         <li><a href="/contact/">Contact</a></li>
                     </ul>
                 </div>
-
             </div>
         </div>
     </footer>
+
+    <script>
+        // Search functionality
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                performSearch();
+            }
+        });
+
+        document.querySelector('.search-button').addEventListener('click', performSearch);
+
+        function performSearch() {
+            const query = document.getElementById('searchInput').value.trim();
+            if (query) {
+                // For now, just show an alert. In a real app, this would search the database
+                alert(`Searching for: "${query}"\n\nThis would search through Bible verses, prayers, and saints.`);
+            }
+        }
+
+        // Add smooth scrolling and modern interactions
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add hover effects to cards
+            const cards = document.querySelectorAll('.feature-card');
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-8px) scale(1.02)';
+                });
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
+            });
+        });
+    </script>
 </body>
 </html> 
