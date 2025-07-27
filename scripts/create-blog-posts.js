@@ -1,0 +1,33 @@
+const fs = require('fs');
+const path = require('path');
+
+const blogPosts = [
+  {
+    "slug": "how-to-pray-the-rosary-complete-guide",
+    "title": "How to Pray the Rosary – Complete Step-by-Step Guide",
+    "category": "How to Pray",
+    "image": "",
+    "excerpt": "Master the Rosary with our complete guide. Learn prayers, mysteries, and spiritual benefits of this ancient Catholic devotion.",
+    "content": "<h2>What is the Rosary?</h2><p>The Rosary is one of the most beloved and powerful prayers in the Catholic tradition. It's a meditative prayer that combines vocal prayers with meditation on the life of Jesus Christ through the eyes of His mother, Mary. The word 'rosary' comes from the Latin 'rosarium,' meaning 'rose garden,' symbolizing a bouquet of prayers offered to the Blessed Virgin.</p><h2>Why Catholics Pray the Rosary</h2><p>Catholics pray the Rosary for many reasons: to honor Mary, to meditate on the mysteries of Christ's life, to seek intercession for our needs, and to grow in holiness. The Rosary is not worship of Mary, but rather asking for her prayers, just as we ask friends to pray for us. Mary, as the Mother of God, has a special relationship with her Son and can intercede powerfully on our behalf.</p><h2>Required Prayers and Beads</h2><p>To pray the Rosary, you'll need a rosary (a string of beads) or you can count on your fingers. The traditional rosary has 59 beads: 6 large beads (Our Father beads) and 53 small beads (Hail Mary beads). The prayers you'll need to know are: the Apostles' Creed, Our Father, Hail Mary, Glory Be, and the Hail Holy Queen.</p><h2>Step-by-Step Instructions</h2><p>Begin by making the Sign of the Cross and saying the Apostles' Creed. On the first large bead, pray the Our Father. On the next three small beads, pray three Hail Marys for faith, hope, and charity. Then pray the Glory Be. Announce the first mystery and pray the Our Father on the large bead. On each of the ten small beads that follow, pray a Hail Mary while meditating on the mystery. After the tenth Hail Mary, pray the Glory Be and the Fatima Prayer. Repeat this pattern for all five decades.</p><h2>The Four Sets of Mysteries</h2><p>The Rosary is divided into four sets of mysteries, each containing five events from the life of Jesus and Mary. The Joyful Mysteries (Monday and Saturday) focus on Jesus' birth and early life. The Sorrowful Mysteries (Tuesday and Friday) meditate on Christ's passion and death. The Glorious Mysteries (Wednesday and Sunday) celebrate Jesus' resurrection and Mary's assumption. The Luminous Mysteries (Thursday) reflect on Jesus' public ministry.</p><h2>Common Mistakes to Avoid</h2><p>Don't rush through the prayers mechanically. The Rosary is meant to be a meditative prayer, so take your time and focus on the mysteries. Don't worry if your mind wanders - gently bring it back to the mystery you're contemplating. Remember that the Rosary is not about perfection but about spending time with Jesus and Mary.</p><h2>Spiritual Benefits and Conclusion</h2><p>The Rosary brings countless spiritual benefits: it strengthens our faith, brings peace to our hearts, helps us grow in virtue, and draws us closer to Jesus and Mary. Many saints have attributed their holiness to daily recitation of the Rosary. As you make the Rosary a regular part of your prayer life, you'll experience its transformative power in your spiritual journey.</p>",
+    "publishedAt": "2025-01-26",
+    "author": "Catholic Bible Online",
+    "readTime": "8 min read"
+  },
+  {
+    "slug": "how-to-do-a-novena-prayer-guide",
+    "title": "How to Do a Novena: 9 Days of Prayer Guide",
+    "category": "How to Pray",
+    "image": "",
+    "excerpt": "Learn how to pray a novena with our comprehensive guide. Discover the power of nine days of focused prayer.",
+    "content": "<h2>What is a Novena?</h2><p>A novena is a nine-day period of prayer, typically asking for a specific intention or grace. The word 'novena' comes from the Latin 'novem,' meaning 'nine.' This tradition has deep roots in Catholic spirituality and is based on the nine days the Apostles and Mary spent in prayer between the Ascension and Pentecost.</p><h2>Biblical Origins of Novenas</h2><p>The first novena occurred in the Upper Room after Jesus' Ascension. The Acts of the Apostles tells us that the disciples 'devoted themselves with one accord to prayer, together with some women, and Mary the mother of Jesus' (Acts 1:14). This nine-day period of prayer prepared them for the coming of the Holy Spirit at Pentecost.</p><h2>Popular Catholic Novenas</h2><p>There are many popular novenas in the Catholic tradition. The Novena to the Holy Spirit is prayed during the nine days before Pentecost. The Novena to Saint Joseph is powerful for employment and family needs. The Divine Mercy Novena begins on Good Friday and ends on Divine Mercy Sunday. The Novena to Our Lady of Perpetual Help is prayed for urgent needs.</p><h2>How to Structure Your Novena</h2><p>Choose your intention and the saint or devotion you want to pray to. Decide on the specific prayers you'll use each day. Set aside a consistent time each day for your novena prayer. Begin with the Sign of the Cross and an opening prayer. Pray your chosen novena prayers, then conclude with your personal intentions and the Sign of the Cross.</p><h2>Tips for Faithful Completion</h2><p>Commit to praying at the same time each day to build consistency. Keep a novena journal to track your prayers and any graces received. Don't be discouraged if you miss a day - simply continue where you left off. Trust in God's timing and be open to how He might answer your prayers.</p><h2>Common Novena Prayers</h2><p>Most novenas include the Our Father, Hail Mary, and Glory Be. Many also include specific prayers to the saint or devotion being honored. The Memorare is often included in Marian novenas. Some novenas have specific prayers for each of the nine days.</p><h2>Testimonies and Benefits</h2><p>Countless Catholics have experienced the power of novenas in their lives. They report receiving graces, finding peace in difficult situations, and growing closer to God and the saints. Novenas teach us patience, trust, and the importance of persistent prayer. They remind us that God hears our prayers and answers them in His perfect timing.</p>",
+    "publishedAt": "2025-01-25",
+    "author": "Catholic Bible Online",
+    "readTime": "6 min read"
+  }
+];
+
+// Write to blog.json
+const blogPath = path.join(__dirname, '../src/data/blog.json');
+fs.writeFileSync(blogPath, JSON.stringify(blogPosts, null, 2));
+
+console.log('Blog posts created successfully!'); 

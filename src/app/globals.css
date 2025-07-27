@@ -1,0 +1,585 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font variables */
+:root {
+  --font-inter: 'Inter', sans-serif;
+}
+
+/* Base styles for better accessibility and SEO */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: var(--font-inter);
+    line-height: 1.6;
+    color: #000000;
+  }
+  
+  /* Better focus states for accessibility */
+  *:focus {
+    outline: 2px solid #6b7280;
+    outline-offset: 2px;
+  }
+  
+  /* Skip to main content link for screen readers */
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: #6b7280;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    z-index: 1000;
+  }
+  
+  .skip-link:focus {
+    top: 6px;
+  }
+}
+
+/* Component styles */
+@layer components {
+  /* Breadcrumb styles */
+  .breadcrumb-link {
+    @apply text-gray-600 hover:text-gray-800 transition-colors;
+  }
+  
+  .breadcrumb-separator {
+    @apply text-gray-400;
+  }
+  
+  /* Navigation button styles */
+  .nav-button {
+    @apply inline-flex items-center px-4 py-2 bg-gray-600 text-white font-medium rounded-lg hover:bg-gray-700 focus:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 transition-colors;
+  }
+  
+  /* Chapter link styles */
+  .chapter-link {
+    @apply block transition-all duration-200;
+  }
+  
+  .chapter-link:focus {
+    @apply outline-none ring-2 ring-gray-500 ring-offset-2;
+  }
+  
+  /* Bible text styles - Updated to match the model */
+  .bible-text {
+    @apply text-black leading-relaxed font-sans text-base text-justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  .verse-number {
+    @apply font-normal text-gray-600 mr-2 select-none;
+    font-size: 0.875rem;
+    vertical-align: super;
+    font-weight: 400;
+  }
+  
+  /* Reflection section styles */
+  .reflection-section {
+    @apply bg-gray-50 border border-gray-200 rounded-lg p-6 text-justify;
+  }
+  
+  .reflection-title {
+    @apply text-2xl font-bold text-black mb-4 text-center;
+  }
+  
+  .reflection-text {
+    @apply text-black leading-relaxed text-justify;
+  }
+  
+  /* Book card styles */
+  .book-card {
+    @apply p-4 bg-white border border-gray-200 rounded-lg hover:border-gray-300 hover:shadow-md transition-all;
+  }
+  
+  .book-card:focus {
+    @apply outline-none ring-2 ring-gray-500 ring-offset-2;
+  }
+  
+  /* Testament section styles */
+  .testament-section {
+    @apply mb-12;
+  }
+  
+  .testament-title {
+    @apply text-3xl font-bold text-black mb-6;
+  }
+  
+  /* Statistics styles */
+  .stats-grid {
+    @apply grid grid-cols-1 md:grid-cols-3 gap-6 mb-12;
+  }
+  
+  .stat-card {
+    @apply bg-gray-50 border border-gray-200 rounded-lg p-6 text-center;
+  }
+  
+  .stat-number {
+    @apply text-3xl font-bold text-gray-600 mb-2;
+  }
+  
+  .stat-label {
+    @apply text-black font-medium;
+  }
+  
+  /* Hero section styles */
+  .hero-section {
+    @apply bg-gradient-to-br from-gray-50 to-gray-100 py-20;
+  }
+  
+  .hero-title {
+    @apply text-4xl md:text-6xl font-bold text-black mb-6;
+  }
+  
+  .hero-description {
+    @apply text-xl md:text-2xl text-black mb-8 max-w-3xl mx-auto;
+  }
+  
+  /* Feature section styles */
+  .feature-grid {
+    @apply grid grid-cols-1 md:grid-cols-3 gap-8 mb-16;
+  }
+  
+  .feature-card {
+    @apply text-center p-6;
+  }
+  
+  .feature-icon {
+    @apply text-4xl mb-4 text-gray-600;
+  }
+  
+  .feature-title {
+    @apply text-xl font-bold text-black mb-2;
+  }
+  
+  .feature-description {
+    @apply text-black;
+  }
+  
+  /* Quick links styles */
+  .quick-links {
+    @apply grid grid-cols-2 md:grid-cols-4 gap-4 mb-16;
+  }
+  
+  .quick-link {
+    @apply p-4 bg-white border border-gray-200 rounded-lg hover:border-gray-300 hover:shadow-md transition-all text-center;
+  }
+  
+  .quick-link:focus {
+    @apply outline-none ring-2 ring-gray-500 ring-offset-2;
+  }
+}
+
+/* Utility styles for better SEO and accessibility */
+@layer utilities {
+  /* Screen reader only text */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  
+  /* High contrast mode support */
+  @media (prefers-contrast: high) {
+    .bible-text {
+      @apply text-black;
+    }
+    
+    .verse-number {
+      @apply text-black;
+    }
+    
+    .nav-button {
+      @apply bg-black text-white border-2 border-black;
+    }
+  }
+  
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+  
+  /* Print styles */
+  @media print {
+    .nav-button,
+    .chapter-navigation,
+    .footer {
+      display: none !important;
+    }
+    
+    .bible-text {
+      font-size: 12pt;
+      line-height: 1.4;
+      color: #000000;
+    }
+    
+    .verse-number {
+      font-weight: normal;
+      color: #6b7280;
+    }
+  }
+}
+
+/* Custom scrollbar for better UX */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Focus visible for better accessibility */
+.focus-visible:focus {
+  outline: 2px solid #6b7280;
+  outline-offset: 2px;
+}
+
+/* Loading states */
+.loading {
+  @apply animate-pulse bg-gray-200;
+}
+
+/* Error states */
+.error {
+  @apply text-red-600 bg-red-50 border border-red-200 rounded-lg p-4;
+}
+
+/* Success states */
+.success {
+  @apply text-green-600 bg-green-50 border border-green-200 rounded-lg p-4;
+}
+
+/* Prayer-specific styles */
+.prayer-search {
+  @apply relative;
+}
+
+.prayer-search input {
+  @apply w-full px-4 py-3 pl-10 border border-gray-300 rounded-lg;
+  @apply focus:ring-2 focus:ring-gray-500 focus:border-gray-500 text-black;
+  @apply transition-all duration-200;
+}
+
+.prayer-search input:focus {
+  @apply outline-none ring-2 ring-gray-500 ring-offset-2;
+}
+
+.prayer-category-card {
+  @apply bg-white border border-gray-200 rounded-lg p-6;
+  @apply hover:border-gray-300 hover:shadow-lg transition-all duration-200;
+  @apply block cursor-pointer;
+}
+
+.prayer-category-card:hover .prayer-category-title {
+  @apply text-gray-700;
+}
+
+.prayer-category-icon {
+  @apply text-3xl mb-3;
+}
+
+.prayer-category-title {
+  @apply text-xl font-bold text-black mb-2 transition-colors;
+}
+
+.prayer-category-description {
+  @apply text-gray-600 mb-4 text-sm leading-relaxed;
+}
+
+.prayer-category-count {
+  @apply bg-gray-100 text-gray-600 px-2 py-1 rounded-full text-sm font-medium;
+}
+
+.prayer-text {
+  @apply text-black leading-relaxed font-sans text-base text-justify;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.8;
+}
+
+.prayer-text p {
+  @apply mb-4;
+}
+
+.prayer-article {
+  @apply bg-white border border-gray-200 rounded-lg p-8;
+  @apply hover:shadow-md transition-all duration-200;
+}
+
+.prayer-header {
+  @apply text-center mb-6;
+}
+
+.prayer-title {
+  @apply text-2xl font-bold text-black mb-2;
+}
+
+.prayer-description {
+  @apply text-gray-600 text-sm;
+}
+
+.prayer-source {
+  @apply text-gray-500 text-xs mt-1 italic;
+}
+
+.prayer-actions {
+  @apply mt-6 pt-4 border-t border-gray-200 flex justify-center space-x-4;
+}
+
+.prayer-action-btn {
+  @apply text-gray-600 hover:text-gray-800 text-sm flex items-center;
+  @apply transition-colors duration-200 cursor-pointer;
+}
+
+.prayer-action-btn:hover {
+  @apply text-gray-800;
+}
+
+.prayer-stats {
+  @apply grid grid-cols-3 gap-4 max-w-md mx-auto;
+}
+
+.prayer-stat-card {
+  @apply text-center p-4 bg-gray-50 rounded-lg;
+}
+
+.prayer-stat-number {
+  @apply text-2xl font-bold text-gray-600;
+}
+
+.prayer-stat-label {
+  @apply text-sm text-black;
+}
+
+.prayer-preview-list {
+  @apply space-y-1;
+}
+
+.prayer-preview-item {
+  @apply text-xs text-gray-500 flex items-center;
+}
+
+.prayer-preview-dot {
+  @apply w-1 h-1 bg-gray-400 rounded-full mr-2;
+}
+
+.prayer-breadcrumbs {
+  @apply flex items-center justify-center space-x-2 text-sm mb-8;
+}
+
+.prayer-popular-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4;
+}
+
+.prayer-popular-item {
+  @apply bg-gray-50 border border-gray-200 rounded-lg p-4;
+  @apply hover:bg-gray-100 hover:border-gray-300 transition-all text-center;
+}
+
+.prayer-features-section {
+  @apply bg-gray-50 rounded-lg p-8;
+}
+
+.prayer-features-grid {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-6;
+}
+
+.prayer-feature-item {
+  @apply text-center;
+}
+
+.prayer-feature-icon {
+  @apply text-3xl mb-3;
+}
+
+.prayer-feature-title {
+  @apply font-semibold text-black mb-2;
+}
+
+.prayer-feature-description {
+  @apply text-gray-600 text-sm;
+}
+
+/* Mobile Menu Styles */
+.mobile-menu-overlay {
+  animation: fadeIn 0.2s ease-out;
+}
+
+.mobile-menu-content {
+  animation: slideDown 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Blog Styles */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Blog typography */
+.blog-content h1 {
+  @apply text-3xl font-bold text-black mb-6;
+}
+
+.blog-content h2 {
+  @apply text-2xl font-bold text-black mb-4 mt-8;
+}
+
+.blog-content h3 {
+  @apply text-xl font-semibold text-black mb-3 mt-6;
+}
+
+.blog-content p {
+  @apply text-black leading-relaxed mb-4;
+}
+
+.blog-content ul {
+  @apply list-disc list-inside mb-4 space-y-2;
+}
+
+.blog-content ol {
+  @apply list-decimal list-inside mb-4 space-y-2;
+}
+
+.blog-content li {
+  @apply text-black;
+}
+
+.blog-content blockquote {
+  @apply border-l-4 border-gray-300 pl-4 italic text-gray-700 my-6;
+}
+
+.blog-content a {
+  @apply text-blue-600 hover:text-blue-800 underline;
+}
+
+.blog-content strong {
+  @apply font-semibold text-black;
+}
+
+.blog-content em {
+  @apply italic;
+}
+
+/* Blog card hover effects */
+.blog-card-hover {
+  @apply transition-all duration-300;
+}
+
+.blog-card-hover:hover {
+  @apply transform -translate-y-1 shadow-lg;
+}
+
+/* Category badges */
+.category-badge {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+}
+
+.category-how-to-pray {
+  @apply bg-blue-100 text-blue-800;
+}
+
+.category-catholic-living {
+  @apply bg-green-100 text-green-800;
+}
+
+.category-saints-feast-days {
+  @apply bg-purple-100 text-purple-800;
+}
+
+.category-bible-faith {
+  @apply bg-orange-100 text-orange-800;
+}
+
+/* Pagination styles */
+.pagination {
+  @apply flex items-center justify-center space-x-2;
+}
+
+.pagination-link {
+  @apply px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors;
+}
+
+.pagination-active {
+  @apply bg-gray-600 text-white;
+}
+
+/* Related posts */
+.related-posts {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-6;
+}
+
+.related-post-card {
+  @apply bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300;
+}
+
+/* Breadcrumb styles */
+.breadcrumb {
+  @apply flex items-center space-x-2 text-sm;
+}
+
+.breadcrumb-link {
+  @apply text-gray-600 hover:text-gray-800 transition-colors;
+}
+
+.breadcrumb-separator {
+  @apply text-gray-400;
+}
+
+.breadcrumb-current {
+  @apply text-gray-800 font-medium;
+}
