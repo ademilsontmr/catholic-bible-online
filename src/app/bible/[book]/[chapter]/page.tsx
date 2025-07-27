@@ -1,9 +1,8 @@
 import Link from 'next/link'
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import bibleData from '@/data/bible.json'
+import { getBook, getBibleIndex } from '@/lib/bibleLoader'
 import { getReflection } from '@/lib/reflections'
-import type { BibleData } from '@/types/bible'
 
 interface ChapterPageProps {
   params: Promise<{
@@ -14,16 +13,16 @@ interface ChapterPageProps {
 
 export async function generateStaticParams() {
   const params: Array<{ book: string; chapter: string }> = []
-  const data = bibleData as BibleData
+  const bibleIndex = getBibleIndex()
   
-  Object.keys(data).forEach((bookSlug) => {
-    const book = data[bookSlug]
-    book.chapters.forEach((_: string[], chapterIndex: number) => {
+  Object.keys(bibleIndex).forEach((bookSlug) => {
+    const bookInfo = bibleIndex[bookSlug]
+    for (let chapterIndex = 1; chapterIndex <= bookInfo.chapters; chapterIndex++) {
       params.push({
         book: bookSlug,
-        chapter: (chapterIndex + 1).toString(),
+        chapter: chapterIndex.toString(),
       })
-    })
+    }
   })
   
   return params
@@ -31,8 +30,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: ChapterPageProps): Promise<Metadata> {
   const { book: bookSlug, chapter: chapterSlug } = await params
-  const data = bibleData as any
-  const book = data[bookSlug]
+  const book = getBook(bookSlug)
   const chapterNumber = parseInt(chapterSlug)
 
   if (!book || !chapterNumber || chapterNumber > book.chapters.length) {
@@ -67,8 +65,7 @@ export async function generateMetadata({ params }: ChapterPageProps): Promise<Me
 
 export default async function ChapterPage({ params }: ChapterPageProps) {
   const { book: bookSlug, chapter: chapterSlug } = await params
-  const data = bibleData as BibleData
-  const book = data[bookSlug]
+  const book = getBook(bookSlug)
   const chapterNumber = parseInt(chapterSlug)
 
   if (!book || !chapterNumber || chapterNumber > book.chapters.length) {

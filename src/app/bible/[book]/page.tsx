@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import bibleData from '@/data/bible.json'
-import type { BibleData } from '@/types/bible'
+import { getBook, getBibleIndex } from '@/lib/bibleLoader'
 
 interface BookPageProps {
   params: Promise<{
@@ -11,16 +10,15 @@ interface BookPageProps {
 }
 
 export async function generateStaticParams() {
-  const data = bibleData as BibleData
-  return Object.keys(data).map((bookSlug) => ({
+  const bibleIndex = getBibleIndex()
+  return Object.keys(bibleIndex).map((bookSlug) => ({
     book: bookSlug,
   }))
 }
 
 export async function generateMetadata({ params }: BookPageProps): Promise<Metadata> {
   const { book: bookSlug } = await params
-  const data = bibleData as any
-  const book = data[bookSlug]
+  const book = getBook(bookSlug)
 
   if (!book) {
     return {
@@ -29,10 +27,10 @@ export async function generateMetadata({ params }: BookPageProps): Promise<Metad
   }
 
   return {
-    title: `${book.name}`,
-    description: `Read ${book.name} from the Douay-Rheims Catholic Bible. ${book.chapters.length} chapters with easy navigation and Catholic reflections.`,
+    title: `${book.name} - Complete Book | Catholic Bible Online`,
+    description: `Read the complete book of ${book.name} from the Douay-Rheims Catholic Bible. All ${book.chapters.length} chapters with easy navigation and Catholic reflections.`,
     keywords: [
-      `${book.name}`,
+      `${book.name} bible`,
       'catholic bible',
       'douay-rheims',
       'bible book',
@@ -41,21 +39,20 @@ export async function generateMetadata({ params }: BookPageProps): Promise<Metad
       'catholic faith'
     ],
     openGraph: {
-      title: `${book.name}`,
-      description: `Read ${book.name} from the Douay-Rheims Catholic Bible with ${book.chapters.length} chapters.`,
+      title: `${book.name} - Complete Book | Catholic Bible Online`,
+      description: `Read the complete book of ${book.name} from the Douay-Rheims Catholic Bible. All ${book.chapters.length} chapters.`,
       url: `https://catholicbibleonline.com/bible/${bookSlug}`,
     },
     twitter: {
-      title: `${book.name}`,
-      description: `Read ${book.name} from the Douay-Rheims Catholic Bible.`,
+      title: `${book.name} - Complete Book | Catholic Bible Online`,
+      description: `Read the complete book of ${book.name} from the Douay-Rheims Catholic Bible.`,
     }
   }
 }
 
 export default async function BookPage({ params }: BookPageProps) {
   const { book: bookSlug } = await params
-  const data = bibleData as BibleData
-  const book = data[bookSlug]
+  const book = getBook(bookSlug)
 
   if (!book) {
     notFound()

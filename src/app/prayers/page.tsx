@@ -1,33 +1,7 @@
-import Link from 'next/link'
-import type { Metadata } from 'next'
+'use client'
 
-export const metadata: Metadata = {
-  title: 'Catholic Prayers',
-  description: 'Complete collection of Catholic prayers and devotions. Traditional prayers, novenas, rosary prayers, Mass prayers, saints prayers, and seasonal devotions organized by category.',
-  keywords: [
-    'catholic prayers',
-    'traditional prayers',
-    'catholic devotionals',
-    'spiritual prayers',
-    'catholic faith',
-    'rosary prayers',
-    'mass prayers',
-    'novenas',
-    'saints prayers',
-    'daily prayers',
-    'liturgical prayers',
-    'marian prayers'
-  ],
-  openGraph: {
-    title: 'Catholic Prayers | Catholic Bible Online',
-    description: 'Complete collection of Catholic prayers and devotions organized by category.',
-    url: 'https://catholicbibleonline.com/prayers',
-  },
-  twitter: {
-    title: 'Catholic Prayers | Catholic Bible Online',
-    description: 'Complete collection of Catholic prayers and devotions organized by category.',
-  }
-}
+import Link from 'next/link'
+import { useState } from 'react'
 
 // Prayer categories with counts for SEO and organization
 const prayerCategories = [
@@ -98,39 +72,59 @@ const prayerCategories = [
       'Regina Caeli',
       'Prayer to Our Lady of the Immaculate Conception',
       'Sub Tuum Praesidium',
-      'The Magnificat',
+      'Ave Maris Stella',
       'Salve Regina'
     ]
   },
-
   {
-    slug: 'healing',
-    name: 'Healing Prayers',
-    description: 'Prayers for physical, emotional, and spiritual healing',
-    icon: '💝',
-    count: 2,
+    slug: 'saints',
+    name: 'Saints Prayers',
+    description: 'Prayers to various saints and holy figures',
+    icon: '👼',
+    count: 8,
     prayers: [
-      'Prayer for Healing',
-      'Prayer to St. Raphael for Healing'
+      'Prayer to St. Michael the Archangel',
+      'Prayer to St. Joseph',
+      'Prayer to St. Anthony',
+      'Prayer to St. Jude',
+      'Prayer to St. Therese',
+      'Prayer to St. Francis',
+      'Prayer to St. Patrick',
+      'Prayer to St. Padre Pio'
     ]
   },
   {
     slug: 'seasonal',
     name: 'Seasonal Prayers',
-    description: 'Prayers for liturgical seasons and special times',
-    icon: '🌟',
-    count: 4,
+    description: 'Prayers for different liturgical seasons',
+    icon: '🌿',
+    count: 6,
     prayers: [
-      'Advent Prayer',
-      'Christmas Prayer',
-      'Lenten Prayer',
-      'Easter Prayer'
+      'Advent Prayers',
+      'Christmas Prayers',
+      'Lent Prayers',
+      'Easter Prayers',
+      'Pentecost Prayers',
+      'Ordinary Time Prayers'
     ]
   }
 ];
 
 export default function PrayersPage() {
-  const totalPrayers = prayerCategories.reduce((sum, category) => sum + category.count, 0);
+  const [searchTerm, setSearchTerm] = useState('')
+  const totalPrayers = prayerCategories.reduce((sum, category) => sum + category.count, 0)
+
+  // Filter categories and prayers based on search term
+  const filteredCategories = prayerCategories.filter(category => {
+    const searchLower = searchTerm.toLowerCase()
+    return (
+      category.name.toLowerCase().includes(searchLower) ||
+      category.description.toLowerCase().includes(searchLower) ||
+      category.prayers.some(prayer => 
+        prayer.toLowerCase().includes(searchLower)
+      )
+    )
+  })
 
   return (
     <div className="min-h-screen bg-white">
@@ -151,6 +145,8 @@ export default function PrayersPage() {
               <input
                 type="search"
                 placeholder="Search prayers..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
                 className="w-full px-4 py-3 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-500 focus:border-gray-500 text-black"
               />
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -178,9 +174,21 @@ export default function PrayersPage() {
           </div>
         </div>
 
+        {/* Search Results Info */}
+        {searchTerm && (
+          <div className="mb-6 text-center">
+            <p className="text-gray-600">
+              {filteredCategories.length > 0 
+                ? `Found ${filteredCategories.length} category${filteredCategories.length !== 1 ? 'ies' : 'y'} matching "${searchTerm}"`
+                : `No categories found matching "${searchTerm}"`
+              }
+            </p>
+          </div>
+        )}
+
         {/* Prayer Categories Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {prayerCategories.map((category) => (
+          {filteredCategories.map((category) => (
             <Link 
               key={category.slug}
               href={`/prayers/${category.slug}`}
@@ -204,18 +212,18 @@ export default function PrayersPage() {
                 
                 {/* Preview of prayers */}
                 <div className="prayer-preview-list">
-                                      {category.prayers.slice(0, 3).map((prayer, index) => (
-                      <div key={index} className="prayer-preview-item">
-                        <span className="prayer-preview-dot"></span>
-                        {prayer}
-                      </div>
-                    ))}
-                                      {category.prayers.length > 3 && (
-                      <div className="prayer-preview-item">
-                        <span className="prayer-preview-dot"></span>
-                        +{category.prayers.length - 3} more prayers
-                      </div>
-                    )}
+                  {category.prayers.slice(0, 3).map((prayer, index) => (
+                    <div key={index} className="prayer-preview-item">
+                      <span className="prayer-preview-dot"></span>
+                      {prayer}
+                    </div>
+                  ))}
+                  {category.prayers.length > 3 && (
+                    <div className="prayer-preview-item">
+                      <span className="prayer-preview-dot"></span>
+                      +{category.prayers.length - 3} more prayers
+                    </div>
+                  )}
                 </div>
 
                 <div className="mt-4 flex items-center text-gray-600 text-sm font-medium">

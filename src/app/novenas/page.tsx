@@ -1,33 +1,7 @@
-import Link from 'next/link'
-import type { Metadata } from 'next'
+'use client'
 
-export const metadata: Metadata = {
-  title: 'Catholic Novenas',
-  description: 'Complete collection of Catholic novenas and nine-day prayers. Traditional novenas for various intentions, saints, and special devotions organized by category.',
-  keywords: [
-    'catholic novenas',
-    'nine-day prayers',
-    'traditional novenas',
-    'catholic devotionals',
-    'catholic faith',
-    'novena prayers',
-    'saint novenas',
-    'marian novenas',
-    'healing novenas',
-    'family novenas',
-    'seasonal novenas',
-    'catholic nine-day prayers'
-  ],
-  openGraph: {
-    title: 'Catholic Novenas | Catholic Bible Online',
-    description: 'Complete collection of Catholic novenas and nine-day prayers organized by category.',
-    url: 'https://catholicbibleonline.com/novenas',
-  },
-  twitter: {
-    title: 'Catholic Novenas | Catholic Bible Online',
-    description: 'Complete collection of Catholic novenas and nine-day prayers organized by category.',
-  }
-}
+import Link from 'next/link'
+import { useState } from 'react'
 
 // Novena categories with counts for SEO and organization
 const novenaCategories = [
@@ -102,35 +76,48 @@ const novenaCategories = [
     slug: 'seasonal',
     name: 'Seasonal Novenas',
     description: 'Nine-day prayers for liturgical seasons',
-    icon: '🌟',
+    icon: '🌿',
     count: 4,
     novenas: [
+      'Advent Novenas',
       'Christmas Novenas',
-      'Easter Novenas',
-      'Pentecost Novenas',
-      'Advent Novenas'
+      'Lent Novenas',
+      'Easter Novenas'
     ]
   },
   {
     slug: 'special',
     name: 'Special Intentions',
-    description: 'Nine-day prayers for specific needs',
+    description: 'Nine-day prayers for specific intentions',
     icon: '✨',
     count: 7,
     novenas: [
       'Novenas for Employment',
       'Novenas for Financial Help',
+      'Novenas for Exams',
+      'Novenas for Travel',
+      'Novenas for Protection',
       'Novenas for Conversion',
-      'Novenas for Peace',
-      'Novenas for the Souls in Purgatory',
-      'Novenas for the Church',
-      'Novenas for the World'
+      'Novenas for Peace'
     ]
   }
 ];
 
 export default function NovenasPage() {
-  const totalNovenas = novenaCategories.reduce((sum, category) => sum + category.count, 0);
+  const [searchTerm, setSearchTerm] = useState('')
+  const totalNovenas = novenaCategories.reduce((sum, category) => sum + category.count, 0)
+
+  // Filter categories and novenas based on search term
+  const filteredCategories = novenaCategories.filter(category => {
+    const searchLower = searchTerm.toLowerCase()
+    return (
+      category.name.toLowerCase().includes(searchLower) ||
+      category.description.toLowerCase().includes(searchLower) ||
+      category.novenas.some(novena => 
+        novena.toLowerCase().includes(searchLower)
+      )
+    )
+  })
 
   return (
     <div className="min-h-screen bg-white">
@@ -141,8 +128,8 @@ export default function NovenasPage() {
             Catholic Novenas Collection
           </h1>
           <p className="text-xl text-black mb-6 max-w-3xl mx-auto">
-            Comprehensive collection of {totalNovenas}+ traditional Catholic novenas and nine-day prayers 
-            organized by category for powerful spiritual devotion and intercession.
+            Complete collection of {totalNovenas}+ traditional Catholic novenas and nine-day prayers 
+            organized by category for easy navigation and daily spiritual practice.
           </p>
           
           {/* Search Box */}
@@ -151,6 +138,8 @@ export default function NovenasPage() {
               <input
                 type="search"
                 placeholder="Search novenas..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
                 className="w-full px-4 py-3 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-500 focus:border-gray-500 text-black"
               />
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -162,63 +151,75 @@ export default function NovenasPage() {
           </div>
 
           {/* Statistics */}
-          <div className="prayer-stats mb-8">
-            <div className="prayer-stat-card">
-              <div className="prayer-stat-number">{totalNovenas}+</div>
-              <div className="prayer-stat-label">Total Novenas</div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div className="bg-gray-50 rounded-lg p-6 text-center">
+              <div className="text-3xl font-bold text-gray-600">{totalNovenas}+</div>
+              <div className="text-black font-medium">Total Novenas</div>
             </div>
-            <div className="prayer-stat-card">
-              <div className="prayer-stat-number">{novenaCategories.length}</div>
-              <div className="prayer-stat-label">Categories</div>
+            <div className="bg-gray-50 rounded-lg p-6 text-center">
+              <div className="text-3xl font-bold text-gray-600">{novenaCategories.length}</div>
+              <div className="text-black font-medium">Categories</div>
             </div>
-            <div className="prayer-stat-card">
-              <div className="prayer-stat-number">9 Days</div>
-              <div className="prayer-stat-label">Each Novena</div>
+            <div className="bg-gray-50 rounded-lg p-6 text-center">
+              <div className="text-3xl font-bold text-gray-600">Daily</div>
+              <div className="text-black font-medium">Updates</div>
             </div>
           </div>
         </div>
 
+        {/* Search Results Info */}
+        {searchTerm && (
+          <div className="mb-6 text-center">
+            <p className="text-gray-600">
+              {filteredCategories.length > 0 
+                ? `Found ${filteredCategories.length} category${filteredCategories.length !== 1 ? 'ies' : 'y'} matching "${searchTerm}"`
+                : `No categories found matching "${searchTerm}"`
+              }
+            </p>
+          </div>
+        )}
+
         {/* Novena Categories Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {novenaCategories.map((category) => (
+          {filteredCategories.map((category) => (
             <Link 
               key={category.slug}
               href={`/novenas/${category.slug}`}
               className="group block"
             >
-              <div className="prayer-category-card">
+              <div className="bg-white border border-gray-200 rounded-lg p-6 hover:border-gray-300 hover:shadow-md transition-all">
                 <div className="flex items-start justify-between mb-4">
                   <div className="text-3xl">{category.icon}</div>
-                  <div className="prayer-category-count">
+                  <div className="bg-gray-100 text-gray-600 px-2 py-1 rounded-full text-sm font-medium">
                     {category.count}
                   </div>
                 </div>
                 
-                <h2 className="prayer-category-title group-hover:text-gray-700">
+                <h2 className="text-xl font-semibold text-black mb-2 group-hover:text-gray-700">
                   {category.name}
                 </h2>
                 
-                <p className="prayer-category-description">
+                <p className="text-gray-600 mb-4">
                   {category.description}
                 </p>
                 
                 {/* Preview of novenas */}
-                <div className="prayer-preview-list">
+                <div className="space-y-1 mb-4">
                   {category.novenas.slice(0, 3).map((novena, index) => (
-                    <div key={index} className="prayer-preview-item">
-                      <span className="prayer-preview-dot"></span>
+                    <div key={index} className="flex items-center text-sm text-gray-500">
+                      <span className="w-1 h-1 bg-gray-400 rounded-full mr-2"></span>
                       {novena}
                     </div>
                   ))}
                   {category.novenas.length > 3 && (
-                    <div className="prayer-preview-item">
-                      <span className="prayer-preview-dot"></span>
+                    <div className="flex items-center text-sm text-gray-500">
+                      <span className="w-1 h-1 bg-gray-400 rounded-full mr-2"></span>
                       +{category.novenas.length - 3} more novenas
                     </div>
                   )}
                 </div>
 
-                <div className="mt-4 flex items-center text-gray-600 text-sm font-medium">
+                <div className="flex items-center text-gray-600 text-sm font-medium">
                   <span>View Collection</span>
                   <svg className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -341,4 +342,4 @@ export default function NovenasPage() {
       </div>
     </div>
   )
-} 
+}

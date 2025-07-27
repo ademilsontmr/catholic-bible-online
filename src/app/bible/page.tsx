@@ -1,35 +1,32 @@
 import Link from 'next/link'
-import bibleData from '@/data/bible.json'
+import { getBibleIndex } from '@/lib/bibleLoader'
 import type { Metadata } from 'next'
 
-interface BibleData {
-  [key: string]: {
-    name: string
-    testament: 'old' | 'new'
-    chapters: string[][]
-  }
-}
-
 export const metadata: Metadata = {
-  title: 'Bible',
-  description: 'Complete Catholic Bible with all 73 books in biblical order. Douay-Rheims translation with easy navigation.',
+  title: 'Catholic Bible Online - Complete Douay-Rheims Version',
+  description: 'Complete Catholic Bible with all 73 books in biblical order. Douay-Rheims translation with easy navigation, chapter-by-chapter reading, and Catholic reflections.',
   keywords: [
-    'catholic bible',
-    'douay-rheims',
+    'catholic bible online',
+    'douay-rheims bible',
+    'complete bible',
     'bible books',
     'old testament',
     'new testament',
     'catholic scripture',
-    'bible study'
+    'bible study',
+    'bible reading',
+    'catholic bible app',
+    'online bible',
+    'bible chapters'
   ],
   openGraph: {
-    title: 'Bible',
-    description: 'Complete Catholic Bible with all 73 books in biblical order.',
+    title: 'Catholic Bible Online - Complete Douay-Rheims Version',
+    description: 'Complete Catholic Bible with all 73 books in biblical order. Douay-Rheims translation with easy navigation.',
     url: 'https://catholicbibleonline.com/bible',
   },
   twitter: {
-    title: 'Bible',
-    description: 'Complete Catholic Bible with all 73 books in biblical order.',
+    title: 'Catholic Bible Online - Complete Douay-Rheims Version',
+    description: 'Complete Catholic Bible with all 73 books in biblical order. Douay-Rheims translation with easy navigation.',
   }
 }
 
@@ -46,48 +43,41 @@ const bookOrder = [
 ]
 
 export default function BibleIndexPage() {
-  const data = bibleData as BibleData
+  const bibleIndex = getBibleIndex()
   
   // Sort books according to the correct biblical order
   const sortedBooks = bookOrder
-    .map(slug => ({ slug, book: data[slug] }))
-    .filter(item => item.book); // Remove any books that don't exist in data
+    .map(slug => ({ slug, bookInfo: bibleIndex[slug] }))
+    .filter(item => item.bookInfo); // Remove any books that don't exist in data
 
-  const oldTestamentBooks = sortedBooks.filter(item => item.book.testament === 'old')
-  const newTestamentBooks = sortedBooks.filter(item => item.book.testament === 'new')
+  const oldTestamentBooks = sortedBooks.filter(item => item.bookInfo.testament === 'old')
+  const newTestamentBooks = sortedBooks.filter(item => item.bookInfo.testament === 'new')
 
   const totalBooks = oldTestamentBooks.length + newTestamentBooks.length
+  const totalChapters = Object.values(bibleIndex).reduce((sum, bookInfo) => sum + bookInfo.chapters, 0)
 
   return (
     <div className="min-h-screen bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-black mb-4">
-            Catholic Bible - Douay-Rheims Version
+            Catholic Bible Collection
           </h1>
-          <p className="text-lg text-black">
-            Complete Catholic Bible with all 73 books in biblical order
+          <p className="text-xl text-black mb-6 max-w-3xl mx-auto">
+            Complete collection of {totalBooks} books with {totalChapters}+ chapters from the Douay-Rheims Catholic Bible, 
+            organized by testament for easy navigation and daily spiritual reading.
           </p>
-        </div>
-
-        {/* Bible Statistics */}
-        <div className="bg-gray-50 rounded-lg p-6 mb-12 text-center">
-          <h2 className="text-2xl font-bold text-black mb-4">
-            Bible Statistics
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="text-center">
+          
+          {/* Statistics */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div className="bg-gray-50 rounded-lg p-6 text-center">
               <div className="text-3xl font-bold text-gray-600">{totalBooks}</div>
-              <div className="text-black">Total Books</div>
+              <div className="text-black font-medium">Total Books</div>
             </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-gray-600">{oldTestamentBooks.length}</div>
-              <div className="text-black">Old Testament</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-gray-600">{newTestamentBooks.length}</div>
-              <div className="text-black">New Testament</div>
+            <div className="bg-gray-50 rounded-lg p-6 text-center">
+              <div className="text-3xl font-bold text-gray-600">{totalChapters}+</div>
+              <div className="text-black font-medium">Chapters</div>
             </div>
           </div>
         </div>
@@ -98,15 +88,15 @@ export default function BibleIndexPage() {
             Old Testament ({oldTestamentBooks.length} Books)
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {oldTestamentBooks.map(({ slug, book }) => (
+            {oldTestamentBooks.map(({ slug, bookInfo }) => (
               <Link 
                 key={slug} 
                 href={`/bible/${slug}`}
                 className="book-card"
               >
                 <div className="p-4 bg-white border border-gray-200 rounded-lg hover:border-gray-300 hover:shadow-md transition-all text-center">
-                  <h3 className="font-semibold text-black mb-1">{book.name}</h3>
-                  <p className="text-sm text-black">{book.chapters.length} chapters</p>
+                  <h3 className="font-semibold text-black mb-1">{bookInfo.name}</h3>
+                  <p className="text-sm text-black">{bookInfo.chapters} chapters</p>
                 </div>
               </Link>
             ))}
@@ -119,15 +109,15 @@ export default function BibleIndexPage() {
             New Testament ({newTestamentBooks.length} Books)
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {newTestamentBooks.map(({ slug, book }) => (
+            {newTestamentBooks.map(({ slug, bookInfo }) => (
               <Link 
                 key={slug} 
                 href={`/bible/${slug}`}
                 className="book-card"
               >
                 <div className="p-4 bg-white border border-gray-200 rounded-lg hover:border-gray-300 hover:shadow-md transition-all text-center">
-                  <h3 className="font-semibold text-black mb-1">{book.name}</h3>
-                  <p className="text-sm text-black">{book.chapters.length} chapters</p>
+                  <h3 className="font-semibold text-black mb-1">{bookInfo.name}</h3>
+                  <p className="text-sm text-black">{bookInfo.chapters} chapters</p>
                 </div>
               </Link>
             ))}

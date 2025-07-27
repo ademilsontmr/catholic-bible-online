@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import bibleData from '@/data/bible.json'
-import type { BibleData } from '@/types/bible'
+import { getBibleIndex, getBook } from '@/lib/bibleLoader'
 import SearchBox from '@/components/SearchBox'
 
 export const metadata: Metadata = {
@@ -27,10 +26,22 @@ export const metadata: Metadata = {
 }
 
 function getRandomVerse() {
-  const data = bibleData as BibleData
-  const books = Object.keys(data)
+  const bibleIndex = getBibleIndex()
+  const books = Object.keys(bibleIndex)
   const bookKey = books[Math.floor(Math.random() * books.length)]
-  const book = data[bookKey]
+  const book = getBook(bookKey)
+  
+  if (!book) {
+    // Fallback verse
+    return {
+      bookName: 'Genesis',
+      bookSlug: 'genesis',
+      chapterNumber: 1,
+      verseNumber: 1,
+      verseText: 'In the beginning God created heaven, and earth.'
+    }
+  }
+  
   const chapterIndex = Math.floor(Math.random() * book.chapters.length)
   const chapter = book.chapters[chapterIndex]
   const verseIndex = Math.floor(Math.random() * chapter.length)
