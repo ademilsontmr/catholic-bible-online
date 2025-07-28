@@ -1,5 +1,7 @@
 import Link from 'next/link'
+import ShareButton from '@/components/ShareButton'
 import type { Metadata } from 'next'
+import RelatedNovenas from '@/components/RelatedNovenas'
 
 export const metadata: Metadata = {
   title: 'Christmas Novena - Day 9: Joy',
@@ -198,8 +200,16 @@ export default function ChristmasAdventNovenaDay9Page() {
           </p>
         </section>
 
-        {/* Navigation */}
-        <div className="flex justify-between items-center">
+        
+
+                {/* Share Section */}
+        <ShareButton 
+          title="Christmas Advent Novena - Day 9: Christmas"
+          text="Join me in praying the Christmas Advent Novena - Day 9 focusing on Christmas."
+        />
+
+{/* Navigation */}
+        <div className="flex justify-between items-center mb-12">
           <Link 
             href="/novenas/christmas-advent/day-8"
             className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
@@ -215,6 +225,9 @@ export default function ChristmasAdventNovenaDay9Page() {
           </Link>
         </div>
       </div>
+
+      {/* Related Novenas Section */}
+      <RelatedNovenas currentNovena="Christmas Advent" />
     </div>
   )
 } 

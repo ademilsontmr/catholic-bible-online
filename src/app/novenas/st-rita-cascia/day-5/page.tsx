@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import ShareButton from '@/components/ShareButton'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -168,7 +169,15 @@ export default function StRitaCasciaDay5Page() {
           </p>
         </section>
 
-        {/* Navigation */}
+        
+
+                {/* Share Section */}
+        <ShareButton 
+          title="St. Rita of Cascia Novena - Day 5: Patience"
+          text="Join me in praying the St. Rita of Cascia Novena - Day 5 focusing on Patience."
+        />
+
+{/* Navigation */}
         <div className="flex justify-between items-center">
           <Link
             href="/novenas/st-rita-cascia/day-4"

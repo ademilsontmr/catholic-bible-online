@@ -4,15 +4,28 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ['@next/font']
   },
+  turbopack: {
+    rules: {
+      '*.svg': {
+        loaders: ['@svgr/webpack'],
+        as: '*.js',
+      },
+    }
+  },
   images: {
     domains: ['catholicbibleonline.com'],
-    unoptimized: false
+    unoptimized: false,
+    formats: ['image/webp', 'image/avif']
   },
   // Force cache clearing
   generateEtags: false,
   compress: true,
   poweredByHeader: false,
-  reactStrictMode: true
+  reactStrictMode: true,
+  // SEO optimizations
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  }
 }
 
 export default nextConfig

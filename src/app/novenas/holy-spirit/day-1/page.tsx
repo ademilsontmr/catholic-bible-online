@@ -1,27 +1,28 @@
 import Link from 'next/link'
+import ShareButton from '@/components/ShareButton'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Holy Spirit Novena - Day 1: Wisdom',
-  description: 'Pray the Holy Spirit Novena - Day 1 focusing on Wisdom. Join in praying the traditional Holy Spirit Novena to prepare for Pentecost.',
+  title: 'Novena of the Holy Spirit - Day 1: Sweet Light',
+  description: "Pray the Novena of the Holy Spirit - Day 1 focusing on Sweet Light. Join in praying the traditional novena to seek the Holy Spirit's intercession.",
   keywords: [
+    'novena of the holy spirit day 1',
     'holy spirit novena day 1',
-    'holy spirit prayer',
-    'day 1 holy spirit',
-    'holy spirit novena wisdom',
-    'holy spirit prayer wisdom',
-    'holy spirit novena prayer',
-    'holy spirit nine day prayer',
-    'pentecost novena'
+    'spirit novena day 1',
+    'holy spirit prayer day 1',
+    'day 1 holy spirit novena',
+    'sweet light prayer',
+    'holy spirit novena sweet light',
+    'spirit novena sweet light'
   ],
   openGraph: {
-    title: 'Holy Spirit Novena - Day 1: Wisdom',
-    description: 'Pray the Holy Spirit Novena - Day 1 focusing on Wisdom. Join in praying the traditional Holy Spirit Novena.',
+    title: 'Novena of the Holy Spirit - Day 1: Sweet Light',
+    description: 'Pray the Novena of the Holy Spirit - Day 1 focusing on Sweet Light. Join in praying the traditional novena.',
     url: 'https://catholicbibleonline.com/novenas/holy-spirit/day-1',
   },
   twitter: {
-    title: 'Holy Spirit Novena - Day 1: Wisdom',
-    description: 'Pray the Holy Spirit Novena - Day 1 focusing on Wisdom. Join in praying the traditional Holy Spirit Novena.',
+    title: 'Novena of the Holy Spirit - Day 1: Sweet Light',
+    description: 'Pray the Novena of the Holy Spirit - Day 1 focusing on Sweet Light. Join in praying the traditional novena.',
   }
 }
 
@@ -32,17 +33,17 @@ export default function HolySpiritNovenaDay1Page() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-black mb-4">
-            Holy Spirit Novena – Day 1: Wisdom
+            Novena of the Holy Spirit – Day 1: Sweet Light
           </h1>
           <p className="text-xl text-gray-600 mb-6">
-            Join in praying the Holy Spirit Novena to prepare for Pentecost.
+            Join in praying the Novena of the Holy Spirit to seek His gifts and fruits.
           </p>
           
           {/* Breadcrumb */}
           <nav className="text-sm text-gray-500 mb-8">
             <Link href="/novenas" className="hover:text-gray-700">Novenas</Link>
             <span className="mx-2">→</span>
-            <Link href="/novenas/holy-spirit" className="hover:text-gray-700">Holy Spirit Novena</Link>
+            <Link href="/novenas/holy-spirit" className="hover:text-gray-700">Novena of the Holy Spirit</Link>
             <span className="mx-2">→</span>
             <span className="text-gray-800">Day 1</span>
           </nav>
@@ -50,154 +51,151 @@ export default function HolySpiritNovenaDay1Page() {
 
         {/* Introduction */}
         <section className="bg-yellow-50 rounded-lg p-8 mb-8">
-          <h2 className="text-2xl font-bold text-black mb-4">Today's Focus: Wisdom</h2>
+          <h2 className="text-2xl font-bold text-black mb-4">Today's Focus: Sweet Light</h2>
           <p className="text-gray-700 leading-relaxed">
-            On this first day of the Holy Spirit Novena, we pray for the gift of Wisdom. This is the first and highest 
-            of the seven gifts of the Holy Spirit, which helps us to see things from God's perspective.
+            On this first day of the Novena of the Holy Spirit, we focus on His sweet light that fills us and illumines the darkness of our hearts. The Holy Spirit leads us like a mother's hand, and without Him, we would not know how to take another step.
           </p>
         </section>
 
         {/* Prayer Text */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-black mb-6">Prayer for Day 1</h2>
-          
+
           <div className="bg-white border border-gray-200 rounded-lg p-8">
             <div className="prose prose-lg max-w-none text-gray-700">
-              <p className="mb-6">
-                <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
-              </p>
               
               <p className="mb-6">
-                <strong>O Holy Spirit, Divine Spirit of light and love, I consecrate to You my understanding, heart and will, 
-                my whole being for time and for eternity. May my understanding be always submissive to Your heavenly inspirations 
-                and to the teaching of the Catholic Church, of which You are the infallible Guide.</strong>
+                <strong>Who are you, sweet light, that fills me</strong><br/>
+                And illumines the darkness of my heart?<br/>
+                You lead me like a mother's hand,<br/>
+                And should you let go of me,<br/>
+                I would not know how to take another step.
+              </p>
+
+              <p className="mb-6">
+                <strong>You are the space</strong><br/>
+                That embraces my being and buries it in yourself.<br/>
+                Away from you it sinks into the abyss<br/>
+                Of nothingness, from which you raised it to the light.
+              </p>
+
+              <p className="mb-6">
+                <strong>You, nearer to me than I to myself</strong><br/>
+                And more interior than my most interior<br/>
+                And still impalpable and intangible<br/>
+                And beyond any name:<br/>
+                <strong>Holy Spirit eternal love!</strong>
               </p>
               
+
               <p className="mb-6">
-                <strong>May my heart be ever inflamed with love of God and of my neighbor. May my will be ever conformed to the divine will. 
-                May my whole life be a faithful imitation of the life and virtues of our Lord and Savior Jesus Christ, 
-                to Whom with the Father and You be honor and glory forever. Amen.</strong>
+                <strong>Our Father, who art in heaven, hallowed be thy name; thy kingdom come; thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen.</strong>
               </p>
-              
+
               <p className="mb-6">
-                <strong>Daily Intention:</strong><br/>
-                Today we pray for the gift of Wisdom. We ask the Holy Spirit to help us see things from God's perspective 
-                and to understand the deeper meaning of life and our relationship with God.
+                <strong>Hail Mary, full of grace, the Lord is with thee; blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.</strong>
               </p>
-              
+
               <p className="mb-6">
-                <strong>We also pray for these intentions…</strong> (State your intentions here)
+                <strong>Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning is now and ever shall be, world without end. Amen.</strong>
               </p>
-              
+
               <p className="mb-6">
-                <strong>Our Father, Hail Mary, Glory Be</strong>
+                <strong>Come, Holy Spirit, fill the hearts of Your faithful and kindle in them the fire of Your love. Send forth Your Spirit and they shall be created. And You shall renew the face of the earth.</strong>
               </p>
-              
+
               <p className="mb-6">
-                <strong>Come, Holy Spirit, fill the hearts of Your faithful and kindle in them the fire of Your love!</strong>
+                <strong>O God, who did instruct the hearts of the faithful by the light of the Holy Spirit, grant us in the same Spirit to be truly wise and ever to rejoice in His consolation, through Jesus Christ Our Lord. Amen.</strong>
               </p>
             </div>
           </div>
         </section>
 
         {/* Reflection */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold text-black mb-6">Reflection for Today</h2>
-          
-          <div className="bg-gray-50 rounded-lg p-8">
-            <div className="prose prose-lg max-w-none text-gray-700">
-              <p className="mb-4">
-                Today we begin the Holy Spirit Novena by praying for the gift of Wisdom. This novena is traditionally prayed 
-                during the nine days between the Ascension of Jesus and Pentecost, just as the Apostles and Mary prayed 
-                in the Upper Room for the coming of the Holy Spirit.
-              </p>
-              
-              <p className="mb-4">
-                Wisdom is the first and highest of the seven gifts of the Holy Spirit. It helps us to see things from God's perspective 
-                and to understand the deeper meaning of life. With wisdom, we can discern what is truly important and what is not, 
-                and we can make decisions that align with God's will.
-              </p>
-              
-              <p className="mb-4">
-                The gift of wisdom is not the same as human knowledge or intelligence. It is a supernatural gift that comes from God 
-                and helps us to understand divine things. It enables us to see the world through God's eyes and to understand 
-                His plan for our lives.
-              </p>
-              
-              <p>
-                As we pray today, let us ask the Holy Spirit to grant us the gift of wisdom. Let us ask Him to help us see things 
-                from God's perspective and to understand the deeper meaning of our lives and our relationship with Him.
-              </p>
-            </div>
+        <section className="bg-gray-50 rounded-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">Reflection</h2>
+          <div className="prose prose-lg max-w-none text-gray-700">
+            <p className="mb-4">
+              The Holy Spirit's sweet light reminds us that He is the space that embraces our being and buries it in Himself. Away from Him, we sink into the abyss of nothingness, from which He raises us to the light.
+            </p>
+            <p className="mb-4">
+              As we reflect on this aspect of the Holy Spirit's nature and work, let us ask ourselves how we can 
+              apply these lessons to our own lives and grow in holiness.
+            </p>
+            <p>
+              May the Holy Spirit's intercession help us to overcome our weaknesses and to grow stronger in our faith 
+              and love for God and neighbor.
+            </p>
           </div>
         </section>
 
         {/* How to Make an Excellent Novena */}
-        <section className="mb-12">
+        <section className="bg-yellow-50 rounded-lg p-8 mb-12">
           <h2 className="text-2xl font-bold text-black mb-6">How to Make an Excellent Novena</h2>
-          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="font-semibold text-black mb-4">Pray with Openness</h3>
+              <h3 className="font-semibold text-black mb-4">Trust in the Holy Spirit</h3>
               <p className="text-gray-700 text-sm">
-                Approach this novena with an open heart and mind. Be ready to receive the gifts 
-                that the Holy Spirit wants to give you.
+                Trust completely in the Holy Spirit's powerful intercession and His ability to help you.
+                Turn to Him with confidence in every need, especially for spiritual gifts and guidance.
               </p>
             </div>
             
             <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="font-semibold text-black mb-4">Consecrate Yourself</h3>
+              <h3 className="font-semibold text-black mb-4">Be Persistent</h3>
               <p className="text-gray-700 text-sm">
-                Each day, consecrate your understanding, heart, and will to the Holy Spirit. 
-                Ask Him to guide you in all things.
+                Pray this novena with persistence and faith. The Holy Spirit will not fail to help 
+                those who turn to Him with trust and confidence.
               </p>
             </div>
             
             <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="font-semibold text-black mb-4">Seek God's Perspective</h3>
+              <h3 className="font-semibold text-black mb-4">Be Specific</h3>
               <p className="text-gray-700 text-sm">
-                Ask the Holy Spirit to help you see things from God's perspective. 
-                Pray for wisdom to understand His will for your life.
+                Present your specific needs and intentions to the Holy Spirit. He wants to help you 
+                with the particular difficulties you face.
               </p>
             </div>
             
             <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="font-semibold text-black mb-4">Imitate Christ</h3>
+              <h3 className="font-semibold text-black mb-4">Be Grateful</h3>
               <p className="text-gray-700 text-sm">
-                Ask the Holy Spirit to help you imitate the life and virtues of Jesus Christ. 
-                Let Him transform you more and more into the image of Christ.
+                Thank the Holy Spirit for His intercession and for the graces you receive. 
+                Gratitude opens our hearts to receive more blessings and miracles.
               </p>
             </div>
           </div>
         </section>
 
+        
         {/* Closing */}
         <section className="bg-yellow-50 rounded-lg p-8 mb-12">
           <h2 className="text-2xl font-bold text-black mb-4">Closing Prayer</h2>
           <p className="text-gray-700 leading-relaxed">
-            O Holy Spirit, Divine Spirit of light and love, we consecrate to You our understanding, heart, and will. 
-            Grant us the gift of wisdom so that we may see things from Your perspective and understand the deeper meaning of life. 
-            Help us to be faithful imitators of Jesus Christ. Come, Holy Spirit, fill our hearts and kindle in us the fire of Your love! Amen.
+            O Holy Spirit, sweet light that illumines our hearts, help me to trust in Your powerful intercession. May Your illuminating presence guide me like a mother's hand and keep me from sinking into the abyss of nothingness. Guide me through these nine days of prayer, that I may experience Your miraculous help and grow closer to God. Amen.
           </p>
         </section>
+        
+
+        {/* Share Section */}
+        <ShareButton 
+          title="Novena of the Holy Spirit - Day 1: Sweet Light"
+          text="Join me in praying the Novena of the Holy Spirit - Day 1 focusing on Sweet Light."
+        />
 
         {/* Navigation */}
-        <div className="flex justify-between items-center">
-          <Link 
-            href="/novenas/holy-spirit"
-            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
+        <div className="flex justify-between items-center ">
+          <div></div>
+          
+          <Link
+            href="/novenas/holy-spirit/day-2"
+            className="inline-flex items-center gap-2 bg-yellow-600 hover:bg-yellow-700 text-white px-6 py-3 rounded-lg transition-colors"
           >
-            ← Back to Novena Overview
+            Day 2: Eternal Love →
           </Link>
           
-          <Link 
-            href="/novenas/holy-spirit/day-2"
-            className="inline-flex items-center px-6 py-3 bg-yellow-600 text-white rounded-md hover:bg-yellow-700 transition-colors"
-          >
-            Day 2: Understanding →
-          </Link>
         </div>
       </div>
     </div>
   )
-} 
+}

@@ -2,83 +2,84 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Holy Spirit Novena - Complete 9-Day Prayer Guide',
-  description: 'Complete Holy Spirit Novena with daily prayers, reflections, and guidance. Pray the traditional novena to prepare for Pentecost.',
+  title: 'Novena of the Holy Spirit - Complete 9-Day Prayer Guide',
+  description: 'Complete Novena of the Holy Spirit with daily prayers, reflections, and guidance. Pray for the Holy Spirit\'s gifts and fruits.',
   keywords: [
+    'novena of the holy spirit',
     'holy spirit novena',
+    'spirit novena',
     'holy spirit prayer',
     'pentecost novena',
-    'holy spirit nine day prayer',
-    'holy spirit devotion',
-    'seven gifts holy spirit',
-    'holy spirit novena prayer',
-    'catholic holy spirit',
-    'pentecost prayer'
+    'holy spirit intercession',
+    'gifts of the holy spirit',
+    'fruits of the holy spirit',
+    'catholic novena',
+    'divine spirit novena'
   ],
   openGraph: {
-    title: 'Holy Spirit Novena - Complete 9-Day Prayer Guide',
-    description: 'Complete Holy Spirit Novena with daily prayers, reflections, and guidance for spiritual growth.',
+    title: 'Novena of the Holy Spirit - Complete 9-Day Prayer Guide',
+    description: 'Complete Novena of the Holy Spirit with daily prayers, reflections, and guidance for spiritual growth.',
     url: 'https://catholicbibleonline.com/novenas/holy-spirit',
   },
   twitter: {
-    title: 'Holy Spirit Novena - Complete 9-Day Prayer Guide',
-    description: 'Complete Holy Spirit Novena with daily prayers, reflections, and guidance for spiritual growth.',
+    title: 'Novena of the Holy Spirit - Complete 9-Day Prayer Guide',
+    description: 'Complete Novena of the Holy Spirit with daily prayers, reflections, and guidance for spiritual growth.',
   }
 }
 
 const novenaDays = [
   {
     day: 1,
-    theme: 'Wisdom',
-    description: 'Pray for the gift of Wisdom to see things from God\'s perspective and understand divine things.',
+    theme: 'Sweet Light',
+    description: 'Pray for the Holy Spirit\'s illuminating light in our hearts.',
     slug: 'day-1'
   },
   {
     day: 2,
-    theme: 'Understanding',
-    description: 'Pray for the gift of Understanding to comprehend the truths of our faith more deeply.',
+    theme: 'Eternal Love',
+    description: 'Pray for the Holy Spirit\'s eternal love and presence.',
     slug: 'day-2'
   },
   {
     day: 3,
-    theme: 'Counsel',
-    description: 'Pray for the gift of Counsel to make right decisions and give good advice to others.',
+    theme: 'Sweet Manna',
+    description: 'Pray for the Holy Spirit\'s nourishment from the Son\'s heart.',
     slug: 'day-3'
   },
   {
     day: 4,
-    theme: 'Fortitude',
-    description: 'Pray for the gift of Fortitude to have courage and strength in times of difficulty.',
+    theme: 'Eternal Life',
+    description: 'Pray for the Holy Spirit\'s gift of new life.',
     slug: 'day-4'
   },
   {
     day: 5,
-    theme: 'Knowledge',
-    description: 'Pray for the gift of Knowledge to know God and His will for our lives.',
+    theme: 'Penetrating Ray',
+    description: 'Pray for the Holy Spirit\'s penetrating light of wisdom.',
     slug: 'day-5'
   },
   {
     day: 6,
-    theme: 'Piety',
-    description: 'Pray for the gift of Piety to have a deep love and reverence for God and holy things.',
+    theme: 'Victorious Power',
+    description: 'Pray for the Holy Spirit\'s power and strength.',
     slug: 'day-6'
   },
   {
     day: 7,
-    theme: 'Fear of the Lord',
-    description: 'Pray for the gift of Fear of the Lord to have a holy reverence and awe of God.',
+    theme: 'God\'s Molding Hand',
+    description: 'Pray for the Holy Spirit\'s work of building and creating.',
     slug: 'day-7'
   },
   {
     day: 8,
-    theme: 'Fruits of the Spirit',
-    description: 'Pray for the fruits of the Holy Spirit: love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, and self-control.',
+    theme: 'Creator of All',
+    description: 'Pray for the Holy Spirit\'s creative power and beauty.',
     slug: 'day-8'
   },
   {
     day: 9,
-    theme: 'Complete Consecration',
-    description: 'Complete your consecration to the Holy Spirit and receive His final blessing.',
+    theme: 'Eternal Jubilation',
+    description: 'Pray for the Holy Spirit\'s song of love and joy.',
     slug: 'day-9'
   }
 ]
@@ -90,11 +91,11 @@ export default function HolySpiritNovenaPage() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-black mb-4">
-            Holy Spirit Novena
+            Novena of the Holy Spirit
           </h1>
           <p className="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
-            A powerful nine-day prayer to prepare for Pentecost and receive the gifts of the Holy Spirit. 
-            This traditional novena helps us grow in the seven gifts and fruits of the Holy Spirit.
+            A powerful nine-day prayer to seek the gifts and fruits of the Holy Spirit.
+            This traditional novena helps us grow closer to God and experience the Holy Spirit's transforming power in our lives.
           </p>
           
           {/* Quick Stats */}
@@ -104,12 +105,12 @@ export default function HolySpiritNovenaPage() {
               <div className="text-sm text-gray-600">Days</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-gray-800">🌟</div>
-              <div className="text-sm text-gray-600">Holy Spirit</div>
+              <div className="text-2xl font-bold text-gray-800">🙏</div>
+              <div className="text-sm text-gray-600">Saints</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-gray-800">7</div>
-              <div className="text-sm text-gray-600">Gifts</div>
+              <div className="text-2xl font-bold text-gray-800">3</div>
+              <div className="text-sm text-gray-600">Virtues</div>
             </div>
           </div>
         </div>
@@ -117,23 +118,26 @@ export default function HolySpiritNovenaPage() {
         {/* What is this Novena Section */}
         <section className="bg-gray-50 rounded-lg p-8 mb-12">
           <h2 className="text-2xl font-bold text-black mb-6 text-center">
-            About the Holy Spirit Novena
+            About the Novena of the Holy Spirit
           </h2>
           
           <div className="prose prose-lg max-w-none text-gray-700">
             <p className="mb-4">
-              The Holy Spirit Novena is traditionally prayed during the nine days between the Ascension of Jesus and Pentecost, 
-              just as the Apostles and Mary prayed in the Upper Room for the coming of the Holy Spirit.
+              The Novena of the Holy Spirit is a powerful nine-day prayer that helps us grow closer to God and experience 
+              the Holy Spirit's miraculous presence and power. The Holy Spirit is the third Person of the Blessed Trinity, 
+              sent by the Father and the Son to guide, comfort, and sanctify us.
             </p>
             
             <p className="mb-4">
-              This novena helps us to prepare for the coming of the Holy Spirit and to receive His seven gifts: 
-              Wisdom, Understanding, Counsel, Fortitude, Knowledge, Piety, and Fear of the Lord.
+              The Holy Spirit's life is marked by His role as our Advocate, Comforter, and Sanctifier. He bestows upon us 
+              the seven gifts (wisdom, understanding, counsel, fortitude, knowledge, piety, and fear of the Lord) and the 
+              twelve fruits (charity, joy, peace, patience, kindness, goodness, generosity, gentleness, faithfulness, modesty, 
+              self-control, and chastity).
             </p>
             
             <p>
-              Through this novena, we consecrate ourselves to the Holy Spirit and ask Him to transform us 
-              more and more into the image of Jesus Christ, bearing the fruits of the Spirit in our lives.
+              This novena helps us to trust in the Holy Spirit's powerful intercession and to turn to Him with confidence 
+              in every need, knowing that He will never refuse to help those who have recourse to Him.
             </p>
           </div>
         </section>
@@ -169,169 +173,103 @@ export default function HolySpiritNovenaPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="font-semibold text-black mb-4">Pray with Openness</h3>
+              <h3 className="font-semibold text-black mb-4">Trust in the Holy Spirit</h3>
               <p className="text-gray-700 text-sm">
-                Approach this novena with an open heart and mind. Be ready to receive the gifts 
-                that the Holy Spirit wants to give you.
+                Trust completely in the Holy Spirit's powerful intercession and His ability to help you.
+                Turn to Him with confidence in every need, especially for spiritual gifts and guidance.
               </p>
             </div>
             
             <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="font-semibold text-black mb-4">Consecrate Yourself</h3>
+              <h3 className="font-semibold text-black mb-4">Be Persistent</h3>
               <p className="text-gray-700 text-sm">
-                Each day, consecrate your understanding, heart, and will to the Holy Spirit. 
-                Ask Him to guide you in all things.
+                Pray this novena with persistence and faith. The Holy Spirit will not fail to help 
+                those who turn to Him with trust and confidence.
               </p>
             </div>
             
             <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="font-semibold text-black mb-4">Seek God's Perspective</h3>
+              <h3 className="font-semibold text-black mb-4">Be Specific</h3>
               <p className="text-gray-700 text-sm">
-                Ask the Holy Spirit to help you see things from God's perspective. 
-                Pray for wisdom to understand His will for your life.
+                Present your specific needs and intentions to the Holy Spirit. He wants to help you 
+                with the particular difficulties you face.
               </p>
             </div>
             
             <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="font-semibold text-black mb-4">Imitate Christ</h3>
+              <h3 className="font-semibold text-black mb-4">Be Grateful</h3>
               <p className="text-gray-700 text-sm">
-                Ask the Holy Spirit to help you imitate the life and virtues of Jesus Christ. 
-                Let Him transform you more and more into the image of Christ.
+                Thank the Holy Spirit for His intercession and for the graces you receive. 
+                Gratitude opens our hearts to receive more blessings and miracles.
               </p>
             </div>
           </div>
         </section>
 
-        {/* The Seven Gifts of the Holy Spirit */}
+        {/* The Three Theological Virtues */}
         <section className="bg-white border border-gray-200 rounded-lg p-8 mb-12">
           <h2 className="text-2xl font-bold text-black mb-6 text-center">
-            The Seven Gifts of the Holy Spirit
+            The Three Theological Virtues
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="text-center">
-              <div className="text-4xl mb-4">🌟</div>
-              <h3 className="text-lg font-semibold text-black mb-2">Wisdom</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div>
+              <h3 className="text-lg font-semibold text-black mb-3">Faith</h3>
               <p className="text-gray-700 text-sm">
-                The ability to see things from God's perspective and understand divine things.
+                Believe in the Holy Spirit's powerful intercession and in God's ability to work through His Spirit. 
+                Trust that God hears and answers our prayers through His divine presence.
               </p>
             </div>
-            
-            <div className="text-center">
-              <div className="text-4xl mb-4">🧠</div>
-              <h3 className="text-lg font-semibold text-black mb-2">Understanding</h3>
+            <div>
+              <h3 className="text-lg font-semibold text-black mb-3">Hope</h3>
               <p className="text-gray-700 text-sm">
-                The ability to comprehend the truths of our faith more deeply.
+                Hope in God's mercy and in the Holy Spirit's ability to obtain miracles for us. 
+                Maintain confidence that God will provide what is best for our salvation.
               </p>
             </div>
-            
-            <div className="text-center">
-              <div className="text-4xl mb-4">💡</div>
-              <h3 className="text-lg font-semibold text-black mb-2">Counsel</h3>
+            <div>
+              <h3 className="text-lg font-semibold text-black mb-3">Charity</h3>
               <p className="text-gray-700 text-sm">
-                The ability to make right decisions and give good advice to others.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="text-4xl mb-4">💪</div>
-              <h3 className="text-lg font-semibold text-black mb-2">Fortitude</h3>
-              <p className="text-gray-700 text-sm">
-                The courage and strength to face difficulties and challenges.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="text-4xl mb-4">📚</div>
-              <h3 className="text-lg font-semibold text-black mb-2">Knowledge</h3>
-              <p className="text-gray-700 text-sm">
-                The ability to know God and understand His will for our lives.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="text-4xl mb-4">🙏</div>
-              <h3 className="text-lg font-semibold text-black mb-2">Piety</h3>
-              <p className="text-gray-700 text-sm">
-                A deep love and reverence for God and all holy things.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="text-4xl mb-4">😨</div>
-              <h3 className="text-lg font-semibold text-black mb-2">Fear of the Lord</h3>
-              <p className="text-gray-700 text-sm">
-                A holy reverence and awe of God, not fear of punishment.
+                Pray with love for God and for others. Include in your intentions the needs of 
+                all those who are suffering or in need of the Holy Spirit's help.
               </p>
             </div>
           </div>
         </section>
 
-        {/* What is the Devotion */}
-        <section className="bg-yellow-50 rounded-lg p-8 mb-12">
+        {/* What is the Devotion to the Holy Spirit? */}
+        <section className="bg-gray-50 rounded-lg p-8 mb-12">
           <h2 className="text-2xl font-bold text-black mb-6 text-center">
-            What is the Holy Spirit Devotion?
+            What is the Devotion to the Holy Spirit?
           </h2>
           
-          <p className="text-lg text-gray-700 mb-8 text-center max-w-3xl mx-auto">
-            The Holy Spirit devotion focuses on the third Person of the Holy Trinity, who is our Advocate, 
-            Comforter, and Guide in our spiritual journey.
-          </p>
-
-          {/* Devotion Elements */}
-          <div className="mb-8">
-            <h3 className="text-xl font-bold text-black mb-4 text-center">Elements of Holy Spirit Devotion</h3>
-            <div className="flex flex-wrap justify-center gap-4 text-lg">
-              <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
-                <span>🌟</span>
-                <span>Seven Gifts</span>
-              </span>
-              <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
-                <span>🍎</span>
-                <span>Fruits</span>
-              </span>
-              <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
-                <span>🔥</span>
-                <span>Fire</span>
-              </span>
-              <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
-                <span>🕊️</span>
-                <span>Dove</span>
-              </span>
-              <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
-                <span>📅</span>
-                <span>Pentecost</span>
-              </span>
-              <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
-                <span>🙏</span>
-                <span>Consecration</span>
-              </span>
-            </div>
-          </div>
-
-          <div className="text-center">
-            <p className="text-gray-700 mb-4">
-              This devotion helps us to:
+          <div className="prose prose-lg max-w-none text-gray-700">
+            <p className="mb-4">
+              <strong>The Holy Spirit</strong> is the third Person of the Blessed Trinity, equal to the Father and the Son. 
+              He is the Love that proceeds from the Father and the Son, sent to guide, comfort, and sanctify the Church.
             </p>
-            <ul className="text-gray-700 space-y-2 text-left max-w-2xl mx-auto">
-              <li>• Receive the seven gifts of the Holy Spirit</li>
-              <li>• Bear the fruits of the Spirit in our lives</li>
-              <li>• Be guided by the Holy Spirit in all things</li>
-              <li>• Grow in holiness and virtue</li>
-              <li>• Be transformed more and more into the image of Christ</li>
-            </ul>
+            
+            <p className="mb-4">
+              <strong>Seven Gifts</strong> - The Holy Spirit bestows upon us seven gifts: wisdom, understanding, counsel, 
+              fortitude, knowledge, piety, and fear of the Lord. These gifts help us to live virtuous lives and grow in holiness.
+            </p>
+            
+            <p className="mb-4">
+              <strong>Twelve Fruits</strong> - The Holy Spirit also produces in us twelve fruits: charity, joy, peace, patience, 
+              kindness, goodness, generosity, gentleness, faithfulness, modesty, self-control, and chastity.
+            </p>
+            
+            <p className="mb-4">
+              <strong>Our Advocate</strong> - The Holy Spirit is our Advocate and Comforter, who intercedes for us with 
+              inexpressible groanings and helps us in our weakness. He guides us into all truth and reminds us of everything Jesus taught.
+            </p>
+            
+            <p>
+              <strong>Feast Day</strong> - The Holy Spirit is celebrated especially on Pentecost Sunday, when He descended 
+              upon the Apostles and the Blessed Virgin Mary, and is invoked daily in the Church's prayers and sacraments.
+            </p>
           </div>
         </section>
-
-        {/* Navigation */}
-        <div className="text-center">
-          <Link
-            href="/novenas"
-            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
-          >
-            ← Back to All Novenas
-          </Link>
-        </div>
       </div>
     </div>
   )

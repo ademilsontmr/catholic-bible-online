@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import RelatedNovenas from '@/components/RelatedNovenas'
 
 export const metadata: Metadata = {
   title: 'Novena to the Sacred Heart of Jesus - Day 9: Complete Consecration',
@@ -193,7 +194,7 @@ export default function SacredHeartNovenaDay9Page() {
         </section>
 
         {/* Navigation */}
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center mb-12">
           <Link 
             href="/novenas/sacred-heart/day-8"
             className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
@@ -209,6 +210,9 @@ export default function SacredHeartNovenaDay9Page() {
           </Link>
         </div>
       </div>
+
+      {/* Related Novenas Section */}
+      <RelatedNovenas currentNovena="Sacred Heart" />
     </div>
   )
 } 

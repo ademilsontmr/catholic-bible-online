@@ -48,14 +48,10 @@ const novenaCategories = [
     name: 'Healing Novenas',
     description: 'Nine-day prayers for physical and spiritual healing',
     icon: '💝',
-    count: 6,
+    count: 2,
     novenas: [
-      'Novenas for Physical Healing',
-      'Novenas for Emotional Healing',
-      'Novenas for Spiritual Healing',
-      'Novenas for Family Healing',
-      'Novenas for Addiction Recovery',
-      'Novenas for Mental Health'
+      'Novena for Physical Healing',
+      'Novena for the Sick'
     ]
   },
   {
@@ -244,12 +240,12 @@ export default function NovenasPage() {
               { name: 'Christmas Novena (Advent Novena)', slug: 'christmas-advent' },
               { name: 'Novena to Our Lady of Perpetual Help', slug: 'our-lady-of-perpetual-help' },
               { name: 'Novena to St. Joseph', slug: 'st-joseph' },
-              { name: 'Novena to St. Jude Thaddeus (Patron of Hopeless Cases)', slug: 'st-jude-thaddeus' },
+              { name: 'Novena to St. Jude Thaddeus (Patron of Hopeless Cases)', slug: 'st-jude' },
               { name: 'Novena to St. Rita of Cascia (Patroness of Impossible Causes)', slug: 'st-rita-cascia' },
-              { name: 'Novena to St. Anthony of Padua', slug: 'st-anthony-padua' },
-              { name: 'Novena to St. Thérèse of the Child Jesus (The Little Flower)', slug: 'st-therese-little-flower' },
-              { name: 'Novena to St. Michael the Archangel', slug: 'st-michael-archangel' },
-              { name: 'Novena to Our Lady of the Miraculous Medal', slug: 'our-lady-miraculous-medal' }
+              { name: 'Novena to St. Anthony of Padua', slug: 'st-anthony' },
+              { name: 'Novena to St. Thérèse of Lisieux (The Little Flower)', slug: 'st-therese-lisieux' },
+              { name: 'Novena to Our Lady of Lourdes', slug: 'our-lady-of-lourdes' },
+              { name: 'Novena to Our Lady of the Miraculous Medal', slug: 'our-lady-of-the-miraculous-medal' }
             ].map((novena) => (
               <Link
                 key={novena.slug}

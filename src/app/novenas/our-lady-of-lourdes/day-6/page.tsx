@@ -1,0 +1,223 @@
+import Link from 'next/link'
+import ShareButton from '@/components/ShareButton'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Novena to Our Lady of Lourdes - Day 6: Obedience',
+  description: 'Pray Day 6 of the Novena to Our Lady of Lourdes focusing on Obedience. Join in praying the traditional novena to seek Mary\'s intercession.',
+  keywords: [
+    'novena to our lady of lourdes day 6',
+    'lourdes novena day 6',
+    'our lady of lourdes day 6',
+    'obedience lourdes novena',
+    'mary novena day 6',
+    'lourdes prayer obedience',
+    'day 6 lourdes novena',
+    'obedience mary prayer',
+    'lourdes novena obedience',
+    'mary novena obedience'
+  ],
+  openGraph: {
+    title: 'Novena to Our Lady of Lourdes - Day 6: Obedience',
+    description: 'Pray Day 6 of the Novena to Our Lady of Lourdes focusing on Obedience. Join in praying the traditional novena.',
+    url: 'https://catholicbibleonline.com/novenas/our-lady-of-lourdes/day-6',
+  },
+  twitter: {
+    title: 'Novena to Our Lady of Lourdes - Day 6: Obedience',
+    description: 'Pray Day 6 of the Novena to Our Lady of Lourdes focusing on Obedience. Join in praying the traditional novena.',
+  }
+}
+
+export default function OurLadyOfLourdesNovenaDay6Page() {
+  return (
+    <div className="min-h-screen bg-white">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold text-black mb-4">
+            Novena to Our Lady of Lourdes – Day 6: Obedience
+          </h1>
+          <p className="text-xl text-gray-600 mb-6">
+            Join in praying the Novena to Our Lady of Lourdes to seek Mary's miraculous intercession and healing grace.
+          </p>
+          
+          {/* Breadcrumb */}
+          <nav className="text-sm text-gray-500 mb-8">
+            <Link href="/novenas" className="hover:text-gray-700">Novenas</Link>
+            <span className="mx-2">→</span>
+            <Link href="/novenas/our-lady-of-lourdes" className="hover:text-gray-700">Our Lady of Lourdes Novena</Link>
+            <span className="mx-2">→</span>
+            <span className="text-gray-800">Day 6</span>
+          </nav>
+        </div>
+
+        {/* Introduction */}
+        <section className="bg-blue-50 rounded-lg p-8 mb-8">
+          <h2 className="text-2xl font-bold text-black mb-4">Today's Focus: Obedience</h2>
+          <p className="text-gray-700 leading-relaxed">
+            On this sixth day of the Novena to Our Lady of Lourdes, we pray for obedience - obedience to God's will, 
+            obedience to the Church, and obedience to Mary's requests. We ask Mary to help us follow God's plan 
+            for our lives with complete trust and surrender.
+          </p>
+        </section>
+
+        {/* Prayer Text */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">Prayer for Day 6</h2>
+
+          <div className="bg-white border border-gray-200 rounded-lg p-8">
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
+              </p>
+
+              <p className="mb-6">
+                <strong>O Most Obedient Virgin Mary, Mother of God and our Mother,</strong> 
+                you appeared at Lourdes and asked St. Bernadette to dig in the ground and to pray for sinners. 
+                You showed us the importance of obedience to God's will and to your requests.
+              </p>
+
+              <p className="mb-6">
+                <strong>On this sixth day of our novena, we pray for the gift of obedience.</strong> 
+                Help us to be obedient to God's will and to follow His plan for our lives. Teach us to trust 
+                in God's wisdom and to surrender our own will to His divine will.
+              </p>
+
+              <p className="mb-6">
+                <strong>O Mary, you are the perfect example of obedience,</strong> for you said "yes" to God 
+                when the angel Gabriel appeared to you. You accepted God's will completely, even though it 
+                meant great suffering and sacrifice. Help us to imitate your obedience and to trust in God's plan.
+              </p>
+
+              <p className="mb-6">
+                <strong>We also pray for these intentions…</strong> (State your intentions here)
+              </p>
+
+              <p className="mb-6">
+                <strong>Our Father, Hail Mary, Glory Be</strong>
+              </p>
+
+              <p className="mb-6">
+                <strong>O Mary, conceived without sin, pray for us who have recourse to thee!</strong>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Reflection */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">Reflection for Today</h2>
+          <div className="bg-gray-50 rounded-lg p-8">
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-4">
+                Today we focus on obedience, a virtue that is essential for spiritual growth and for following 
+                God's will. Obedience is not about blind submission, but about trusting in God's wisdom 
+                and surrendering our own will to His divine plan.
+              </p>
+              
+              <p className="mb-4">
+                St. Bernadette's obedience to Mary's requests was perfect. When Mary asked her to dig in the ground, 
+                even though it seemed strange and others mocked her, St. Bernadette obeyed without question. 
+                This obedience led to the miraculous spring at Lourdes.
+              </p>
+              
+              <p className="mb-4">
+                Mary also asked St. Bernadette to pray for sinners and to do penance. St. Bernadette obeyed 
+                these requests as well, showing us that true obedience to God's will brings great blessings 
+                and can work miracles in our lives.
+              </p>
+              
+              <p className="mb-4">
+                Mary herself is the perfect example of obedience. When the angel Gabriel appeared to her 
+                and told her that she would become the Mother of God, she said: "Behold, I am the handmaid 
+                of the Lord; let it be done to me according to your word." She accepted God's will completely, 
+                even though it meant great suffering and sacrifice.
+              </p>
+              
+              <p>
+                As we pray today, let us ask Mary to help us grow in obedience. Let us ask her to help us 
+                trust in God's plan for our lives and to surrender our own will to His divine will. 
+                Let us strive to be obedient like St. Bernadette and like Mary, always trusting in God's wisdom.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* How to Make an Excellent Novena */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">How to Make an Excellent Novena</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Begin with Faith</h3>
+              <p className="text-gray-700 text-sm">
+                Start each day with complete trust in Mary's intercession. Believe that she will help you 
+                and bring your prayers to her Son, Jesus Christ.
+              </p>
+            </div>
+            
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Be Consistent</h3>
+              <p className="text-gray-700 text-sm">
+                Pray the novena for nine consecutive days without interruption. Consistency shows your 
+                commitment and trust in Mary's help.
+              </p>
+            </div>
+            
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Offer Your Intentions</h3>
+              <p className="text-gray-700 text-sm">
+                Present your specific needs and intentions to Mary. Be honest about your struggles 
+                and trust that she understands your situation.
+              </p>
+            </div>
+            
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Practice Penance</h3>
+              <p className="text-gray-700 text-sm">
+                As Mary requested at Lourdes, offer small sacrifices and penances during the novena. 
+                This can include fasting, acts of charity, or giving up something you enjoy.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Closing */}
+        <section className="bg-blue-50 rounded-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold text-black mb-4">Closing Prayer</h2>
+          <p className="text-gray-700 leading-relaxed">
+            O Most Obedient Virgin Mary, Mother of God and our Mother, increase our obedience to God's will 
+            and help us to trust in His divine plan for our lives. Teach us to surrender our own will 
+            to His wisdom and to follow His guidance with complete trust. May our obedience make us 
+            more pleasing to God and help us to grow in holiness. Amen.
+          </p>
+        </section>
+
+        
+
+                {/* Share Section */}
+        <ShareButton 
+          title="Our Lady of Lourdes Novena - Day 6: Conversion"
+          text="Join me in praying the Our Lady of Lourdes Novena - Day 6 focusing on Conversion."
+        />
+
+{/* Navigation */}
+        <div className="flex justify-between items-center">
+          <Link
+            href="/novenas/our-lady-of-lourdes/day-5"
+            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
+          >
+            ← Day 5: Purity
+          </Link>
+          
+          <Link
+            href="/novenas/our-lady-of-lourdes/day-7"
+            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+          >
+            Day 7: Perseverance →
+          </Link>
+        </div>
+      </div>
+    </div>
+  )
+} 

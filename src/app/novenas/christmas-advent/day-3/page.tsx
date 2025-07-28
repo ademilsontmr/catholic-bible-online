@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import ShareButton from '@/components/ShareButton'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -200,7 +201,15 @@ export default function ChristmasAdventNovenaDay3Page() {
           </p>
         </section>
 
-        {/* Navigation */}
+        
+
+                {/* Share Section */}
+        <ShareButton 
+          title="Christmas Advent Novena - Day 3: Love"
+          text="Join me in praying the Christmas Advent Novena - Day 3 focusing on Love."
+        />
+
+{/* Navigation */}
         <div className="flex justify-between items-center">
           <Link 
             href="/novenas/christmas-advent/day-2"

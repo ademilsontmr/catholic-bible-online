@@ -1,0 +1,224 @@
+import Link from 'next/link'
+import ShareButton from '@/components/ShareButton'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'St. Jude Novena - Day 9: Never Lose Faith',
+  description: "Pray St. Jude Novena - Day 9 focusing on Never Lose Faith. Join in praying the traditional novena for impossible causes.",
+  keywords: [
+    'st jude novena day 9',
+    'saint jude novena day 9',
+    'st jude day 9',
+    'day 9 st jude novena',
+    'never lose faith prayer',
+    'st jude novena never lose faith',
+    'saint jude never lose faith',
+    'impossible causes prayer day 9'
+  ],
+  openGraph: {
+    title: 'St. Jude Novena - Day 9: Never Lose Faith',
+    description: 'Pray St. Jude Novena - Day 9 focusing on Never Lose Faith. Join in praying the traditional novena.',
+    url: 'https://catholicbibleonline.com/novenas/st-jude/day-9',
+  },
+  twitter: {
+    title: 'St. Jude Novena - Day 9: Never Lose Faith',
+    description: 'Pray St. Jude Novena - Day 9 focusing on Never Lose Faith. Join in praying the traditional novena.',
+  }
+}
+
+export default function StJudeNovenaDay9Page() {
+  return (
+    <div className="min-h-screen bg-white">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold text-black mb-4">
+            St. Jude Novena – Day 9: Never Lose Faith
+          </h1>
+          <p className="text-xl text-gray-600 mb-6">
+            Join in praying St. Jude Novena with devotion and trust.
+          </p>
+
+          {/* Breadcrumb */}
+          <nav className="text-sm text-gray-500 mb-8">
+            <Link href="/novenas" className="hover:text-gray-700">Novenas</Link>
+            <span className="mx-2">→</span>
+            <Link href="/novenas/st-jude" className="hover:text-gray-700">St. Jude Novena</Link>
+            <span className="mx-2">→</span>
+            <span className="text-gray-800">Day 9</span>
+          </nav>
+        </div>
+
+        {/* Introduction */}
+        <section className="bg-green-50 rounded-lg p-8 mb-8">
+          <h2 className="text-2xl font-bold text-black mb-4">Today's Focus: Never Lose Faith</h2>
+          <p className="text-gray-700 leading-relaxed">
+            On this final day of our novena, we focus on praying to never lose faith in God's love. We ask St. Jude to help us maintain our faith always.
+          </p>
+        </section>
+
+        {/* Prayer Text */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">Prayer for Day 9</h2>
+
+          <div className="bg-white border border-gray-200 rounded-lg p-8">
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <h3 className="text-xl font-semibold mb-4">St. Jude Novena Prayer</h3>
+
+              <div className="mb-6">
+                <h4 className="text-lg font-semibold mb-3">Opening Prayer</h4>
+                <p className="mb-4">
+                  In the name of the Father, and of the Son, and of the Holy Spirit.<br />
+                  <strong>Amen.</strong>
+                </p>
+              </div>
+
+              <div className="mb-6">
+                <h4 className="text-lg font-semibold mb-3">Main Prayer</h4>
+                <p className="mb-4">
+                  Most holy St. Jude – apostle, martyr and friend of Jesus, today I ask that you pray for me and my intentions!
+                </p>
+                <div className="bg-gray-50 p-4 rounded-lg mb-4">
+                  <p className="italic">
+                    <em>(State your intentions here)</em>
+                  </p>
+                </div>
+                <p className="mb-4">
+                  You are the patron of the impossible. Pray for me and my intentions! O St. Jude, pray that God's grace and mercy will cover my intentions. Pray for the impossible if it is God's will.
+                </p>
+                <p className="mb-4">
+                  Pray that I may have the grace to accept God's holy will even if it is painful and difficult for me.
+                </p>
+              </div>
+
+              <div className="mb-6">
+                <h4 className="text-lg font-semibold mb-3">Prayer to St. Jude</h4>
+                <p className="mb-4">
+                  St. Jude, you loved our Lord, help me to love Him more.
+                </p>
+                <p className="mb-4">
+                  O St. Jude, pray for me that I may grow in faith, hope and love and in the grace of Jesus Christ. Pray for these intentions, but most of all pray that I may join you in heaven with God for all eternity.
+                </p>
+              </div>
+
+              <div className="mb-6">
+                <h4 className="text-lg font-semibold mb-3">Closing Prayer</h4>
+                <p className="mb-4">
+                  <strong>Amen.</strong><br />
+                  In the name of the Father, and of the Son, and of the Holy Spirit.<br />
+                  <strong>Amen.</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Reflection */}
+        <section className="bg-gray-50 rounded-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">Reflection</h2>
+          <div className="prose prose-lg max-w-none text-gray-700">
+            <p className="mb-4">
+              St. Jude maintained his faith until the end, even as a martyr. He teaches us to never lose faith in God's love and mercy, no matter what challenges we face.
+            </p>
+            <p className="mb-4">
+              As we reflect on this aspect of St. Jude devotion, let us ask ourselves how we can
+              better honor him and trust in his power to help with impossible causes and lost causes.
+            </p>
+            <p>
+              May St. Jude continue to bless us with his powerful intercession and help us grow in our
+              devotion to him and to our Lord Jesus Christ.
+            </p>
+          </div>
+        </section>
+
+        {/* How to Make an Excellent Novena */}
+        <section className="bg-green-50 rounded-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">How to Make an Excellent Novena</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Pray with Confidence</h3>
+              <p className="text-gray-700 text-sm">
+                Approach St. Jude with confidence, knowing he is the patron
+                of impossible causes and lost causes.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Trust in His Intercession</h3>
+              <p className="text-gray-700 text-sm">
+                Trust that St. Jude will pray for your intentions and bring
+                them before God with his powerful intercession.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Accept God's Will</h3>
+              <p className="text-gray-700 text-sm">
+                Pray for the grace to accept God's holy will even if it is
+                painful and difficult for you.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Never Lose Hope</h3>
+              <p className="text-gray-700 text-sm">
+                Ask St. Jude to help you never lose hope and to grow in
+                faith, hope, and love.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        
+        {/* Closing */}
+        <section className="bg-green-50 rounded-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold text-black mb-4">Closing Blessing</h2>
+          <p className="text-gray-700 leading-relaxed">
+            May St. Jude bless you abundantly through this devotion.
+            May you always remember to call upon him for his powerful intercession
+            and trust in his ability to help with impossible causes.
+          </p>
+        </section>
+
+        {/* Final Message */}
+        <section className="bg-green-50 rounded-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold text-black mb-4 text-center">🎉 Congratulations!</h2>
+          <p className="text-gray-700 leading-relaxed text-center">
+            You have completed St. Jude Novena! As you continue your spiritual journey,
+            may your heart be filled with devotion to St. Jude and trust in his power
+            to help with impossible causes. Remember to continue calling upon him for his powerful intercession
+            and to never lose hope, even in the most desperate situations. May St. Jude continue to bless you
+            and help you grow in your faith, hope, and love.
+          </p>
+        </section>
+        
+
+        {/* Share Section */}
+        <ShareButton
+          title="St. Jude Novena - Day 9: Never Lose Faith"
+          text="Join me in praying St. Jude Novena - Day 9 focusing on Never Lose Faith."
+        />
+
+        {/* Navigation */}
+        <div className="flex justify-between items-center mb-12">
+          
+          <Link
+            href="/novenas/st-jude/day-8"
+            className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg transition-colors"
+          >
+            ← Day 8: Never Lose Hope
+          </Link>
+          
+          
+          <Link
+            href="/novenas/st-jude"
+            className="inline-flex items-center px-6 py-3 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
+          >
+            Back to Novena Overview →
+          </Link>
+          
+        </div>
+      </div>
+    </div>
+  )
+}

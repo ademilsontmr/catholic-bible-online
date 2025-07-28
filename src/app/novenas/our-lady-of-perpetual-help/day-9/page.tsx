@@ -1,5 +1,7 @@
 import Link from 'next/link'
+import ShareButton from '@/components/ShareButton'
 import type { Metadata } from 'next'
+import RelatedNovenas from '@/components/RelatedNovenas'
 
 export const metadata: Metadata = {
   title: 'Our Lady of Perpetual Help Novena - Day 9: Gratitude',
@@ -200,8 +202,16 @@ export default function OurLadyOfPerpetualHelpNovenaDay9Page() {
           </p>
         </section>
 
-        {/* Navigation */}
-        <div className="flex justify-between items-center">
+        
+
+                {/* Share Section */}
+        <ShareButton 
+          title="Our Lady of Perpetual Help Novena - Day 9: Grace"
+          text="Join me in praying the Our Lady of Perpetual Help Novena - Day 9 focusing on Grace."
+        />
+
+{/* Navigation */}
+        <div className="flex justify-between items-center mb-12">
           <Link 
             href="/novenas/our-lady-of-perpetual-help/day-8"
             className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
@@ -217,6 +227,9 @@ export default function OurLadyOfPerpetualHelpNovenaDay9Page() {
           </Link>
         </div>
       </div>
+
+      {/* Related Novenas Section */}
+      <RelatedNovenas currentNovena="Our Lady of Perpetual Help" />
     </div>
   )
 } 

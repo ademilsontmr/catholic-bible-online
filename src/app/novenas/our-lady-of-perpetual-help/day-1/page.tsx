@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import ShareButton from '@/components/ShareButton'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -192,7 +193,13 @@ export default function OurLadyOfPerpetualHelpNovenaDay1Page() {
           </p>
         </section>
 
-                {/* Navigation */}
+                {/* Share Section */}
+        <ShareButton 
+          title="Our Lady of Perpetual Help Novena - Day 1: Trust"
+          text="Join me in praying the Our Lady of Perpetual Help Novena - Day 1 focusing on Trust."
+        />
+
+        {/* Navigation */}
         <div className="flex justify-between items-center">
           <Link 
             href="/novenas/our-lady-of-perpetual-help"
