@@ -10,7 +10,7 @@ const novenaCategories = [
     name: 'Marian Novenas',
     description: 'Nine-day prayers to the Blessed Virgin Mary',
     icon: '🌹',
-    count: 18,
+    count: 20,
     novenas: [
       'Novenas to Our Lady of Perpetual Help',
       'Novenas to Our Lady of Guadalupe',
@@ -29,7 +29,9 @@ const novenaCategories = [
       'Novenas to Mary Star of the Sea',
       'Novenas to the Nativity of the Blessed Virgin Mary',
       'Novenas to the Presentation of Mary',
-      'Novenas for Peace to Our Lady of Sorrows'
+      'Novenas for Peace to Our Lady of Sorrows',
+      'Dedication of St. Mary Major Basilica Novena',
+      'Mary Queen of All Hearts Novena'
     ]
   },
   {
@@ -37,7 +39,7 @@ const novenaCategories = [
     name: 'Saint Novenas',
     description: 'Nine-day prayers to various saints',
     icon: '🙏',
-    count: 21,
+    count: 22,
     novenas: [
       'Novenas to St. Joseph',
       'Novenas to St. Anthony',
@@ -65,7 +67,8 @@ const novenaCategories = [
       'Novenas to St. Joan of Arc',
       'Novenas to St. John Paul II',
       'Novenas to Mother Angelica',
-      'Novenas to Saints Joachim and Anne'
+      'Novenas to Saints Joachim and Anne',
+      'North American Martyrs Novena'
     ]
   },
   {
@@ -90,7 +93,7 @@ const novenaCategories = [
     name: 'Healing Novenas',
     description: 'Nine-day prayers for physical and spiritual healing',
     icon: '🏥',
-    count: 8,
+    count: 9,
     novenas: [
       'Novena for Physical Healing',
       'Novena for the Sick',
@@ -99,7 +102,8 @@ const novenaCategories = [
       'Novena for Healing from Anxiety and Fear',
       'Novena for Healing After Loss',
       'Novena for Healing and Strength',
-      'Novena for Addiction Recovery'
+      'Novena for Addiction Recovery',
+      'Healing from Childhood Trauma Novena'
     ]
   },
   {
@@ -140,7 +144,7 @@ const novenaCategories = [
     count: 12,
     novenas: [
       'Novenas for Employment',
-      'Novenas for Financial Help',
+      'Novena for Financial Help',
       'Novenas for Exams',
       'Novenas for Travel',
       'Novenas for Protection',
@@ -170,9 +174,10 @@ const novenaCategories = [
     name: 'Papal Novenas',
     description: 'Nine-day prayers for the Pope and Church leadership',
     icon: '👑',
-    count: 1,
+    count: 2,
     novenas: [
-      'Novena for the Pope'
+      'Novena for the Pope',
+      'Novena for Pope Francis'
     ]
   }
 ];

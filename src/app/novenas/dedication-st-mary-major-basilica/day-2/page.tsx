@@ -1,0 +1,214 @@
+import Link from 'next/link'
+import ShareButton from '@/components/ShareButton'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Dedication of St. Mary Major Basilica Novena - Day 2: Devotion to Mary',
+  description: 'Pray the Dedication of St. Mary Major Basilica Novena - Day 2 focusing on Devotion to Mary. Join in praying the traditional novena to honor Mary and grow in devotion to her.',
+  keywords: [
+    'dedication st mary major basilica novena day 2',
+    'devotion to mary prayer',
+    'st mary major basilica day 2',
+    'basilica dedication prayer day 2',
+    'mary major novena day 2',
+    'day 2 basilica dedication novena',
+    'devotion to mary prayer',
+    'basilica dedication novena day 2',
+    'catholic novena'
+  ],
+  openGraph: {
+    title: 'Dedication of St. Mary Major Basilica Novena - Day 2: Devotion to Mary',
+    description: 'Pray the Dedication of St. Mary Major Basilica Novena - Day 2 focusing on Devotion to Mary. Join in praying the traditional novena.',
+    url: 'https://catholicbibleonline.com/novenas/dedication-st-mary-major-basilica/day-2',
+  },
+  twitter: {
+    title: 'Dedication of St. Mary Major Basilica Novena - Day 2: Devotion to Mary',
+    description: 'Pray the Dedication of St. Mary Major Basilica Novena - Day 2 focusing on Devotion to Mary. Join in praying the traditional novena.',
+  }
+}
+
+export default function DedicationStMaryMajorBasilicaNovenaDay2Page() {
+  return (
+    <div className="min-h-screen bg-white">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold text-black mb-4">
+            Dedication of St. Mary Major Basilica Novena – Day 2: Devotion to Mary
+          </h1>
+          <p className="text-xl text-gray-600 mb-6">
+            Join in praying the Dedication of St. Mary Major Basilica Novena to honor Mary and seek her intercession.
+          </p>
+          
+          {/* Breadcrumb */}
+          <nav className="text-sm text-gray-500 mb-8">
+            <Link href="/novenas" className="hover:text-gray-700">Novenas</Link>
+            <span className="mx-2">→</span>
+            <Link href="/novenas/dedication-st-mary-major-basilica" className="hover:text-gray-700">Dedication of St. Mary Major Basilica Novena</Link>
+            <span className="mx-2">→</span>
+            <span className="text-gray-800">Day 2</span>
+          </nav>
+        </div>
+
+        {/* Introduction */}
+        <section className="bg-blue-50 rounded-lg p-8 mb-8">
+          <h2 className="text-2xl font-bold text-black mb-4">Today's Focus: Devotion to Mary</h2>
+          <p className="text-gray-700 leading-relaxed">
+            On this second day of the Dedication of St. Mary Major Basilica Novena, we pray that all people may grow in devotion to Mary as our mother.
+            We ask Mary to help us honor her and love her as a means of advancing in holiness and love for Jesus.
+          </p>
+        </section>
+
+        {/* Prayer Text */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">Prayer for Day 2</h2>
+
+          <div className="bg-white border border-gray-200 rounded-lg p-8">
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
+              </p>
+
+              <p className="mb-6">
+                <strong>Lord God, we thank You for the many devotional practices You give us as we journey toward heaven with You.</strong> 
+                Guide us in making use of all the help You give us!
+              </p>
+
+              <p className="mb-6">
+                <strong>Dearest Mother, your Son has given you to us to be our mother also.</strong> He wishes us to honor you and love you 
+                as a means of advancing in holiness and love for Him. As our mother, you can bring all of our needs to your Son in a special way.
+              </p>
+
+              <p className="mb-6">
+                <strong>Please bring all of our petitions before the throne of your Son.</strong> And we particularly ask today that you pray that all people may grow in devotion to you!
+              </p>
+
+              <p className="mb-6">
+                <strong>Pray for us, that we may do all we can to grow in holiness and virtue each day.</strong> 
+                Pray that we may serve God worthily in every circumstance.
+              </p>
+
+              <p className="mb-6">
+                <strong>And we especially ask in this novena for…</strong> (State your intentions here)
+              </p>
+
+              <p className="mb-6">
+                <strong>Blessed Mother Mary, pray for us!</strong>
+              </p>
+
+              <p className="mb-6">
+                <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Reflection */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">Reflection for Today</h2>
+
+          <div className="bg-gray-50 rounded-lg p-8">
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-4">
+                Today we pray that all people may grow in devotion to Mary as our mother. Jesus has given Mary to us to be our mother also, 
+                and He wishes us to honor her and love her as a means of advancing in holiness and love for Him.
+              </p>
+
+              <p className="mb-4">
+                As our mother, Mary can bring all of our needs to Jesus in a special way. This shows us the beautiful relationship 
+                between devotion to Mary and growing closer to Jesus. When we honor Mary, we are actually honoring Jesus more perfectly.
+              </p>
+
+              <p className="mb-4">
+                The title "Dedication of St. Mary Major Basilica Novena" reminds us that Mary is our mother and intercessor.
+                She is always ready to help us grow in holiness and bring our prayers to Jesus, just as the basilica was dedicated to her honor.
+              </p>
+
+              <p className="mb-4">
+                As we continue this novena, let us ask Mary to help us grow in devotion to her and to serve God worthily in every circumstance.
+                Let us ask her to pray that all people may grow in devotion to her and through her, grow closer to Jesus.
+              </p>
+
+              <p>
+                Remember that devotion to Mary is not just about external acts, but about growing in love for her and through her, 
+                growing closer to Jesus. She is our mother and wants to help us serve God worthily in every circumstance.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* How to Make an Excellent Novena */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">How to Make an Excellent Novena</h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Trust in Mary</h3>
+              <p className="text-gray-700 text-sm">
+                Trust completely in Mary's ability to help you grow closer to Jesus.
+                Turn to her with confidence in every situation that requires her intercession.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Be Persistent</h3>
+              <p className="text-gray-700 text-sm">
+                Pray this novena with persistence and faith.
+                Mary will not fail to help those who turn to her with trust.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Be Specific</h3>
+              <p className="text-gray-700 text-sm">
+                Present your specific needs and intentions to Mary.
+                She wants to help you with the particular difficulties you face.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Be Patient</h3>
+              <p className="text-gray-700 text-sm">
+                Spiritual growth is a process that takes time.
+                Be patient with yourself and trust in Mary's timing.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Closing */}
+        <section className="bg-blue-50 rounded-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold text-black mb-4">Closing Prayer</h2>
+          <p className="text-gray-700 leading-relaxed">
+            Blessed Mother Mary, help us to grow in devotion to you and to serve God worthily in every circumstance. 
+            Pray that all people may grow in devotion to you and through you, grow closer to Jesus. 
+            Help us to do all we can to grow in holiness and virtue each day. Amen.
+          </p>
+        </section>
+
+        {/* Share Section */}
+        <ShareButton 
+          title="Dedication of St. Mary Major Basilica Novena - Day 2: Devotion to Mary"
+          text="Join me in praying the Dedication of St. Mary Major Basilica Novena - Day 2 focusing on Devotion to Mary."
+        />
+
+        {/* Navigation */}
+        <div className="flex justify-between items-center">
+          <Link 
+            href="/novenas/dedication-st-mary-major-basilica/day-1"
+            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
+          >
+            ← Day 1: Pilgrims and Devotion
+          </Link>
+          
+          <Link 
+            href="/novenas/dedication-st-mary-major-basilica/day-3"
+            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+          >
+            Day 3: Intimacy with Jesus →
+          </Link>
+        </div>
+      </div>
+    </div>
+  )
+} 

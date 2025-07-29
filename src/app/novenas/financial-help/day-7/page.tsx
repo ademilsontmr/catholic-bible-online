@@ -1,0 +1,222 @@
+import Link from 'next/link'
+import ShareButton from '@/components/ShareButton'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Financial Help Novena - Day 7: Wisdom',
+  description: 'Pray the Financial Help Novena - Day 7 focusing on Wisdom. Join in praying the traditional novena to seek God\'s financial assistance.',
+  keywords: [
+    'financial help novena day 7',
+    'financial novena day 7',
+    'money prayer novena day 7',
+    'financial assistance prayer day 7',
+    'wisdom financial prayer',
+    'day 7 financial help novena',
+    'financial prayer wisdom',
+    'financial novena wisdom',
+    'money prayer wisdom'
+  ],
+  openGraph: {
+    title: 'Financial Help Novena - Day 7: Wisdom',
+    description: 'Pray the Financial Help Novena - Day 7 focusing on Wisdom. Join in praying the traditional novena.',
+    url: 'https://catholicbibleonline.com/novenas/financial-help/day-7',
+  },
+  twitter: {
+    title: 'Financial Help Novena - Day 7: Wisdom',
+    description: 'Pray the Financial Help Novena - Day 7 focusing on Wisdom. Join in praying the traditional novena.',
+  }
+}
+
+export default function FinancialHelpNovenaDay7Page() {
+  return (
+    <div className="min-h-screen bg-white">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold text-black mb-4">
+            Financial Help Novena – Day 7: Wisdom
+          </h1>
+          <p className="text-xl text-gray-600 mb-6">
+            Join in praying the Financial Help Novena to seek God's assistance and guidance in financial matters.
+          </p>
+          
+          {/* Breadcrumb */}
+          <nav className="text-sm text-gray-500 mb-8">
+            <Link href="/novenas" className="hover:text-gray-700">Novenas</Link>
+            <span className="mx-2">→</span>
+            <Link href="/novenas/financial-help" className="hover:text-gray-700">Financial Help Novena</Link>
+            <span className="mx-2">→</span>
+            <span className="text-gray-800">Day 7</span>
+          </nav>
+        </div>
+
+        {/* Introduction */}
+        <section className="bg-blue-50 rounded-lg p-8 mb-8">
+          <h2 className="text-2xl font-bold text-black mb-4">Today's Focus: Wisdom</h2>
+          <p className="text-gray-700 leading-relaxed">
+            On this seventh day of the Financial Help Novena, we pray for wisdom in making financial decisions and managing our resources.
+            We ask God to grant us the wisdom to make sound financial choices that honor Him and benefit our families.
+          </p>
+        </section>
+
+        {/* Prayer Text */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">Prayer for Day 7</h2>
+
+          <div className="bg-white border border-gray-200 rounded-lg p-8">
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
+              </p>
+
+              <p className="mb-6">
+                <strong>Heavenly Father,</strong> you are the source of all wisdom and the giver of every good gift.
+                You have promised to give wisdom to those who ask for it.
+                We come to you today asking for the gift of wisdom.
+              </p>
+
+              <p className="mb-6">
+                <strong>Your wisdom is perfect and your guidance is always right.</strong>
+              </p>
+
+              <p className="mb-6">
+                <strong>Glory be to the Father and to the Son and to the Holy Spirit, as it was in the beginning is now and ever shall be, world without end.</strong>
+              </p>
+
+              <p className="mb-6">
+                <strong>Amen.</strong>
+              </p>
+
+              <p className="mb-6">
+                <strong>Heavenly Father, grant us wisdom!</strong> Help us to make wise financial decisions
+                that honor you and benefit our families. Teach us to be good stewards
+                of the resources you have entrusted to us.
+              </p>
+
+              <p className="mb-6">
+                <strong>We also pray for these intentions…</strong> (State your financial intentions here)
+              </p>
+
+              <p className="mb-6">
+                <strong>Our Father, Hail Mary, Glory Be</strong>
+              </p>
+
+              <p className="mb-6">
+                <strong>Heavenly Father, guide us with your wisdom!</strong>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Reflection */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">Reflection for Today</h2>
+
+          <div className="bg-gray-50 rounded-lg p-8">
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-4">
+                Today we pray for wisdom in making financial decisions and managing our resources.
+                Wisdom is a gift from God that helps us make choices that honor Him and benefit others.
+              </p>
+
+              <p className="mb-4">
+                St. James tells us in James 1:5 that "if any of you lacks wisdom, let him ask God,
+                who gives generously to all without reproach, and it will be given him."
+                This promise encourages us to ask God for wisdom in all our decisions, especially financial ones.
+              </p>
+
+              <p className="mb-4">
+                The title "Financial Help" reminds us that God is our ultimate helper and provider
+                in all financial matters. He is always ready to guide us, provide for us, and help us
+                make wise financial decisions when we seek His wisdom.
+              </p>
+
+              <p className="mb-4">
+                As we continue this novena, let us ask God to increase our wisdom.
+                Let us ask Him to help us make sound financial choices that honor Him
+                and benefit our families and communities.
+              </p>
+
+              <p>
+                Remember that wisdom is not just knowledge, but the ability to apply knowledge
+                in ways that honor God and benefit others. It is a gift that we should seek daily.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* How to Make an Excellent Novena */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">How to Make an Excellent Novena</h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Trust in God</h3>
+              <p className="text-gray-700 text-sm">
+                Trust completely in God's ability to provide for your needs.
+                Turn to Him with confidence in every financial situation.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Be Persistent</h3>
+              <p className="text-gray-700 text-sm">
+                Pray this novena with persistence and faith.
+                God will not fail to help those who turn to Him with trust.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Be Specific</h3>
+              <p className="text-gray-700 text-sm">
+                Present your specific financial needs and intentions to God.
+                He wants to help you with the particular difficulties you face.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Be Grateful</h3>
+              <p className="text-gray-700 text-sm">
+                Thank God for His provision and financial blessings.
+                Gratitude opens our hearts to receive more graces.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Closing */}
+        <section className="bg-blue-50 rounded-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold text-black mb-4">Closing Prayer</h2>
+          <p className="text-gray-700 leading-relaxed">
+            Heavenly Father, grant us wisdom. Help us to make wise financial decisions
+            that honor you and benefit our families, knowing that you will guide us in all our choices.
+            May we always seek your wisdom in managing the resources you have entrusted to us. Amen.
+          </p>
+        </section>
+
+        {/* Share Section */}
+        <ShareButton 
+          title="Financial Help Novena - Day 7: Wisdom"
+          text="Join me in praying the Financial Help Novena - Day 7 focusing on Wisdom."
+        />
+
+        {/* Navigation */}
+        <div className="flex justify-between items-center">
+          <Link 
+            href="/novenas/financial-help/day-6"
+            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
+          >
+            ← Day 6: Humility
+          </Link>
+          
+          <Link 
+            href="/novenas/financial-help/day-8"
+            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+          >
+            Day 8: Gratitude →
+          </Link>
+        </div>
+      </div>
+    </div>
+  )
+}

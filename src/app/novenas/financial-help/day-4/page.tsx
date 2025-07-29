@@ -1,0 +1,222 @@
+import Link from 'next/link'
+import ShareButton from '@/components/ShareButton'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Financial Help Novena - Day 4: Generosity',
+  description: 'Pray the Financial Help Novena - Day 4 focusing on Generosity. Join in praying the traditional novena to seek God\'s financial assistance.',
+  keywords: [
+    'financial help novena day 4',
+    'financial novena day 4',
+    'money prayer novena day 4',
+    'financial assistance prayer day 4',
+    'generosity financial prayer',
+    'day 4 financial help novena',
+    'financial prayer generosity',
+    'financial novena generosity',
+    'money prayer generosity'
+  ],
+  openGraph: {
+    title: 'Financial Help Novena - Day 4: Generosity',
+    description: 'Pray the Financial Help Novena - Day 4 focusing on Generosity. Join in praying the traditional novena.',
+    url: 'https://catholicbibleonline.com/novenas/financial-help/day-4',
+  },
+  twitter: {
+    title: 'Financial Help Novena - Day 4: Generosity',
+    description: 'Pray the Financial Help Novena - Day 4 focusing on Generosity. Join in praying the traditional novena.',
+  }
+}
+
+export default function FinancialHelpNovenaDay4Page() {
+  return (
+    <div className="min-h-screen bg-white">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold text-black mb-4">
+            Financial Help Novena – Day 4: Generosity
+          </h1>
+          <p className="text-xl text-gray-600 mb-6">
+            Join in praying the Financial Help Novena to seek God's assistance and guidance in financial matters.
+          </p>
+          
+          {/* Breadcrumb */}
+          <nav className="text-sm text-gray-500 mb-8">
+            <Link href="/novenas" className="hover:text-gray-700">Novenas</Link>
+            <span className="mx-2">→</span>
+            <Link href="/novenas/financial-help" className="hover:text-gray-700">Financial Help Novena</Link>
+            <span className="mx-2">→</span>
+            <span className="text-gray-800">Day 4</span>
+          </nav>
+        </div>
+
+        {/* Introduction */}
+        <section className="bg-blue-50 rounded-lg p-8 mb-8">
+          <h2 className="text-2xl font-bold text-black mb-4">Today's Focus: Generosity</h2>
+          <p className="text-gray-700 leading-relaxed">
+            On this fourth day of the Financial Help Novena, we pray for generosity in sharing our resources with others.
+            We ask God to help us be generous with what we have, knowing that He will provide for our needs.
+          </p>
+        </section>
+
+        {/* Prayer Text */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">Prayer for Day 4</h2>
+
+          <div className="bg-white border border-gray-200 rounded-lg p-8">
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
+              </p>
+
+              <p className="mb-6">
+                <strong>Heavenly Father,</strong> you are the source of all generosity and the giver of every good gift.
+                You have promised that those who give generously will receive generously in return.
+                We come to you today asking for the grace to be generous.
+              </p>
+
+              <p className="mb-6">
+                <strong>Your generosity towards us is endless and your love is perfect.</strong>
+              </p>
+
+              <p className="mb-6">
+                <strong>Glory be to the Father and to the Son and to the Holy Spirit, as it was in the beginning is now and ever shall be, world without end.</strong>
+              </p>
+
+              <p className="mb-6">
+                <strong>Amen.</strong>
+              </p>
+
+              <p className="mb-6">
+                <strong>Heavenly Father, make us generous!</strong> Help us to be generous with our time,
+                our talents, and our treasure. Teach us to give freely and joyfully,
+                knowing that you will provide for all our needs.
+              </p>
+
+              <p className="mb-6">
+                <strong>We also pray for these intentions…</strong> (State your financial intentions here)
+              </p>
+
+              <p className="mb-6">
+                <strong>Our Father, Hail Mary, Glory Be</strong>
+              </p>
+
+              <p className="mb-6">
+                <strong>Heavenly Father, teach us to be generous!</strong>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Reflection */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">Reflection for Today</h2>
+
+          <div className="bg-gray-50 rounded-lg p-8">
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-4">
+                Today we pray for generosity in sharing our resources with others.
+                Generosity is a reflection of God's character and a way to participate in His work of providing for others.
+              </p>
+
+              <p className="mb-4">
+                Jesus tells us in Luke 6:38 that "give, and it will be given to you. Good measure, pressed down,
+                shaken together, running over, will be put into your lap. For with the measure you use it will be measured back to you."
+                This promise encourages us to be generous, knowing that God will provide for us in return.
+              </p>
+
+              <p className="mb-4">
+                The title "Financial Help" reminds us that God is our ultimate helper and provider
+                in all financial matters. He is always ready to guide us, provide for us, and help us
+                make wise financial decisions when we are generous with others.
+              </p>
+
+              <p className="mb-4">
+                As we continue this novena, let us ask God to increase our generosity.
+                Let us ask Him to help us give freely and joyfully, knowing that He will provide
+                for all our needs according to His perfect plan.
+              </p>
+
+              <p>
+                Remember that generosity is not just about money, but about sharing our time, talents,
+                and resources with others. It is a way to show God's love to those around us.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* How to Make an Excellent Novena */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6">How to Make an Excellent Novena</h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Trust in God</h3>
+              <p className="text-gray-700 text-sm">
+                Trust completely in God's ability to provide for your needs.
+                Turn to Him with confidence in every financial situation.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Be Persistent</h3>
+              <p className="text-gray-700 text-sm">
+                Pray this novena with persistence and faith.
+                God will not fail to help those who turn to Him with trust.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Be Specific</h3>
+              <p className="text-gray-700 text-sm">
+                Present your specific financial needs and intentions to God.
+                He wants to help you with the particular difficulties you face.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h3 className="font-semibold text-black mb-4">Be Grateful</h3>
+              <p className="text-gray-700 text-sm">
+                Thank God for His provision and financial blessings.
+                Gratitude opens our hearts to receive more graces.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Closing */}
+        <section className="bg-blue-50 rounded-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold text-black mb-4">Closing Prayer</h2>
+          <p className="text-gray-700 leading-relaxed">
+            Heavenly Father, make us generous. Help us to give freely and joyfully of our time,
+            our talents, and our treasure, knowing that you will provide for all our needs.
+            May we always reflect your generosity in our lives and share your love with others. Amen.
+          </p>
+        </section>
+
+        {/* Share Section */}
+        <ShareButton 
+          title="Financial Help Novena - Day 4: Generosity"
+          text="Join me in praying the Financial Help Novena - Day 4 focusing on Generosity."
+        />
+
+        {/* Navigation */}
+        <div className="flex justify-between items-center">
+          <Link 
+            href="/novenas/financial-help/day-3"
+            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
+          >
+            ← Day 3: Hope
+          </Link>
+          
+          <Link 
+            href="/novenas/financial-help/day-5"
+            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+          >
+            Day 5: Patience →
+          </Link>
+        </div>
+      </div>
+    </div>
+  )
+}

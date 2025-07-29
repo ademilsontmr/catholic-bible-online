@@ -6,16 +6,29 @@ interface ShareButtonProps {
 }
 
 export default function ShareButton({ title, text }: ShareButtonProps) {
-  const handleShare = () => {
+  const handleShare = async () => {
     if (navigator.share) {
-      navigator.share({
-        title,
-        text,
-        url: window.location.href
-      });
+      try {
+        await navigator.share({
+          title,
+          text,
+          url: window.location.href
+        });
+      } catch (error) {
+        // User cancelled the share or other error occurred
+        // Silently handle the cancellation
+        if (error instanceof Error && error.name !== 'AbortError') {
+          console.error('Share failed:', error);
+        }
+      }
     } else {
-      navigator.clipboard.writeText(window.location.href);
-      alert('Link copied to clipboard!');
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        alert('Link copied to clipboard!');
+      } catch (error) {
+        console.error('Failed to copy to clipboard:', error);
+        alert('Failed to copy link to clipboard');
+      }
     }
   };
 

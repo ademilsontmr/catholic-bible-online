@@ -41,7 +41,7 @@ const novenaCategories = [
     name: 'Marian Novenas',
     description: 'Nine-day prayers to the Blessed Virgin Mary',
     icon: '🌹',
-    count: 18, // Updated from 11
+    count: 20, // Updated from 19
     novenas: [
       { name: 'Novena to Our Lady of Perpetual Help', slug: 'our-lady-of-perpetual-help', available: true },
       { name: 'Novena to Our Lady of Fatima', slug: 'our-lady-of-fatima', available: true },
@@ -60,7 +60,9 @@ const novenaCategories = [
       { name: 'Novena to Our Lady of Knock', slug: 'our-lady-of-knock', available: true },
       { name: 'Novena to Our Lady of the Holy Rosary', slug: 'our-lady-of-the-holy-rosary', available: true },
       { name: 'Novena to Our Lady of the Miraculous Medal', slug: 'our-lady-of-the-miraculous-medal', available: true },
-      { name: 'Novena to Our Lady of the Rosary', slug: 'our-lady-of-the-rosary', available: true }
+      { name: 'Novena to Our Lady of the Rosary', slug: 'our-lady-of-the-rosary', available: true },
+      { name: 'Dedication of St. Mary Major Basilica Novena', slug: 'dedication-st-mary-major-basilica', available: true },
+      { name: 'Mary Queen of All Hearts Novena', slug: 'mary-queen-of-all-hearts', available: true }
     ]
   },
   {
@@ -85,7 +87,7 @@ const novenaCategories = [
     name: 'Saint Novenas',
     description: 'Nine-day prayers to various saints',
     icon: '🙏',
-    count: 21, // Updated from 18
+    count: 22, // Updated from 21
     novenas: [
       { name: 'Novena to St. Jude', slug: 'st-jude', available: true },
       { name: 'Novena to St. Anthony', slug: 'st-anthony', available: true },
@@ -107,7 +109,8 @@ const novenaCategories = [
       { name: 'St. John Paul II Novena', slug: 'st-john-paul-ii', available: true },
       { name: 'Novena to St. Catherine Labouré', slug: 'st-catherine-laboure', available: true },
       { name: 'Novena to St. Thérèse of Lisieux', slug: 'st-therese-lisieux', available: true },
-      { name: 'Novena to Carlo Acutis', slug: 'carlo-acutis', available: true }
+      { name: 'Novena to Carlo Acutis', slug: 'carlo-acutis', available: true },
+      { name: 'North American Martyrs Novena', slug: 'north-american-martyrs', available: true }
     ]
   },
   {
@@ -115,7 +118,7 @@ const novenaCategories = [
     name: 'Healing Novenas',
     description: 'Nine-day prayers for physical and spiritual healing',
     icon: '🏥',
-    count: 8,
+    count: 9,
     novenas: [
       { name: 'Novena for Physical Healing', slug: 'physical-healing', available: true },
       { name: 'Novena for the Sick', slug: 'sick', available: true },
@@ -124,7 +127,8 @@ const novenaCategories = [
       { name: 'Novena for Healing from Anxiety and Fear', slug: 'anxiety-fear', available: true },
       { name: 'Novena for Healing After Loss', slug: 'healing-after-loss', available: true },
       { name: 'Novena for Healing and Strength', slug: 'healing-strength', available: true },
-      { name: 'Novena for Addiction Recovery', slug: 'addiction-recovery', available: true }
+      { name: 'Novena for Addiction Recovery', slug: 'addiction-recovery', available: true },
+      { name: 'Healing from Childhood Trauma Novena', slug: 'healing-from-childhood-trauma', available: true }
     ]
   },
   {
@@ -162,7 +166,7 @@ const novenaCategories = [
     name: 'Special Intentions',
     description: 'Nine-day prayers for various special intentions',
     icon: '✨',
-    count: 12, // Updated from 9
+    count: 12,
     novenas: [
       { name: 'Novena for a Job', slug: 'job', available: true },
       { name: 'Novena for Financial Help', slug: 'financial-help', available: true },
@@ -175,7 +179,8 @@ const novenaCategories = [
       { name: 'Novena Against Evil', slug: 'against-evil', available: true },
       { name: 'Novena for Grace', slug: 'novena-for-grace', available: true },
       { name: 'Novena for Peace to Our Lady of Sorrows', slug: 'novena-for-peace-to-our-lady-of-sorrows', available: true },
-      { name: 'Three Hail Marys Novena', slug: 'three-hail-marys', available: true }
+      { name: 'Three Hail Marys Novena', slug: 'three-hail-marys', available: true },
+
     ]
   },
   {
@@ -195,9 +200,10 @@ const novenaCategories = [
     name: 'Papal Novenas',
     description: 'Nine-day prayers for the Pope and Church leadership',
     icon: '👑',
-    count: 1, // New category
+    count: 2, // Updated count
     novenas: [
-      { name: 'Novena for the Pope', slug: 'pope', available: true }
+      { name: 'Novena for the Pope', slug: 'pope', available: true },
+      { name: 'Novena for Pope Francis', slug: 'pope-francis', available: true }
     ]
   }
 ]
@@ -289,7 +295,12 @@ const availableNovenas = [
   'sacred-heart-confidence',
   'st-catherine-laboure',
   'st-therese-lisieux',
-  'three-hail-marys'
+  'three-hail-marys',
+  'dedication-st-mary-major-basilica',
+  'healing-from-childhood-trauma',
+  'pope-francis',
+  'north-american-martyrs',
+  'mary-queen-of-all-hearts',
 ]
 
 interface PageProps {
