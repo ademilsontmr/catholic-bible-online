@@ -9,8 +9,8 @@ const novenaCategories = [
     slug: 'marian',
     name: 'Marian Novenas',
     description: 'Nine-day prayers to the Blessed Virgin Mary',
-    icon: '👸',
-    count: 8,
+    icon: '🌹',
+    count: 18,
     novenas: [
       'Novenas to Our Lady of Perpetual Help',
       'Novenas to Our Lady of Guadalupe',
@@ -19,7 +19,17 @@ const novenaCategories = [
       'Novenas to Our Lady of the Rosary',
       'Novenas to Our Lady of Mount Carmel',
       'Novenas to Our Lady of Sorrows',
-      'Novenas to the Immaculate Conception'
+      'Novenas to the Immaculate Conception',
+      'Novenas to Our Lady of Good Counsel',
+      'Novenas to Our Lady of Good Remedy',
+      'Novenas to Our Lady of Hope',
+      'Novenas to Our Lady of Knock',
+      'Novenas to Our Lady of the Holy Rosary',
+      'Novenas to Our Lady of the Miraculous Medal',
+      'Novenas to Mary Star of the Sea',
+      'Novenas to the Nativity of the Blessed Virgin Mary',
+      'Novenas to the Presentation of Mary',
+      'Novenas for Peace to Our Lady of Sorrows'
     ]
   },
   {
@@ -27,20 +37,35 @@ const novenaCategories = [
     name: 'Saint Novenas',
     description: 'Nine-day prayers to various saints',
     icon: '🙏',
-    count: 12,
+    count: 21,
     novenas: [
       'Novenas to St. Joseph',
       'Novenas to St. Anthony',
       'Novenas to St. Jude',
-      'Novenas to St. Therese',
+      'Novenas to St. Therese of Lisieux',
       'Novenas to St. Francis',
       'Novenas to St. Padre Pio',
       'Novenas to St. Faustina',
-      'Novenas to St. Michael',
+      'Novenas to St. Michael the Archangel',
       'Novenas to St. Raphael',
       'Novenas to St. Gabriel',
       'Novenas to St. Patrick',
-      'Novenas to St. Nicholas'
+      'Novenas to St. Nicholas',
+      'Novenas to St. Augustine',
+      'Novenas to St. Benedict',
+      'Novenas to St. Gerard',
+      'Novenas to St. John Vianney',
+      'Novenas to St. Maximilian Kolbe',
+      'Novenas to St. Rita of Cascia',
+      'Novenas to St. Philomena',
+      'Novenas to St. John Bosco',
+      'Novenas to St. Peregrine',
+      'Novenas to St. Catherine Labouré',
+      'Novenas to Carlo Acutis',
+      'Novenas to St. Joan of Arc',
+      'Novenas to St. John Paul II',
+      'Novenas to Mother Angelica',
+      'Novenas to Saints Joachim and Anne'
     ]
   },
   {
@@ -48,23 +73,33 @@ const novenaCategories = [
     name: 'Devotions',
     description: 'Nine-day prayers to Jesus and the Holy Spirit',
     icon: '❤️',
-    count: 4,
+    count: 8,
     novenas: [
       'Novena to the Sacred Heart of Jesus',
       'Novena to the Holy Spirit',
       'Novena to the Divine Mercy',
-      'Novena for Adoration of the Eucharist'
+      'Novena for Adoration of the Eucharist',
+      'Novena to the Holy Ghost',
+      'Novena to the Divine Infant Jesus',
+      'Novena of Confidence to the Sacred Heart',
+      'Guardian Angel Novena'
     ]
   },
   {
     slug: 'healing',
     name: 'Healing Novenas',
     description: 'Nine-day prayers for physical and spiritual healing',
-    icon: '💝',
-    count: 2,
+    icon: '🏥',
+    count: 8,
     novenas: [
       'Novena for Physical Healing',
-      'Novena for the Sick'
+      'Novena for the Sick',
+      'Novena for Emotional Healing',
+      'Novena for Spiritual Healing',
+      'Novena for Healing from Anxiety and Fear',
+      'Novena for Healing After Loss',
+      'Novena for Healing and Strength',
+      'Novena for Addiction Recovery'
     ]
   },
   {
@@ -72,26 +107,29 @@ const novenaCategories = [
     name: 'Family Novenas',
     description: 'Nine-day prayers for family intentions',
     icon: '👨‍👩‍👧‍👦',
-    count: 5,
+    count: 4,
     novenas: [
       'Novenas for Marriage',
       'Novenas for Children',
-      'Novenas for Family Unity',
-      'Novenas for Pregnancy',
-      'Novenas for Family Protection'
+      'Novenas for Families',
+      'Novenas for Difficult Pregnancy'
     ]
   },
   {
     slug: 'seasonal',
     name: 'Seasonal Novenas',
     description: 'Nine-day prayers for liturgical seasons',
-    icon: '🌿',
-    count: 4,
+    icon: '🌸',
+    count: 8,
     novenas: [
       'Advent Novenas',
       'Christmas Novenas',
       'Lent Novenas',
-      'Easter Novenas'
+      'Easter Novenas',
+      'Ascension Novenas',
+      'Assumption Novenas',
+      'Pentecost Novenas',
+      'New Year Novenas'
     ]
   },
   {
@@ -99,7 +137,7 @@ const novenaCategories = [
     name: 'Special Intentions',
     description: 'Nine-day prayers for specific intentions',
     icon: '✨',
-    count: 7,
+    count: 12,
     novenas: [
       'Novenas for Employment',
       'Novenas for Financial Help',
@@ -107,7 +145,34 @@ const novenaCategories = [
       'Novenas for Travel',
       'Novenas for Protection',
       'Novenas for Conversion',
-      'Novenas for Peace'
+      'Novenas for Peace',
+      'Novenas Against Fear',
+      'Novenas Against Evil',
+      'Novenas for Grace',
+      'Novenas for a New Home',
+      'Three Hail Marys Novena'
+    ]
+  },
+  {
+    slug: 'christological',
+    name: 'Christological Novenas',
+    description: 'Nine-day prayers focused on Christ and His mysteries',
+    icon: '✝️',
+    count: 3,
+    novenas: [
+      'Novena to Christ the King',
+      'Novena to the Holy Cross',
+      'Novena to the Holy Family'
+    ]
+  },
+  {
+    slug: 'papal',
+    name: 'Papal Novenas',
+    description: 'Nine-day prayers for the Pope and Church leadership',
+    icon: '👑',
+    count: 1,
+    novenas: [
+      'Novena for the Pope'
     ]
   }
 ];
