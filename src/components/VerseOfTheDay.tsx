@@ -3,24 +3,32 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 
+interface Verse {
+  bookName: string
+  bookSlug: string
+  chapterNumber: number
+  verseNumber: number
+  verseText: string
+}
+
 export default function VerseOfTheDay() {
-  const [verse, setVerse] = useState<any>(null)
+  const [verse, setVerse] = useState<Verse | null>(null)
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
     console.log('VerseOfTheDay component mounted')
     
-    // Simple test verse
-    const testVerse = {
-      bookName: 'Mark',
-      bookSlug: 'mark',
-      chapterNumber: 9,
-      verseNumber: 49,
-      verseText: 'Salt is good. But if the salt become unsavoury, wherewith will you season it? Have salt in you: and have peace among you.'
+    // Use a simple verse for now
+    const todaysVerse: Verse = {
+      bookName: 'John',
+      bookSlug: 'john',
+      chapterNumber: 3,
+      verseNumber: 16,
+      verseText: 'For God so loved the world, as to give his only begotten Son; that whosoever believeth in him, may not perish, but may have life everlasting.'
     }
     
-    console.log('Setting test verse:', testVerse)
-    setVerse(testVerse)
+    console.log('Setting today\'s verse:', todaysVerse)
+    setVerse(todaysVerse)
     setIsLoading(false)
   }, [])
 
