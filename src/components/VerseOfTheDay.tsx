@@ -4,7 +4,7 @@ import Link from 'next/link'
 import CopyButton from './CopyButton'
 import { useState, useEffect } from 'react'
 
-// Lista de versos populares para rotação
+// Lista expandida de versos populares para rotação mais variada
 const popularVerses = [
   {
     bookName: 'John',
@@ -75,6 +75,377 @@ const popularVerses = [
     chapterNumber: 1,
     verseNumber: 9,
     verseText: 'Behold I command thee, take courage, and be strong. Fear not, and be not dismayed: because the Lord thy God is with thee in all things whatsoever thou shalt go to.'
+  },
+  {
+    bookName: 'Psalm',
+    bookSlug: 'psalms',
+    chapterNumber: 46,
+    verseNumber: 1,
+    verseText: 'God is our refuge and strength: a helper in troubles, which have found us exceedingly.'
+  },
+  {
+    bookName: 'Psalm',
+    bookSlug: 'psalms',
+    chapterNumber: 119,
+    verseNumber: 105,
+    verseText: 'Thy word is a lamp to my feet, and a light to my paths.'
+  },
+  {
+    bookName: 'Psalm',
+    bookSlug: 'psalms',
+    chapterNumber: 27,
+    verseNumber: 1,
+    verseText: 'The Lord is my light and my salvation, whom shall I fear? The Lord is the protector of my life: of whom shall I be afraid?'
+  },
+  {
+    bookName: 'Psalm',
+    bookSlug: 'psalms',
+    chapterNumber: 37,
+    verseNumber: 4,
+    verseText: 'Delight in the Lord, and he will give thee the requests of thy heart.'
+  },
+  {
+    bookName: 'Psalm',
+    bookSlug: 'psalms',
+    chapterNumber: 51,
+    verseNumber: 10,
+    verseText: 'Create a clean heart in me, O God: and renew a right spirit within my bowels.'
+  },
+  {
+    bookName: 'Psalm',
+    bookSlug: 'psalms',
+    chapterNumber: 139,
+    verseNumber: 14,
+    verseText: 'I will praise thee, for thou art fearfully magnified: wonderful are thy works, and my soul knoweth right well.'
+  },
+  {
+    bookName: 'Psalm',
+    bookSlug: 'psalms',
+    chapterNumber: 145,
+    verseNumber: 18,
+    verseText: 'The Lord is nigh unto all them that call upon him: to all that call upon him in truth.'
+  },
+  {
+    bookName: 'Matthew',
+    bookSlug: 'matthew',
+    chapterNumber: 6,
+    verseNumber: 33,
+    verseText: 'Seek ye therefore first the kingdom of God, and his justice, and all these things shall be added unto you.'
+  },
+  {
+    bookName: 'Matthew',
+    bookSlug: 'matthew',
+    chapterNumber: 7,
+    verseNumber: 7,
+    verseText: 'Ask, and it shall be given you: seek, and you shall find: knock, and it shall be opened to you.'
+  },
+  {
+    bookName: 'Matthew',
+    bookSlug: 'matthew',
+    chapterNumber: 28,
+    verseNumber: 20,
+    verseText: 'Teaching them to observe all things whatsoever I have commanded you: and behold I am with you all days, even to the consummation of the world.'
+  },
+  {
+    bookName: 'Mark',
+    bookSlug: 'mark',
+    chapterNumber: 10,
+    verseNumber: 27,
+    verseText: 'And Jesus looking on them, saith: With men it is impossible; but not with God: for all things are possible with God.'
+  },
+  {
+    bookName: 'Luke',
+    bookSlug: 'luke',
+    chapterNumber: 1,
+    verseNumber: 37,
+    verseText: 'Because no word shall be impossible with God.'
+  },
+  {
+    bookName: 'Luke',
+    bookSlug: 'luke',
+    chapterNumber: 6,
+    verseNumber: 31,
+    verseText: 'And as you would that men should do to you, do you also to them in like manner.'
+  },
+  {
+    bookName: 'John',
+    bookSlug: 'john',
+    chapterNumber: 14,
+    verseNumber: 6,
+    verseText: 'Jesus saith to him: I am the way, and the truth, and the life. No man cometh to the Father, but by me.'
+  },
+  {
+    bookName: 'John',
+    bookSlug: 'john',
+    chapterNumber: 15,
+    verseNumber: 13,
+    verseText: 'Greater love than this no man hath, that a man lay down his life for his friends.'
+  },
+  {
+    bookName: 'John',
+    bookSlug: 'john',
+    chapterNumber: 16,
+    verseNumber: 33,
+    verseText: 'These things I have spoken to you, that in me you may have peace. In the world you shall have distress: but have confidence, I have overcome the world.'
+  },
+  {
+    bookName: 'Acts',
+    bookSlug: 'acts',
+    chapterNumber: 1,
+    verseNumber: 8,
+    verseText: 'But you shall receive the power of the Holy Ghost coming upon you, and you shall be witnesses unto me in Jerusalem, and in all Judea, and Samaria, and even to the uttermost part of the earth.'
+  },
+  {
+    bookName: 'Romans',
+    bookSlug: 'romans',
+    chapterNumber: 1,
+    verseNumber: 16,
+    verseText: 'For I am not ashamed of the gospel. For it is the power of God unto salvation to every one that believeth, to the Jew first, and to the Greek.'
+  },
+  {
+    bookName: 'Romans',
+    bookSlug: 'romans',
+    chapterNumber: 3,
+    verseNumber: 23,
+    verseText: 'For all have sinned, and do need the glory of God.'
+  },
+  {
+    bookName: 'Romans',
+    bookSlug: 'romans',
+    chapterNumber: 5,
+    verseNumber: 8,
+    verseText: 'But God commendeth his charity towards us; because when as yet we were sinners, according to the time, Christ died for us.'
+  },
+  {
+    bookName: 'Romans',
+    bookSlug: 'romans',
+    chapterNumber: 6,
+    verseNumber: 23,
+    verseText: 'For the wages of sin is death. But the grace of God, life everlasting, in Christ Jesus our Lord.'
+  },
+  {
+    bookName: 'Romans',
+    bookSlug: 'romans',
+    chapterNumber: 10,
+    verseNumber: 9,
+    verseText: 'For if thou confess with thy mouth the Lord Jesus, and believe in thy heart that God hath raised him up from the dead, thou shalt be saved.'
+  },
+  {
+    bookName: 'Romans',
+    bookSlug: 'romans',
+    chapterNumber: 12,
+    verseNumber: 2,
+    verseText: 'And be not conformed to this world; but be reformed in the newness of your mind, that you may prove what is the good, and the acceptable, and the perfect will of God.'
+  },
+  {
+    bookName: 'Romans',
+    bookSlug: 'romans',
+    chapterNumber: 15,
+    verseNumber: 13,
+    verseText: 'Now the God of hope fill you with all joy and peace in believing; that you may abound in hope, and in the power of the Holy Ghost.'
+  },
+  {
+    bookName: '1 Corinthians',
+    bookSlug: '1-corinthians',
+    chapterNumber: 10,
+    verseNumber: 13,
+    verseText: 'Let no temptation take hold on you, but such as is human. And God is faithful, who will not suffer you to be tempted above that which you are able: but will make also with temptation issue, that you may be able to bear it.'
+  },
+  {
+    bookName: '1 Corinthians',
+    bookSlug: '1-corinthians',
+    chapterNumber: 15,
+    verseNumber: 58,
+    verseText: 'Therefore, my beloved brethren, be ye steadfast and unmoveable; always abounding in the work of the Lord, knowing that your labour is not in vain in the Lord.'
+  },
+  {
+    bookName: '2 Corinthians',
+    bookSlug: '2-corinthians',
+    chapterNumber: 4,
+    verseNumber: 18,
+    verseText: 'While we look not at the things which are seen, but at the things which are not seen. For the things which are seen, are temporal; but the things which are not seen, are eternal.'
+  },
+  {
+    bookName: '2 Corinthians',
+    bookSlug: '2-corinthians',
+    chapterNumber: 5,
+    verseNumber: 17,
+    verseText: 'If then any be in Christ a new creature, the old things are passed away, behold all things are made new.'
+  },
+  {
+    bookName: '2 Corinthians',
+    bookSlug: '2-corinthians',
+    chapterNumber: 12,
+    verseNumber: 9,
+    verseText: 'And he said to me: My grace is sufficient for thee; for power is made perfect in infirmity. Gladly therefore will I glory in my infirmities, that the power of Christ may dwell in me.'
+  },
+  {
+    bookName: 'Galatians',
+    bookSlug: 'galatians',
+    chapterNumber: 2,
+    verseNumber: 20,
+    verseText: 'And I live, now not I; but Christ liveth in me. And that I live now in the flesh: I live in the faith of the Son of God, who loved me, and delivered himself for me.'
+  },
+  {
+    bookName: 'Galatians',
+    bookSlug: 'galatians',
+    chapterNumber: 5,
+    verseNumber: 22,
+    verseText: 'But the fruit of the Spirit is, charity, joy, peace, patience, benignity, goodness, longanimity,'
+  },
+  {
+    bookName: 'Ephesians',
+    bookSlug: 'ephesians',
+    chapterNumber: 2,
+    verseNumber: 8,
+    verseText: 'For by grace you are saved through faith, and that not of yourselves, for it is the gift of God.'
+  },
+  {
+    bookName: 'Ephesians',
+    bookSlug: 'ephesians',
+    chapterNumber: 3,
+    verseNumber: 20,
+    verseText: 'Now to him who is able to do all things more abundantly than we desire or understand, according to the power that worketh in us;'
+  },
+  {
+    bookName: 'Ephesians',
+    bookSlug: 'ephesians',
+    chapterNumber: 6,
+    verseNumber: 10,
+    verseText: 'Finally, brethren, be strengthened in the Lord, and in the might of his power.'
+  },
+  {
+    bookName: 'Philippians',
+    bookSlug: 'philippians',
+    chapterNumber: 1,
+    verseNumber: 6,
+    verseText: 'Being confident of this very thing, that he, who hath begun a good work in you, will perfect it unto the day of Christ Jesus.'
+  },
+  {
+    bookName: 'Philippians',
+    bookSlug: 'philippians',
+    chapterNumber: 2,
+    verseNumber: 3,
+    verseText: 'Let nothing be done through contention, neither by vainglory; but in humility, let each esteem others better than themselves.'
+  },
+  {
+    bookName: 'Philippians',
+    bookSlug: 'philippians',
+    chapterNumber: 3,
+    verseNumber: 14,
+    verseText: 'I press towards the mark, to the prize of the supernal vocation of God in Christ Jesus.'
+  },
+  {
+    bookName: 'Colossians',
+    bookSlug: 'colossians',
+    chapterNumber: 3,
+    verseNumber: 23,
+    verseText: 'Whatsoever you do, do it from the heart, as to the Lord, and not to men:'
+  },
+  {
+    bookName: '1 Thessalonians',
+    bookSlug: '1-thessalonians',
+    chapterNumber: 5,
+    verseNumber: 16,
+    verseText: 'Always rejoice.'
+  },
+  {
+    bookName: '1 Thessalonians',
+    bookSlug: '1-thessalonians',
+    chapterNumber: 5,
+    verseNumber: 17,
+    verseText: 'Pray without ceasing.'
+  },
+  {
+    bookName: '1 Thessalonians',
+    bookSlug: '1-thessalonians',
+    chapterNumber: 5,
+    verseNumber: 18,
+    verseText: 'In all things give thanks; for this is the will of God in Christ Jesus concerning you all.'
+  },
+  {
+    bookName: '2 Timothy',
+    bookSlug: '2-timothy',
+    chapterNumber: 1,
+    verseNumber: 7,
+    verseText: 'For God hath not given us the spirit of fear: but of power, and of love, and of sobriety.'
+  },
+  {
+    bookName: '2 Timothy',
+    bookSlug: '2-timothy',
+    chapterNumber: 3,
+    verseNumber: 16,
+    verseText: 'All scripture, inspired of God, is profitable to teach, to reprove, to correct, to instruct in justice,'
+  },
+  {
+    bookName: 'Hebrews',
+    bookSlug: 'hebrews',
+    chapterNumber: 11,
+    verseNumber: 1,
+    verseText: 'Now faith is the substance of things to be hoped for, the evidence of things that appear not.'
+  },
+  {
+    bookName: 'Hebrews',
+    bookSlug: 'hebrews',
+    chapterNumber: 12,
+    verseNumber: 2,
+    verseText: 'Looking on Jesus, the author and finisher of faith, who having joy set before him, endured the cross, despising the shame, and now sitteth on the right hand of the throne of God.'
+  },
+  {
+    bookName: 'James',
+    bookSlug: 'james',
+    chapterNumber: 1,
+    verseNumber: 2,
+    verseText: 'My brethren, count it all joy, when you shall fall into divers temptations;'
+  },
+  {
+    bookName: 'James',
+    bookSlug: 'james',
+    chapterNumber: 1,
+    verseNumber: 5,
+    verseText: 'But if any of you want wisdom, let him ask of God, who giveth to all men abundantly, and upbraideth not; and it shall be given him.'
+  },
+  {
+    bookName: '1 Peter',
+    bookSlug: '1-peter',
+    chapterNumber: 3,
+    verseNumber: 15,
+    verseText: 'But sanctify the Lord Christ in your hearts, being ready always to satisfy every one that asketh you a reason of that hope which is in you.'
+  },
+  {
+    bookName: '1 Peter',
+    bookSlug: '1-peter',
+    chapterNumber: 5,
+    verseNumber: 7,
+    verseText: 'Casting all your care upon him, for he hath care of you.'
+  },
+  {
+    bookName: '1 John',
+    bookSlug: '1-john',
+    chapterNumber: 4,
+    verseNumber: 7,
+    verseText: 'Dearly beloved, let us love one another, for charity is of God. And every one that loveth, is born of God, and knoweth God.'
+  },
+  {
+    bookName: '1 John',
+    bookSlug: '1-john',
+    chapterNumber: 4,
+    verseNumber: 19,
+    verseText: 'Let us therefore love God, because God first hath loved us.'
+  },
+  {
+    bookName: 'Revelation',
+    bookSlug: 'revelation',
+    chapterNumber: 3,
+    verseNumber: 20,
+    verseText: 'Behold, I stand at the gate, and knock. If any man shall hear my voice, and open to me the door, I will come in to him, and will sup with him, and he with me.'
+  },
+  {
+    bookName: 'Revelation',
+    bookSlug: 'revelation',
+    chapterNumber: 21,
+    verseNumber: 4,
+    verseText: 'And God shall wipe away all tears from their eyes: and death shall be no more, nor mourning, nor crying, nor sorrow shall be any more, for the former things are passed away.'
   }
 ]
 
