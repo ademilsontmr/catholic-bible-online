@@ -88,6 +88,7 @@ export default function VerseOfTheDay() {
 
   // Create the text to be copied (verse + reference)
   const shareText = `"${verse.verseText}" - ${verse.bookName} ${verse.chapterNumber}:${verse.verseNumber}`
+  const shareUrl = `https://catholicbibleonline.com/verse-of-the-day`
 
   return (
     <section className="py-10">
@@ -100,7 +101,7 @@ export default function VerseOfTheDay() {
           <div className="text-gray-600 mb-4">
             <span className="font-semibold">{verse.bookName}</span> {verse.chapterNumber}:{verse.verseNumber}
           </div>
-          <div className="flex flex-col sm:flex-row gap-2 justify-center">
+          <div className="flex flex-col sm:flex-row gap-2 justify-center mb-6">
             <Link 
               href={`/bible/${verse.bookSlug}/${verse.chapterNumber}`} 
               className="inline-block px-6 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors font-medium"
@@ -111,8 +112,57 @@ export default function VerseOfTheDay() {
               text={shareText}
               className="inline-block px-6 py-2 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors font-medium"
             >
-              Share verse
+              Copy verse
             </CopyButton>
+          </div>
+          
+          {/* Share Section */}
+          <div className="border-t border-gray-200 pt-6">
+            <div className="text-sm text-gray-600 mb-4">Share this inspiration:</div>
+            <div className="flex flex-wrap justify-center gap-2">
+              <a
+                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-3 py-1 bg-blue-600 text-white rounded text-xs hover:bg-blue-700 transition-colors"
+              >
+                Facebook
+              </a>
+              
+              <a
+                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-3 py-1 bg-black text-white rounded text-xs hover:bg-gray-800 transition-colors"
+              >
+                X
+              </a>
+              
+              <a
+                href={`https://wa.me/?text=${encodeURIComponent(shareText + ' ' + shareUrl)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-3 py-1 bg-green-600 text-white rounded text-xs hover:bg-green-700 transition-colors"
+              >
+                WhatsApp
+              </a>
+              
+              <a
+                href={`https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareText)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-3 py-1 bg-blue-500 text-white rounded text-xs hover:bg-blue-600 transition-colors"
+              >
+                Telegram
+              </a>
+              
+              <a
+                href={`mailto:?subject=Verse of the Day&body=${encodeURIComponent(shareText + '\n\n' + shareUrl)}`}
+                className="inline-flex items-center px-3 py-1 bg-gray-600 text-white rounded text-xs hover:bg-gray-700 transition-colors"
+              >
+                Email
+              </a>
+            </div>
           </div>
         </div>
       </div>
