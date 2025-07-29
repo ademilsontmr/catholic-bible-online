@@ -52,14 +52,13 @@ export default function NovenaForPhysicalHealingDay9Page() {
               <p className="mb-6">
                 <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
               </p>
-              <p className="mb-4">
-                Lord, as we pray today focusing on miraculous healing, help us to grow in our faith and draw closer to You. 
-                May this day of prayer bring us the graces we need and strengthen our trust in Your healing power.
-              </p>
-              <p className="mb-4">
-                We ask for Your guidance and blessing as we continue this novena. 
-                Help us to be open to Your will and to trust in Your love and mercy for our physical healing.
-              </p>
+              <p className="mb-4">Almighty and Miraculous Father, we pray today for miraculous physical healing that glorifies Your name and demonstrates Your power to the world. We ask that You would work a miracle in our bodies that goes beyond human understanding and medical explanation. Lord, You are the God of miracles, who can do immeasurably more than all we ask or imagine. We pray that You would work Your miraculous power in our lives, bringing healing that can only be explained as Your divine intervention.</p>
+
+<p className="mb-4">Jesus, Miracle Worker and Divine Physician, during Your earthly ministry, You performed countless miracles that amazed and astonished those who witnessed them. You healed the sick, raised the dead, and performed signs and wonders that pointed to Your divinity. We believe that the same miraculous power that worked through You then is available to us now through Your grace and mercy. May our healing be a miracle that points others to You and brings glory to Your name.</p>
+
+<p className="mb-4">Holy Spirit, Power of God and Miracle Worker, we invite You to work within us, bringing Your miraculous healing presence to every part of our physical being. Help us to be open to receiving Your miracles, to recognize Your hand at work, and to give You all the glory for the healing that takes place. May our miraculous healing be a testimony to Your power and Your love.</p>
+
+<p className="mb-4">We pray that our miraculous healing would be a witness to Your love and Your power to transform lives. May it inspire others to trust in You, to seek Your healing touch, and to believe in the possibility of miracles. Help us to share our testimony of Your miraculous work, pointing others to Your love and Your desire for their complete healing and restoration.</p>
               <p className="mb-6">Amen.</p>
             </div>
           </div>

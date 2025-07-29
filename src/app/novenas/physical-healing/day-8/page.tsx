@@ -52,14 +52,13 @@ export default function NovenaForPhysicalHealingDay8Page() {
               <p className="mb-6">
                 <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
               </p>
-              <p className="mb-4">
-                Lord, as we pray today focusing on gratitude for healing, help us to grow in our faith and draw closer to You. 
-                May this day of prayer bring us the graces we need and strengthen our trust in Your healing power.
-              </p>
-              <p className="mb-4">
-                We ask for Your guidance and blessing as we continue this novena. 
-                Help us to be open to Your will and to trust in Your love and mercy for our physical healing.
-              </p>
+              <p className="mb-4">Gracious and Loving Father, we pray today with hearts full of gratitude for the physical healing that You are working in our lives. We thank You for Your love, Your mercy, and Your healing power that is at work in our bodies. Lord, You are the source of all good things, and we are grateful for every blessing, every grace, and every moment of Your healing work.</p>
+
+<p className="mb-4">Jesus, our Healer and Redeemer, help us to cultivate an attitude of gratitude that recognizes Your hand at work in every aspect of our healing journey. Give us the ability to see Your blessings even in the midst of illness, to recognize Your love even in difficult times, and to be thankful for the lessons we are learning through this experience. May our gratitude open our hearts to receive even more of Your healing grace.</p>
+
+<p className="mb-4">Holy Spirit, Giver of Gifts and Fruits, help us to express our gratitude in practical ways - through prayer, through acts of kindness to others, and through a life that reflects Your love and Your mercy. Help us to be grateful not just for what You do for us, but for who You are and for the relationship we have with You. May our gratitude be a witness to Your goodness and Your faithfulness.</p>
+
+<p className="mb-4">We ask that You would help us to be grateful for the people in our lives who support us and care for us during our healing journey. Give us the wisdom to recognize and appreciate the love and care that others show us, and the grace to express our gratitude to them. Let our gratitude be contagious, inspiring others to recognize and appreciate the blessings in their own lives.</p>
               <p className="mb-6">Amen.</p>
             </div>
           </div>

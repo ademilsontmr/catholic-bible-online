@@ -52,14 +52,13 @@ export default function NovenaForPhysicalHealingDay4Page() {
               <p className="mb-6">
                 <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
               </p>
-              <p className="mb-4">
-                Lord, as we pray today focusing on strength and energy, help us to grow in our faith and draw closer to You. 
-                May this day of prayer bring us the graces we need and strengthen our trust in Your healing power.
-              </p>
-              <p className="mb-4">
-                We ask for Your guidance and blessing as we continue this novena. 
-                Help us to be open to Your will and to trust in Your love and mercy for our physical healing.
-              </p>
+              <p className="mb-4">Almighty and Powerful Father, we pray today for renewed strength and energy to overcome physical weakness and fatigue. We ask that You would pour out Your strength upon us, filling us with the vitality and energy we need to face each day with courage and determination. Lord, You are the source of all strength, and we pray that You would renew our physical, emotional, and spiritual strength.</p>
+
+<p className="mb-4">Jesus, our Strength and our Shield, help us to trust in Your promise to give strength to the weary and to increase the power of the weak. Give us the ability to rise above our physical limitations and to find strength in You that goes beyond our natural capabilities. May Your strength be made perfect in our weakness, showing Your power and Your love through our courage and perseverance.</p>
+
+<p className="mb-4">Holy Spirit, Energizer and Life-Giver, help us to be good stewards of the strength and energy that You provide. Give us the wisdom to use our strength wisely, to take care of our bodies, and to face each day with courage and hope. May our strength and energy be a witness to Your power and Your love, inspiring others who may be facing similar physical challenges.</p>
+
+<p className="mb-4">We ask that You would help us to be a source of encouragement and support to others who may be struggling with physical weakness. Give us the wisdom to know how to encourage them, the patience to support them through difficult times, and the love to remind them of Your presence and Your care. May our support help them to find the strength and energy they need.</p>
               <p className="mb-6">Amen.</p>
             </div>
           </div>

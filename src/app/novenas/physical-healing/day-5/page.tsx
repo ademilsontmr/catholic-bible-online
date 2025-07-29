@@ -52,14 +52,13 @@ export default function NovenaForPhysicalHealingDay5Page() {
               <p className="mb-6">
                 <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
               </p>
-              <p className="mb-4">
-                Lord, as we pray today focusing on pain relief, help us to grow in our faith and draw closer to You. 
-                May this day of prayer bring us the graces we need and strengthen our trust in Your healing power.
-              </p>
-              <p className="mb-4">
-                We ask for Your guidance and blessing as we continue this novena. 
-                Help us to be open to Your will and to trust in Your love and mercy for our physical healing.
-              </p>
+              <p className="mb-4">Compassionate and Merciful Father, we pray today for relief from pain and suffering in our physical bodies. We ask that You would touch us with Your healing hand and remove all pain, discomfort, and suffering that we may be experiencing. Lord, You know every ache, every pain, every discomfort that we feel, and we pray that You would bring us comfort and relief.</p>
+
+<p className="mb-4">Jesus, Prince of Peace and Healer of Souls, help us to trust in Your ability to heal pain completely, knowing that You can remove suffering with a single word or touch. Give us the faith to believe that You desire our comfort and well-being, and that You will bring relief in Your perfect timing. May Your healing touch bring immediate comfort and lasting relief from all physical pain.</p>
+
+<p className="mb-4">Holy Spirit, Comforter and Advocate, help us to offer up our pain and suffering in union with Your own suffering on the cross. Help us to find meaning and purpose in our suffering, even as we pray for relief. May our pain be transformed into a prayer and an offering that brings grace and healing to others who are suffering.</p>
+
+<p className="mb-4">We ask that You would help us to be patient and trusting as we wait for Your healing touch. Give us the strength to endure any remaining pain with courage and faith, knowing that You are with us and working for our good. May the relief from pain be a witness to Your power and Your love, bringing glory to Your name.</p>
               <p className="mb-6">Amen.</p>
             </div>
           </div>

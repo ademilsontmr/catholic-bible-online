@@ -1,56 +1,59 @@
-'use client'
-
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { use } from 'react'
+import type { Metadata } from 'next'
 
-// Novena categories data
+export async function generateMetadata({ params }: { params: Promise<{ category: string }> }): Promise<Metadata> {
+  const { category } = await params
+  const categoryData = novenaCategories.find(cat => cat.slug === category)
+  
+  if (!categoryData) {
+    return {
+      title: 'Category Not Found',
+      description: 'The requested novena category could not be found.'
+    }
+  }
+
+  return {
+    title: `${categoryData.name} - Novena Category`,
+    description: categoryData.description,
+    keywords: [
+      categoryData.name.toLowerCase(),
+      'novenas',
+      'catholic prayers',
+      'nine day prayers'
+    ],
+    openGraph: {
+      title: `${categoryData.name} - Novena Category`,
+      description: categoryData.description,
+      url: `https://catholicbibleonline.com/novenas/${category}`,
+    },
+    twitter: {
+      title: `${categoryData.name} - Novena Category`,
+      description: categoryData.description,
+    }
+  }
+}
+
 const novenaCategories = [
   {
     slug: 'marian',
     name: 'Marian Novenas',
     description: 'Nine-day prayers to the Blessed Virgin Mary',
     icon: '🌹',
-    count: 17,
-                    novenas: [
-                  { name: 'Novena to Our Lady of Perpetual Help', slug: 'our-lady-of-perpetual-help', available: true },
+    count: 11,
+    novenas: [
+      { name: 'Novena to Our Lady of Perpetual Help', slug: 'our-lady-of-perpetual-help', available: true },
       { name: 'Novena to Our Lady of Fatima', slug: 'our-lady-of-fatima', available: true },
+      { name: 'Novena to Our Lady of Guadalupe', slug: 'our-lady-of-guadalupe', available: true },
+      { name: 'Novena to Our Lady of Lourdes', slug: 'our-lady-of-lourdes', available: true },
+      { name: 'Novena to Our Lady of Pompei', slug: 'our-lady-of-pompei', available: true },
       { name: 'Novena to Our Lady of Mount Carmel', slug: 'our-lady-of-mount-carmel', available: true },
       { name: 'Novena to Our Lady of Sorrows', slug: 'our-lady-of-sorrows', available: true },
-      { name: 'Novena to Our Lady of Good Counsel', slug: 'our-lady-of-good-counsel', available: true },
-      { name: 'Novena to Our Lady of the Miraculous Medal', slug: 'our-lady-of-the-miraculous-medal', available: true },
-                  { name: 'Novena to Our Lady of Guadalupe', slug: 'our-lady-of-guadalupe', available: true },
-                  { name: 'Novena to Our Lady of Lourdes', slug: 'our-lady-of-lourdes', available: true },
-      { name: 'Novena to the Holy Family', slug: 'holy-family', available: true },
-      { name: 'The Assumption Novena', slug: 'assumption', available: true },
-      { name: 'Our Lady of Pompei Novena', slug: 'our-lady-of-pompei', available: true },
-      { name: 'Novena for Peace to Our Lady of Sorrows', slug: 'novena-for-peace-to-our-lady-of-sorrows', available: true },
-      { name: 'Novena to Our Lady of Hope', slug: 'our-lady-of-hope', available: true },
-      { name: 'Our Lady of the Holy Rosary Novena', slug: 'our-lady-of-the-holy-rosary', available: true },
-      { name: 'The Three Hail Marys Novena', slug: 'three-hail-marys', available: true },
-      { name: 'Our Lady of Good Remedy Novena', slug: 'our-lady-of-good-remedy', available: true },
-      { name: 'Novena to Our Lady of Knock', slug: 'our-lady-of-knock', available: true }
-                ]
-  },
-  {
-    slug: 'saints',
-    name: 'Saints Novenas',
-    description: 'Nine-day prayers to various saints',
-    icon: '🙏',
-    count: 13,
-    novenas: [
-      { name: 'Novena to St. Rita of Cascia', slug: 'st-rita-cascia', available: true },
-      { name: 'Novena to St. Catherine Labouré', slug: 'st-catherine-laboure', available: true },
-      { name: 'Novena to St. Benedict', slug: 'st-benedict', available: true },
-      { name: 'Novena to St. Peregrine', slug: 'st-peregrine', available: true },
-      { name: 'Novena to St. John Bosco', slug: 'st-john-bosco', available: true },
-      { name: 'St. Anthony Novena', slug: 'st-anthony', available: true },
-      { name: 'Novena to St. Philomena', slug: 'st-philomena', available: true },
-      { name: 'Novena to St. Joseph', slug: 'st-joseph', available: true },
-      { name: 'St. Jude Novena', slug: 'st-jude', available: true },
-      { name: 'Novena to St. Anne', slug: 'st-anne', available: true },
-      { name: 'Novena to Carlo Acutis', slug: 'carlo-acutis', available: true },
-      { name: 'Novena to St. Thérèse of Lisieux', slug: 'st-therese-lisieux', available: true }
+      { name: 'Immaculate Conception Novena', slug: 'immaculate-conception', available: true },
+      { name: 'Nativity of the Blessed Virgin Mary Novena', slug: 'nativity-blessed-virgin-mary', available: true },
+      { name: 'The Presentation of Mary Novena', slug: 'presentation-of-mary', available: true },
+      { name: 'Novena to Mary Star of the Sea', slug: 'mary-star-of-the-sea', available: true }
     ]
   },
   {
@@ -58,23 +61,40 @@ const novenaCategories = [
     name: 'Devotions',
     description: 'Nine-day prayers to Jesus and the Holy Spirit',
     icon: '❤️',
-    count: 3,
+    count: 5,
     novenas: [
       { name: 'Novena to the Sacred Heart of Jesus', slug: 'sacred-heart', available: true },
       { name: 'Novena to the Holy Spirit', slug: 'holy-spirit', available: true },
-      { name: 'Novena to the Divine Mercy', slug: 'divine-mercy', available: true }
+      { name: 'Novena to the Divine Mercy', slug: 'divine-mercy', available: true },
+      { name: 'Novena for Adoration of the Eucharist', slug: 'eucharistic-adoration', available: true },
+      { name: 'Guardian Angel Novena', slug: 'guardian-angel', available: true }
     ]
   },
   {
-    slug: 'seasonal',
-    name: 'Seasonal Novenas',
-    description: 'Nine-day prayers for specific seasons',
-    icon: '🎄',
-    count: 3,
+    slug: 'saints',
+    name: 'Saint Novenas',
+    description: 'Nine-day prayers to various saints',
+    icon: '🙏',
+    count: 18,
     novenas: [
-      { name: 'Christmas Advent Novena', slug: 'christmas-advent', available: true },
-      { name: 'Easter Novena', slug: 'easter', available: true },
-      { name: 'Pentecost Novena', slug: 'pentecost', available: true }
+      { name: 'Novena to St. Jude', slug: 'st-jude', available: true },
+      { name: 'Novena to St. Anthony', slug: 'st-anthony', available: true },
+      { name: 'Novena to St. Joseph', slug: 'st-joseph', available: true },
+      { name: 'Novena to St. Anne', slug: 'st-anne', available: true },
+      { name: 'Novena to St. Gerard', slug: 'st-gerard', available: true },
+      { name: 'Novena to St. John Vianney', slug: 'st-john-vianney', available: true },
+      { name: 'Novena to St. Maximilian Kolbe', slug: 'st-maximilian-kolbe', available: true },
+      { name: 'Novena to St. Rita of Cascia', slug: 'st-rita-cascia', available: true },
+      { name: 'Novena to St. Philomena', slug: 'st-philomena', available: true },
+      { name: 'Novena to St. John Bosco', slug: 'st-john-bosco', available: true },
+      { name: 'Novena to St. Peregrine', slug: 'st-peregrine', available: true },
+      { name: 'Novena to St. Benedict', slug: 'st-benedict', available: true },
+      { name: 'St. Augustine Novena', slug: 'st-augustine', available: true },
+      { name: 'Saints Joachim and Anne Novena', slug: 'saints-joachim-anne', available: true },
+      { name: 'Mother Angelica Novena', slug: 'mother-angelica', available: true },
+      { name: 'St. Michael the Archangel Novena', slug: 'st-michael-archangel', available: true },
+      { name: 'St. Joan of Arc Novena', slug: 'st-joan-of-arc', available: true },
+      { name: 'St. John Paul II Novena', slug: 'st-john-paul-ii', available: true }
     ]
   },
   {
@@ -82,10 +102,16 @@ const novenaCategories = [
     name: 'Healing Novenas',
     description: 'Nine-day prayers for physical and spiritual healing',
     icon: '🏥',
-    count: 2,
+    count: 8,
     novenas: [
       { name: 'Novena for Physical Healing', slug: 'physical-healing', available: true },
-      { name: 'Novena for the Sick', slug: 'sick', available: true }
+      { name: 'Novena for the Sick', slug: 'sick', available: true },
+      { name: 'Novena for Emotional Healing', slug: 'emotional-healing', available: true },
+      { name: 'Novena for Spiritual Healing', slug: 'spiritual-healing', available: true },
+      { name: 'Novena for Healing from Anxiety and Fear', slug: 'anxiety-fear', available: true },
+      { name: 'Novena for Healing After Loss', slug: 'healing-after-loss', available: true },
+      { name: 'Novena for Healing and Strength', slug: 'healing-strength', available: true },
+      { name: 'Novena for Addiction Recovery', slug: 'addiction-recovery', available: true }
     ]
   },
   {
@@ -93,90 +119,110 @@ const novenaCategories = [
     name: 'Family Novenas',
     description: 'Nine-day prayers for family intentions',
     icon: '👨‍👩‍👧‍👦',
-    count: 3,
+    count: 4,
     novenas: [
       { name: 'Novena for Families', slug: 'families', available: true },
       { name: 'Novena for Children', slug: 'children', available: true },
-      { name: 'Novenas For Marriage', slug: 'marriage', available: true }
+      { name: 'Novenas For Marriage', slug: 'marriage', available: true },
+      { name: 'Novena for a Difficult Pregnancy', slug: 'difficult-pregnancy', available: true }
+    ]
+  },
+  {
+    slug: 'seasonal',
+    name: 'Seasonal Novenas',
+    description: 'Nine-day prayers for specific liturgical seasons or times of year',
+    icon: '🌸',
+    count: 5,
+    novenas: [
+      { name: 'Christmas Novena', slug: 'christmas', available: true },
+      { name: 'Lent Novena', slug: 'lent', available: true },
+      { name: 'Easter Novena', slug: 'easter', available: true },
+      { name: 'Advent Novena', slug: 'advent', available: true },
+      { name: 'New Year Novena', slug: 'new-year', available: true }
     ]
   },
   {
     slug: 'special',
-    name: 'Special Novenas',
-    description: 'Nine-day prayers for special intentions and occasions',
-    icon: '🌟',
-    count: 11,
+    name: 'Special Intentions',
+    description: 'Nine-day prayers for various special intentions',
+    icon: '✨',
+    count: 9,
     novenas: [
-      { name: 'Divine Mercy Novena', slug: 'divine-mercy', available: true },
-      { name: 'Christmas Advent Novena', slug: 'christmas-advent', available: true },
-      { name: 'Novena of the Holy Spirit', slug: 'holy-spirit', available: true },
-      { name: 'Holy Cross Novena', slug: 'holy-cross', available: true },
-      { name: 'The Ascension Novena', slug: 'ascension', available: true },
-      { name: 'Corpus Christi Novena', slug: 'corpus-christi', available: true },
-      { name: 'Novena to Christ the King', slug: 'christ-the-king', available: true },
-      { name: 'Novena to the Holy Ghost', slug: 'holy-ghost', available: true },
-      { name: 'Novena for the Pope', slug: 'pope', available: true },
-      { name: 'Novena of Trust to the Divine Infant Jesus', slug: 'divine-infant-jesus', available: true },
-      { name: 'Novena of Confidence to the Sacred Heart', slug: 'sacred-heart-confidence', available: true }
+      { name: 'Novena for a Job', slug: 'job', available: true },
+      { name: 'Novena for Financial Help', slug: 'financial-help', available: true },
+      { name: 'Novena for a New Home', slug: 'new-home', available: true },
+      { name: 'Novena for a Good Husband', slug: 'good-husband', available: true },
+      { name: 'Novena for a Good Wife', slug: 'good-wife', available: true },
+      { name: 'Novena for a Good Confession', slug: 'good-confession', available: true },
+      { name: 'Novena for Grace', slug: 'grace', available: true },
+      { name: 'Novena Against Fear', slug: 'against-fear', available: true },
+      { name: 'Novena Against Evil', slug: 'against-evil', available: true }
     ]
   }
 ]
 
 const availableNovenas = [
   'our-lady-of-perpetual-help',
+  'our-lady-of-fatima',
   'our-lady-of-guadalupe',
   'our-lady-of-lourdes',
-  'our-lady-of-fatima',
-          'our-lady-of-mount-carmel',
-        'our-lady-of-the-rosary',
-        'our-lady-of-sorrows',
-        'our-lady-of-good-counsel',
-        'our-lady-of-the-miraculous-medal',
+  'our-lady-of-pompei',
+  'our-lady-of-mount-carmel',
+  'our-lady-of-sorrows',
   'sacred-heart',
   'holy-spirit',
   'divine-mercy',
-  'christmas-advent',
-  'easter',
-  'pentecost',
-  'st-rita-cascia',
-  'st-catherine-laboure',
-  'st-benedict',
-  'st-peregrine',
-  'st-john-bosco',
-  'st-anthony',
-  'st-philomena',
-  'st-joseph',
   'st-jude',
+  'st-anthony',
+  'st-joseph',
   'st-anne',
-  'carlo-acutis',
-  'st-therese-lisieux',
-  'holy-spirit',
-  'st-maximilian-kolbe',
   'st-gerard',
   'st-john-vianney',
-  'novena-for-grace',
-  'holy-cross',
-  'holy-family',
-  'assumption',
-  'ascension',
-  'corpus-christi',
-  'christ-the-king',
-  'holy-ghost',
-  'pope',
-  'divine-infant-jesus',
-  'sacred-heart-confidence',
-  'our-lady-of-pompei',
-  'novena-for-peace-to-our-lady-of-sorrows',
-  'our-lady-of-hope',
-  'our-lady-of-the-holy-rosary',
-  'three-hail-marys',
-  'our-lady-of-good-remedy',
-  'our-lady-of-knock',
+  'st-maximilian-kolbe',
+  'st-rita-cascia',
+  'st-philomena',
+  'st-john-bosco',
+  'st-peregrine',
+  'st-benedict',
   'families',
   'children',
   'marriage',
+  'christmas',
+  'lent',
+  'easter',
+  'advent',
+  'job',
+  'financial-help',
+  'new-home',
+  'good-husband',
+  'good-wife',
+  'good-confession',
+  'grace',
   'physical-healing',
-  'sick'
+  'sick',
+  'emotional-healing',
+  'spiritual-healing',
+  'anxiety-fear',
+  'healing-after-loss',
+  'healing-strength',
+  'eucharistic-adoration',
+  'difficult-pregnancy',
+  'addiction-recovery',
+  'st-augustine',
+  'saints-joachim-anne',
+  'against-fear',
+  'against-evil',
+  'new-year',
+  'immaculate-conception',
+  'nativity-blessed-virgin-mary',
+  'presentation-of-mary',
+  'mary-star-of-the-sea',
+  'guardian-angel',
+  'mother-angelica',
+  'st-michael-archangel',
+  'st-joan-of-arc',
+  'st-john-paul-ii',
+  'students'
 ]
 
 interface PageProps {
@@ -258,54 +304,30 @@ export default function NovenaCategoryPage({ params }: PageProps) {
                 {novena.available ? (
                   <Link 
                     href={`/novenas/${novena.slug}`}
-                    className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors text-sm font-medium"
+                    className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
                   >
                     Start Novena →
                   </Link>
                 ) : (
-                  <div className="text-gray-500 text-sm">
-                    This novena will be available soon. Check back later!
-                  </div>
+                  <span className="inline-flex items-center px-4 py-2 bg-gray-300 text-gray-600 rounded-md cursor-not-allowed">
+                    Coming Soon
+                  </span>
                 )}
               </div>
             ))}
           </div>
         </section>
 
-        {/* Category Description */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-black mb-6 text-center">About {categoryData.name}</h2>
-          
-          <div className="bg-gray-50 rounded-lg p-8">
-            <div className="prose prose-lg max-w-none text-gray-700">
-              <p className="mb-6">
-                {categoryData.description} These powerful nine-day prayer devotions help us grow closer to God 
-                and seek His grace and intercession for our needs and intentions.
-              </p>
-              
-              <p className="mb-6">
-                Each novena in this category focuses on a specific aspect of our faith and provides a structured 
-                way to pray for nine consecutive days, building our relationship with God and the saints.
-              </p>
-              
-              <p>
-                Whether you're seeking healing, guidance, or spiritual growth, these novenas offer a powerful 
-                way to deepen your faith and experience God's love and mercy in your life.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Navigation */}
-        <div className="text-center">
-          <Link 
+        {/* Back to Categories */}
+        <section className="text-center">
+          <Link
             href="/novenas"
-            className="inline-flex items-center px-8 py-4 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors text-lg font-medium"
+            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
           >
-            ← Back to All Novenas
+            ← Back to All Categories
           </Link>
-        </div>
+        </section>
       </div>
     </div>
   )
-} 
+}

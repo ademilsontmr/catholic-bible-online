@@ -52,14 +52,13 @@ export default function NovenaForPhysicalHealingDay7Page() {
               <p className="mb-6">
                 <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
               </p>
-              <p className="mb-4">
-                Lord, as we pray today focusing on complete restoration, help us to grow in our faith and draw closer to You. 
-                May this day of prayer bring us the graces we need and strengthen our trust in Your healing power.
-              </p>
-              <p className="mb-4">
-                We ask for Your guidance and blessing as we continue this novena. 
-                Help us to be open to Your will and to trust in Your love and mercy for our physical healing.
-              </p>
+              <p className="mb-4">Almighty and Loving Father, we pray today for complete physical restoration and wholeness. We ask that You would work a miracle in our bodies, bringing complete healing and restoration to every aspect of our physical being. Lord, You are the God of restoration, who makes all things new and brings beauty from ashes. We pray that You would work Your miraculous power in our lives, bringing complete physical restoration and wholeness.</p>
+
+<p className="mb-4">Jesus, our Savior and Redeemer, help us to believe that You can and will bring complete healing, not just partial healing, but full and complete restoration in every aspect of our being. Give us the faith to trust in Your power to work miracles and the hope to believe that complete healing is possible. May our healing be a testimony to Your power and Your love, inspiring others to trust in You and to seek Your healing touch.</p>
+
+<p className="mb-4">Holy Spirit, Transformer and Renewer, help us to be open to receiving Your complete healing in whatever way You choose to work it. Whether through prayer, through the sacraments, through medical treatment, or through Your direct intervention, help us to recognize and receive Your healing work. May we be like the people who witnessed Your miracles and gave glory to God.</p>
+
+<p className="mb-4">We ask that You would help us to be a source of hope and encouragement to others who are seeking complete healing in their own lives. May our healing journey inspire and encourage those who may be struggling with similar health challenges. Help us to share the love and mercy that we have received from You, pointing others to Your healing power and Your desire for their complete restoration.</p>
               <p className="mb-6">Amen.</p>
             </div>
           </div>

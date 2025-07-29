@@ -52,14 +52,13 @@ export default function NovenaForPhysicalHealingDay2Page() {
               <p className="mb-6">
                 <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
               </p>
-              <p className="mb-4">
-                Lord, as we pray today focusing on hope for physical recovery, help us to grow in our faith and draw closer to You. 
-                May this day of prayer bring us the graces we need and strengthen our trust in Your healing power.
-              </p>
-              <p className="mb-4">
-                We ask for Your guidance and blessing as we continue this novena. 
-                Help us to be open to Your will and to trust in Your love and mercy for our physical healing.
-              </p>
+              <p className="mb-4">Gracious and Loving Father, we pray today for hope and confidence in Your plan for physical recovery and restoration. We ask that You would fill our hearts with hope that springs from Your promises and Your character. Lord, You have said that those who hope in You will renew their strength, and we pray that You would renew the strength of our bodies and our hope as we wait for Your healing touch.</p>
+
+<p className="mb-4">Jesus, our Savior and Healer, You are the source of all hope. Your resurrection from the dead gives us hope that even death itself has been conquered, and that physical healing and restoration are possible through Your power. Help us to hope not just for partial healing, but for complete restoration of every aspect of our physical health and well-being. May our hope be anchored in Your word and Your character, knowing that You are faithful and true to Your promises.</p>
+
+<p className="mb-4">Holy Spirit, Comforter and Advocate, help us to hope with confidence, not in our own strength or medical treatments alone, but in Your power and Your love. Give us the ability to see beyond our current physical limitations and to trust in Your perfect timing and plan for our recovery. May our hope be like a beacon that guides us through the darkest times of illness and leads us to the healing and restoration that You have planned.</p>
+
+<p className="mb-4">We pray that You would help us to be a source of hope for others who may be struggling with physical illness or despair about their health. May our hope in You inspire and encourage those around us who may be feeling overwhelmed by the challenges of physical suffering. Help us to share the hope that we have in You, pointing others to Your love and Your healing power.</p>
               <p className="mb-6">Amen.</p>
             </div>
           </div>

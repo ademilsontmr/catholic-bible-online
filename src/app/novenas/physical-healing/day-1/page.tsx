@@ -52,14 +52,13 @@ export default function NovenaForPhysicalHealingDay1Page() {
               <p className="mb-6">
                 <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
               </p>
-              <p className="mb-4">
-                Lord, as we pray today focusing on faith in physical healing, help us to grow in our faith and draw closer to You. 
-                May this day of prayer bring us the graces we need and strengthen our trust in Your healing power.
-              </p>
-              <p className="mb-4">
-                We ask for Your guidance and blessing as we continue this novena. 
-                Help us to be open to Your will and to trust in Your love and mercy for our physical healing.
-              </p>
+              <p className="mb-4">Almighty and Merciful Father, we come before You today with hearts full of faith and trust in Your infinite power to heal the physical body completely. We acknowledge that You are the Creator of all things, the Divine Physician who formed our bodies from the dust of the earth and breathed life into our nostrils. You know every cell, every tissue, every organ, and every system within us, for You created them all with perfect wisdom and love.</p>
+
+<p className="mb-4">Lord Jesus Christ, during Your earthly ministry, You demonstrated Your power over physical illness time and time again. You healed the lepers, restored sight to the blind, made the lame walk, and even raised the dead. Your healing touch brought complete restoration to those who had faith in You. We believe with unwavering faith that the same healing power that flowed from You then is available to us now through Your grace and mercy.</p>
+
+<p className="mb-4">Holy Spirit, we invite You to work within us, renewing our faith and strengthening our belief in God's ability to heal the physical body. Help us to trust completely in the Father's love and His desire for our complete physical well-being. May our faith be like that of the woman who touched the hem of Your garment, believing that even a touch of Your power could bring complete healing.</p>
+
+<p className="mb-4">We pray that You would increase our faith in Your promises, especially Your promise to be with us always and to work all things for our good. Help us to believe that even in the midst of physical suffering and illness, You are present and working for our healing and restoration. May our faith be a light that shines brightly, inspiring others to trust in Your healing power as well.</p>
               <p className="mb-6">Amen.</p>
             </div>
           </div>

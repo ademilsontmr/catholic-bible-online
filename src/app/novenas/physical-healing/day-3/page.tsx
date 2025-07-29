@@ -52,14 +52,13 @@ export default function NovenaForPhysicalHealingDay3Page() {
               <p className="mb-6">
                 <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
               </p>
-              <p className="mb-4">
-                Lord, as we pray today focusing on divine touch, help us to grow in our faith and draw closer to You. 
-                May this day of prayer bring us the graces we need and strengthen our trust in Your healing power.
-              </p>
-              <p className="mb-4">
-                We ask for Your guidance and blessing as we continue this novena. 
-                Help us to be open to Your will and to trust in Your love and mercy for our physical healing.
-              </p>
+              <p className="mb-4">Merciful and Compassionate Father, we pray today for Your divine touch to restore health and vitality to our physical bodies. We ask that You would reach out Your healing hand and touch every part of our being that needs restoration. Lord, just as You touched the lepers and made them clean, just as You touched the eyes of the blind and gave them sight, we pray that You would touch our bodies and bring complete healing.</p>
+
+<p className="mb-4">Jesus, Divine Physician, Your touch has the power to heal all diseases and restore all brokenness. We believe that Your touch can reach the deepest parts of our physical being and bring miraculous restoration. Help us to trust in Your ability to provide healing that goes beyond human understanding, knowing that You can bring health even in the midst of pain and suffering.</p>
+
+<p className="mb-4">Holy Spirit, we invite You to work within us, bringing Your healing presence to every cell, every organ, and every system in our bodies. May Your touch be like a gentle balm that soothes our pain and calms our fears. Help us to be open to receiving Your healing touch, to recognize Your presence in the care and support that surrounds us, and to be grateful for every moment of Your healing work.</p>
+
+<p className="mb-4">We pray that Your divine touch would be a witness to Your love and Your power. May our healing be a testimony to Your mercy and Your desire for our complete well-being. Help us to be patient and trusting as we wait for Your healing touch, knowing that You work in Your perfect timing and according to Your perfect will.</p>
               <p className="mb-6">Amen.</p>
             </div>
           </div>

@@ -44,6 +44,19 @@ const novenaCategories = [
     ]
   },
   {
+    slug: 'devotions',
+    name: 'Devotions',
+    description: 'Nine-day prayers to Jesus and the Holy Spirit',
+    icon: '❤️',
+    count: 4,
+    novenas: [
+      'Novena to the Sacred Heart of Jesus',
+      'Novena to the Holy Spirit',
+      'Novena to the Divine Mercy',
+      'Novena for Adoration of the Eucharist'
+    ]
+  },
+  {
     slug: 'healing',
     name: 'Healing Novenas',
     description: 'Nine-day prayers for physical and spiritual healing',

@@ -52,14 +52,13 @@ export default function NovenaForPhysicalHealingDay6Page() {
               <p className="mb-6">
                 <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
               </p>
-              <p className="mb-4">
-                Lord, as we pray today focusing on organ healing, help us to grow in our faith and draw closer to You. 
-                May this day of prayer bring us the graces we need and strengthen our trust in Your healing power.
-              </p>
-              <p className="mb-4">
-                We ask for Your guidance and blessing as we continue this novena. 
-                Help us to be open to Your will and to trust in Your love and mercy for our physical healing.
-              </p>
+              <p className="mb-4">Divine Creator and Master Physician, we pray today for healing of specific organs and bodily systems. We ask that You would touch and restore every organ in our bodies that needs healing - our heart, lungs, liver, kidneys, stomach, intestines, brain, and all other vital organs. Lord, You created each organ with perfect design and function, and we pray that You would restore them to their optimal health and performance.</p>
+
+<p className="mb-4">Jesus, Divine Healer, Your power extends to every part of our physical being. We believe that You can heal any organ, any tissue, any cell that is damaged or diseased. Help us to trust in Your ability to work miracles in our bodies, knowing that nothing is impossible for You. May Your healing power flow through every system in our bodies, bringing restoration and renewal.</p>
+
+<p className="mb-4">Holy Spirit, Life-Giver and Restorer, we invite You to work within us, bringing Your healing presence to every organ and system. Help us to be specific in our prayers for healing, to name each organ that needs restoration, and to trust in Your power to bring complete healing. May our prayers be like a healing balm that reaches every part of our physical being.</p>
+
+<p className="mb-4">We pray that You would help us to be grateful for the healing that is taking place in our bodies, even if we cannot see it immediately. Give us the faith to believe that You are working in ways that we cannot understand, bringing restoration and renewal to every part of our physical being. May our healing be a testimony to Your power and Your love.</p>
               <p className="mb-6">Amen.</p>
             </div>
           </div>
