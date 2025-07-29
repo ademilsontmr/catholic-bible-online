@@ -1,6 +1,5 @@
 'use client'
 
-import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import CopyButton from './CopyButton'
 
@@ -79,39 +78,14 @@ const popularVerses = [
 ]
 
 export default function VerseOfTheDay() {
-  const [todaysVerse, setTodaysVerse] = useState(popularVerses[0])
-  const [isLoading, setIsLoading] = useState(true)
-
-  useEffect(() => {
-    // Calculate today's verse based on the day of the year
-    const now = new Date()
-    const start = new Date(now.getFullYear(), 0, 0)
-    const diff = (now.getTime() - start.getTime()) + ((start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000)
-    const oneDay = 1000 * 60 * 60 * 24
-    const dayOfYear = Math.floor(diff / oneDay)
-
-    const verseIndex = dayOfYear % popularVerses.length
-    setTodaysVerse(popularVerses[verseIndex])
-    setIsLoading(false)
-  }, [])
+  // Use a simple approach to get today's verse
+  const today = new Date()
+  const dayOfYear = Math.floor((today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / (1000 * 60 * 60 * 24))
+  const verseIndex = dayOfYear % popularVerses.length
+  const todaysVerse = popularVerses[verseIndex]
 
   const shareText = `"${todaysVerse.verseText}" - ${todaysVerse.bookName} ${todaysVerse.chapterNumber}:${todaysVerse.verseNumber}`
-
-  if (isLoading) {
-    return (
-      <section className="py-10">
-        <div className="max-w-2xl mx-auto px-4">
-          <div className="bg-gray-50 border border-gray-200 rounded-xl shadow-lg p-8 text-center">
-            <div className="text-2xl font-bold text-black mb-2">Verse of the Day</div>
-            <div className="animate-pulse">
-              <div className="h-6 bg-gray-200 rounded mb-4"></div>
-              <div className="h-4 bg-gray-200 rounded mb-4"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-    )
-  }
+  const siteUrl = 'https://catholicbibleonline.com'
 
   return (
     <section className="py-10">
@@ -124,7 +98,7 @@ export default function VerseOfTheDay() {
           <div className="text-gray-600 mb-4">
             <span className="font-semibold">{todaysVerse.bookName}</span> {todaysVerse.chapterNumber}:{todaysVerse.verseNumber}
           </div>
-          <div className="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-4 mb-6">
+          <div className="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-4">
             <Link
               href={`/bible/${todaysVerse.bookSlug}/${todaysVerse.chapterNumber}`}
               className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-200 shadow-sm"
@@ -137,15 +111,15 @@ export default function VerseOfTheDay() {
           </div>
           
           {/* Social Sharing Section */}
-          <div className="border-t border-gray-200 pt-6">
-            <div className="text-sm text-gray-600 mb-4">Share this inspiration:</div>
-            <div className="flex flex-wrap justify-center gap-3">
+          <div className="mt-6 pt-6 border-t border-gray-200">
+            <div className="text-sm text-gray-600 mb-3">Share this inspiration</div>
+            <div className="flex flex-wrap justify-center gap-2">
               {/* Facebook */}
               <a
-                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}&quote=${encodeURIComponent(shareText)}`}
+                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(siteUrl)}&quote=${encodeURIComponent(shareText)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center w-10 h-10 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors duration-200"
+                className="inline-flex items-center justify-center w-10 h-10 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors"
                 aria-label="Share on Facebook"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -155,10 +129,10 @@ export default function VerseOfTheDay() {
               
               {/* Twitter/X */}
               <a
-                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(window.location.href)}`}
+                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(siteUrl)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center w-10 h-10 bg-black text-white rounded-full hover:bg-gray-800 transition-colors duration-200"
+                className="inline-flex items-center justify-center w-10 h-10 bg-black text-white rounded-full hover:bg-gray-800 transition-colors"
                 aria-label="Share on Twitter/X"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -168,10 +142,10 @@ export default function VerseOfTheDay() {
               
               {/* WhatsApp */}
               <a
-                href={`https://wa.me/?text=${encodeURIComponent(shareText + ' ' + window.location.href)}`}
+                href={`https://wa.me/?text=${encodeURIComponent(shareText + ' ' + siteUrl)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center w-10 h-10 bg-green-600 text-white rounded-full hover:bg-green-700 transition-colors duration-200"
+                className="inline-flex items-center justify-center w-10 h-10 bg-green-600 text-white rounded-full hover:bg-green-700 transition-colors"
                 aria-label="Share on WhatsApp"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -181,10 +155,10 @@ export default function VerseOfTheDay() {
               
               {/* Telegram */}
               <a
-                href={`https://t.me/share/url?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent(shareText)}`}
+                href={`https://t.me/share/url?url=${encodeURIComponent(siteUrl)}&text=${encodeURIComponent(shareText)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center w-10 h-10 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-colors duration-200"
+                className="inline-flex items-center justify-center w-10 h-10 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-colors"
                 aria-label="Share on Telegram"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -194,8 +168,8 @@ export default function VerseOfTheDay() {
               
               {/* Email */}
               <a
-                href={`mailto:?subject=${encodeURIComponent('Verse of the Day')}&body=${encodeURIComponent(shareText + '\n\n' + window.location.href)}`}
-                className="inline-flex items-center justify-center w-10 h-10 bg-gray-600 text-white rounded-full hover:bg-gray-700 transition-colors duration-200"
+                href={`mailto:?subject=${encodeURIComponent('Verse of the Day')}&body=${encodeURIComponent(shareText + '\n\n' + siteUrl)}`}
+                className="inline-flex items-center justify-center w-10 h-10 bg-gray-600 text-white rounded-full hover:bg-gray-700 transition-colors"
                 aria-label="Share via Email"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
