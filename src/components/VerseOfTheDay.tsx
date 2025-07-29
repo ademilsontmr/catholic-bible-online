@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import CopyButton from './CopyButton'
 
 // Lista de versos populares para rotação
 const popularVerses = [
@@ -85,6 +86,9 @@ export default function VerseOfTheDay() {
   const verseIndex = dayOfYear % popularVerses.length
   const verse = popularVerses[verseIndex]
 
+  // Create the text to be copied (verse + reference)
+  const shareText = `"${verse.verseText}" - ${verse.bookName} ${verse.chapterNumber}:${verse.verseNumber}`
+
   return (
     <section className="py-10">
       <div className="max-w-2xl mx-auto px-4">
@@ -103,12 +107,12 @@ export default function VerseOfTheDay() {
             >
               Read full chapter
             </Link>
-            <Link 
-              href="/verse-of-the-day" 
+            <CopyButton 
+              text={shareText}
               className="inline-block px-6 py-2 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors font-medium"
             >
               Share verse
-            </Link>
+            </CopyButton>
           </div>
         </div>
       </div>
