@@ -18,22 +18,6 @@ export default [
           jsx: true,
         },
       },
-      globals: {
-        // Variáveis globais do navegador
-        window: 'readonly',
-        document: 'readonly',
-        navigator: 'readonly',
-        console: 'readonly',
-        setTimeout: 'readonly',
-        clearTimeout: 'readonly',
-        URL: 'readonly',
-        KeyboardEvent: 'readonly',
-        MouseEvent: 'readonly',
-        HTMLDivElement: 'readonly',
-        HTMLInputElement: 'readonly',
-        Node: 'readonly',
-        React: 'readonly',
-      },
     },
     plugins: {
       '@next/next': nextPlugin,
@@ -42,14 +26,12 @@ export default [
       '@typescript-eslint': typescriptPlugin,
     },
     rules: {
-      // Desabilitar temporariamente as regras que estão causando problemas
       'react/no-unescaped-entities': 'off',
       '@next/next/no-html-link-for-pages': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
       '@typescript-eslint/no-unused-vars': 'off',
       'react-hooks/exhaustive-deps': 'off',
-      'no-undef': 'off',
-      'no-unused-vars': 'off',
+      'react/react-in-jsx-scope': 'off',
     },
   },
 ]

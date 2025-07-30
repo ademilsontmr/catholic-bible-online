@@ -216,17 +216,17 @@ export default function NorthAmericanMartyrsNovenaDay9Page() {
         {/* Navigation */}
         <div className="flex justify-between items-center">
           <Link 
-            href="/novenas/north-american-martyrs"
+            href="/novenas/north-american-martyrs/day-8"
             className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
           >
-            ← Back to Novena Overview
+            ← Day 8: Suffering
           </Link>
           
           <Link 
-            href="/novenas"
+            href="/novenas/north-american-martyrs"
             className="inline-flex items-center px-6 py-3 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors"
           >
-            View All Novenas →
+            Back to Novena Overview →
           </Link>
         </div>
       </div>

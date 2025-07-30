@@ -15,16 +15,16 @@ export const metadata: Metadata = {
     'emotional restoration prayer',
     'peace of mind novena',
     'emotional wellness prayer',
-    'catholic emotional healing'
+    'catholic novena'
   ],
   openGraph: {
     title: 'Novena for Emotional Healing - Complete 9-Day Prayer Guide',
-    description: 'Complete Novena for Emotional Healing with daily prayers, reflections, and guidance for emotional recovery.',
+    description: 'Complete Novena for Emotional Healing with daily prayers, reflections, and guidance for spiritual growth.',
     url: 'https://catholicbibleonline.com/novenas/emotional-healing',
   },
   twitter: {
     title: 'Novena for Emotional Healing - Complete 9-Day Prayer Guide',
-    description: 'Complete Novena for Emotional Healing with daily prayers, reflections, and guidance for emotional recovery.',
+    description: 'Complete Novena for Emotional Healing with daily prayers, reflections, and guidance for spiritual growth.',
   }
 }
 
@@ -95,7 +95,7 @@ export default function NovenaForEmotionalHealingPage() {
             Novena for Emotional Healing
           </h1>
           <p className="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
-            A powerful nine-day prayer to seek God's healing grace for emotional wounds, inner peace, and spiritual restoration.
+            A beautiful nine-day prayer to seek God's healing grace for emotional wounds and inner peace.
             This traditional novena helps us grow closer to God and experience His healing love and mercy.
           </p>
           
@@ -124,7 +124,7 @@ export default function NovenaForEmotionalHealingPage() {
           
           <div className="prose prose-lg max-w-none text-gray-700">
             <p className="mb-4">
-              The Novena for Emotional Healing is a powerful spiritual practice designed to help you find healing for emotional wounds, 
+              The Novena for Emotional Healing is a traditional nine-day prayer that helps us find healing for emotional wounds, 
               inner peace, and spiritual restoration. In our modern world, many people carry deep emotional pain from past experiences, 
               relationships, trauma, or life circumstances that can affect their mental and spiritual well-being.
             </p>
@@ -156,7 +156,7 @@ export default function NovenaForEmotionalHealingPage() {
                 className="block bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow"
               >
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-purple-600 mb-2">Day {day.day}</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">Day {day.day}</div>
                   <h3 className="text-lg font-semibold text-black mb-2">{day.theme}</h3>
                   <p className="text-sm text-gray-600">{day.description}</p>
                 </div>
@@ -166,65 +166,68 @@ export default function NovenaForEmotionalHealingPage() {
         </section>
 
         {/* How to Make an Excellent Novena */}
-        <section className="bg-purple-50 rounded-lg p-8 mb-12">
+        <section className="bg-blue-50 rounded-lg p-8 mb-12">
           <h2 className="text-2xl font-bold text-black mb-6 text-center">
             How to Make an Excellent Novena
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="font-semibold text-black mb-4">Trust in God</h3>
+              <h3 className="font-semibold text-black mb-4">Trust in God's Healing</h3>
               <p className="text-gray-700 text-sm">
                 Trust completely in God's power to heal emotional wounds. Believe that He loves you and wants to restore your inner peace.
               </p>
             </div>
             
             <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="font-semibold text-black mb-4">Be Honest</h3>
+              <h3 className="font-semibold text-black mb-4">Be Persistent</h3>
               <p className="text-gray-700 text-sm">
-                Open your heart completely to God. Share your deepest emotional pain, fears, and struggles with Him in prayer.
+                Pray this novena with persistence and faith. God will not fail to help those who turn to Him with trust.
               </p>
             </div>
             
             <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="font-semibold text-black mb-4">Practice Forgiveness</h3>
+              <h3 className="font-semibold text-black mb-4">Be Specific</h3>
               <p className="text-gray-700 text-sm">
-                Ask God for the grace to forgive those who have hurt you and to forgive yourself for past mistakes.
+                Present your specific emotional healing needs and intentions to God. He wants to help you with the particular difficulties you face.
               </p>
             </div>
             
             <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="font-semibold text-black mb-4">Be Patient</h3>
+              <h3 className="font-semibold text-black mb-4">Be Grateful</h3>
               <p className="text-gray-700 text-sm">
-                Emotional healing takes time. Be patient with yourself and trust in God's timing for your restoration.
+                Thank God for His healing grace and the progress you make each day. Gratitude opens our hearts to receive more graces.
               </p>
             </div>
           </div>
         </section>
 
         {/* The Three Theological Virtues */}
-        <section className="mb-12">
+        <section className="bg-white border border-gray-200 rounded-lg p-8 mb-12">
           <h2 className="text-2xl font-bold text-black mb-6 text-center">
             The Three Theological Virtues
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="font-semibold text-black mb-4">Faith</h3>
+            <div className="text-center">
+              <div className="text-4xl mb-4">🌟</div>
+              <h3 className="text-lg font-semibold text-black mb-2">Faith</h3>
               <p className="text-gray-700 text-sm">
                 Believe in God's power to heal emotional wounds and restore inner peace. Trust that He is working for your good.
               </p>
             </div>
             
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="font-semibold text-black mb-4">Hope</h3>
+            <div className="text-center">
+              <div className="text-4xl mb-4">💙</div>
+              <h3 className="text-lg font-semibold text-black mb-2">Hope</h3>
               <p className="text-gray-700 text-sm">
-                Maintain hope that emotional healing is possible through God's grace. Look forward to the peace and joy that await you.
+                Hope in God's healing grace and His ability to restore your emotional well-being. He is always ready to help you find peace.
               </p>
             </div>
             
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="font-semibold text-black mb-4">Charity</h3>
+            <div className="text-center">
+              <div className="text-4xl mb-4">❤️</div>
+              <h3 className="text-lg font-semibold text-black mb-2">Love</h3>
               <p className="text-gray-700 text-sm">
                 Love God with all your heart and love others as yourself. Allow God's love to heal your emotional wounds.
               </p>
@@ -232,45 +235,71 @@ export default function NovenaForEmotionalHealingPage() {
           </div>
         </section>
 
-        {/* What is Emotional Healing? */}
-        <section className="bg-gray-50 rounded-lg p-8 mb-12">
-          <h2 className="text-2xl font-bold text-black mb-4 text-center">What is Emotional Healing?</h2>
-          <div className="prose prose-lg max-w-none text-gray-700">
-            <p className="mb-4">
-              Emotional healing is the process of recovering from emotional wounds, trauma, and psychological distress through 
-              spiritual and psychological means. It involves acknowledging and processing painful emotions, forgiving those who 
-              have hurt us, and learning to trust in God's love and care for us.
+        {/* What is the Devotion */}
+        <section className="bg-blue-50 rounded-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold text-black mb-6 text-center">
+            What is the Emotional Healing Devotion?
+          </h2>
+          
+          <p className="text-lg text-gray-700 mb-8 text-center max-w-3xl mx-auto">
+            The Emotional Healing devotion is a way of seeking God's healing grace for emotional wounds, 
+            inner peace, and spiritual restoration through prayer and trust in His love.
+          </p>
+
+          {/* Devotion Elements */}
+          <div className="mb-8">
+            <h3 className="text-xl font-bold text-black mb-4 text-center">Elements of Emotional Healing Devotion</h3>
+            <div className="flex flex-wrap justify-center gap-4 text-lg">
+              <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
+                <span>❤️</span>
+                <span>Healing</span>
+              </span>
+              <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
+                <span>🕊️</span>
+                <span>Peace</span>
+              </span>
+              <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
+                <span>🙏</span>
+                <span>Prayer</span>
+              </span>
+              <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
+                <span>🌟</span>
+                <span>Grace</span>
+              </span>
+              <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
+                <span>🔄</span>
+                <span>Restoration</span>
+              </span>
+              <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
+                <span>📅</span>
+                <span>Daily Practice</span>
+              </span>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <p className="text-gray-700 mb-4">
+              This devotion helps us to:
             </p>
-            <p className="mb-4">
-              The Catholic understanding of emotional healing recognizes that we are both body and soul, and that emotional 
-              wounds can affect our spiritual well-being. Through prayer, sacraments, and God's grace, we can find healing 
-              for even the deepest emotional pain.
-            </p>
-            <p>
-              This novena helps you to bring your emotional struggles to God, who is the Divine Physician. He knows your pain 
-              intimately and wants to heal you completely, restoring your inner peace and helping you to live in the freedom 
-              of His love.
-            </p>
+            <ul className="text-gray-700 space-y-2 text-left max-w-2xl mx-auto">
+              <li>• Trust in God's power to heal emotional wounds</li>
+              <li>• Surrender our pain and suffering to Jesus</li>
+              <li>• Practice forgiveness and find inner peace</li>
+              <li>• Experience God's unconditional love and mercy</li>
+              <li>• Grow in faith, hope, and love through healing</li>
+            </ul>
           </div>
         </section>
 
-        {/* Closing */}
-        <section className="bg-purple-50 rounded-lg p-8">
-          <h2 className="text-2xl font-bold text-black mb-4 text-center">Begin Your Healing Journey</h2>
-          <p className="text-gray-700 leading-relaxed mb-6 text-center">
-            If you're ready to begin your journey toward emotional healing, start with Day 1 of this novena. 
-            Remember that God loves you unconditionally and wants to heal all your wounds. Trust in His power 
-            and allow His grace to work in your heart.
-          </p>
-          <div className="text-center">
-            <Link
-              href="/novenas/emotional-healing/day-1"
-              className="inline-flex items-center px-6 py-3 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition-colors"
-            >
-              Start Day 1: Trust in God's Healing Power →
-            </Link>
-          </div>
-        </section>
+        {/* Navigation */}
+        <div className="text-center">
+          <Link
+            href="/novenas"
+            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
+          >
+            ← Back to All Novenas
+          </Link>
+        </div>
       </div>
     </div>
   )

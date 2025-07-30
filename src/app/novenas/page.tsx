@@ -93,7 +93,7 @@ const novenaCategories = [
     name: 'Healing Novenas',
     description: 'Nine-day prayers for physical and spiritual healing',
     icon: '🏥',
-    count: 9,
+    count: 11, // Updated from 10
     novenas: [
       'Novena for Physical Healing',
       'Novena for the Sick',
@@ -103,7 +103,9 @@ const novenaCategories = [
       'Novena for Healing After Loss',
       'Novena for Healing and Strength',
       'Novena for Addiction Recovery',
-      'Healing from Childhood Trauma Novena'
+      'Healing from Childhood Trauma Novena',
+      'Novena for Cancer',
+      'Novena for Chronic Illness'
     ]
   },
   {
@@ -111,12 +113,13 @@ const novenaCategories = [
     name: 'Family Novenas',
     description: 'Nine-day prayers for family intentions',
     icon: '👨‍👩‍👧‍👦',
-    count: 4,
+    count: 5, // Updated from 4
     novenas: [
       'Novenas for Marriage',
       'Novenas for Children',
       'Novenas for Families',
-      'Novenas for Difficult Pregnancy'
+      'Novenas for Difficult Pregnancy',
+      'Homeschool Novena'
     ]
   },
   {
@@ -141,7 +144,7 @@ const novenaCategories = [
     name: 'Special Intentions',
     description: 'Nine-day prayers for specific intentions',
     icon: '✨',
-    count: 12,
+    count: 20, // Updated from 19
     novenas: [
       'Novenas for Employment',
       'Novena for Financial Help',
@@ -154,7 +157,15 @@ const novenaCategories = [
       'Novenas Against Evil',
       'Novenas for Grace',
       'Novenas for a New Home',
-      'Three Hail Marys Novena'
+      'Three Hail Marys Novena',
+      'March for Life Novena',
+      'Novena for the Supreme Court',
+      'Novena for Clarity',
+      'Novena for Chastity',
+      'Novena for Business Success',
+      'Novena for Baptism',
+      'Novena for College Graduation',
+      'Novena for Grandchildren'
     ]
   },
   {
@@ -328,7 +339,13 @@ export default function NovenasPage() {
               { name: 'Novena to St. Anthony of Padua', slug: 'st-anthony' },
               { name: 'Novena to St. Thérèse of Lisieux (The Little Flower)', slug: 'st-therese-lisieux' },
               { name: 'Novena to Our Lady of Lourdes', slug: 'our-lady-of-lourdes' },
-              { name: 'Novena to Our Lady of the Miraculous Medal', slug: 'our-lady-of-the-miraculous-medal' }
+              { name: 'Novena to Our Lady of the Miraculous Medal', slug: 'our-lady-of-the-miraculous-medal' },
+              { name: 'Novena for Clarity', slug: 'clarity' },
+              { name: 'Novena for Chronic Illness', slug: 'chronic-illness' },
+              { name: 'Novena for Chastity', slug: 'chastity' },
+              { name: 'Novena for Business Success', slug: 'business-success' },
+              { name: 'Novena for Baptism', slug: 'baptism' },
+              { name: 'Novena for College Graduation', slug: 'college-graduation' }
             ].map((novena) => (
               <Link
                 key={novena.slug}

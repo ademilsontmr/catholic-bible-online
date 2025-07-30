@@ -57,6 +57,42 @@ export default function RelatedNovenas({ currentNovena }: RelatedNovenasProps) {
         href: "/novenas/divine-mercy"
       },
       {
+        title: "Novena for Courage",
+        description: "A powerful nine-day prayer to develop courage and strength to face life's challenges and difficulties.",
+        category: "Devotions",
+        href: "/novenas/courage"
+      },
+      {
+        title: "Novena for Difficult Times",
+        description: "A powerful nine-day prayer to find strength, hope, and trust in God during challenging and difficult times.",
+        category: "Devotions",
+        href: "/novenas/difficult-times"
+      },
+      {
+        title: "Novena for Cancer",
+        description: "A powerful nine-day prayer for healing, strength, and divine comfort for cancer patients and their families.",
+        category: "Healing Novenas",
+        href: "/novenas/cancer"
+      },
+        {
+    title: "March for Life Novena",
+    description: "A powerful nine-day prayer for the protection of life and the end of abortion.",
+    category: "Special Intentions",
+    href: "/novenas/march-for-life"
+  },
+  {
+    title: "Novena for the Supreme Court",
+    description: "A powerful nine-day prayer for just rulings, moral decisions, and divine guidance for Supreme Court justices.",
+    category: "Special Intentions",
+    href: "/novenas/supreme-court"
+  },
+  {
+    title: "Homeschool Novena",
+    description: "A powerful nine-day prayer for homeschooling families, seeking God's guidance and grace for the educational journey.",
+    category: "Family Novenas",
+    href: "/novenas/homeschool"
+  },
+      {
         title: "Christmas Advent Novena",
         description: "A traditional novena to prepare for the birth of Jesus Christ during the Advent season.",
         category: "Seasonal Novenas",
