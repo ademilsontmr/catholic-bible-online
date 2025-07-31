@@ -4,23 +4,23 @@ import RelatedNovenas from '@/components/RelatedNovenas'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Novena for Doctors - Day 8: Submission to God's Will',
-  description: 'Day 8 of the Novena for Doctors focusing on submission to god's will. Pray for doctors to grow in submission to God's will when facing death and loss.',
+  title: 'Novena for Doctors - Day 8: Submission to God\'s Will',
+  description: 'Day 8 of the Novena for Doctors focusing on submission to God\'s will. Pray for doctors to grow in submission to God\'s will when facing death and loss.',
   keywords: [
     'novena for doctors day 8',
-    'doctors submission to god's will prayer',
+    'doctors submission to God\'s will prayer',
     'doctors prayer day 8',
     'medical professionals novena day 8',
     'doctors surrender and trust prayer'
   ],
   openGraph: {
-    title: 'Novena for Doctors - Day 8: Submission to God's Will',
-    description: 'Day 8 of the Novena for Doctors focusing on submission to god's will for God\'s blessing.',
+    title: 'Novena for Doctors - Day 8: Submission to God\'s Will',
+    description: 'Day 8 of the Novena for Doctors focusing on submission to God\'s will for God\'s blessing.',
     url: 'https://catholicbibleonline.com/novenas/doctors/day-8',
   },
   twitter: {
-    title: 'Novena for Doctors - Day 8: Submission to God's Will',
-    description: 'Day 8 of the Novena for Doctors focusing on submission to god's will for God\'s blessing.',
+    title: 'Novena for Doctors - Day 8: Submission to God\'s Will',
+    description: 'Day 8 of the Novena for Doctors focusing on submission to God\'s will for God\'s blessing.',
   }
 }
 
@@ -77,7 +77,7 @@ export default function NovenaForDoctorsDay8Page() {
               </p>
               <p className="mb-6">
                 <strong>Scripture Reading:</strong><br/>
-                ""Not my will, but yours, be done." (Luke 22:42)"
+                "Not my will, but yours, be done." (Luke 22:42)
               </p>
               <p className="mb-6">
                 <strong>Our Father, Hail Mary, Glory Be</strong>
@@ -157,7 +157,7 @@ export default function NovenaForDoctorsDay8Page() {
         <div className="text-center mb-8">
           <ShareButton 
             title="Novena for Doctors - Day 8: Submission to God's Will"
-            text="Join me in praying the Novena for Doctors - Day 8 focusing on submission to god's will for God's blessing."
+            text="Join me in praying the Novena for Doctors - Day 8 focusing on submission to God's will for God's blessing."
           />
         </div>
 
