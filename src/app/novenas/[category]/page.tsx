@@ -121,7 +121,7 @@ const novenaCategories = [
     name: 'Healing Novenas',
     description: 'Nine-day prayers for physical and spiritual healing',
     icon: '🏥',
-    count: 14, // Updated from 11
+    count: 16, // Updated: added Diabetes, Heart Disease, Mental Health, Eyesight, Doctors
     novenas: [
       { name: 'Novena for Physical Healing', slug: 'physical-healing', available: true },
       { name: 'Novena for the Sick', slug: 'sick', available: true },
@@ -136,7 +136,9 @@ const novenaCategories = [
       { name: 'Novena for Chronic Illness', slug: 'chronic-illness', available: true },
       { name: 'Novena for Diabetes', slug: 'diabetes', available: true },
       { name: 'Novena for Heart Disease', slug: 'heart-disease', available: true },
-      { name: 'Novena for Mental Health', slug: 'mental-health', available: true }
+      { name: 'Novena for Mental Health', slug: 'mental-health', available: true },
+      { name: 'Novena for Eyesight', slug: 'eyesight', available: true },
+      { name: 'Novena for Doctors', slug: 'doctors', available: true }
     ]
   },
   {
