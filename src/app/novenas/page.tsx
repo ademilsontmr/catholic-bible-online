@@ -93,7 +93,7 @@ const novenaCategories = [
     name: 'Healing Novenas',
     description: 'Nine-day prayers for physical and spiritual healing',
     icon: '🏥',
-    count: 11, // Updated from 10
+    count: 14, // Updated: added Diabetes, Heart Disease, Mental Health, Eyesight
     novenas: [
       'Novena for Physical Healing',
       'Novena for the Sick',
@@ -105,7 +105,11 @@ const novenaCategories = [
       'Novena for Addiction Recovery',
       'Healing from Childhood Trauma Novena',
       'Novena for Cancer',
-      'Novena for Chronic Illness'
+      'Novena for Chronic Illness',
+      'Novena for Diabetes',
+      'Novena for Heart Disease',
+      'Novena for Mental Health',
+      'Novena for Eyesight'
     ]
   },
   {
@@ -113,13 +117,15 @@ const novenaCategories = [
     name: 'Family Novenas',
     description: 'Nine-day prayers for family intentions',
     icon: '👨‍👩‍👧‍👦',
-    count: 5, // Updated from 4
+    count: 7, // Updated: added Fertility, Family Difficulties
     novenas: [
       'Novenas for Marriage',
       'Novenas for Children',
       'Novenas for Families',
       'Novenas for Difficult Pregnancy',
-      'Homeschool Novena'
+      'Homeschool Novena',
+      'Novena for Fertility',
+      'Novena for Family Difficulties'
     ]
   },
   {
@@ -127,7 +133,7 @@ const novenaCategories = [
     name: 'Seasonal Novenas',
     description: 'Nine-day prayers for liturgical seasons',
     icon: '🌸',
-    count: 8,
+    count: 9, // Updated: added Good Friday
     novenas: [
       'Advent Novenas',
       'Christmas Novenas',
@@ -136,7 +142,8 @@ const novenaCategories = [
       'Ascension Novenas',
       'Assumption Novenas',
       'Pentecost Novenas',
-      'New Year Novenas'
+      'New Year Novenas',
+      'Novena for Good Friday'
     ]
   },
   {
@@ -144,7 +151,7 @@ const novenaCategories = [
     name: 'Special Intentions',
     description: 'Nine-day prayers for specific intentions',
     icon: '✨',
-    count: 20, // Updated from 19
+    count: 32, // Updated: added God's Blessings, First Confession, First Communion, Firefighters, Exams, Evangelization
     novenas: [
       'Novenas for Employment',
       'Novena for Financial Help',
@@ -165,7 +172,13 @@ const novenaCategories = [
       'Novena for Business Success',
       'Novena for Baptism',
       'Novena for College Graduation',
-      'Novena for Grandchildren'
+      'Novena for Grandchildren',
+      'Novena for God\'s Blessings',
+      'Novena for First Confession',
+      'Novena for First Communion',
+      'Novena for Firefighters',
+      'Novena for Exams',
+      'Novena for Evangelization'
     ]
   },
   {
