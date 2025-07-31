@@ -138,48 +138,35 @@ export default function NovenaForDoctorsDay7Page() {
           </div>
         </section>
 
-        {/* Closing Prayer */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold text-black mb-6">Closing Blessing</h2>
-          <div className="bg-blue-50 rounded-lg p-8">
-            <div className="prose prose-lg max-w-none text-gray-700">
-              <p className="mb-4">
-                <strong>May God bless you and keep you in His love as you continue this novena for doctors.</strong>
-              </p>
-              <p className="mb-4">
-                <strong>In the name of the Father, and of the Son, and of the Holy Spirit. Amen.</strong>
-              </p>
-            </div>
-          </div>
+        {/* Closing */}
+        <section className="bg-blue-50 rounded-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold text-black mb-4">Closing Prayer</h2>
+          <p className="text-gray-700 leading-relaxed">
+            Dear Lord, help us to truly surrender to You in all aspects of our lives. Give us the grace to trust You even in the midst of difficulties. 
+            May we always trust in Your guidance and assistance for all doctors and medical professionals. Amen.
+          </p>
         </section>
 
-        {/* Share Button */}
-        <div className="text-center mb-8">
-          <ShareButton 
-            title="Novena for Doctors - Day 7: Patience"
-            text="Join me in praying the Novena for Doctors - Day 7 focusing on patience for God's blessing."
-          />
-        </div>
+        {/* Share Section */}
+        <ShareButton 
+          title="Novena for Doctors - Day 7: Patience"
+          text="Join me in praying the Novena for Doctors - Day 7 focusing on Patience."
+        />
 
         {/* Navigation */}
-        <div className="flex justify-between items-center pt-8 border-t border-gray-200">
+        <div className="flex justify-between items-center">
           <Link 
-            href="/novenas/doctors/day-6" 
-            className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+            href="/novenas/doctors/day-6"
+            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
           >
-            ← Day 6
+            ← Day 6: Charity in Care
           </Link>
+          
           <Link 
-            href="/novenas/doctors" 
-            className="bg-gray-600 text-white px-6 py-3 rounded-lg hover:bg-gray-700 transition-colors"
+            href="/novenas/doctors/day-8"
+            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
           >
-            Overview
-          </Link>
-          <Link 
-            href="/novenas/doctors/day-8" 
-            className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            Day 8 →
+            Day 8: Submission to God's Will →
           </Link>
         </div>
       </div>
