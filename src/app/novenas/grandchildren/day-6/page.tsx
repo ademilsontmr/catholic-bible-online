@@ -1,42 +1,45 @@
 import Link from 'next/link'
 import ShareButton from '@/components/ShareButton'
+import RelatedNovenas from '@/components/RelatedNovenas'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Novena for Grandchildren - Day 6: True Piety',
-  description: 'Pray the Novena for Grandchildren - Day 6 focusing on True Piety. Join in praying the traditional novena to seek God\'s grace for grandchildren.',
+  title: 'Novena for Grandchildren - Day 6: Piety',
+  description: 'Pray the Novena for Grandchildren - Day 6 focusing on Piety. Join in praying for your grandchildren to grow in piety.',
   keywords: [
     'novena for grandchildren day 6',
-    'grandchildren novena day 6',
     'grandchildren prayer day 6',
-    'novena for grandchildren prayer true piety',
-    'day 6 grandchildren novena',
-    'true piety grandchildren prayer',
-    'grandchildren novena true piety',
-    'grandchildren prayer true piety'
+    'piety grandchildren prayer',
+    'grandchildren novena day 6',
+    'catholic grandchildren prayer day 6',
+    'grandchildren piety novena day 6',
+    'prayer for grandchildren day 6',
+    'grandchildren novena prayer day 6',
+    'catholic novena grandchildren day 6',
+    'grandchildren piety prayer day 6'
   ],
   openGraph: {
-    title: 'Novena for Grandchildren - Day 6: True Piety',
-    description: 'Pray the Novena for Grandchildren - Day 6 focusing on True Piety. Join in praying the traditional novena.',
+    title: 'Novena for Grandchildren - Day 6: Piety',
+    description: 'Pray the Novena for Grandchildren - Day 6 focusing on Piety. Join in praying for your grandchildren to grow in piety.',
     url: 'https://catholicbibleonline.com/novenas/grandchildren/day-6',
   },
   twitter: {
-    title: 'Novena for Grandchildren - Day 6: True Piety',
-    description: 'Pray the Novena for Grandchildren - Day 6 focusing on True Piety. Join in praying the traditional novena.',
+    title: 'Novena for Grandchildren - Day 6: Piety',
+    description: 'Pray the Novena for Grandchildren - Day 6 focusing on Piety. Join in praying for your grandchildren to grow in piety.',
   }
 }
 
-export default function GrandchildrenNovenaDay6Page() {
+export default function NovenaForGrandchildrenDay6Page() {
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-black mb-4">
-            Novena for Grandchildren – Day 6: True Piety
+            Novena for Grandchildren – Day 6: Piety
           </h1>
           <p className="text-xl text-gray-600 mb-6">
-            Join in praying the Novena for Grandchildren to seek God's grace and assistance for all our beloved grandchildren.
+            Join in praying the Novena for Grandchildren to seek God's blessings and guidance for your beloved grandchildren.
           </p>
           
           {/* Breadcrumb */}
@@ -50,10 +53,10 @@ export default function GrandchildrenNovenaDay6Page() {
         </div>
 
         {/* Introduction */}
-        <section className="bg-rose-50 rounded-lg p-8 mb-8">
-          <h2 className="text-2xl font-bold text-black mb-4">Today's Focus: True Piety</h2>
+        <section className="bg-blue-50 rounded-lg p-8 mb-8">
+          <h2 className="text-2xl font-bold text-black mb-4">Today's Focus: Piety</h2>
           <p className="text-gray-700 leading-relaxed">
-            Pray for grandchildren to grow in true piety.
+            On this sixth day of the Novena for Grandchildren, we pray for your grandchildren to grow in piety. We ask God to pour out His grace upon them and help them develop this important virtue.
           </p>
         </section>
 
@@ -63,28 +66,16 @@ export default function GrandchildrenNovenaDay6Page() {
 
           <div className="bg-white border border-gray-200 rounded-lg p-8">
             <div className="prose prose-lg max-w-none text-gray-700">
-              <p className="mb-6">
-                <strong>In the name of the Father, and of the Son, and of the Holy Spirit.</strong><br/>
-                <strong>Amen.</strong>
-              </p>
-
+              <p className="mb-6"><strong>In the name of the Father, and of the Son, and of the Holy Spirit.</strong></p>
+              <p className="mb-6"><strong>Amen.</strong></p>
               <p className="mb-6">Dear Lord, we thank You and praise You for giving us the gift of grandchildren. We ask You to pour out Your grace upon them.</p>
               <p className="mb-6">You have given us many opportunities to practice piety in Your Church. Through pious acts, we can often grow in our love for You and in virtue. Through such pious practices, our grandchildren can grow in love of You and advance in holiness.</p>
               <p className="mb-6">Please bless and assist our grandchildren in every circumstance, and we particularly ask today that You help our grandchildren grow in true piety.</p>
               <p className="mb-6">Help us to always make use of every help You give us to grow in holiness. Give us the grace to help lead our grandchildren to You through our example.</p>
-
-              <p className="mb-6">
-                <strong>And we especially ask in this novena for (mention your intentions here).</strong>
-              </p>
-
-              <p className="mb-6">
-                <strong>Lord, hear our prayers!</strong>
-              </p>
-
-              <p className="mb-6">
-                <strong>In the name of the Father, and of the Son, and of the Holy Spirit.</strong><br/>
-                <strong>Amen.</strong>
-              </p>
+              <p className="mb-6"><strong>And we especially ask in this novena for (mention your intentions here).</strong></p>
+              <p className="mb-6"><strong>Lord, hear our prayers!</strong></p>
+              <p className="mb-6"><strong>In the name of the Father, and of the Son, and of the Holy Spirit.</strong></p>
+              <p className="mb-6"><strong>Amen.</strong></p>
             </div>
           </div>
         </section>
@@ -95,11 +86,25 @@ export default function GrandchildrenNovenaDay6Page() {
 
           <div className="bg-gray-50 rounded-lg p-8">
             <div className="prose prose-lg max-w-none text-gray-700">
-              <p className="mb-4">Today we pray for all grandchildren to grow in true piety. This day reminds us that piety is not about being overly religious or rigid, but about having a deep love for God and a desire to serve Him with devotion.</p>
-              <p className="mb-4">True piety is characterized by a genuine love for God, a reverence for holy things, and a desire to grow closer to Him through prayer, sacraments, and good works. It is the virtue that helps us maintain a proper relationship with God and keeps us focused on what truly matters.</p>
-              <p className="mb-4">As grandparents, we can help our grandchildren develop piety by praying with them, taking them to Mass, teaching them about the saints, and showing them the beauty of our Catholic faith. We can also model piety by making prayer a priority in our lives and by showing reverence for holy things.</p>
-              <p className="mb-4">When our grandchildren see us praying regularly, participating in the sacraments, and living our faith with joy, they learn that piety is not burdensome but life-giving. They see that a relationship with God brings peace and joy.</p>
-              <p className="mb-4">Let us ask God to help our grandchildren grow in true piety and to give us the wisdom to guide them in their spiritual journey. May they develop a deep love for God and a desire to serve Him.</p>
+              <p className="mb-4">
+                Today we pray for our grandchildren to grow in piety. As grandparents, we have a special role in helping our grandchildren develop the virtues they need for holiness.
+              </p>
+
+              <p className="mb-4">
+                The Bible tells us that "Train up a child in the way he should go, and when he is old he will not depart from it" (Proverbs 22:6). As we pray for our grandchildren, we can trust that God will help them grow in virtue and holiness.
+              </p>
+
+              <p className="mb-4">
+                God wants our grandchildren to grow in piety and all the virtues. When we pray for them and model these virtues in our own lives, we help them to understand what it means to live a holy life.
+              </p>
+
+              <p className="mb-4">
+                As we continue this novena, let us ask God to give us the grace to be good examples for our grandchildren and to help them grow in all the virtues they need for holiness.
+              </p>
+
+              <p>
+                Remember that our prayers and example can have a profound impact on our grandchildren's spiritual growth and their relationship with God.
+              </p>
             </div>
           </div>
         </section>
@@ -112,52 +117,47 @@ export default function GrandchildrenNovenaDay6Page() {
             <div className="bg-white border border-gray-200 rounded-lg p-6">
               <h3 className="font-semibold text-black mb-4">Trust in God</h3>
               <p className="text-gray-700 text-sm">
-                Trust completely in God's providence and His ability to help you.
-                Turn to Him with confidence in every need.
+                Trust completely in God's loving care for your grandchildren. Turn to Him with confidence in every need.
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-6">
               <h3 className="font-semibold text-black mb-4">Be Persistent</h3>
               <p className="text-gray-700 text-sm">
-                Pray this novena with persistence and faith.
-                God will not fail to help those who turn to Him with trust.
+                Pray this novena with persistence and faith. God will not fail to help those who turn to Him with trust.
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-6">
               <h3 className="font-semibold text-black mb-4">Be Specific</h3>
               <p className="text-gray-700 text-sm">
-                Present your specific needs and intentions to God.
-                He wants to help you with the particular difficulties you face.
+                Present your specific intentions for your grandchildren to God. He wants to help you with the particular difficulties you and your grandchildren face.
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-6">
               <h3 className="font-semibold text-black mb-4">Be Grateful</h3>
               <p className="text-gray-700 text-sm">
-                Thank God for His help and grace.
-                Gratitude opens our hearts to receive more graces.
+                Thank God for His help and blessings. Gratitude opens our hearts to receive more graces.
               </p>
             </div>
           </div>
         </section>
 
         {/* Closing */}
-        <section className="bg-rose-50 rounded-lg p-8 mb-12">
+        <section className="bg-blue-50 rounded-lg p-8 mb-12">
           <h2 className="text-2xl font-bold text-black mb-4">Closing Prayer</h2>
-          
           <p className="text-gray-700 leading-relaxed">
-            Dear Lord, we thank You for hearing our prayers today. Help all grandchildren to grow in true piety 
-            and to continue striving for spiritual growth and holiness. Give us the grace to be instruments of Your love 
-            in their lives and to help them grow closer to You each day. Amen.
+            Dear Lord, we thank You for the gift of our grandchildren. Help us to always entrust them to Your loving care and to pray for them with faith and trust. May You help our grandchildren grow in piety and all the virtues they need for holiness, and may we always be instruments of Your love in their lives. Amen.
           </p>
         </section>
 
+        
+
         {/* Share Section */}
         <ShareButton 
-          title="Novena for Grandchildren - Day 6: True Piety"
-          text="Join me in praying the Novena for Grandchildren - Day 6 focusing on True Piety."
+          title="Novena for Grandchildren - Day 6: Piety"
+          text="Join me in praying the Novena for Grandchildren - Day 6 focusing on Piety."
         />
 
         {/* Navigation */}
@@ -166,18 +166,21 @@ export default function GrandchildrenNovenaDay6Page() {
             href="/novenas/grandchildren/day-5"
             className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
           >
-            ← Day 5: Growth in Charity
+            ← Day 5: Charity
           </Link>
+          
           
           <Link 
             href="/novenas/grandchildren/day-7"
-            className="inline-flex items-center px-6 py-3 bg-rose-600 text-white rounded-md hover:bg-rose-700 transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
           >
-            Day 7: True Humility →
+            Day 7: Humility →
           </Link>
           
         </div>
       </div>
+
+      
     </div>
   )
 }

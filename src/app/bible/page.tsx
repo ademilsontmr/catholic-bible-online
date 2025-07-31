@@ -3,7 +3,7 @@ import { getBibleIndex } from '@/lib/bibleLoader'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Catholic Bible Online - Complete Douay-Rheims Version',
+  title: 'Catholic Bible - Complete Douay-Rheims Version Online',
   description: 'Complete Catholic Bible with all 73 books in biblical order. Douay-Rheims translation with easy navigation, chapter-by-chapter reading, and Catholic reflections.',
   keywords: [
     'catholic bible online',
@@ -20,12 +20,12 @@ export const metadata: Metadata = {
     'bible chapters'
   ],
   openGraph: {
-    title: 'Catholic Bible Online - Complete Douay-Rheims Version',
+    title: 'Catholic Bible - Complete Douay-Rheims Version Online',
     description: 'Complete Catholic Bible with all 73 books in biblical order. Douay-Rheims translation with easy navigation.',
     url: 'https://catholicbibleonline.com/bible',
   },
   twitter: {
-    title: 'Catholic Bible Online - Complete Douay-Rheims Version',
+    title: 'Catholic Bible - Complete Douay-Rheims Version Online',
     description: 'Complete Catholic Bible with all 73 books in biblical order. Douay-Rheims translation with easy navigation.',
   }
 }

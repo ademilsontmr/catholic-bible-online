@@ -18,6 +18,27 @@ export default [
           jsx: true,
         },
       },
+      globals: {
+        // Browser globals
+        window: 'readonly',
+        document: 'readonly',
+        navigator: 'readonly',
+        console: 'readonly',
+        setTimeout: 'readonly',
+        clearTimeout: 'readonly',
+        alert: 'readonly',
+        URL: 'readonly',
+        process: 'readonly',
+        // Event types
+        KeyboardEvent: 'readonly',
+        MouseEvent: 'readonly',
+        // DOM types
+        HTMLDivElement: 'readonly',
+        HTMLInputElement: 'readonly',
+        Node: 'readonly',
+        // React
+        React: 'readonly',
+      },
     },
     plugins: {
       '@next/next': nextPlugin,
@@ -32,6 +53,7 @@ export default [
       '@typescript-eslint/no-unused-vars': 'off',
       'react-hooks/exhaustive-deps': 'off',
       'react/react-in-jsx-scope': 'off',
+      'no-unused-vars': 'off',
     },
   },
 ]

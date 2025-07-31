@@ -3,40 +3,42 @@ import ShareButton from '@/components/ShareButton'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Novena for Grandchildren - Day 1: Healing and Strength',
-  description: 'Pray the Novena for Grandchildren - Day 1 focusing on Healing and Strength. Join in praying the traditional novena to seek God\'s grace for grandchildren.',
+  title: 'Novena for Grandchildren - Day 1: Healing',
+  description: 'Pray the Novena for Grandchildren - Day 1 focusing on Healing. Join in praying for strength and healing for your grandchildren.',
   keywords: [
     'novena for grandchildren day 1',
-    'grandchildren novena day 1',
     'grandchildren prayer day 1',
-    'novena for grandchildren prayer healing and strength',
-    'day 1 grandchildren novena',
-    'healing and strength grandchildren prayer',
-    'grandchildren novena healing and strength',
-    'grandchildren prayer healing and strength'
+    'healing grandchildren prayer',
+    'grandchildren novena day 1',
+    'catholic grandchildren prayer day 1',
+    'grandchildren healing novena day 1',
+    'prayer for grandchildren day 1',
+    'grandchildren novena prayer day 1',
+    'catholic novena grandchildren day 1',
+    'grandchildren health prayer day 1'
   ],
   openGraph: {
-    title: 'Novena for Grandchildren - Day 1: Healing and Strength',
-    description: 'Pray the Novena for Grandchildren - Day 1 focusing on Healing and Strength. Join in praying the traditional novena.',
+    title: 'Novena for Grandchildren - Day 1: Healing',
+    description: 'Pray the Novena for Grandchildren - Day 1 focusing on Healing. Join in praying for strength and healing for your grandchildren.',
     url: 'https://catholicbibleonline.com/novenas/grandchildren/day-1',
   },
   twitter: {
-    title: 'Novena for Grandchildren - Day 1: Healing and Strength',
-    description: 'Pray the Novena for Grandchildren - Day 1 focusing on Healing and Strength. Join in praying the traditional novena.',
+    title: 'Novena for Grandchildren - Day 1: Healing',
+    description: 'Pray the Novena for Grandchildren - Day 1 focusing on Healing. Join in praying for strength and healing for your grandchildren.',
   }
 }
 
-export default function GrandchildrenNovenaDay1Page() {
+export default function NovenaForGrandchildrenDay1Page() {
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-black mb-4">
-            Novena for Grandchildren – Day 1: Healing and Strength
+            Novena for Grandchildren – Day 1: Healing
           </h1>
           <p className="text-xl text-gray-600 mb-6">
-            Join in praying the Novena for Grandchildren to seek God's grace and assistance for all our beloved grandchildren.
+            Join in praying the Novena for Grandchildren to seek God's blessings and healing for your beloved grandchildren.
           </p>
           
           {/* Breadcrumb */}
@@ -50,11 +52,10 @@ export default function GrandchildrenNovenaDay1Page() {
         </div>
 
         {/* Introduction */}
-        <section className="bg-rose-50 rounded-lg p-8 mb-8">
-          <h2 className="text-2xl font-bold text-black mb-4">Today's Focus: Healing and Strength</h2>
+        <section className="bg-blue-50 rounded-lg p-8 mb-8">
+          <h2 className="text-2xl font-bold text-black mb-4">Today's Focus: Healing</h2>
           <p className="text-gray-700 leading-relaxed">
-            On this first day of the Novena for Grandchildren, we pray for strength and healing for all grandchildren 
-            who are sick or suffering in any way. We ask God to bring them comfort and restoration.
+            On this first day of the Novena for Grandchildren, we pray for strength and healing for your grandchildren who are sick or suffering in any way. We ask God to pour out His grace upon them and bring them comfort and healing.
           </p>
         </section>
 
@@ -68,31 +69,31 @@ export default function GrandchildrenNovenaDay1Page() {
                 <strong>In the name of the Father, and of the Son, and of the Holy Spirit.</strong><br/>
                 <strong>Amen.</strong>
               </p>
-
+              
               <p className="mb-6">
-                Dear Lord, we thank You and praise You for giving us the gift of grandchildren. We ask You to pour out Your grace upon them.
+                <strong>Dear Lord,</strong> we thank You and praise You for giving us the gift of grandchildren. We ask You to pour out Your grace upon them.
               </p>
-
+              
               <p className="mb-6">
                 There are many sources of suffering in our fallen world. The sufferings from sickness, injury, mental illness, and emotional ailments can be very great. We love our grandchildren very much, and we place them into Your loving care whenever they are suffering from such things.
               </p>
-
+              
               <p className="mb-6">
                 Please bless and assist our grandchildren in every circumstance, and we particularly ask today that You bring strength and healing to our grandchildren who are sick or suffering in any way.
               </p>
-
+              
               <p className="mb-6">
                 Help us to always do all that we can to bring Your love to our grandchildren's lives. Give us the grace to help our grandchildren to live saintly lives each day.
               </p>
-
+              
               <p className="mb-6">
                 <strong>And we especially ask in this novena for (mention your intentions here).</strong>
               </p>
-
+              
               <p className="mb-6">
                 <strong>Lord, hear our prayers!</strong>
               </p>
-
+              
               <p className="mb-6">
                 <strong>In the name of the Father, and of the Son, and of the Holy Spirit.</strong><br/>
                 <strong>Amen.</strong>
@@ -108,31 +109,23 @@ export default function GrandchildrenNovenaDay1Page() {
           <div className="bg-gray-50 rounded-lg p-8">
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-4">
-                Today we pray for all grandchildren who are sick or suffering in any way. This day reminds us of the 
-                deep love we have for our grandchildren and our desire to see them healthy and happy.
+                Today we pray for healing and strength for our grandchildren. As grandparents, we have a special role in interceding for our grandchildren and entrusting them to God's loving care.
               </p>
 
               <p className="mb-4">
-                In our fallen world, suffering comes in many forms - physical illness, emotional pain, mental health 
-                challenges, and various other difficulties. When our grandchildren are suffering, it can be heartbreaking 
-                for us as grandparents. We want to protect them from all harm and see them thrive.
+                The Bible tells us that "The prayer of a righteous person is powerful and effective" (James 5:16). As we pray for our grandchildren, we can trust that God hears our prayers and will answer them according to His perfect will.
               </p>
 
               <p className="mb-4">
-                However, we know that God loves our grandchildren even more than we do. He sees their suffering and 
-                wants to bring them healing and strength. Through our prayers, we can place our grandchildren into 
-                His loving care, trusting that He will provide the grace they need to overcome their difficulties.
+                God loves our grandchildren even more than we do, and He wants what is best for them. When we place our grandchildren in His hands, we can have confidence that He will care for them and bring them the healing and strength they need.
               </p>
 
               <p className="mb-4">
-                As we begin this novena, let us ask God to bring strength and healing to all grandchildren who are 
-                suffering. Let us pray that they will find comfort in His love and that their faith will grow stronger 
-                through their trials. Let us also pray for the grace to be instruments of God's love in their lives.
+                As we continue this novena, let us ask God to give us the faith and trust we need to entrust our grandchildren completely to His care, knowing that He will always do what is best for them.
               </p>
 
               <p>
-                Remember that God can bring good out of suffering. Through our prayers and our example, we can help 
-                our grandchildren to understand that God is always with them, even in their darkest moments.
+                Remember that our prayers for our grandchildren are a powerful way to show our love for them and to participate in God's plan for their lives.
               </p>
             </div>
           </div>
@@ -146,51 +139,45 @@ export default function GrandchildrenNovenaDay1Page() {
             <div className="bg-white border border-gray-200 rounded-lg p-6">
               <h3 className="font-semibold text-black mb-4">Trust in God</h3>
               <p className="text-gray-700 text-sm">
-                Trust completely in God's providence and His ability to help you.
-                Turn to Him with confidence in every need.
+                Trust completely in God's loving care for your grandchildren. Turn to Him with confidence in every need.
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-6">
               <h3 className="font-semibold text-black mb-4">Be Persistent</h3>
               <p className="text-gray-700 text-sm">
-                Pray this novena with persistence and faith.
-                God will not fail to help those who turn to Him with trust.
+                Pray this novena with persistence and faith. God will not fail to help those who turn to Him with trust.
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-6">
               <h3 className="font-semibold text-black mb-4">Be Specific</h3>
               <p className="text-gray-700 text-sm">
-                Present your specific needs and intentions to God.
-                He wants to help you with the particular difficulties you face.
+                Present your specific intentions for your grandchildren to God. He wants to help you with the particular difficulties you and your grandchildren face.
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-6">
               <h3 className="font-semibold text-black mb-4">Be Grateful</h3>
               <p className="text-gray-700 text-sm">
-                Thank God for His help and grace.
-                Gratitude opens our hearts to receive more graces.
+                Thank God for His help and blessings. Gratitude opens our hearts to receive more graces.
               </p>
             </div>
           </div>
         </section>
 
         {/* Closing */}
-        <section className="bg-rose-50 rounded-lg p-8 mb-12">
+        <section className="bg-blue-50 rounded-lg p-8 mb-12">
           <h2 className="text-2xl font-bold text-black mb-4">Closing Prayer</h2>
           <p className="text-gray-700 leading-relaxed">
-            Dear Lord, we thank You for hearing our prayers today. Help all grandchildren who are sick or suffering 
-            to find strength and healing in Your love. Give us the grace to be instruments of Your love in their lives 
-            and to help them grow in faith and holiness. May they always know that You are with them in every moment. Amen.
+            Dear Lord, we thank You for the gift of our grandchildren. Help us to always entrust them to Your loving care and to pray for them with faith and trust. May You bring healing and strength to all our grandchildren who are suffering, and may we always be instruments of Your love in their lives. Amen.
           </p>
         </section>
 
         {/* Share Section */}
         <ShareButton 
-          title="Novena for Grandchildren - Day 1: Healing and Strength"
-          text="Join me in praying the Novena for Grandchildren - Day 1 focusing on Healing and Strength."
+          title="Novena for Grandchildren - Day 1: Healing"
+          text="Join me in praying the Novena for Grandchildren - Day 1 focusing on Healing."
         />
 
         {/* Navigation */}
@@ -204,9 +191,9 @@ export default function GrandchildrenNovenaDay1Page() {
           
           <Link 
             href="/novenas/grandchildren/day-2"
-            className="inline-flex items-center px-6 py-3 bg-rose-600 text-white rounded-md hover:bg-rose-700 transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
           >
-            Day 2: Submission to God's Will →
+            Day 2: Submission to God →
           </Link>
         </div>
       </div>

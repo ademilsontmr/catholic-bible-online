@@ -70,7 +70,7 @@ const novenaCategories = [
     name: 'Devotions',
     description: 'Nine-day prayers to Jesus and the Holy Spirit',
     icon: '❤️',
-    count: 10, // Updated from 11
+    count: 11, // Updated from 10
     novenas: [
       { name: 'Novena to the Sacred Heart of Jesus', slug: 'sacred-heart', available: true },
       { name: 'Novena to the Holy Spirit', slug: 'holy-spirit', available: true },
@@ -81,7 +81,8 @@ const novenaCategories = [
       { name: 'Novena to the Divine Infant Jesus', slug: 'divine-infant-jesus', available: true },
       { name: 'Novena of Confidence to the Sacred Heart', slug: 'sacred-heart-confidence', available: true },
       { name: 'Novena for Courage', slug: 'courage', available: true },
-      { name: 'Novena for Difficult Times', slug: 'difficult-times', available: true }
+      { name: 'Novena for Difficult Times', slug: 'difficult-times', available: true },
+      { name: 'Novena for God\'s Blessings', slug: 'gods-blessings', available: true }
     ]
   },
   {
@@ -120,7 +121,7 @@ const novenaCategories = [
     name: 'Healing Novenas',
     description: 'Nine-day prayers for physical and spiritual healing',
     icon: '🏥',
-    count: 11, // Updated from 10
+    count: 14, // Updated from 11
     novenas: [
       { name: 'Novena for Physical Healing', slug: 'physical-healing', available: true },
       { name: 'Novena for the Sick', slug: 'sick', available: true },
@@ -132,7 +133,10 @@ const novenaCategories = [
       { name: 'Novena for Addiction Recovery', slug: 'addiction-recovery', available: true },
       { name: 'Healing from Childhood Trauma Novena', slug: 'healing-from-childhood-trauma', available: true },
       { name: 'Novena for Cancer', slug: 'cancer', available: true },
-      { name: 'Novena for Chronic Illness', slug: 'chronic-illness', available: true }
+      { name: 'Novena for Chronic Illness', slug: 'chronic-illness', available: true },
+      { name: 'Novena for Diabetes', slug: 'diabetes', available: true },
+      { name: 'Novena for Heart Disease', slug: 'heart-disease', available: true },
+      { name: 'Novena for Mental Health', slug: 'mental-health', available: true }
     ]
   },
   {
@@ -154,7 +158,7 @@ const novenaCategories = [
     name: 'Seasonal Novenas',
     description: 'Nine-day prayers for specific liturgical seasons or times of year',
     icon: '🌸',
-    count: 8, // Updated from 5
+    count: 9, // Updated from 8
     novenas: [
       { name: 'Christmas Novena', slug: 'christmas', available: true },
       { name: 'Lent Novena', slug: 'lent', available: true },
@@ -163,7 +167,8 @@ const novenaCategories = [
       { name: 'New Year Novena', slug: 'new-year', available: true },
       { name: 'Ascension Novena', slug: 'ascension', available: true },
       { name: 'Assumption Novena', slug: 'assumption', available: true },
-      { name: 'Pentecost Novena', slug: 'pentecost', available: true }
+      { name: 'Pentecost Novena', slug: 'pentecost', available: true },
+      { name: 'Novena for Good Friday', slug: 'good-friday', available: true }
     ]
   },
   {
@@ -171,7 +176,7 @@ const novenaCategories = [
     name: 'Special Intentions',
     description: 'Nine-day prayers for various special intentions',
     icon: '✨',
-    count: 21, // Updated from 20
+    count: 29, // Updated from 28
     novenas: [
       { name: 'Novena for a Job', slug: 'job', available: true },
       { name: 'Novena for Financial Help', slug: 'financial-help', available: true },
@@ -194,6 +199,14 @@ const novenaCategories = [
       { name: 'Novena for Business Success', slug: 'business-success', available: true },
       { name: 'Novena for Baptism', slug: 'baptism', available: true },
       { name: 'Novena for College Graduation', slug: 'college-graduation', available: true },
+      { name: 'Novena for First Confession', slug: 'first-confession', available: true },
+      { name: 'Novena for First Communion', slug: 'first-communion', available: true },
+      { name: 'Novena for Firefighters', slug: 'firefighters', available: true },
+      { name: 'Novena for Fertility', slug: 'fertility', available: true },
+      { name: 'Novena for Family Difficulties', slug: 'family-difficulties', available: true },
+      { name: 'Novena for Eyesight', slug: 'eyesight', available: true },
+      { name: 'Novena for Exams', slug: 'exams', available: true },
+      { name: 'Novena for Evangelization', slug: 'evangelization', available: true },
       { name: 'Novena for Grandchildren', slug: 'grandchildren', available: true }
     ]
   },
@@ -298,6 +311,9 @@ const availableNovenas = [
   'novena-for-grace',
   'novena-for-peace-to-our-lady-of-sorrows',
   'our-lady-of-good-counsel',
+  'diabetes',
+  'heart-disease',
+  'mental-health',
   'our-lady-of-good-remedy',
   'our-lady-of-hope',
   'our-lady-of-knock',
@@ -328,7 +344,17 @@ const availableNovenas = [
   'business-success',
   'baptism',
   'college-graduation',
+  'first-confession',
+  'first-communion',
+  'firefighters',
+  'fertility',
+  'family-difficulties',
+  'eyesight',
+  'exams',
+  'evangelization',
   'grandchildren',
+  'good-friday',
+  'gods-blessings',
 ]
 
 interface PageProps {
