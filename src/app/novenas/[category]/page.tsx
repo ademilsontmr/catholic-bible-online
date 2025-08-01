@@ -121,7 +121,7 @@ const novenaCategories = [
     name: 'Healing Novenas',
     description: 'Nine-day prayers for physical and spiritual healing',
     icon: '🏥',
-    count: 16, // Updated: added Diabetes, Heart Disease, Mental Health, Eyesight, Doctors
+    count: 17, // Updated: added Novena for Someone in a Coma
     novenas: [
       { name: 'Novena for Physical Healing', slug: 'physical-healing', available: true },
       { name: 'Novena for the Sick', slug: 'sick', available: true },
@@ -138,7 +138,8 @@ const novenaCategories = [
       { name: 'Novena for Heart Disease', slug: 'heart-disease', available: true },
       { name: 'Novena for Mental Health', slug: 'mental-health', available: true },
       { name: 'Novena for Eyesight', slug: 'eyesight', available: true },
-      { name: 'Novena for Doctors', slug: 'doctors', available: true }
+      { name: 'Novena for Doctors', slug: 'doctors', available: true },
+      { name: 'Novena for Someone in a Coma', slug: 'someone-in-coma', available: true }
     ]
   },
   {
@@ -178,7 +179,7 @@ const novenaCategories = [
     name: 'Special Intentions',
     description: 'Nine-day prayers for various special intentions',
     icon: '✨',
-    count: 29, // Updated from 28
+    count: 30, // Updated: added Spiritual Warfare Novena
     novenas: [
       { name: 'Novena for a Job', slug: 'job', available: true },
       { name: 'Novena for Financial Help', slug: 'financial-help', available: true },
@@ -209,7 +210,8 @@ const novenaCategories = [
       { name: 'Novena for Eyesight', slug: 'eyesight', available: true },
       { name: 'Novena for Exams', slug: 'exams', available: true },
       { name: 'Novena for Evangelization', slug: 'evangelization', available: true },
-      { name: 'Novena for Grandchildren', slug: 'grandchildren', available: true }
+      { name: 'Novena for Grandchildren', slug: 'grandchildren', available: true },
+      { name: 'Spiritual Warfare Novena', slug: 'spiritual-warfare', available: true }
     ]
   },
   {
@@ -347,6 +349,8 @@ const availableNovenas = [
   'exams',
   'evangelization',
   'grandchildren',
+  'spiritual-warfare',
+  'someone-in-coma',
   'good-friday',
   'first-confession',
   'first-communion',

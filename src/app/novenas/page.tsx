@@ -93,7 +93,7 @@ const novenaCategories = [
     name: 'Healing Novenas',
     description: 'Nine-day prayers for physical and spiritual healing',
     icon: '🏥',
-    count: 14, // Updated: added Diabetes, Heart Disease, Mental Health, Eyesight
+    count: 15, // Updated: added Novena for Someone in a Coma
     novenas: [
       'Novena for Physical Healing',
       'Novena for the Sick',
@@ -109,7 +109,8 @@ const novenaCategories = [
       'Novena for Diabetes',
       'Novena for Heart Disease',
       'Novena for Mental Health',
-      'Novena for Eyesight'
+      'Novena for Eyesight',
+      'Novena for Someone in a Coma'
     ]
   },
   {
@@ -151,7 +152,7 @@ const novenaCategories = [
     name: 'Special Intentions',
     description: 'Nine-day prayers for specific intentions',
     icon: '✨',
-    count: 32, // Updated: added God's Blessings, First Confession, First Communion, Firefighters, Exams, Evangelization
+    count: 33, // Updated: added Spiritual Warfare Novena
     novenas: [
       'Novenas for Employment',
       'Novena for Financial Help',
@@ -178,7 +179,8 @@ const novenaCategories = [
       'Novena for First Communion',
       'Novena for Firefighters',
       'Novena for Exams',
-      'Novena for Evangelization'
+      'Novena for Evangelization',
+      'Spiritual Warfare Novena'
     ]
   },
   {
