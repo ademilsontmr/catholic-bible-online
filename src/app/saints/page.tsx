@@ -78,6 +78,15 @@ const saintsData = [
     icon: '📚'
   },
   {
+    id: 'st-jerome',
+    name: 'St. Jerome',
+    feastDay: 'September 30',
+    category: 'Doctor Saints',
+    patron: 'Archaeologists, Biblical Scholars, Librarians',
+    shortBio: 'Doctor of the Church and translator of the Vulgate Bible.',
+    icon: '📚'
+  },
+  {
     id: 'st-teresa-calcutta',
     name: 'St. Teresa of Calcutta',
     feastDay: 'September 5',
@@ -114,6 +123,33 @@ const saintsData = [
     icon: '🗝️'
   },
   {
+    id: 'st-matthew',
+    name: 'St. Matthew',
+    feastDay: 'September 21',
+    category: 'Apostle Saints',
+    patron: 'Bankers, Accountants, Evangelists',
+    shortBio: 'Apostle and Evangelist, former tax collector who wrote the first Gospel.',
+    icon: '📖'
+  },
+  {
+    id: 'st-james-the-greater',
+    name: 'St. James the Greater',
+    feastDay: 'July 25',
+    category: 'Apostle Saints',
+    patron: 'Pilgrims, Spain, Fishers',
+    shortBio: 'One of the first disciples of Jesus, patron of pilgrims and Spain.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-thomas',
+    name: 'St. Thomas',
+    feastDay: 'July 3',
+    category: 'Apostle Saints',
+    patron: 'Architects, Builders, Missionaries',
+    shortBio: 'Apostle known as "Doubting Thomas" who became a great missionary to India.',
+    icon: '🏗️'
+  },
+  {
     id: 'st-elizabeth-ann-seton',
     name: 'St. Elizabeth Ann Seton',
     feastDay: 'January 4',
@@ -121,6 +157,312 @@ const saintsData = [
     patron: 'Catholic Schools, Educators',
     shortBio: 'First native-born American saint and patron of Catholic schools.',
     icon: '📚'
+  },
+  {
+    id: 'st-katharine-drexel',
+    name: 'St. Katharine Drexel',
+    feastDay: 'March 3',
+    category: 'Modern Saints',
+    patron: 'Racial Justice, Philanthropists, Educators',
+    shortBio: 'Second American-born saint, known for her dedication to racial justice, education, and philanthropy. Founder of the Sisters of the Blessed Sacrament.',
+    icon: '👩‍🏫'
+  },
+  {
+    id: 'st-gianna-beretta-molla',
+    name: 'St. Gianna Beretta Molla',
+    feastDay: 'April 28',
+    category: 'Modern Saints',
+    patron: 'Mothers, Physicians, Unborn Children',
+    shortBio: 'Italian pediatrician and mother who sacrificed her life for her unborn child, patron of mothers and pro-life causes.',
+    icon: '👩‍⚕️'
+  },
+  {
+    id: 'st-john-bosco',
+    name: 'St. John Bosco',
+    feastDay: 'January 31',
+    category: 'Modern Saints',
+    patron: 'Youth, Educators, Apprentices',
+    shortBio: 'Italian priest and founder of the Salesians, known as Father and Teacher of Youth.',
+    icon: '👨‍🏫'
+  },
+  {
+    id: 'st-pope-john-paul-ii',
+    name: 'St. Pope John Paul II',
+    feastDay: 'October 22',
+    category: 'Modern Saints',
+    patron: 'Youth, Families, Human Rights',
+    shortBio: 'Beloved pontiff who served the Church for 27 years, known as the Pope of the Family and Youth.',
+    icon: '👑'
+  },
+  {
+    id: 'st-francis-de-sales',
+    name: 'St. Francis de Sales',
+    feastDay: 'January 24',
+    category: 'Doctor Saints',
+    patron: 'Writers, Journalists, Spiritual Direction',
+    shortBio: 'Bishop and Doctor of the Church, patron of writers and journalists, known for his gentle approach to spirituality.',
+    icon: '✍️'
+  },
+  {
+    id: 'our-lady-of-guadalupe',
+    name: 'Our Lady of Guadalupe',
+    feastDay: 'December 12',
+    category: 'Marian Saints',
+    patron: 'Mexico, Americas, Indigenous Peoples, Pro-Life',
+    shortBio: 'Patroness of the Americas who appeared to St. Juan Diego in 1531, leading to the conversion of millions.',
+    icon: '🌹'
+  },
+  {
+    id: 'st-thomas-more',
+    name: 'St. Thomas More',
+    feastDay: 'June 22',
+    category: 'Modern Saints',
+    patron: 'Lawyers, Civil Servants, Politicians, Adopted Children, Difficult Marriages',
+    shortBio: 'English lawyer, statesman, and martyr who refused to acknowledge Henry VIII as head of the Church.',
+    icon: '⚖️'
+  },
+  {
+    id: 'st-barbara',
+    name: 'St. Barbara',
+    feastDay: 'December 4',
+    category: 'Early Saints',
+    patron: 'Armourers, Artillerymen, Architects, Mathematicians, Miners, Italian Navy',
+    shortBio: 'Early Christian martyr known for her courage and faith, patron of those who work with explosives and fire.',
+    icon: '🏰'
+  },
+  {
+    id: 'st-helena',
+    name: 'St. Helena',
+    feastDay: 'August 18',
+    category: 'Early Saints',
+    patron: 'New Discoveries, Archaeologists, Converts',
+    shortBio: 'Mother of Emperor Constantine, discoverer of the True Cross and builder of churches in the Holy Land.',
+    icon: '🏛️'
+  },
+  {
+    id: 'st-francis-xavier',
+    name: 'St. Francis Xavier',
+    feastDay: 'December 3',
+    category: 'Modern Saints',
+    patron: 'Catholic Missions, Missionaries, Foreign Missions, Navigators',
+    shortBio: 'Jesuit missionary known as the "Apostle of the Indies" who spread Christianity throughout Asia.',
+    icon: '⛪'
+  },
+  {
+    id: 'st-josephine-bakhita',
+    name: 'St. Josephine Bakhita',
+    feastDay: 'February 8',
+    category: 'Modern Saints',
+    patron: 'Sudan, Victims of Human Trafficking, Former Slaves',
+    shortBio: 'Former slave who became a Canossian sister, known for her forgiveness and gentle spirit.',
+    icon: '🕊️'
+  },
+  {
+    id: 'st-stephen',
+    name: 'St. Stephen',
+    feastDay: 'December 26',
+    category: 'Biblical Saints',
+    patron: 'Altar Servers, Bricklayers, Casket Makers, Deacons',
+    shortBio: 'First deacon and first Christian martyr, known for his powerful preaching and forgiveness.',
+    icon: '⛪'
+  },
+  {
+    id: 'st-leo-the-great',
+    name: 'St. Leo the Great',
+    feastDay: 'November 10',
+    category: 'Doctor Saints',
+    patron: 'Popes, Theologians, Preachers, Rome',
+    shortBio: 'Pope and Doctor of the Church, first pope to be called "the Great," defender of orthodoxy.',
+    icon: '👑'
+  },
+  {
+    id: 'st-john-the-baptist',
+    name: 'St. John the Baptist',
+    feastDay: 'June 24',
+    category: 'Biblical Saints',
+    patron: 'Jordan, Puerto Rico, French Canada, Baptism',
+    shortBio: 'Forerunner of Christ who baptized Jesus and prepared the way for the Messiah.',
+    icon: '🕊️'
+  },
+  {
+    id: 'st-juan-diego',
+    name: 'St. Juan Diego',
+    feastDay: 'December 9',
+    category: 'Modern Saints',
+    patron: 'Indigenous People, Mexico, Humility',
+    shortBio: 'First indigenous saint of the Americas, witness to Our Lady of Guadalupe apparitions.',
+    icon: '🌹'
+  },
+  {
+    id: 'st-dominic-savio',
+    name: 'St. Dominic Savio',
+    feastDay: 'May 6',
+    category: 'Modern Saints',
+    patron: 'Choirboys, Falsely Accused, Juvenile Delinquents',
+    shortBio: 'Young saint who died at age 14, known for his piety and devotion to God from early childhood.',
+    icon: '👦'
+  },
+  {
+    id: 'st-nicholas',
+    name: 'St. Nicholas',
+    feastDay: 'December 6',
+    category: 'Early Saints',
+    patron: 'Children, Sailors, Prisoners, Greece, Russia, Merchants',
+    shortBio: 'Fourth-century bishop of Myra known for his generosity and miracles, inspiration for Santa Claus.',
+    icon: '🎅'
+  },
+  {
+    id: 'st-angela-merici',
+    name: 'St. Angela Merici',
+    feastDay: 'January 27',
+    category: 'Modern Saints',
+    patron: 'Sickness, Disabled People, Those Grieving Loss of Parents',
+    shortBio: 'Founder of the Ursulines, first teaching order of women in the Catholic Church.',
+    icon: '👩‍🏫'
+  },
+  {
+    id: 'st-lorenzo-ruiz',
+    name: 'St. Lorenzo Ruiz',
+    feastDay: 'September 28',
+    category: 'Modern Saints',
+    patron: 'Filipino Youth, Philippines, Overseas Workers, Altar Servers',
+    shortBio: 'First Filipino saint, martyr who died for his faith in Japan during persecution.',
+    icon: '🇵🇭'
+  },
+  {
+    id: 'st-philip-neri',
+    name: 'St. Philip Neri',
+    feastDay: 'May 26',
+    category: 'Modern Saints',
+    patron: 'Rome, US Special Forces, Humor and Joy',
+    shortBio: 'Founder of the Oratorians, known as the "Apostle of Rome" for his joyful evangelization.',
+    icon: '😊'
+  },
+  {
+    id: 'st-ambrose',
+    name: 'St. Ambrose',
+    feastDay: 'December 7',
+    category: 'Doctor Saints',
+    patron: 'Bee Keepers, Beggars, Learning, Milan',
+    shortBio: 'Bishop of Milan and Doctor of the Church, known for converting St. Augustine.',
+    icon: '🐝'
+  },
+  {
+    id: 'st-genevieve',
+    name: 'St. Genevieve',
+    feastDay: 'January 3',
+    category: 'Early Saints',
+    patron: 'Paris, France, Young Girls, Against Disasters',
+    shortBio: 'Patron saint of Paris who saved the city from Attila the Hun through prayer and fasting.',
+    icon: '🏛️'
+  },
+  {
+    id: 'st-gregory-the-great',
+    name: 'St. Gregory the Great',
+    feastDay: 'September 3',
+    category: 'Doctor Saints',
+    patron: 'Musicians, Singers, Students, Teachers',
+    shortBio: 'Pope and Doctor of the Church, known for Gregorian chant and missionary work.',
+    icon: '🎵'
+  },
+  {
+    id: 'st-anastasia',
+    name: 'St. Anastasia',
+    feastDay: 'December 25',
+    category: 'Martyr Saints',
+    patron: 'Martyrs, Weavers, Against Poison',
+    shortBio: 'Early Christian martyr known as "Deliverer from Potions" for her healing ministry.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-charles-borromeo',
+    name: 'St. Charles Borromeo',
+    feastDay: 'November 4',
+    category: 'Modern Saints',
+    patron: 'Bishops, Catechists, Lombardy, Italy, Cardinals, Seminarians',
+    shortBio: 'Archbishop of Milan and great reformer of the Church during the Counter-Reformation.',
+    icon: '⛪'
+  },
+  {
+    id: 'st-ignatius-loyola',
+    name: 'St. Ignatius Loyola',
+    feastDay: 'July 31',
+    category: 'Modern Saints',
+    patron: 'Society of Jesus, Soldiers, Educators, Education',
+    shortBio: 'Founder of the Society of Jesus (Jesuits) and author of the Spiritual Exercises.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-martin-of-tours',
+    name: 'St. Martin of Tours',
+    feastDay: 'November 11',
+    category: 'Early Saints',
+    patron: 'Poor, Soldiers, Conscientious Objectors, Tailors, Winemakers',
+    shortBio: 'Bishop of Tours known for sharing his cloak with a beggar and establishing monastic life in Gaul.',
+    icon: '🛡️'
+  },
+  {
+    id: 'st-john-vianney',
+    name: 'St. John Vianney',
+    feastDay: 'August 4',
+    category: 'Modern Saints',
+    patron: 'Parish Priests, Confessors, Priests',
+    shortBio: 'Curé of Ars, patron of parish priests, known for his extraordinary ministry in the confessional.',
+    icon: '⛪'
+  },
+  {
+    id: 'st-john-of-the-cross',
+    name: 'St. John of the Cross',
+    feastDay: 'December 14',
+    category: 'Modern Saints',
+    patron: 'Contemplatives, Mystics, Spanish Poets',
+    shortBio: 'Doctor of the Church, mystic, and poet who co-founded the Discalced Carmelites with St. Teresa of Avila.',
+    icon: '✝️'
+  },
+  {
+    id: 'st-margaret-mary-alacoque',
+    name: 'St. Margaret Mary Alacoque',
+    feastDay: 'October 16',
+    category: 'Modern Saints',
+    patron: 'Devotees of the Sacred Heart, Polio Sufferers, Loss of Parents',
+    shortBio: 'French Visitation nun and mystic who received revelations of the Sacred Heart of Jesus.',
+    icon: '❤️'
+  },
+  {
+    id: 'st-frances-xavier-cabrini',
+    name: 'St. Frances Xavier Cabrini',
+    feastDay: 'November 13',
+    category: 'Modern Saints',
+    patron: 'Immigrants, Hospital Administrators, Orphans',
+    shortBio: 'First US citizen to be canonized, founder of the Missionary Sisters of the Sacred Heart.',
+    icon: '🏥'
+  },
+  {
+    id: 'st-albertus-magnus',
+    name: 'St. Albertus Magnus',
+    feastDay: 'November 15',
+    category: 'Medieval Saints',
+    patron: 'Scientists, Medical Technicians, Philosophers',
+    shortBio: 'Doctor of the Church, teacher of St. Thomas Aquinas, patron of scientists.',
+    icon: '🔬'
+  },
+  {
+    id: 'st-rosalia',
+    name: 'St. Rosalia',
+    feastDay: 'September 4',
+    category: 'Medieval Saints',
+    patron: 'Palermo, Sicily, Against Plague',
+    shortBio: 'Hermit and patron saint of Palermo, known for her life of solitude and prayer.',
+    icon: '🌹'
+  },
+  {
+    id: 'st-vincent-de-paul',
+    name: 'St. Vincent de Paul',
+    feastDay: 'September 27',
+    category: 'Modern Saints',
+    patron: 'Charitable Societies, Volunteers, Hospitals',
+    shortBio: 'Apostle of Charity and Father of the Poor, founder of the Vincentians and Daughters of Charity.',
+    icon: '❤️'
   },
   {
     id: 'st-martin-de-porres',
@@ -141,6 +483,24 @@ const saintsData = [
     icon: '⚔️'
   },
   {
+    id: 'sts-perpetua-and-felicity',
+    name: 'Sts. Perpetua and Felicity',
+    feastDay: 'March 7',
+    category: 'Early Saints',
+    patron: 'Mothers, Pregnant Women, Martyrs',
+    shortBio: 'Early Christian martyrs whose courage and faith inspired the Church.',
+    icon: '👑'
+  },
+  {
+    id: 'st-catherine-of-bologna',
+    name: 'St. Catherine of Bologna',
+    feastDay: 'March 9',
+    category: 'Modern Saints',
+    patron: 'Artists, Liberal Arts, Against Temptations',
+    shortBio: 'Italian nun, artist, and mystic who founded the Poor Clare monastery in Bologna.',
+    icon: '🎨'
+  },
+  {
     id: 'st-elizabeth-mother-john',
     name: 'St. Elizabeth',
     feastDay: 'November 5',
@@ -157,6 +517,15 @@ const saintsData = [
     patron: 'Converts, Repentant Sinners',
     shortBio: 'First witness to the Resurrection and model of God\'s mercy.',
     icon: '🌹'
+  },
+  {
+    id: 'st-martha',
+    name: 'St. Martha',
+    feastDay: 'July 29',
+    category: 'Biblical Saints',
+    patron: 'Servants, Cooks, Hospitality',
+    shortBio: 'Sister of Mary and Lazarus, known for her hospitality and service to Jesus.',
+    icon: '🍽️'
   },
   {
     id: 'st-brigid',
@@ -284,15 +653,7 @@ const saintsData = [
     shortBio: 'Franciscan priest who sacrificed his life for another prisoner at Auschwitz.',
     icon: '🕊️'
   },
-  {
-    id: 'st-john-paul-ii',
-    name: 'St. John Paul II',
-    feastDay: 'October 22',
-    category: 'Modern Saints',
-    patron: 'Young People, Families, World Youth Day',
-    shortBio: 'Pope John Paul II, the Great, known for his extensive travels and love for youth.',
-    icon: '🌍'
-  },
+
   {
     id: 'st-aaron-aleth',
     name: 'St. Aaron of Aleth',
@@ -527,15 +888,7 @@ const saintsData = [
     shortBio: 'Mother of St. Augustine and patron saint of mothers.',
     icon: '💧'
   },
-  {
-    id: 'st-ambrose',
-    name: 'St. Ambrose',
-    feastDay: 'December 7',
-    category: 'Doctor Saints',
-    patron: 'Beekeepers, Learning',
-    shortBio: 'Bishop of Milan who helped convert St. Augustine.',
-    icon: '🐝'
-  },
+
   {
     id: 'st-philomena',
     name: 'St. Philomena',
@@ -647,6 +1000,7 @@ const categories = [
   { id: 'patron', name: 'Patron Saints', icon: '🙏' },
   { id: 'mendicant', name: 'Mendicant Saints', icon: '🕊️' },
   { id: 'modern', name: 'Modern Saints', icon: '💙' },
+  { id: 'medieval', name: 'Medieval Saints', icon: '🔬' },
   { id: 'early', name: 'Early Saints', icon: '🏔️' },
   { id: 'martyr', name: 'Martyr Saints', icon: '⚔️' },
   { id: 'missionary', name: 'Missionary Saints', icon: '☘️' },

@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Novena for Good Friday - Complete 9-Day Prayer Guide',
-  description: 'Complete Novena for Good Friday with daily prayers, reflections, and guidance. Reze pela Sexta-feira Santa, sacrifício e redenção.',
+  description: 'Complete Novena for Good Friday with daily prayers, reflections, and guidance. Pray for Good Friday, sacrifice and redemption.',
   keywords: [
     'novena for good friday',
     'good friday novena',
