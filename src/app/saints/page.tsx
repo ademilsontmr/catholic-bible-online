@@ -617,15 +617,7 @@ const saintsData = [
     shortBio: 'The Maid of Orléans, who led French armies to victory.',
     icon: '⚔️'
   },
-  {
-    id: 'st-peregrine',
-    name: 'St. Peregrine Laziosi',
-    feastDay: 'May 1',
-    category: 'Healing Saints',
-    patron: 'Cancer Patients, Ailments',
-    shortBio: 'Servite friar and patron saint of cancer patients.',
-    icon: '🏥'
-  },
+
   {
     id: 'st-faustina',
     name: 'St. Faustina Kowalska',
@@ -872,12 +864,12 @@ const saintsData = [
   },
   {
     id: 'st-bernard',
-    name: 'St. Bernard of Clairvaux',
+    name: 'St. Bernard',
     feastDay: 'August 20',
-    category: 'Doctor Saints',
-    patron: 'Beekeepers, Preachers',
-    shortBio: 'Cistercian monk and Doctor of the Church.',
-    icon: '🌹'
+    category: 'Medieval Saints',
+    patron: 'Beekeepers, Cistercian Order, Preachers',
+    shortBio: 'Abbot and Doctor of the Church, known as the Mellifluous Doctor.',
+    icon: '⛪'
   },
   {
     id: 'st-monica',
@@ -987,6 +979,231 @@ const saintsData = [
     patron: 'Sicily, Breast Cancer',
     shortBio: 'Virgin martyr and patron of breast cancer patients.',
     icon: '⚔️'
+  },
+  {
+    id: 'st-damien-molokai',
+    name: 'St. Damien of Molokai',
+    feastDay: 'May 10',
+    category: 'Missionary Saints',
+    patron: 'Leprosy Patients, Outcasts',
+    shortBio: 'Belgian priest who dedicated his life to serving leprosy patients in Hawaii.',
+    icon: '🕊️'
+  },
+  {
+    id: 'st-gertrude-great',
+    name: 'St. Gertrude the Great',
+    feastDay: 'November 16',
+    category: 'Medieval Saints',
+    patron: 'West Indies, Souls in Purgatory',
+    shortBio: 'Benedictine mystic and theologian, pioneer of Sacred Heart devotion.',
+    icon: '💝'
+  },
+  {
+    id: 'st-emma',
+    name: 'St. Emma',
+    feastDay: 'December 3',
+    category: 'Medieval Saints',
+    patron: 'Bremen, The Poor, Widows',
+    shortBio: 'First lady of Bremen, great benefactor of the poor and churches.',
+    icon: '👑'
+  },
+  {
+    id: 'st-roch',
+    name: 'St. Roch',
+    feastDay: 'August 16',
+    category: 'Healing Saints',
+    patron: 'Plague Victims, Invalids, The Sick',
+    shortBio: 'Patron saint of plague victims and invalids, known for miraculous healing.',
+    icon: '🏥'
+  },
+  {
+    id: 'st-birgitta',
+    name: 'St. Birgitta',
+    feastDay: 'July 23',
+    category: 'Medieval Saints',
+    patron: 'Sweden, Religious Orders, Widows',
+    shortBio: 'Founder of the Brigittine Order and patroness of Sweden.',
+    icon: '👑'
+  },
+  {
+    id: 'sts-joachim-anne',
+    name: 'Sts. Joachim and Anne',
+    feastDay: 'July 26',
+    category: 'Marian Saints',
+    patron: 'Parents, Grandparents, Married Couples',
+    shortBio: 'Parents of the Blessed Virgin Mary and grandparents of Jesus.',
+    icon: '👨‍👩‍👧'
+  },
+  {
+    id: 'st-catherine-laboure',
+    name: 'St. Catherine Labouré',
+    feastDay: 'November 28',
+    category: 'Modern Saints',
+    patron: 'Elderly, Infirmed People, Miraculous Medal',
+    shortBio: 'Visionary of the Miraculous Medal and patron of the elderly.',
+    icon: '🌹'
+  },
+  {
+    id: 'st-henry',
+    name: 'St. Henry',
+    feastDay: 'July 13',
+    category: 'Medieval Saints',
+    patron: 'Childless Couples, Dukes, Handicapped',
+    shortBio: 'Holy Roman Emperor and patron of the childless and handicapped.',
+    icon: '👑'
+  },
+  {
+    id: 'st-ava',
+    name: 'St. Ava',
+    feastDay: 'April 29',
+    category: 'Medieval Saints',
+    patron: 'Visually Impaired, Benedictine Nuns, Abbesses',
+    shortBio: 'Benedictine nun and abbess who was cured of blindness by St. Rainfredis.',
+    icon: '👁️'
+  },
+  {
+    id: 'st-anne-euphemianus',
+    name: 'St. Anne (Euphemianus)',
+    feastDay: 'Unknown',
+    category: 'Early Saints',
+    patron: 'Widows, Women Religious, Hidden Saints',
+    shortBio: 'Widow who disguised herself as a man to enter monastic life on Mount Olympus.',
+    icon: '🕊️'
+  },
+  {
+    id: 'st-julia-corsica',
+    name: 'St. Julia of Corsica',
+    feastDay: 'May 23',
+    category: 'Early Saints',
+    patron: 'Corsica, Livorno, Torture Victims',
+    shortBio: 'Virgin martyr who refused to renounce her faith even under torture.',
+    icon: '🌴'
+  },
+  {
+    id: 'st-lawrence',
+    name: 'St. Lawrence',
+    feastDay: 'August 10',
+    category: 'Early Saints',
+    patron: 'Deacons, Poor, Rome, Cooks',
+    shortBio: 'Deacon and martyr who showed the true treasure of the Church.',
+    icon: '🔥'
+  },
+  {
+    id: 'st-miguel-pro',
+    name: 'St. Miguel Pro',
+    feastDay: 'November 23',
+    category: 'Modern Saints',
+    patron: 'Mexico, Jesuits, Persecuted Christians',
+    shortBio: 'Jesuit priest and martyr who died proclaiming "Viva Cristo Rey".',
+    icon: '✝️'
+  },
+  {
+    id: 'st-john-of-god',
+    name: 'St. John of God',
+    feastDay: 'March 8',
+    category: 'Modern Saints',
+    patron: 'Hospitals, Nurses, Booksellers, Firefighters',
+    shortBio: 'Founder of the Brothers Hospitallers and patron of healthcare.',
+    icon: '🏥'
+  },
+  {
+    id: 'st-zita',
+    name: 'St. Zita',
+    feastDay: 'April 27',
+    category: 'Medieval Saints',
+    patron: 'Domestic Workers, Housekeepers, Servants',
+    shortBio: 'Patroness of domestic workers and model of humble service.',
+    icon: '🧹'
+  },
+  {
+    id: 'st-christina',
+    name: 'St. Christina',
+    feastDay: 'July 24',
+    category: 'Early Saints',
+    patron: 'Children, Child Martyrs, Converts',
+    shortBio: 'Child martyr who bravely faced torture for her faith.',
+    icon: '🕊️'
+  },
+  {
+    id: 'st-adelaide',
+    name: 'St. Adelaide',
+    feastDay: 'December 16',
+    category: 'Medieval Saints',
+    patron: 'Abuse Victims, Widows, Queens',
+    shortBio: 'Holy Roman Empress and patroness of abuse victims.',
+    icon: '👑'
+  },
+  {
+    id: 'st-colette',
+    name: 'St. Colette',
+    feastDay: 'March 6',
+    category: 'Medieval Saints',
+    patron: 'Poor Clares, Collettines, Religious Reformers',
+    shortBio: 'Reformer of the Poor Clares and founder of the Collettines.',
+    icon: '🕊️'
+  },
+  {
+    id: 'st-victoria',
+    name: 'St. Victoria',
+    feastDay: 'December 23',
+    category: 'Early Saints',
+    patron: 'Young Women, Consecrated Virgins, Sisters',
+    shortBio: 'Virgin martyr who refused pagan sacrifices with her sister St. Anatolia.',
+    icon: '🌹'
+  },
+  {
+    id: 'st-james-the-less',
+    name: 'St. James the Less',
+    feastDay: 'May 3',
+    category: 'Apostle Saints',
+    patron: 'Bishops, Jerusalem, Scripture Scholars',
+    shortBio: 'Author of the Epistle of James and first Bishop of Jerusalem.',
+    icon: '📜'
+  },
+  {
+    id: 'st-frances-of-rome',
+    name: 'St. Frances of Rome',
+    feastDay: 'March 9',
+    category: 'Medieval Saints',
+    patron: 'Motorists, Widows, Rome',
+    shortBio: 'Patroness of motorists and founder of the Oblates of Mary.',
+    icon: '🚗'
+  },
+  {
+    id: 'st-athanasius',
+    name: 'St. Athanasius',
+    feastDay: 'May 2',
+    category: 'Early Saints',
+    patron: 'Theologians, Alexandria, Orthodox Christians',
+    shortBio: 'Father of Orthodoxy and champion of Christ\'s divinity.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-mary-mackillop',
+    name: 'St. Mary MacKillop',
+    feastDay: 'August 8',
+    category: 'Modern Saints',
+    patron: 'Australia, Archdiocese of Brisbane, Catholic Education',
+    shortBio: 'Australia\'s first saint and founder of the Sisters of St. Joseph.',
+    icon: '🇦🇺'
+  },
+  {
+    id: 'st-bernardine-of-siena',
+    name: 'St. Bernardine of Siena',
+    feastDay: 'May 20',
+    category: 'Medieval Saints',
+    patron: 'Preachers, Public Speakers, Holy Name Devotion',
+    shortBio: 'Great Franciscan preacher and promoter of the Holy Name of Jesus.',
+    icon: '⛪'
+  },
+  {
+    id: 'st-vincent-ferrer',
+    name: 'St. Vincent Ferrer',
+    feastDay: 'April 5',
+    category: 'Medieval Saints',
+    patron: 'Builders, Architects, Construction Workers',
+    shortBio: 'Great Dominican missionary and patron saint of builders.',
+    icon: '🏗️'
   }
 ]
 

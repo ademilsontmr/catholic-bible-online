@@ -391,9 +391,9 @@ export default function StScholasticaPage() {
         <div className="text-center">
           <Link
             href="/saints"
-            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
           >
-            ← Back to Saints
+            ← Back to All Saints
           </Link>
         </div>
       </div>
