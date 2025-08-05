@@ -69,10 +69,7 @@ export default function StBernadettePage() {
                 were very poor and she was the first of nine children. She was baptized 
                 at St. Pierre's, the local parish church, on January 9. As a toddler, 
                 Bernadette contracted cholera and suffered extreme asthma. Unfortunately, 
-                she lived the rest of her life in poor health, which would become a defining 
-                characteristic of her life and her spiritual journey. Despite her physical 
-                suffering, Bernadette maintained a deep faith and a simple, humble disposition 
-                that would later endear her to millions of people around the world.
+                she lived the rest of her life in poor health.
               </p>
               
               <p className="mb-6">
@@ -84,9 +81,7 @@ export default function StBernadettePage() {
                 fell to her knees, took out her own rosary and began to pray. Bernadette 
                 later described the woman as "uo petito damizelo," meaning "a small young 
                 lady." Though her sister and friend claimed they were unable to see her, 
-                Bernadette knew what she saw was real. This was the beginning of a series 
-                of extraordinary events that would transform not only Bernadette's life 
-                but also the small town of Lourdes and the entire Catholic world.
+                Bernadette knew what she saw was real.
               </p>
               
               <p className="mb-6">
@@ -94,15 +89,15 @@ export default function StBernadettePage() {
                 to the grotto, where Bernadette immediately knelt, saying she could see 
                 "aquero" again. She fell into a trance and one girl threw holy water at 
                 the niche and another threw a rock that shattered on the ground. It was 
-                then that the apparition disappeared. On February 18, Bernadette said "the 
-                vision" asked her to return to the grotto each day for a fortnight. With 
-                each visit, Bernadette saw the Virgin Mary and the period of daily visions 
-                became known as "la Quinzaine sacrée," meaning "holy fortnight." When Bernadette 
-                began to visit the grotto, her parents were embarrassed and attempted to 
-                stop her, but were unable to do so. The apparitions had such a profound 
-                effect on Bernadette that she could not be dissuaded from returning to 
-                the grotto, despite the opposition and skepticism she faced from her family 
-                and the community.
+                then that the apparition disappeared.
+              </p>
+              
+              <p className="mb-6">
+                On February 18, Bernadette said "the vision" asked her to return to the 
+                grotto each day for a fortnight. With each visit, Bernadette saw the Virgin 
+                Mary and the period of daily visions became known as "la Quinzaine sacrée," 
+                meaning "holy fortnight." When Bernadette began to visit the grotto, her 
+                parents were embarrassed and attempted to stop her, but were unable to do so.
               </p>
               
               <p className="mb-6">
@@ -110,16 +105,17 @@ export default function StBernadettePage() {
                 The vision had told her "to drink of the water of the spring, to wash 
                 in it and to eat the herb that grew there" as an act of penance. The 
                 next day, the grotto's muddy waters had been cleared and fresh clear 
-                water flowed. This miraculous spring would become the source of countless 
-                healings and miracles in the years to come. On March 2, at the thirteenth 
-                of the apparitions, Bernadette told her family the lady said "a chapel 
-                should be built and a procession formed." During her sixteenth vision, 
-                which Bernadette claims to have experienced for over an hour, was on March 
-                25. Bernadette claimed she had asked the woman her name, but her question 
-                was only met with a smile. Bernadette asked again, three more times, and 
-                finally the woman said, "I am the Immaculate Conception." This revelation 
-                was particularly significant because it confirmed the dogma of the Immaculate 
-                Conception, which had been proclaimed by Pope Pius IX just four years earlier.
+                water flowed.
+              </p>
+              
+              <p className="mb-6">
+                On March 2, at the thirteenth of the apparitions, Bernadette told her 
+                family the lady said "a chapel should be built and a procession formed." 
+                During her sixteenth vision, which Bernadette claims to have experienced 
+                for over an hour, was on March 25. Bernadette claimed she had asked the 
+                woman her name, but her question was only met with a smile. Bernadette 
+                asked again, three more times, and finally the woman said, "I am the 
+                Immaculate Conception."
               </p>
               
               <p className="mb-6">
@@ -127,16 +123,19 @@ export default function StBernadettePage() {
                 Bernadette's story created a division in her town. Many believed she was 
                 telling the truth, while others believed she had a mental illness and 
                 demanded she be put in a mental asylum. Some believed Bernadette's visions 
-                meant she needed to pray for penance. Church authorities and the French 
-                government rigorously interviewed the girl, and by 1862 they confirmed 
-                she spoke truth. Since Bernadette first caused the spring to produce clean 
-                water, 69 cures have been verified by the Lourdes Medical Bureau, and 
-                after what the Church claimed were "extremely rigorous scientific and 
-                medical examinations," no one was able to explain what caused the cures. 
-                The Lourdes Commission that initially examined Bernadette, ran an analysis 
-                on the water but were only able to determine it contained a high mineral 
-                content. Bernadette believed it was faith and prayer that was responsible 
-                for curing the sick.
+                meant she needed to pray for penance.
+              </p>
+              
+              <p className="mb-6">
+                Church authorities and the French government rigorously interviewed the 
+                girl, and by 1862 they confirmed she spoke truth. Since Bernadette first 
+                caused the spring to produce clean water, 69 cures have been verified by 
+                the Lourdes Medical Bureau, and after what the Church claimed were "extremely 
+                rigorous scientific and medical examinations," no one was able to explain 
+                what caused the cures. The Lourdes Commission that initially examined 
+                Bernadette, ran an analysis on the water but were only able to determine 
+                it contained a high mineral content. Bernadette believed it was faith and 
+                prayer that was responsible for curing the sick.
               </p>
               
               <p className="mb-6">
@@ -145,44 +144,91 @@ export default function StBernadettePage() {
                 Catholic pilgrimage sites in the world. Many other chapels and churches 
                 has been built around it, including the Basilica of St. Pius X, which 
                 can accommodate 25,000 people and was dedicated by the future Pope John 
-                XXIII when he was the Papal Nuncio to France. Following the miracles 
-                and constructions, Bernadette decided she did not like the attention 
-                she was getting and went to the hospice school run by the Sisters of 
-                Charity of Nevers, where she was taught to read and write. Though she 
-                considered joining the Carmelites, her health was too fragile.
+                XXIII when he was the Papal Nuncio to France.
+              </p>
+              
+              <p className="mb-6">
+                Following the miracles and constructions, Bernadette decided she did not 
+                like the attention she was getting and went to the hospice school run 
+                by the Sisters of Charity of Nevers, where she was taught to read and 
+                write. Though she considered joining the Carmelites, her health was too 
+                fragile.
               </p>
               
               <p className="mb-6">
                 On July 29, 1866, Bernadette took the religious habit of a postulant 
                 and joined the Sisters of Charity at their motherhouse at Nevers. Her 
                 Mistress of Novices was Sister Marie Therese Vauzou and the Mother Superior 
-                at the time named her Marie-Bernarde, in honor of her grandmother. Bernadette 
-                spent the rest of her life there working as an infirmary assistant, and 
-                later a sacristan. People admired her humility and spirit of sacrifice. 
-                Once a nun asked her if she had temptations of pride because she was 
-                favored by the Blessed Mother. "How can I?" she answered quickly. "The 
-                Blessed Virgin chose me only because I was the most ignorant." This response 
-                perfectly captures Bernadette's humility and her understanding that her 
-                role in the apparitions was not due to any merit of her own, but rather 
-                to God's mysterious ways.
+                at the time named her Marie-Bernarde, in honor of her grandmother.
               </p>
               
-              <p>
+              <p className="mb-6">
+                Bernadette spent the rest of her life there working as an infirmary assistant, 
+                and later a sacristan. People admired her humility and spirit of sacrifice. 
+                Once a nun asked her if she had temptations of pride because she was 
+                favored by the Blessed Mother. "How can I?" she answered quickly. "The 
+                Blessed Virgin chose me only because I was the most ignorant."
+              </p>
+              
+              <p className="mb-6">
                 Unfortunately, she was diagnosed with tuberculosis of the bone in her 
                 right knee and was unable to take part in convent life. She died in the 
                 Sainte Croix (Holy Cross) Infirmary of the Convent of Saint-Gildard at 
-                the age of 35 on April 16, 1879, while praying the holy rosary. Even 
-                on her deathbed Bernadette suffered severe pain and, keeping with the 
-                Virgin Mary's admonition of "Penance, Penance, Penance," she proclaimed 
+                the age of 35 on April 16, 1879, while praying the holy rosary.
+              </p>
+              
+              <p className="mb-6">
+                Even on her deathbed Bernadette suffered severe pain and, keeping with 
+                the Virgin Mary's admonition of "Penance, Penance, Penance," she proclaimed 
                 "all this is good for Heaven!" Bernadette's last words were, "Blessed 
-                Mary, Mother of God, pray for me. A poor sinner, a poor sinner." These 
-                final words reflect her lifelong humility and her complete trust in God's 
-                mercy. Thirty years later, on September 22, two doctors and a sister 
-                of the community exhumed her body. They claimed the crucifix and rosary 
-                she carried had been oxidized but her body remained incorrupt. The incorruption 
-                was cited as one of the miracles supporting her canonization. Saint Bernadette 
+                Mary, Mother of God, pray for me. A poor sinner, a poor sinner."
+              </p>
+              
+              <p className="mb-6">
+                The nuns of Saint-Gildard, with the support of the bishop of Nevers, 
+                applied to the civil authorities for permission to bury Bernadette's 
+                body in a small chapel dedicated to Saint Joseph, which was within the 
+                confines of the convent. Permission was granted on April 25, 1879, and 
+                on April 30, the local Prefect pronounced his approval of the choice 
+                of the site for burial. On May 30, 1879, Bernadette's coffin was transferred 
+                to the crypt of the chapel of Saint Joseph, where a very simple ceremony 
+                was held to commemorate the event.
+              </p>
+              
+              <p className="mb-6">
+                Thirty years later, on September 22, two doctors and a sister of the 
+                community exhumed her body. They claimed the crucifix and rosary she 
+                carried had been oxidized but her body remained incorrupt. The incorruption 
+                was cited as one of the miracles supporting her canonization.
+              </p>
+              
+              <p className="mb-6">
+                The Church exhumed her body again on April 3, 1919, and the doctor who 
+                examined her said, "The body is practically mummified, covered with patches 
+                of mildew and quite a notable layer of salts, which appear to be calcium 
+                salts ... The skin has disappeared in some places, but it is still present 
+                on most parts of the body."
+              </p>
+              
+              <p className="mb-6">
+                In 1925, Bernadette's body was exhumed yet again. This time relics were 
+                sent to Rome and an imprint of her face was molded, which was used to 
+                create a wax mask to be placed on her body. There were also imprints 
+                of her hands to be used for the presentation of her body, which was placed 
+                in a gold and crystal reliquary in the Chapel of Saint Bernadette at 
+                the mother house in Nevers.
+              </p>
+              
+              <p>
+                In 1928, Doctor Comte published a report on Bernadette's exhumation in 
+                the second issue of the Bulletin de I'Association medicale de Notre-Dame 
+                de Lourdes, where he wrote about the perfect preservation of her skeleton, 
+                the fibrous tissues of the muscles, ligaments, and skin, and especially 
+                the totally unexpected state of the liver after 46 years. Saint Bernadette 
                 is often depicted in prayer with a rosary or appealing to the Holy Virgin. 
-                She was beatified in 1925 and canonized by Pope Pius XI in December 1933.
+                She was beatified in 1925 and canonized by Pope Pius XI in December 1933. 
+                Saint Bernadette is the patroness of illness, people ridiculed for their 
+                piety, poverty, shepherds, shepherdesses, and Lourdes, France.
               </p>
             </div>
           </div>
@@ -324,11 +370,11 @@ export default function StBernadettePage() {
                 <h3 className="text-xl font-semibold text-black mb-4">Primary Patronages</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• <strong>Illness:</strong> Patroness of illness</li>
-                  <li>• <strong>Lourdes:</strong> Patron of Lourdes, France</li>
+                  <li>• <strong>People Ridiculed for Piety:</strong> Patron of those mocked for their faith</li>
                   <li>• <strong>Poverty:</strong> Patron of poverty</li>
                   <li>• <strong>Shepherds:</strong> Patron of shepherds</li>
                   <li>• <strong>Shepherdesses:</strong> Patron of shepherdesses</li>
-                  <li>• <strong>Marian Apparitions:</strong> Patron of Marian apparitions</li>
+                  <li>• <strong>Lourdes:</strong> Patron of Lourdes, France</li>
                 </ul>
               </div>
               

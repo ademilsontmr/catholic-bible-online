@@ -32,15 +32,7 @@ const saintsData = [
     shortBio: 'Franciscan friar known for his powerful preaching and miracles.',
     icon: '📚'
   },
-  {
-    id: 'st-jude',
-    name: 'St. Jude Thaddeus',
-    feastDay: 'October 28',
-    category: 'Patron Saints',
-    patron: 'Hopeless Cases, Impossible Causes',
-    shortBio: 'Apostle of Jesus and patron of desperate situations.',
-    icon: '🙏'
-  },
+
   {
     id: 'st-therese',
     name: 'St. Thérèse of Lisieux',
@@ -375,6 +367,150 @@ const saintsData = [
     icon: '⚔️'
   },
   {
+    id: 'faith-hope-charity',
+    name: 'St. Sophia and her Daughters',
+    feastDay: 'August 1',
+    category: 'Martyr Saints',
+    patron: 'Christian Families, Mothers, Theological Virtues',
+    shortBio: 'St. Sophia and her daughters Faith, Hope, and Charity, Christian martyrs during Hadrian\'s persecution.',
+    icon: '👩‍👧‍👧‍👧'
+  },
+  {
+    id: 'st-raymond-nonnatus',
+    name: 'St. Raymond Nonnatus',
+    feastDay: 'August 31',
+    category: 'Healing Saints',
+    patron: 'Expectant Mothers, Midwives, Childbirth',
+    shortBio: 'Patron saint of expectant mothers and midwives, known for his miraculous birth and missionary work.',
+    icon: '👶'
+  },
+  {
+    id: 'st-elizabeth-portugal',
+    name: 'St. Elizabeth of Portugal',
+    feastDay: 'July 4',
+    category: 'Charity Saints',
+    patron: 'Peacemakers, Difficult Marriages, Portugal',
+    shortBio: 'Queen and peacemaker, known for her charity and devotion to daily Mass.',
+    icon: '👑'
+  },
+  {
+    id: 'st-peter-claver',
+    name: 'St. Peter Claver',
+    feastDay: 'September 9',
+    category: 'Missionary Saints',
+    patron: 'African Missions, Slave Ministry, Colombia',
+    shortBio: 'Jesuit missionary and patron of African missions, known for his service to African slaves.',
+    icon: '⛪'
+  },
+  {
+    id: 'st-isidore-seville',
+    name: 'St. Isidore of Seville',
+    feastDay: 'April 4',
+    category: 'Doctor Saints',
+    patron: 'Students, Teachers, Internet, Spain',
+    shortBio: 'Doctor of the Church and greatest teacher in Spain, known for his love of learning and forgiveness.',
+    icon: '📚'
+  },
+  {
+    id: 'st-longinus',
+    name: 'St. Longinus',
+    feastDay: 'March 15',
+    category: 'Martyr Saints',
+    patron: 'Soldiers, Eye Problems, Conversion, Mantua',
+    shortBio: 'Centurion who pierced Christ\'s side and was converted by His blood, later martyred for the faith.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-germaine-pibrac',
+    name: 'St. Germaine of Pibrac',
+    feastDay: 'June 15',
+    category: 'Modern Saints',
+    patron: 'Abused Children, Shepherdesses, Forgiveness, Disabled Persons',
+    shortBio: 'Abused shepherdess who became a saint through her extraordinary forgiveness and simple faith.',
+    icon: '🌸'
+  },
+  {
+    id: 'st-bonaventure',
+    name: 'St. Bonaventure',
+    feastDay: 'July 15',
+    category: 'Doctor Saints',
+    patron: 'Theologians, Students, Franciscans, Bishops',
+    shortBio: 'Seraphic Doctor and Bishop of Albano, known for his mystical theology and Franciscan leadership.',
+    icon: '📚'
+  },
+  {
+    id: 'st-bartholomew',
+    name: 'St. Bartholomew',
+    feastDay: 'August 24',
+    category: 'Apostle Saints',
+    patron: 'Armenia, Leather Workers, Bookbinders, Missionaries',
+    shortBio: 'One of the twelve apostles, preached in India and Armenia, martyred by flaying and beheading.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-anthony-desert',
+    name: 'St. Anthony of the Desert',
+    feastDay: 'January 17',
+    category: 'Early Saints',
+    patron: 'Monks, Hermits, Basket Makers, Gravediggers, Butchers, Epileptics',
+    shortBio: 'Father of Monasticism, lived in Egyptian desert, battled demons, founded first monastic community.',
+    icon: '🏜️'
+  },
+  {
+    id: 'st-andrew',
+    name: 'St. Andrew',
+    feastDay: 'November 30',
+    category: 'Apostle Saints',
+    patron: 'Scotland, Russia, Greece, Fishermen, Fishmongers, Rope Makers',
+    shortBio: 'First-called apostle, brother of St. Peter, preached in Greece, crucified on X-shaped cross.',
+    icon: '✝️'
+  },
+  {
+    id: 'st-john',
+    name: 'St. John',
+    feastDay: 'December 27',
+    category: 'Apostle Saints',
+    patron: 'Theologians, Writers, Publishers, Booksellers, Artists, Friendship',
+    shortBio: 'Beloved disciple, author of Fourth Gospel, guardian of Blessed Virgin Mary, Apostle of Love.',
+    icon: '🍷'
+  },
+  {
+    id: 'st-philip',
+    name: 'St. Philip',
+    feastDay: 'May 3',
+    category: 'Apostle Saints',
+    patron: 'Hatters, Pastry Chefs, Merchants, Luxembourg, Uruguay, Evangelization',
+    shortBio: 'Galilean apostle who brought Nathanael to Christ, preached in Phrygia, martyred for faith.',
+    icon: '✝️'
+  },
+  {
+    id: 'st-jude',
+    name: 'St. Jude',
+    feastDay: 'October 28',
+    category: 'Apostle Saints',
+    patron: 'Hopeless Causes, Desperate Cases, Hospitals, Armenia, Chicago, Police Officers',
+    shortBio: 'Apostle of hopeless causes, brother of St. James the Less, author of Catholic Epistle.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-simon',
+    name: 'St. Simon',
+    feastDay: 'October 28',
+    category: 'Apostle Saints',
+    patron: 'Woodcutters, Sawyers, Curriers, Tanners, Leather Workers, Missionaries',
+    shortBio: 'Zealot apostle, missionary partner of St. Jude, preached in Egypt and Persia, martyred by sawing.',
+    icon: '🪚'
+  },
+  {
+    id: 'st-matthias',
+    name: 'St. Matthias',
+    feastDay: 'May 14',
+    category: 'Apostle Saints',
+    patron: 'Tailors, Carpenters, Alcoholics, Smallpox, Hope, Perseverance',
+    shortBio: 'Apostle chosen to replace Judas Iscariot, faithful witness from baptism to Ascension.',
+    icon: '⚔️'
+  },
+  {
     id: 'st-charles-borromeo',
     name: 'St. Charles Borromeo',
     feastDay: 'November 4',
@@ -536,15 +672,7 @@ const saintsData = [
     shortBio: 'Patron of Ireland and founder of monastic life for women.',
     icon: '🔥'
   },
-  {
-    id: 'st-andrew',
-    name: 'St. Andrew',
-    feastDay: 'November 30',
-    category: 'Apostle Saints',
-    patron: 'Scotland, Fishermen',
-    shortBio: 'First-called Apostle and patron of Scotland.',
-    icon: '🎣'
-  },
+
   {
     id: 'st-gerard-majella',
     name: 'St. Gerard Majella',
@@ -718,15 +846,7 @@ const saintsData = [
     shortBio: 'Apostle of Ireland who converted the Irish people to Christianity.',
     icon: '☘️'
   },
-  {
-    id: 'st-jude-thaddeus',
-    name: 'St. Jude Thaddeus',
-    feastDay: 'October 28',
-    category: 'Apostle Saints',
-    patron: 'Desperate Cases, Impossible Cases',
-    shortBio: 'Patron saint of desperate cases and one of the Twelve Apostles.',
-    icon: '⚔️'
-  },
+
   {
     id: 'st-teresa-avila',
     name: 'St. Teresa of Avila',
@@ -790,15 +910,7 @@ const saintsData = [
     shortBio: 'Patron saint of Wales and founder of monastic communities.',
     icon: '🌿'
   },
-  {
-    id: 'st-john-cross',
-    name: 'St. John of the Cross',
-    feastDay: 'December 14',
-    category: 'Doctor Saints',
-    patron: 'Mystics, Contemplatives',
-    shortBio: 'Doctor of the Church and co-founder of Discalced Carmelites.',
-    icon: '✝️'
-  },
+
   {
     id: 'st-paul',
     name: 'St. Paul',
@@ -949,8 +1061,8 @@ const saintsData = [
     name: 'St. Bernadette',
     feastDay: 'April 16',
     category: 'Modern Saints',
-    patron: 'Illness, Lourdes',
-    shortBio: 'Visionary of Lourdes and patron of illness.',
+    patron: 'Illness, People Ridiculed for Piety, Poverty, Shepherds, Shepherdesses, Lourdes',
+    shortBio: 'Visionary of Lourdes and patron of illness, known for her humility and the miraculous spring.',
     icon: '🌹'
   },
   {
