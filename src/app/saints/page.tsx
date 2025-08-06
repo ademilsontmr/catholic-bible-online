@@ -1606,13 +1606,202 @@ const saintsData = [
     icon: '🏗️'
   },
   {
-    id: 'st-chier',
-    name: 'St. Chier',
+    id: 'st-daniel',
+    name: 'St. Daniel',
+    feastDay: 'February 16',
+    category: 'Martyr Saints',
+    patron: 'Martyrs, Persecuted Christians, Courage',
+    shortBio: 'Egyptian martyr who comforted Christians condemned to work in mines during Maximus persecution.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-margaret-cortona',
+    name: 'St. Margaret of Cortona',
+    feastDay: 'February 22',
+    category: 'Medieval Saints',
+    patron: 'Penitents, Single Mothers, Against Temptation',
+    shortBio: 'Italian penitent and Franciscan tertiary who overcame a sinful past to become a model of repentance and charity.',
+    icon: '🌹'
+  },
+  {
+    id: 'st-louise-marillac',
+    name: 'St. Louise de Marillac',
+    feastDay: 'March 15',
+    category: 'Modern Saints',
+    patron: 'Social Workers, Widows, Orphans',
+    shortBio: 'French widow and co-founder of the Daughters of Charity with St. Vincent de Paul, patroness of social workers.',
+    icon: '❤️'
+  },
+  {
+    id: 'st-dismas',
+    name: 'St. Dismas',
+    feastDay: 'March 25',
+    category: 'Biblical Saints',
+    patron: 'Penitents, Thieves, Last-Minute Conversions',
+    shortBio: 'The Good Thief crucified with Christ on Calvary, who repented and was promised Paradise.',
+    icon: '✝️'
+  },
+  {
+    id: 'st-dorothy',
+    name: 'St. Dorothy',
+    feastDay: 'February 6',
+    category: 'Early Saints',
+    patron: 'Gardeners, Florists, Brides, Newlyweds',
+    shortBio: 'Virgin martyr of Caesarea who sent miraculous fruits from Paradise to convert her persecutor.',
+    icon: '🌹'
+  },
+  {
+    id: 'st-barnabas',
+    name: 'St. Barnabas',
+    feastDay: 'June 11',
+    category: 'Biblical Saints',
+    patron: 'Missionaries, Cyprus, Antioch, Peacemakers',
+    shortBio: 'Apostle and companion of St. Paul, known as the "Son of Encouragement" who sold his property to help the early Church.',
+    icon: '📖'
+  },
+  {
+    id: 'st-camilla',
+    name: 'St. Camilla',
     feastDay: 'Unknown',
-    category: 'Virgin Saints',
-    patron: 'Tipperary, Nenagh, Irish Virgins, Spiritual Discipleship, Consecrated Virginity, Irish Heritage',
-    shortBio: 'Irish virgin and disciple of St. Fintan Munnu Kiara who lived near Nenagh, Tipperary.',
-    icon: '☘️'
+    category: 'Early Saints',
+    patron: 'Hermits, Recluses, Disciples',
+    shortBio: 'Recluse and disciple of St. Germanus of Auxerre, who became a hermitess in France.',
+    icon: '🏔️'
+  },
+  {
+    id: 'st-margaret-clitherow',
+    name: 'St. Margaret Clitherow',
+    feastDay: 'March 26',
+    category: 'Martyr Saints',
+    patron: 'Martyrs, Converts, England, Businesswomen',
+    shortBio: 'English martyr who was pressed to death for harboring Catholic priests during the Reformation.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-denis',
+    name: 'St. Denis',
+    feastDay: 'October 9',
+    category: 'Martyr Saints',
+    patron: 'France, Paris, Headaches, Possessed People',
+    shortBio: 'First bishop of Paris and Apostle of France, martyred with companions Rusticus and Eleutherius.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-robert-bellarmine',
+    name: 'St. Robert Bellarmine',
+    feastDay: 'September 17',
+    category: 'Doctor Saints',
+    patron: 'Catechists, Canon Lawyers, Theologians',
+    shortBio: 'Jesuit cardinal and Doctor of the Church, defender of Catholic doctrine and spiritual father of St. Aloysius Gonzaga.',
+    icon: '📚'
+  },
+  {
+    id: 'st-basil-great',
+    name: 'St. Basil the Great',
+    feastDay: 'January 2',
+    category: 'Doctor Saints',
+    patron: 'Monks, Hospital Administrators, Reformers',
+    shortBio: 'Doctor of the Church and Father of Eastern Monasticism, defender of Nicene orthodoxy against Arianism.',
+    icon: '📚'
+  },
+  {
+    id: 'st-ignatius-antioch',
+    name: 'St. Ignatius of Antioch',
+    feastDay: 'October 17',
+    category: 'Martyr Saints',
+    patron: 'Martyrs, Church Unity, Throat Diseases',
+    shortBio: 'Second bishop of Antioch, disciple of St. John, martyred in Rome by wild beasts in 107 AD.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-pius-x',
+    name: 'St. Pius X',
+    feastDay: 'August 21',
+    category: 'Modern Saints',
+    patron: 'Popes, First Communicants, Pilgrims',
+    shortBio: 'Pope who inaugurated liturgical renewal, restored frequent communion from childhood, and fought Modernism.',
+    icon: '👑'
+  },
+  {
+    id: 'st-david-wales',
+    name: 'St. David of Wales',
+    feastDay: 'March 1',
+    category: 'Early Saints',
+    patron: 'Wales, Poets, Monks',
+    shortBio: 'Patron saint of Wales, founder of monasteries and primate of the Cambrian Church.',
+    icon: '🌿'
+  },
+  {
+    id: 'st-faith',
+    name: 'St. Faith',
+    feastDay: 'October 6',
+    category: 'Early Saints',
+    patron: 'Agen, France, Conques, Pilgrims',
+    shortBio: 'Virgin martyr who suffered death on a red-hot grill, with miracles reported at her shrine in Conques.',
+    icon: '🔥'
+  },
+  {
+    id: 'st-lea',
+    name: 'St. Lea',
+    feastDay: 'March 22',
+    category: 'Early Saints',
+    patron: 'Widows, Converts, Monastic Life',
+    shortBio: 'Fourth century widow who became Superior of a Roman monastery, model of renunciation and humility.',
+    icon: '🕊️'
+  },
+  {
+    id: 'st-hedwig',
+    name: 'St. Hedwig',
+    feastDay: 'October 15',
+    category: 'Medieval Saints',
+    patron: 'Silesia, Poland, Widows, Cistercian Nuns',
+    shortBio: 'Duchess of Silesia who became a Cistercian nun, patroness of Silesia and model of charity.',
+    icon: '👑'
+  },
+  {
+    id: 'st-alice',
+    name: 'St. Alice',
+    feastDay: 'June 15',
+    category: 'Medieval Saints',
+    patron: 'Leprosy, Blindness, Paralysis, Cistercian Nuns',
+    shortBio: 'Cistercian nun who suffered from leprosy, paralysis, and blindness, finding consolation in the Eucharist.',
+    icon: '🕊️'
+  },
+  {
+    id: 'st-alena',
+    name: 'St. Alena',
+    feastDay: 'June 18',
+    category: 'Martyr Saints',
+    patron: 'Converts, Secret Christians, Brussels',
+    shortBio: 'Martyr born near Brussels who converted from paganism and was martyred during a secret Eucharist.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-edmund-martyr',
+    name: 'St. Edmund the Martyr',
+    feastDay: 'November 20',
+    category: 'Martyr Saints',
+    patron: 'England, Kings, Torture Victims, East Anglia',
+    shortBio: 'Martyred king of the East Angles who was tortured and beheaded by Danish invaders.',
+    icon: '👑'
+  },
+  {
+    id: 'st-patricia',
+    name: 'St. Patricia',
+    feastDay: 'August 25',
+    category: 'Early Saints',
+    patron: 'Naples, Italy, Consecrated Virgins, Wealth Distribution',
+    shortBio: 'Noble virgin who fled Constantinople to escape marriage and dedicated her life to God in Rome.',
+    icon: '👑'
+  },
+  {
+    id: 'st-rafqa',
+    name: 'St. Rafqa',
+    feastDay: 'March 23',
+    category: 'Modern Saints',
+    patron: 'Lebanon, Blind People, Suffering, Teachers, Maronite Order',
+    shortBio: 'Lebanese Maronite nun who offered her suffering to Christ and became blind and paralyzed.',
+    icon: '🙏'
   }
 ]
 
