@@ -421,6 +421,294 @@ const saintsData = [
     icon: '⚔️'
   },
   {
+    id: 'st-teresa-benedicta',
+    name: 'St. Teresa Benedicta of the Cross (Edith Stein)',
+    feastDay: 'August 9',
+    category: 'Martyr Saints',
+    patron: 'Jewish Converts, Holocaust Martyrs, Philosophers, Europe',
+    shortBio: 'Jewish convert, Carmelite nun, and martyr of Auschwitz, canonized in 1998.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-expeditus',
+    name: 'St. Expeditus',
+    feastDay: 'April 19',
+    category: 'Martyr Saints',
+    patron: 'Urgent Causes, Procrastinators, Merchants, Sailors',
+    shortBio: 'Roman centurion martyr, patron of urgent causes and immediate help, known for his decisive conversion.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-vitus',
+    name: 'St. Vitus',
+    feastDay: 'June 15',
+    category: 'Martyr Saints',
+    patron: 'Epileptics, Dancers, Actors, Protection Against Storms',
+    shortBio: 'One of the Fourteen Holy Helpers, patron of epileptics and performing arts, converted at age twelve.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-pedro-calungsod',
+    name: 'St. Pedro Calungsod',
+    feastDay: 'April 2',
+    category: 'Martyr Saints',
+    patron: 'Filipino Catholics, Young Missionaries, Catechists, Guam',
+    shortBio: 'Second Filipino saint, martyred at age 18 in Guam, missionary and catechist.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-john-neumann',
+    name: 'St. John Neumann',
+    feastDay: 'January 5',
+    category: 'Modern Saints',
+    patron: 'Catholic Education, Immigrants, Philadelphia, Redemptorists',
+    shortBio: 'American bishop and founder of Catholic education, immigrant from Bohemia, Redemptorist missionary.',
+    icon: '⛪'
+  },
+  {
+    id: 'st-aloysius',
+    name: 'St. Aloysius Gonzaga',
+    feastDay: 'June 21',
+    category: 'Modern Saints',
+    patron: 'Youth, Students, Jesuit Novices, Purity',
+    shortBio: 'Jesuit saint who achieved holiness at young age, patron of youth and students, died at 23.',
+    icon: '⛪'
+  },
+  {
+    id: 'st-emily-vialar',
+    name: 'St. Emily de Vialar',
+    feastDay: 'June 17',
+    category: 'Modern Saints',
+    patron: 'Healthcare Workers, Educators, Religious Foundresses',
+    shortBio: 'Foundress of Sisters of St. Joseph of the Apparition, served the poor and educated children.',
+    icon: '⛪'
+  },
+  {
+    id: 'uganda-martyrs',
+    name: 'Uganda Martyrs',
+    feastDay: 'June 3',
+    category: 'Martyr Saints',
+    patron: 'Persecuted Christians, African Church, Youth, Uganda',
+    shortBio: 'Twenty-two Catholic martyrs who died for their faith in 1886, witnesses to modern persecution.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-jane-frances-de-chantal',
+    name: 'St. Jane Frances de Chantal',
+    feastDay: 'August 12',
+    category: 'Modern Saints',
+    patron: 'Forgiveness, Widows, Visitation Order, Spiritual Friendship',
+    shortBio: 'Foundress of the Visitation order, model of forgiveness and divine love, spiritual friend of St. Francis de Sales.',
+    icon: '👰'
+  },
+  {
+    id: 'st-rose-philippine-duchesne',
+    name: 'St. Rose Philippine Duchesne',
+    feastDay: 'November 18',
+    category: 'Modern Saints',
+    patron: 'Missionaries, Native Americans, Catholic Educators, Frontier Life',
+    shortBio: 'Missionary to Native Americans, foundress of Sacred Heart schools in America, "the woman who is always praying".',
+    icon: '🌹'
+  },
+  {
+    id: 'st-benjamin',
+    name: 'St. Benjamin',
+    feastDay: 'March 31',
+    category: 'Martyr Saints',
+    patron: 'Deacons, Persecuted Christians, Preachers, Persian Christians',
+    shortBio: 'Persian martyr and deacon who refused to be silenced, died for preaching Christ despite being released from prison.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-aaron',
+    name: 'St. Aaron',
+    feastDay: 'June 22',
+    category: 'Early Saints',
+    patron: 'Hermits, Abbots, Spiritual Directors, Celtic Christians',
+    shortBio: 'British hermit and abbot who founded monastic community in Brittany, spiritual father of St. Malo.',
+    icon: '🏝️'
+  },
+  {
+    id: 'st-adrian',
+    name: 'St. Adrian',
+    feastDay: 'September 8',
+    category: 'Martyr Saints',
+    patron: 'Soldiers, Butchers, Converts, Military Officers',
+    shortBio: 'Roman officer who converted to Christianity after witnessing Christian courage, died as a martyr.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-edward-the-confessor',
+    name: 'St. Edward the Confessor',
+    feastDay: 'October 13',
+    category: 'King Saints',
+    patron: 'Difficult Marriages, England, Kings and Rulers, Westminster Abbey',
+    shortBio: 'Last Anglo-Saxon king of England, founder of Westminster Abbey, patron of difficult marriages.',
+    icon: '👑'
+  },
+  {
+    id: 'st-isabella-of-france',
+    name: 'St. Isabella of France',
+    feastDay: 'February 23',
+    category: 'King Saints',
+    patron: 'Royal Women, Consecrated Virgins, Franciscan Monasteries, France',
+    shortBio: 'French princess, sister of St. Louis, founder of Franciscan monastery, model of royal humility.',
+    icon: '👸'
+  },
+  {
+    id: 'st-anne-of-constantinople',
+    name: 'St. Anne of Constantinople',
+    feastDay: 'July 23',
+    category: 'Early Saints',
+    patron: 'Hermitesses, Women Facing Arranged Marriages, Byzantine Christians, Contemplative Life',
+    shortBio: 'Byzantine hermitess who fled arranged marriage to live in solitude, also known as Susanna.',
+    icon: '🏔️'
+  },
+  {
+    id: 'st-king-louis-ix',
+    name: 'St. Louis IX',
+    feastDay: 'August 25',
+    category: 'King Saints',
+    patron: 'France, Kings and Rulers, Crusaders, Christian Leadership, Justice',
+    shortBio: 'King of France, led two crusades, founded Sorbonne, model of Christian kingship and justice.',
+    icon: '👑'
+  },
+  {
+    id: 'st-adele',
+    name: 'St. Adele',
+    feastDay: 'December 24',
+    category: 'Widow Saints',
+    patron: 'Widows, Religious Communities, Germany, Convents, Royal Women',
+    shortBio: 'Widow and abbess, founded convent near Trier, disciple of St. Boniface, royal daughter.',
+    icon: '👸'
+  },
+  {
+    id: 'st-matilda',
+    name: 'St. Matilda',
+    feastDay: 'March 14',
+    category: 'King Saints',
+    patron: 'Queens, Charity, Germany, Religious Communities, Family Reconciliation, Widows',
+    shortBio: 'Queen of Germany, mother of Otto the Great, founded convents and monasteries, model of royal charity.',
+    icon: '👑'
+  },
+  {
+    id: 'st-flora',
+    name: 'St. Flora',
+    feastDay: 'October 5',
+    category: 'Virgin Saints',
+    patron: 'Abandoned, Converts, Single Laywomen, Victims of Betrayal, Mystics, Religious Sisters',
+    shortBio: 'Virgin and mystic, experienced ecstasies and levitation, patron of the abandoned and converts.',
+    icon: '🌸'
+  },
+  {
+    id: 'st-andre-bessette',
+    name: 'St. Andre Bessette',
+    feastDay: 'January 6',
+    category: 'Modern Saints',
+    patron: 'Physical Healing, Holy Cross Brothers, Canada, Porters, Impossible Causes, St. Joseph Devotion',
+    shortBio: 'Holy Cross Brother who built St. Joseph\'s Oratory in Montreal, miracle worker and healer.',
+    icon: '🛠️'
+  },
+  {
+    id: 'st-genesius',
+    name: 'St. Genesius',
+    feastDay: 'August 25',
+    category: 'Martyr Saints',
+    patron: 'Actors, Artists, Theatre, Playwrights, Cultural Renewal, Conversion',
+    shortBio: 'Actor and martyr who converted during a play mocking Christianity, patron of artists.',
+    icon: '🎭'
+  },
+  {
+    id: 'st-carmen',
+    name: 'St. Carmen',
+    feastDay: 'July 16',
+    category: 'Carmelite Saints',
+    patron: 'Carmelite Order, Marian Devotion, Scapular Wearers, Contemplative Life, Mount Carmel',
+    shortBio: 'Carmelite saint whose name derives from Our Lady of Mount Carmel, patron of scapular devotion.',
+    icon: '🌿'
+  },
+  {
+    id: 'st-apollonia',
+    name: 'St. Apollonia',
+    feastDay: 'February 9',
+    category: 'Martyr Saints',
+    patron: 'Dental Diseases, Toothaches, Dentists, Dental Health, Pain Relief, Medical Suffering',
+    shortBio: 'Martyr who endured brutal torture, patron of dental diseases and toothaches.',
+    icon: '🦷'
+  },
+  {
+    id: 'st-simeon',
+    name: 'St. Simeon',
+    feastDay: 'February 18',
+    category: 'Bishop Saints',
+    patron: 'Family Unity, Bishops, Jerusalem, Elderly Faithful, Jewish Converts, Family of Jesus',
+    shortBio: 'Cousin of Jesus, second bishop of Jerusalem, martyred at age 120.',
+    icon: '👨‍🦳'
+  },
+  {
+    id: 'st-florian',
+    name: 'St. Florian',
+    feastDay: 'May 4',
+    category: 'Martyr Saints',
+    patron: 'Firefighters, Poland, Linz, Upper Austria, Fire Protection, Water Protection',
+    shortBio: 'Roman army officer and martyr, patron of firefighters and Poland.',
+    icon: '🚒'
+  },
+  {
+    id: 'paul-miki-japanese-martyrs',
+    name: 'St. Paul Miki & Japanese Martyrs',
+    feastDay: 'February 6',
+    category: 'Martyr Saints',
+    patron: 'Japan, Asian Missions, Cultural Evangelization, Persecuted Christians, Jesuit Missions, Lay Evangelizers',
+    shortBio: 'Jesuit priest and 25 companions crucified for faith in Japan under Toyotomi Hideyoshi.',
+    icon: '⛩️'
+  },
+  {
+    id: 'sts-cosmas-damian',
+    name: 'Sts. Cosmas & Damian',
+    feastDay: 'September 26',
+    category: 'Martyr Saints',
+    patron: 'Pharmacists, Physicians, Healthcare Workers, Medical Students, Hospitals, Charitable Service',
+    shortBio: 'Twin brothers and physicians who practiced medicine without charge, martyred for faith.',
+    icon: '💊'
+  },
+  {
+    id: 'st-charbel-makhlouf',
+    name: 'St. Charbel Makhlouf',
+    feastDay: 'July 24',
+    category: 'Modern Saints',
+    patron: 'Lebanon, Maronite Church, Hermits, Contemplatives, Spiritual Healing, Eucharistic Devotion',
+    shortBio: 'Maronite monk and hermit whose holiness and miracles continue to inspire worldwide.',
+    icon: '🧘'
+  },
+  {
+    id: 'st-joanna',
+    name: 'St. Joanna',
+    feastDay: 'May 24',
+    category: 'Biblical Saints',
+    patron: 'Women in the Church, Generous Discipleship, Witnesses of Faith, Social Justice, Courageous Faith, Easter Joy',
+    shortBio: 'Wife of Chuza, disciple of Jesus, one of the women who discovered the empty tomb.',
+    icon: '👸'
+  },
+  {
+    id: 'st-chier',
+    name: 'St. Chier',
+    feastDay: 'Unknown',
+    category: 'Virgin Saints',
+    patron: 'Tipperary, Nenagh, Irish Virgins, Spiritual Discipleship, Consecrated Virginity, Irish Heritage',
+    shortBio: 'Irish virgin and disciple of St. Fintan Munnu Kiara who lived near Nenagh, Tipperary.',
+    icon: '☘️'
+  },
+  {
+    id: 'blessed-rose-venerini',
+    name: 'Blessed Rose Venerini',
+    feastDay: 'May 7',
+    category: 'Modern Saints',
+    patron: 'Catholic Educators, Girls Education, Venerini Sisters, Italian Immigrants, Religious Education, Women Educators',
+    shortBio: 'Pioneer of Catholic education for girls, founder of Venerini Sisters, teacher of teachers.',
+    icon: '📚'
+  },
+  {
     id: 'st-germaine-pibrac',
     name: 'St. Germaine of Pibrac',
     feastDay: 'June 15',
@@ -506,8 +794,8 @@ const saintsData = [
     name: 'St. Matthias',
     feastDay: 'May 14',
     category: 'Apostle Saints',
-    patron: 'Tailors, Carpenters, Alcoholics, Smallpox, Hope, Perseverance',
-    shortBio: 'Apostle chosen to replace Judas Iscariot, faithful witness from baptism to Ascension.',
+    patron: 'Apostolic Witness, Divine Election, Latecomers, Community Integration',
+    shortBio: 'Apostle chosen to replace Judas and complete the twelve, witness to the resurrection.',
     icon: '⚔️'
   },
   {
@@ -1316,6 +1604,15 @@ const saintsData = [
     patron: 'Builders, Architects, Construction Workers',
     shortBio: 'Great Dominican missionary and patron saint of builders.',
     icon: '🏗️'
+  },
+  {
+    id: 'st-chier',
+    name: 'St. Chier',
+    feastDay: 'Unknown',
+    category: 'Virgin Saints',
+    patron: 'Tipperary, Nenagh, Irish Virgins, Spiritual Discipleship, Consecrated Virginity, Irish Heritage',
+    shortBio: 'Irish virgin and disciple of St. Fintan Munnu Kiara who lived near Nenagh, Tipperary.',
+    icon: '☘️'
   }
 ]
 
@@ -1336,7 +1633,12 @@ const categories = [
   { id: 'apostle', name: 'Apostle Saints', icon: '⚔️' },
   { id: 'archangel', name: 'Archangel Saints', icon: '👼' },
   { id: 'charity', name: 'Charity Saints', icon: '🌹' },
-  { id: 'biblical', name: 'Biblical Saints', icon: '📜' }
+  { id: 'biblical', name: 'Biblical Saints', icon: '📜' },
+  { id: 'king', name: 'King Saints', icon: '👑' },
+  { id: 'widow', name: 'Widow Saints', icon: '👸' },
+  { id: 'virgin', name: 'Virgin Saints', icon: '🌸' },
+  { id: 'carmelite', name: 'Carmelite Saints', icon: '🌿' },
+  { id: 'bishop', name: 'Bishop Saints', icon: '👨‍🦳' }
 ]
 
 export default function SaintsPage() {
