@@ -1802,6 +1802,51 @@ const saintsData = [
     patron: 'Lebanon, Blind People, Suffering, Teachers, Maronite Order',
     shortBio: 'Lebanese Maronite nun who offered her suffering to Christ and became blind and paralyzed.',
     icon: '🙏'
+  },
+  {
+    id: 'st-alphonsus-liguori',
+    name: 'St. Alphonsus Liguori',
+    feastDay: 'August 1',
+    category: 'Doctor Saints',
+    patron: 'Confessors, Moral Theologians, Lay Apostolate, Redemptorist Order',
+    shortBio: 'Bishop, Doctor of the Church, and founder of the Redemptorist Congregation.',
+    icon: '📚'
+  },
+  {
+    id: 'st-bibiana',
+    name: 'St. Bibiana',
+    feastDay: 'December 2',
+    category: 'Martyr Saints',
+    patron: 'Virgin Martyrs, Rome, Epilepsy, Mental Illness, Single Women',
+    shortBio: 'Virgin and martyr who suffered persecution under Julian the Apostate in 363.',
+    icon: '🌸'
+  },
+  {
+    id: 'st-raymond-pennafort',
+    name: 'St. Raymond of Pennafort',
+    feastDay: 'January 7',
+    category: 'Doctor Saints',
+    patron: 'Canonists, Canon Lawyers, Dominican Order, Spain, Barcelona',
+    shortBio: 'Dominican friar, canonist, and founder of the Order of Our Lady of Ransom.',
+    icon: '⚖️'
+  },
+  {
+    id: 'st-hubert',
+    name: 'St. Hubert',
+    feastDay: 'November 3',
+    category: 'Bishop Saints',
+    patron: 'Hunters, Forest Workers, Mathematicians, Metal Workers, Belgium',
+    shortBio: 'Bishop of Maastricht and patron saint of hunters, known for his vision of the crucifix between a stag\'s antlers.',
+    icon: '🦌'
+  },
+  {
+    id: 'st-alexander',
+    name: 'St. Alexander',
+    feastDay: 'March 18',
+    category: 'Martyr Saints',
+    patron: 'Theologians, Scholars, Prisoners, Jerusalem, Cappadocia',
+    shortBio: 'Bishop and martyr who suffered persecution under Severus and Decius, known for his theological library and mildness.',
+    icon: '📚'
   }
 ]
 
