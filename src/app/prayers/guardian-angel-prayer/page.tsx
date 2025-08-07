@@ -27,7 +27,7 @@ export default function GuardianAngelPrayerPage() {
         <Link href="/" className="hover:underline">Home</Link> &gt; <Link href="/prayers" className="hover:underline">Prayers</Link> &gt; Guardian Angel Prayer
       </nav>
       
-      <h1 className="text-4xl font-bold text-gray-900 mb-6">Guardian Angel Prayer – Catholic Prayer to Your Guardian Angel</h1>
+      <h1 className="text-4xl font-bold text-gray-900 mb-6">👼 Guardian Angel Prayer – Catholic Prayer to Your Guardian Angel</h1>
       
       <p className="text-lg text-gray-700 mb-8">
         The Guardian Angel Prayer is a beautiful Catholic devotion that recognizes and honors the angel that God has assigned to protect and guide each one of us. 

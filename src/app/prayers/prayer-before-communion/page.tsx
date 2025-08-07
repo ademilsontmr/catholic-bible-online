@@ -27,7 +27,7 @@ export default function PrayerBeforeCommunionPage() {
         <Link href="/" className="hover:underline">Home</Link> &gt; <Link href="/prayers" className="hover:underline">Prayers</Link> &gt; Prayer Before Communion
       </nav>
       
-      <h1 className="text-4xl font-bold text-gray-900 mb-6">Prayer Before Communion – Catholic Eucharistic Prayer</h1>
+      <h1 className="text-4xl font-bold text-gray-900 mb-6">🍷 Prayer Before Communion – Catholic Eucharistic Prayer</h1>
       
       <p className="text-lg text-gray-700 mb-8">
         The Prayer Before Communion is a beautiful Catholic prayer that helps us prepare our hearts to receive Jesus Christ in the Holy Eucharist. 

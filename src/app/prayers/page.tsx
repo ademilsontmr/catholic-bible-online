@@ -10,7 +10,7 @@ const prayerCategories = [
     name: 'Basic Prayers',
     description: 'Essential Catholic prayers every Catholic should know',
     icon: '🙏',
-    count: 12,
+    count: 15,
     prayers: [
       'Sign of the Cross',
       'Our Father',
@@ -23,15 +23,18 @@ const prayerCategories = [
       'Grace Before Meals',
       'Grace After Meals',
       'Morning Offering',
-      'Acts of Faith, Hope, and Love'
+      'Evening Prayer',
+      'Acts of Faith, Hope, and Love',
+      'Prayer Before Communion',
+      'Prayer After Communion'
     ]
   },
   {
     slug: 'rosary',
     name: 'Rosary Prayers',
-    description: 'Complete rosary prayers and mysteries',
+    description: 'Complete rosary prayers and all mysteries',
     icon: '📿',
-    count: 7,
+    count: 12,
     prayers: [
       'How to Pray the Rosary',
       'Joyful Mysteries',
@@ -39,7 +42,12 @@ const prayerCategories = [
       'Glorious Mysteries',
       'Luminous Mysteries',
       'Hail Holy Queen',
-      'Fatima Prayer'
+      'Fatima Prayer',
+      'Rosary for the Dead',
+      'Rosary for Peace',
+      'Rosary for the Family',
+      'Rosary for Priests',
+      'Divine Mercy Chaplet'
     ]
   },
   {
@@ -47,7 +55,7 @@ const prayerCategories = [
     name: 'Mass Prayers',
     description: 'Prayers used during the celebration of Mass',
     icon: '✞',
-    count: 9,
+    count: 12,
     prayers: [
       'Kyrie Eleison',
       'Gloria in Excelsis',
@@ -57,7 +65,10 @@ const prayerCategories = [
       'Spiritual Communion',
       'Confiteor',
       'Anima Christi',
-      'Divine Praises'
+      'Divine Praises',
+      'Prayer to the Holy Spirit',
+      'Prayer of the Faithful',
+      'Final Blessing'
     ]
   },
   {
@@ -65,7 +76,7 @@ const prayerCategories = [
     name: 'Marian Prayers',
     description: 'Prayers to the Blessed Virgin Mary',
     icon: '👸',
-    count: 7,
+    count: 15,
     prayers: [
       'Memorare',
       'The Angelus',
@@ -73,7 +84,15 @@ const prayerCategories = [
       'Prayer to Our Lady of the Immaculate Conception',
       'Sub Tuum Praesidium',
       'Ave Maris Stella',
-      'Salve Regina'
+      'Salve Regina',
+      'Magnificat',
+      'Prayer to Our Lady of Perpetual Help',
+      'Prayer to Our Lady of Guadalupe',
+      'Prayer to Our Lady of Lourdes',
+      'Prayer to Our Lady of Fatima',
+      'Prayer to Our Lady of Mount Carmel',
+      'Prayer to Our Lady of the Rosary',
+      'Prayer to Our Lady of Sorrows'
     ]
   },
   {
@@ -81,7 +100,7 @@ const prayerCategories = [
     name: 'Saints Prayers',
     description: 'Prayers to various saints and holy figures',
     icon: '👼',
-    count: 8,
+    count: 20,
     prayers: [
       'Prayer to St. Michael the Archangel',
       'Prayer to St. Joseph',
@@ -90,7 +109,19 @@ const prayerCategories = [
       'Prayer to St. Therese',
       'Prayer to St. Francis',
       'Prayer to St. Patrick',
-      'Prayer to St. Padre Pio'
+      'Prayer to St. Padre Pio',
+      'Prayer to St. Benedict',
+      'Prayer to St. Dominic',
+      'Prayer to St. Ignatius',
+      'Prayer to St. Thomas Aquinas',
+      'Prayer to St. Augustine',
+      'Prayer to St. Teresa of Avila',
+      'Prayer to St. John of the Cross',
+      'Prayer to St. Catherine of Siena',
+      'Prayer to St. Faustina',
+      'Prayer to St. Maximilian Kolbe',
+      'Prayer to St. John Paul II',
+      'Prayer to St. Mother Teresa'
     ]
   },
   {
@@ -98,14 +129,124 @@ const prayerCategories = [
     name: 'Seasonal Prayers',
     description: 'Prayers for different liturgical seasons',
     icon: '🌿',
-    count: 6,
+    count: 8,
     prayers: [
       'Advent Prayers',
       'Christmas Prayers',
       'Lent Prayers',
       'Easter Prayers',
       'Pentecost Prayers',
-      'Ordinary Time Prayers'
+      'Ordinary Time Prayers',
+      'All Saints Day Prayers',
+      'All Souls Day Prayers'
+    ]
+  },
+  {
+    slug: 'devotional',
+    name: 'Devotional Prayers',
+    description: 'Special devotions and spiritual practices',
+    icon: '🕯️',
+    count: 12,
+    prayers: [
+      'Divine Mercy Chaplet',
+      'Stations of the Cross',
+      'Way of the Cross',
+      'Litany of the Sacred Heart',
+      'Litany of the Blessed Virgin Mary',
+      'Litany of St. Joseph',
+      'Litany of the Saints',
+      'Prayer to the Holy Spirit',
+      'Prayer for the Dead',
+      'Prayer for the Sick',
+      'Prayer for Peace',
+      'Prayer for Vocations'
+    ]
+  },
+  {
+    slug: 'family',
+    name: 'Family Prayers',
+    description: 'Prayers for families and children',
+    icon: '👨‍👩‍👧‍👦',
+    count: 10,
+    prayers: [
+      'Family Prayer',
+      'Prayer for Parents',
+      'Prayer for Children',
+      'Prayer for Married Couples',
+      'Prayer for the Family',
+      'Prayer for Grandparents',
+      'Prayer for Siblings',
+      'Prayer for the Home',
+      'Prayer for Family Unity',
+      'Prayer for Family Protection'
+    ]
+  },
+  {
+    slug: 'healing',
+    name: 'Healing Prayers',
+    description: 'Prayers for physical and spiritual healing',
+    icon: '🏥',
+    count: 8,
+    prayers: [
+      'Prayer for the Sick',
+      'Prayer for Healing',
+      'Prayer for Mental Health',
+      'Prayer for Emotional Healing',
+      'Prayer for Physical Healing',
+      'Prayer for Spiritual Healing',
+      'Prayer for Addiction Recovery',
+      'Prayer for Inner Peace'
+    ]
+  },
+  {
+    slug: 'protection',
+    name: 'Protection Prayers',
+    description: 'Prayers for protection and deliverance',
+    icon: '🛡️',
+    count: 8,
+    prayers: [
+      'Prayer to St. Michael for Protection',
+      'Prayer for Protection from Evil',
+      'Prayer for Travel Protection',
+      'Prayer for Home Protection',
+      'Prayer for Work Protection',
+      'Prayer for School Protection',
+      'Prayer for Military Protection',
+      'Prayer for Emergency Protection'
+    ]
+  },
+  {
+    slug: 'thanksgiving',
+    name: 'Thanksgiving Prayers',
+    description: 'Prayers of gratitude and thanksgiving',
+    icon: '🙌',
+    count: 6,
+    prayers: [
+      'Prayer of Thanksgiving',
+      'Prayer for God\'s Blessings',
+      'Prayer for Daily Gifts',
+      'Prayer for Answered Prayers',
+      'Prayer for God\'s Mercy',
+      'Prayer for God\'s Love'
+    ]
+  },
+  {
+    slug: 'intercession',
+    name: 'Intercessory Prayers',
+    description: 'Prayers for others and the world',
+    icon: '🤝',
+    count: 10,
+    prayers: [
+      'Prayer for the Pope',
+      'Prayer for Priests',
+      'Prayer for Religious',
+      'Prayer for the Church',
+      'Prayer for the World',
+      'Prayer for Peace',
+      'Prayer for the Poor',
+      'Prayer for the Suffering',
+      'Prayer for Missionaries',
+      'Prayer for Evangelization'
     ]
   }
 ];
@@ -128,15 +269,15 @@ export default function PrayersPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-black mb-4">
+          <h1 className="text-5xl font-bold text-black mb-6">
             Catholic Prayers Collection
           </h1>
-          <p className="text-xl text-black mb-6 max-w-3xl mx-auto">
-            Comprehensive collection of {totalPrayers}+ traditional Catholic prayers, devotions, and novenas 
-            organized by category for easy navigation and daily spiritual practice.
+          <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto">
+            Comprehensive collection of {totalPrayers}+ traditional Catholic prayers, devotions, and spiritual practices 
+            organized by category for easy navigation and daily spiritual growth.
           </p>
           
           {/* Search Box */}
@@ -147,7 +288,7 @@ export default function PrayersPage() {
                 placeholder="Search prayers..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full px-4 py-3 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-500 focus:border-gray-500 text-black"
+                className="w-full px-4 py-3 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-black"
               />
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                 <svg className="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -158,18 +299,22 @@ export default function PrayersPage() {
           </div>
 
           {/* Statistics */}
-          <div className="prayer-stats mb-8">
-            <div className="prayer-stat-card">
-              <div className="prayer-stat-number">{totalPrayers}+</div>
-              <div className="prayer-stat-label">Total Prayers</div>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+            <div className="bg-blue-50 rounded-lg p-6">
+              <div className="text-3xl font-bold text-blue-600 mb-2">{totalPrayers}+</div>
+              <div className="text-sm text-gray-600">Total Prayers</div>
             </div>
-            <div className="prayer-stat-card">
-              <div className="prayer-stat-number">{prayerCategories.length}</div>
-              <div className="prayer-stat-label">Categories</div>
+            <div className="bg-green-50 rounded-lg p-6">
+              <div className="text-3xl font-bold text-green-600 mb-2">{prayerCategories.length}</div>
+              <div className="text-sm text-gray-600">Categories</div>
             </div>
-            <div className="prayer-stat-card">
-              <div className="prayer-stat-number">Daily</div>
-              <div className="prayer-stat-label">Updates</div>
+            <div className="bg-purple-50 rounded-lg p-6">
+              <div className="text-3xl font-bold text-purple-600 mb-2">Daily</div>
+              <div className="text-sm text-gray-600">Updates</div>
+            </div>
+            <div className="bg-orange-50 rounded-lg p-6">
+              <div className="text-3xl font-bold text-orange-600 mb-2">Free</div>
+              <div className="text-sm text-gray-600">Access</div>
             </div>
           </div>
         </div>
@@ -179,7 +324,7 @@ export default function PrayersPage() {
           <div className="mb-6 text-center">
             <p className="text-gray-600">
               {filteredCategories.length > 0 
-                ? `Found ${filteredCategories.length} category${filteredCategories.length !== 1 ? 'ies' : 'y'} matching "${searchTerm}"`
+                ? `Found ${filteredCategories.length} categor${filteredCategories.length !== 1 ? 'ies' : 'y'} matching "${searchTerm}"`
                 : `No categories found matching "${searchTerm}"`
               }
             </p>
@@ -187,127 +332,123 @@ export default function PrayersPage() {
         )}
 
         {/* Prayer Categories Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-12">
           {filteredCategories.map((category) => (
             <Link 
               key={category.slug}
               href={`/prayers/${category.slug}`}
               className="group block"
             >
-              <div className="prayer-category-card">
+              <div className="bg-white border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300 h-full">
                 <div className="flex items-start justify-between mb-4">
-                  <div className="text-3xl">{category.icon}</div>
-                  <div className="prayer-category-count">
+                  <div className="text-4xl">{category.icon}</div>
+                  <div className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
                     {category.count}
                   </div>
                 </div>
                 
-                <h2 className="prayer-category-title group-hover:text-gray-700">
+                <h3 className="text-xl font-semibold text-black mb-3 group-hover:text-blue-600 transition-colors">
                   {category.name}
-                </h2>
+                </h3>
                 
-                <p className="prayer-category-description">
+                <p className="text-gray-600 text-sm mb-4">
                   {category.description}
                 </p>
                 
-                {/* Preview of prayers */}
-                <div className="prayer-preview-list">
+                <div className="space-y-1">
                   {category.prayers.slice(0, 3).map((prayer, index) => (
-                    <div key={index} className="prayer-preview-item">
-                      <span className="prayer-preview-dot"></span>
-                      {prayer}
+                    <div key={index} className="text-xs text-gray-500 truncate">
+                      • {prayer}
                     </div>
                   ))}
                   {category.prayers.length > 3 && (
-                    <div className="prayer-preview-item">
-                      <span className="prayer-preview-dot"></span>
+                    <div className="text-xs text-blue-600 font-medium">
                       +{category.prayers.length - 3} more prayers
                     </div>
                   )}
-                </div>
-
-                <div className="mt-4 flex items-center text-gray-600 text-sm font-medium">
-                  <span>View Collection</span>
-                  <svg className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
                 </div>
               </div>
             </Link>
           ))}
         </div>
 
-        {/* Quick Access to Popular Prayers */}
+        {/* Featured Prayers Section */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-black mb-8 text-center">
-            Most Popular Prayers
-          </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {[
-              { name: 'Our Father', slug: 'our-father' },
-              { name: 'Hail Mary', slug: 'hail-mary' },
-              { name: 'The Rosary', slug: 'rosary' },
-              { name: 'Prayer to St. Michael', slug: 'prayer-to-st-michael' },
-              { name: 'Memorare', slug: 'memorare' },
-              { name: 'Angelus', slug: 'angelus' },
-              { name: 'Prayer Before Communion', slug: 'prayer-before-communion' },
-              { name: 'Guardian Angel Prayer', slug: 'guardian-angel-prayer' }
-            ].map((prayer) => (
-              <Link
-                key={prayer.slug}
-                href={`/prayers/${prayer.slug}`}
-                className="prayer-popular-item group"
-              >
-                <h3 className="font-semibold text-black group-hover:text-gray-700 transition-colors">
-                  {prayer.name}
-                </h3>
-              </Link>
-            ))}
+          <h2 className="text-3xl font-bold text-black mb-8 text-center">Featured Prayers</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Link href="/prayers/our-father" className="group block">
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100 border border-blue-200 rounded-lg p-6 hover:shadow-lg transition-all">
+                <div className="text-3xl mb-3">🙏</div>
+                <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-blue-600">Our Father</h3>
+                <p className="text-sm text-gray-600">The Lord's Prayer taught by Jesus</p>
+              </div>
+            </Link>
+            
+            <Link href="/prayers/hail-mary" className="group block">
+              <div className="bg-gradient-to-br from-pink-50 to-pink-100 border border-pink-200 rounded-lg p-6 hover:shadow-lg transition-all">
+                <div className="text-3xl mb-3">👸</div>
+                <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-pink-600">Hail Mary</h3>
+                <p className="text-sm text-gray-600">Prayer to the Blessed Virgin Mary</p>
+              </div>
+            </Link>
+            
+            <Link href="/prayers/glory-be" className="group block">
+              <div className="bg-gradient-to-br from-green-50 to-green-100 border border-green-200 rounded-lg p-6 hover:shadow-lg transition-all">
+                <div className="text-3xl mb-3">✨</div>
+                <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-green-600">Glory Be</h3>
+                <p className="text-sm text-gray-600">Doxology to the Holy Trinity</p>
+              </div>
+            </Link>
+            
+            <Link href="/prayers/apostles-creed" className="group block">
+              <div className="bg-gradient-to-br from-purple-50 to-purple-100 border border-purple-200 rounded-lg p-6 hover:shadow-lg transition-all">
+                <div className="text-3xl mb-3">📜</div>
+                <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-purple-600">Apostles' Creed</h3>
+                <p className="text-sm text-gray-600">Statement of Catholic faith</p>
+              </div>
+            </Link>
           </div>
         </section>
 
-        {/* Features Section */}
+        {/* Quick Navigation */}
         <section className="bg-gray-50 rounded-lg p-8 mb-12">
-          <h2 className="text-2xl font-bold text-black mb-6 text-center">
-            Prayer Collection Features
-          </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="text-center">
-              <div className="text-3xl mb-3">📖</div>
-              <h3 className="font-semibold text-black mb-2">Traditional Texts</h3>
-              <p className="text-gray-600 text-sm">
-                Authentic Catholic prayers from official Church sources and centuries of tradition
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="text-3xl mb-3">🔍</div>
-              <h3 className="font-semibold text-black mb-2">Easy Navigation</h3>
-              <p className="text-gray-600 text-sm">
-                Organized by category with search functionality to find exactly what you need
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="text-3xl mb-3">📱</div>
-              <h3 className="font-semibold text-black mb-2">Mobile Friendly</h3>
-              <p className="text-gray-600 text-sm">
-                Optimized for reading and praying on any device, anywhere, anytime
-              </p>
-            </div>
+          <h2 className="text-2xl font-bold text-black mb-6 text-center">Quick Navigation</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            <Link href="/prayers/basic" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-colors">
+              <div className="text-2xl mb-2">🙏</div>
+              <div className="text-sm font-medium text-gray-700">Basic</div>
+            </Link>
+            <Link href="/prayers/rosary" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-colors">
+              <div className="text-2xl mb-2">📿</div>
+              <div className="text-sm font-medium text-gray-700">Rosary</div>
+            </Link>
+            <Link href="/prayers/mass" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-colors">
+              <div className="text-2xl mb-2">✞</div>
+              <div className="text-sm font-medium text-gray-700">Mass</div>
+            </Link>
+            <Link href="/prayers/marian" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-colors">
+              <div className="text-2xl mb-2">👸</div>
+              <div className="text-sm font-medium text-gray-700">Marian</div>
+            </Link>
+            <Link href="/prayers/saints" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-colors">
+              <div className="text-2xl mb-2">👼</div>
+              <div className="text-sm font-medium text-gray-700">Saints</div>
+            </Link>
+            <Link href="/prayers/devotional" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-colors">
+              <div className="text-2xl mb-2">🕯️</div>
+              <div className="text-sm font-medium text-gray-700">Devotional</div>
+            </Link>
           </div>
         </section>
 
-        {/* Back to Home */}
-        <div className="text-center">
-          <Link 
-            href="/"
-            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
-          >
-            ← Back to Home
-          </Link>
+        {/* Footer */}
+        <div className="text-center text-gray-600">
+          <p className="mb-4">
+            Discover the rich tradition of Catholic prayer and deepen your spiritual life with these timeless devotions.
+          </p>
+          <p className="text-sm">
+            All prayers are free to use and share. May they bring you closer to God and His love.
+          </p>
         </div>
       </div>
     </div>

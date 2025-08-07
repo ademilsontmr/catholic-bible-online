@@ -27,7 +27,7 @@ export default function MemorarePage() {
         <Link href="/" className="hover:underline">Home</Link> &gt; <Link href="/prayers" className="hover:underline">Prayers</Link> &gt; Memorare
       </nav>
       
-      <h1 className="text-4xl font-bold text-gray-900 mb-6">Memorare – Prayer to the Blessed Virgin Mary</h1>
+      <h1 className="text-4xl font-bold text-gray-900 mb-6">🙏 Memorare – Prayer to the Blessed Virgin Mary</h1>
       
       <p className="text-lg text-gray-700 mb-8">
         The Memorare is a beautiful and powerful Catholic prayer of intercession to the Blessed Virgin Mary. 

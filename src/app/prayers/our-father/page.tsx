@@ -27,7 +27,7 @@ export default function OurFatherPage() {
         <Link href="/" className="hover:underline">Home</Link> &gt; <Link href="/prayers" className="hover:underline">Prayers</Link> &gt; Our Father
       </nav>
       
-      <h1 className="text-4xl font-bold text-gray-900 mb-6">Our Father – The Lord's Prayer</h1>
+      <h1 className="text-4xl font-bold text-gray-900 mb-6">🙏 Our Father – The Lord's Prayer</h1>
       
       <p className="text-lg text-gray-700 mb-8">
         The Our Father, also known as the Lord's Prayer, is the prayer that Jesus Himself taught to His disciples. 

@@ -27,7 +27,7 @@ export default function PrayerToStMichaelPage() {
         <Link href="/" className="hover:underline">Home</Link> &gt; <Link href="/prayers" className="hover:underline">Prayers</Link> &gt; Prayer to St. Michael
       </nav>
       
-      <h1 className="text-4xl font-bold text-gray-900 mb-6">Prayer to St. Michael the Archangel</h1>
+      <h1 className="text-4xl font-bold text-gray-900 mb-6">⚔️ Prayer to St. Michael the Archangel</h1>
       
       <p className="text-lg text-gray-700 mb-8">
         The Prayer to St. Michael the Archangel is a powerful Catholic prayer for protection against evil and spiritual warfare. 
@@ -93,15 +93,15 @@ export default function PrayerToStMichaelPage() {
         <h2 className="text-2xl font-bold text-black mb-6">Related Prayers</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <Link href="/prayers/our-father" className="group block">
-            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300">
-              <div className="p-4">
-                <span className="px-2 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg hover:border-green-300 transition-all duration-300">
+              <div className="p-6">
+                <span className="px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
                   Basic Prayers
                 </span>
-                <h3 className="text-lg font-semibold text-black mt-2 group-hover:text-gray-700 transition-colors">
+                <h3 className="text-lg font-semibold text-black mt-3 group-hover:text-green-600 transition-colors">
                   Our Father
                 </h3>
-                <p className="text-gray-600 text-sm mt-2">
+                <p className="text-gray-600 text-sm mt-2 leading-relaxed">
                   The Lord's Prayer, the perfect model for all Christian prayer taught by Jesus Himself.
                 </p>
               </div>
@@ -109,15 +109,15 @@ export default function PrayerToStMichaelPage() {
           </Link>
           
           <Link href="/prayers/rosary" className="group block">
-            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300">
-              <div className="p-4">
-                <span className="px-2 py-1 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg hover:border-purple-300 transition-all duration-300">
+              <div className="p-6">
+                <span className="px-3 py-1 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
                   Devotions
                 </span>
-                <h3 className="text-lg font-semibold text-black mt-2 group-hover:text-gray-700 transition-colors">
+                <h3 className="text-lg font-semibold text-black mt-3 group-hover:text-purple-600 transition-colors">
                   The Rosary
                 </h3>
-                <p className="text-gray-600 text-sm mt-2">
+                <p className="text-gray-600 text-sm mt-2 leading-relaxed">
                   The powerful Catholic devotion combining vocal prayer with meditation on the mysteries of our salvation.
                 </p>
               </div>
@@ -125,15 +125,15 @@ export default function PrayerToStMichaelPage() {
           </Link>
           
           <Link href="/prayers/guardian-angel-prayer" className="group block">
-            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300">
-              <div className="p-4">
-                <span className="px-2 py-1 rounded-full text-xs font-medium bg-orange-100 text-orange-800">
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg hover:border-orange-300 transition-all duration-300">
+              <div className="p-6">
+                <span className="px-3 py-1 rounded-full text-xs font-medium bg-orange-100 text-orange-800">
                   Protection Prayers
                 </span>
-                <h3 className="text-lg font-semibold text-black mt-2 group-hover:text-gray-700 transition-colors">
+                <h3 className="text-lg font-semibold text-black mt-3 group-hover:text-orange-600 transition-colors">
                   Guardian Angel Prayer
                 </h3>
-                <p className="text-gray-600 text-sm mt-2">
+                <p className="text-gray-600 text-sm mt-2 leading-relaxed">
                   Acknowledge God's loving care through the ministry of angels with this beloved prayer for protection.
                 </p>
               </div>
