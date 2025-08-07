@@ -3,26 +3,28 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'St. Philip - Life, Legacy & Feast Day | Catholic Bible Online',
-  description: 'Discover the life, legacy, and feast day of St. Philip, the apostle who brought Nathanael to Christ.',
+  description: 'Discover the life, legacy, and feast day of St. Philip, one of the twelve apostles who brought Nathanael to Christ and preached in Greece.',
   keywords: [
     'st philip',
     'saint philip',
-    'apostle philip',
     'st philip biography',
     'st philip feast day',
     'st philip patron saint',
-    'twelve apostles',
     'catholic saints',
-    'may 3 feast day'
+    'may 3 feast day',
+    'apostle saints',
+    'twelve apostles',
+    'greece',
+    'hierapolis'
   ],
   openGraph: {
     title: 'St. Philip - Life, Legacy & Feast Day',
-    description: 'Discover the life, legacy, and feast day of St. Philip, the apostle who brought Nathanael to Christ.',
+    description: 'Discover the life, legacy, and feast day of St. Philip, one of the twelve apostles who brought Nathanael to Christ.',
     url: 'https://catholicbibleonline.com/saints/st-philip',
   },
   twitter: {
     title: 'St. Philip - Life, Legacy & Feast Day',
-    description: 'Discover the life, legacy, and feast day of St. Philip, the apostle who brought Nathanael to Christ.',
+    description: 'Discover the life, legacy, and feast day of St. Philip, one of the twelve apostles who brought Nathanael to Christ.',
   }
 }
 
@@ -32,12 +34,12 @@ export default function StPhilipPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="text-6xl mb-4">✝️</div>
+          <div className="text-6xl mb-4">⚔️</div>
           <h1 className="text-4xl font-bold text-black mb-4">
             St. Philip
           </h1>
           <p className="text-xl text-gray-600 mb-6">
-            Apostle Who Brought Nathanael to Christ
+            Apostle of Jesus Christ, Evangelist, Martyr of Hierapolis
           </p>
           
           {/* Breadcrumb */}
@@ -54,8 +56,8 @@ export default function StPhilipPage() {
               <div className="text-sm text-gray-600">Feast Day</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-gray-800">✝️</div>
-              <div className="text-sm text-gray-600">Apostle Saints</div>
+              <div className="text-2xl font-bold text-gray-800">⚔️</div>
+              <div className="text-sm text-gray-600">Apostle</div>
             </div>
           </div>
         </div>
@@ -67,54 +69,54 @@ export default function StPhilipPage() {
           <div className="bg-white border border-gray-200 rounded-lg p-8">
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
-                St. Philip was a Galilean who became one of the twelve apostles chosen 
-                by Jesus Christ. He is remembered for his important role in bringing 
-                Nathanael (also known as Bartholomew) to Christ, demonstrating his 
-                missionary zeal and his desire to share the Good News with others.
+                St. Philip was born in Bethsaida, Galilee, a town that was also the birthplace of 
+                St. Peter and St. Andrew. He may have been a disciple of John the Baptist before 
+                being called by Jesus, which would explain his readiness to follow the Lord when 
+                called. Philip is mentioned as one of the Apostles in the lists of Matthew, Mark, 
+                Luke, and in the Acts of the Apostles, establishing his place among the Twelve.
               </p>
               
               <p className="mb-6">
-                According to the Gospel of John, Philip was from Bethsaida, the same 
-                town as Andrew and Peter. When Jesus found Philip, He said to him, 
-                "Follow me." Philip immediately responded to this call and became 
-                a disciple of Christ. His immediate response to Jesus' invitation 
-                shows his openness to God's call and his willingness to leave everything 
-                behind to follow the Lord.
+                Philip was called by Jesus Himself, and his response to this call demonstrates 
+                his immediate and wholehearted commitment to following the Lord. After being called, 
+                Philip's first act as an apostle was to bring Nathanael (also known as Bartholomew) 
+                to Christ, showing his evangelistic zeal and his desire to share the good news 
+                with others. When Nathanael expressed skepticism about Jesus coming from Nazareth, 
+                Philip simply said, "Come and see," demonstrating his practical approach to evangelization.
               </p>
               
               <p className="mb-6">
-                One of the most significant moments in St. Philip's life occurred 
-                when he found Nathanael and told him, "We have found the one about 
-                whom Moses wrote in the law, and also the prophets, Jesus son of 
-                Joseph, from Nazareth." When Nathanael expressed doubt, saying, "Can 
-                anything good come from Nazareth?" Philip simply replied, "Come and 
-                see." This simple invitation led Nathanael to encounter Christ and 
-                become one of the apostles.
+                Philip was present at the miracle of the loaves and fishes, where he engaged in 
+                a brief but significant dialogue with the Lord. When Jesus asked Philip where they 
+                could buy bread to feed the crowd, Philip responded with practical concern about 
+                the cost, saying that even two hundred denarii would not be enough to give each 
+                person a little bread. This exchange shows Philip's practical nature and his 
+                initial difficulty in understanding the full scope of Jesus' power.
               </p>
               
               <p className="mb-6">
-                St. Philip appears in several important moments in the Gospels. During 
-                the miracle of the multiplication of the loaves and fishes, Jesus 
-                tested Philip by asking him where they could buy bread to feed the 
-                crowd. Philip responded with practical concern about the cost, showing 
-                his human nature and the challenges of faith.
+                Philip was also the Apostle approached by the Hellenistic Jews from Bethsaida 
+                who wanted to see Jesus. These Greeks came to Philip and said, "Sir, we wish to 
+                see Jesus." Philip then went to Andrew, and together they told Jesus about the 
+                request. This incident shows Philip's role as a bridge between different cultures 
+                and his willingness to help others come to Christ.
               </p>
               
               <p className="mb-6">
-                At the Last Supper, Philip asked Jesus to show the Father to the 
-                disciples, saying, "Master, show us the Father, and that will be 
-                enough for us." Jesus responded with the profound teaching, "Whoever 
-                has seen me has seen the Father." This exchange reveals Philip's 
-                desire for deeper understanding and Jesus' revelation of His divine 
-                nature.
+                Just before the Passion, during the Last Supper, Philip asked Jesus to show him 
+                the Father, saying, "Lord, show us the Father, and we shall be satisfied." Jesus 
+                responded with one of His most profound teachings, explaining that to see Him was 
+                to see the Father, for He and the Father are one. This exchange reveals Philip's 
+                deep desire to understand the nature of God and his role in helping to clarify 
+                this important theological truth.
               </p>
               
               <p>
-                After the Resurrection and Ascension of Jesus, St. Philip preached 
-                the Gospel in Phrygia, a region in Asia Minor. According to tradition, 
-                he suffered martyrdom there, giving his life for the faith. His preaching 
-                focused on the cross of Christ, which became the central theme of 
-                his missionary work and the symbol associated with him.
+                After the Resurrection and Ascension, Philip was among the Apostles awaiting the 
+                Holy Spirit in the Upper Room. According to tradition, he later preached the Gospel 
+                in Greece and was crucified upside down at Hierapolis under Emperor Domitian, 
+                following the example of St. Peter. His martyrdom demonstrates his complete 
+                commitment to Christ and his willingness to give his life for the Gospel.
               </p>
             </div>
           </div>
@@ -122,50 +124,47 @@ export default function StPhilipPage() {
 
         {/* Legacy Section */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-black mb-6 text-center">🌟 Legacy of St. Philip: Apostle of Evangelization</h2>
+          <h2 className="text-3xl font-bold text-black mb-6 text-center">🌟 Legacy of St. Philip: Apostle and Evangelist</h2>
           
           <div className="bg-blue-50 rounded-lg p-8">
             <div className="prose prose-lg max-w-none text-gray-700">
-              <h3 className="text-xl font-semibold text-black mb-4">Model of Evangelization</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Evangelistic Zeal</h3>
               <p className="mb-6">
-                St. Philip's most enduring legacy is his role as a model of evangelization. 
-                His simple invitation to Nathanael, "Come and see," demonstrates the 
-                most effective approach to sharing the faith. Rather than engaging 
-                in complex arguments or trying to convince Nathanael with words, 
-                Philip invited him to a personal encounter with Christ. This approach 
-                teaches us that evangelization is not about winning arguments but 
-                about introducing others to Jesus.
+                St. Philip's greatest legacy is his example of evangelistic zeal and his practical 
+                approach to bringing others to Christ. His immediate response to bring Nathanael 
+                to Jesus after being called himself shows his understanding that the Gospel is 
+                meant to be shared. His simple invitation, "Come and see," remains a powerful 
+                model for evangelization - not arguing or debating, but simply inviting others 
+                to encounter Christ for themselves.
               </p>
               
-              <h3 className="text-xl font-semibold text-black mb-4">Immediate Response to God's Call</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Bridge Between Cultures</h3>
               <p className="mb-6">
-                St. Philip's immediate response to Jesus' invitation, "Follow me," 
-                shows his openness to God's call and his willingness to leave everything 
-                behind. His example teaches us the importance of being ready to respond 
-                to God's call and the willingness to make the necessary sacrifices 
-                to follow Christ. Philip's response reminds us that discipleship 
-                requires both hearing and acting on God's word.
+                Philip's role in bringing the Hellenistic Jews to Jesus demonstrates his ability 
+                to serve as a bridge between different cultures and communities. His willingness 
+                to help these Greeks meet Jesus shows his understanding that the Gospel is for 
+                all people, regardless of their background or culture. This aspect of his ministry 
+                continues to inspire those called to cross-cultural evangelization and ministry.
               </p>
               
-              <h3 className="text-xl font-semibold text-black mb-4">Seeker of Understanding</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Practical Faith</h3>
               <p className="mb-6">
-                St. Philip's question at the Last Supper, "Show us the Father," reveals 
-                his desire for deeper understanding and his honest seeking of truth. 
-                His willingness to ask questions and his desire for clarity demonstrate 
-                that faith and reason are not opposed but complementary. Philip's 
-                example encourages us to ask questions about our faith and to seek 
-                deeper understanding of God's mysteries.
+                Philip's practical nature and his honest questions to Jesus reveal a man who 
+                was not afraid to ask for clarification and who thought in practical terms. 
+                His question about the cost of feeding the crowd and his request to see the 
+                Father show his desire to understand and his willingness to learn. His example 
+                encourages us to bring our questions and concerns to Jesus and to seek understanding 
+                in our faith journey.
               </p>
               
-              <h3 className="text-xl font-semibold text-black mb-4">Preacher of the Cross</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Martyrdom and Witness</h3>
               <p>
-                St. Philip's missionary work in Phrygia focused on the cross of Christ, 
-                which became the central theme of his preaching. His emphasis on 
-                the cross demonstrates his understanding that the crucifixion is 
-                the central mystery of our faith and the source of our salvation. 
-                Philip's legacy teaches us that all Christian preaching must be centered 
-                on Christ crucified and that the cross is the ultimate sign of God's 
-                love for humanity.
+                Philip's martyrdom in Greece, where he was crucified upside down, demonstrates 
+                his complete commitment to Christ and his willingness to give his life for the 
+                Gospel. His preaching in Greece helped to establish the Church in that region, 
+                and his martyrdom serves as a powerful witness to the truth of the Gospel. His 
+                example continues to inspire those who face persecution for their faith and 
+                those called to witness to Christ in difficult circumstances.
               </p>
             </div>
           </div>
@@ -177,35 +176,35 @@ export default function StPhilipPage() {
           
           <div className="bg-white border border-gray-200 rounded-lg p-8">
             <div className="text-center mb-6">
-              <div className="text-4xl font-bold text-red-600 mb-2">May 3</div>
-              <p className="text-gray-600">Feast of St. Philip</p>
+              <div className="text-4xl font-bold text-blue-600 mb-2">May 3</div>
+              <p className="text-gray-600">Feast of St. Philip, Apostle</p>
             </div>
             
             <div className="prose prose-lg max-w-none text-gray-700">
               <h3 className="text-xl font-semibold text-black mb-4">Liturgical Celebration</h3>
               <p className="mb-6">
-                The feast of St. Philip is celebrated on May 3rd, commemorating 
-                the day of his martyrdom. This feast is celebrated as a memorial 
-                in the Roman Catholic Church, recognizing his importance as one of 
-                the twelve apostles and his role in bringing others to Christ.
+                The feast of St. Philip is celebrated on May 3rd. This feast honors his life 
+                as one of the twelve apostles, his evangelistic ministry, and his martyrdom 
+                for the faith. It is a day to remember his example of bringing others to Christ 
+                and his willingness to give his life for the Gospel.
               </p>
               
-              <h3 className="text-xl font-semibold text-black mb-4">Traditions and Customs</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Historical Context</h3>
               <p className="mb-6">
-                On the feast day of St. Philip, many people pray for the gift of 
-                evangelization and the courage to invite others to encounter Christ. 
-                Churches may hold special services focusing on the importance of 
-                sharing the faith and the power of personal witness. Many also pray 
-                for missionaries and for the spread of the Gospel throughout the world.
+                St. Philip lived during the time of Jesus and the early Church, a period of 
+                great transformation and growth for the Christian faith. His ministry took 
+                place during the establishment of the Church and the spread of the Gospel 
+                beyond the Jewish community to the Gentile world. His work in Greece represents 
+                the early Church's mission to bring the Gospel to all nations.
               </p>
               
-              <h3 className="text-xl font-semibold text-black mb-4">Prayer and Devotion</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Devotional Practices</h3>
               <p>
-                The feast day is an excellent time to pray for the gift of evangelization, 
-                for the courage to invite others to "come and see" Christ, and for 
-                the grace to be effective witnesses of the Gospel. Many also pray 
-                for missionaries and for all those engaged in spreading the Good 
-                News, asking for St. Philip's intercession in their work.
+                On his feast day, Catholics pray for his intercession, especially for those 
+                called to evangelization, for those seeking to bring others to Christ, for 
+                missionaries and those working in cross-cultural ministry, and for the grace 
+                to be practical and honest in our faith journey. His example inspires us to 
+                be bold in sharing the Gospel and to invite others to "come and see" Jesus.
               </p>
             </div>
           </div>
@@ -220,24 +219,24 @@ export default function StPhilipPage() {
               <div className="bg-blue-50 rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-black mb-4">Primary Patronages</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• <strong>Hatters:</strong> Patron of hatmakers</li>
-                  <li>• <strong>Pastry Chefs:</strong> Patron of pastry chefs</li>
-                  <li>• <strong>Merchants:</strong> Patron of merchants</li>
-                  <li>• <strong>Luxembourg:</strong> Patron of Luxembourg</li>
-                  <li>• <strong>Uruguay:</strong> Patron of Uruguay</li>
-                  <li>• <strong>Evangelization:</strong> Patron of evangelization</li>
+                  <li>• <strong>Greece:</strong> Patron saint of Greece</li>
+                  <li>• <strong>Hatters:</strong> Patron of hatters and hat makers</li>
+                  <li>• <strong>Pastry Chefs:</strong> Patron of pastry chefs and bakers</li>
+                  <li>• <strong>Merchants:</strong> Patron of merchants and traders</li>
+                  <li>• <strong>Luxembourg:</strong> One of the patron saints of Luxembourg</li>
+                  <li>• <strong>Uruguay:</strong> Patron saint of Uruguay</li>
                 </ul>
               </div>
               
               <div className="bg-green-50 rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-black mb-4">Special Intentions</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• <strong>Evangelization:</strong> Help in sharing the faith</li>
-                  <li>• <strong>Invitation:</strong> Courage to invite others to Christ</li>
-                  <li>• <strong>Understanding:</strong> Grace to seek deeper knowledge</li>
-                  <li>• <strong>Missionary Work:</strong> Success in spreading the Gospel</li>
-                  <li>• <strong>Personal Witness:</strong> Strength to be a good example</li>
-                  <li>• <strong>Cross-centered Life:</strong> Focus on Christ crucified</li>
+                  <li>• <strong>Evangelization:</strong> Helper for those sharing the Gospel</li>
+                  <li>• <strong>Cross-Cultural Ministry:</strong> Patron of missionaries</li>
+                  <li>• <strong>Practical Faith:</strong> Helper for those seeking understanding</li>
+                  <li>• <strong>Invitation:</strong> Patron of those inviting others to Christ</li>
+                  <li>• <strong>Questions:</strong> Helper for those with faith questions</li>
+                  <li>• <strong>Witness:</strong> Patron of those witnessing to their faith</li>
                 </ul>
               </div>
             </div>
@@ -254,26 +253,19 @@ export default function StPhilipPage() {
                 <h3 className="text-xl font-semibold text-black mb-4">Prayer to St. Philip</h3>
                 <div className="text-gray-700 italic">
                   <p className="mb-4">
-                    "O St. Philip, apostle of Christ who immediately responded to 
-                    Jesus' call and who brought Nathanael to Him with the simple 
-                    invitation 'Come and see,' intercede for us before the throne of God.
+                    "O St. Philip, apostle of Jesus Christ who brought Nathanael to the Lord 
+                    with the simple invitation 'Come and see,' pray for us who call upon your 
+                    intercession.
                   </p>
                   <p className="mb-4">
-                    You who were a model of evangelization and who showed us that 
-                    sharing the faith begins with a personal invitation, help us 
-                    to have the courage to invite others to encounter Christ. Teach 
-                    us to say 'Come and see' to those who are seeking truth and meaning.
-                  </p>
-                  <p className="mb-4">
-                    You who preached the cross of Christ in Phrygia and who gave 
-                    your life as a martyr for the faith, help us to keep the cross 
-                    at the center of our lives and to be willing to make sacrifices 
-                    for our faith.
+                    Help us to have the same evangelistic zeal that you showed in bringing 
+                    others to Christ. Teach us to be practical in our faith and honest in 
+                    our questions, always seeking to understand more deeply the mysteries 
+                    of God.
                   </p>
                   <p>
-                    St. Philip, pray for us that we may be effective witnesses of 
-                    Christ and that we may have the courage to invite others to 
-                    'come and see' the Lord. Amen."
+                    Through your powerful intercession, may we be blessed with the grace to 
+                    share the Gospel with others and to invite them to encounter Christ. Amen."
                   </p>
                 </div>
               </div>
@@ -282,23 +274,30 @@ export default function StPhilipPage() {
                 <h3 className="text-xl font-semibold text-black mb-4">Prayer for Evangelization</h3>
                 <div className="text-gray-700 italic">
                   <p className="mb-4">
-                    "St. Philip, patron of evangelization, intercede for all those 
-                    who are called to share the Gospel with others.
+                    "St. Philip, who brought the Hellenistic Jews to Jesus and preached 
+                    the Gospel in Greece, intercede for all those called to evangelization 
+                    and cross-cultural ministry.
                   </p>
                   <p>
-                    Help them to have the same simple and effective approach that 
-                    you showed when you invited Nathanael to 'come and see' Christ. 
-                    Give them the courage to invite others to encounter Jesus and 
-                    the wisdom to know how to share their faith effectively. Amen."
+                    Help them to be bridges between different cultures and communities, 
+                    and to share the Gospel with the same practical wisdom and zeal that 
+                    characterized your ministry. Through Christ our Lord. Amen."
                   </p>
                 </div>
               </div>
               
               <div className="bg-green-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-black mb-4">Short Prayer</h3>
+                <h3 className="text-xl font-semibold text-black mb-4">Prayer for Understanding</h3>
                 <div className="text-gray-700 italic">
+                  <p className="mb-4">
+                    "O St. Philip, who asked Jesus to show you the Father and who sought 
+                    to understand the cost of feeding the multitude, intercede for all 
+                    those who have questions about their faith.
+                  </p>
                   <p>
-                    "St. Philip, pray for us!"
+                    Help us to bring our questions and concerns to Jesus with the same 
+                    honesty and trust that you showed, and to find understanding and 
+                    peace in His presence. Through Christ our Lord. Amen."
                   </p>
                 </div>
               </div>
@@ -311,44 +310,44 @@ export default function StPhilipPage() {
           <h2 className="text-3xl font-bold text-black mb-6 text-center">Related Saints</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Link href="/saints/st-bartholomew" className="group block">
-              <div className="bg-white border border-gray-200 rounded-lg p-6 hover:border-gray-300 hover:shadow-md transition-all">
-                <div className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
-                  Apostle Saints
-                </div>
-                <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-blue-600 transition-colors">
-                  St. Bartholomew
-                </h3>
-                <p className="text-gray-700 text-sm">
-                  Nathanael, brought to Christ by St. Philip.
-                </p>
-              </div>
-            </Link>
-
             <Link href="/saints/st-peter" className="group block">
               <div className="bg-white border border-gray-200 rounded-lg p-6 hover:border-gray-300 hover:shadow-md transition-all">
-                <div className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
+                <div className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
                   Apostle Saints
                 </div>
                 <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-blue-600 transition-colors">
                   St. Peter
                 </h3>
                 <p className="text-gray-700 text-sm">
-                  Prince of the Apostles and fellow Galilean.
+                  Prince of the Apostles and first Pope, also from Bethsaida.
                 </p>
               </div>
             </Link>
 
             <Link href="/saints/st-andrew" className="group block">
               <div className="bg-white border border-gray-200 rounded-lg p-6 hover:border-gray-300 hover:shadow-md transition-all">
-                <div className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
+                <div className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
                   Apostle Saints
                 </div>
                 <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-blue-600 transition-colors">
                   St. Andrew
                 </h3>
                 <p className="text-gray-700 text-sm">
-                  First-called apostle and fellow evangelizer.
+                  Brother of St. Peter and fellow apostle from Bethsaida.
+                </p>
+              </div>
+            </Link>
+
+            <Link href="/saints/st-bartholomew" className="group block">
+              <div className="bg-white border border-gray-200 rounded-lg p-6 hover:border-gray-300 hover:shadow-md transition-all">
+                <div className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
+                  Apostle Saints
+                </div>
+                <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-blue-600 transition-colors">
+                  St. Bartholomew
+                </h3>
+                <p className="text-gray-700 text-sm">
+                  Nathanael, whom Philip brought to Jesus, fellow apostle.
                 </p>
               </div>
             </Link>

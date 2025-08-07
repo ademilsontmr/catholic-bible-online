@@ -10,23 +10,20 @@ export const metadata: Metadata = {
     'st joanna biography',
     'st joanna feast day',
     'st joanna patron saint',
-    'biblical saint',
-    'easter women',
-    'empty tomb',
-    'chuza wife',
-    'herod steward',
-    'galilee women',
     'catholic saints',
-    'may 24 feast day'
+    'may 24 feast day',
+    'biblical saints',
+    'empty tomb',
+    'easter morning'
   ],
   openGraph: {
     title: 'St. Joanna - Life, Legacy & Feast Day',
-    description: 'Discover the life, legacy, and feast day of St. Joanna, wife of Chuza and one of the women who discovered the empty tomb of Jesus on Easter morning.',
+    description: 'Discover the life, legacy, and feast day of St. Joanna, one of the women who discovered the empty tomb of Jesus.',
     url: 'https://catholicbibleonline.com/saints/st-joanna',
   },
   twitter: {
     title: 'St. Joanna - Life, Legacy & Feast Day',
-    description: 'Discover the life, legacy, and feast day of St. Joanna, wife of Chuza and one of the women who discovered the empty tomb of Jesus on Easter morning.',
+    description: 'Discover the life, legacy, and feast day of St. Joanna, one of the women who discovered the empty tomb of Jesus.',
   }
 }
 
@@ -36,7 +33,7 @@ export default function StJoannaPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="text-6xl mb-4">👸</div>
+          <div className="text-6xl mb-4">📜</div>
           <h1 className="text-4xl font-bold text-black mb-4">
             St. Joanna
           </h1>
@@ -58,8 +55,8 @@ export default function StJoannaPage() {
               <div className="text-sm text-gray-600">Feast Day</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-gray-800">👸</div>
-              <div className="text-sm text-gray-600">Disciple</div>
+              <div className="text-2xl font-bold text-gray-800">📜</div>
+              <div className="text-sm text-gray-600">Biblical</div>
             </div>
           </div>
         </div>
@@ -71,45 +68,47 @@ export default function StJoannaPage() {
           <div className="bg-white border border-gray-200 rounded-lg p-8">
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
-                St. Joanna was the wife of Chuza, steward of King Herod Antipas, tetrarch of 
-                Galilee. Her position as the wife of a high-ranking official in Herod's court 
-                gave her a privileged status in society, but it was her faith and devotion to 
-                Jesus that would define her true legacy. Her connection to the royal court 
-                placed her in a unique position to witness the political and religious tensions 
-                of the time.
+                St. Joanna was the wife of Chuza, who served as the steward of King Herod Antipas, 
+                the tetrarch of Galilee. Her position in the royal household gave her access to 
+                resources and influence that she would later use to support the ministry of Jesus 
+                and His Apostles.
               </p>
               
               <p className="mb-6">
-                Despite her high social standing, Joanna was drawn to the message of Jesus 
-                Christ and became one of his devoted followers. She was one of the women who 
-                helped provide for Jesus and the Apostles during their ministry, using her 
-                resources to support the work of spreading the Gospel. This act of generosity 
-                and service demonstrated her commitment to the Christian message and her 
-                willingness to use her position and wealth for the good of others.
+                Joanna's name is derived from the Hebrew name "Yohannah," which means "God is gracious." 
+                This name would prove prophetic, as she would become a recipient of God's grace 
+                through her encounter with Jesus Christ and her subsequent discipleship.
               </p>
               
               <p className="mb-6">
-                Joanna's most significant role in the Gospel story came on the morning of 
-                the first Easter. She was one of the three women who discovered the empty 
-                tomb of Jesus, making her one of the first witnesses to the Resurrection. 
-                This extraordinary privilege placed her at the very heart of the Christian 
-                mystery and made her a key figure in the foundation of the Christian faith.
+                As a woman of means and social standing, Joanna was able to provide material support 
+                for Jesus and His Apostles during their ministry. Along with other faithful women 
+                like Mary Magdalene and Susanna, she helped to ensure that the basic needs of Jesus 
+                and His followers were met, allowing them to focus on their mission of preaching 
+                the Gospel.
               </p>
               
               <p className="mb-6">
-                The discovery of the empty tomb by Joanna and the other women marked the 
-                beginning of the Christian era and the fulfillment of Jesus' promise of 
-                resurrection. Her presence at this pivotal moment in salvation history 
-                demonstrates the important role that women played in the early Church and 
-                in the spread of the Gospel message.
+                Joanna's support of Jesus' ministry was particularly significant because it came 
+                from within the household of Herod Antipas, the same ruler who would later play 
+                a role in the trial and execution of Jesus. Her willingness to support Jesus, 
+                despite the potential risks to her social position and safety, demonstrates her 
+                courage and commitment to the truth.
+              </p>
+              
+              <p className="mb-6">
+                Joanna's most significant role in the Gospel story came on the morning of the 
+                Resurrection. She was one of the three women who went to the tomb of Jesus to 
+                anoint His body with spices, only to discover that the tomb was empty. This 
+                discovery would change the course of human history and become the foundation 
+                of the Christian faith.
               </p>
               
               <p>
-                Joanna's story shows how God can work through people from all walks of life 
-                and social positions. Her conversion from a life of privilege to one of 
-                service and discipleship serves as an example of how the Gospel can transform 
-                lives and call people to a higher purpose, regardless of their social status 
-                or background.
+                The Gospel of Luke specifically mentions Joanna as one of the women who discovered 
+                the empty tomb and who later reported this miraculous event to the Apostles. 
+                Her witness to the Resurrection makes her one of the first evangelists of the 
+                Christian faith, as she helped to spread the news of Jesus' victory over death.
               </p>
             </div>
           </div>
@@ -121,53 +120,43 @@ export default function StJoannaPage() {
           
           <div className="bg-blue-50 rounded-lg p-8">
             <div className="prose prose-lg max-w-none text-gray-700">
+              <h3 className="text-xl font-semibold text-black mb-4">First Witness of the Resurrection</h3>
+              <p className="mb-6">
+                St. Joanna's role as one of the first witnesses of the Resurrection gives her 
+                a unique place in salvation history. Her discovery of the empty tomb and her 
+                subsequent testimony to the Apostles makes her one of the foundational witnesses 
+                of the Christian faith. Her courage in going to the tomb despite the danger 
+                and her faithfulness in reporting what she had seen demonstrate the qualities 
+                of a true disciple.
+              </p>
+              
               <h3 className="text-xl font-semibold text-black mb-4">Model of Generous Discipleship</h3>
               <p className="mb-6">
-                St. Joanna's legacy is most profoundly marked by her generous support of 
-                Jesus and his Apostles during their ministry. Her willingness to use her 
-                resources and social position to support the work of the Gospel demonstrates 
-                the true meaning of Christian discipleship. She shows us that following 
-                Christ requires not just belief but active participation in his mission, 
-                using whatever gifts and resources we have been given for the glory of God 
-                and the service of others. Her example continues to inspire Christians to 
-                be generous with their time, talents, and treasure in support of the Church's 
-                mission.
+                Joanna's willingness to use her resources and social position to support Jesus' 
+                ministry serves as a powerful example of what it means to be a generous disciple. 
+                She did not let her wealth or status prevent her from serving Christ, but rather 
+                used these gifts to further His mission. Her example reminds us that all our 
+                resources, whether material, social, or spiritual, should be used in service 
+                to God and His Church.
               </p>
               
-              <h3 className="text-xl font-semibold text-black mb-4">Witness of the Resurrection</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Courage in the Face of Opposition</h3>
               <p className="mb-6">
-                Joanna's role as one of the first witnesses to the empty tomb gives her a 
-                unique place in salvation history. Her presence at the Resurrection makes 
-                her a direct link to the most important event in Christian history and 
-                demonstrates the trust that Jesus placed in women as witnesses to his 
-                ministry and resurrection. This aspect of her legacy reminds us of the 
-                important role that women have always played in the Church and continues 
-                to inspire women to take an active role in the life of the Christian 
-                community.
+                Joanna's support of Jesus came from within the household of Herod Antipas, 
+                making her actions particularly courageous. She risked her social position, 
+                her husband's career, and possibly her safety to support a man who was viewed 
+                as a threat by the ruling authorities. Her courage in the face of potential 
+                opposition serves as an example for all Christians who must choose between 
+                worldly security and faithfulness to Christ.
               </p>
               
-              <h3 className="text-xl font-semibold text-black mb-4">Bridge Between Social Classes</h3>
-              <p className="mb-6">
-                As the wife of a high-ranking official in Herod's court, Joanna represents 
-                the ability of the Gospel to reach people from all social classes and 
-                backgrounds. Her conversion and discipleship show that the message of 
-                Christ is universal and can transform lives regardless of social status 
-                or wealth. This aspect of her legacy continues to remind us that the 
-                Church is called to be inclusive and welcoming to people from all walks 
-                of life, and that true Christian community transcends social and economic 
-                barriers.
-              </p>
-              
-              <h3 className="text-xl font-semibold text-black mb-4">Example of Courageous Faith</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Patroness of Women's Ministry</h3>
               <p>
-                Joanna's decision to follow Jesus despite her husband's position in Herod's 
-                court required great courage and faith. Her willingness to risk her social 
-                standing and potentially her safety to support Jesus demonstrates the depth 
-                of her commitment to the Gospel. This aspect of her legacy continues to 
-                inspire Christians to be courageous in their faith, even when it requires 
-                sacrifice or goes against social expectations. Her story reminds us that 
-                true discipleship often requires us to step out of our comfort zones and 
-                to be willing to make sacrifices for the sake of the Gospel.
+                St. Joanna has become a powerful patroness for women in ministry and for all 
+                those who serve the Church through their resources and talents. Her example 
+                shows that women have always played crucial roles in the life of the Church, 
+                from providing material support to being witnesses of the most important events 
+                in salvation history.
               </p>
             </div>
           </div>
@@ -180,32 +169,31 @@ export default function StJoannaPage() {
           <div className="bg-white border border-gray-200 rounded-lg p-8">
             <div className="text-center mb-6">
               <div className="text-4xl font-bold text-blue-600 mb-2">May 24</div>
-              <p className="text-gray-600">Feast of St. Joanna</p>
+              <p className="text-gray-600">Memorial of St. Joanna, Disciple of Jesus</p>
             </div>
             
             <div className="prose prose-lg max-w-none text-gray-700">
               <h3 className="text-xl font-semibold text-black mb-4">Liturgical Celebration</h3>
               <p className="mb-6">
-                St. Joanna is celebrated on May 24th. This feast day honors her generous 
-                discipleship, her witness to the Resurrection, and her courageous faith 
-                in following Jesus.
+                The feast of St. Joanna is celebrated on May 24th. This memorial honors her 
+                role as a faithful disciple of Jesus, her generous support of His ministry, 
+                and her witness to the Resurrection.
               </p>
               
-              <h3 className="text-xl font-semibold text-black mb-4">Traditions and Customs</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Biblical Significance</h3>
               <p className="mb-6">
-                On this day, many Catholics pray for women in the Church, for generous 
-                discipleship, for courage in following Christ, and for a deeper appreciation 
-                of the role of women in salvation history. It's also a day to reflect on 
-                the importance of using our resources and gifts for the service of God 
-                and others.
+                St. Joanna's feast day is particularly significant because of her unique role 
+                in the Gospel story. As one of the first witnesses of the Resurrection, she 
+                holds a special place in the history of salvation and in the foundation of 
+                the Christian faith.
               </p>
               
-              <h3 className="text-xl font-semibold text-black mb-4">Prayer and Devotion</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Devotional Practices</h3>
               <p>
-                The feast day is an excellent time to pray for women in the Church, for 
-                generous discipleship, for courage in following Christ, and to ask for 
-                St. Joanna's intercession in finding ways to use our gifts and resources 
-                for the glory of God.
+                On her feast day, Catholics pray for her intercession, especially for those 
+                called to support the Church through their resources, for women in ministry, 
+                for those seeking to be faithful witnesses to Christ, and for the grace to 
+                use our gifts generously in service to God.
               </p>
             </div>
           </div>
@@ -220,24 +208,24 @@ export default function StJoannaPage() {
               <div className="bg-blue-50 rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-black mb-4">Primary Patronages</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• <strong>Women in the Church:</strong> Patron of women's ministry and leadership</li>
-                  <li>• <strong>Generous Discipleship:</strong> Patron of generous giving and service</li>
-                  <li>• <strong>Witnesses of Faith:</strong> Patron of those who bear witness to Christ</li>
-                  <li>• <strong>Social Justice:</strong> Patron of bridging social and economic divides</li>
-                  <li>• <strong>Courageous Faith:</strong> Patron of those who take risks for the Gospel</li>
-                  <li>• <strong>Easter Joy:</strong> Patron of celebrating the Resurrection</li>
+                  <li>• <strong>Women in Ministry:</strong> Patroness of women serving the Church</li>
+                  <li>• <strong>Generous Discipleship:</strong> Helper for those supporting ministry</li>
+                  <li>• <strong>Witnesses of Faith:</strong> Patroness of those testifying to Christ</li>
+                  <li>• <strong>Resurrection Witnesses:</strong> Helper for those proclaiming the Gospel</li>
+                  <li>• <strong>Women of Means:</strong> Patroness of those using resources for God</li>
+                  <li>• <strong>Biblical Women:</strong> Model for women in Scripture</li>
                 </ul>
               </div>
               
               <div className="bg-green-50 rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-black mb-4">Special Intentions</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• <strong>Women's Ministry:</strong> Helper for women serving in the Church</li>
-                  <li>• <strong>Generous Giving:</strong> Patron of those who give generously</li>
-                  <li>• <strong>Social Outreach:</strong> Helper for bridging social divides</li>
-                  <li>• <strong>Courage in Faith:</strong> Patron of those facing opposition</li>
-                  <li>• <strong>Resurrection Faith:</strong> Helper for those seeking hope</li>
-                  <li>• <strong>Biblical Women:</strong> Patron of women in Scripture</li>
+                  <li>• <strong>Generous Giving:</strong> Helper for those supporting Church ministries</li>
+                  <li>• <strong>Courage in Witness:</strong> Patroness of those facing opposition</li>
+                  <li>• <strong>Faithful Discipleship:</strong> Helper for those following Christ</li>
+                  <li>• <strong>Women's Leadership:</strong> Patroness of women in Church leadership</li>
+                  <li>• <strong>Resurrection Faith:</strong> Helper for those proclaiming the Gospel</li>
+                  <li>• <strong>Material Support:</strong> Patroness of those funding ministry</li>
                 </ul>
               </div>
             </div>
@@ -250,42 +238,53 @@ export default function StJoannaPage() {
           
           <div className="bg-white border border-gray-200 rounded-lg p-8">
             <div className="space-y-8">
-              <div className="bg-blue-50 rounded-lg p-6">
+              <div className="bg-yellow-50 rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-black mb-4">Prayer to St. Joanna</h3>
                 <div className="text-gray-700 italic">
                   <p className="mb-4">
-                    "St. Joanna, you who generously supported Jesus and his Apostles with 
-                    your resources, help me to be generous with my gifts and talents in 
-                    service to God and others.
+                    "O St. Joanna, faithful disciple of Jesus and witness of the Resurrection, 
+                    who generously supported the ministry of Christ with your resources and 
+                    courage, pray for us who call upon your intercession.
                   </p>
-                  <p>
-                    You who witnessed the empty tomb on Easter morning, strengthen my faith 
-                    in the Resurrection and help me to be a courageous witness to Christ 
-                    in my daily life. Amen."
-                  </p>
-                </div>
-              </div>
-              
-              <div className="bg-green-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-black mb-4">Prayer for Women in the Church</h3>
-                <div className="text-gray-700 italic">
                   <p className="mb-4">
-                    "St. Joanna, patron of women in the Church, pray for all women who 
-                    serve God and the Church in various ministries.
+                    Help us to be generous in our support of the Church and its ministries, 
+                    to be courageous witnesses to the truth of the Resurrection, and to use 
+                    our gifts and resources in service to God and His people.
                   </p>
                   <p>
-                    Help us to recognize and celebrate the important role that women have 
-                    always played in the life of the Church. May your example inspire 
-                    women to be courageous and generous disciples of Christ. Amen."
+                    Through your powerful intercession, may we be blessed with the grace to 
+                    be faithful disciples of Christ and generous stewards of His gifts. Amen."
                   </p>
                 </div>
               </div>
               
               <div className="bg-purple-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-black mb-4">Short Prayer</h3>
+                <h3 className="text-xl font-semibold text-black mb-4">Prayer for Generous Discipleship</h3>
                 <div className="text-gray-700 italic">
+                  <p className="mb-4">
+                    "St. Joanna, who used your resources and social position to support 
+                    Jesus' ministry, intercede for all those who are called to support the 
+                    Church through their material gifts and talents.
+                  </p>
                   <p>
-                    "St. Joanna, pray for us!"
+                    Help them to be generous and faithful stewards of God's gifts, using 
+                    their resources to further the mission of Christ in the world. Through 
+                    Christ our Lord. Amen."
+                  </p>
+                </div>
+              </div>
+              
+              <div className="bg-green-50 rounded-lg p-6">
+                <h3 className="text-xl font-semibold text-black mb-4">Prayer for Women in Ministry</h3>
+                <div className="text-gray-700 italic">
+                  <p className="mb-4">
+                    "O St. Joanna, patroness of women in ministry, intercede for all women 
+                    who serve the Church in various capacities. Help them to be faithful 
+                    witnesses to Christ and to use their gifts generously in His service.
+                  </p>
+                  <p>
+                    May they, like you, find courage and strength in their discipleship 
+                    and be blessed in their ministry. Through Christ our Lord. Amen."
                   </p>
                 </div>
               </div>
@@ -300,42 +299,42 @@ export default function StJoannaPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Link href="/saints/st-mary-magdalene" className="group block">
               <div className="bg-white border border-gray-200 rounded-lg p-6 hover:border-gray-300 hover:shadow-md transition-all">
-                <div className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
+                <div className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
                   Biblical Saints
                 </div>
                 <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-blue-600 transition-colors">
                   St. Mary Magdalene
                 </h3>
                 <p className="text-gray-700 text-sm">
-                  Apostle to the Apostles, first witness of the Resurrection.
-                </p>
-              </div>
-            </Link>
-
-            <Link href="/saints/st-mary" className="group block">
-              <div className="bg-white border border-gray-200 rounded-lg p-6 hover:border-gray-300 hover:shadow-md transition-all">
-                <div className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
-                  Biblical Saints
-                </div>
-                <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-blue-600 transition-colors">
-                  Blessed Virgin Mary
-                </h3>
-                <p className="text-gray-700 text-sm">
-                  Mother of God, Queen of Heaven, model of discipleship.
+                  First witness to the Resurrection and model of God's mercy.
                 </p>
               </div>
             </Link>
 
             <Link href="/saints/st-martha" className="group block">
               <div className="bg-white border border-gray-200 rounded-lg p-6 hover:border-gray-300 hover:shadow-md transition-all">
-                <div className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
+                <div className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
                   Biblical Saints
                 </div>
                 <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-blue-600 transition-colors">
                   St. Martha
                 </h3>
                 <p className="text-gray-700 text-sm">
-                  Sister of Lazarus, model of hospitality and service.
+                  Sister of Mary and Lazarus, known for her hospitality and service to Jesus.
+                </p>
+              </div>
+            </Link>
+
+            <Link href="/saints/st-joseph" className="group block">
+              <div className="bg-white border border-gray-200 rounded-lg p-6 hover:border-gray-300 hover:shadow-md transition-all">
+                <div className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
+                  Marian Saints
+                </div>
+                <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-blue-600 transition-colors">
+                  St. Joseph
+                </h3>
+                <p className="text-gray-700 text-sm">
+                  The foster father of Jesus and husband of Mary, patron of fathers and workers.
                 </p>
               </div>
             </Link>

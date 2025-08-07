@@ -771,15 +771,7 @@ const saintsData = [
     shortBio: 'Maronite monk and hermit whose holiness and miracles continue to inspire worldwide.',
     icon: '🧘'
   },
-  {
-    id: 'st-joanna',
-    name: 'St. Joanna',
-    feastDay: 'May 24',
-    category: 'Biblical Saints',
-    patron: 'Women in the Church, Generous Discipleship, Witnesses of Faith, Social Justice, Courageous Faith, Easter Joy',
-    shortBio: 'Wife of Chuza, disciple of Jesus, one of the women who discovered the empty tomb.',
-    icon: '👸'
-  },
+
   {
     id: 'st-chier',
     name: 'St. Chier',
@@ -862,6 +854,213 @@ const saintsData = [
     icon: '🌸'
   },
   {
+    id: 'st-timothy',
+    name: 'St. Timothy',
+    feastDay: 'January 26',
+    category: 'Biblical Saints',
+    patron: 'Bishops, Scripture Study, Missionaries, Ephesus',
+    shortBio: 'Companion of St. Paul, first bishop of Ephesus, and recipient of two Pauline epistles.',
+    icon: '📜'
+  },
+  {
+    id: 'st-pelagia',
+    name: 'St. Pelagia (Margaret)',
+    feastDay: 'October 8',
+    category: 'Virgin Saints',
+    patron: 'Conversion, Repentance, Actresses, Antioch',
+    shortBio: 'Converted actress of Antioch who became a hermitess in Jerusalem, model of repentance.',
+    icon: '🌸'
+  },
+  {
+    id: 'st-joanna',
+    name: 'St. Joanna',
+    feastDay: 'May 24',
+    category: 'Biblical Saints',
+    patron: 'Women in Ministry, Generous Discipleship, Witnesses of Faith',
+    shortBio: 'Wife of Chuza and one of the women who discovered the empty tomb of Jesus on Easter morning.',
+    icon: '📜'
+  },
+  {
+    id: 'st-adelina',
+    name: 'St. Adelina',
+    feastDay: 'October 20',
+    category: 'Medieval Saints',
+    patron: 'Religious Leaders, Noble Discipleship, Normandy',
+    shortBio: 'Benedictine abbess and granddaughter of William the Conqueror who served at La Blanche convent.',
+    icon: '🔬'
+  },
+  {
+    id: 'st-elizabeth-rose',
+    name: 'St. Elizabeth Rose',
+    feastDay: 'December 13',
+    category: 'Medieval Saints',
+    patron: 'Religious Founders, Benedictine Abbesses, France',
+    shortBio: 'Benedictine abbess and foundress of the convent of Sainte-Marie-du-Rozoy in France.',
+    icon: '🔬'
+  },
+  {
+    id: 'st-john-chrysostom',
+    name: 'St. John Chrysostom',
+    feastDay: 'September 14',
+    category: 'Doctor Saints',
+    patron: 'Preachers, Teachers, Constantinople, Antioch',
+    shortBio: 'Golden-Mouthed Doctor of the Church and Archbishop of Constantinople, known for his eloquent preaching.',
+    icon: '📚'
+  },
+  {
+    id: 'st-celine',
+    name: 'St. Celine',
+    feastDay: 'Unknown',
+    category: 'Early Saints',
+    patron: 'Mothers, Prayer, Miraculous Births, France',
+    shortBio: 'Mother of St. Remigius and holy woman who lived in prayer and good works.',
+    icon: '🏔️'
+  },
+  {
+    id: 'blessed-adeline',
+    name: 'Blessed Adeline',
+    feastDay: 'October 20',
+    category: 'Medieval Saints',
+    patron: 'Religious Leaders, White Ladies, Mortain, Savigny',
+    shortBio: 'First Abbess of Mortain and sister of Blessed Vitale, who led the White Ladies.',
+    icon: '🔬'
+  },
+  {
+    id: 'st-paul-of-the-cross',
+    name: 'St. Paul of the Cross',
+    feastDay: 'October 20',
+    category: 'Modern Saints',
+    patron: 'Passionists, Missionaries, Italy, Genoa',
+    shortBio: 'Founder of the Passionists and indefatigable missionary of Italy for fifty years.',
+    icon: '💙'
+  },
+  {
+    id: 'st-philip',
+    name: 'St. Philip',
+    feastDay: 'May 3',
+    category: 'Apostle Saints',
+    patron: 'Greece, Hatters, Pastry Chefs, Merchants, Luxembourg, Uruguay',
+    shortBio: 'One of the twelve apostles who brought Nathanael to Christ and preached in Greece.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-josaphat',
+    name: 'St. Josaphat',
+    feastDay: 'November 12',
+    category: 'Martyr Saints',
+    patron: 'Ukraine, Belarus, Eastern Rite Catholics, Church Unity, Bishops, Poland',
+    shortBio: 'Eastern Rite bishop and martyr for church unity who died trying to bring the Orthodox Church into union with Rome.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-francisco-marto',
+    name: 'St. Francisco Marto',
+    feastDay: 'April 4',
+    category: 'Modern Saints',
+    patron: 'Children, Portugal, Fátima, Shepherds, Prayer, Contemplation',
+    shortBio: 'One of the three children of Fátima who witnessed apparitions of Our Lady and was canonized by Pope Francis.',
+    icon: '💙'
+  },
+  {
+    id: 'st-drogo',
+    name: 'St. Drogo',
+    feastDay: 'April 16',
+    category: 'Early Saints',
+    patron: 'Shepherds, Sheep Herders, Flanders, Sebourg, Orphans, Hermits',
+    shortBio: 'Flemish noble orphaned at birth who became a hermit and patron of shepherds.',
+    icon: '🏔️'
+  },
+  {
+    id: 'st-john-xxiii',
+    name: 'St. John XXIII',
+    feastDay: 'October 11',
+    category: 'Modern Saints',
+    patron: 'Popes, Italy, Vatican II, Church Renewal, Diplomats, Ecumenism',
+    shortBio: 'The "Good Pope" who convened Vatican II and changed the Church forever.',
+    icon: '💙'
+  },
+  {
+    id: 'st-lydia',
+    name: 'St. Lydia Purpuraria',
+    feastDay: 'August 3',
+    category: 'Biblical Saints',
+    patron: 'Dyers, Merchants, Philippi, Thyatira, Hospitality, Women in Business',
+    shortBio: 'First European convert to Christianity and Paul\'s first convert at Philippi.',
+    icon: '📜'
+  },
+  {
+    id: 'st-casimir',
+    name: 'St. Casimir',
+    feastDay: 'March 4',
+    category: 'Medieval Saints',
+    patron: 'Poland, Lithuania, Youth, Princes, Purity, Peace',
+    shortBio: 'Prince of Poland who chose God over royal luxury and became a model of purity.',
+    icon: '🔬'
+  },
+  {
+    id: 'st-fabian',
+    name: 'St. Fabian',
+    feastDay: 'January 20',
+    category: 'Early Saints',
+    patron: 'Popes, Church Leaders, Martyrs, Peace, Humility, Church History',
+    shortBio: 'Pope and martyr chosen by a miraculous dove, who led the Church during peace and persecution.',
+    icon: '🏔️'
+  },
+  {
+    id: 'st-anselm',
+    name: 'St. Anselm',
+    feastDay: 'April 21',
+    category: 'Medieval Saints',
+    patron: 'Theologians, Canterbury, Scholars, Church Leaders, Monks, England',
+    shortBio: 'Archbishop of Canterbury and Doctor of the Church, known for his theological writings and defense of the faith.',
+    icon: '🔬'
+  },
+  {
+    id: 'st-catherine-ricci',
+    name: 'St. Catherine de Ricci',
+    feastDay: 'February 13',
+    category: 'Modern Saints',
+    patron: 'Dominican Nuns, Mystics, Florence, Religious Leaders, Spiritual Counselors, Those in Pain',
+    shortBio: 'Dominican nun and mystic known for her "Ecstasy of the Passion" and spiritual counsel to popes.',
+    icon: '💙'
+  },
+  {
+    id: 'st-cornelius',
+    name: 'St. Cornelius',
+    feastDay: 'September 16',
+    category: 'Early Saints',
+    patron: 'Popes, Penitents, Church Unity, Pastoral Care, Lapsed Catholics, Martyrs',
+    shortBio: 'Pope and martyr who defended the Church\'s power to forgive repentant sinners.',
+    icon: '🏔️'
+  },
+  {
+    id: 'st-mary-di-rosa',
+    name: 'St. Mary Di Rosa',
+    feastDay: 'December 15',
+    category: 'Modern Saints',
+    patron: 'Nurses, Hospital Ministry, Religious Sisters, Courage, Poor Girls, War Victims',
+    shortBio: 'Foundress of the Handmaids of Charity who served the sick and wounded with courage and faith.',
+    icon: '💙'
+  },
+  {
+    id: 'st-diana-dandalo',
+    name: 'St. Diana d\'Andalo',
+    feastDay: 'June 9',
+    category: 'Medieval Saints',
+    patron: 'Religious Vocations, Family Opposition, Dominican Nuns, Perseverance, Noble Women, Bologna',
+    shortBio: 'Dominican nun who founded a convent in Bologna and remained faithful to her vocation despite family opposition.',
+    icon: '🔬'
+  },
+  {
+    id: 'st-john-berchmans',
+    name: 'St. John Berchmans',
+    feastDay: 'November 26',
+    category: 'Modern Saints',
+    patron: 'Altar Boys, Young People, Jesuit Novices, Perfection, Students, Humble Origins',
+    shortBio: 'Jesuit novice known for his holiness and perfection in little things, patron of altar boys.',
+    icon: '💙'
+  },
+  {
     id: 'blessed-rose-venerini',
     name: 'Blessed Rose Venerini',
     feastDay: 'May 7',
@@ -924,15 +1123,7 @@ const saintsData = [
     shortBio: 'Beloved disciple, author of Fourth Gospel, guardian of Blessed Virgin Mary, Apostle of Love.',
     icon: '🍷'
   },
-  {
-    id: 'st-philip',
-    name: 'St. Philip',
-    feastDay: 'May 3',
-    category: 'Apostle Saints',
-    patron: 'Hatters, Pastry Chefs, Merchants, Luxembourg, Uruguay, Evangelization',
-    shortBio: 'Galilean apostle who brought Nathanael to Christ, preached in Phrygia, martyred for faith.',
-    icon: '✝️'
-  },
+
   {
     id: 'st-jude',
     name: 'St. Jude',
@@ -2063,6 +2254,24 @@ const saintsData = [
     patron: 'Theologians, Scholars, Prisoners, Jerusalem, Cappadocia',
     shortBio: 'Bishop and martyr who suffered persecution under Severus and Decius, known for his theological library and mildness.',
     icon: '📚'
+  },
+  {
+    id: 'st-isidore',
+    name: 'St. Isidore',
+    feastDay: 'May 15',
+    category: 'Medieval Saints',
+    patron: 'Farmers, Rural Communities, Manual Laborers, Humility, Agricultural Success, Working Class',
+    shortBio: 'The holy farmer from Madrid who worked miracles in the fields and is patron of farmers.',
+    icon: '🔬'
+  },
+  {
+    id: 'st-finbar',
+    name: 'St. Finbar',
+    feastDay: 'September 25',
+    category: 'Medieval Saints',
+    patron: 'Cork, Irish Bishops, Pilgrims, Monastic Founders, Celtic Christianity, Bridge Builders',
+    shortBio: 'Irish bishop consecrated from heaven, founder of Cork, and worker of many miracles.',
+    icon: '🔬'
   }
 ]
 
