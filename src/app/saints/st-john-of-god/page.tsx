@@ -286,7 +286,7 @@ export default function StJohnOfGodPage() {
             <Link href="/saints/st-camillus-de-lellis" className="group block">
               <div className="bg-white border border-gray-200 rounded-lg p-6 hover:border-gray-300 hover:shadow-md transition-all">
                 <div className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
-                  Healthcare Saints
+                  Healing Saints
                 </div>
                 <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-blue-600 transition-colors">
                   St. Camillus de Lellis

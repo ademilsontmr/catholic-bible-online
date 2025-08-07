@@ -46,10 +46,19 @@ const saintsData = [
     id: 'st-francis',
     name: 'St. Francis of Assisi',
     feastDay: 'October 4',
-    category: 'Mendicant Saints',
+    category: 'Medieval Saints',
     patron: 'Animals, Ecology, Peace',
     shortBio: 'Founder of the Franciscan order, lover of nature and poverty.',
     icon: '🕊️'
+  },
+  {
+    id: 'st-john-capistrano',
+    name: 'St. John of Capistrano',
+    feastDay: 'October 23',
+    category: 'Medieval Saints',
+    patron: 'Jurists, Military Chaplains',
+    shortBio: 'Franciscan preacher and defender of Christendom against the Turks.',
+    icon: '⚔️'
   },
   {
     id: 'st-rita',
@@ -76,6 +85,15 @@ const saintsData = [
     category: 'Doctor Saints',
     patron: 'Archaeologists, Biblical Scholars, Librarians',
     shortBio: 'Doctor of the Church and translator of the Vulgate Bible.',
+    icon: '📚'
+  },
+  {
+    id: 'st-hilary-poitiers',
+    name: 'St. Hilary of Poitiers',
+    feastDay: 'January 13',
+    category: 'Doctor Saints',
+    patron: 'Theologians, Converts, France',
+    shortBio: 'Doctor of the Church and defender of the Trinity against Arianism, pioneer of Western hymnody.',
     icon: '📚'
   },
   {
@@ -205,6 +223,15 @@ const saintsData = [
     icon: '🌹'
   },
   {
+    id: 'st-simon-stock',
+    name: 'St. Simon Stock',
+    feastDay: 'May 16',
+    category: 'Marian Saints',
+    patron: 'Brown Scapular, Carmelite Order, University Students',
+    shortBio: 'Carmelite friar who received the Brown Scapular from Our Lady of Mount Carmel.',
+    icon: '🌿'
+  },
+  {
     id: 'st-thomas-more',
     name: 'St. Thomas More',
     feastDay: 'June 22',
@@ -230,6 +257,15 @@ const saintsData = [
     patron: 'New Discoveries, Archaeologists, Converts',
     shortBio: 'Mother of Emperor Constantine, discoverer of the True Cross and builder of churches in the Holy Land.',
     icon: '🏛️'
+  },
+  {
+    id: 'st-constantine',
+    name: 'St. Constantine',
+    feastDay: 'May 21',
+    category: 'Early Saints',
+    patron: 'Roman Empire, Christian Leaders, Religious Freedom',
+    shortBio: 'First Christian Roman Emperor, "Thirteenth Apostle" in the East, defender of the faith.',
+    icon: '👑'
   },
   {
     id: 'st-francis-xavier',
@@ -313,6 +349,15 @@ const saintsData = [
     icon: '👩‍🏫'
   },
   {
+    id: 'st-julie-billiart',
+    name: 'St. Julie Billiart',
+    feastDay: 'April 8',
+    category: 'Modern Saints',
+    patron: 'Educators, Christian Education, The Disabled',
+    shortBio: 'Founder of the Sisters of Notre Dame de Namur, educator and witness of faith through suffering.',
+    icon: '👩‍🏫'
+  },
+  {
     id: 'st-lorenzo-ruiz',
     name: 'St. Lorenzo Ruiz',
     feastDay: 'September 28',
@@ -367,6 +412,15 @@ const saintsData = [
     icon: '⚔️'
   },
   {
+    id: 'st-polycarp',
+    name: 'St. Polycarp',
+    feastDay: 'February 23',
+    category: 'Martyr Saints',
+    patron: 'Bishops, Ear Infections, Dysentery, Turkey',
+    shortBio: 'Bishop of Smyrna and disciple of St. John the Evangelist, martyred for his faith at age 86.',
+    icon: '🔥'
+  },
+  {
     id: 'faith-hope-charity',
     name: 'St. Sophia and her Daughters',
     feastDay: 'August 1',
@@ -394,12 +448,39 @@ const saintsData = [
     icon: '👑'
   },
   {
+    id: 'st-jerome-emiliani',
+    name: 'St. Jerome Emiliani',
+    feastDay: 'February 8',
+    category: 'Charity Saints',
+    patron: 'Abandoned Children, Orphans, Foster Parents',
+    shortBio: 'Founder of the Clerks Regular of Somascha, patron of abandoned children and orphans.',
+    icon: '👶'
+  },
+  {
+    id: 'st-john-baptist-de-la-salle',
+    name: 'St. John Baptist de La Salle',
+    feastDay: 'April 7',
+    category: 'Charity Saints',
+    patron: 'Educators, Teachers',
+    shortBio: 'Founder of the Brothers of the Christian Schools and patron of all educators.',
+    icon: '📚'
+  },
+  {
     id: 'st-peter-claver',
     name: 'St. Peter Claver',
     feastDay: 'September 9',
     category: 'Missionary Saints',
     patron: 'African Missions, Slave Ministry, Colombia',
     shortBio: 'Jesuit missionary and patron of African missions, known for his service to African slaves.',
+    icon: '⛪'
+  },
+  {
+    id: 'st-junipero-serra',
+    name: 'St. Junípero Serra',
+    feastDay: 'July 1',
+    category: 'Missionary Saints',
+    patron: 'California, Hispanic Americans, Missionaries',
+    shortBio: 'Franciscan missionary and founder of the California missions, known as the Apostle of California.',
     icon: '⛪'
   },
   {
@@ -601,6 +682,15 @@ const saintsData = [
     icon: '🌸'
   },
   {
+    id: 'st-seraphina',
+    name: 'St. Seraphina',
+    feastDay: 'March 12',
+    category: 'Virgin Saints',
+    patron: 'Disabled People, Patients, Orphans, San Gimignano',
+    shortBio: 'Italian virgin who endured illness and paralysis with patience, model of acceptance of God\'s will.',
+    icon: '🌸'
+  },
+  {
     id: 'st-andre-bessette',
     name: 'St. Andre Bessette',
     feastDay: 'January 6',
@@ -698,6 +788,78 @@ const saintsData = [
     patron: 'Tipperary, Nenagh, Irish Virgins, Spiritual Discipleship, Consecrated Virginity, Irish Heritage',
     shortBio: 'Irish virgin and disciple of St. Fintan Munnu Kiara who lived near Nenagh, Tipperary.',
     icon: '☘️'
+  },
+  {
+    id: 'st-susanna',
+    name: 'St. Susanna',
+    feastDay: 'August 11',
+    category: 'Virgin Saints',
+    patron: 'Virgin Martyrs, Young Women, Converts, Rome',
+    shortBio: 'Virgin martyr who refused marriage to remain faithful to Christ, converted her uncles to Christianity.',
+    icon: '🌸'
+  },
+  {
+    id: 'st-margaret-antioch',
+    name: 'St. Margaret of Antioch',
+    feastDay: 'July 20',
+    category: 'Virgin Saints',
+    patron: 'Childbirth, Pregnant Women, Against Evil',
+    shortBio: 'Virgin martyr and one of the Fourteen Holy Helpers, patroness of childbirth and pregnant women.',
+    icon: '🌸'
+  },
+  {
+    id: 'pope-callistus-i',
+    name: 'Pope Callistus I',
+    feastDay: 'October 14',
+    category: 'Martyr Saints',
+    patron: 'Mercy, Repentant Sinners, Social Equality',
+    shortBio: '16th Pope who showed mercy to sinners and promoted equality in the early Church.',
+    icon: '👑'
+  },
+  {
+    id: 'st-catherine-sweden',
+    name: 'St. Catherine of Sweden',
+    feastDay: 'March 24',
+    category: 'Virgin Saints',
+    patron: 'Purity, Pilgrims, The Poor, Sweden',
+    shortBio: 'Virgin and daughter of St. Bridget, who dedicated her life to prayer, pilgrimage, and serving the poor.',
+    icon: '🌸'
+  },
+  {
+    id: 'st-francis-paola',
+    name: 'St. Francis of Paola',
+    feastDay: 'April 2',
+    category: 'Medieval Saints',
+    patron: 'Hermits, Minim Friars, Miracle Workers',
+    shortBio: 'Founder of the Minim Friars, hermit, miracle worker, and confessor to kings.',
+    icon: '🔬'
+  },
+  {
+    id: 'st-ursula',
+    name: 'St. Ursula',
+    feastDay: 'October 21',
+    category: 'Virgin Saints',
+    patron: 'Young Women, Pilgrims, Cologne',
+    shortBio: 'Virgin martyr and leader of the Eleven Thousand Virgins, who died for their faith in Cologne.',
+    icon: '🌸'
+  },
+  {
+    id: 'st-laura',
+    name: 'St. Laura',
+    feastDay: 'October 19',
+    category: 'Martyr Saints',
+    patron: 'Persecuted Christians, Widows, Cordova',
+    shortBio: 'Martyr of Cordova who died for her faith during the Moorish persecution in Spain.',
+    icon: '⚔️'
+  },
+  {
+    id: 'st-ethelreda',
+    name: 'St. Ethelreda (Audrey)',
+    feastDay: 'June 23',
+    category: 'Virgin Saints',
+    patron: 'Virginity, Religious Vows, Ely, English Royalty',
+    shortBio: 'English princess who founded Ely Abbey and maintained her vow of virginity despite political pressure.',
+    icon: '🌸'
   },
   {
     id: 'blessed-rose-venerini',
@@ -1381,6 +1543,15 @@ const saintsData = [
     icon: '⚔️'
   },
   {
+    id: 'st-amandina-schakkebroek',
+    name: 'St. Amandina of Schakkebroek',
+    feastDay: 'July 9',
+    category: 'Martyr Saints',
+    patron: 'Belgium, Young Missionaries, Persecuted Christians',
+    shortBio: 'Belgian Franciscan missionary and martyr of the Boxer Rebellion, witness of faith.',
+    icon: '⚔️'
+  },
+  {
     id: 'st-damien-molokai',
     name: 'St. Damien of Molokai',
     feastDay: 'May 10',
@@ -1414,6 +1585,15 @@ const saintsData = [
     category: 'Healing Saints',
     patron: 'Plague Victims, Invalids, The Sick',
     shortBio: 'Patron saint of plague victims and invalids, known for miraculous healing.',
+    icon: '🏥'
+  },
+  {
+    id: 'st-camillus-de-lellis',
+    name: 'St. Camillus de Lellis',
+    feastDay: 'July 18',
+    category: 'Healing Saints',
+    patron: 'The Sick, Nurses, Hospitals, Military Medical Personnel',
+    shortBio: 'Founder of the Ministers of the Sick (Camillians), patron of healthcare workers and the sick.',
     icon: '🏥'
   },
   {
@@ -1768,6 +1948,24 @@ const saintsData = [
     icon: '🕊️'
   },
   {
+    id: 'st-ada',
+    name: 'St. Ada',
+    feastDay: '7th Century',
+    category: 'Medieval Saints',
+    patron: 'Religious Women, Abbesses, France',
+    shortBio: '7th century abbess and patroness of religious women in France, niece of St. Engebert.',
+    icon: '👑'
+  },
+  {
+    id: 'st-bruno',
+    name: 'St. Bruno',
+    feastDay: 'October 6',
+    category: 'Medieval Saints',
+    patron: 'Carthusian Order, Hermits, Contemplatives',
+    shortBio: 'Founder of the Carthusian Order and model of contemplative life, theologian and hermit.',
+    icon: '🏔️'
+  },
+  {
     id: 'st-alena',
     name: 'St. Alena',
     feastDay: 'June 18',
@@ -1795,6 +1993,15 @@ const saintsData = [
     icon: '👑'
   },
   {
+    id: 'st-kevin',
+    name: 'St. Kevin',
+    feastDay: 'June 3',
+    category: 'Early Saints',
+    patron: 'Ireland, Glendalough, Hermits',
+    shortBio: 'Irish hermit and founder of Glendalough monastery, known as Coemgen in Irish.',
+    icon: '☘️'
+  },
+  {
     id: 'st-rafqa',
     name: 'St. Rafqa',
     feastDay: 'March 23',
@@ -1802,6 +2009,15 @@ const saintsData = [
     patron: 'Lebanon, Blind People, Suffering, Teachers, Maronite Order',
     shortBio: 'Lebanese Maronite nun who offered her suffering to Christ and became blind and paralyzed.',
     icon: '🙏'
+  },
+  {
+    id: 'st-marianne-cope',
+    name: 'St. Marianne Cope',
+    feastDay: 'January 23',
+    category: 'Modern Saints',
+    patron: 'Hawaii, Leprosy Patients, Healthcare Workers',
+    shortBio: 'Franciscan sister who dedicated her life to serving leprosy patients in Hawaii.',
+    icon: '🏥'
   },
   {
     id: 'st-alphonsus-liguori',
@@ -1858,7 +2074,7 @@ const categories = [
   { id: 'healing', name: 'Healing Saints', icon: '🏥' },
   { id: 'doctor', name: 'Doctor Saints', icon: '📚' },
   { id: 'patron', name: 'Patron Saints', icon: '🙏' },
-  { id: 'mendicant', name: 'Mendicant Saints', icon: '🕊️' },
+
   { id: 'modern', name: 'Modern Saints', icon: '💙' },
   { id: 'medieval', name: 'Medieval Saints', icon: '🔬' },
   { id: 'early', name: 'Early Saints', icon: '🏔️' },
