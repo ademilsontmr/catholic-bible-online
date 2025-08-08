@@ -1,6 +1,7 @@
 import Link from 'next/link'
-import type { Metadata } from 'next'
+import ShareButton from '@/components/ShareButton'
 import RelatedNovenas from '@/components/RelatedNovenas'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Divine Mercy Novena - Day 9: The Souls Who Have Become Lukewarm',
@@ -183,7 +184,7 @@ export default function DivineMercyNovenaDay9Page() {
         </section>
 
         {/* Navigation */}
-        <div className="flex justify-between items-center mb-12">
+        <div className="flex justify-between items-center">
           <Link 
             href="/novenas/divine-mercy/day-8"
             className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
@@ -195,13 +196,14 @@ export default function DivineMercyNovenaDay9Page() {
             href="/novenas/divine-mercy"
             className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
           >
-            Back to Novena Overview
+            Back to Novena Overview →
           </Link>
         </div>
       </div>
 
       {/* Related Novenas Section */}
-      <RelatedNovenas currentNovena="Divine Mercy" />
+      <RelatedNovenas currentNovena="Divine Mercy Novena" />
     </div>
   )
-} 
+}
+ 

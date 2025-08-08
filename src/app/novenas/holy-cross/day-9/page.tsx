@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ShareButton from '@/components/ShareButton'
+import RelatedNovenas from '@/components/RelatedNovenas'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -165,25 +166,27 @@ Your Peace, which is the only true peace, so that by obeying Your Commandments w
         />
 
         {/* Navigation */}
-        <div className="flex justify-between items-center mb-12">
-          
-          <Link
+        <div className="flex justify-between items-center">
+          <Link 
             href="/novenas/holy-cross/day-8"
-            className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
           >
-            ← Day 8: Eternal Glory
+            ← Day 8: Victory
           </Link>
-          
           
           <Link 
             href="/novenas/holy-cross"
-            className="inline-flex items-center px-6 py-3 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
           >
             Back to Novena Overview →
           </Link>
-          
         </div>
       </div>
+
+      {/* Related Novenas Section */}
+      <RelatedNovenas currentNovena="Holy Cross Novena" />
     </div>
   )
 }
+
+

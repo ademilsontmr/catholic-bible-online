@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ShareButton from '@/components/ShareButton'
+import RelatedNovenas from '@/components/RelatedNovenas'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -225,6 +226,10 @@ export default function StJosephNovenaDay9Page() {
           
         </div>
       </div>
+
+      {/* Related Novenas Section */}
+      <RelatedNovenas currentNovena="Novena to St. Joseph" />
     </div>
   )
 }
+

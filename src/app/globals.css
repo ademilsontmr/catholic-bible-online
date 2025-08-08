@@ -475,6 +475,15 @@
   @apply text-3xl font-bold text-black mb-6;
 }
 
+/* Gradient text fix for better rendering */
+.gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 0.125rem;
+  line-height: 1.2;
+}
+
 .blog-content h2 {
   @apply text-2xl font-bold text-black mb-4 mt-8;
 }

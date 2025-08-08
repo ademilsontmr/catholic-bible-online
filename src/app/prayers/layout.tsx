@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { ReactNode } from 'react'
 
 export const metadata: Metadata = {
   title: 'Catholic Prayers - Complete Prayer Collection',
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
 export default function PrayersLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: ReactNode
 }) {
   return children
 } 

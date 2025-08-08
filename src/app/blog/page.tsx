@@ -3,6 +3,7 @@ import Link from 'next/link'
 import BlogCard from '@/components/BlogCard'
 import blogData from '@/data/blog.json'
 
+
 export const metadata: Metadata = {
   title: 'Catholic Blog',
   description: 'Discover inspiring Catholic articles, prayers, and spiritual guidance. Read about saints, Catholic living, Bible study, and how to pray.',
@@ -57,31 +58,56 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
     <div className="min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-black mb-4">
+        <div className="text-center mb-12 bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 rounded-2xl p-8 border border-gray-100">
+          <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 gradient-text mb-4">
             Catholic Blog
           </h1>
-          <p className="text-lg text-black max-w-3xl mx-auto">
+          <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
             Discover inspiring articles, prayers, and spiritual guidance to deepen your Catholic faith and grow closer to God.
           </p>
         </div>
 
         {/* Category Filter */}
         <div className="mb-8">
-          <div className="flex flex-wrap justify-center gap-2">
-            {categories.map((category) => (
-              <Link
-                key={category}
-                href={`/blog?category=${category === 'All' ? '' : category}`}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                  currentCategory === category
-                    ? 'bg-gray-600 text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                {category}
-              </Link>
-            ))}
+          <div className="flex flex-wrap justify-center gap-3">
+            {categories.map((category) => {
+              const getCategoryLink = (cat: string) => {
+                switch (cat) {
+                  case 'How to Pray':
+                    return '/blog/How-to-Pray'
+                  case 'Catholic Living':
+                    return '/blog/Catholic-Living'
+                  case 'Saints & Feast Days':
+                    return '/blog/Saints-Feast-Days'
+                  case 'Bible & Faith':
+                    return '/blog/Bible-Faith'
+                  default:
+                    return `/blog?category=${cat === 'All' ? '' : cat}`
+                }
+              }
+              
+              return (
+                <Link
+                  key={category}
+                  href={getCategoryLink(category)}
+                  className={`px-6 py-3 rounded-full text-sm font-bold transition-all duration-300 transform hover:scale-105 hover:shadow-lg ${
+                    currentCategory === category
+                      ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg scale-105'
+                      : category === 'How to Pray'
+                      ? 'bg-gradient-to-r from-blue-400 to-blue-500 text-white hover:from-blue-500 hover:to-blue-600'
+                      : category === 'Catholic Living'
+                      ? 'bg-gradient-to-r from-emerald-400 to-emerald-500 text-white hover:from-emerald-500 hover:to-emerald-600'
+                      : category === 'Saints & Feast Days'
+                      ? 'bg-gradient-to-r from-purple-400 to-purple-500 text-white hover:from-purple-500 hover:to-purple-600'
+                      : category === 'Bible & Faith'
+                      ? 'bg-gradient-to-r from-orange-400 to-orange-500 text-white hover:from-orange-500 hover:to-orange-600'
+                      : 'bg-gradient-to-r from-gray-400 to-gray-500 text-white hover:from-gray-500 hover:to-gray-600'
+                  }`}
+                >
+                  {category}
+                </Link>
+              )
+            })}
           </div>
         </div>
 
@@ -97,7 +123,6 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                   excerpt={post.excerpt}
                   category={post.category}
                   image={post.image}
-                  publishedAt={post.publishedAt}
                   readTime={post.readTime}
                 />
               ))}
@@ -111,26 +136,26 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
 
             {/* Pagination */}
             {totalPages > 1 && (
-              <div className="flex justify-center items-center space-x-2">
+              <div className="flex justify-center items-center space-x-4">
                 {validCurrentPage > 1 && (
                   <Link
                     href={`/blog?category=${currentCategory === 'All' ? '' : currentCategory}&page=${validCurrentPage - 1}`}
-                    className="px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors"
+                    className="px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-blue-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
                   >
-                    Previous
+                    ← Previous
                   </Link>
                 )}
                 
-                <span className="px-4 py-2 text-gray-600">
+                <span className="px-6 py-3 bg-gradient-to-r from-gray-100 to-gray-200 text-gray-700 font-semibold rounded-lg shadow-sm">
                   Page {validCurrentPage} of {totalPages}
                 </span>
                 
                 {validCurrentPage < totalPages && (
                   <Link
                     href={`/blog?category=${currentCategory === 'All' ? '' : currentCategory}&page=${validCurrentPage + 1}`}
-                    className="px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors"
+                    className="px-6 py-3 bg-gradient-to-r from-purple-500 to-purple-600 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-purple-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
                   >
-                    Next
+                    Next →
                   </Link>
                 )}
               </div>
@@ -148,16 +173,16 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
         )}
 
         {/* Call to Action */}
-        <div className="mt-16 text-center bg-gray-50 rounded-lg p-8">
-          <h2 className="text-2xl font-bold text-black mb-4">
+        <div className="mt-16 text-center bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 rounded-2xl p-8 border border-gray-100">
+          <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 gradient-text mb-4">
             Stay Connected
           </h2>
-          <p className="text-black mb-6 max-w-2xl mx-auto">
+          <p className="text-gray-700 mb-8 max-w-2xl mx-auto leading-relaxed">
             Subscribe to our newsletter to receive the latest Catholic articles, prayers, and spiritual insights directly in your inbox.
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white font-semibold rounded-lg hover:bg-gray-700 transition-colors"
+            className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-lg hover:from-blue-700 hover:to-purple-700 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
           >
             Contact Us
           </Link>

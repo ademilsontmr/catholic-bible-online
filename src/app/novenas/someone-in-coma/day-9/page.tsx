@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ShareButton from '@/components/ShareButton'
+import RelatedNovenas from '@/components/RelatedNovenas'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -211,13 +212,14 @@ export default function SomeoneInComaNovenaDay4Page() {
         />
 
         {/* Navigation */}
-        <div className="flex justify-between items-center mt-8">
+        <div className="flex justify-between items-center">
           <Link 
             href="/novenas/someone-in-coma/day-8"
             className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
           >
-            ← Day 8: Faith
+            ← Day 8: Hope
           </Link>
+          
           <Link 
             href="/novenas/someone-in-coma"
             className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
@@ -226,6 +228,9 @@ export default function SomeoneInComaNovenaDay4Page() {
           </Link>
         </div>
       </div>
+
+      {/* Related Novenas Section */}
+      <RelatedNovenas currentNovena="Novena for Someone in Coma" />
     </div>
   )
 } 

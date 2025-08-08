@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ShareButton from '@/components/ShareButton'
+import RelatedNovenas from '@/components/RelatedNovenas'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -203,15 +204,13 @@ export default function OurLadyOfHopeNovenaDay9Page() {
         />
 
         {/* Navigation */}
-        <div className="flex justify-between items-center mb-12">
-          
-          <Link
+        <div className="flex justify-between items-center">
+          <Link 
             href="/novenas/our-lady-of-hope/day-8"
-            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
           >
-            ← Day 8: Hope of Virtue
+            ← Day 8: Trust
           </Link>
-          
           
           <Link 
             href="/novenas/our-lady-of-hope"
@@ -219,9 +218,13 @@ export default function OurLadyOfHopeNovenaDay9Page() {
           >
             Back to Novena Overview →
           </Link>
-          
         </div>
       </div>
+
+      {/* Related Novenas Section */}
+      <RelatedNovenas currentNovena="Our Lady of Hope Novena" />
     </div>
   )
 }
+
+

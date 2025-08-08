@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ShareButton from '@/components/ShareButton'
+import RelatedNovenas from '@/components/RelatedNovenas'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -202,7 +203,7 @@ export default function OurLadyOfGoodCounselNovenaDay9Page() {
             href="/novenas/our-lady-of-good-counsel/day-8"
             className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
           >
-            ← Day 8: Ourselves
+            ← Day 8: Wisdom
           </Link>
           
           <Link 
@@ -213,6 +214,9 @@ export default function OurLadyOfGoodCounselNovenaDay9Page() {
           </Link>
         </div>
       </div>
+
+      {/* Related Novenas Section */}
+      <RelatedNovenas currentNovena="Our Lady of Good Counsel Novena" />
     </div>
   )
 } 

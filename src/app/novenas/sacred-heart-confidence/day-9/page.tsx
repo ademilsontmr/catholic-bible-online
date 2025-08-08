@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ShareButton from '@/components/ShareButton'
+import RelatedNovenas from '@/components/RelatedNovenas'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -191,25 +192,28 @@ export default function SacredHeartConfidenceNovenaDay9Page() {
         />
 
         {/* Navigation */}
-        <div className="flex justify-between items-center mb-12">
+        <div className="flex justify-between items-center">
           
-          <Link
+          <Link 
             href="/novenas/sacred-heart-confidence/day-8"
-            className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
           >
-            ← Day 8: Precious Blood
+            ← Day 8: Trust
           </Link>
           
           
           <Link 
             href="/novenas/sacred-heart-confidence"
-            className="inline-flex items-center px-6 py-3 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
           >
             Back to Novena Overview →
           </Link>
-          
         </div>
       </div>
+
+      {/* Related Novenas Section */}
+      <RelatedNovenas currentNovena="Sacred Heart Confidence Novena" />
     </div>
   )
 }
+

@@ -30,7 +30,6 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     url: `/blog/${slug}`,
     image: post.image,
     type: 'article',
-    publishedAt: post.publishedAt,
     author: post.author,
     category: post.category
   })
@@ -49,27 +48,18 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     .filter((p) => p.category === post.category && p.slug !== post.slug)
     .slice(0, 3)
 
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString)
-    return date.toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    })
-  }
-
   const getCategoryColor = (category: string) => {
     switch (category) {
       case 'How to Pray':
-        return 'bg-blue-100 text-blue-800'
+        return 'bg-gradient-to-r from-blue-500 to-blue-600 text-white shadow-lg'
       case 'Catholic Living':
-        return 'bg-green-100 text-green-800'
+        return 'bg-gradient-to-r from-emerald-500 to-emerald-600 text-white shadow-lg'
       case 'Saints & Feast Days':
-        return 'bg-purple-100 text-purple-800'
+        return 'bg-gradient-to-r from-purple-500 to-purple-600 text-white shadow-lg'
       case 'Bible & Faith':
-        return 'bg-orange-100 text-orange-800'
+        return 'bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg'
       default:
-        return 'bg-gray-100 text-gray-800'
+        return 'bg-gradient-to-r from-gray-500 to-gray-600 text-white shadow-lg'
     }
   }
 
@@ -79,7 +69,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     description: post.excerpt,
     url: `/blog/${slug}`,
     image: post.image,
-    publishedAt: post.publishedAt,
     author: post.author,
     category: post.category
   })
@@ -106,20 +95,18 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </nav>
 
           {/* Article Header */}
-          <header className="mb-8">
-            <div className="flex items-center gap-2 mb-4">
-              <span className={`px-3 py-1 rounded-full text-sm font-medium ${getCategoryColor(post.category)}`}>
+          <header className="mb-8 bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 rounded-2xl p-6 border border-gray-100">
+            <div className="flex items-center gap-3 mb-4">
+              <span className={`px-4 py-2 rounded-full text-sm font-bold ${getCategoryColor(post.category)} shadow-lg`}>
                 {post.category}
               </span>
-              <span className="text-gray-500 text-sm">{post.readTime}</span>
+              <span className="text-gray-600 text-sm bg-white px-3 py-2 rounded-full font-medium shadow-sm">{post.readTime}</span>
             </div>
-            <h1 className="text-4xl font-bold text-black mb-4 leading-tight">
+            <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-4 leading-tight">
               {post.title}
             </h1>
             <div className="flex items-center gap-4 text-gray-600 text-sm">
-              <time dateTime={post.publishedAt}>{formatDate(post.publishedAt)}</time>
-              <span>•</span>
-              <span>By {post.author}</span>
+              <span className="bg-white px-4 py-2 rounded-full shadow-sm font-medium">By {post.author}</span>
             </div>
           </header>
 
@@ -141,7 +128,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           {/* Related Posts */}
           {relatedPosts.length > 0 && (
             <section className="border-t border-gray-200 pt-8">
-              <h2 className="text-2xl font-bold text-black mb-6">Related Articles</h2>
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-8 text-center">
+                Related Articles
+              </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {relatedPosts.map((relatedPost) => (
                   <Link
@@ -149,17 +138,17 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                     href={`/blog/${relatedPost.slug}`}
                     className="group block"
                   >
-                    <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300">
+                    <div className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
                       {relatedPost.image && (
-                        <div className="relative h-32 overflow-hidden bg-gray-100 flex items-center justify-center">
+                        <div className="relative h-32 overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
                           <span className="text-gray-400 text-xs">No Image</span>
                         </div>
                       )}
                       <div className="p-4">
-                        <span className={`px-2 py-1 rounded-full text-xs font-medium ${getCategoryColor(relatedPost.category)}`}>
+                        <span className={`px-3 py-1 rounded-full text-xs font-bold ${getCategoryColor(relatedPost.category)} shadow-sm`}>
                           {relatedPost.category}
                         </span>
-                        <h3 className="text-lg font-semibold text-black mt-2 group-hover:text-gray-700 transition-colors line-clamp-2">
+                        <h3 className="text-lg font-semibold text-black mt-3 group-hover:text-blue-600 transition-colors line-clamp-2">
                           {relatedPost.title}
                         </h3>
                         <p className="text-gray-600 text-sm mt-2 line-clamp-2">
@@ -174,23 +163,23 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           )}
 
           {/* Call to Action */}
-          <div className="mt-12 text-center bg-gray-50 rounded-lg p-8">
-            <h2 className="text-2xl font-bold text-black mb-4">
+          <div className="mt-12 text-center bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 rounded-2xl p-8 border border-gray-100">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-4">
               Continue Your Journey
             </h2>
-            <p className="text-black mb-6">
+            <p className="text-gray-700 mb-8">
               Explore more Catholic articles and deepen your faith with our collection of prayers, Bible studies, and spiritual guidance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/blog"
-                className="inline-flex items-center px-6 py-3 bg-gray-600 text-white font-semibold rounded-lg hover:bg-gray-700 transition-colors"
+                className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-lg hover:from-blue-700 hover:to-purple-700 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 Browse All Articles
               </Link>
               <Link
                 href="/prayers"
-                className="inline-flex items-center px-6 py-3 border border-gray-600 text-gray-600 font-semibold rounded-lg hover:bg-gray-600 hover:text-white transition-colors"
+                className="inline-flex items-center px-8 py-4 border-2 border-blue-600 text-blue-600 font-bold rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-300 transform hover:scale-105"
               >
                 Catholic Prayers
               </Link>

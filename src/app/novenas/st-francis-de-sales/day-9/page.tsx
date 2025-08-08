@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ShareButton from '@/components/ShareButton'
+import RelatedNovenas from '@/components/RelatedNovenas'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -182,20 +183,24 @@ export default function StFrancisDeSalesNovenaDay9Page() {
 
         {/* Navigation */}
         <div className="flex justify-between items-center">
-          <Link
+          <Link 
             href="/novenas/st-francis-de-sales/day-8"
             className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
           >
-            ← Day 8: Humility
+            ← Day 8: Gentleness
           </Link>
-          <Link
+          
+          <Link 
             href="/novenas/st-francis-de-sales"
-            className="inline-flex items-center px-6 py-3 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
           >
-            ← Back to Novena Overview
+            Back to Novena Overview →
           </Link>
         </div>
       </div>
+
+      {/* Related Novenas Section */}
+      <RelatedNovenas currentNovena="Novena to St. Francis de Sales" />
     </div>
   )
 } 
