@@ -21,11 +21,10 @@ export function generateSEO({
   author,
   category
 }: SEOProps): Metadata {
-  const fullTitle = `${title} | Catholic Bible Online`
   const fullUrl = `https://catholicbibleonline.com${url}`
 
   const metadata: Metadata = {
-    title: fullTitle,
+    title: title,
     description,
     keywords: [
       'catholic blog',
@@ -37,7 +36,7 @@ export function generateSEO({
       'catholic spirituality'
     ],
     openGraph: {
-      title: fullTitle,
+      title: title,
       description,
       url: fullUrl,
       siteName: 'Catholic Bible Online',
@@ -55,7 +54,7 @@ export function generateSEO({
     },
     twitter: {
       card: image ? 'summary_large_image' : 'summary',
-      title: fullTitle,
+      title: title,
       description,
       ...(image && {
         images: [image.startsWith('http') ? image : `https://catholicbibleonline.com${image}`]

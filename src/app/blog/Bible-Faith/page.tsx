@@ -17,12 +17,12 @@ export const metadata: Metadata = {
     'scripture reflection'
   ],
   openGraph: {
-    title: 'Bible & Faith - Catholic Bible Study | Catholic Bible Online',
+    title: 'Bible & Faith - Catholic Bible Study',
     description: 'Explore Catholic Bible study and Scripture interpretation.',
     url: 'https://catholicbibleonline.com/blog/Bible-Faith',
   },
   twitter: {
-    title: 'Bible & Faith - Catholic Bible Study | Catholic Bible Online',
+    title: 'Bible & Faith - Catholic Bible Study',
     description: 'Explore Catholic Bible study and Scripture interpretation.',
   },
 }
@@ -107,7 +107,10 @@ export default async function BibleFaithPage({ searchParams }: BibleFaithPagePro
               <div className="flex justify-center items-center space-x-4">
                 {validCurrentPage > 1 && (
                   <Link
-                    href={`/blog/Bible-Faith?page=${validCurrentPage - 1}`}
+                    href={validCurrentPage === 2 
+                      ? '/blog/Bible-Faith'
+                      : `/blog/Bible-Faith?page=${validCurrentPage - 1}`
+                    }
                     className="px-6 py-3 bg-gradient-to-r from-orange-500 to-orange-600 text-white font-semibold rounded-lg hover:from-orange-600 hover:to-orange-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
                   >
                     ← Previous

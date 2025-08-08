@@ -1,7 +1,31 @@
-'use client'
-
 import Link from 'next/link'
-import { useState } from 'react'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Catholic Novenas Collection',
+  description: 'Complete collection of 101+ traditional Catholic novenas and nine-day prayers organized by category for easy navigation and daily spiritual practice.',
+  keywords: [
+    'catholic novenas',
+    'nine day prayers',
+    'marian novenas',
+    'saint novenas',
+    'healing novenas',
+    'catholic prayers',
+    'novena prayers',
+    'catholic devotionals',
+    'religious prayers',
+    'spiritual novenas'
+  ],
+  openGraph: {
+    title: 'Catholic Novenas Collection',
+    description: 'Complete collection of 101+ traditional Catholic novenas and nine-day prayers organized by category for easy navigation and daily spiritual practice.',
+    url: 'https://catholicbibleonline.com/novenas',
+  },
+  twitter: {
+    title: 'Catholic Novenas Collection',
+    description: 'Complete collection of 101+ traditional Catholic novenas and nine-day prayers organized by category for easy navigation and daily spiritual practice.',
+  }
+}
 
 // Novena categories with counts for SEO and organization
 const novenaCategories = [
@@ -93,106 +117,84 @@ const novenaCategories = [
     name: 'Healing Novenas',
     description: 'Nine-day prayers for physical and spiritual healing',
     icon: '🏥',
-    count: 15, // Updated: added Novena for Someone in a Coma
+    count: 15,
     novenas: [
       'Novena for Physical Healing',
       'Novena for the Sick',
       'Novena for Emotional Healing',
       'Novena for Spiritual Healing',
-      'Novena for Healing from Anxiety and Fear',
       'Novena for Healing After Loss',
+      'Novena for Healing from Childhood Trauma',
       'Novena for Healing and Strength',
-      'Novena for Addiction Recovery',
-      'Healing from Childhood Trauma Novena',
+      'Novena for Someone in a Coma',
+      'Novena for Heart Disease',
+      'Novena for Diabetes',
       'Novena for Cancer',
       'Novena for Chronic Illness',
-      'Novena for Diabetes',
-      'Novena for Heart Disease',
-      'Novena for Mental Health',
       'Novena for Eyesight',
-      'Novena for Someone in a Coma'
+      'Novena for Difficult Pregnancy',
+      'Novena for Doctors'
     ]
   },
   {
     slug: 'family',
     name: 'Family Novenas',
-    description: 'Nine-day prayers for family intentions',
+    description: 'Nine-day prayers for family life and relationships',
     icon: '👨‍👩‍👧‍👦',
-    count: 7, // Updated: added Fertility, Family Difficulties
+    count: 12,
     novenas: [
-      'Novenas for Marriage',
-      'Novenas for Children',
-      'Novenas for Families',
-      'Novenas for Difficult Pregnancy',
-      'Homeschool Novena',
-      'Novena for Fertility',
-      'Novena for Family Difficulties'
-    ]
-  },
-  {
-    slug: 'seasonal',
-    name: 'Seasonal Novenas',
-    description: 'Nine-day prayers for liturgical seasons',
-    icon: '🌸',
-    count: 9, // Updated: added Good Friday
-    novenas: [
-      'Advent Novenas',
-      'Christmas Novenas',
-      'Lent Novenas',
-      'Easter Novenas',
-      'Ascension Novenas',
-      'Assumption Novenas',
-      'Pentecost Novenas',
-      'New Year Novenas',
-      'Novena for Good Friday'
-    ]
-  },
-  {
-    slug: 'special',
-    name: 'Special Intentions',
-    description: 'Nine-day prayers for specific intentions',
-    icon: '✨',
-    count: 33, // Updated: added Spiritual Warfare Novena
-    novenas: [
-      'Novenas for Employment',
-      'Novena for Financial Help',
-      'Novenas for Exams',
-      'Novenas for Travel',
-      'Novenas for Protection',
-      'Novenas for Conversion',
-      'Novenas for Peace',
-      'Novenas Against Fear',
-      'Novenas Against Evil',
-      'Novenas for Grace',
-      'Novenas for a New Home',
-      'Three Hail Marys Novena',
-      'March for Life Novena',
-      'Novena for the Supreme Court',
-      'Novena for Clarity',
-      'Novena for Chastity',
-      'Novena for Business Success',
-      'Novena for Baptism',
-      'Novena for College Graduation',
+      'Novena for Families',
+      'Novena for Family Difficulties',
+      'Novena for Marriage',
+      'Novena for Children',
       'Novena for Grandchildren',
-      'Novena for God\'s Blessings',
-      'Novena for First Confession',
+      'Novena for Fertility',
       'Novena for First Communion',
-      'Novena for Firefighters',
-      'Novena for Exams',
-      'Novena for Evangelization',
-      'Spiritual Warfare Novena'
+      'Novena for First Confession',
+      'Novena for Homeschool',
+      'Novena for College Graduation',
+      'Novena for Students',
+      'Novena for Exams'
     ]
   },
   {
-    slug: 'christological',
-    name: 'Christological Novenas',
-    description: 'Nine-day prayers focused on Christ and His mysteries',
-    icon: '✝️',
-    count: 3,
+    slug: 'life-situations',
+    name: 'Life Situations',
+    description: 'Nine-day prayers for various life circumstances',
+    icon: '🌟',
+    count: 14,
     novenas: [
-      'Novena to Christ the King',
-      'Novena to the Holy Cross',
-      'Novena to the Holy Family'
+      'Novena for Courage',
+      'Novena for Difficult Times',
+      'Novena for Clarity',
+      'Novena for Financial Help',
+      'Novena for Business Success',
+      'Novena for Career Discernment',
+      'Novena for New Year',
+      'Novena for Easter',
+      'Novena for Christmas and Advent',
+      'Novena for Good Friday',
+      'Novena for Corpus Christi',
+      'Novena for Pentecost',
+      'Novena for Ascension',
+      'Novena for Assumption'
+    ]
+  },
+  {
+    slug: 'special-intentions',
+    name: 'Special Intentions',
+    description: 'Nine-day prayers for specific needs and intentions',
+    icon: '🎯',
+    count: 8,
+    novenas: [
+      'Novena for God\'s Blessings',
+      'Novena for Grace',
+      'Novena for Forgiveness',
+      'Novena for Evangelization',
+      'Novena for Spiritual Warfare',
+      'Novena for Three Hail Marys',
+      'Novena for March for Life',
+      'Novena for Supreme Court'
     ]
   },
   {
@@ -209,20 +211,7 @@ const novenaCategories = [
 ];
 
 export default function NovenasPage() {
-  const [searchTerm, setSearchTerm] = useState('')
   const totalNovenas = novenaCategories.reduce((sum, category) => sum + category.count, 0)
-
-  // Filter categories and novenas based on search term
-  const filteredCategories = novenaCategories.filter(category => {
-    const searchLower = searchTerm.toLowerCase()
-    return (
-      category.name.toLowerCase().includes(searchLower) ||
-      category.description.toLowerCase().includes(searchLower) ||
-      category.novenas.some(novena => 
-        novena.toLowerCase().includes(searchLower)
-      )
-    )
-  })
 
   return (
     <div className="min-h-screen bg-white">
@@ -236,24 +225,6 @@ export default function NovenasPage() {
             Complete collection of {totalNovenas}+ traditional Catholic novenas and nine-day prayers 
             organized by category for easy navigation and daily spiritual practice.
           </p>
-          
-          {/* Search Box */}
-          <div className="max-w-md mx-auto mb-8">
-            <div className="relative">
-              <input
-                type="search"
-                placeholder="Search novenas..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full px-4 py-3 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-500 focus:border-gray-500 text-black"
-              />
-              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <svg className="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-              </div>
-            </div>
-          </div>
 
           {/* Statistics */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -272,21 +243,9 @@ export default function NovenasPage() {
           </div>
         </div>
 
-        {/* Search Results Info */}
-        {searchTerm && (
-          <div className="mb-6 text-center">
-            <p className="text-gray-600">
-              {filteredCategories.length > 0 
-                ? `Found ${filteredCategories.length} category${filteredCategories.length !== 1 ? 'ies' : 'y'} matching "${searchTerm}"`
-                : `No categories found matching "${searchTerm}"`
-              }
-            </p>
-          </div>
-        )}
-
         {/* Novena Categories Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {filteredCategories.map((category) => (
+          {novenaCategories.map((category) => (
             <Link 
               key={category.slug}
               href={`/novenas/${category.slug}`}
@@ -299,156 +258,44 @@ export default function NovenasPage() {
                     {category.count}
                   </div>
                 </div>
-                
-                <h2 className="text-xl font-semibold text-black mb-2 group-hover:text-gray-700">
+                <h3 className="text-xl font-semibold text-black mb-2 group-hover:text-blue-600 transition-colors">
                   {category.name}
-                </h2>
-                
+                </h3>
                 <p className="text-gray-600 mb-4">
                   {category.description}
                 </p>
-                
-                {/* Preview of novenas */}
-                <div className="space-y-1 mb-4">
-                  {category.novenas.slice(0, 3).map((novena, index) => (
-                    <div key={index} className="flex items-center text-sm text-gray-500">
-                      <span className="w-1 h-1 bg-gray-400 rounded-full mr-2"></span>
-                      {novena}
-                    </div>
-                  ))}
-                  {category.novenas.length > 3 && (
-                    <div className="flex items-center text-sm text-gray-500">
-                      <span className="w-1 h-1 bg-gray-400 rounded-full mr-2"></span>
-                      +{category.novenas.length - 3} more novenas
-                    </div>
-                  )}
-                </div>
-
-                <div className="flex items-center text-gray-600 text-sm font-medium">
-                  <span>View Collection</span>
-                  <svg className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
+                <div className="text-sm text-gray-500">
+                  {category.novenas.slice(0, 3).join(', ')}
+                  {category.novenas.length > 3 && '...'}
                 </div>
               </div>
             </Link>
           ))}
         </div>
 
-        {/* Quick Access to Popular Novenas */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-black mb-8 text-center">
-            Most Popular Novenas
+        {/* Call to Action */}
+        <div className="text-center bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 border border-gray-100">
+          <h2 className="text-3xl font-bold text-black mb-4">
+            Start Your Novena Journey Today
           </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {[
-              { name: 'Novena to the Holy Spirit', slug: 'holy-spirit' },
-              { name: 'Novena to the Sacred Heart of Jesus', slug: 'sacred-heart' },
-              { name: 'Divine Mercy Novena', slug: 'divine-mercy' },
-              { name: 'Christmas Novena (Advent Novena)', slug: 'christmas-advent' },
-              { name: 'Novena to Our Lady of Perpetual Help', slug: 'our-lady-of-perpetual-help' },
-              { name: 'Novena to St. Joseph', slug: 'st-joseph' },
-              { name: 'Novena to St. Jude Thaddeus (Patron of Hopeless Cases)', slug: 'st-jude' },
-              { name: 'Novena to St. Rita of Cascia (Patroness of Impossible Causes)', slug: 'st-rita-cascia' },
-              { name: 'Novena to St. Anthony of Padua', slug: 'st-anthony' },
-              { name: 'Novena to St. Thérèse of Lisieux (The Little Flower)', slug: 'st-therese-lisieux' },
-              { name: 'Novena to Our Lady of Lourdes', slug: 'our-lady-of-lourdes' },
-              { name: 'Novena to Our Lady of the Miraculous Medal', slug: 'our-lady-of-the-miraculous-medal' },
-              { name: 'Novena for Clarity', slug: 'clarity' },
-              { name: 'Novena for Chronic Illness', slug: 'chronic-illness' },
-              { name: 'Novena for Chastity', slug: 'chastity' },
-              { name: 'Novena for Business Success', slug: 'business-success' },
-              { name: 'Novena for Baptism', slug: 'baptism' },
-              { name: 'Novena for College Graduation', slug: 'college-graduation' }
-            ].map((novena) => (
-              <Link
-                key={novena.slug}
-                href={`/novenas/${novena.slug}`}
-                className="prayer-popular-item group"
-              >
-                <h3 className="font-semibold text-black group-hover:text-gray-700 transition-colors">
-                  {novena.name}
-                </h3>
-              </Link>
-            ))}
+          <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
+            Choose a novena that speaks to your heart and begin a nine-day journey of prayer and spiritual growth. 
+            Each novena includes daily prayers, reflections, and guidance to help you deepen your relationship with God.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/prayers"
+              className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Explore Catholic Prayers
+            </Link>
+            <Link
+              href="/saints"
+              className="inline-flex items-center px-8 py-4 border-2 border-blue-600 text-blue-600 font-bold rounded-lg hover:bg-blue-600 hover:text-white transition-colors"
+            >
+              Discover Saints
+            </Link>
           </div>
-        </section>
-
-        {/* Features Section */}
-        <section className="bg-gray-50 rounded-lg p-8 mb-12">
-          <h2 className="text-2xl font-bold text-black mb-6 text-center">
-            Novena Collection Features
-          </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="text-center">
-              <div className="text-3xl mb-3">📖</div>
-              <h3 className="font-semibold text-black mb-2">Traditional Texts</h3>
-              <p className="text-gray-600 text-sm">
-                Authentic Catholic novenas from official Church sources and centuries of tradition
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="text-3xl mb-3">🔍</div>
-              <h3 className="font-semibold text-black mb-2">Easy Navigation</h3>
-              <p className="text-gray-600 text-sm">
-                Organized by category with search functionality to find exactly what you need
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="text-3xl mb-3">📱</div>
-              <h3 className="font-semibold text-black mb-2">Mobile Friendly</h3>
-              <p className="text-gray-600 text-sm">
-                Optimized for praying novenas on any device, anywhere, anytime
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* What is a Novena Section */}
-        <section className="bg-white border border-gray-200 rounded-lg p-8 mb-12">
-          <h2 className="text-2xl font-bold text-black mb-6 text-center">
-            What is a Novena?
-          </h2>
-          
-          <div className="prose prose-lg max-w-none text-gray-700">
-            <p className="mb-4">
-              A novena is a nine-day period of prayer, often dedicated to a particular intention or saint. 
-              The word "novena" comes from the Latin "novem," meaning nine. This tradition has deep roots 
-              in Catholic spirituality and is based on the nine days the Apostles and Mary spent in prayer 
-              between the Ascension and Pentecost.
-            </p>
-            
-            <p className="mb-4">
-              Novenas are powerful spiritual tools that help us:
-            </p>
-            
-            <ul className="list-disc list-inside space-y-2 mb-4">
-              <li>Deepen our relationship with God and the saints</li>
-              <li>Focus our prayers on specific intentions</li>
-              <li>Develop consistency in our spiritual life</li>
-              <li>Experience the power of persistent prayer</li>
-              <li>Join with others in communal devotion</li>
-            </ul>
-            
-            <p>
-              Each novena typically includes daily prayers, reflections, and specific intentions, 
-              making it a structured way to grow in faith and seek divine intercession.
-            </p>
-          </div>
-        </section>
-
-        {/* Back to Home */}
-        <div className="text-center">
-          <Link 
-            href="/"
-            className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
-          >
-            ← Back to Home
-          </Link>
         </div>
       </div>
     </div>

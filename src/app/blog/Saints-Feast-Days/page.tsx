@@ -17,12 +17,12 @@ export const metadata: Metadata = {
     'saint devotion'
   ],
   openGraph: {
-    title: 'Saints & Feast Days - Catholic Saints | Catholic Bible Online',
+    title: 'Saints & Feast Days - Catholic Saints',
     description: 'Discover the lives of Catholic saints and their feast days.',
     url: 'https://catholicbibleonline.com/blog/Saints-Feast-Days',
   },
   twitter: {
-    title: 'Saints & Feast Days - Catholic Saints | Catholic Bible Online',
+    title: 'Saints & Feast Days - Catholic Saints',
     description: 'Discover the lives of Catholic saints and their feast days.',
   },
 }
@@ -107,7 +107,10 @@ export default async function SaintsFeastDaysPage({ searchParams }: SaintsFeastD
               <div className="flex justify-center items-center space-x-4">
                 {validCurrentPage > 1 && (
                   <Link
-                    href={`/blog/Saints-Feast-Days?page=${validCurrentPage - 1}`}
+                    href={validCurrentPage === 2 
+                      ? '/blog/Saints-Feast-Days'
+                      : `/blog/Saints-Feast-Days?page=${validCurrentPage - 1}`
+                    }
                     className="px-6 py-3 bg-gradient-to-r from-purple-500 to-purple-600 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-purple-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
                   >
                     ← Previous

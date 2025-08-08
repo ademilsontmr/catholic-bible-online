@@ -17,12 +17,12 @@ export const metadata: Metadata = {
     'catholic spirituality'
   ],
   openGraph: {
-    title: 'Catholic Blog | Catholic Bible Online',
+    title: 'Catholic Blog',
     description: 'Discover inspiring Catholic articles, prayers, and spiritual guidance.',
     url: 'https://catholicbibleonline.com/blog',
   },
   twitter: {
-    title: 'Catholic Blog | Catholic Bible Online',
+    title: 'Catholic Blog',
     description: 'Discover inspiring Catholic articles, prayers, and spiritual guidance.',
   }
 }
@@ -36,23 +36,34 @@ interface BlogPageProps {
 
 export default async function BlogPage({ searchParams }: BlogPageProps) {
   const params = await searchParams
-  const currentCategory = params.category || 'All'
+  const currentCategory = params.category === 'All' || !params.category ? 'All' : params.category
   const currentPage = parseInt(params.page || '1')
   
+
+  
   // Filter posts by category
-  const filteredPosts = currentCategory === 'All' 
+  const filteredPosts = currentCategory === 'All' || !currentCategory
     ? blogData 
     : blogData.filter(post => post.category === currentCategory)
   
+  // Sort posts by date (newest first)
+  const sortedPosts = filteredPosts.sort((a, b) => {
+    const dateA = new Date(a.date || a.publishedAt || '')
+    const dateB = new Date(b.date || b.publishedAt || '')
+    return dateB.getTime() - dateA.getTime()
+  })
+  
+
+  
   // Pagination
-  const totalPosts = filteredPosts.length
+  const totalPosts = sortedPosts.length
   const totalPages = Math.ceil(totalPosts / POSTS_PER_PAGE)
   
   // Ensure current page is within valid range
   const validCurrentPage = Math.max(1, Math.min(currentPage, totalPages))
   const startIndex = (validCurrentPage - 1) * POSTS_PER_PAGE
   const endIndex = startIndex + POSTS_PER_PAGE
-  const currentPosts = filteredPosts.slice(startIndex, endIndex)
+  const currentPosts = sortedPosts.slice(startIndex, endIndex)
 
   return (
     <div className="min-h-screen bg-white">
@@ -82,7 +93,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                   case 'Bible & Faith':
                     return '/blog/Bible-Faith'
                   default:
-                    return `/blog?category=${cat === 'All' ? '' : cat}`
+                    return cat === 'All' ? '/blog' : `/blog?category=${cat}`
                 }
               }
               
@@ -139,7 +150,13 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
               <div className="flex justify-center items-center space-x-4">
                 {validCurrentPage > 1 && (
                   <Link
-                    href={`/blog?category=${currentCategory === 'All' ? '' : currentCategory}&page=${validCurrentPage - 1}`}
+                    href={validCurrentPage === 2 
+                      ? (currentCategory === 'All' ? '/blog' : `/blog?category=${currentCategory}`)
+                      : (currentCategory === 'All' 
+                          ? `/blog?page=${validCurrentPage - 1}`
+                          : `/blog?category=${currentCategory}&page=${validCurrentPage - 1}`
+                        )
+                    }
                     className="px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-blue-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
                   >
                     ← Previous
@@ -152,7 +169,10 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                 
                 {validCurrentPage < totalPages && (
                   <Link
-                    href={`/blog?category=${currentCategory === 'All' ? '' : currentCategory}&page=${validCurrentPage + 1}`}
+                    href={currentCategory === 'All' 
+                      ? `/blog?page=${validCurrentPage + 1}`
+                      : `/blog?category=${currentCategory}&page=${validCurrentPage + 1}`
+                    }
                     className="px-6 py-3 bg-gradient-to-r from-purple-500 to-purple-600 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-purple-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
                   >
                     Next →

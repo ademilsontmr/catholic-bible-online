@@ -17,12 +17,12 @@ export const metadata: Metadata = {
     'spiritual practices'
   ],
   openGraph: {
-    title: 'How to Pray - Catholic Prayer Guide | Catholic Bible Online',
+    title: 'How to Pray - Catholic Prayer Guide',
     description: 'Learn how to pray with Catholic prayer guides and spiritual practices.',
     url: 'https://catholicbibleonline.com/blog/How-to-Pray',
   },
   twitter: {
-    title: 'How to Pray - Catholic Prayer Guide | Catholic Bible Online',
+    title: 'How to Pray - Catholic Prayer Guide',
     description: 'Learn how to pray with Catholic prayer guides and spiritual practices.',
   },
 }
@@ -107,7 +107,10 @@ export default async function HowToPrayPage({ searchParams }: HowToPrayPageProps
               <div className="flex justify-center items-center space-x-4">
                 {validCurrentPage > 1 && (
                   <Link
-                    href={`/blog/How-to-Pray?page=${validCurrentPage - 1}`}
+                    href={validCurrentPage === 2 
+                      ? '/blog/How-to-Pray'
+                      : `/blog/How-to-Pray?page=${validCurrentPage - 1}`
+                    }
                     className="px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-blue-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
                   >
                     ← Previous

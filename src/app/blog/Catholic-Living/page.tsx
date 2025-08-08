@@ -17,12 +17,12 @@ export const metadata: Metadata = {
     'catholic lifestyle'
   ],
   openGraph: {
-    title: 'Catholic Living - Daily Catholic Life | Catholic Bible Online',
+    title: 'Catholic Living - Daily Catholic Life',
     description: 'Discover how to live your Catholic faith in the modern world.',
     url: 'https://catholicbibleonline.com/blog/Catholic-Living',
   },
   twitter: {
-    title: 'Catholic Living - Daily Catholic Life | Catholic Bible Online',
+    title: 'Catholic Living - Daily Catholic Life',
     description: 'Discover how to live your Catholic faith in the modern world.',
   },
 }
@@ -107,7 +107,10 @@ export default async function CatholicLivingPage({ searchParams }: CatholicLivin
               <div className="flex justify-center items-center space-x-4">
                 {validCurrentPage > 1 && (
                   <Link
-                    href={`/blog/Catholic-Living?page=${validCurrentPage - 1}`}
+                    href={validCurrentPage === 2 
+                      ? '/blog/Catholic-Living'
+                      : `/blog/Catholic-Living?page=${validCurrentPage - 1}`
+                    }
                     className="px-6 py-3 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white font-semibold rounded-lg hover:from-emerald-600 hover:to-emerald-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
                   >
                     ← Previous
