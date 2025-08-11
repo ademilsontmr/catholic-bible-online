@@ -5,8 +5,8 @@ interface BlogCardProps {
   title: string
   excerpt: string
   category: string
-  image: string
-  readTime: string
+  image?: string
+  readTime?: string
 }
 
 export default function BlogCard({ slug, title, excerpt, category, image, readTime }: BlogCardProps) {
@@ -38,7 +38,7 @@ export default function BlogCard({ slug, title, excerpt, category, image, readTi
             <span className={`px-4 py-2 rounded-full text-xs font-bold ${getCategoryColor(category)} transform group-hover:scale-105 transition-transform duration-200`}>
               {category}
             </span>
-            <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full font-medium">{readTime}</span>
+            <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full font-medium">{readTime || '5 min read'}</span>
           </div>
           <h3 className="text-xl font-bold text-black mb-3 group-hover:text-blue-600 transition-colors line-clamp-2">
             {title}
