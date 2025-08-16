@@ -58,6 +58,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         return 'bg-gradient-to-r from-purple-500 to-purple-600 text-white shadow-lg'
       case 'Bible & Faith':
         return 'bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg'
+      case 'Bible-Faith':
+        return 'bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg'
       default:
         return 'bg-gradient-to-r from-gray-500 to-gray-600 text-white shadow-lg'
     }
