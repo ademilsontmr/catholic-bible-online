@@ -3,20 +3,23 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import blogData from '@/data/blog.json'
 import { generateSEO, generateStructuredData } from '@/components/SEO'
+import type { BlogData, BlogPost } from '@/types/blog'
+
+const typedBlogData = blogData as BlogData
 
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>
 }
 
 export async function generateStaticParams() {
-  return blogData.map((post) => ({
+  return typedBlogData.map((post: BlogPost) => ({
     slug: post.slug,
   }))
 }
 
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
   const { slug } = await params
-  const post = blogData.find((p) => p.slug === slug)
+  const post = typedBlogData.find((p: BlogPost) => p.slug === slug)
 
   if (!post) {
     return {
@@ -37,15 +40,15 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const { slug } = await params
-  const post = blogData.find((p) => p.slug === slug)
+  const post = typedBlogData.find((p: BlogPost) => p.slug === slug)
 
   if (!post) {
     notFound()
   }
 
   // Find related posts (same category, excluding current post)
-  const relatedPosts = blogData
-    .filter((p) => p.category === post.category && p.slug !== post.slug)
+  const relatedPosts = typedBlogData
+    .filter((p: BlogPost) => p.category === post.category && p.slug !== post.slug)
     .slice(0, 3)
 
   const getCategoryColor = (category: string) => {
@@ -57,8 +60,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       case 'Saints & Feast Days':
         return 'bg-gradient-to-r from-purple-500 to-purple-600 text-white shadow-lg'
       case 'Bible & Faith':
-        return 'bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg'
-      case 'Bible-Faith':
         return 'bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg'
       default:
         return 'bg-gradient-to-r from-gray-500 to-gray-600 text-white shadow-lg'
@@ -134,7 +135,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 Related Articles
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                {relatedPosts.map((relatedPost) => (
+                {relatedPosts.map((relatedPost: BlogPost) => (
                   <Link
                     key={relatedPost.slug}
                     href={`/blog/${relatedPost.slug}`}
