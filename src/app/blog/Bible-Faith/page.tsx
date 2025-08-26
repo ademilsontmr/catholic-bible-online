@@ -2,11 +2,12 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import BlogCard from '@/components/BlogCard'
 import blogData from '@/data/blog.json'
+import type { BlogData, BlogPost } from '@/types/blog'
 
 
 export const metadata: Metadata = {
-  title: 'Bible & Faith - Catholic Bible Study',
-  description: 'Explore Catholic Bible study, Scripture interpretation, and faith teachings. Deepen your understanding of God\'s Word and Catholic doctrine.',
+  title: 'Bible & Faith - Catholic Bible Study & Fasting Articles',
+  description: 'Explore Catholic Bible study, Scripture interpretation, faith teachings, and comprehensive guides on Catholic fasting practices. Deepen your understanding of God\'s Word, Catholic doctrine, and spiritual discipline.',
   keywords: [
     'catholic bible study',
     'bible interpretation',
@@ -14,16 +15,40 @@ export const metadata: Metadata = {
     'catholic faith',
     'bible teachings',
     'catholic doctrine',
-    'scripture reflection'
+    'scripture reflection',
+    'catholic fasting',
+    'fasting prayer',
+    'fasting spiritual discipline',
+    'fasting lent',
+    'fasting catholic tradition',
+    'fasting bible',
+    'fasting christian practice',
+    'fasting spiritual growth',
+    'fasting penance',
+    'fasting eucharist',
+    'fasting saints',
+    'fasting beatitudes',
+    'fasting mary',
+    'fasting conversion',
+    'fasting confession',
+    'fasting poor',
+    'fasting modern times',
+    'fasting spiritual warfare',
+    'fasting detachment',
+    'fasting ash wednesday',
+    'fasting good friday',
+    'fasting poverty spirit',
+    'fasting obedience',
+    'fasting sacrifice'
   ],
   openGraph: {
-    title: 'Bible & Faith - Catholic Bible Study',
-    description: 'Explore Catholic Bible study and Scripture interpretation.',
+    title: 'Bible & Faith - Catholic Bible Study & Fasting Articles',
+    description: 'Explore Catholic Bible study, Scripture interpretation, faith teachings, and comprehensive guides on Catholic fasting practices.',
     url: 'https://catholicbibleonline.com/blog/Bible-Faith',
   },
   twitter: {
-    title: 'Bible & Faith - Catholic Bible Study',
-    description: 'Explore Catholic Bible study and Scripture interpretation.',
+    title: 'Bible & Faith - Catholic Bible Study & Fasting Articles',
+    description: 'Explore Catholic Bible study, Scripture interpretation, faith teachings, and comprehensive guides on Catholic fasting practices.',
   },
 }
 
@@ -31,28 +56,31 @@ interface BibleFaithPageProps {
   searchParams: Promise<{ page?: string }>
 }
 
+// Tipar os dados importados do JSON
+const typedBlogData = blogData as BlogData
+
 export default async function BibleFaithPage({ searchParams }: BibleFaithPageProps) {
   const params = await searchParams
   const currentPage = parseInt(params.page || '1')
   const POSTS_PER_PAGE = 9
   
-  // Filter posts by "Bible & Faith" category
-  const bibleFaithPosts = blogData.filter(post => post.category === 'Bible & Faith')
+  // Filtrar posts pela categoria "Bible & Faith"
+  const bibleFaithPosts: BlogPost[] = (typedBlogData as BlogPost[]).filter((post: BlogPost) => post.category === 'Bible & Faith')
   
-  // Sort by date (newest first)
-  const sortedPosts = bibleFaithPosts.sort((a, b) => {
-    const dateA = (a as any).date || (a as any).publishedAt || ''
-    const dateB = (b as any).date || (b as any).publishedAt || ''
-    return new Date(dateB).getTime() - new Date(dateA).getTime()
+  // Ordenar por data (mais recentes primeiro)
+  const sortedPosts: BlogPost[] = [...bibleFaithPosts].sort((a: BlogPost, b: BlogPost) => {
+    const dateA = new Date(a.publishedAt || a.date || '1970-01-01').getTime()
+    const dateB = new Date(b.publishedAt || b.date || '1970-01-01').getTime()
+    return dateB - dateA
   })
   
-  // Calculate pagination
+  // Calcular paginação
   const totalPosts = sortedPosts.length
   const totalPages = Math.ceil(totalPosts / POSTS_PER_PAGE)
   const validCurrentPage = Math.max(1, Math.min(currentPage, totalPages))
   const startIndex = (validCurrentPage - 1) * POSTS_PER_PAGE
   const endIndex = startIndex + POSTS_PER_PAGE
-  const currentPosts = sortedPosts.slice(startIndex, endIndex)
+  const currentPosts: BlogPost[] = sortedPosts.slice(startIndex, endIndex)
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-100">
@@ -83,7 +111,7 @@ export default async function BibleFaithPage({ searchParams }: BibleFaithPagePro
         {currentPosts.length > 0 ? (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-              {currentPosts.map((post) => (
+              {currentPosts.map((post: BlogPost) => (
                 <BlogCard 
                   key={post.slug}
                   slug={post.slug}
