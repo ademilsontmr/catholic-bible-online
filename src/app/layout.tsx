@@ -117,37 +117,37 @@ export default function RootLayout({
           Skip to main content
         </a>
         
-        <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
+        <header className="sticky top-0 z-50 bg-white/98 backdrop-blur-md border-b border-gray-200 shadow-sm">
           <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
             <div className="flex justify-between items-center h-16">
-              <div className="flex items-center">
-                <Link href="/" className="flex items-center space-x-2" aria-label="Catholic Bible Online - Home">
-                  <span className="text-2xl font-bold text-gray-900">
+              <div className="flex items-center h-full">
+                <Link href="/" className="flex items-center space-x-2 h-full" aria-label="Catholic Bible Online - Home">
+                  <span className="text-2xl font-bold text-gray-900 flex items-center h-full leading-none">
                     Catholic Bible Online
                   </span>
                 </Link>
               </div>
               <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-8">
-                  <Link href="/" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
+                <div className="ml-10 flex items-center space-x-6 h-full">
+                  <Link href="/" className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200 rounded-md hover:bg-red-50 flex items-center h-full leading-none">
                     Home
                   </Link>
-                  <Link href="/bible" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
+                  <Link href="/bible" className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200 rounded-md hover:bg-red-50 flex items-center h-full leading-none">
                     Bible
                   </Link>
-                  <Link href="/prayers" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
+                  <Link href="/prayers" className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200 rounded-md hover:bg-red-50 flex items-center h-full leading-none">
                     Prayers
                   </Link>
-                  <Link href="/novenas" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
+                  <Link href="/novenas" className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200 rounded-md hover:bg-red-50 flex items-center h-full leading-none">
                     Novenas
                   </Link>
-                  <Link href="/saints" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
+                  <Link href="/saints" className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200 rounded-md hover:bg-red-50 flex items-center h-full leading-none">
                     Saints
                   </Link>
-                  <Link href="/blog" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
+                  <Link href="/blog" className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200 rounded-md hover:bg-red-50 flex items-center h-full leading-none">
                     Blog
                   </Link>
-                  <Link href="/verse-of-the-day" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
+                  <Link href="/verse-of-the-day" className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200 rounded-md hover:bg-red-50 flex items-center h-full leading-none">
                     Verse of the Day
                   </Link>
                 </div>

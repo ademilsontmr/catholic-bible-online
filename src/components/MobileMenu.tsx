@@ -49,7 +49,7 @@ export default function MobileMenu() {
       {/* Mobile menu button */}
       <button
         type="button"
-        className="text-gray-700 hover:text-gray-900 p-2 transition-colors"
+        className="text-gray-700 hover:text-red-600 p-2 transition-colors duration-200 rounded-md hover:bg-red-50"
         aria-label={isOpen ? 'Close mobile menu' : 'Open mobile menu'}
         onClick={toggleMenu}
       >
@@ -78,7 +78,7 @@ export default function MobileMenu() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors"
+                  className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600 hover:bg-red-50 rounded-md transition-colors duration-200"
                   onClick={closeMenu}
                 >
                   {item.label}
