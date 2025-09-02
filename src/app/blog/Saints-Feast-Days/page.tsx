@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import BlogCard from '@/components/BlogCard'
 import blogData from '@/data/blog.json'
+import { BlogPost } from '@/types/blog'
 
 
 export const metadata: Metadata = {
@@ -37,12 +38,12 @@ export default async function SaintsFeastDaysPage({ searchParams }: SaintsFeastD
   const POSTS_PER_PAGE = 9
   
   // Filter posts by "Saints & Feast Days" category
-  const saintsPosts = blogData.filter(post => post.category === 'Saints & Feast Days')
+  const saintsPosts = (blogData as BlogPost[]).filter((post: BlogPost) => post.category === 'Saints & Feast Days')
   
   // Sort by date (newest first)
-  const sortedPosts = saintsPosts.sort((a, b) => {
-    const dateA = (a as any).date || (a as any).publishedAt || ''
-    const dateB = (b as any).date || (b as any).publishedAt || ''
+  const sortedPosts = saintsPosts.sort((a: BlogPost, b: BlogPost) => {
+    const dateA = a.date || a.publishedAt || ''
+    const dateB = b.date || b.publishedAt || ''
     return new Date(dateB).getTime() - new Date(dateA).getTime()
   })
   
@@ -83,7 +84,7 @@ export default async function SaintsFeastDaysPage({ searchParams }: SaintsFeastD
         {currentPosts.length > 0 ? (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-              {currentPosts.map((post) => (
+              {currentPosts.map((post: BlogPost) => (
                 <BlogCard 
                   key={post.slug}
                   slug={post.slug}
@@ -163,6 +164,7 @@ export default async function SaintsFeastDaysPage({ searchParams }: SaintsFeastD
             >
               Bible & Faith
             </Link>
+
           </div>
         </div>
       </div>

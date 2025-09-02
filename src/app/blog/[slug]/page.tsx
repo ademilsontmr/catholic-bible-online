@@ -46,10 +46,17 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     notFound()
   }
 
-  // Find related posts (same category, excluding current post)
-  const relatedPosts = typedBlogData
-    .filter((p: BlogPost) => p.category === post.category && p.slug !== post.slug)
-    .slice(0, 3)
+  // Find 3 random related posts (excluding current post)
+  // Use slug as seed for consistent but different results per post
+  const seed = post.slug.split('').reduce((a, b) => a + b.charCodeAt(0), 0)
+  const shuffled = typedBlogData
+    .filter((p: BlogPost) => p.slug !== post.slug)
+    .sort((a, b) => {
+      const aHash = a.slug.split('').reduce((sum, char) => sum + char.charCodeAt(0), 0)
+      const bHash = b.slug.split('').reduce((sum, char) => sum + char.charCodeAt(0), 0)
+      return (aHash + seed) % 1000 - (bHash + seed) % 1000
+    })
+  const relatedPosts = shuffled.slice(0, 3)
 
   const getCategoryColor = (category: string) => {
     switch (category) {
@@ -120,7 +127,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             </div>
           )}
 
-          {/* Article Content */}
+                    {/* Article Content */}
           <article className="prose prose-lg max-w-none mb-12">
             <div 
               className="blog-content text-black leading-relaxed"
@@ -128,9 +135,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             />
           </article>
 
-          {/* Related Posts */}
+          {/* Related Articles */}
           {relatedPosts.length > 0 && (
-            <section className="border-t border-gray-200 pt-8">
+            <section className="border-t border-gray-200 pt-8 mb-8">
               <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-8 text-center">
                 Related Articles
               </h2>
@@ -142,11 +149,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                     className="group block"
                   >
                     <div className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
-                      {relatedPost.image && (
-                        <div className="relative h-32 overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
-                          <span className="text-gray-400 text-xs">No Image</span>
-                        </div>
-                      )}
                       <div className="p-4">
                         <span className={`px-3 py-1 rounded-full text-xs font-bold ${getCategoryColor(relatedPost.category)} shadow-sm`}>
                           {relatedPost.category}
@@ -157,6 +159,12 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         <p className="text-gray-600 text-sm mt-2 line-clamp-2">
                           {relatedPost.excerpt}
                         </p>
+                        <div className="mt-3 flex items-center justify-between">
+                          <span className="text-xs text-gray-500">{relatedPost.readTime}</span>
+                          <span className="text-blue-600 text-sm font-semibold group-hover:text-blue-800">
+                            Read More →
+                          </span>
+                        </div>
                       </div>
                     </div>
                   </Link>

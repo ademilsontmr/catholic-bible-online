@@ -2,6 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getBibleIndex, getBook } from '@/lib/bibleLoader'
 import SearchBox from '@/components/SearchBox'
+import blogData from '@/data/blog.json'
 
 export const metadata: Metadata = {
   title: 'Catholic Bible Online',
@@ -57,6 +58,10 @@ function getRandomVerse() {
 
 export default function HomePage() {
   const verse = getRandomVerse()
+  
+  // Get the 9 most recent blog posts
+  const recentPosts = (blogData as any[]).slice(0, 9)
+  
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -85,7 +90,58 @@ export default function HomePage() {
         </div>
       </section>
 
-
+      {/* Featured Blog Posts Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-black mb-4">
+              Latest Articles & Reflections
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Discover inspiring Catholic teachings, saint stories, and spiritual guidance to deepen your faith journey.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {recentPosts.map((post) => (
+              <article key={post.slug} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                <div className="p-6">
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="inline-block px-3 py-1 text-xs font-semibold text-white bg-blue-600 rounded-full">
+                      {post.category}
+                    </span>
+                    <span className="text-sm text-gray-500">{post.readTime}</span>
+                  </div>
+                  
+                  <h3 className="text-xl font-bold text-black mb-3 line-clamp-2">
+                    {post.title}
+                  </h3>
+                  
+                  <p className="text-gray-600 mb-4 line-clamp-3">
+                    {post.excerpt}
+                  </p>
+                  
+                  <Link 
+                    href={`/blog/${post.slug}`}
+                    className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-sm"
+                  >
+                    Read More &rarr;
+                  </Link>
+                </div>
+              </article>
+            ))}
+          </div>
+          
+          <div className="text-center mt-12">
+            <Link 
+              href="/blog"
+              className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              View All Articles
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* Quick Links Section */}
       <section className="py-16">

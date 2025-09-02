@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import BlogCard from '@/components/BlogCard'
 import blogData from '@/data/blog.json'
+import { BlogPost } from '@/types/blog'
 
 
 export const metadata: Metadata = {
@@ -34,6 +35,9 @@ interface BlogPageProps {
   searchParams: Promise<{ category?: string; page?: string }>
 }
 
+// Force dynamic rendering
+export const dynamic = 'force-dynamic'
+
 export default async function BlogPage({ searchParams }: BlogPageProps) {
   const params = await searchParams
   const currentCategory = params.category === 'All' || !params.category ? 'All' : params.category
@@ -43,27 +47,23 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
   
   // Filter posts by category
   const filteredPosts = currentCategory === 'All' || !currentCategory
-    ? blogData 
-    : blogData.filter(post => post.category === currentCategory)
+    ? (blogData as BlogPost[])
+    : (blogData as BlogPost[]).filter((post: BlogPost) => post.category === currentCategory)
   
-  // Sort posts by date (newest first)
-  const sortedPosts = filteredPosts.sort((a, b) => {
-    const dateA = new Date(a.date || a.publishedAt || '')
-    const dateB = new Date(b.date || b.publishedAt || '')
-    return dateB.getTime() - dateA.getTime()
-  })
+  // Shuffle posts randomly
+  const shuffledPosts = [...filteredPosts].sort(() => Math.random() - 0.5)
   
 
   
   // Pagination
-  const totalPosts = sortedPosts.length
+  const totalPosts = shuffledPosts.length
   const totalPages = Math.ceil(totalPosts / POSTS_PER_PAGE)
   
   // Ensure current page is within valid range
   const validCurrentPage = Math.max(1, Math.min(currentPage, totalPages))
   const startIndex = (validCurrentPage - 1) * POSTS_PER_PAGE
   const endIndex = startIndex + POSTS_PER_PAGE
-  const currentPosts = sortedPosts.slice(startIndex, endIndex)
+  const currentPosts = shuffledPosts.slice(startIndex, endIndex)
 
   return (
     <div className="min-h-screen bg-white">
@@ -92,6 +92,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                     return '/blog/Saints-Feast-Days'
                   case 'Bible & Faith':
                     return '/blog/Bible-Faith'
+
                   default:
                     return cat === 'All' ? '/blog' : `/blog?category=${cat}`
                 }
@@ -112,6 +113,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                       ? 'bg-gradient-to-r from-purple-400 to-purple-500 text-white hover:from-purple-500 hover:to-purple-600'
                       : category === 'Bible & Faith'
                       ? 'bg-gradient-to-r from-orange-400 to-orange-500 text-white hover:from-orange-500 hover:to-orange-600'
+
                       : 'bg-gradient-to-r from-gray-400 to-gray-500 text-white hover:from-gray-500 hover:to-gray-600'
                   }`}
                 >
@@ -126,7 +128,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
         {currentPosts.length > 0 ? (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-              {currentPosts.map((post) => (
+              {currentPosts.map((post: BlogPost) => (
                 <BlogCard
                   key={post.slug}
                   slug={post.slug}
