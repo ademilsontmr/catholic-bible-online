@@ -271,11 +271,11 @@ export default function PrayersPage() {
     <div className="min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold text-black mb-6">
+        <div className="text-center mb-12 bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 rounded-2xl p-8 border border-gray-100">
+          <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 gradient-text mb-6">
             Catholic Prayers Collection
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto">
+          <p className="text-xl text-gray-700 mb-8 max-w-4xl mx-auto">
             Comprehensive collection of {totalPrayers}+ traditional Catholic prayers, devotions, and spiritual practices 
             organized by category for easy navigation and daily spiritual growth.
           </p>
@@ -300,21 +300,21 @@ export default function PrayersPage() {
 
           {/* Statistics */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
-            <div className="bg-blue-50 rounded-lg p-6">
-              <div className="text-3xl font-bold text-blue-600 mb-2">{totalPrayers}+</div>
-              <div className="text-sm text-gray-600">Total Prayers</div>
+            <div className="bg-white rounded-lg p-6 shadow-md border border-gray-100">
+              <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 gradient-text mb-2">{totalPrayers}+</div>
+              <div className="text-sm text-gray-700">Total Prayers</div>
             </div>
-            <div className="bg-green-50 rounded-lg p-6">
-              <div className="text-3xl font-bold text-green-600 mb-2">{prayerCategories.length}</div>
-              <div className="text-sm text-gray-600">Categories</div>
+            <div className="bg-white rounded-lg p-6 shadow-md border border-gray-100">
+              <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-emerald-600 gradient-text mb-2">{prayerCategories.length}</div>
+              <div className="text-sm text-gray-700">Categories</div>
             </div>
-            <div className="bg-purple-50 rounded-lg p-6">
-              <div className="text-3xl font-bold text-purple-600 mb-2">Daily</div>
-              <div className="text-sm text-gray-600">Updates</div>
+            <div className="bg-white rounded-lg p-6 shadow-md border border-gray-100">
+              <div className="text-3xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 gradient-text mb-2">Daily</div>
+              <div className="text-sm text-gray-700">Updates</div>
             </div>
-            <div className="bg-orange-50 rounded-lg p-6">
-              <div className="text-3xl font-bold text-orange-600 mb-2">Free</div>
-              <div className="text-sm text-gray-600">Access</div>
+            <div className="bg-white rounded-lg p-6 shadow-md border border-gray-100">
+              <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-emerald-600 gradient-text mb-2">Free</div>
+              <div className="text-sm text-gray-700">Access</div>
             </div>
           </div>
         </div>
@@ -322,7 +322,7 @@ export default function PrayersPage() {
         {/* Search Results Info */}
         {searchTerm && (
           <div className="mb-6 text-center">
-            <p className="text-gray-600">
+            <p className="text-gray-700">
               {filteredCategories.length > 0 
                 ? `Found ${filteredCategories.length} categor${filteredCategories.length !== 1 ? 'ies' : 'y'} matching "${searchTerm}"`
                 : `No categories found matching "${searchTerm}"`
@@ -339,10 +339,10 @@ export default function PrayersPage() {
               href={`/prayers/${category.slug}`}
               className="group block"
             >
-              <div className="bg-white border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300 h-full">
+              <div className="bg-white border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300 transform hover:scale-105 h-full">
                 <div className="flex items-start justify-between mb-4">
                   <div className="text-4xl">{category.icon}</div>
-                  <div className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                  <div className="bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
                     {category.count}
                   </div>
                 </div>
@@ -351,7 +351,7 @@ export default function PrayersPage() {
                   {category.name}
                 </h3>
                 
-                <p className="text-gray-600 text-sm mb-4">
+                <p className="text-gray-700 text-sm mb-4">
                   {category.description}
                 </p>
                 
@@ -374,67 +374,67 @@ export default function PrayersPage() {
 
         {/* Featured Prayers Section */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-black mb-8 text-center">Featured Prayers</h2>
+          <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 gradient-text mb-8 text-center">Featured Prayers</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link href="/prayers/our-father" className="group block">
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100 border border-blue-200 rounded-lg p-6 hover:shadow-lg transition-all">
+              <div className="bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
                 <div className="text-3xl mb-3">🙏</div>
                 <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-blue-600">Our Father</h3>
-                <p className="text-sm text-gray-600">The Lord's Prayer taught by Jesus</p>
+                <p className="text-sm text-gray-700">The Lord's Prayer taught by Jesus</p>
               </div>
             </Link>
             
             <Link href="/prayers/hail-mary" className="group block">
-              <div className="bg-gradient-to-br from-pink-50 to-pink-100 border border-pink-200 rounded-lg p-6 hover:shadow-lg transition-all">
+              <div className="bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
                 <div className="text-3xl mb-3">👸</div>
-                <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-pink-600">Hail Mary</h3>
-                <p className="text-sm text-gray-600">Prayer to the Blessed Virgin Mary</p>
+                <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-blue-600">Hail Mary</h3>
+                <p className="text-sm text-gray-700">Prayer to the Blessed Virgin Mary</p>
               </div>
             </Link>
             
             <Link href="/prayers/glory-be" className="group block">
-              <div className="bg-gradient-to-br from-green-50 to-green-100 border border-green-200 rounded-lg p-6 hover:shadow-lg transition-all">
+              <div className="bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
                 <div className="text-3xl mb-3">✨</div>
-                <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-green-600">Glory Be</h3>
-                <p className="text-sm text-gray-600">Doxology to the Holy Trinity</p>
+                <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-blue-600">Glory Be</h3>
+                <p className="text-sm text-gray-700">Doxology to the Holy Trinity</p>
               </div>
             </Link>
             
             <Link href="/prayers/apostles-creed" className="group block">
-              <div className="bg-gradient-to-br from-purple-50 to-purple-100 border border-purple-200 rounded-lg p-6 hover:shadow-lg transition-all">
+              <div className="bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
                 <div className="text-3xl mb-3">📜</div>
-                <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-purple-600">Apostles' Creed</h3>
-                <p className="text-sm text-gray-600">Statement of Catholic faith</p>
+                <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-blue-600">Apostles' Creed</h3>
+                <p className="text-sm text-gray-700">Statement of Catholic faith</p>
               </div>
             </Link>
           </div>
         </section>
 
         {/* Quick Navigation */}
-        <section className="bg-gray-50 rounded-lg p-8 mb-12">
-          <h2 className="text-2xl font-bold text-black mb-6 text-center">Quick Navigation</h2>
+        <section className="bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 rounded-2xl p-8 mb-12 border border-gray-100">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 gradient-text mb-6 text-center">Quick Navigation</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            <Link href="/prayers/basic" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-colors">
+            <Link href="/prayers/basic" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 hover:shadow-md">
               <div className="text-2xl mb-2">🙏</div>
               <div className="text-sm font-medium text-gray-700">Basic</div>
             </Link>
-            <Link href="/prayers/rosary" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-colors">
+            <Link href="/prayers/rosary" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 hover:shadow-md">
               <div className="text-2xl mb-2">📿</div>
               <div className="text-sm font-medium text-gray-700">Rosary</div>
             </Link>
-            <Link href="/prayers/mass" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-colors">
+            <Link href="/prayers/mass" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 hover:shadow-md">
               <div className="text-2xl mb-2">✞</div>
               <div className="text-sm font-medium text-gray-700">Mass</div>
             </Link>
-            <Link href="/prayers/marian" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-colors">
+            <Link href="/prayers/marian" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 hover:shadow-md">
               <div className="text-2xl mb-2">👸</div>
               <div className="text-sm font-medium text-gray-700">Marian</div>
             </Link>
-            <Link href="/prayers/saints" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-colors">
+            <Link href="/prayers/saints" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 hover:shadow-md">
               <div className="text-2xl mb-2">👼</div>
               <div className="text-sm font-medium text-gray-700">Saints</div>
             </Link>
-            <Link href="/prayers/devotional" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-colors">
+            <Link href="/prayers/devotional" className="text-center p-3 bg-white rounded-lg hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 hover:shadow-md">
               <div className="text-2xl mb-2">🕯️</div>
               <div className="text-sm font-medium text-gray-700">Devotional</div>
             </Link>
@@ -442,7 +442,7 @@ export default function PrayersPage() {
         </section>
 
         {/* Footer */}
-        <div className="text-center text-gray-600">
+        <div className="text-center text-gray-700">
           <p className="mb-4">
             Discover the rich tradition of Catholic prayer and deepen your spiritual life with these timeless devotions.
           </p>

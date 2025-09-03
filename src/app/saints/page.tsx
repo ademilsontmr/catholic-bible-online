@@ -2327,11 +2327,11 @@ export default function SaintsPage() {
     <div className="min-h-screen bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-black mb-4">
+        <div className="text-center mb-12 bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 rounded-2xl p-8 border border-gray-100">
+          <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 gradient-text mb-4">
             Saints
           </h1>
-          <p className="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-700 mb-6 max-w-3xl mx-auto">
             Lives, Legacy & Feast Days of Catholic saints and holy men and women
           </p>
           
@@ -2355,17 +2355,17 @@ export default function SaintsPage() {
 
           {/* Statistics */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="bg-gray-50 rounded-lg p-6 text-center">
-              <div className="text-3xl font-bold text-gray-600">{saintsData.length}+</div>
-              <div className="text-black font-medium">Saints</div>
+            <div className="bg-white rounded-lg p-6 text-center shadow-md border border-gray-100">
+              <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 gradient-text">{saintsData.length}+</div>
+              <div className="text-gray-700 font-medium">Saints</div>
             </div>
-            <div className="bg-gray-50 rounded-lg p-6 text-center">
-              <div className="text-3xl font-bold text-gray-600">{categories.length - 1}</div>
-              <div className="text-black font-medium">Categories</div>
+            <div className="bg-white rounded-lg p-6 text-center shadow-md border border-gray-100">
+              <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-emerald-600 gradient-text">{categories.length - 1}</div>
+              <div className="text-gray-700 font-medium">Categories</div>
             </div>
-            <div className="bg-gray-50 rounded-lg p-6 text-center">
-              <div className="text-3xl font-bold text-gray-600">Daily</div>
-              <div className="text-black font-medium">Feast Days</div>
+            <div className="bg-white rounded-lg p-6 text-center shadow-md border border-gray-100">
+              <div className="text-3xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 gradient-text">Daily</div>
+              <div className="text-gray-700 font-medium">Feast Days</div>
             </div>
           </div>
         </div>
@@ -2373,8 +2373,8 @@ export default function SaintsPage() {
         {/* Saint of the Day */}
         {todaySaint && (
           <section className="mb-12">
-            <h2 className="text-2xl font-bold text-black mb-6 text-center">Saint of the Day</h2>
-            <div className="bg-blue-50 rounded-lg p-8 border border-blue-200">
+            <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 gradient-text mb-6 text-center">Saint of the Day</h2>
+            <div className="bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 rounded-2xl p-8 border border-gray-100">
               <div className="flex items-center justify-center mb-4">
                 <span className="text-4xl mr-4">{todaySaint.icon}</span>
                 <div>
@@ -2386,7 +2386,7 @@ export default function SaintsPage() {
               <div className="text-center">
                 <Link
                   href={`/saints/${todaySaint.id}`}
-                  className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+                  className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-400 to-blue-500 text-white rounded-md hover:from-blue-500 hover:to-blue-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
                 >
                   Read Full Biography →
                 </Link>
@@ -2397,16 +2397,16 @@ export default function SaintsPage() {
 
         {/* Category Filters */}
         <section className="mb-8">
-          <h2 className="text-2xl font-bold text-black mb-6 text-center">Browse by Category</h2>
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 gradient-text mb-6 text-center">Browse by Category</h2>
           <div className="flex flex-wrap justify-center gap-4">
             {categories.map((category) => (
               <button
                 key={category.id}
                 onClick={() => setSelectedCategory(category.id)}
-                className={`flex items-center px-4 py-2 rounded-lg border transition-colors ${
+                className={`flex items-center px-4 py-2 rounded-lg border transition-all duration-300 transform hover:scale-105 ${
                   selectedCategory === category.id
-                    ? 'bg-blue-600 text-white border-blue-600'
-                    : 'bg-white text-black border-gray-300 hover:border-blue-300'
+                    ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white border-blue-600 shadow-lg'
+                    : 'bg-white text-black border-gray-300 hover:border-blue-300 hover:shadow-md'
                 }`}
               >
                 <span className="mr-2">{category.icon}</span>
@@ -2419,7 +2419,7 @@ export default function SaintsPage() {
         {/* Search Results Info */}
         {searchTerm && (
           <div className="mb-6 text-center">
-            <p className="text-gray-600">
+            <p className="text-gray-700">
               {filteredSaints.length > 0 
                 ? `Found ${filteredSaints.length} saint${filteredSaints.length !== 1 ? 's' : ''} matching "${searchTerm}"`
                 : `No saints found matching "${searchTerm}"`
@@ -2430,7 +2430,7 @@ export default function SaintsPage() {
 
         {/* Saints Grid */}
         <section>
-          <h2 className="text-2xl font-bold text-black mb-6 text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 gradient-text mb-6 text-center">
             {selectedCategory === 'all' ? 'All Saints' : `${categories.find(c => c.id === selectedCategory)?.name}`}
           </h2>
           
