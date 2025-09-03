@@ -2,6 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getBibleIndex, getBook } from '@/lib/bibleLoader'
 import SearchBox from '@/components/SearchBox'
+import BlogCard from '@/components/BlogCard'
 import blogData from '@/data/blog.json'
 
 export const metadata: Metadata = {
@@ -56,11 +57,22 @@ function getRandomVerse() {
   }
 }
 
+// Função para embaralhar array (Fisher-Yates shuffle)
+function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array]
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+  }
+  return shuffled
+}
+
 export default function HomePage() {
   const verse = getRandomVerse()
   
-  // Get the 9 most recent blog posts
-  const recentPosts = (blogData as any[]).slice(0, 9)
+  // Embaralhar todos os artigos e pegar 9 aleatórios
+  const shuffledPosts = shuffleArray(blogData as any[])
+  const randomPosts = shuffledPosts.slice(0, 9)
   
   return (
     <div className="min-h-screen bg-white">
@@ -103,32 +115,15 @@ export default function HomePage() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {recentPosts.map((post) => (
-              <article key={post.slug} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-                <div className="p-6">
-                  <div className="flex items-center justify-between mb-3">
-                    <span className="inline-block px-3 py-1 text-xs font-semibold text-white bg-blue-600 rounded-full">
-                      {post.category}
-                    </span>
-                    <span className="text-sm text-gray-500">{post.readTime}</span>
-                  </div>
-                  
-                  <h3 className="text-xl font-bold text-black mb-3 line-clamp-2">
-                    {post.title}
-                  </h3>
-                  
-                  <p className="text-gray-600 mb-4 line-clamp-3">
-                    {post.excerpt}
-                  </p>
-                  
-                  <Link 
-                    href={`/blog/${post.slug}`}
-                    className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-sm"
-                  >
-                    Read More &rarr;
-                  </Link>
-                </div>
-              </article>
+            {randomPosts.map((post) => (
+              <BlogCard
+                key={post.slug}
+                slug={post.slug}
+                title={post.title}
+                excerpt={post.excerpt}
+                category={post.category}
+                readTime={post.readTime}
+              />
             ))}
           </div>
           
