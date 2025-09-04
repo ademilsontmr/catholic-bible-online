@@ -37,3 +37,7 @@ next-env.d.ts
 # sitemap
 /public/sitemap.xml
 /public/robots.txt
+
+# backup files
+*.backup
+*.bak
