@@ -194,10 +194,15 @@ export default function HomeschoolNovenaDay6Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Homeschool Novena - Day 6: Obedience"
-          text="Join me in praying the Homeschool Novena - Day 6 focusing on Obedience."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Homeschool Novena - Day 6: Obedience" 
+            url="/novenas/homeschool/day-6"
+            excerpt="Join me in praying the Homeschool Novena - Day 6 focusing on Obedience." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

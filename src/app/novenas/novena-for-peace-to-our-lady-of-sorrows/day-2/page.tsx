@@ -191,10 +191,15 @@ export default function NovenaForPeaceToOurLadyOfSorrowsDay2Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Peace to Our Lady of Sorrows - Day 2: Sanctuary of Wounded Heart"
-          text="Join me in praying the Novena for Peace to Our Lady of Sorrows - Day 2 focusing on Sanctuary of Wounded Heart."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Peace to Our Lady of Sorrows - Day 2: Sanctuary of Wounded Heart" 
+            url="/novenas/novena-for-peace-to-our-lady-of-sorrows/day-2"
+            excerpt="Join me in praying the Novena for Peace to Our Lady of Sorrows - Day 2 focusing on Sanctuary of Wounded Heart." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

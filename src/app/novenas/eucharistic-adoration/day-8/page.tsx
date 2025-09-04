@@ -155,10 +155,15 @@ export default function NovenaForEucharisticAdorationDay8Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Adoration of the Eucharist - Day 8: Conversion of Those Who Disrespect the Eucharist"
-          text="Join me in praying the Novena for Adoration of the Eucharist - Day 8 focusing on conversion of those who disrespect the eucharist."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Adoration of the Eucharist - Day 8: Conversion of Those Who Disrespect the Eucharist" 
+            url="/novenas/eucharistic-adoration/day-8"
+            excerpt="Join me in praying the Novena for Adoration of the Eucharist - Day 8 focusing on conversion of those who disrespect the eucharist." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

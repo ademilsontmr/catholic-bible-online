@@ -161,10 +161,15 @@ export default function StAugustineNovenaDay6Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="St. Augustine Novena - Day 6: Conversion and Miracles"
-          text="Join me in praying the St. Augustine Novena - Day 6 focusing on conversion and miracles."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="St. Augustine Novena - Day 6: Conversion and Miracles" 
+            url="/novenas/st-augustine/day-6"
+            excerpt="Join me in praying the St. Augustine Novena - Day 6 focusing on conversion and miracles." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

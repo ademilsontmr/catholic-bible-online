@@ -123,10 +123,15 @@ export default function NovenaForPhysicalHealingDay7Page() {
         </section>
         
 
-        <ShareButton 
-          title="Novena for Physical Healing - Day 7: Complete Restoration"
-          text="Join me in praying the Novena for Physical Healing - Day 7 focusing on complete restoration."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Physical Healing - Day 7: Complete Restoration" 
+            url="/novenas/physical-healing/day-7"
+            excerpt="Join me in praying the Novena for Physical Healing - Day 7 focusing on complete restoration." 
+          />
+        </div>
 
         <div className="flex justify-between items-center">
           

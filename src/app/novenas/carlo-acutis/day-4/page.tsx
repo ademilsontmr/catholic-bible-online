@@ -179,10 +179,15 @@ export default function CarloAcutisNovenaDay4Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to Carlo Acutis - Day 4: Guardian Angel Friendship"
-          text="Join me in praying the Novena to Carlo Acutis - Day 4 focusing on Guardian Angel Friendship."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to Carlo Acutis - Day 4: Guardian Angel Friendship" 
+            url="/novenas/carlo-acutis/day-4"
+            excerpt="Join me in praying the Novena to Carlo Acutis - Day 4 focusing on Guardian Angel Friendship." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

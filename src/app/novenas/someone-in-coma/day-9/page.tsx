@@ -206,10 +206,15 @@ export default function SomeoneInComaNovenaDay4Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Someone in a Coma - Day 9: Submission"
-          text="Join me in praying the Novena for Someone in a Coma - Day 9 focusing on Submission."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Someone in a Coma - Day 9: Submission" 
+            url="/novenas/someone-in-coma/day-9"
+            excerpt="Join me in praying the Novena for Someone in a Coma - Day 9 focusing on Submission." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

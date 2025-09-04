@@ -155,10 +155,15 @@ export default function NovenaAgainstEvilDay5Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena Against Evil - Day 5: Spiritual Warfare"
-          text="Join me in praying the Novena Against Evil - Day 5 focusing on spiritual warfare."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena Against Evil - Day 5: Spiritual Warfare" 
+            url="/novenas/against-evil/day-5"
+            excerpt="Join me in praying the Novena Against Evil - Day 5 focusing on spiritual warfare." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

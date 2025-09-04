@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ShareButton from '@/components/ShareButton';
 
 export const metadata: Metadata = {
   title: "Our Father – The Lord's Prayer",
@@ -131,6 +132,18 @@ export default function OurFatherPage() {
               </div>
             </div>
           </Link>
+        </div>
+      </section>
+
+      {/* Share Section */}
+      <section className="mb-12">
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this prayer</h2>
+          <ShareButton 
+            title="Our Father" 
+            url="/prayers/our-father"
+            excerpt="Discover and pray this beautiful Catholic prayer for spiritual growth and devotion." 
+          />
         </div>
       </section>
     </main>

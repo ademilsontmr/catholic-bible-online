@@ -149,10 +149,15 @@ export default function NovenaForFirstCommunionDay3Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton
-          title="Novena for First Communion - Day 3: Love for Eucharist"
-          text="Join me in praying the Novena for First Communion - Day 3 focusing on love for eucharist for receiving the Holy Eucharist."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for First Communion - Day 3: Love for Eucharist" 
+            url="/novenas/first-communion/day-3"
+            excerpt="Join me in praying the Novena for First Communion - Day 3 focusing on love for eucharist for receiving the Holy Eucharist." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

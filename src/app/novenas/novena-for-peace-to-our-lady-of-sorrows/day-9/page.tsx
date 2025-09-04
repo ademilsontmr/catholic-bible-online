@@ -205,10 +205,15 @@ export default function NovenaForPeaceToOurLadyOfSorrowsDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Peace to Our Lady of Sorrows - Day 9: Repentance and Grace"
-          text="Join me in praying the Novena for Peace to Our Lady of Sorrows - Day 9 focusing on Repentance and Grace."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Peace to Our Lady of Sorrows - Day 9: Repentance and Grace" 
+            url="/novenas/novena-for-peace-to-our-lady-of-sorrows/day-9"
+            excerpt="Join me in praying the Novena for Peace to Our Lady of Sorrows - Day 9 focusing on Repentance and Grace." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

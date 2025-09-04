@@ -153,10 +153,15 @@ export default function NovenaForAnxietyFearDay3Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Healing from Anxiety and Fear - Day 3: Breaking Free from Fear's Grip"
-          text="Join me in praying the Novena for Healing from Anxiety and Fear - Day 3 focusing on breaking free from Fear's grip."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Healing from Anxiety and Fear - Day 3: Breaking Free from Fear's Grip" 
+            url="/novenas/anxiety-fear/day-3"
+            excerpt="Join me in praying the Novena for Healing from Anxiety and Fear - Day 3 focusing on breaking free from Fear's grip." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

@@ -154,10 +154,15 @@ export default function MaryStarOfTheSeaNovenaDay1Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to Mary Star of the Sea - Day 1: Protection of Travelers"
-          text="Join me in praying Novena to Mary Star of the Sea - Day 1 focusing on protection of travelers."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to Mary Star of the Sea - Day 1: Protection of Travelers" 
+            url="/novenas/mary-star-of-the-sea/day-1"
+            excerpt="Join me in praying Novena to Mary Star of the Sea - Day 1 focusing on protection of travelers." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

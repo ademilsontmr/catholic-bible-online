@@ -254,10 +254,15 @@ export default function OurLadyOfKnockNovenaDay6Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to Our Lady of Knock - Day 6: Reverent Participation in Mass"
-          text="Join me in praying Novena to Our Lady of Knock - Day 6 focusing on Reverent Participation in Mass."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to Our Lady of Knock - Day 6: Reverent Participation in Mass" 
+            url="/novenas/our-lady-of-knock/day-6"
+            excerpt="Join me in praying Novena to Our Lady of Knock - Day 6 focusing on Reverent Participation in Mass." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

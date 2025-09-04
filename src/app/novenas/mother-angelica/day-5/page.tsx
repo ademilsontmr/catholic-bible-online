@@ -156,10 +156,15 @@ export default function MotherAngelicaNovenaDay5Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Mother Angelica Novena - Day 5: Openness to God's Will"
-          text="Join me in praying Mother Angelica Novena - Day 5 focusing on openness to god's will."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Mother Angelica Novena - Day 5: Openness to God's Will" 
+            url="/novenas/mother-angelica/day-5"
+            excerpt="Join me in praying Mother Angelica Novena - Day 5 focusing on openness to god's will." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

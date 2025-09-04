@@ -188,10 +188,15 @@ export default function StJohnBoscoNovenaDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena in Honor of St. John Bosco - Day 9: Gratitude and Thanksgiving"
-          text="Join me in praying the Novena in Honor of St. John Bosco - Day 9 focusing on Gratitude and Thanksgiving."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena in Honor of St. John Bosco - Day 9: Gratitude and Thanksgiving" 
+            url="/novenas/st-john-bosco/day-9"
+            excerpt="Join me in praying the Novena in Honor of St. John Bosco - Day 9 focusing on Gratitude and Thanksgiving." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

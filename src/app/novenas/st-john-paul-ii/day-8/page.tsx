@@ -158,10 +158,15 @@ export default function StJohnPaulIINovenaDay8Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="St. John Paul II Novena - Day 8: Loving the Indifferent"
-          text="Join me in praying St. John Paul II Novena - Day 8 focusing on loving the indifferent."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="St. John Paul II Novena - Day 8: Loving the Indifferent" 
+            url="/novenas/st-john-paul-ii/day-8"
+            excerpt="Join me in praying St. John Paul II Novena - Day 8 focusing on loving the indifferent." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

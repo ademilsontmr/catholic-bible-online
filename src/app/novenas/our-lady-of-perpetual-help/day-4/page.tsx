@@ -196,10 +196,15 @@ export default function OurLadyOfPerpetualHelpNovenaDay4Page() {
         
 
                 {/* Share Section */}
-        <ShareButton 
-          title="Our Lady of Perpetual Help Novena - Day 4: Faith"
-          text="Join me in praying the Our Lady of Perpetual Help Novena - Day 4 focusing on Faith."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Our Lady of Perpetual Help Novena - Day 4: Faith" 
+            url="/novenas/our-lady-of-perpetual-help/day-4"
+            excerpt="Join me in praying the Our Lady of Perpetual Help Novena - Day 4 focusing on Faith." 
+          />
+        </div>
 
 {/* Navigation */}
         <div className="flex justify-between items-center">

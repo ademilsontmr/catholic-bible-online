@@ -204,10 +204,15 @@ export default function ThreeHailMarysNovenaDay4Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="The Three Hail Marys Novena - Day 4: Meekness and Humility"
-          text="Join me in praying The Three Hail Marys Novena - Day 4 focusing on Meekness and Humility."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="The Three Hail Marys Novena - Day 4: Meekness and Humility" 
+            url="/novenas/three-hail-marys/day-4"
+            excerpt="Join me in praying The Three Hail Marys Novena - Day 4 focusing on Meekness and Humility." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

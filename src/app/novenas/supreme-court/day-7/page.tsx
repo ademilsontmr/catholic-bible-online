@@ -185,10 +185,15 @@ export default function SupremeCourtNovenaDay7Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for the Supreme Court - Day 7: Fortitude"
-          text="Join me in praying the Novena for the Supreme Court - Day 7 focusing on Fortitude."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for the Supreme Court - Day 7: Fortitude" 
+            url="/novenas/supreme-court/day-7"
+            excerpt="Join me in praying the Novena for the Supreme Court - Day 7 focusing on Fortitude." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

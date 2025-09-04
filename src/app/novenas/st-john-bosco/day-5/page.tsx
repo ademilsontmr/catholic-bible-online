@@ -174,10 +174,15 @@ export default function StJohnBoscoNovenaDay5Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena in Honor of St. John Bosco - Day 5: Devotion to Mary"
-          text="Join me in praying the Novena in Honor of St. John Bosco - Day 5 focusing on Devotion to Mary."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena in Honor of St. John Bosco - Day 5: Devotion to Mary" 
+            url="/novenas/st-john-bosco/day-5"
+            excerpt="Join me in praying the Novena in Honor of St. John Bosco - Day 5 focusing on Devotion to Mary." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

@@ -184,10 +184,15 @@ export default function HolyFamilyNovenaDay7Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to the Holy Family - Day 7: Living in Charity"
-          text="Join me in praying the Novena to the Holy Family - Day 7 focusing on Living in Charity."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to the Holy Family - Day 7: Living in Charity" 
+            url="/novenas/holy-family/day-7"
+            excerpt="Join me in praying the Novena to the Holy Family - Day 7 focusing on Living in Charity." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

@@ -156,10 +156,15 @@ export default function StJoanOfArcNovenaDay6Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="St. Joan of Arc Novena - Day 6: Devout Christian Life"
-          text="Join me in praying St. Joan of Arc Novena - Day 6 focusing on devout christian life."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="St. Joan of Arc Novena - Day 6: Devout Christian Life" 
+            url="/novenas/st-joan-of-arc/day-6"
+            excerpt="Join me in praying St. Joan of Arc Novena - Day 6 focusing on devout christian life." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

@@ -124,10 +124,15 @@ export default function NovenasForMarriageDay4Page() {
         </section>
         
 
-        <ShareButton 
-          title="Novenas For Marriage - Day 4: Marriage Faith"
-          text="Join me in praying the Novenas For Marriage - Day 4 focusing on marriage faith."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novenas For Marriage - Day 4: Marriage Faith" 
+            url="/novenas/marriage/day-4"
+            excerpt="Join me in praying the Novenas For Marriage - Day 4 focusing on marriage faith." 
+          />
+        </div>
 
         <div className="flex justify-between items-center">
           

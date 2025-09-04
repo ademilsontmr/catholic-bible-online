@@ -149,10 +149,15 @@ export default function NovenaForExamsDay2Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton
-          title="Novena for Exams - Day 2: College Students"
-          text="Join me in praying the Novena for Exams - Day 2 focusing on college students for God's blessing."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Exams - Day 2: College Students" 
+            url="/novenas/exams/day-2"
+            excerpt="Join me in praying the Novena for Exams - Day 2 focusing on college students for God's blessing." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

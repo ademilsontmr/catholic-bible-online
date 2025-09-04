@@ -193,10 +193,15 @@ export default function StAnthonyNovenaDay8Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="St. Anthony Novena - Day 8: Closeness to the King of Kings"
-          text="Join me in praying St. Anthony Novena - Day 8 focusing on Closeness to the King of Kings."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="St. Anthony Novena - Day 8: Closeness to the King of Kings" 
+            url="/novenas/st-anthony/day-8"
+            excerpt="Join me in praying St. Anthony Novena - Day 8 focusing on Closeness to the King of Kings." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

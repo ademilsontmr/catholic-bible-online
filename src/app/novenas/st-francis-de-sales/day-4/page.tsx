@@ -167,10 +167,15 @@ export default function StFrancisDeSalesNovenaDay4Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="St. Francis de Sales Novena - Day 4: Universal Call to Holiness"
-          text="Join me in praying the St. Francis de Sales Novena - Day 4 focusing on Universal Call to Holiness."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="St. Francis de Sales Novena - Day 4: Universal Call to Holiness" 
+            url="/novenas/st-francis-de-sales/day-4"
+            excerpt="Join me in praying the St. Francis de Sales Novena - Day 4 focusing on Universal Call to Holiness." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

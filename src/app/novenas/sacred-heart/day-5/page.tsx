@@ -186,10 +186,15 @@ export default function SacredHeartNovenaDay5Page() {
         
 
                 {/* Share Section */}
-        <ShareButton 
-          title="Sacred Heart of Jesus Novena - Day 5: Devotion"
-          text="Join me in praying the Sacred Heart of Jesus Novena - Day 5 focusing on Devotion."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Sacred Heart of Jesus Novena - Day 5: Devotion" 
+            url="/novenas/sacred-heart/day-5"
+            excerpt="Join me in praying the Sacred Heart of Jesus Novena - Day 5 focusing on Devotion." 
+          />
+        </div>
 
 {/* Navigation */}
         <div className="flex justify-between items-center">

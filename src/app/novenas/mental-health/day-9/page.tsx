@@ -172,10 +172,15 @@ We come to you today with trust in your intercession.
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Mental Health - Day 9: Surrender and Trust"
-          text="Join me in praying the Novena for Mental Health - Day 9 focusing on Surrender and Trust."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Mental Health - Day 9: Surrender and Trust" 
+            url="/novenas/mental-health/day-9"
+            excerpt="Join me in praying the Novena for Mental Health - Day 9 focusing on Surrender and Trust." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

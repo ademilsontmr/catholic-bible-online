@@ -156,10 +156,15 @@ export default function MotherAngelicaNovenaDay3Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Mother Angelica Novena - Day 3: Perseverance in Faith"
-          text="Join me in praying Mother Angelica Novena - Day 3 focusing on perseverance in faith."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Mother Angelica Novena - Day 3: Perseverance in Faith" 
+            url="/novenas/mother-angelica/day-3"
+            excerpt="Join me in praying Mother Angelica Novena - Day 3 focusing on perseverance in faith." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

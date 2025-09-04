@@ -254,10 +254,15 @@ export default function OurLadyOfKnockNovenaDay1Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to Our Lady of Knock - Day 1: Queen of Ireland"
-          text="Join me in praying Novena to Our Lady of Knock - Day 1 focusing on Queen of Ireland."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to Our Lady of Knock - Day 1: Queen of Ireland" 
+            url="/novenas/our-lady-of-knock/day-1"
+            excerpt="Join me in praying Novena to Our Lady of Knock - Day 1 focusing on Queen of Ireland." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

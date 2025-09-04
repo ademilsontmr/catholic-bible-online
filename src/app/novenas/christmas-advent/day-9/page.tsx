@@ -203,10 +203,15 @@ export default function ChristmasAdventNovenaDay9Page() {
         
 
                 {/* Share Section */}
-        <ShareButton 
-          title="Christmas Advent Novena - Day 9: Christmas"
-          text="Join me in praying the Christmas Advent Novena - Day 9 focusing on Christmas."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Christmas Advent Novena - Day 9: Christmas" 
+            url="/novenas/christmas-advent/day-9"
+            excerpt="Join me in praying the Christmas Advent Novena - Day 9 focusing on Christmas." 
+          />
+        </div>
 
 {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

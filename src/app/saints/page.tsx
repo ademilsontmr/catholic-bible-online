@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import ShareButton from '@/components/ShareButton'
 import { useState } from 'react'
 
 // Saints data structure

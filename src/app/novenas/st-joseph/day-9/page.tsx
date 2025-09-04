@@ -201,10 +201,15 @@ export default function StJosephNovenaDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to St. Joseph - Day 9: Patron of a Happy Death"
-          text="Join me in praying the Novena to St. Joseph - Day 9 focusing on Patron of a Happy Death."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to St. Joseph - Day 9: Patron of a Happy Death" 
+            url="/novenas/st-joseph/day-9"
+            excerpt="Join me in praying the Novena to St. Joseph - Day 9 focusing on Patron of a Happy Death." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

@@ -153,10 +153,15 @@ export default function BusinessSuccessNovenaDay3Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Business Success - Day 3: Virtuous Business Practices"
-          text="Join me in praying the Novena for Business Success - Day 3 focusing on Virtuous Business Practices."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Business Success - Day 3: Virtuous Business Practices" 
+            url="/novenas/business-success/day-3"
+            excerpt="Join me in praying the Novena for Business Success - Day 3 focusing on Virtuous Business Practices." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

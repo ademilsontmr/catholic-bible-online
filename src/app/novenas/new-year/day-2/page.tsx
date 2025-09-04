@@ -155,10 +155,15 @@ export default function NewYearNovenaDay2Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="New Year Novena - Day 2: Material Assistance"
-          text="Join me in praying the New Year Novena - Day 2 focusing on material assistance."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="New Year Novena - Day 2: Material Assistance" 
+            url="/novenas/new-year/day-2"
+            excerpt="Join me in praying the New Year Novena - Day 2 focusing on material assistance." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

@@ -172,10 +172,15 @@ export default function SacredHeartConfidenceNovenaDay8Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena of Confidence to the Sacred Heart - Day 8: Precious Blood"
-          text="Join me in praying the Novena of Confidence to the Sacred Heart - Day 8 focusing on Precious Blood."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena of Confidence to the Sacred Heart - Day 8: Precious Blood" 
+            url="/novenas/sacred-heart-confidence/day-8"
+            excerpt="Join me in praying the Novena of Confidence to the Sacred Heart - Day 8 focusing on Precious Blood." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

@@ -207,10 +207,15 @@ export default function OurLadyOfGoodRemedyNovenaDay6Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Our Lady of Good Remedy Novena - Day 6: Source of Unfailing Help"
-          text="Join me in praying Our Lady of Good Remedy Novena - Day 6 focusing on Source of Unfailing Help."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Our Lady of Good Remedy Novena - Day 6: Source of Unfailing Help" 
+            url="/novenas/our-lady-of-good-remedy/day-6"
+            excerpt="Join me in praying Our Lady of Good Remedy Novena - Day 6 focusing on Source of Unfailing Help." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

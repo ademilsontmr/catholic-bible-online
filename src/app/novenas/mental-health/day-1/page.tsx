@@ -165,10 +165,15 @@ May we always trust in your intercession and your care for us. Amen.
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Mental Health - Day 1: Faith and Trust"
-          text="Join me in praying the Novena for Mental Health - Day 1 focusing on Faith and Trust."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Mental Health - Day 1: Faith and Trust" 
+            url="/novenas/mental-health/day-1"
+            excerpt="Join me in praying the Novena for Mental Health - Day 1 focusing on Faith and Trust." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

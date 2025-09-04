@@ -153,10 +153,15 @@ export default function NovenaForEmotionalHealingDay4Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Emotional Healing - Day 4: Healing from Past Trauma"
-          text="Join me in praying the Novena for Emotional Healing - Day 4 focusing on healing from past trauma."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Emotional Healing - Day 4: Healing from Past Trauma" 
+            url="/novenas/emotional-healing/day-4"
+            excerpt="Join me in praying the Novena for Emotional Healing - Day 4 focusing on healing from past trauma." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

@@ -174,10 +174,15 @@ export default function StJohnBoscoNovenaDay7Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena in Honor of St. John Bosco - Day 7: Youth Ministry"
-          text="Join me in praying the Novena in Honor of St. John Bosco - Day 7 focusing on Youth Ministry."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena in Honor of St. John Bosco - Day 7: Youth Ministry" 
+            url="/novenas/st-john-bosco/day-7"
+            excerpt="Join me in praying the Novena in Honor of St. John Bosco - Day 7 focusing on Youth Ministry." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

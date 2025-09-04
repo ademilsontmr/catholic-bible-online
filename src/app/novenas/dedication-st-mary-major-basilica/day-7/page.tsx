@@ -186,10 +186,15 @@ export default function DedicationStMaryMajorBasilicaNovenaDay7Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Dedication of St. Mary Major Basilica Novena - Day 7: Faith and Generosity"
-          text="Join me in praying the Dedication of St. Mary Major Basilica Novena - Day 7 focusing on Faith and Generosity."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Dedication of St. Mary Major Basilica Novena - Day 7: Faith and Generosity" 
+            url="/novenas/dedication-st-mary-major-basilica/day-7"
+            excerpt="Join me in praying the Dedication of St. Mary Major Basilica Novena - Day 7 focusing on Faith and Generosity." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

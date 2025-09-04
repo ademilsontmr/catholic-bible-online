@@ -170,10 +170,15 @@ export default function StMaximilianKolbeNovenaDay2Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to Saint Maximilian Kolbe - Day 2: Devotion to Our Lady"
-          text="Join me in praying the Novena to Saint Maximilian Kolbe - Day 2 focusing on Devotion to Our Lady."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to Saint Maximilian Kolbe - Day 2: Devotion to Our Lady" 
+            url="/novenas/st-maximilian-kolbe/day-2"
+            excerpt="Join me in praying the Novena to Saint Maximilian Kolbe - Day 2 focusing on Devotion to Our Lady." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

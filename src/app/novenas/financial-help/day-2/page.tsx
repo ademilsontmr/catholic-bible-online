@@ -195,10 +195,15 @@ export default function FinancialHelpNovenaDay2Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Financial Help Novena - Day 2: Faith"
-          text="Join me in praying the Financial Help Novena - Day 2 focusing on Faith."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Financial Help Novena - Day 2: Faith" 
+            url="/novenas/financial-help/day-2"
+            excerpt="Join me in praying the Financial Help Novena - Day 2 focusing on Faith." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

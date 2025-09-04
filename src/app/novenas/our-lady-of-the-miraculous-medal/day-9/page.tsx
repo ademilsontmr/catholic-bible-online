@@ -267,10 +267,15 @@ export default function OurLadyOfTheMiraculousMedalNovenaDay9Page() {
         </section>
 
                 {/* Share Section */}
-        <ShareButton 
-          title="Our Lady of the Miraculous Medal Novena - Day 9: Eternal Bliss"
-          text="Join me in praying the Our Lady of the Miraculous Medal Novena - Day 9 focusing on Eternal Bliss."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Our Lady of the Miraculous Medal Novena - Day 9: Eternal Bliss" 
+            url="/novenas/our-lady-of-the-miraculous-medal/day-9"
+            excerpt="Join me in praying the Our Lady of the Miraculous Medal Novena - Day 9 focusing on Eternal Bliss." 
+          />
+        </div>
 
         {/* Congratulations Section */}
         <section className="bg-red-50 rounded-lg p-8 mb-12">

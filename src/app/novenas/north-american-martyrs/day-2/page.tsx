@@ -197,10 +197,15 @@ export default function NorthAmericanMartyrsNovenaDay2Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="North American Martyrs Novena - Day 2: Missionary Zeal"
-          text="Join me in praying the North American Martyrs Novena - Day 2 focusing on Missionary Zeal."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="North American Martyrs Novena - Day 2: Missionary Zeal" 
+            url="/novenas/north-american-martyrs/day-2"
+            excerpt="Join me in praying the North American Martyrs Novena - Day 2 focusing on Missionary Zeal." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

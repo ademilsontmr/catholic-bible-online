@@ -164,10 +164,15 @@ export default function AssumptionNovenaDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="The Assumption Novena - Day 9: Eternal Vision"
-          text="Join me in praying The Assumption Novena - Day 9 focusing on Eternal Vision."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="The Assumption Novena - Day 9: Eternal Vision" 
+            url="/novenas/assumption/day-9"
+            excerpt="Join me in praying The Assumption Novena - Day 9 focusing on Eternal Vision." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

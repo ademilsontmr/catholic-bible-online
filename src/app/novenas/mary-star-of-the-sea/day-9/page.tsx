@@ -164,10 +164,15 @@ export default function MaryStarOfTheSeaNovenaDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to Mary Star of the Sea - Day 9: Gratitude and Surrender"
-          text="Join me in praying Novena to Mary Star of the Sea - Day 9 focusing on gratitude and surrender."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to Mary Star of the Sea - Day 9: Gratitude and Surrender" 
+            url="/novenas/mary-star-of-the-sea/day-9"
+            excerpt="Join me in praying Novena to Mary Star of the Sea - Day 9 focusing on gratitude and surrender." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

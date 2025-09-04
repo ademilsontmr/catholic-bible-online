@@ -161,10 +161,15 @@ export default function OurLadyOfPompeiNovenaDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Our Lady of Pompei Novena - Day 9: Final Comfort"
-          text="Join me in praying the Our Lady of Pompei Novena - Day 9 focusing on Final Comfort."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Our Lady of Pompei Novena - Day 9: Final Comfort" 
+            url="/novenas/our-lady-of-pompei/day-9"
+            excerpt="Join me in praying the Our Lady of Pompei Novena - Day 9 focusing on Final Comfort." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

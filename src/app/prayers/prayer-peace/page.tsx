@@ -355,7 +355,19 @@ export default function PrayerPeacePage() {
             </div>
           </Link>
         </div>
-      </section>
+      
+
+      {/* Share Section */}
+      <section className="mb-12">
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this prayer</h2>
+          <ShareButton 
+            title="Prayer Peace" 
+            url="/prayers/prayer-peace"
+            excerpt="Discover and pray this beautiful Catholic prayer for spiritual growth and devotion." 
+          />
+        </div>
+      </section></section>
     </main>
   );
 } 

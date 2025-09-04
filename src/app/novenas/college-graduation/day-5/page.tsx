@@ -155,10 +155,15 @@ export default function CollegeGraduationNovenaDay5Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for College Graduation - Day 5: Growing in Perseverance"
-          text="Join me in praying the Novena for College Graduation - Day 5 focusing on Growing in Perseverance."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for College Graduation - Day 5: Growing in Perseverance" 
+            url="/novenas/college-graduation/day-5"
+            excerpt="Join me in praying the Novena for College Graduation - Day 5 focusing on Growing in Perseverance." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

@@ -192,10 +192,15 @@ export default function MaryQueenOfAllHeartsNovenaDay5Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Mary Queen of All Hearts Novena - Day 5: Religious Life"
-          text="Join me in praying the Mary Queen of All Hearts Novena - Day 5 focusing on Religious Life."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Mary Queen of All Hearts Novena - Day 5: Religious Life" 
+            url="/novenas/mary-queen-of-all-hearts/day-5"
+            excerpt="Join me in praying the Mary Queen of All Hearts Novena - Day 5 focusing on Religious Life." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

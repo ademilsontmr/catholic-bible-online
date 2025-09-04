@@ -165,10 +165,15 @@ export default function PresentationOfMaryNovenaDay6Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="The Presentation of Mary Novena - Day 6: Relationship with Mary"
-          text="Join me in praying The Presentation of Mary Novena - Day 6 focusing on relationship with mary."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="The Presentation of Mary Novena - Day 6: Relationship with Mary" 
+            url="/novenas/presentation-of-mary/day-6"
+            excerpt="Join me in praying The Presentation of Mary Novena - Day 6 focusing on relationship with mary." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

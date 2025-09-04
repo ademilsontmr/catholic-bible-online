@@ -178,10 +178,15 @@ export default function NovenaForEyesightDay1Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton
-          title="Novena for Eyesight - Day 1: Disease"
-          text="Join me in praying the Novena for Eyesight - Day 1 focusing on disease for God's blessing."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Eyesight - Day 1: Disease" 
+            url="/novenas/eyesight/day-1"
+            excerpt="Join me in praying the Novena for Eyesight - Day 1 focusing on disease for God's blessing." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

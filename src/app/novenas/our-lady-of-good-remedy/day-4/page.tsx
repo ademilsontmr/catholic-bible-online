@@ -207,10 +207,15 @@ export default function OurLadyOfGoodRemedyNovenaDay4Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Our Lady of Good Remedy Novena - Day 4: Immaculate Spouse of the Holy Spirit"
-          text="Join me in praying Our Lady of Good Remedy Novena - Day 4 focusing on Immaculate Spouse of the Holy Spirit."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Our Lady of Good Remedy Novena - Day 4: Immaculate Spouse of the Holy Spirit" 
+            url="/novenas/our-lady-of-good-remedy/day-4"
+            excerpt="Join me in praying Our Lady of Good Remedy Novena - Day 4 focusing on Immaculate Spouse of the Holy Spirit." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

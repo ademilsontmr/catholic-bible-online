@@ -165,10 +165,15 @@ export default function NovenaForDifficultPregnancyDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for a Difficult Pregnancy - Day 9: Complete Assistance and Help"
-          text="Join me in praying the Novena for a Difficult Pregnancy - Day 9 focusing on complete assistance and help."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for a Difficult Pregnancy - Day 9: Complete Assistance and Help" 
+            url="/novenas/difficult-pregnancy/day-9"
+            excerpt="Join me in praying the Novena for a Difficult Pregnancy - Day 9 focusing on complete assistance and help." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

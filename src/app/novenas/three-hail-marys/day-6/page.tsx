@@ -204,10 +204,15 @@ export default function ThreeHailMarysNovenaDay6Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="The Three Hail Marys Novena - Day 6: Christian Virtue"
-          text="Join me in praying The Three Hail Marys Novena - Day 6 focusing on Christian Virtue."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="The Three Hail Marys Novena - Day 6: Christian Virtue" 
+            url="/novenas/three-hail-marys/day-6"
+            excerpt="Join me in praying The Three Hail Marys Novena - Day 6 focusing on Christian Virtue." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

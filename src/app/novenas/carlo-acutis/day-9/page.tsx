@@ -193,10 +193,15 @@ export default function CarloAcutisNovenaDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to Carlo Acutis - Day 9: Holy Death"
-          text="Join me in praying the Novena to Carlo Acutis - Day 9 focusing on Holy Death."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to Carlo Acutis - Day 9: Holy Death" 
+            url="/novenas/carlo-acutis/day-9"
+            excerpt="Join me in praying the Novena to Carlo Acutis - Day 9 focusing on Holy Death." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

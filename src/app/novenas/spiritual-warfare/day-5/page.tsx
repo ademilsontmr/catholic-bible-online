@@ -194,10 +194,15 @@ export default function SpiritualWarfareNovenaDay5Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Spiritual Warfare Novena - Day 5: Deliverance"
-          text="Join me in praying the Spiritual Warfare Novena - Day 5 focusing on Deliverance."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Spiritual Warfare Novena - Day 5: Deliverance" 
+            url="/novenas/spiritual-warfare/day-5"
+            excerpt="Join me in praying the Spiritual Warfare Novena - Day 5 focusing on Deliverance." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

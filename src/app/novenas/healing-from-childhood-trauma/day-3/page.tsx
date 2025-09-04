@@ -186,10 +186,15 @@ export default function HealingFromChildhoodTraumaDay3Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Healing from Childhood Trauma Novena - Day 3: Healing from Neglect"
-          text="Join me in praying the Healing from Childhood Trauma Novena - Day 3 focusing on healing from neglect."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Healing from Childhood Trauma Novena - Day 3: Healing from Neglect" 
+            url="/novenas/healing-from-childhood-trauma/day-3"
+            excerpt="Join me in praying the Healing from Childhood Trauma Novena - Day 3 focusing on healing from neglect." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

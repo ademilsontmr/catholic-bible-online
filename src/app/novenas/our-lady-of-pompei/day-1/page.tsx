@@ -147,10 +147,15 @@ export default function OurLadyOfPompeiNovenaDay1Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Our Lady of Pompei Novena - Day 1: Gospel of Life"
-          text="Join me in praying the Our Lady of Pompei Novena - Day 1 focusing on Gospel of Life."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Our Lady of Pompei Novena - Day 1: Gospel of Life" 
+            url="/novenas/our-lady-of-pompei/day-1"
+            excerpt="Join me in praying the Our Lady of Pompei Novena - Day 1 focusing on Gospel of Life." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

@@ -164,10 +164,15 @@ export default function StMichaelArchangelNovenaDay4Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="St. Michael the Archangel Novena - Day 4: Service to God\'s Will"
-          text="Join me in praying St. Michael the Archangel Novena - Day 4 focusing on service to god's will."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="St. Michael the Archangel Novena - Day 4: Service to God\'s Will" 
+            url="/novenas/st-michael-archangel/day-4"
+            excerpt="Join me in praying St. Michael the Archangel Novena - Day 4 focusing on service to god's will." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

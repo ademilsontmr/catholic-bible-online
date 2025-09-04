@@ -165,10 +165,15 @@ export default function NovenaForEucharisticAdorationDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Adoration of the Eucharist - Day 9: Blessing and Assistance for the Church"
-          text="Join me in praying the Novena for Adoration of the Eucharist - Day 9 focusing on blessing and assistance for the church."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Adoration of the Eucharist - Day 9: Blessing and Assistance for the Church" 
+            url="/novenas/eucharistic-adoration/day-9"
+            excerpt="Join me in praying the Novena for Adoration of the Eucharist - Day 9 focusing on blessing and assistance for the church." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

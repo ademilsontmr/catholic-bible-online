@@ -176,10 +176,15 @@ export default function PresentationOfMaryNovenaDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="The Presentation of Mary Novena - Day 9: Saying Yes to God"
-          text="Join me in praying The Presentation of Mary Novena - Day 9 focusing on saying yes to god."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="The Presentation of Mary Novena - Day 9: Saying Yes to God" 
+            url="/novenas/presentation-of-mary/day-9"
+            excerpt="Join me in praying The Presentation of Mary Novena - Day 9 focusing on saying yes to god." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

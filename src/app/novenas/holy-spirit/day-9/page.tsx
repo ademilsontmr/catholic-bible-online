@@ -193,10 +193,15 @@ export default function HolySpiritNovenaDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena of the Holy Spirit - Day 9: Eternal Jubilation"
-          text="Join me in praying the Novena of the Holy Spirit - Day 9 focusing on Eternal Jubilation."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena of the Holy Spirit - Day 9: Eternal Jubilation" 
+            url="/novenas/holy-spirit/day-9"
+            excerpt="Join me in praying the Novena of the Holy Spirit - Day 9 focusing on Eternal Jubilation." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

@@ -186,10 +186,15 @@ export default function SacredHeartNovenaDay8Page() {
         
 
                 {/* Share Section */}
-        <ShareButton 
-          title="Sacred Heart of Jesus Novena - Day 8: Grace"
-          text="Join me in praying the Sacred Heart of Jesus Novena - Day 8 focusing on Grace."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Sacred Heart of Jesus Novena - Day 8: Grace" 
+            url="/novenas/sacred-heart/day-8"
+            excerpt="Join me in praying the Sacred Heart of Jesus Novena - Day 8 focusing on Grace." 
+          />
+        </div>
 
 {/* Navigation */}
         <div className="flex justify-between items-center">

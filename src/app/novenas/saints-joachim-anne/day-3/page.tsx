@@ -156,10 +156,15 @@ export default function SaintsJoachimAnneNovenaDay3Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Saints Joachim and Anne Novena - Day 3: Virtue of Hope"
-          text="Join me in praying Saints Joachim and Anne Novena - Day 3 focusing on virtue of hope."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Saints Joachim and Anne Novena - Day 3: Virtue of Hope" 
+            url="/novenas/saints-joachim-anne/day-3"
+            excerpt="Join me in praying Saints Joachim and Anne Novena - Day 3 focusing on virtue of hope." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

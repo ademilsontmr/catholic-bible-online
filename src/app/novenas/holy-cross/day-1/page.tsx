@@ -145,10 +145,15 @@ Your Peace, which is the only true peace, so that by obeying Your Commandments w
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Holy Cross Novena - Day 1: Divine Mercy"
-          text="Join me in praying the Holy Cross Novena - Day 1 focusing on Divine Mercy."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Holy Cross Novena - Day 1: Divine Mercy" 
+            url="/novenas/holy-cross/day-1"
+            excerpt="Join me in praying the Holy Cross Novena - Day 1 focusing on Divine Mercy." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

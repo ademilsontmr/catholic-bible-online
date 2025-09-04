@@ -187,10 +187,15 @@ export default function DivineInfantJesusNovenaDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena of Trust to the Divine Infant Jesus - Day 9: Faith and Trust"
-          text="Join me in praying the Novena of Trust to the Divine Infant Jesus - Day 9 focusing on Faith and Trust."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena of Trust to the Divine Infant Jesus - Day 9: Faith and Trust" 
+            url="/novenas/divine-infant-jesus/day-9"
+            excerpt="Join me in praying the Novena of Trust to the Divine Infant Jesus - Day 9 focusing on Faith and Trust." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

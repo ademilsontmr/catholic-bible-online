@@ -124,10 +124,15 @@ export default function NovenaForFamiliesDay7Page() {
         </section>
         
 
-        <ShareButton 
-          title="Novena for Families - Day 7: Family Blessings"
-          text="Join me in praying the Novena for Families - Day 7 focusing on family blessings."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Families - Day 7: Family Blessings" 
+            url="/novenas/families/day-7"
+            excerpt="Join me in praying the Novena for Families - Day 7 focusing on family blessings." 
+          />
+        </div>
 
         <div className="flex justify-between items-center">
           

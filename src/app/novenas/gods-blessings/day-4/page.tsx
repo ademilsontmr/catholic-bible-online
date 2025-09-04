@@ -175,10 +175,15 @@ Remember that God is always ready to be our friend and to share His love with us
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for God's Blessings - Day 4: Friendship with God"
-          text="Join me in praying the Novena for God's Blessings - Day 4 focusing on Friendship with God."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for God's Blessings - Day 4: Friendship with God" 
+            url="/novenas/gods-blessings/day-4"
+            excerpt="Join me in praying the Novena for God's Blessings - Day 4 focusing on Friendship with God." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

@@ -182,10 +182,15 @@ export default function OurLadyOfSorrowsNovenaDay3Page() {
         
 
                 {/* Share Section */}
-        <ShareButton 
-          title="Our Lady of Sorrows Novena - Day 3: Love"
-          text="Join me in praying the Our Lady of Sorrows Novena - Day 3 focusing on Love."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Our Lady of Sorrows Novena - Day 3: Love" 
+            url="/novenas/our-lady-of-sorrows/day-3"
+            excerpt="Join me in praying the Our Lady of Sorrows Novena - Day 3 focusing on Love." 
+          />
+        </div>
 
 {/* Navigation */}
         <div className="flex justify-between items-center">

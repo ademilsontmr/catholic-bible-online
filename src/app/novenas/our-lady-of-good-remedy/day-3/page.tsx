@@ -207,10 +207,15 @@ export default function OurLadyOfGoodRemedyNovenaDay3Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Our Lady of Good Remedy Novena - Day 3: Mother of the Incarnate Word"
-          text="Join me in praying Our Lady of Good Remedy Novena - Day 3 focusing on Mother of the Incarnate Word."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Our Lady of Good Remedy Novena - Day 3: Mother of the Incarnate Word" 
+            url="/novenas/our-lady-of-good-remedy/day-3"
+            excerpt="Join me in praying Our Lady of Good Remedy Novena - Day 3 focusing on Mother of the Incarnate Word." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

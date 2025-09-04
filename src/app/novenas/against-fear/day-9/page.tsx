@@ -165,10 +165,15 @@ export default function NovenaAgainstFearDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena Against Fear - Day 9: Rightly Ordered Fears"
-          text="Join me in praying the Novena Against Fear - Day 9 focusing on rightly ordered fears."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena Against Fear - Day 9: Rightly Ordered Fears" 
+            url="/novenas/against-fear/day-9"
+            excerpt="Join me in praying the Novena Against Fear - Day 9 focusing on rightly ordered fears." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

@@ -158,10 +158,15 @@ export default function StJohnPaulIINovenaDay3Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="St. John Paul II Novena - Day 3: Guidance and Protection"
-          text="Join me in praying St. John Paul II Novena - Day 3 focusing on guidance and protection."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="St. John Paul II Novena - Day 3: Guidance and Protection" 
+            url="/novenas/st-john-paul-ii/day-3"
+            excerpt="Join me in praying St. John Paul II Novena - Day 3 focusing on guidance and protection." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

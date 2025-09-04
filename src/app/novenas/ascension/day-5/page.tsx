@@ -161,10 +161,15 @@ export default function AscensionNovenaDay5Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="The Ascension Novena - Day 5: Divine Friendship"
-          text="Join me in praying The Ascension Novena - Day 5 focusing on Divine Friendship."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="The Ascension Novena - Day 5: Divine Friendship" 
+            url="/novenas/ascension/day-5"
+            excerpt="Join me in praying The Ascension Novena - Day 5 focusing on Divine Friendship." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

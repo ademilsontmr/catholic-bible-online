@@ -185,10 +185,15 @@ export default function StAnneNovenaDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to St. Anne - Day 9: Eternal Praise"
-          text="Join me in praying the Novena to St. Anne - Day 9 focusing on Eternal Praise."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to St. Anne - Day 9: Eternal Praise" 
+            url="/novenas/st-anne/day-9"
+            excerpt="Join me in praying the Novena to St. Anne - Day 9 focusing on Eternal Praise." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

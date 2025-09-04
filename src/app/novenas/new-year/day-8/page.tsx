@@ -155,10 +155,15 @@ export default function NewYearNovenaDay8Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="New Year Novena - Day 8: Deeper Friendship"
-          text="Join me in praying the New Year Novena - Day 8 focusing on deeper friendship."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="New Year Novena - Day 8: Deeper Friendship" 
+            url="/novenas/new-year/day-8"
+            excerpt="Join me in praying the New Year Novena - Day 8 focusing on deeper friendship." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

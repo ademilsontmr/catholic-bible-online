@@ -159,7 +159,15 @@ export default function NovenaForCancerDay5Page() {
 
         {/* Share Section */}
         <section className="mb-12">
-          <ShareButton title="Novena for Cancer - Day 5: Purity" text="Join me in praying the Novena for Cancer - Day 5 focusing on Purity. Pray for God's healing and strength for cancer patients and their families." />
+          {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Cancer - Day 5: Purity" 
+            url="/novenas/cancer/day-5"
+            excerpt="Join me in praying the Novena for Cancer - Day 5 focusing on Purity. Pray for God's healing and strength for cancer patients and their families." 
+          />
+        </div>
         </section>
 
         {/* Navigation */}

@@ -165,10 +165,15 @@ export default function StFrancisDeSalesNovenaDay7Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="St. Francis de Sales Novena - Day 7: Prayer"
-          text="Join me in praying the St. Francis de Sales Novena - Day 7 focusing on Prayer."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="St. Francis de Sales Novena - Day 7: Prayer" 
+            url="/novenas/st-francis-de-sales/day-7"
+            excerpt="Join me in praying the St. Francis de Sales Novena - Day 7 focusing on Prayer." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

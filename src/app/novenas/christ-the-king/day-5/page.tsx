@@ -203,10 +203,15 @@ export default function ChristTheKingNovenaDay5Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to Christ the King - Day 5: Just Judgment"
-          text="Join me in praying the Novena to Christ the King - Day 5 focusing on Just Judgment."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to Christ the King - Day 5: Just Judgment" 
+            url="/novenas/christ-the-king/day-5"
+            excerpt="Join me in praying the Novena to Christ the King - Day 5 focusing on Just Judgment." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

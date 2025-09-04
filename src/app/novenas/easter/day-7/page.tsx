@@ -149,10 +149,15 @@ export default function EasterNovenaDay7Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Easter Novena - Day 7: Peace of Christ"
-          text="Join me in praying the Easter Novena - Day 7 focusing on peace of christ."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Easter Novena - Day 7: Peace of Christ" 
+            url="/novenas/easter/day-7"
+            excerpt="Join me in praying the Easter Novena - Day 7 focusing on peace of christ." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

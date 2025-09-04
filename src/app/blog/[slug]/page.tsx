@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import blogData from '@/data/blog.json'
 import { generateSEO, generateStructuredData } from '@/components/SEO'
+import ShareButton from '@/components/ShareButton'
 import type { BlogData, BlogPost } from '@/types/blog'
 
 const typedBlogData = blogData as BlogData
@@ -134,6 +135,20 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
           </article>
+
+          {/* Share Section */}
+          <section className="border-t border-gray-200 pt-8 mb-8">
+            <div className="text-center">
+              <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">
+                Share This Article
+              </h2>
+              <ShareButton 
+                title={post.title}
+                url={`/blog/${slug}`}
+                excerpt={post.excerpt}
+              />
+            </div>
+          </section>
 
           {/* Related Articles */}
           {relatedPosts.length > 0 && (

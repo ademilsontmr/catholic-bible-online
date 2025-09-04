@@ -124,10 +124,15 @@ export default function NovenaForFamiliesDay5Page() {
         </section>
         
 
-        <ShareButton 
-          title="Novena for Families - Day 5: Family Faith"
-          text="Join me in praying the Novena for Families - Day 5 focusing on family faith."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Families - Day 5: Family Faith" 
+            url="/novenas/families/day-5"
+            excerpt="Join me in praying the Novena for Families - Day 5 focusing on family faith." 
+          />
+        </div>
 
         <div className="flex justify-between items-center">
           

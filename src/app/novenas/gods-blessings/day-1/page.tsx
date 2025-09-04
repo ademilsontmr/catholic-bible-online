@@ -195,10 +195,15 @@ export default function NovenaForGodsBlessingsDay1Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for God's Blessings - Day 1: Material Assistance"
-          text="Join me in praying the Novena for God's Blessings - Day 1 focusing on Material Assistance."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for God's Blessings - Day 1: Material Assistance" 
+            url="/novenas/gods-blessings/day-1"
+            excerpt="Join me in praying the Novena for God's Blessings - Day 1 focusing on Material Assistance." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

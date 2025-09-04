@@ -149,10 +149,15 @@ export default function EasterNovenaDay6Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Easter Novena - Day 6: Eternal Life"
-          text="Join me in praying the Easter Novena - Day 6 focusing on eternal life."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Easter Novena - Day 6: Eternal Life" 
+            url="/novenas/easter/day-6"
+            excerpt="Join me in praying the Easter Novena - Day 6 focusing on eternal life." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

@@ -155,10 +155,15 @@ export default function NovenaForEvangelizationDay6Page() {
 
         {/* Share Button */}
         <div className="text-center mb-8">
+          {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
           <ShareButton 
-            title="Novena for Evangelization - Day 6: Openness to God's Will"
-            text="Join me in praying the Novena for Evangelization - Day 6 focusing on openness to God's will for God's blessing."
+            title="Novena for Evangelization - Day 6: Openness to God's Will" 
+            url="/novenas/evangelization/day-6"
+            excerpt="Join me in praying the Novena for Evangelization - Day 6 focusing on openness to God's will for God's blessing." 
           />
+        </div>
         </div>
 
         {/* Navigation */}

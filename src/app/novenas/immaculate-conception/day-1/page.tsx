@@ -159,10 +159,15 @@ export default function ImmaculateConceptionNovenaDay1Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Immaculate Conception Novena - Day 1: Immaculate Conception"
-          text="Join me in praying the Immaculate Conception Novena - Day 1 focusing on immaculate conception."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Immaculate Conception Novena - Day 1: Immaculate Conception" 
+            url="/novenas/immaculate-conception/day-1"
+            excerpt="Join me in praying the Immaculate Conception Novena - Day 1 focusing on immaculate conception." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

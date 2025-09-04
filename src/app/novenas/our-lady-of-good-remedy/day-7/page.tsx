@@ -207,10 +207,15 @@ export default function OurLadyOfGoodRemedyNovenaDay7Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Our Lady of Good Remedy Novena - Day 7: Compassionate Heart"
-          text="Join me in praying Our Lady of Good Remedy Novena - Day 7 focusing on Compassionate Heart."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Our Lady of Good Remedy Novena - Day 7: Compassionate Heart" 
+            url="/novenas/our-lady-of-good-remedy/day-7"
+            excerpt="Join me in praying Our Lady of Good Remedy Novena - Day 7 focusing on Compassionate Heart." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

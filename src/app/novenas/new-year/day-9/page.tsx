@@ -165,10 +165,15 @@ export default function NewYearNovenaDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="New Year Novena - Day 9: Commitment to Holiness"
-          text="Join me in praying the New Year Novena - Day 9 focusing on commitment to holiness."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="New Year Novena - Day 9: Commitment to Holiness" 
+            url="/novenas/new-year/day-9"
+            excerpt="Join me in praying the New Year Novena - Day 9 focusing on commitment to holiness." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

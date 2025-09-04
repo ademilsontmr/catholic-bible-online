@@ -148,10 +148,15 @@ export default function NovenaForDoctorsDay3Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Doctors - Day 3: Diagnosis Struggles"
-          text="Join me in praying the Novena for Doctors - Day 3 focusing on Diagnosis Struggles."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Doctors - Day 3: Diagnosis Struggles" 
+            url="/novenas/doctors/day-3"
+            excerpt="Join me in praying the Novena for Doctors - Day 3 focusing on Diagnosis Struggles." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

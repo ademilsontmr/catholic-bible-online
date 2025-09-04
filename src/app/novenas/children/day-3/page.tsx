@@ -124,10 +124,15 @@ export default function NovenaForChildrenDay3Page() {
         </section>
         
 
-        <ShareButton 
-          title="Novena for Children - Day 3: Child Wisdom"
-          text="Join me in praying the Novena for Children - Day 3 focusing on child wisdom."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Children - Day 3: Child Wisdom" 
+            url="/novenas/children/day-3"
+            excerpt="Join me in praying the Novena for Children - Day 3 focusing on child wisdom." 
+          />
+        </div>
 
         <div className="flex justify-between items-center">
           

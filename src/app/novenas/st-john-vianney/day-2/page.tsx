@@ -149,10 +149,15 @@ export default function StJohnVianneyNovenaDay2Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena in Honor of Saint John Marie Vianney - Day 2: Confidence in Prayer"
-          text="Join me in praying the Novena in Honor of Saint John Marie Vianney - Day 2 focusing on Confidence in Prayer."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena in Honor of Saint John Marie Vianney - Day 2: Confidence in Prayer" 
+            url="/novenas/st-john-vianney/day-2"
+            excerpt="Join me in praying the Novena in Honor of Saint John Marie Vianney - Day 2 focusing on Confidence in Prayer." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

@@ -161,10 +161,15 @@ export default function OurLadyOfTheHolyRosaryNovenaDay2Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Our Lady of the Holy Rosary Novena - Day 2: Intentions of the Sacred Heart"
-          text="Join me in praying the Our Lady of the Holy Rosary Novena - Day 2 focusing on Intentions of the Sacred Heart."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Our Lady of the Holy Rosary Novena - Day 2: Intentions of the Sacred Heart" 
+            url="/novenas/our-lady-of-the-holy-rosary/day-2"
+            excerpt="Join me in praying the Our Lady of the Holy Rosary Novena - Day 2 focusing on Intentions of the Sacred Heart." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

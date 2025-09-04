@@ -149,10 +149,15 @@ export default function AssumptionNovenaDay5Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="The Assumption Novena - Day 5: Heavenly Perspective"
-          text="Join me in praying The Assumption Novena - Day 5 focusing on Heavenly Perspective."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="The Assumption Novena - Day 5: Heavenly Perspective" 
+            url="/novenas/assumption/day-5"
+            excerpt="Join me in praying The Assumption Novena - Day 5 focusing on Heavenly Perspective." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

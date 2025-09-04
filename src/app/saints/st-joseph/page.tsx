@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import ShareButton from '@/components/ShareButton'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -232,6 +233,18 @@ export default function StJosephPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Share Section */}
+        <section className="mb-12">
+          <div className="text-center">
+            <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this saint</h2>
+            <ShareButton 
+              title="St. Joseph" 
+              url="/saints/st-joseph"
+              excerpt="Learn about the inspiring life and legacy of St. Joseph, a holy example of faith and devotion." 
+            />
           </div>
         </section>
 

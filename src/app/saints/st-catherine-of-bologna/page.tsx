@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import ShareButton from '@/components/ShareButton'
 
 export const metadata: Metadata = {
   title: 'St. Catherine of Bologna - Life, Legacy & Feast Day | Catholic Bible Online',

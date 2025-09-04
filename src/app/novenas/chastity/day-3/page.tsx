@@ -140,10 +140,15 @@ export default function ChastityNovenaDay3Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Chastity - Day 3: Patience"
-          text="Join me in praying the Novena for Chastity - Day 3 focusing on Patience."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Chastity - Day 3: Patience" 
+            url="/novenas/chastity/day-3"
+            excerpt="Join me in praying the Novena for Chastity - Day 3 focusing on Patience." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

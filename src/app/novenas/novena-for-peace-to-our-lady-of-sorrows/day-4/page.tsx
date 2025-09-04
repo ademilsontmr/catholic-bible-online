@@ -191,10 +191,15 @@ export default function NovenaForPeaceToOurLadyOfSorrowsDay4Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Peace to Our Lady of Sorrows - Day 4: Mother of Mercy"
-          text="Join me in praying the Novena for Peace to Our Lady of Sorrows - Day 4 focusing on Mother of Mercy."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Peace to Our Lady of Sorrows - Day 4: Mother of Mercy" 
+            url="/novenas/novena-for-peace-to-our-lady-of-sorrows/day-4"
+            excerpt="Join me in praying the Novena for Peace to Our Lady of Sorrows - Day 4 focusing on Mother of Mercy." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

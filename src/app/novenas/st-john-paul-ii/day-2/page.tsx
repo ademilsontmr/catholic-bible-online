@@ -158,10 +158,15 @@ export default function StJohnPaulIINovenaDay2Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="St. John Paul II Novena - Day 2: Forgiveness and Mercy"
-          text="Join me in praying St. John Paul II Novena - Day 2 focusing on forgiveness and mercy."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="St. John Paul II Novena - Day 2: Forgiveness and Mercy" 
+            url="/novenas/st-john-paul-ii/day-2"
+            excerpt="Join me in praying St. John Paul II Novena - Day 2 focusing on forgiveness and mercy." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

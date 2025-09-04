@@ -163,10 +163,15 @@ May we always trust in your timing. Amen.
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Mental Health - Day 4: Patience and Perseverance"
-          text="Join me in praying the Novena for Mental Health - Day 4 focusing on Patience and Perseverance."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Mental Health - Day 4: Patience and Perseverance" 
+            url="/novenas/mental-health/day-4"
+            excerpt="Join me in praying the Novena for Mental Health - Day 4 focusing on Patience and Perseverance." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

@@ -156,10 +156,15 @@ export default function SaintsJoachimAnneNovenaDay8Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Saints Joachim and Anne Novena - Day 8: Cultivating Holy Family"
-          text="Join me in praying Saints Joachim and Anne Novena - Day 8 focusing on cultivating holy family."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Saints Joachim and Anne Novena - Day 8: Cultivating Holy Family" 
+            url="/novenas/saints-joachim-anne/day-8"
+            excerpt="Join me in praying Saints Joachim and Anne Novena - Day 8 focusing on cultivating holy family." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

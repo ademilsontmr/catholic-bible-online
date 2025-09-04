@@ -161,10 +161,15 @@ export default function StAugustineNovenaDay1Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="St. Augustine Novena - Day 1: Finding God's Purpose"
-          text="Join me in praying the St. Augustine Novena - Day 1 focusing on finding god's purpose."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="St. Augustine Novena - Day 1: Finding God's Purpose" 
+            url="/novenas/st-augustine/day-1"
+            excerpt="Join me in praying the St. Augustine Novena - Day 1 focusing on finding god's purpose." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

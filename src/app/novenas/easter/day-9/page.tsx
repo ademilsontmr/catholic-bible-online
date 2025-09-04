@@ -160,10 +160,15 @@ Amen.
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Easter Novena - Day 9: Alleluia"
-          text="Join me in praying the Easter Novena - Day 9 focusing on alleluia."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Easter Novena - Day 9: Alleluia" 
+            url="/novenas/easter/day-9"
+            excerpt="Join me in praying the Easter Novena - Day 9 focusing on alleluia." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

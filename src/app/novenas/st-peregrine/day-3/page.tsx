@@ -193,10 +193,15 @@ export default function StPeregrineNovenaDay3Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to St. Peregrine - Day 3: Salvation of Souls"
-          text="Join me in praying the Novena to St. Peregrine - Day 3 focusing on Salvation of Souls."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to St. Peregrine - Day 3: Salvation of Souls" 
+            url="/novenas/st-peregrine/day-3"
+            excerpt="Join me in praying the Novena to St. Peregrine - Day 3 focusing on Salvation of Souls." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

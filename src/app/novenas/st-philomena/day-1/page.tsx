@@ -169,10 +169,15 @@ export default function StPhilomenaNovenaDay1Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to St. Philomena - Day 1: Virgin and Martyr"
-          text="Join me in praying the Novena to St. Philomena - Day 1 focusing on Virgin and Martyr."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to St. Philomena - Day 1: Virgin and Martyr" 
+            url="/novenas/st-philomena/day-1"
+            excerpt="Join me in praying the Novena to St. Philomena - Day 1 focusing on Virgin and Martyr." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

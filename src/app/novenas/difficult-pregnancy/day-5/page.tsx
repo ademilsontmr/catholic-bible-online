@@ -155,10 +155,15 @@ export default function NovenaForDifficultPregnancyDay5Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for a Difficult Pregnancy - Day 5: Assistance for Advanced Age"
-          text="Join me in praying the Novena for a Difficult Pregnancy - Day 5 focusing on assistance for advanced age."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for a Difficult Pregnancy - Day 5: Assistance for Advanced Age" 
+            url="/novenas/difficult-pregnancy/day-5"
+            excerpt="Join me in praying the Novena for a Difficult Pregnancy - Day 5 focusing on assistance for advanced age." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

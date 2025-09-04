@@ -161,10 +161,15 @@ export default function HolyGhostNovenaDay7Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to the Holy Ghost - Day 7: Divine Will"
-          text="Join me in praying the Novena to the Holy Ghost - Day 7 focusing on Divine Will."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to the Holy Ghost - Day 7: Divine Will" 
+            url="/novenas/holy-ghost/day-7"
+            excerpt="Join me in praying the Novena to the Holy Ghost - Day 7 focusing on Divine Will." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

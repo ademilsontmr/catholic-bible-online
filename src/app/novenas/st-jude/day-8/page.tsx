@@ -180,10 +180,15 @@ export default function StJudeNovenaDay8Page() {
         
 
         {/* Share Section */}
-        <ShareButton
-          title="St. Jude Novena - Day 8: Never Lose Hope"
-          text="Join me in praying St. Jude Novena - Day 8 focusing on Never Lose Hope."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="St. Jude Novena - Day 8: Never Lose Hope" 
+            url="/novenas/st-jude/day-8"
+            excerpt="Join me in praying St. Jude Novena - Day 8 focusing on Never Lose Hope." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

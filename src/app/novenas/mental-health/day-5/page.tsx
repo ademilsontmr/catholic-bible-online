@@ -163,10 +163,15 @@ May we always place our hope in you. Amen.
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Mental Health - Day 5: Hope and Healing"
-          text="Join me in praying the Novena for Mental Health - Day 5 focusing on Hope and Healing."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Mental Health - Day 5: Hope and Healing" 
+            url="/novenas/mental-health/day-5"
+            excerpt="Join me in praying the Novena for Mental Health - Day 5 focusing on Hope and Healing." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

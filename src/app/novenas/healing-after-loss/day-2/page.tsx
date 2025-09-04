@@ -152,10 +152,15 @@ export default function NovenaForHealingAfterLossDay2Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Healing After Loss - Day 2: Finding Comfort in God's Love"
-          text="Join me in praying the Novena for Healing After Loss - Day 2 focusing on finding comfort in God's love."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Healing After Loss - Day 2: Finding Comfort in God's Love" 
+            url="/novenas/healing-after-loss/day-2"
+            excerpt="Join me in praying the Novena for Healing After Loss - Day 2 focusing on finding comfort in God's love." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

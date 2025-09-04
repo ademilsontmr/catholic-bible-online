@@ -172,10 +172,15 @@ export default function SacredHeartConfidenceNovenaDay7Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena of Confidence to the Sacred Heart - Day 7: Broken Heart of Jesus"
-          text="Join me in praying the Novena of Confidence to the Sacred Heart - Day 7 focusing on Broken Heart of Jesus."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena of Confidence to the Sacred Heart - Day 7: Broken Heart of Jesus" 
+            url="/novenas/sacred-heart-confidence/day-7"
+            excerpt="Join me in praying the Novena of Confidence to the Sacred Heart - Day 7 focusing on Broken Heart of Jesus." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

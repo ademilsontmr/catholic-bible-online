@@ -193,10 +193,15 @@ export default function StAnthonyNovenaDay4Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="St. Anthony Novena - Day 4: Cooperation with Grace"
-          text="Join me in praying St. Anthony Novena - Day 4 focusing on Cooperation with Grace."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="St. Anthony Novena - Day 4: Cooperation with Grace" 
+            url="/novenas/st-anthony/day-4"
+            excerpt="Join me in praying St. Anthony Novena - Day 4 focusing on Cooperation with Grace." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

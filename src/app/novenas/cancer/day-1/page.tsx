@@ -159,7 +159,14 @@ export default function NovenaForCancerDay1Page() {
 
         {/* Share Section */}
         <section className="mb-12">
-          <ShareButton title="Novena for Cancer - Day 1: Trust" text="Join me in praying the Novena for Cancer - Day 1 focusing on Trust. Pray for God\'s healing and strength for cancer patients and their families." />
+          <div className="text-center">
+            <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+            <ShareButton 
+              title="Novena for Cancer - Day 1: Trust" 
+              url="/novenas/cancer/day-1"
+              excerpt="Join me in praying the Novena for Cancer - Day 1 focusing on Trust. Pray for God's healing and strength for cancer patients and their families." 
+            />
+          </div>
         </section>
 
         {/* Navigation */}

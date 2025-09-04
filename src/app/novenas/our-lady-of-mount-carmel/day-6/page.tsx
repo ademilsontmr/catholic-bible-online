@@ -185,10 +185,15 @@ export default function OurLadyOfMountCarmelNovenaDay6Page() {
         
 
                 {/* Share Section */}
-        <ShareButton 
-          title="Our Lady of Mount Carmel Novena - Day 6: Protection"
-          text="Join me in praying the Our Lady of Mount Carmel Novena - Day 6 focusing on Protection."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Our Lady of Mount Carmel Novena - Day 6: Protection" 
+            url="/novenas/our-lady-of-mount-carmel/day-6"
+            excerpt="Join me in praying the Our Lady of Mount Carmel Novena - Day 6 focusing on Protection." 
+          />
+        </div>
 
 {/* Navigation */}
         <div className="flex justify-between items-center">

@@ -152,10 +152,15 @@ export default function NovenaForSpiritualHealingDay7Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Spiritual Healing - Day 7: Embracing God's Divine Mercy"
-          text="Join me in praying the Novena for Spiritual Healing - Day 7 focusing on embracing god's divine mercy."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Spiritual Healing - Day 7: Embracing God's Divine Mercy" 
+            url="/novenas/spiritual-healing/day-7"
+            excerpt="Join me in praying the Novena for Spiritual Healing - Day 7 focusing on embracing god's divine mercy." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

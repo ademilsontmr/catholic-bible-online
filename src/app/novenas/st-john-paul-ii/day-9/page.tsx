@@ -169,10 +169,15 @@ export default function StJohnPaulIINovenaDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="St. John Paul II Novena - Day 9: Transforming Hearts"
-          text="Join me in praying St. John Paul II Novena - Day 9 focusing on transforming hearts."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="St. John Paul II Novena - Day 9: Transforming Hearts" 
+            url="/novenas/st-john-paul-ii/day-9"
+            excerpt="Join me in praying St. John Paul II Novena - Day 9 focusing on transforming hearts." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

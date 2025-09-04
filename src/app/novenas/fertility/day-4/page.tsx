@@ -149,10 +149,15 @@ export default function NovenaForFertilityDay4Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton
-          title="Novena for Fertility - Day 4: Secondary Infertility"
-          text="Join me in praying the Novena for Fertility - Day 4 focusing on secondary infertility for God\'s blessing."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Fertility - Day 4: Secondary Infertility" 
+            url="/novenas/fertility/day-4"
+            excerpt="Join me in praying the Novena for Fertility - Day 4 focusing on secondary infertility for God\'s blessing." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

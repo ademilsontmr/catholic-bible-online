@@ -153,10 +153,15 @@ export default function NovenaForAnxietyFearDay8Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Healing from Anxiety and Fear - Day 8: Walking in God's Light and Truth"
-          text="Join me in praying the Novena for Healing from Anxiety and Fear - Day 8 focusing on walking in God's light and truth."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Healing from Anxiety and Fear - Day 8: Walking in God's Light and Truth" 
+            url="/novenas/anxiety-fear/day-8"
+            excerpt="Join me in praying the Novena for Healing from Anxiety and Fear - Day 8 focusing on walking in God's light and truth." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

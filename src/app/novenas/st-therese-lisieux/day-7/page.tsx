@@ -154,10 +154,15 @@ export default function StThereseLisieuxNovenaDay7Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title={`St. Thérèse of Lisieux Novena - Day 7: Confidence in Prayer`}
-          text={`Join me in praying the St. Thérèse of Lisieux Novena - Day 7 focusing on Confidence in Prayer.`}
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title={`St. Thérèse of Lisieux Novena - Day 7: Confidence in Prayer`} 
+            url="/novenas/st-therese-lisieux/day-7"
+            excerpt={`Join me in praying the St. Thérèse of Lisieux Novena - Day 7 focusing on Confidence in Prayer.`} 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

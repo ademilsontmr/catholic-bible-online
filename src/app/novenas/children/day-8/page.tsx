@@ -124,10 +124,15 @@ export default function NovenaForChildrenDay8Page() {
         </section>
         
 
-        <ShareButton 
-          title="Novena for Children - Day 8: Child Future"
-          text="Join me in praying the Novena for Children - Day 8 focusing on child future."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Children - Day 8: Child Future" 
+            url="/novenas/children/day-8"
+            excerpt="Join me in praying the Novena for Children - Day 8 focusing on child future." 
+          />
+        </div>
 
         <div className="flex justify-between items-center">
           

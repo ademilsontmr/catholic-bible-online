@@ -192,10 +192,15 @@ export default function OurLadyOfGoodCounselNovenaDay9Page() {
         
 
                 {/* Share Section */}
-        <ShareButton 
-          title="Our Lady of Good Counsel Novena - Day 9: Counsel"
-          text="Join me in praying the Our Lady of Good Counsel Novena - Day 9 focusing on Counsel."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Our Lady of Good Counsel Novena - Day 9: Counsel" 
+            url="/novenas/our-lady-of-good-counsel/day-9"
+            excerpt="Join me in praying the Our Lady of Good Counsel Novena - Day 9 focusing on Counsel." 
+          />
+        </div>
 
 {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

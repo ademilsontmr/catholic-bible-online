@@ -196,10 +196,15 @@ export default function OurLadyOfFatimaNovenaDay7Page() {
         
 
                 {/* Share Section */}
-        <ShareButton 
-          title="Our Lady of Fatima Novena - Day 7: Peace"
-          text="Join me in praying the Our Lady of Fatima Novena - Day 7 focusing on Peace."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Our Lady of Fatima Novena - Day 7: Peace" 
+            url="/novenas/our-lady-of-fatima/day-7"
+            excerpt="Join me in praying the Our Lady of Fatima Novena - Day 7 focusing on Peace." 
+          />
+        </div>
 
 {/* Navigation */}
         <div className="flex justify-between items-center">

@@ -156,10 +156,15 @@ export default function SaintsJoachimAnneNovenaDay2Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Saints Joachim and Anne Novena - Day 2: Suffering from Infertility"
-          text="Join me in praying Saints Joachim and Anne Novena - Day 2 focusing on suffering from infertility."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Saints Joachim and Anne Novena - Day 2: Suffering from Infertility" 
+            url="/novenas/saints-joachim-anne/day-2"
+            excerpt="Join me in praying Saints Joachim and Anne Novena - Day 2 focusing on suffering from infertility." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

@@ -150,10 +150,15 @@ export default function NovenaForFirefightersDay5Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton
-          title="Novena for Firefighters - Day 5: Grief"
-          text="Join me in praying the Novena for Firefighters - Day 5 focusing on grief for protection and guidance."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Firefighters - Day 5: Grief" 
+            url="/novenas/firefighters/day-5"
+            excerpt="Join me in praying the Novena for Firefighters - Day 5 focusing on grief for protection and guidance." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

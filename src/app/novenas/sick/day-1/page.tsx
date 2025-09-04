@@ -149,10 +149,15 @@ export default function NovenaForTheSickDay1Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for the Sick - Day 1: Faith in God\'s Healing Power"
-          text="Join me in praying the Novena for the Sick - Day 1 focusing on faith in god's healing power."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for the Sick - Day 1: Faith in God\'s Healing Power" 
+            url="/novenas/sick/day-1"
+            excerpt="Join me in praying the Novena for the Sick - Day 1 focusing on faith in god's healing power." 
+          />
+        </div>
 
 
         <div className="flex justify-between items-center">

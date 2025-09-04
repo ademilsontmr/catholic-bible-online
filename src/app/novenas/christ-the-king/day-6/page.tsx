@@ -203,10 +203,15 @@ export default function ChristTheKingNovenaDay6Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to Christ the King - Day 6: King of Mercy"
-          text="Join me in praying the Novena to Christ the King - Day 6 focusing on King of Mercy."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to Christ the King - Day 6: King of Mercy" 
+            url="/novenas/christ-the-king/day-6"
+            excerpt="Join me in praying the Novena to Christ the King - Day 6 focusing on King of Mercy." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

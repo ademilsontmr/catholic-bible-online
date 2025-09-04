@@ -163,10 +163,15 @@ May we always rely on your power when we feel weak. Amen.
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Heart Disease - Day 2: Strength and Courage"
-          text="Join me in praying the Novena for Heart Disease - Day 2 focusing on Strength and Courage."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Heart Disease - Day 2: Strength and Courage" 
+            url="/novenas/heart-disease/day-2"
+            excerpt="Join me in praying the Novena for Heart Disease - Day 2 focusing on Strength and Courage." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

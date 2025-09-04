@@ -184,10 +184,15 @@ export default function HolyFamilyNovenaDay2Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to the Holy Family - Day 2: Profession of Faith"
-          text="Join me in praying the Novena to the Holy Family - Day 2 focusing on Profession of Faith."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to the Holy Family - Day 2: Profession of Faith" 
+            url="/novenas/holy-family/day-2"
+            excerpt="Join me in praying the Novena to the Holy Family - Day 2 focusing on Profession of Faith." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

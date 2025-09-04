@@ -187,10 +187,15 @@ export default function DedicationStMaryMajorBasilicaNovenaDay3Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Dedication of St. Mary Major Basilica Novena - Day 3: Intimacy with Jesus"
-          text="Join me in praying the Dedication of St. Mary Major Basilica Novena - Day 3 focusing on Intimacy with Jesus."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Dedication of St. Mary Major Basilica Novena - Day 3: Intimacy with Jesus" 
+            url="/novenas/dedication-st-mary-major-basilica/day-3"
+            excerpt="Join me in praying the Dedication of St. Mary Major Basilica Novena - Day 3 focusing on Intimacy with Jesus." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

@@ -166,10 +166,15 @@ export default function MotherAngelicaNovenaDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Mother Angelica Novena - Day 9: Lifelong Dedication"
-          text="Join me in praying Mother Angelica Novena - Day 9 focusing on lifelong dedication."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Mother Angelica Novena - Day 9: Lifelong Dedication" 
+            url="/novenas/mother-angelica/day-9"
+            excerpt="Join me in praying Mother Angelica Novena - Day 9 focusing on lifelong dedication." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

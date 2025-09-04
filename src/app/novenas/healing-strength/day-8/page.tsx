@@ -153,10 +153,15 @@ export default function NovenaForHealingStrengthDay8Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Healing and Strength - Day 8: Opening Our Hearts to New Life"
-          text="Join me in praying the Novena for Healing and Strength - Day 8 focusing on opening our hearts to new life."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Healing and Strength - Day 8: Opening Our Hearts to New Life" 
+            url="/novenas/healing-strength/day-8"
+            excerpt="Join me in praying the Novena for Healing and Strength - Day 8 focusing on opening our hearts to new life." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

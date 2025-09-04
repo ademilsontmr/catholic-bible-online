@@ -180,10 +180,15 @@ export default function StJudeNovenaDay4Page() {
         
 
         {/* Share Section */}
-        <ShareButton
-          title="St. Jude Novena - Day 4: Lost Causes"
-          text="Join me in praying St. Jude Novena - Day 4 focusing on Lost Causes."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="St. Jude Novena - Day 4: Lost Causes" 
+            url="/novenas/st-jude/day-4"
+            excerpt="Join me in praying St. Jude Novena - Day 4 focusing on Lost Causes." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

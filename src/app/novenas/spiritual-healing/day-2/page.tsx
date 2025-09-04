@@ -153,10 +153,15 @@ export default function NovenaForSpiritualHealingDay2Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Spiritual Healing - Day 2: Healing from Spiritual Dryness"
-          text="Join me in praying the Novena for Spiritual Healing - Day 2 focusing on healing from spiritual dryness."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Spiritual Healing - Day 2: Healing from Spiritual Dryness" 
+            url="/novenas/spiritual-healing/day-2"
+            excerpt="Join me in praying the Novena for Spiritual Healing - Day 2 focusing on healing from spiritual dryness." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

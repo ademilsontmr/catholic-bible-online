@@ -147,10 +147,15 @@ export default function OurLadyOfPompeiNovenaDay6Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Our Lady of Pompei Novena - Day 6: Bond of Love"
-          text="Join me in praying the Our Lady of Pompei Novena - Day 6 focusing on Bond of Love."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Our Lady of Pompei Novena - Day 6: Bond of Love" 
+            url="/novenas/our-lady-of-pompei/day-6"
+            excerpt="Join me in praying the Our Lady of Pompei Novena - Day 6 focusing on Bond of Love." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

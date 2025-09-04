@@ -166,10 +166,15 @@ export default function SaintsJoachimAnneNovenaDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Saints Joachim and Anne Novena - Day 9: Humility and Virtue"
-          text="Join me in praying Saints Joachim and Anne Novena - Day 9 focusing on humility and virtue."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Saints Joachim and Anne Novena - Day 9: Humility and Virtue" 
+            url="/novenas/saints-joachim-anne/day-9"
+            excerpt="Join me in praying Saints Joachim and Anne Novena - Day 9 focusing on humility and virtue." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center mb-12">

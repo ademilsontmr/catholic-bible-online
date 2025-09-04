@@ -182,10 +182,15 @@ export default function StBenedictNovenaDay7Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to St. Benedict - Day 7: Compassion and Mercy"
-          text="Join me in praying the Novena to St. Benedict - Day 7 focusing on Compassion and Mercy."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to St. Benedict - Day 7: Compassion and Mercy" 
+            url="/novenas/st-benedict/day-7"
+            excerpt="Join me in praying the Novena to St. Benedict - Day 7 focusing on Compassion and Mercy." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

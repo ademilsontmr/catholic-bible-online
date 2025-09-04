@@ -179,10 +179,15 @@ export default function CarloAcutisNovenaDay8Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to Carlo Acutis - Day 8: Eucharistic Highway"
-          text="Join me in praying the Novena to Carlo Acutis - Day 8 focusing on Eucharistic Highway."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to Carlo Acutis - Day 8: Eucharistic Highway" 
+            url="/novenas/carlo-acutis/day-8"
+            excerpt="Join me in praying the Novena to Carlo Acutis - Day 8 focusing on Eucharistic Highway." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

@@ -161,10 +161,15 @@ export default function PopeNovenaDay5Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for the Pope - Day 5: Fidelity in Governance"
-          text="Join me in praying the Novena for the Pope - Day 5 focusing on Fidelity in Governance."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for the Pope - Day 5: Fidelity in Governance" 
+            url="/novenas/pope/day-5"
+            excerpt="Join me in praying the Novena for the Pope - Day 5 focusing on Fidelity in Governance." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

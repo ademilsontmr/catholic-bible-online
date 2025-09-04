@@ -172,10 +172,15 @@ export default function HolySpiritNovenaDay7Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena of the Holy Spirit - Day 7: God's Molding Hand"
-          text="Join me in praying the Novena of the Holy Spirit - Day 7 focusing on God's Molding Hand."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena of the Holy Spirit - Day 7: God's Molding Hand" 
+            url="/novenas/holy-spirit/day-7"
+            excerpt="Join me in praying the Novena of the Holy Spirit - Day 7 focusing on God's Molding Hand." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

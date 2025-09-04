@@ -174,10 +174,15 @@ export default function StJohnBoscoNovenaDay6Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena in Honor of St. John Bosco - Day 6: Compassion for Suffering"
-          text="Join me in praying the Novena in Honor of St. John Bosco - Day 6 focusing on Compassion for Suffering."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena in Honor of St. John Bosco - Day 6: Compassion for Suffering" 
+            url="/novenas/st-john-bosco/day-6"
+            excerpt="Join me in praying the Novena in Honor of St. John Bosco - Day 6 focusing on Compassion for Suffering." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

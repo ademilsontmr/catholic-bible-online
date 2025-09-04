@@ -165,10 +165,15 @@ export default function NovenaForGrandchildrenDay9Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Grandchildren - Day 9: Vocation"
-          text="Join me in praying the Novena for Grandchildren - Day 9 focusing on Vocation."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Grandchildren - Day 9: Vocation" 
+            url="/novenas/grandchildren/day-9"
+            excerpt="Join me in praying the Novena for Grandchildren - Day 9 focusing on Vocation." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

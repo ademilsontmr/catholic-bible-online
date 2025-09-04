@@ -149,10 +149,15 @@ export default function PentecostNovenaDay3Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Pentecost Novena - Day 3: Counsel"
-          text="Join me in praying the Pentecost Novena - Day 3 focusing on counsel."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Pentecost Novena - Day 3: Counsel" 
+            url="/novenas/pentecost/day-3"
+            excerpt="Join me in praying the Pentecost Novena - Day 3 focusing on counsel." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

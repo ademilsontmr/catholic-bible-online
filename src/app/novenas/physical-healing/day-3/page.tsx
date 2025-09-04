@@ -123,10 +123,15 @@ export default function NovenaForPhysicalHealingDay3Page() {
         </section>
         
 
-        <ShareButton 
-          title="Novena for Physical Healing - Day 3: Divine Touch"
-          text="Join me in praying the Novena for Physical Healing - Day 3 focusing on divine touch."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Physical Healing - Day 3: Divine Touch" 
+            url="/novenas/physical-healing/day-3"
+            excerpt="Join me in praying the Novena for Physical Healing - Day 3 focusing on divine touch." 
+          />
+        </div>
 
         <div className="flex justify-between items-center">
           

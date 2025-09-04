@@ -175,10 +175,15 @@ Amen.
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Grace - Day 7: God's Glory"
-          text="Join me in praying the Novena for Grace - Day 7 focusing on God's Glory."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Grace - Day 7: God's Glory" 
+            url="/novenas/novena-for-grace/day-7"
+            excerpt="Join me in praying the Novena for Grace - Day 7 focusing on God's Glory." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

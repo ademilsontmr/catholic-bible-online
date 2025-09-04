@@ -175,10 +175,15 @@ Remember that holy friendships help us grow in love for God and for one another.
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for God's Blessings - Day 3: Holy Friendships"
-          text="Join me in praying the Novena for God's Blessings - Day 3 focusing on Holy Friendships."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for God's Blessings - Day 3: Holy Friendships" 
+            url="/novenas/gods-blessings/day-3"
+            excerpt="Join me in praying the Novena for God's Blessings - Day 3 focusing on Holy Friendships." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

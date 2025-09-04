@@ -154,10 +154,15 @@ export default function GuardianAngelNovenaDay1Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Guardian Angel Novena - Day 1: Divine Counselor"
-          text="Join me in praying Guardian Angel Novena - Day 1 focusing on divine counselor."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Guardian Angel Novena - Day 1: Divine Counselor" 
+            url="/novenas/guardian-angel/day-1"
+            excerpt="Join me in praying Guardian Angel Novena - Day 1 focusing on divine counselor." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

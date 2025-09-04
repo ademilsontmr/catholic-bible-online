@@ -153,10 +153,15 @@ export default function NovenaForHealingStrengthDay5Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for Healing and Strength - Day 5: Finding Hope in God's Promises"
-          text="Join me in praying the Novena for Healing and Strength - Day 5 focusing on finding hope in God's promises."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for Healing and Strength - Day 5: Finding Hope in God's Promises" 
+            url="/novenas/healing-strength/day-5"
+            excerpt="Join me in praying the Novena for Healing and Strength - Day 5 focusing on finding hope in God's promises." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

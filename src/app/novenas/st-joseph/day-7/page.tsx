@@ -187,10 +187,15 @@ export default function StJosephNovenaDay7Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to St. Joseph - Day 7: Patron of Workers"
-          text="Join me in praying the Novena to St. Joseph - Day 7 focusing on Patron of Workers."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to St. Joseph - Day 7: Patron of Workers" 
+            url="/novenas/st-joseph/day-7"
+            excerpt="Join me in praying the Novena to St. Joseph - Day 7 focusing on Patron of Workers." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">

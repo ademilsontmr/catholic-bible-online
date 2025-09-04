@@ -200,10 +200,15 @@ export default function OurLadyOfFatimaNovenaDay1Page() {
         </section>
 
                 {/* Share Section */}
-        <ShareButton 
-          title="Our Lady of Fatima Novena - Day 1: Faith"
-          text="Join me in praying the Our Lady of Fatima Novena - Day 1 focusing on Faith."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Our Lady of Fatima Novena - Day 1: Faith" 
+            url="/novenas/our-lady-of-fatima/day-1"
+            excerpt="Join me in praying the Our Lady of Fatima Novena - Day 1 focusing on Faith." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

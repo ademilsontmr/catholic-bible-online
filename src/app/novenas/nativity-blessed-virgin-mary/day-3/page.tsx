@@ -171,10 +171,15 @@ export default function NativityBlessedVirginMaryNovenaDay3Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Nativity of the Blessed Virgin Mary Novena - Day 3: Daughter of Saints"
-          text="Join me in praying the Nativity of the Blessed Virgin Mary Novena - Day 3 focusing on daughter of saints."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Nativity of the Blessed Virgin Mary Novena - Day 3: Daughter of Saints" 
+            url="/novenas/nativity-blessed-virgin-mary/day-3"
+            excerpt="Join me in praying the Nativity of the Blessed Virgin Mary Novena - Day 3 focusing on daughter of saints." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

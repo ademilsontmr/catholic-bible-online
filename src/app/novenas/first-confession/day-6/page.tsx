@@ -182,10 +182,15 @@ export default function NovenaForFirstConfessionDay6Page() {
         </section>
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena for First Confession - Day 6: True Repentance"
-          text="Join me in praying the Novena for First Confession - Day 6 focusing on True Repentance."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena for First Confession - Day 6: True Repentance" 
+            url="/novenas/first-confession/day-6"
+            excerpt="Join me in praying the Novena for First Confession - Day 6 focusing on True Repentance." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center">

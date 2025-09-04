@@ -170,10 +170,15 @@ export default function StMaximilianKolbeNovenaDay3Page() {
         
 
         {/* Share Section */}
-        <ShareButton 
-          title="Novena to Saint Maximilian Kolbe - Day 3: Militia Immaculata"
-          text="Join me in praying the Novena to Saint Maximilian Kolbe - Day 3 focusing on Militia Immaculata."
-        />
+        {/* Share Section */}
+        <div className="text-center">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-6">Share this novena</h2>
+          <ShareButton 
+            title="Novena to Saint Maximilian Kolbe - Day 3: Militia Immaculata" 
+            url="/novenas/st-maximilian-kolbe/day-3"
+            excerpt="Join me in praying the Novena to Saint Maximilian Kolbe - Day 3 focusing on Militia Immaculata." 
+          />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between items-center ">
