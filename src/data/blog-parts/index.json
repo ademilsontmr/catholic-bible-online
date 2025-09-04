@@ -1,0 +1,15 @@
+{
+  "totalArticles": 7308,
+  "totalFiles": 8,
+  "articlesPerFile": 1000,
+  "parts": [
+    "blog-part-1.json",
+    "blog-part-2.json",
+    "blog-part-3.json",
+    "blog-part-4.json",
+    "blog-part-5.json",
+    "blog-part-6.json",
+    "blog-part-7.json",
+    "blog-part-8.json"
+  ]
+}
