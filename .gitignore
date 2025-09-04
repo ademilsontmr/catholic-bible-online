@@ -11,6 +11,7 @@
 
 # next.js
 /.next/
+/out/
 
 # production
 /build
@@ -41,3 +42,6 @@ next-env.d.ts
 # backup files
 *.backup
 *.bak
+
+# large data files (not needed for deploy)
+blog.json
