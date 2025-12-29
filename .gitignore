@@ -44,4 +44,4 @@ next-env.d.ts
 *.bak
 
 # large data files (not needed for deploy)
-blog.json
+# blog.json - COMMENTED OUT: This file IS needed for Cloudflare Pages build!
