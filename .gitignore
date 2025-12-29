@@ -35,9 +35,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# sitemap
-/public/sitemap.xml
-/public/robots.txt
+# sitemap - COMMENTED OUT: These files ARE needed for Google Search Console
+# /public/sitemap.xml
+# /public/robots.txt
 
 # backup files
 *.backup

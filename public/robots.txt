@@ -1,0 +1,12 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+
+# Host
+Host: https://catholicbibleonline.com
+
+# Sitemaps
+Sitemap: https://catholicbibleonline.com/sitemap.xml

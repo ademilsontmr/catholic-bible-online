@@ -3,10 +3,10 @@ module.exports = {
   siteUrl: process.env.SITE_URL || 'https://catholicbibleonline.com',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
-  exclude: ['/admin/*'],
+  exclude: ['/admin/*', '/api/*', '/_next/*'],
   changefreq: 'weekly',
   priority: 0.7,
-  sitemapSize: 5000,
+  sitemapSize: 50000, // Increased to fit all pages in one sitemap
   transform: async (config, path) => {
     // Custom priority and changefreq for different page types
     let priority = config.priority;
@@ -47,12 +47,6 @@ module.exports = {
       changefreq,
       priority,
       lastmod: new Date().toISOString(),
-      alternateRefs: [
-        {
-          href: `${config.siteUrl}${path}`,
-          hreflang: 'en',
-        },
-      ],
     };
   },
   robotsTxtOptions: {
@@ -60,38 +54,9 @@ module.exports = {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/admin/*', '/api/*', '/_next/*', '/404', '/500'],
-      },
-      {
-        userAgent: 'Googlebot',
-        allow: '/',
-        disallow: ['/admin/*', '/api/*', '/_next/*'],
-      },
-      {
-        userAgent: 'Bingbot',
-        allow: '/',
-        disallow: ['/admin/*', '/api/*', '/_next/*'],
+        disallow: ['/admin/', '/api/', '/_next/'],
       },
     ],
-    additionalSitemaps: [
-      'https://catholicbibleonline.com/sitemap.xml',
-    ],
-    host: 'https://catholicbibleonline.com',
-  },
-  additionalPaths: async (config) => {
-    const result = []
-    
-    // Add blog posts to sitemap
-    const blogData = require('./src/data/blog.json')
-    blogData.forEach((post) => {
-      result.push({
-        loc: `/blog/${post.slug}`,
-        changefreq: 'weekly',
-        priority: 0.7,
-        lastmod: post.publishedAt,
-      })
-    })
-    
-    return result
+    additionalSitemaps: [],
   },
 }; 
