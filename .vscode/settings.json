@@ -24,5 +24,6 @@
   "typescript.preferences.includePackageJsonAutoImports": "off",
   "typescript.suggest.autoImports": false,
   "typescript.updateImportsOnFileMove.enabled": "never",
-  "typescript.preferences.includeCompletionsForModuleExports": false
+  "typescript.preferences.includeCompletionsForModuleExports": false,
+  "kiroAgent.configureMCP": "Disabled"
 } 

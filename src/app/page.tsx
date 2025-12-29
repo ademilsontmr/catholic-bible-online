@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { getBibleIndex, getBook } from '@/lib/bibleLoader'
 import SearchBox from '@/components/SearchBox'
 import BlogCard from '@/components/BlogCard'
+import VerseOfTheDay from '@/components/VerseOfTheDay'
 import blogData from '@/data/blog.json'
 
 export const metadata: Metadata = {
@@ -101,6 +102,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Verse of the Day Section */}
+      <VerseOfTheDay />
 
       {/* Featured Blog Posts Section */}
       <section className="py-16 bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50">
