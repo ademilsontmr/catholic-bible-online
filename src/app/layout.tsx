@@ -49,6 +49,15 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: '32x32' }
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }
+    ],
+  },
   metadataBase: new URL('https://catholicbibleonline.com'),
   alternates: {
     canonical: '/',
@@ -122,6 +131,9 @@ export default function RootLayout({
             <div className="flex justify-between items-center h-16">
               <div className="flex items-center h-full">
                 <Link href="/" className="flex items-center space-x-2 h-full" aria-label="Catholic Bible Online - Home">
+                  <svg className="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 2C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2H6ZM13 3.5L18.5 9H13V3.5ZM8 12V14H16V12H8ZM8 16V18H13V16H8Z"/>
+                  </svg>
                   <span className="text-2xl font-bold text-gray-900 flex items-center h-full leading-none">
                     Catholic Bible Online
                   </span>
