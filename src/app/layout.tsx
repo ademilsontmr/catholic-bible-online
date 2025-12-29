@@ -131,8 +131,44 @@ export default function RootLayout({
             <div className="flex justify-between items-center h-16">
               <div className="flex items-center h-full">
                 <Link href="/" className="flex items-center space-x-2 h-full" aria-label="Catholic Bible Online - Home">
-                  <svg className="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6 2C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2H6ZM13 3.5L18.5 9H13V3.5ZM8 12V14H16V12H8ZM8 16V18H13V16H8Z"/>
+                  <svg className="w-8 h-8" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    {/* Bible book cover with gradient */}
+                    <defs>
+                      <linearGradient id="bibleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style={{ stopColor: '#1e40af', stopOpacity: 1 }} />
+                        <stop offset="100%" style={{ stopColor: '#3b82f6', stopOpacity: 1 }} />
+                      </linearGradient>
+                      <linearGradient id="crossGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style={{ stopColor: '#fbbf24', stopOpacity: 1 }} />
+                        <stop offset="100%" style={{ stopColor: '#f59e0b', stopOpacity: 1 }} />
+                      </linearGradient>
+                    </defs>
+                    
+                    {/* Book shadow */}
+                    <rect x="10" y="9" width="28" height="32" rx="2" fill="#1e3a8a" opacity="0.3" />
+                    
+                    {/* Book cover */}
+                    <rect x="8" y="7" width="28" height="32" rx="2" fill="url(#bibleGradient)" stroke="#1e40af" strokeWidth="1" />
+                    
+                    {/* Book spine highlight */}
+                    <rect x="8" y="7" width="4" height="32" rx="1" fill="#1e3a8a" opacity="0.4" />
+                    
+                    {/* Pages */}
+                    <rect x="11" y="9" width="22" height="28" rx="1" fill="#f8fafc" />
+                    
+                    {/* Cross on cover */}
+                    <rect x="20" y="14" width="2.5" height="12" rx="0.5" fill="url(#crossGradient)" />
+                    <rect x="15" y="18.75" width="12" height="2.5" rx="0.5" fill="url(#crossGradient)" />
+                    
+                    {/* Page lines */}
+                    <line x1="14" y1="15" x2="30" y2="15" stroke="#cbd5e1" strokeWidth="0.5" />
+                    <line x1="14" y1="18" x2="30" y2="18" stroke="#cbd5e1" strokeWidth="0.5" />
+                    <line x1="14" y1="28" x2="30" y2="28" stroke="#cbd5e1" strokeWidth="0.5" />
+                    <line x1="14" y1="31" x2="28" y2="31" stroke="#cbd5e1" strokeWidth="0.5" />
+                    <line x1="14" y1="34" x2="30" y2="34" stroke="#cbd5e1" strokeWidth="0.5" />
+                    
+                    {/* Bookmark ribbon */}
+                    <path d="M 24 7 L 24 20 L 26 18 L 28 20 L 28 7 Z" fill="#dc2626" opacity="0.8" />
                   </svg>
                   <span className="text-2xl font-bold text-gray-900 flex items-center h-full leading-none">
                     Catholic Bible Online
