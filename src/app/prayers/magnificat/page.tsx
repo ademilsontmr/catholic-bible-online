@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ShareButton from "@/components/ShareButton";
 
 export const metadata: Metadata = {
   title: "Magnificat – Mary's Song of Praise | Catholic Bible Online",

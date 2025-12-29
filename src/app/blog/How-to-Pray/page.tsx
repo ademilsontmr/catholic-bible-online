@@ -28,14 +28,10 @@ export const metadata: Metadata = {
   },
 }
 
-interface HowToPrayPageProps {
-  searchParams: Promise<{ page?: string }>
-}
+const POSTS_PER_PAGE = 9
 
-export default async function HowToPrayPage({ searchParams }: HowToPrayPageProps) {
-  const params = await searchParams
-  const currentPage = parseInt(params.page || '1')
-  const POSTS_PER_PAGE = 9
+export default function HowToPrayPage() {
+  const currentPage = 1
   
   // Filter posts by "How to Pray" category
   const howToPrayPosts = (blogData as BlogPost[]).filter((post: BlogPost) => post.category === 'How to Pray')

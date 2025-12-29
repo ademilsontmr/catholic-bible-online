@@ -99,7 +99,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               <li className="text-gray-400">/</li>
               <li><Link href="/blog" className="text-gray-600 hover:text-gray-800">Blog</Link></li>
               <li className="text-gray-400">/</li>
-              <li><Link href={`/blog?category=${post.category}`} className="text-gray-600 hover:text-gray-800">{post.category}</Link></li>
+              <li><span className="text-gray-600">{post.category}</span></li>
               <li className="text-gray-400">/</li>
               <li className="text-gray-800 font-medium">{post.title}</li>
             </ol>

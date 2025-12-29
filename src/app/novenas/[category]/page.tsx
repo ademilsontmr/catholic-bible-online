@@ -384,6 +384,11 @@ const availableNovenas = [
   'gods-blessings',
 ]
 
+// Required for static export
+export function generateStaticParams() {
+  return novenaCategories.map((cat) => ({ category: cat.slug }))
+}
+
 interface PageProps {
   params: Promise<{
     category: string

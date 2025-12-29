@@ -28,14 +28,10 @@ export const metadata: Metadata = {
   },
 }
 
-interface SaintsFeastDaysPageProps {
-  searchParams: Promise<{ page?: string }>
-}
+const POSTS_PER_PAGE = 9
 
-export default async function SaintsFeastDaysPage({ searchParams }: SaintsFeastDaysPageProps) {
-  const params = await searchParams
-  const currentPage = parseInt(params.page || '1')
-  const POSTS_PER_PAGE = 9
+export default function SaintsFeastDaysPage() {
+  const currentPage = 1
   
   // Filter posts by "Saints & Feast Days" category
   const saintsPosts = (blogData as BlogPost[]).filter((post: BlogPost) => post.category === 'Saints & Feast Days')

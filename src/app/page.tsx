@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { getBibleIndex, getBook } from '@/lib/bibleLoader'
 import SearchBox from '@/components/SearchBox'
 import BlogCard from '@/components/BlogCard'
 import VerseOfTheDay from '@/components/VerseOfTheDay'
@@ -28,36 +27,6 @@ export const metadata: Metadata = {
   }
 }
 
-function getRandomVerse() {
-  const bibleIndex = getBibleIndex()
-  const books = Object.keys(bibleIndex)
-  const bookKey = books[Math.floor(Math.random() * books.length)]
-  const book = getBook(bookKey)
-  
-  if (!book) {
-    // Fallback verse
-    return {
-      bookName: 'Genesis',
-      bookSlug: 'genesis',
-      chapterNumber: 1,
-      verseNumber: 1,
-      verseText: 'In the beginning God created heaven, and earth.'
-    }
-  }
-  
-  const chapterIndex = Math.floor(Math.random() * book.chapters.length)
-  const chapter = book.chapters[chapterIndex]
-  const verseIndex = Math.floor(Math.random() * chapter.length)
-  const verseText = chapter[verseIndex]
-  return {
-    bookName: book.name,
-    bookSlug: bookKey,
-    chapterNumber: chapterIndex + 1,
-    verseNumber: verseIndex + 1,
-    verseText
-  }
-}
-
 // Função para embaralhar array (Fisher-Yates shuffle)
 function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array]
@@ -69,8 +38,6 @@ function shuffleArray<T>(array: T[]): T[] {
 }
 
 export default function HomePage() {
-  const verse = getRandomVerse()
-  
   // Embaralhar todos os artigos e pegar 9 aleatórios
   const shuffledPosts = shuffleArray(blogData as any[])
   const randomPosts = shuffledPosts.slice(0, 9)

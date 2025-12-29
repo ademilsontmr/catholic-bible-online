@@ -692,6 +692,10 @@ interface CategoryPageProps {
   }>
 }
 
+export function generateStaticParams() {
+  return Object.keys(prayerCategories).map((category) => ({ category }))
+}
+
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
   const { category } = await params
   const categoryData = prayerCategories[category as keyof typeof prayerCategories]

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ShareButton from "@/components/ShareButton";
 
 export const metadata: Metadata = {
   title: "Final Blessing – May Almighty God Bless You | Mass Prayers | Catholic Bible Online",

@@ -28,14 +28,10 @@ export const metadata: Metadata = {
   },
 }
 
-interface CatholicLivingPageProps {
-  searchParams: Promise<{ page?: string }>
-}
+const POSTS_PER_PAGE = 9
 
-export default async function CatholicLivingPage({ searchParams }: CatholicLivingPageProps) {
-  const params = await searchParams
-  const currentPage = parseInt(params.page || '1')
-  const POSTS_PER_PAGE = 9
+export default function CatholicLivingPage() {
+  const currentPage = 1
   
   // Filter posts by "Catholic Living" category
   const catholicLivingPosts = (blogData as BlogPost[]).filter((post: BlogPost) => post.category === 'Catholic Living')

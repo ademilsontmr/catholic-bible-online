@@ -52,17 +52,13 @@ export const metadata: Metadata = {
   },
 }
 
-interface BibleFaithPageProps {
-  searchParams: Promise<{ page?: string }>
-}
-
 // Tipar os dados importados do JSON
 const typedBlogData = blogData as BlogData
 
-export default async function BibleFaithPage({ searchParams }: BibleFaithPageProps) {
-  const params = await searchParams
-  const currentPage = parseInt(params.page || '1')
-  const POSTS_PER_PAGE = 9
+const POSTS_PER_PAGE = 9
+
+export default function BibleFaithPage() {
+  const currentPage = 1
   
   // Filtrar posts pela categoria "Bible & Faith"
   const bibleFaithPosts: BlogPost[] = (typedBlogData as BlogPost[]).filter((post: BlogPost) => post.category === 'Bible & Faith')

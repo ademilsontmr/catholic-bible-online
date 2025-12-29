@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ShareButton from "@/components/ShareButton";
 
 export const metadata: Metadata = {
   title: "Litany of the Blessed Virgin Mary – Honoring Mary Under Many Titles | Catholic Bible Online",
