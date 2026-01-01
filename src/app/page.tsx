@@ -69,42 +69,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Featured Blog Posts Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 gradient-text mb-4">
-              Latest Articles & Reflections
-            </h2>
-            <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-              Discover inspiring Catholic teachings, saint stories, and spiritual guidance to deepen your faith journey.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {randomPosts.map((post) => (
-              <BlogCard
-                key={post.slug}
-                slug={post.slug}
-                title={post.title}
-                excerpt={post.excerpt}
-                category={post.category}
-                readTime={post.readTime}
-              />
-            ))}
-          </div>
-          
-          <div className="text-center mt-12">
-            <Link 
-              href="/blog"
-              className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-emerald-400 to-emerald-500 text-white font-semibold rounded-lg hover:from-emerald-500 hover:to-emerald-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
-            >
-              View All Articles
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* Quick Links Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -146,6 +110,42 @@ export default function HomePage() {
                 <h3 className="font-semibold text-black">Revelation</h3>
                 <p className="text-sm text-black">Apocalypse</p>
               </div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Blog Posts Section */}
+      <section className="py-16 bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 gradient-text mb-4">
+              Latest Articles & Reflections
+            </h2>
+            <p className="text-lg text-gray-700 max-w-2xl mx-auto">
+              Discover inspiring Catholic teachings, saint stories, and spiritual guidance to deepen your faith journey.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {randomPosts.map((post) => (
+              <BlogCard
+                key={post.slug}
+                slug={post.slug}
+                title={post.title}
+                excerpt={post.excerpt}
+                category={post.category}
+                readTime={post.readTime}
+              />
+            ))}
+          </div>
+          
+          <div className="text-center mt-12">
+            <Link 
+              href="/blog"
+              className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-emerald-400 to-emerald-500 text-white font-semibold rounded-lg hover:from-emerald-500 hover:to-emerald-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+            >
+              View All Articles
             </Link>
           </div>
         </div>
