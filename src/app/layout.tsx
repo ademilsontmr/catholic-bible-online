@@ -192,11 +192,11 @@ export default function RootLayout({
                   <Link href="/saints" className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200 rounded-md hover:bg-red-50 flex items-center h-full leading-none">
                     Saints
                   </Link>
+                  <Link href="/devotionals" className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200 rounded-md hover:bg-red-50 flex items-center h-full leading-none">
+                    Devotionals
+                  </Link>
                   <Link href="/blog" className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200 rounded-md hover:bg-red-50 flex items-center h-full leading-none">
                     Blog
-                  </Link>
-                  <Link href="/verse-of-the-day" className="text-gray-700 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200 rounded-md hover:bg-red-50 flex items-center h-full leading-none">
-                    Verse of the Day
                   </Link>
                 </div>
               </div>
@@ -236,6 +236,7 @@ export default function RootLayout({
                   © {new Date().getFullYear()} Catholic Bible Online. All rights reserved.
                 </p>
                 <div className="mt-4 md:mt-0 flex space-x-6">
+                  <Link href="/devotionals" className="text-black hover:text-gray-600 transition-colors">Devotionals</Link>
                   <Link href="/contact" className="text-black hover:text-gray-600 transition-colors">Contact Us</Link>
                   <Link href="/about" className="text-black hover:text-gray-600 transition-colors">About</Link>
                   <Link href="/privacy" className="text-black hover:text-gray-600 transition-colors">Privacy</Link>

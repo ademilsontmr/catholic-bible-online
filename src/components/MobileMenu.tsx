@@ -40,8 +40,8 @@ export default function MobileMenu() {
     { href: '/prayers', label: 'Prayers' },
     { href: '/novenas', label: 'Novenas' },
     { href: '/saints', label: 'Saints' },
+    { href: '/devotionals', label: 'Devotionals' },
     { href: '/blog', label: 'Blog' },
-    { href: '/verse-of-the-day', label: 'Verse of the Day' },
   ]
 
   return (
