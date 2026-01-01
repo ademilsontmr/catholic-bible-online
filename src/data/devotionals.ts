@@ -205,7 +205,16 @@ export const devotionals: Devotional[] = [
 <p>I wanted to find an elevator which would raise me to Jesus, for I am too small to climb the rough stairway of perfection. I searched, then, in the Scriptures for some sign of this elevator, the object of my desires, and I read these words coming from the mouth of Eternal Wisdom: "Whoever is a little one, let him come to me."</p>
 <p>The elevator which must raise me to heaven is Your arms, O Jesus! And for this I had no need to grow up, but rather I had to remain little and become this more and more.</p>`,
         scripture: 'Matthew 18:3 - "Truly, I say to you, unless you turn and become like children, you will never enter the kingdom of heaven."',
-        prayer: 'Dear Little Flower, teach me your Little Way. Help me to approach Jesus with the confidence of a child, trusting completely in His love and mercy. May I not be discouraged by my weakness but find in it an invitation to rely more fully on God. St. Thérèse, pray for me. Amen.'
+        prayer: 'Dear Little Flower, teach me your Little Way. Help me to approach Jesus with the confidence of a child, trusting completely in His love and mercy. May I not be discouraged by my weakness but find in it an invitation to rely more fully on God. St. Thérèse, pray for me. Amen.',
+      bibleLink: {
+        book: 'matthew',
+        chapter: 5,
+        label: 'Matthew 5'
+      },
+      blogLink: {
+        slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+        title: 'Lent: 40 Days of Transformation'
+      }
       },
       {
         day: 2,
@@ -216,7 +225,16 @@ export const devotionals: Devotional[] = [
 <p>Yes, my Beloved, this is how my life will be consumed. I have no other means of proving my love for you other than that of strewing flowers, that is, not allowing one little sacrifice to escape, not one look, one word, profiting by all the smallest things and doing them through love.</p>
 <p>I desire to suffer for love and even to rejoice through love; and in this way I shall strew flowers before Your throne. I shall not come upon one without unpetaling it for You. While I am strewing my flowers, I shall sing, for could one cry while doing such a joyous action? I shall sing even when I must gather my flowers in the midst of thorns, and my song will be all the more melodious in proportion to the length and sharpness of the thorns.</p>`,
         scripture: '1 John 3:18 - "Little children, let us not love in word or talk but in deed and in truth."',
-        prayer: 'Jesus, my Love, help me to prove my love for You through small acts of sacrifice and kindness. May I never miss an opportunity to show You my love, even in the smallest things. Let my whole life be a song of love offered to You. Amen.'
+        prayer: 'Jesus, my Love, help me to prove my love for You through small acts of sacrifice and kindness. May I never miss an opportunity to show You my love, even in the smallest things. Let my whole life be a song of love offered to You. Amen.',
+      bibleLink: {
+        book: 'john',
+        chapter: 1,
+        label: 'John 1'
+      },
+      blogLink: {
+        slug: 'saint-patrick-day-2026-faith-history-celebration',
+        title: 'Saint Patrick: Faith & History'
+      }
       },
       {
         day: 3,
@@ -227,7 +245,16 @@ export const devotionals: Devotional[] = [
 <p>I know one must be very pure to appear before the God of all Holiness, but I know, too, that the Lord is infinitely just; and it is this justice which frightens so many souls that is the object of my joy and confidence.</p>
 <p>To be just is not only to exercise severity in order to punish the guilty; it is also to recognize right intentions and to reward virtue. I expect as much from God's justice as from His mercy. It is because He is just that "He is compassionate and filled with gentleness, slow to punish, and abundant in mercy, for He knows our frailty, He remembers we are only dust."</p>`,
         scripture: 'Psalm 103:13-14 - "As a father shows compassion to his children, so the Lord shows compassion to those who fear him. For he knows our frame; he remembers that we are dust."',
-        prayer: 'Merciful Father, I place all my trust in Your infinite mercy. I do not rely on my own merits but on Your compassionate love. Help me to live in the present moment, trusting that Your grace is sufficient for each day. May I never despair but always hope in Your goodness. Amen.'
+        prayer: 'Merciful Father, I place all my trust in Your infinite mercy. I do not rely on my own merits but on Your compassionate love. Help me to live in the present moment, trusting that Your grace is sufficient for each day. May I never despair but always hope in Your goodness. Amen.',
+      bibleLink: {
+        book: 'psalms',
+        chapter: 23,
+        label: 'Psalms 23'
+      },
+      blogLink: {
+        slug: 'catholic-faith-mental-health-2026-complete-guide',
+        title: 'Faith and Mental Health'
+      }
       },
       {
         day: 4,
@@ -238,7 +265,16 @@ export const devotionals: Devotional[] = [
 <p>Suffering became my attraction; it had charms about it which ravished me without my understanding them very well. Up until this time, I had suffered without loving suffering, but since this day I felt a real love for it.</p>
 <p>I also felt the desire of loving only God, of finding my joy only in Him. Often during my Communions, I repeated these words of the Imitation: "O Jesus, unspeakable sweetness, change all the consolations of earth into bitterness for me."</p>`,
         scripture: 'Colossians 1:24 - "Now I rejoice in my sufferings for your sake, and in my flesh I am filling up what is lacking in Christ\'s afflictions for the sake of his body, that is, the church."',
-        prayer: 'Lord Jesus, teach me to embrace suffering with love. Help me to unite my trials with Your Passion for the salvation of souls. May I seek not consolation but only to console Your Sacred Heart. Let me find joy in sacrifice and peace in self-surrender. Amen.'
+        prayer: 'Lord Jesus, teach me to embrace suffering with love. Help me to unite my trials with Your Passion for the salvation of souls. May I seek not consolation but only to console Your Sacred Heart. Let me find joy in sacrifice and peace in self-surrender. Amen.',
+      bibleLink: {
+        book: 'romans',
+        chapter: 5,
+        label: 'Romans 5'
+      },
+      blogLink: {
+        slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+        title: 'Catholic Ethics Guide'
+      }
       },
       {
         day: 5,
@@ -249,7 +285,16 @@ export const devotionals: Devotional[] = [
 <p>I feel then that the fervor of my Sisters makes up for my lack of fervor; but when alone (I am ashamed to admit it) the recitation of the rosary is more difficult for me than the wearing of an instrument of penance would be. I feel I have said it so poorly! I force myself in vain to meditate on the mysteries of the rosary; I don't succeed in fixing my mind on them.</p>
 <p>For a long time I was desolate about this lack of devotion which astonished me, for I love the Blessed Virgin so much that it should be easy for me to recite in her honor prayers which are so pleasing to her. Now I am less desolate; I think that the Queen of heaven, since she is my Mother, must see my good will and she is satisfied with it.</p>`,
         scripture: 'Romans 8:26 - "Likewise the Spirit helps us in our weakness. For we do not know what to pray for as we ought, but the Spirit himself intercedes for us with groanings too deep for words."',
-        prayer: 'Jesus, teach me to pray with simplicity and love. When words fail me, let my heart speak to You. Help me not to be discouraged by distractions but to offer You my good will. May my prayer be a simple glance of love toward heaven. Amen.'
+        prayer: 'Jesus, teach me to pray with simplicity and love. When words fail me, let my heart speak to You. Help me not to be discouraged by distractions but to offer You my good will. May my prayer be a simple glance of love toward heaven. Amen.',
+      bibleLink: {
+        book: 'philippians',
+        chapter: 2,
+        label: 'Philippians 2'
+      },
+      blogLink: {
+        slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+        title: 'Lent: 40 Days of Transformation'
+      }
       },
       {
         day: 6,
@@ -260,7 +305,16 @@ export const devotionals: Devotional[] = [
 <p>I wasn't content simply with praying very much for this Sister who gave me so many struggles, but I took care to render her all the services possible, and when I was tempted to answer her back in a disagreeable manner, I was content with giving her my most friendly smile, and with changing the subject of the conversation.</p>
 <p>Frequently, when I was at recreation and had occasion to work with this Sister, I used to run away like a deserter whenever my struggles became too violent. As she was absolutely unaware of my feelings for her, never did she suspect the motives for my conduct and she remained convinced that her character was very pleasing to me.</p>`,
         scripture: 'Matthew 5:44 - "But I say to you, Love your enemies and pray for those who persecute you."',
-        prayer: 'Lord, give me the grace to love those I find difficult. Help me to see Your image in every person and to treat them with kindness regardless of my feelings. May I pray for those who irritate me and serve them with joy. Transform my heart to love as You love. Amen.'
+        prayer: 'Lord, give me the grace to love those I find difficult. Help me to see Your image in every person and to treat them with kindness regardless of my feelings. May I pray for those who irritate me and serve them with joy. Transform my heart to love as You love. Amen.',
+      bibleLink: {
+        book: 'colossians',
+        chapter: 1,
+        label: 'Colossians 1'
+      },
+      blogLink: {
+        slug: 'saint-patrick-day-2026-faith-history-celebration',
+        title: 'Saint Patrick: Faith & History'
+      }
       },
       {
         day: 7,
@@ -271,7 +325,16 @@ export const devotionals: Devotional[] = [
 <p>Why would Jesus not allow me to imitate them? You see that if I am leaving the field of battle, it is not with the selfish desire of taking my rest. The thought of eternal beatitude hardly thrills my heart. For a long time, suffering has become my heaven here below, and I really have difficulty in conceiving how I shall be able to acclimatize myself in a country where joy reigns without any admixture of sadness.</p>
 <p>Jesus will have to transform my soul and give it the capacity to rejoice; otherwise I would not be able to put up with eternal delights. What attracts me to the homeland of heaven is the Lord's call, the hope of loving Him finally as I have so much desired to love Him, and the thought that I shall be able to make Him loved by a multitude of souls who will bless Him eternally.</p>`,
         scripture: 'Revelation 14:13 - "Blessed are the dead who die in the Lord from now on. Blessed indeed, says the Spirit, that they may rest from their labors, for their deeds follow them!"',
-        prayer: 'St. Thérèse, Little Flower of Jesus, you promised to spend your heaven doing good on earth. Shower down your roses of grace upon me. Intercede for me before the throne of God. Help me to follow your Little Way of trust and love, that I too may bring souls to Jesus. Amen.'
+        prayer: 'St. Thérèse, Little Flower of Jesus, you promised to spend your heaven doing good on earth. Shower down your roses of grace upon me. Intercede for me before the throne of God. Help me to follow your Little Way of trust and love, that I too may bring souls to Jesus. Amen.',
+      bibleLink: {
+        book: '1-corinthians',
+        chapter: 13,
+        label: '1 Corinthians 13'
+      },
+      blogLink: {
+        slug: 'catholic-faith-mental-health-2026-complete-guide',
+        title: 'Faith and Mental Health'
+      }
       }
     ]
   },
@@ -310,7 +373,16 @@ export const devotionals: Devotional[] = [
 <p>In 1224, while praying on Mount La Verna, Francis received the stigmata—the wounds of Christ—becoming the first recorded person to bear these marks. He died on October 3, 1226, singing Psalm 142 and welcoming "Sister Death."</p>
 <p><strong>Spiritual Lesson:</strong> St. Francis teaches us the freedom that comes from detachment from material things. His love for creation, his embrace of poverty, and his joy in serving the poor and the sick show us how to follow Christ radically in our own circumstances.</p>`,
         scripture: 'Matthew 19:21 - "Jesus said to him, If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven; and come, follow me."',
-        prayer: 'Lord, make me an instrument of Your peace. Where there is hatred, let me sow love; where there is injury, pardon; where there is doubt, faith; where there is despair, hope; where there is darkness, light; where there is sadness, joy. O Divine Master, grant that I may not so much seek to be consoled as to console, to be understood as to understand, to be loved as to love. For it is in giving that we receive, it is in pardoning that we are pardoned, and it is in dying that we are born to eternal life. Amen.'
+        prayer: 'Lord, make me an instrument of Your peace. Where there is hatred, let me sow love; where there is injury, pardon; where there is doubt, faith; where there is despair, hope; where there is darkness, light; where there is sadness, joy. O Divine Master, grant that I may not so much seek to be consoled as to console, to be understood as to understand, to be loved as to love. For it is in giving that we receive, it is in pardoning that we are pardoned, and it is in dying that we are born to eternal life. Amen.',
+      bibleLink: {
+        book: 'galatians',
+        chapter: 5,
+        label: 'Galatians 5'
+      },
+      blogLink: {
+        slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+        title: 'Catholic Ethics Guide'
+      }
       },
       {
         day: 3,
@@ -323,7 +395,16 @@ export const devotionals: Devotional[] = [
 <p>He founded the Casa Sollievo della Sofferenza (Home for the Relief of Suffering), a hospital that continues to serve thousands. He died on September 23, 1968, and was canonized by Pope John Paul II in 2002.</p>
 <p><strong>Spiritual Lesson:</strong> Padre Pio teaches us the power of the sacraments, especially Confession and the Eucharist. His life shows that suffering united to Christ's Passion has redemptive value, and that obedience to the Church, even when difficult, is the path of holiness.</p>`,
         scripture: 'Galatians 6:17 - "From now on let no one cause me trouble, for I bear on my body the marks of Jesus."',
-        prayer: 'St. Padre Pio, you bore the wounds of Christ in your body and the love of Christ in your heart. Intercede for me, that I may have a deep love for the Eucharist and a sincere sorrow for my sins. Help me to embrace my daily crosses with patience and to offer them for the salvation of souls. Pray for me, that I may persevere in faith until the end. Amen.'
+        prayer: 'St. Padre Pio, you bore the wounds of Christ in your body and the love of Christ in your heart. Intercede for me, that I may have a deep love for the Eucharist and a sincere sorrow for my sins. Help me to embrace my daily crosses with patience and to offer them for the salvation of souls. Pray for me, that I may persevere in faith until the end. Amen.',
+      bibleLink: {
+        book: 'ephesians',
+        chapter: 2,
+        label: 'Ephesians 2'
+      },
+      blogLink: {
+        slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+        title: 'Lent: 40 Days of Transformation'
+      }
       },
       {
         day: 4,
@@ -336,7 +417,16 @@ export const devotionals: Devotional[] = [
 <p>She received the Nobel Peace Prize in 1979 and died on September 5, 1997. She was canonized by Pope Francis in 2016.</p>
 <p><strong>Spiritual Lesson:</strong> Mother Teresa teaches us to see Christ in the distressing disguise of the poor. Her hidden suffering shows that feelings are not faith—we can serve God faithfully even when we don't feel His presence. "Do small things with great love."</p>`,
         scripture: 'Matthew 25:40 - "Truly, I say to you, as you did it to one of the least of these my brothers, you did it to me."',
-        prayer: 'St. Teresa of Calcutta, you saw the face of Jesus in the poorest of the poor. Help me to recognize Christ in everyone I meet, especially those who are suffering, lonely, or forgotten. Give me the courage to serve with joy, even when I feel empty inside. Teach me that it is not about what I feel but about what I do for love of God. Amen.'
+        prayer: 'St. Teresa of Calcutta, you saw the face of Jesus in the poorest of the poor. Help me to recognize Christ in everyone I meet, especially those who are suffering, lonely, or forgotten. Give me the courage to serve with joy, even when I feel empty inside. Teach me that it is not about what I feel but about what I do for love of God. Amen.',
+      bibleLink: {
+        book: 'james',
+        chapter: 1,
+        label: 'James 1'
+      },
+      blogLink: {
+        slug: 'saint-patrick-day-2026-faith-history-celebration',
+        title: 'Saint Patrick: Faith & History'
+      }
       },
       {
         day: 5,
@@ -349,7 +439,16 @@ export const devotionals: Devotional[] = [
 <p>In his final years, John Paul II suffered publicly from Parkinson's disease, offering his suffering for the Church. He died on April 2, 2005, and was canonized in 2014.</p>
 <p><strong>Spiritual Lesson:</strong> St. John Paul II teaches us to "Be not afraid!" His life shows that suffering can be redemptive, that forgiveness is always possible, and that every person has infinite dignity as created in God's image.</p>`,
         scripture: 'Joshua 1:9 - "Have I not commanded you? Be strong and courageous. Do not be frightened, and do not be dismayed, for the Lord your God is with you wherever you go."',
-        prayer: 'St. John Paul II, you taught us not to be afraid and to open wide the doors to Christ. Help me to embrace my vocation with courage and to defend the dignity of every human life. Intercede for the Church you loved so deeply, for families, for young people, and for all who seek the truth. Totus Tuus—I am all Yours, O Mary. Amen.'
+        prayer: 'St. John Paul II, you taught us not to be afraid and to open wide the doors to Christ. Help me to embrace my vocation with courage and to defend the dignity of every human life. Intercede for the Church you loved so deeply, for families, for young people, and for all who seek the truth. Totus Tuus—I am all Yours, O Mary. Amen.',
+      bibleLink: {
+        book: '1-peter',
+        chapter: 1,
+        label: '1 Peter 1'
+      },
+      blogLink: {
+        slug: 'catholic-faith-mental-health-2026-complete-guide',
+        title: 'Faith and Mental Health'
+      }
       },
       {
         day: 6,
@@ -362,7 +461,16 @@ export const devotionals: Devotional[] = [
 <p>After two weeks in the starvation bunker, Maximilian was still alive, praying and singing hymns. He was killed by lethal injection on August 14, 1941. He was canonized in 1982, with Franciszek Gajowniczek present at the ceremony.</p>
 <p><strong>Spiritual Lesson:</strong> St. Maximilian Kolbe teaches us that the greatest love is to lay down one's life for another. His devotion to Mary shows us the power of Marian consecration, and his martyrdom reveals that love is stronger than death.</p>`,
         scripture: 'John 15:13 - "Greater love has no one than this, that someone lay down his life for his friends."',
-        prayer: 'St. Maximilian Kolbe, knight of the Immaculata, you gave your life for a stranger out of love for Christ and His Mother. Help me to live with the same selfless love, ready to sacrifice for others. Through your intercession, may I grow in devotion to Mary and in courage to witness to Christ, even unto death. Amen.'
+        prayer: 'St. Maximilian Kolbe, knight of the Immaculata, you gave your life for a stranger out of love for Christ and His Mother. Help me to live with the same selfless love, ready to sacrifice for others. Through your intercession, may I grow in devotion to Mary and in courage to witness to Christ, even unto death. Amen.',
+      bibleLink: {
+        book: '1-john',
+        chapter: 3,
+        label: '1 John 3'
+      },
+      blogLink: {
+        slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+        title: 'Catholic Ethics Guide'
+      }
       },
       {
         day: 7,
@@ -405,7 +513,16 @@ export const devotionals: Devotional[] = [
 </ol>
 <p>The Examen typically takes 10-15 minutes and can be done at any time, though evening is traditional. With practice, it becomes a natural way of living in God's presence throughout the day.</p>`,
         scripture: 'Psalm 139:23-24 - "Search me, O God, and know my heart! Try me and know my thoughts! And see if there be any grievous way in me, and lead me in the way everlasting!"',
-        prayer: 'Lord, I believe You are present with me now. Open my eyes to see where You have been at work in my life today. Give me a grateful heart for Your many blessings. Help me to recognize the movements of Your Spirit and to follow where You lead. I offer You this day and ask for Your grace for tomorrow. Amen.'
+        prayer: 'Lord, I believe You are present with me now. Open my eyes to see where You have been at work in my life today. Give me a grateful heart for Your many blessings. Help me to recognize the movements of Your Spirit and to follow where You lead. I offer You this day and ask for Your grace for tomorrow. Amen.',
+      bibleLink: {
+        book: 'hebrews',
+        chapter: 11,
+        label: 'Hebrews 11'
+      },
+      blogLink: {
+        slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+        title: 'Lent: 40 Days of Transformation'
+      }
       },
       {
         day: 2,
@@ -428,7 +545,16 @@ export const devotionals: Devotional[] = [
 <p><strong>The Fruit of Gratitude:</strong></p>
 <p>Regular practice of gratitude in the Examen leads to a more joyful, peaceful life. We become less anxious about the future because we trust the God who has blessed us in the past. We become more generous because we recognize that all we have is gift.</p>`,
         scripture: '1 Thessalonians 5:18 - "Give thanks in all circumstances; for this is the will of God in Christ Jesus for you."',
-        prayer: 'Generous God, You shower me with blessings every day, yet I so often fail to notice them. Open my eyes to see Your gifts all around me. Help me to cultivate a grateful heart that recognizes Your presence in every moment. May my gratitude overflow into praise and generous service to others. Amen.'
+        prayer: 'Generous God, You shower me with blessings every day, yet I so often fail to notice them. Open my eyes to see Your gifts all around me. Help me to cultivate a grateful heart that recognizes Your presence in every moment. May my gratitude overflow into praise and generous service to others. Amen.',
+      bibleLink: {
+        book: 'proverbs',
+        chapter: 3,
+        label: 'Proverbs 3'
+      },
+      blogLink: {
+        slug: 'saint-patrick-day-2026-faith-history-celebration',
+        title: 'Saint Patrick: Faith & History'
+      }
       },
       {
         day: 3,
@@ -458,7 +584,16 @@ export const devotionals: Devotional[] = [
 <p>In consolation: Give thanks, store up grace for harder times, and don't make major changes.</p>
 <p>In desolation: Don't make major decisions, increase prayer and penance, remember that it will pass, and trust that God is still present even when you can't feel Him.</p>`,
         scripture: 'Psalm 42:5 - "Why are you cast down, O my soul, and why are you in turmoil within me? Hope in God; for I shall again praise him, my salvation and my God."',
-        prayer: 'Lord, help me to recognize the movements of consolation and desolation in my soul. In times of consolation, keep me humble and grateful. In times of desolation, give me perseverance and trust. May I always seek You, whether I feel Your presence or not, knowing that You never abandon those who love You. Amen.'
+        prayer: 'Lord, help me to recognize the movements of consolation and desolation in my soul. In times of consolation, keep me humble and grateful. In times of desolation, give me perseverance and trust. May I always seek You, whether I feel Your presence or not, knowing that You never abandon those who love You. Amen.',
+      bibleLink: {
+        book: 'isaiah',
+        chapter: 40,
+        label: 'Isaiah 40'
+      },
+      blogLink: {
+        slug: 'catholic-faith-mental-health-2026-complete-guide',
+        title: 'Faith and Mental Health'
+      }
       },
       {
         day: 4,
@@ -481,7 +616,16 @@ export const devotionals: Devotional[] = [
 <p>As you go through your day, try to pause occasionally and ask: "Where is God in this moment?" Over time, this practice becomes second nature, and you begin to live in continuous awareness of God's presence.</p>
 <p>The Examen at day's end then becomes a review of these moments of awareness, deepening your recognition of God's constant companionship.</p>`,
         scripture: 'Acts 17:28 - "In him we live and move and have our being."',
-        prayer: 'Lord, You are present in every moment of my life, yet I so often fail to notice You. Open my eyes to see You in the ordinary events of each day. Help me to find You in my work, my relationships, my joys, and my sorrows. May I become a contemplative in action, always aware of Your loving presence. Amen.'
+        prayer: 'Lord, You are present in every moment of my life, yet I so often fail to notice You. Open my eyes to see You in the ordinary events of each day. Help me to find You in my work, my relationships, my joys, and my sorrows. May I become a contemplative in action, always aware of Your loving presence. Amen.',
+      bibleLink: {
+        book: 'jeremiah',
+        chapter: 29,
+        label: 'Jeremiah 29'
+      },
+      blogLink: {
+        slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+        title: 'Catholic Ethics Guide'
+      }
       },
       {
         day: 5,
@@ -508,7 +652,16 @@ export const devotionals: Devotional[] = [
 <p><strong>Making Decisions:</strong></p>
 <p>When facing a decision, use the Examen to reflect on how different options affect your spiritual state. Which choice brings peace and draws you closer to God? Which causes anxiety or leads you away from Him? These interior movements are important data for discernment.</p>`,
         scripture: 'Romans 12:2 - "Do not be conformed to this world, but be transformed by the renewal of your mind, that by testing you may discern what is the will of God, what is good and acceptable and perfect."',
-        prayer: 'Holy Spirit, guide me in all my decisions. Help me to discern Your will through the practice of the Examen. Give me the wisdom to recognize Your voice and the courage to follow where You lead. May I always choose what brings me closer to You and serves Your kingdom. Amen.'
+        prayer: 'Holy Spirit, guide me in all my decisions. Help me to discern Your will through the practice of the Examen. Give me the wisdom to recognize Your voice and the courage to follow where You lead. May I always choose what brings me closer to You and serves Your kingdom. Amen.',
+      bibleLink: {
+        book: 'luke',
+        chapter: 1,
+        label: 'Luke 1'
+      },
+      blogLink: {
+        slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+        title: 'Lent: 40 Days of Transformation'
+      }
       },
       {
         day: 6,
@@ -529,7 +682,16 @@ export const devotionals: Devotional[] = [
 </ul>
 <p>This honest conversation with God deepens our relationship with Him and helps us understand ourselves better.</p>`,
         scripture: 'Psalm 62:8 - "Trust in him at all times, O people; pour out your heart before him; God is a refuge for us."',
-        prayer: 'Lord, I bring You all my emotions—the joyful and the painful, the peaceful and the anxious. Help me to understand what they reveal about my heart. Heal the wounds that cause negative emotions, and deepen the love that brings joy. May I always be honest with You about what I feel, trusting in Your compassionate understanding. Amen.'
+        prayer: 'Lord, I bring You all my emotions—the joyful and the painful, the peaceful and the anxious. Help me to understand what they reveal about my heart. Heal the wounds that cause negative emotions, and deepen the love that brings joy. May I always be honest with You about what I feel, trusting in Your compassionate understanding. Amen.',
+      bibleLink: {
+        book: 'mark',
+        chapter: 1,
+        label: 'Mark 1'
+      },
+      blogLink: {
+        slug: 'saint-patrick-day-2026-faith-history-celebration',
+        title: 'Saint Patrick: Faith & History'
+      }
       },
       {
         day: 7,
@@ -559,7 +721,16 @@ export const devotionals: Devotional[] = [
 </ul>
 <p>The Examen is a gift from St. Ignatius to the whole Church. May it help you find God in all things and respond generously to His love.</p>`,
         scripture: 'Lamentations 3:40 - "Let us test and examine our ways, and return to the Lord!"',
-        prayer: 'Lord, thank You for the gift of the Examen. Help me to make it a regular part of my life. Through this practice, may I grow in awareness of Your presence, gratitude for Your gifts, and responsiveness to Your grace. Transform me day by day into the person You created me to be. Amen.'
+        prayer: 'Lord, thank You for the gift of the Examen. Help me to make it a regular part of my life. Through this practice, may I grow in awareness of Your presence, gratitude for Your gifts, and responsiveness to Your grace. Transform me day by day into the person You created me to be. Amen.',
+      bibleLink: {
+        book: 'genesis',
+        chapter: 1,
+        label: 'Genesis 1'
+      },
+      blogLink: {
+        slug: 'catholic-faith-mental-health-2026-complete-guide',
+        title: 'Faith and Mental Health'
+      }
       }
     ]
   },
@@ -595,7 +766,16 @@ export const devotionals: Devotional[] = [
 <p>Each Beatitude describes both a present condition and a future promise. The poor in spirit already possess the kingdom; those who mourn will be comforted. This "already but not yet" quality reminds us that we live between Christ's first and second coming, experiencing foretastes of heaven while awaiting its fullness.</p>
 <p>Which Beatitude speaks most to your life right now? Perhaps you are mourning a loss and need to hear the promise of comfort. Perhaps you are called to be a peacemaker in a divided family or workplace. Let Jesus' words penetrate your heart and show you the path to true blessedness.</p>`,
         scripture: 'Matthew 5:3 - "Blessed are the poor in spirit, for theirs is the kingdom of heaven."',
-        prayer: 'Lord Jesus, You taught us the way to true happiness in the Beatitudes. Help me to embrace poverty of spirit, to mourn my sins, to be meek and merciful. Purify my heart that I may see You. Make me an instrument of Your peace. Give me courage to endure persecution for Your sake. May I find my joy not in worldly success but in following You. Amen.'
+        prayer: 'Lord Jesus, You taught us the way to true happiness in the Beatitudes. Help me to embrace poverty of spirit, to mourn my sins, to be meek and merciful. Purify my heart that I may see You. Make me an instrument of Your peace. Give me courage to endure persecution for Your sake. May I find my joy not in worldly success but in following You. Amen.',
+      bibleLink: {
+        book: 'exodus',
+        chapter: 3,
+        label: 'Exodus 3'
+      },
+      blogLink: {
+        slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+        title: 'Catholic Ethics Guide'
+      }
       },
       {
         day: 2,
@@ -613,7 +793,16 @@ export const devotionals: Devotional[] = [
 <p>The Church Fathers saw in this passage a reference to the Eucharist—the Good Shepherd feeds His sheep with His own Body and Blood. They also saw a call to Church leaders to imitate Christ's self-sacrificing love.</p>
 <p>Do you know the voice of the Good Shepherd? In prayer, in Scripture, in the teaching of the Church, He speaks to you. Listen for His voice today.</p>`,
         scripture: 'John 10:14 - "I am the good shepherd. I know my own and my own know me."',
-        prayer: 'Good Shepherd, thank You for knowing me by name and loving me despite my wanderings. Help me to recognize Your voice amid the noise of the world. Lead me in paths of righteousness. When I stray, seek me out and bring me back to the fold. Feed me with Your Body and Blood, that I may have life in abundance. Amen.'
+        prayer: 'Good Shepherd, thank You for knowing me by name and loving me despite my wanderings. Help me to recognize Your voice amid the noise of the world. Lead me in paths of righteousness. When I stray, seek me out and bring me back to the fold. Feed me with Your Body and Blood, that I may have life in abundance. Amen.',
+      bibleLink: {
+        book: 'matthew',
+        chapter: 6,
+        label: 'Matthew 6'
+      },
+      blogLink: {
+        slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+        title: 'Lent: 40 Days of Transformation'
+      }
       },
       {
         day: 3,
@@ -631,7 +820,16 @@ export const devotionals: Devotional[] = [
 <p>This is how God receives us in the Sacrament of Confession. No matter how far we have wandered, no matter how much we have squandered, the Father runs to meet us when we turn back to Him. He doesn't lecture us or make us earn our way back. He restores us fully and celebrates our return.</p>
 <p>Pope Francis has called this "the parable of parables" because it reveals the essence of the Gospel: God's unconditional, merciful love for sinners. Have you experienced this mercy? Is there someone you need to forgive as the Father forgave?</p>`,
         scripture: 'Luke 15:20 - "But while he was still a long way off, his father saw him and felt compassion, and ran and embraced him and kissed him."',
-        prayer: 'Merciful Father, like the prodigal son, I have wandered far from You and squandered Your gifts. I come to You now, not worthy to be called Your child. Yet I trust in Your infinite mercy. Embrace me, restore me, and help me to live as Your beloved son/daughter. May I also show mercy to others as You have shown mercy to me. Amen.'
+        prayer: 'Merciful Father, like the prodigal son, I have wandered far from You and squandered Your gifts. I come to You now, not worthy to be called Your child. Yet I trust in Your infinite mercy. Embrace me, restore me, and help me to live as Your beloved son/daughter. May I also show mercy to others as You have shown mercy to me. Amen.',
+      bibleLink: {
+        book: 'john',
+        chapter: 3,
+        label: 'John 3'
+      },
+      blogLink: {
+        slug: 'saint-patrick-day-2026-faith-history-celebration',
+        title: 'Saint Patrick: Faith & History'
+      }
       },
       {
         day: 4,
@@ -648,7 +846,16 @@ export const devotionals: Devotional[] = [
 <p>When we receive Holy Communion worthily, we receive Jesus Himself. He abides in us and we in Him. This intimate union transforms us, giving us the grace to live as His disciples and the promise of eternal life.</p>
 <p>How do you prepare to receive the Eucharist? Do you approach with faith, reverence, and gratitude? The Bread of Life is offered to you—receive Him with love.</p>`,
         scripture: 'John 6:56 - "Whoever feeds on my flesh and drinks my blood abides in me, and I in him."',
-        prayer: 'Lord Jesus, Bread of Life, I believe that You are truly present in the Eucharist—Body, Blood, Soul, and Divinity. Increase my faith and my love for this great sacrament. Help me to receive You worthily, with a pure heart and deep reverence. May each Communion draw me closer to You and transform me more fully into Your likeness. Amen.'
+        prayer: 'Lord Jesus, Bread of Life, I believe that You are truly present in the Eucharist—Body, Blood, Soul, and Divinity. Increase my faith and my love for this great sacrament. Help me to receive You worthily, with a pure heart and deep reverence. May each Communion draw me closer to You and transform me more fully into Your likeness. Amen.',
+      bibleLink: {
+        book: 'psalms',
+        chapter: 27,
+        label: 'Psalms 27'
+      },
+      blogLink: {
+        slug: 'catholic-faith-mental-health-2026-complete-guide',
+        title: 'Faith and Mental Health'
+      }
       },
       {
         day: 5,
@@ -664,7 +871,16 @@ export const devotionals: Devotional[] = [
 <p>The Catechism explains that these commandments are not burdensome obligations but invitations to happiness: "The Decalogue forms a coherent whole. Each 'word' refers to each of the others and to all of them; they reciprocally condition one another. The two tables shed light on one another; they form an organic unity" (CCC 2069).</p>
 <p>How are you loving God today? How are you loving your neighbor? These questions should guide our daily examination of conscience.</p>`,
         scripture: 'Matthew 22:37-39 - "You shall love the Lord your God with all your heart and with all your soul and with all your mind... You shall love your neighbor as yourself."',
-        prayer: 'Lord, help me to love You with all my heart, soul, and mind. Remove from me everything that competes with my love for You. And help me to love my neighbor—especially those who are difficult to love—as I love myself. May my love be not just in words but in deeds, following the example of Your Son, who loved us to the end. Amen.'
+        prayer: 'Lord, help me to love You with all my heart, soul, and mind. Remove from me everything that competes with my love for You. And help me to love my neighbor—especially those who are difficult to love—as I love myself. May my love be not just in words but in deeds, following the example of Your Son, who loved us to the end. Amen.',
+      bibleLink: {
+        book: 'romans',
+        chapter: 8,
+        label: 'Romans 8'
+      },
+      blogLink: {
+        slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+        title: 'Catholic Ethics Guide'
+      }
       },
       {
         day: 6,
@@ -681,7 +897,16 @@ export const devotionals: Devotional[] = [
 <p>Notice also the role of pruning. Even fruitful branches are pruned so they can bear more fruit. God's pruning in our lives—through trials, corrections, and the stripping away of attachments—is not punishment but loving cultivation. He wants us to bear abundant fruit.</p>
 <p>What fruit is your life producing? The fruit of the Spirit is "love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control" (Galatians 5:22-23). These are the signs of a branch that abides in the vine.</p>`,
         scripture: 'John 15:5 - "I am the vine; you are the branches. Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing."',
-        prayer: 'Lord Jesus, true Vine, help me to abide in You always. May I never be separated from You by sin or neglect. Prune away everything in me that prevents fruitfulness. Fill me with Your life, that I may bear abundant fruit for the glory of the Father. Apart from You, I can do nothing; in You, I can do all things. Amen.'
+        prayer: 'Lord Jesus, true Vine, help me to abide in You always. May I never be separated from You by sin or neglect. Prune away everything in me that prevents fruitfulness. Fill me with Your life, that I may bear abundant fruit for the glory of the Father. Apart from You, I can do nothing; in You, I can do all things. Amen.',
+      bibleLink: {
+        book: 'philippians',
+        chapter: 4,
+        label: 'Philippians 4'
+      },
+      blogLink: {
+        slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+        title: 'Lent: 40 Days of Transformation'
+      }
       },
       {
         day: 7,
@@ -701,7 +926,16 @@ export const devotionals: Devotional[] = [
 <p>The Catechism teaches: "By his death, Christ liberates us from sin; by his Resurrection, he opens for us the way to a new life" (CCC 654). The resurrection of Lazarus foreshadows Christ's own resurrection and the resurrection of all the faithful at the end of time.</p>
 <p>Do you believe this? In the face of death—your own or that of loved ones—do you trust that Jesus is the resurrection and the life?</p>`,
         scripture: 'John 11:25-26 - "I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live, and everyone who lives and believes in me shall never die."',
-        prayer: 'Lord Jesus, resurrection and life, I believe in You. Strengthen my faith when I face death and loss. Help me to trust that those who die in You will live forever. May the hope of resurrection transform how I live today, freeing me from fear and filling me with joy. I believe; help my unbelief. Amen.'
+        prayer: 'Lord Jesus, resurrection and life, I believe in You. Strengthen my faith when I face death and loss. Help me to trust that those who die in You will live forever. May the hope of resurrection transform how I live today, freeing me from fear and filling me with joy. I believe; help my unbelief. Amen.',
+      bibleLink: {
+        book: 'colossians',
+        chapter: 3,
+        label: 'Colossians 3'
+      },
+      blogLink: {
+        slug: 'saint-patrick-day-2026-faith-history-celebration',
+        title: 'Saint Patrick: Faith & History'
+      }
       }
     ]
   },
@@ -726,7 +960,16 @@ export const devotionals: Devotional[] = [
 <p>The words "Jesus, I trust in You" are the heart of the Divine Mercy message. Trust is the vessel that draws mercy from the ocean of God's love. The more we trust, the more we receive.</p>
 <p>What does it mean to trust in Jesus? It means believing that His mercy is greater than our sins. It means turning to Him in every need, confident that He will help us. It means surrendering our lives to His loving care.</p>`,
         scripture: 'Psalm 13:5 - "But I have trusted in your steadfast love; my heart shall rejoice in your salvation."',
-        prayer: 'Jesus, I trust in You. I trust in Your infinite mercy, which is greater than all my sins. I trust in Your love, which never fails. I trust in Your providence, which guides my life. Help me to trust You more each day, especially when I am afraid or discouraged. Jesus, I trust in You. Amen.'
+        prayer: 'Jesus, I trust in You. I trust in Your infinite mercy, which is greater than all my sins. I trust in Your love, which never fails. I trust in Your providence, which guides my life. Help me to trust You more each day, especially when I am afraid or discouraged. Jesus, I trust in You. Amen.',
+      bibleLink: {
+        book: '1-corinthians',
+        chapter: 15,
+        label: '1 Corinthians 15'
+      },
+      blogLink: {
+        slug: 'catholic-faith-mental-health-2026-complete-guide',
+        title: 'Faith and Mental Health'
+      }
       },
       {
         day: 2,
@@ -738,7 +981,16 @@ export const devotionals: Devotional[] = [
 <p>St. John witnessed blood and water flowing from Jesus' side (John 19:34). The Church Fathers saw in this the birth of the Church and the sacraments. From the wounded Heart of Christ, the Bride of Christ is born.</p>
 <p>How often do you approach these fountains of mercy? Baptism is received once, but its graces can be renewed through the sacrament of Confession. The Eucharist is offered daily—do you receive it as often as you can?</p>`,
         scripture: 'John 19:34 - "But one of the soldiers pierced his side with a spear, and at once there came out blood and water."',
-        prayer: 'Lord Jesus, from Your pierced Heart flow the waters of Baptism and the Blood of the Eucharist. Thank You for these fountains of mercy. Help me to approach the sacraments frequently and with great faith. May the water cleanse me and the blood strengthen me, that I may live always in Your mercy. Amen.'
+        prayer: 'Lord Jesus, from Your pierced Heart flow the waters of Baptism and the Blood of the Eucharist. Thank You for these fountains of mercy. Help me to approach the sacraments frequently and with great faith. May the water cleanse me and the blood strengthen me, that I may live always in Your mercy. Amen.',
+      bibleLink: {
+        book: 'galatians',
+        chapter: 6,
+        label: 'Galatians 6'
+      },
+      blogLink: {
+        slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+        title: 'Catholic Ethics Guide'
+      }
       },
       {
         day: 3,
@@ -752,7 +1004,16 @@ export const devotionals: Devotional[] = [
 <p><strong>Closing (3 times):</strong> "Holy God, Holy Mighty One, Holy Immortal One, have mercy on us and on the whole world."</p>
 <p>Jesus made extraordinary promises to those who pray this chaplet: "Whoever will recite it will receive great mercy at the hour of death... Even if there were a sinner most hardened, if he were to recite this chaplet only once, he would receive grace from My infinite mercy" (Diary, 687).</p>`,
         scripture: 'Hebrews 4:16 - "Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need."',
-        prayer: 'Eternal Father, I offer You the Body and Blood, Soul and Divinity of Your dearly beloved Son, Our Lord Jesus Christ, in atonement for our sins and those of the whole world. For the sake of His sorrowful Passion, have mercy on us and on the whole world. Amen.'
+        prayer: 'Eternal Father, I offer You the Body and Blood, Soul and Divinity of Your dearly beloved Son, Our Lord Jesus Christ, in atonement for our sins and those of the whole world. For the sake of His sorrowful Passion, have mercy on us and on the whole world. Amen.',
+      bibleLink: {
+        book: 'ephesians',
+        chapter: 3,
+        label: 'Ephesians 3'
+      },
+      blogLink: {
+        slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+        title: 'Lent: 40 Days of Transformation'
+      }
       },
       {
         day: 4,
@@ -776,7 +1037,16 @@ export const devotionals: Devotional[] = [
 <p>The only thing that can block God's mercy is our refusal to accept it. If we turn to Him with trust, He will forgive. If we harden our hearts and refuse to repent, we exclude ourselves from mercy—not because God withholds it, but because we reject it.</p>
 <p>Do you struggle to believe that God can forgive your sins? Do you feel unworthy of His mercy? Remember: mercy is not for the worthy but for the unworthy. That's what makes it mercy. Trust in the abyss of God's compassion.</p>`,
         scripture: '1 Timothy 1:15 - "The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners, of whom I am the foremost."',
-        prayer: 'Merciful Jesus, I am a sinner, but I trust in Your infinite mercy. I do not rely on my own goodness but on Your compassionate love. Forgive my sins, heal my wounds, and transform my heart. Help me to believe that Your mercy is greater than all my failures. Jesus, I trust in You. Amen.'
+        prayer: 'Merciful Jesus, I am a sinner, but I trust in Your infinite mercy. I do not rely on my own goodness but on Your compassionate love. Forgive my sins, heal my wounds, and transform my heart. Help me to believe that Your mercy is greater than all my failures. Jesus, I trust in You. Amen.',
+      bibleLink: {
+        book: 'james',
+        chapter: 2,
+        label: 'James 2'
+      },
+      blogLink: {
+        slug: 'saint-patrick-day-2026-faith-history-celebration',
+        title: 'Saint Patrick: Faith & History'
+      }
       },
       {
         day: 6,
@@ -789,7 +1059,16 @@ export const devotionals: Devotional[] = [
 <p><strong>Mercy in prayer:</strong> Interceding for sinners, praying for the dying, offering sacrifices for the conversion of souls.</p>
 <p>Jesus warned: "If a soul does not exercise mercy somehow or other, it will not obtain My mercy on the day of judgment" (Diary, 1317). This is not a threat but a spiritual law: we receive mercy in the measure that we give it.</p>`,
         scripture: 'Matthew 5:7 - "Blessed are the merciful, for they shall receive mercy."',
-        prayer: 'Lord Jesus, You have shown me infinite mercy. Help me to show mercy to others—in deed, in word, and in prayer. Soften my heart toward those who have hurt me. Open my eyes to see the needs of those around me. Make me an instrument of Your mercy in the world. Amen.'
+        prayer: 'Lord Jesus, You have shown me infinite mercy. Help me to show mercy to others—in deed, in word, and in prayer. Soften my heart toward those who have hurt me. Open my eyes to see the needs of those around me. Make me an instrument of Your mercy in the world. Amen.',
+      bibleLink: {
+        book: '1-peter',
+        chapter: 2,
+        label: '1 Peter 2'
+      },
+      blogLink: {
+        slug: 'catholic-faith-mental-health-2026-complete-guide',
+        title: 'Faith and Mental Health'
+      }
       },
       {
         day: 7,
@@ -801,7 +1080,16 @@ export const devotionals: Devotional[] = [
 <p>Jesus said: "On that day all the divine floodgates through which graces flow are opened." This is a day of extraordinary grace, a day to approach the throne of mercy with confidence.</p>
 <p>Prepare for Divine Mercy Sunday by making a good Confession, praying the Divine Mercy Novena (which begins on Good Friday), and approaching Holy Communion with great faith and trust.</p>`,
         scripture: 'John 20:19-23 - "On the evening of that day, the first day of the week... Jesus came and stood among them and said to them, Peace be with you... He breathed on them and said to them, Receive the Holy Spirit. If you forgive the sins of any, they are forgiven them."',
-        prayer: 'Lord Jesus, thank You for the gift of Divine Mercy Sunday. Help me to prepare well for this great feast by making a sincere Confession and approaching Holy Communion with faith. Open the floodgates of Your mercy upon me and upon the whole world. May this feast be a new beginning of life in Your grace. Jesus, I trust in You. Amen.'
+        prayer: 'Lord Jesus, thank You for the gift of Divine Mercy Sunday. Help me to prepare well for this great feast by making a sincere Confession and approaching Holy Communion with faith. Open the floodgates of Your mercy upon me and upon the whole world. May this feast be a new beginning of life in Your grace. Jesus, I trust in You. Amen.',
+      bibleLink: {
+        book: '1-john',
+        chapter: 4,
+        label: '1 John 4'
+      },
+      blogLink: {
+        slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+        title: 'Catholic Ethics Guide'
+      }
       }
     ]
   },
@@ -827,7 +1115,16 @@ export const devotionals: Devotional[] = [
 <p><strong>Fasting:</strong> We fast to discipline our bodies and create space for God. Today is a day of fasting (one full meal, two smaller meals) and abstinence from meat. But fasting can extend beyond food—consider fasting from social media, television, or other distractions.</p>
 <p><strong>Almsgiving:</strong> What we save through fasting, we give to the poor. Almsgiving opens our hearts to others and reminds us that our possessions are meant to be shared.</p>`,
         scripture: 'Joel 2:12-13 - "Yet even now, declares the Lord, return to me with all your heart, with fasting, with weeping, and with mourning; and rend your hearts and not your garments."',
-        prayer: 'Lord, as I begin this Lenten journey, I acknowledge my need for Your mercy. I am dust, but You have breathed into me the breath of life. Help me to use these forty days well—to pray more deeply, to fast more generously, to give more freely. Prepare my heart to celebrate the joy of Easter. Amen.'
+        prayer: 'Lord, as I begin this Lenten journey, I acknowledge my need for Your mercy. I am dust, but You have breathed into me the breath of life. Help me to use these forty days well—to pray more deeply, to fast more generously, to give more freely. Prepare my heart to celebrate the joy of Easter. Amen.',
+      bibleLink: {
+        book: 'hebrews',
+        chapter: 12,
+        label: 'Hebrews 12'
+      },
+      blogLink: {
+        slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+        title: 'Lent: 40 Days of Transformation'
+      }
       },
       {
         day: 2,
@@ -843,7 +1140,16 @@ export const devotionals: Devotional[] = [
 <li>How can you unite your suffering to Christ's Passion?</li>
 </ul>`,
         scripture: 'Luke 9:23 - "If anyone would come after me, let him deny himself and take up his cross daily and follow me."',
-        prayer: 'Lord Jesus, You carried the Cross for my salvation. Help me to carry my daily crosses with patience and love. When I am tempted to complain or give up, remind me of Your example. Unite my sufferings to Yours, that they may bear fruit for the salvation of souls. Amen.'
+        prayer: 'Lord Jesus, You carried the Cross for my salvation. Help me to carry my daily crosses with patience and love. When I am tempted to complain or give up, remind me of Your example. Unite my sufferings to Yours, that they may bear fruit for the salvation of souls. Amen.',
+      bibleLink: {
+        book: 'proverbs',
+        chapter: 4,
+        label: 'Proverbs 4'
+      },
+      blogLink: {
+        slug: 'saint-patrick-day-2026-faith-history-celebration',
+        title: 'Saint Patrick: Faith & History'
+      }
       },
       {
         day: 3,
@@ -860,7 +1166,16 @@ export const devotionals: Devotional[] = [
 <li>Face honestly the areas where you need conversion</li>
 </ul>`,
         scripture: 'Matthew 4:1-2 - "Then Jesus was led up by the Spirit into the wilderness to be tempted by the devil. And after fasting forty days and forty nights, he was hungry."',
-        prayer: 'Lord, lead me into the desert this Lent. Strip away everything that distracts me from You. Help me to face my temptations honestly and to rely on Your grace. In the silence and emptiness, speak to my heart. Prepare me to celebrate Your resurrection with joy. Amen.'
+        prayer: 'Lord, lead me into the desert this Lent. Strip away everything that distracts me from You. Help me to face my temptations honestly and to rely on Your grace. In the silence and emptiness, speak to my heart. Prepare me to celebrate Your resurrection with joy. Amen.',
+      bibleLink: {
+        book: 'isaiah',
+        chapter: 41,
+        label: 'Isaiah 41'
+      },
+      blogLink: {
+        slug: 'catholic-faith-mental-health-2026-complete-guide',
+        title: 'Faith and Mental Health'
+      }
       },
       {
         day: 4,
@@ -874,7 +1189,16 @@ export const devotionals: Devotional[] = [
 <p><strong>The Fruit of Fasting:</strong></p>
 <p>Fasting should lead to greater charity. What we save through fasting, we give to the poor. Our self-denial becomes a gift to others.</p>`,
         scripture: 'Isaiah 58:6-7 - "Is not this the fast that I choose: to loose the bonds of wickedness, to undo the straps of the yoke, to let the oppressed go free... Is it not to share your bread with the hungry?"',
-        prayer: 'Lord, help me to fast with the right intention—not for show, but for love of You. May my fasting create space for prayer and grow my compassion for the poor. When I feel hungry or deprived, remind me that You alone can satisfy the deepest hunger of my heart. Amen.'
+        prayer: 'Lord, help me to fast with the right intention—not for show, but for love of You. May my fasting create space for prayer and grow my compassion for the poor. When I feel hungry or deprived, remind me that You alone can satisfy the deepest hunger of my heart. Amen.',
+      bibleLink: {
+        book: 'jeremiah',
+        chapter: 31,
+        label: 'Jeremiah 31'
+      },
+      blogLink: {
+        slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+        title: 'Catholic Ethics Guide'
+      }
       },
       {
         day: 5,
@@ -894,7 +1218,16 @@ export const devotionals: Devotional[] = [
 <li>Begin or end each day with the Examen</li>
 </ul>`,
         scripture: 'Matthew 6:6 - "But when you pray, go into your room and shut the door and pray to your Father who is in secret. And your Father who sees in secret will reward you."',
-        prayer: 'Lord, teach me to pray. Help me to make time for You each day, even when I am busy or distracted. Quiet my mind and open my heart to hear Your voice. May my prayer this Lent draw me closer to You and transform my life. Amen.'
+        prayer: 'Lord, teach me to pray. Help me to make time for You each day, even when I am busy or distracted. Quiet my mind and open my heart to hear Your voice. May my prayer this Lent draw me closer to You and transform my life. Amen.',
+      bibleLink: {
+        book: 'luke',
+        chapter: 2,
+        label: 'Luke 2'
+      },
+      blogLink: {
+        slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+        title: 'Lent: 40 Days of Transformation'
+      }
       },
       {
         day: 6,
@@ -913,7 +1246,16 @@ export const devotionals: Devotional[] = [
 </ul>
 <p>The Fathers of the Church taught that almsgiving is a form of prayer. When we give to the poor, we give to Christ Himself: "As you did it to one of the least of these my brothers, you did it to me" (Matthew 25:40).</p>`,
         scripture: 'Tobit 12:8-9 - "Prayer with fasting is good, but better than both is almsgiving with righteousness... For almsgiving saves from death and purges away every sin."',
-        prayer: 'Generous God, everything I have comes from You. Help me to share Your gifts with those in need. Open my eyes to see Christ in the poor and suffering. May my almsgiving this Lent be an expression of love for You and for my neighbor. Amen.'
+        prayer: 'Generous God, everything I have comes from You. Help me to share Your gifts with those in need. Open my eyes to see Christ in the poor and suffering. May my almsgiving this Lent be an expression of love for You and for my neighbor. Amen.',
+      bibleLink: {
+        book: 'mark',
+        chapter: 10,
+        label: 'Mark 10'
+      },
+      blogLink: {
+        slug: 'saint-patrick-day-2026-faith-history-celebration',
+        title: 'Saint Patrick: Faith & History'
+      }
       },
       {
         day: 7,
@@ -930,7 +1272,16 @@ export const devotionals: Devotional[] = [
 </ol>
 <p>Jesus said to the apostles: "If you forgive the sins of any, they are forgiven them" (John 20:23). In Confession, we hear these words spoken to us personally: "I absolve you from your sins."</p>`,
         scripture: '1 John 1:9 - "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness."',
-        prayer: 'Merciful Father, I have sinned against You and against my neighbor. I am sorry for my sins and I ask for Your forgiveness. Give me the courage to make a good Confession this Lent. Help me to experience the joy of Your mercy and to begin again with a clean heart. Amen.'
+        prayer: 'Merciful Father, I have sinned against You and against my neighbor. I am sorry for my sins and I ask for Your forgiveness. Give me the courage to make a good Confession this Lent. Help me to experience the joy of Your mercy and to begin again with a clean heart. Amen.',
+      bibleLink: {
+        book: 'genesis',
+        chapter: 12,
+        label: 'Genesis 12'
+      },
+      blogLink: {
+        slug: 'catholic-faith-mental-health-2026-complete-guide',
+        title: 'Faith and Mental Health'
+      }
       }
     ]
   }
@@ -977,7 +1328,16 @@ const introductionDevoutLife: Devotional = {
 <p>Devotion is simply a spiritual agility and liveliness by which charity works in us, or we work by charity, promptly and lovingly. Just as charity leads us to observe all God's commandments, so devotion leads us to observe them promptly and diligently.</p>
 <p>In short, devotion is nothing else than a spiritual agility and vivacity by which charity does its work in us, or by aid of which we work quickly and lovingly.</p>`,
       scripture: 'Psalm 119:32 - "I will run in the way of your commandments when you enlarge my heart!"',
-      prayer: 'Lord, I desire to live a devout life, not out of obligation but out of love for You. Help me to serve You not reluctantly but promptly and joyfully. May my devotion be genuine—flowing from a heart transformed by Your grace. St. Francis de Sales, pray for me. Amen.'
+      prayer: 'Lord, I desire to live a devout life, not out of obligation but out of love for You. Help me to serve You not reluctantly but promptly and joyfully. May my devotion be genuine—flowing from a heart transformed by Your grace. St. Francis de Sales, pray for me. Amen.',
+    bibleLink: {
+      book: 'exodus',
+      chapter: 14,
+      label: 'Exodus 14'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 2,
@@ -987,7 +1347,16 @@ const introductionDevoutLife: Devotional = {
 <p>Is it fitting that a bishop should want to live a solitary life like a Carthusian? Or that married people should want to own no more property than a Capuchin? If a workman spent as much time in church as a religious, his work would suffer. Would not such devotion be ridiculous, disorganized, and intolerable?</p>
 <p>True devotion does no harm whatever, but instead perfects everything. When it goes contrary to one's lawful vocation, it is undoubtedly false. The bee gathers honey from flowers without injuring them, leaving them as fresh and whole as it found them. True devotion does even better. It not only does no harm to any vocation or employment, but on the contrary adorns and beautifies it.</p>`,
       scripture: '1 Corinthians 7:17 - "Only let each person lead the life that the Lord has assigned to him, and to which God has called him."',
-      prayer: 'Lord, help me to live my devotion according to my state in life. I do not need to be a monk or nun to be holy—I can find You in my daily duties, my work, my family. Show me how to sanctify the ordinary moments of my life. Amen.'
+      prayer: 'Lord, help me to live my devotion according to my state in life. I do not need to be a monk or nun to be holy—I can find You in my daily duties, my work, my family. Show me how to sanctify the ordinary moments of my life. Amen.',
+    bibleLink: {
+      book: 'matthew',
+      chapter: 7,
+      label: 'Matthew 7'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 3,
@@ -997,7 +1366,16 @@ const introductionDevoutLife: Devotional = {
 <p>When we have found our guide, we must open our hearts to him with all sincerity and fidelity, manifesting clearly and openly both our good and our evil without pretense or dissimulation. By this means our good will be examined and confirmed, and our evil will be corrected and remedied.</p>
 <p>Have great confidence in your director, but let it be mingled with a holy reverence, so that reverence does not diminish confidence nor confidence diminish reverence. Trust him with the respect of a daughter for her father; respect him with the confidence of a son for his mother.</p>`,
       scripture: 'Proverbs 11:14 - "Where there is no guidance, a people falls, but in an abundance of counselors there is safety."',
-      prayer: 'Lord, guide me to a wise spiritual director who can help me on my journey to You. Give me humility to seek guidance and openness to receive correction. May I find in spiritual direction the support I need to grow in holiness. Amen.'
+      prayer: 'Lord, guide me to a wise spiritual director who can help me on my journey to You. Give me humility to seek guidance and openness to receive correction. May I find in spiritual direction the support I need to grow in holiness. Amen.',
+    bibleLink: {
+      book: 'john',
+      chapter: 6,
+      label: 'John 6'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 4,
@@ -1007,7 +1385,16 @@ const introductionDevoutLife: Devotional = {
 <p>The first purification that must be made is that of sin. The means of making it is the holy sacrament of Penance. Seek the best confessor you can find, take in hand one of the many little books written to help examine your conscience, read them carefully, and note point by point wherein you have offended.</p>
 <p>Having made this confession with all possible humility and contrition, listen attentively to the advice and commands of your confessor, and say in your heart, "Speak, Lord, for your servant is listening."</p>`,
       scripture: 'Psalm 51:10 - "Create in me a clean heart, O God, and renew a right spirit within me."',
-      prayer: 'Lord, I desire to begin my devout life with a clean heart. Help me to make a thorough examination of conscience and a sincere confession. Remove from my heart everything that separates me from You. Create in me a new heart, ready to receive Your grace. Amen.'
+      prayer: 'Lord, I desire to begin my devout life with a clean heart. Help me to make a thorough examination of conscience and a sincere confession. Remove from my heart everything that separates me from You. Create in me a new heart, ready to receive Your grace. Amen.',
+    bibleLink: {
+      book: 'psalms',
+      chapter: 34,
+      label: 'Psalms 34'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 5,
@@ -1017,7 +1404,16 @@ const introductionDevoutLife: Devotional = {
 <p>Everyone knows this truth, but not everyone is attentive to it. Blind men do not see a prince who is present among them, and therefore do not show him the respect they would if they saw him. But because they do not see him, they easily forget his presence, and having forgotten it, they still more easily lose the respect due to him.</p>
 <p>We do not see God who is present with us, and although faith assures us of His presence, yet because we do not see Him with our eyes, we often forget Him and behave as if God were far away. We know well that God is present in all things, but because we do not reflect on this, we act as if we did not know it.</p>`,
       scripture: 'Psalm 46:10 - "Be still, and know that I am God."',
-      prayer: 'Lord, help me to be aware of Your presence in every moment. Open the eyes of my heart to see You in all things. May my meditation draw me closer to You and inflame my heart with love. Teach me to be still and know that You are God. Amen.'
+      prayer: 'Lord, help me to be aware of Your presence in every moment. Open the eyes of my heart to see You in all things. May my meditation draw me closer to You and inflame my heart with love. Teach me to be still and know that You are God. Amen.',
+    bibleLink: {
+      book: 'romans',
+      chapter: 12,
+      label: 'Romans 12'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 6,
@@ -1027,7 +1423,16 @@ const introductionDevoutLife: Devotional = {
 <p>Great occasions for serving God come rarely, but little ones surround us daily. He who is faithful in little things will also be faithful in great ones. Do all things in the name of God, and you will do all things well.</p>
 <p>Whether you eat or drink, whether you sleep or take recreation, whether you work or rest, you can always gather the fruit of the little virtues. These little virtues will grow and multiply in your soul like bees in a hive, and will make your spiritual life sweet and delightful.</p>`,
       scripture: 'Luke 16:10 - "One who is faithful in a very little is also faithful in much."',
-      prayer: 'Lord, help me to be faithful in the little things. May I practice patience in small annoyances, kindness in daily interactions, and diligence in ordinary duties. Let me not despise the little virtues, for through them I can grow in holiness every day. Amen.'
+      prayer: 'Lord, help me to be faithful in the little things. May I practice patience in small annoyances, kindness in daily interactions, and diligence in ordinary duties. Let me not despise the little virtues, for through them I can grow in holiness every day. Amen.',
+    bibleLink: {
+      book: 'philippians',
+      chapter: 2,
+      label: 'Philippians 2'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 7,
@@ -1038,7 +1443,16 @@ const introductionDevoutLife: Devotional = {
 <p>Never be astonished at finding yourself imperfect, for you will never be otherwise in this life. Be patient with everyone, but above all with yourself. I mean, do not be disturbed about your imperfections, and always have courage to pick yourself up after a fall.</p>
 <p>Our progress in the devout life depends not on never falling, but on always rising again. The saints themselves fell many times, but they never stayed down. They rose again and continued their journey with renewed fervor.</p>`,
       scripture: 'Proverbs 24:16 - "For the righteous falls seven times and rises again."',
-      prayer: 'Lord, give me perseverance in the devout life. When I fall, help me to rise again without discouragement. May I never give up on the journey to holiness, trusting in Your mercy and grace. St. Francis de Sales, pray for me that I may persevere to the end. Amen.'
+      prayer: 'Lord, give me perseverance in the devout life. When I fall, help me to rise again without discouragement. May I never give up on the journey to holiness, trusting in Your mercy and grace. St. Francis de Sales, pray for me that I may persevere to the end. Amen.',
+    bibleLink: {
+      book: 'colossians',
+      chapter: 1,
+      label: 'Colossians 1'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     }
   ]
 };
@@ -1062,7 +1476,16 @@ const confessionsAugustine: Devotional = {
 <p>This restlessness is not a curse but a gift. It is God's way of drawing us to Himself. The dissatisfaction we feel with earthly things is a sign that we are made for something greater—for eternal union with God.</p>
 <p>Do you feel restless? Do you sense that something is missing in your life? This is the voice of God calling you to Himself. Do not try to silence it with distractions. Let it lead you to the One who alone can satisfy your heart.</p>`,
       scripture: 'Psalm 62:1 - "For God alone my soul waits in silence; from him comes my salvation."',
-      prayer: 'Lord, my heart is restless until it rests in You. I have sought happiness in many places, but only You can satisfy the deepest longings of my soul. Draw me to Yourself. Help me to find in You the peace and joy I seek. Amen.'
+      prayer: 'Lord, my heart is restless until it rests in You. I have sought happiness in many places, but only You can satisfy the deepest longings of my soul. Draw me to Yourself. Help me to find in You the peace and joy I seek. Amen.',
+    bibleLink: {
+      book: '1-corinthians',
+      chapter: 13,
+      label: '1 Corinthians 13'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 2,
@@ -1073,7 +1496,16 @@ const confessionsAugustine: Devotional = {
 <p>"Created things kept me from you; yet if they had not been in you, they would not have been at all." The beauty of creation is meant to lead us to the Creator, but sin distorts our vision so that we stop at creatures instead of rising to God.</p>
 <p>Augustine's conversion came when he finally turned inward and found God waiting for him. "You called, you shouted, and you broke through my deafness. You flashed, you shone, and you dispelled my blindness."</p>`,
       scripture: 'Jeremiah 29:13 - "You will seek me and find me, when you seek me with all your heart."',
-      prayer: 'Lord, You are ever ancient, ever new. Forgive me for seeking You in the wrong places. Open my eyes to see Your presence within me and around me. Help me to love You with my whole heart, without delay. Amen.'
+      prayer: 'Lord, You are ever ancient, ever new. Forgive me for seeking You in the wrong places. Open my eyes to see Your presence within me and around me. Help me to love You with my whole heart, without delay. Amen.',
+    bibleLink: {
+      book: 'galatians',
+      chapter: 5,
+      label: 'Galatians 5'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 3,
@@ -1084,7 +1516,16 @@ const confessionsAugustine: Devotional = {
 <p>Augustine cried out to God: "Give me chastity and continence, but not yet." He wanted to be free from sin, but he also wanted to enjoy it a little longer. This divided will kept him in bondage.</p>
 <p>Only God's grace could break the chains. "You converted me to yourself, so that I no longer sought a wife or any other worldly hope."</p>`,
       scripture: 'John 8:34 - "Jesus answered them, Truly, truly, I say to you, everyone who practices sin is a slave to sin."',
-      prayer: 'Lord, I confess that I am bound by sins I cannot break on my own. Free me from the chains of bad habits and disordered desires. Give me the grace to want what You want, to love what You love. Break the power of sin in my life. Amen.'
+      prayer: 'Lord, I confess that I am bound by sins I cannot break on my own. Free me from the chains of bad habits and disordered desires. Give me the grace to want what You want, to love what You love. Break the power of sin in my life. Amen.',
+    bibleLink: {
+      book: 'ephesians',
+      chapter: 6,
+      label: 'Ephesians 6'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 4,
@@ -1095,7 +1536,16 @@ const confessionsAugustine: Devotional = {
 <p>"I had no wish to read further, and no need. For in that instant, as the sentence ended, there was infused in my heart something like the light of full certainty and all the gloom of doubt vanished away."</p>
 <p>In one moment, God did what Augustine could not do in years of struggle. Grace accomplished what willpower could not achieve.</p>`,
       scripture: 'Romans 13:14 - "But put on the Lord Jesus Christ, and make no provision for the flesh, to gratify its desires."',
-      prayer: 'Lord, I hear Your voice calling me to conversion. Give me the grace to respond without delay. Do in me what I cannot do myself. Put on me the Lord Jesus Christ and free me from the power of sin. Amen.'
+      prayer: 'Lord, I hear Your voice calling me to conversion. Give me the grace to respond without delay. Do in me what I cannot do myself. Put on me the Lord Jesus Christ and free me from the power of sin. Amen.',
+    bibleLink: {
+      book: 'james',
+      chapter: 5,
+      label: 'James 5'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 5,
@@ -1105,7 +1555,16 @@ const confessionsAugustine: Devotional = {
 <p>He also wept for his mother, Monica, who had prayed for his conversion for many years. Her tears had watered the seed of faith that finally bore fruit. "You converted me to yourself, so that I no longer sought a wife or any other worldly hope, standing now on that rule of faith where you had shown me to her in a vision so many years before."</p>
 <p>The gift of tears is a grace. It softens our hearts and opens us to God's mercy. Do not be ashamed to weep before God—for your sins, for His goodness, for the gift of salvation.</p>`,
       scripture: 'Psalm 126:5 - "Those who sow in tears shall reap with shouts of joy!"',
-      prayer: 'Lord, give me the gift of tears—tears of repentance for my sins, tears of gratitude for Your mercy, tears of joy for Your salvation. Soften my heart and open it to receive Your grace. Amen.'
+      prayer: 'Lord, give me the gift of tears—tears of repentance for my sins, tears of gratitude for Your mercy, tears of joy for Your salvation. Soften my heart and open it to receive Your grace. Amen.',
+    bibleLink: {
+      book: '1-peter',
+      chapter: 5,
+      label: '1 Peter 5'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 6,
@@ -1116,7 +1575,16 @@ const confessionsAugustine: Devotional = {
 <p>"Where then did I find you to learn of you? For you were not in my memory before I learned of you. Where then did I find you to learn of you, if not in yourself, above me?"</p>
 <p>God is both within us and beyond us. He is closer to us than we are to ourselves, yet infinitely transcends our understanding. The search for God is both an inward journey and an upward ascent.</p>`,
       scripture: 'Acts 17:27-28 - "He is actually not far from each one of us, for in him we live and move and have our being."',
-      prayer: 'Lord, You are within me and above me, closer than my own heart yet beyond all my understanding. Help me to seek You where You may be found—in the depths of my soul and in the heights of Your glory. Amen.'
+      prayer: 'Lord, You are within me and above me, closer than my own heart yet beyond all my understanding. Help me to seek You where You may be found—in the depths of my soul and in the heights of Your glory. Amen.',
+    bibleLink: {
+      book: '1-john',
+      chapter: 3,
+      label: '1 John 3'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 7,
@@ -1128,7 +1596,16 @@ const confessionsAugustine: Devotional = {
 <p>The good news is that God is seeking us even as we seek Him. He pursues us with His grace, calls us with His love, and welcomes us with His mercy. All we need to do is stop running and let ourselves be found.</p>
 <p>"You have made us for yourself, O Lord, and our hearts are restless until they rest in you."</p>`,
       scripture: 'Matthew 11:28 - "Come to me, all who labor and are heavy laden, and I will give you rest."',
-      prayer: 'Lord, I am weary from seeking rest in things that cannot satisfy. I come to You now, just as I am. Give me the rest that only You can give. Let me find in You my peace, my joy, my home. My heart is restless until it rests in You. Amen.'
+      prayer: 'Lord, I am weary from seeking rest in things that cannot satisfy. I come to You now, just as I am. Give me the rest that only You can give. Let me find in You my peace, my joy, my home. My heart is restless until it rests in You. Amen.',
+    bibleLink: {
+      book: 'hebrews',
+      chapter: 11,
+      label: 'Hebrews 11'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     }
   ]
 };
@@ -1159,7 +1636,16 @@ const padrePioDaily: Devotional = {
 <p>Padre Pio lived these words. Despite bearing the painful wounds of Christ, despite spiritual attacks from the devil, despite persecution from within the Church, he maintained a deep peace rooted in trust in God.</p>
 <p>"The life of a Christian is nothing but a perpetual struggle against self; there is no flowering of the soul to the beauty of its perfection except at the price of pain."</p>`,
       scripture: 'Philippians 4:6-7 - "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus."',
-      prayer: 'Lord, help me to pray, hope, and not worry. I place all my concerns in Your hands, trusting in Your mercy and providence. Free me from anxiety and fill me with Your peace. St. Padre Pio, pray for me. Amen.'
+      prayer: 'Lord, help me to pray, hope, and not worry. I place all my concerns in Your hands, trusting in Your mercy and providence. Free me from anxiety and fill me with Your peace. St. Padre Pio, pray for me. Amen.',
+    bibleLink: {
+      book: 'proverbs',
+      chapter: 31,
+      label: 'Proverbs 31'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 2,
@@ -1170,7 +1656,16 @@ const padrePioDaily: Devotional = {
 <p>Suffering, united to Christ's Passion, has redemptive value. It is not meaningless pain but a participation in the work of salvation. This is the mystery of the Cross—that through suffering, God brings forth life.</p>
 <p>"The longer the trial to which God subjects you, the greater the goodness in comforting you during the time of trial and in the exaltation after the combat."</p>`,
       scripture: 'Colossians 1:24 - "Now I rejoice in my sufferings for your sake, and in my flesh I am filling up what is lacking in Christ\'s afflictions for the sake of his body, that is, the church."',
-      prayer: 'Lord Jesus, help me to embrace my sufferings and unite them to Your Cross. May my trials become a source of grace for myself and others. Give me the faith to trust You in the darkness. St. Padre Pio, pray for me. Amen.'
+      prayer: 'Lord Jesus, help me to embrace my sufferings and unite them to Your Cross. May my trials become a source of grace for myself and others. Give me the faith to trust You in the darkness. St. Padre Pio, pray for me. Amen.',
+    bibleLink: {
+      book: 'isaiah',
+      chapter: 53,
+      label: 'Isaiah 53'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 3,
@@ -1181,7 +1676,16 @@ const padrePioDaily: Devotional = {
 <p>For Padre Pio, the Mass was not a ritual to be rushed through but the very sacrifice of Calvary made present. He urged the faithful to attend Mass with reverence and devotion, recognizing the infinite treasure being offered.</p>
 <p>"Once, a person asked me if Jesus was pleased with his way of attending Mass. I replied: 'Do you think that Jesus is pleased when you attend Mass with your body in church and your mind at home or in the office?'"</p>`,
       scripture: 'Hebrews 9:14 - "How much more will the blood of Christ, who through the eternal Spirit offered himself without blemish to God, purify our conscience from dead works to serve the living God."',
-      prayer: 'Lord Jesus, help me to attend Mass with reverence and devotion. Open my eyes to see the infinite value of this holy sacrifice. May I never take for granted the gift of Your Body and Blood. St. Padre Pio, pray for me. Amen.'
+      prayer: 'Lord Jesus, help me to attend Mass with reverence and devotion. Open my eyes to see the infinite value of this holy sacrifice. May I never take for granted the gift of Your Body and Blood. St. Padre Pio, pray for me. Amen.',
+    bibleLink: {
+      book: 'jeremiah',
+      chapter: 29,
+      label: 'Jeremiah 29'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 4,
@@ -1192,7 +1696,16 @@ const padrePioDaily: Devotional = {
 <p>"A soul can do nothing that is more pleasing to God than to communicate in a state of grace. The devil knows this and that is why he tries to keep us away from the sacraments."</p>
 <p>Padre Pio urged frequent confession not because we are terrible sinners but because we need God's grace to grow in holiness. "The confession of our faults is the beginning of our good works."</p>`,
       scripture: '1 John 1:9 - "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness."',
-      prayer: 'Merciful Father, give me the grace to make frequent and sincere confessions. Help me to overcome any fear or shame that keeps me from this sacrament of mercy. St. Padre Pio, pray for me. Amen.'
+      prayer: 'Merciful Father, give me the grace to make frequent and sincere confessions. Help me to overcome any fear or shame that keeps me from this sacrament of mercy. St. Padre Pio, pray for me. Amen.',
+    bibleLink: {
+      book: 'luke',
+      chapter: 10,
+      label: 'Luke 10'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 5,
@@ -1214,7 +1727,16 @@ const padrePioDaily: Devotional = {
 <p>"Humility is truth. We must see ourselves as we really are—sinners in need of God's mercy. Pride is the root of all sin, and humility is the foundation of all virtue."</p>
 <p>Padre Pio's obedience was tested severely. For years, he was forbidden to celebrate Mass publicly or hear confessions. He accepted these restrictions with patience, knowing that obedience to legitimate authority is obedience to God.</p>`,
       scripture: 'James 4:6 - "God opposes the proud but gives grace to the humble."',
-      prayer: 'Lord, give me true humility. Help me to see myself as I really am and to trust in Your mercy. May I be obedient to Your will, even when it is difficult. St. Padre Pio, pray for me. Amen.'
+      prayer: 'Lord, give me true humility. Help me to see myself as I really am and to trust in Your mercy. May I be obedient to Your will, even when it is difficult. St. Padre Pio, pray for me. Amen.',
+    bibleLink: {
+      book: 'mark',
+      chapter: 1,
+      label: 'Mark 1'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 7,
@@ -1226,7 +1748,16 @@ const padrePioDaily: Devotional = {
 <p>"Do not worry about tomorrow. Think of today and of the present moment. Leave tomorrow to Providence. The Lord knows what He is doing."</p>
 <p>His final counsel to us: "Love the Madonna and pray the Rosary, for her Rosary is the weapon against the evils of the world today."</p>`,
       scripture: 'Matthew 24:13 - "But the one who endures to the end will be saved."',
-      prayer: 'Lord, give me the grace to persevere to the end. Help me to trust in Your providence in all circumstances. May I die with the names of Jesus and Mary on my lips. St. Padre Pio, pray for me. Amen.'
+      prayer: 'Lord, give me the grace to persevere to the end. Help me to trust in Your providence in all circumstances. May I die with the names of Jesus and Mary on my lips. St. Padre Pio, pray for me. Amen.',
+    bibleLink: {
+      book: 'genesis',
+      chapter: 22,
+      label: 'Genesis 22'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     }
   ]
 };
@@ -1250,7 +1781,16 @@ const motherTeresaDaily: Devotional = {
 <p>Mother Teresa saw every act of service as an encounter with Christ. Feeding the hungry, clothing the naked, caring for the sick—these were not just charitable works but acts of love for Jesus Himself.</p>
 <p>"I see Jesus in every human being. I say to myself, this is hungry Jesus, I must feed him. This is sick Jesus. This one has leprosy or gangrene; I must wash him and tend to him. I serve because I love Jesus."</p>`,
       scripture: 'Matthew 25:40 - "Truly, I say to you, as you did it to one of the least of these my brothers, you did it to me."',
-      prayer: 'Lord Jesus, help me to do small things with great love. Open my eyes to see You in everyone I meet, especially the poor and suffering. May every act of kindness be an act of love for You. Amen.'
+      prayer: 'Lord Jesus, help me to do small things with great love. Open my eyes to see You in everyone I meet, especially the poor and suffering. May every act of kindness be an act of love for You. Amen.',
+    bibleLink: {
+      book: 'exodus',
+      chapter: 20,
+      label: 'Exodus 20'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 2,
@@ -1261,7 +1801,16 @@ const motherTeresaDaily: Devotional = {
 <p>In our noisy world, silence is countercultural. But it is essential for the spiritual life. "In the silence of the heart God speaks. If you face God in prayer and silence, God will speak to you."</p>
 <p>Mother Teresa spent an hour each day in Eucharistic adoration, even with her incredibly busy schedule. This was the source of her strength and the foundation of her service.</p>`,
       scripture: 'Psalm 46:10 - "Be still, and know that I am God."',
-      prayer: 'Lord, help me to cultivate silence in my life. In the stillness, speak to my heart. May my prayer bear fruit in faith, my faith in love, my love in service, and my service in peace. Amen.'
+      prayer: 'Lord, help me to cultivate silence in my life. In the stillness, speak to my heart. May my prayer bear fruit in faith, my faith in love, my love in service, and my service in peace. Amen.',
+    bibleLink: {
+      book: 'matthew',
+      chapter: 11,
+      label: 'Matthew 11'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 3,
@@ -1272,7 +1821,16 @@ const motherTeresaDaily: Devotional = {
 <p>She challenged the wealthy nations: "You have the poverty of the spirit, of loneliness, of being unwanted. And that is the worst disease in the world today, not tuberculosis or leprosy."</p>
 <p>The cure for this poverty is simple: love. "Spread love everywhere you go. Let no one ever come to you without leaving happier."</p>`,
       scripture: 'Romans 12:10 - "Love one another with brotherly affection. Outdo one another in showing honor."',
-      prayer: 'Lord, open my eyes to the poverty around me—not just material poverty but the poverty of loneliness and despair. Help me to bring Your love to those who feel unwanted and unloved. Amen.'
+      prayer: 'Lord, open my eyes to the poverty around me—not just material poverty but the poverty of loneliness and despair. Help me to bring Your love to those who feel unwanted and unloved. Amen.',
+    bibleLink: {
+      book: 'john',
+      chapter: 8,
+      label: 'John 8'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 4,
@@ -1283,7 +1841,16 @@ const motherTeresaDaily: Devotional = {
 <p>She taught her sisters: "Let us always meet each other with a smile, for the smile is the beginning of love." A smile costs nothing but gives much.</p>
 <p>"We shall never know all the good that a simple smile can do. Be faithful in small things because it is in them that your strength lies."</p>`,
       scripture: 'Nehemiah 8:10 - "The joy of the Lord is your strength."',
-      prayer: 'Lord, fill me with Your joy. May my smile be a reflection of Your love. Help me to serve others with a joyful heart, knowing that joy is contagious and draws souls to You. Amen.'
+      prayer: 'Lord, fill me with Your joy. May my smile be a reflection of Your love. Help me to serve others with a joyful heart, knowing that joy is contagious and draws souls to You. Amen.',
+    bibleLink: {
+      book: 'psalms',
+      chapter: 46,
+      label: 'Psalms 46'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 5,
@@ -1294,7 +1861,16 @@ const motherTeresaDaily: Devotional = {
 <p>"I know God will not give me anything I can't handle. I just wish He didn't trust me so much."</p>
 <p>Each of us has a vocation—a call from God to serve Him in a particular way. "Many people mistake our work for our vocation. Our vocation is the love of Jesus."</p>`,
       scripture: 'Isaiah 6:8 - "And I heard the voice of the Lord saying, Whom shall I send, and who will go for us? Then I said, Here I am! Send me."',
-      prayer: 'Lord, help me to hear Your call and respond with generosity. Give me the courage to follow where You lead, even when the path is uncertain. May my vocation be the love of Jesus. Amen.'
+      prayer: 'Lord, help me to hear Your call and respond with generosity. Give me the courage to follow where You lead, even when the path is uncertain. May my vocation be the love of Jesus. Amen.',
+    bibleLink: {
+      book: 'romans',
+      chapter: 5,
+      label: 'Romans 5'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 6,
@@ -1305,7 +1881,16 @@ const motherTeresaDaily: Devotional = {
 <p>"I have come to love the darkness, for I believe now that it is a part, a very, very small part, of Jesus' darkness and pain on earth."</p>
 <p>Mother Teresa's example teaches us that feelings are not faith. We can serve God faithfully even when we don't feel His presence. "Faith is not a feeling. It is a decision."</p>`,
       scripture: 'Psalm 22:1 - "My God, my God, why have you forsaken me?"',
-      prayer: 'Lord, when I feel Your absence, help me to persevere in faith. May I trust You not because of what I feel but because of who You are. Unite my darkness to the darkness Jesus experienced on the Cross. Amen.'
+      prayer: 'Lord, when I feel Your absence, help me to persevere in faith. May I trust You not because of what I feel but because of who You are. Unite my darkness to the darkness Jesus experienced on the Cross. Amen.',
+    bibleLink: {
+      book: 'philippians',
+      chapter: 4,
+      label: 'Philippians 4'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 7,
@@ -1317,7 +1902,16 @@ const motherTeresaDaily: Devotional = {
 <p>"At the end of life we will not be judged by how many diplomas we have received, how much money we have made, how many great things we have done. We will be judged by 'I was hungry, and you gave me something to eat, I was naked and you clothed me. I was homeless, and you took me in.'"</p>
 <p>Mother Teresa's final message: "Keep the joy of loving Jesus in your heart and share this joy with all you meet."</p>`,
       scripture: 'John 15:13 - "Greater love has no one than this, that someone lay down his life for his friends."',
-      prayer: 'Lord Jesus, teach me to love until it hurts. Empty me of selfishness and fill me with Your self-giving love. May I see Your face in the poor and serve You in them with joy. St. Teresa of Calcutta, pray for me. Amen.'
+      prayer: 'Lord Jesus, teach me to love until it hurts. Empty me of selfishness and fill me with Your self-giving love. May I see Your face in the poor and serve You in them with joy. St. Teresa of Calcutta, pray for me. Amen.',
+    bibleLink: {
+      book: 'colossians',
+      chapter: 3,
+      label: 'Colossians 3'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     }
   ]
 };
@@ -1350,7 +1944,16 @@ const lectioDivina: Devotional = {
 <p><strong>4. Contemplatio (Contemplation):</strong> Rest silently in God's presence. Let go of words and thoughts. Simply be with God.</p>
 <p>There is no "right" way to do Lectio Divina. The goal is not to finish a certain amount of Scripture but to encounter the living God who speaks through His Word.</p>`,
       scripture: 'Psalm 119:105 - "Your word is a lamp to my feet and a light to my path."',
-      prayer: 'Lord, as I approach Your Word, open my heart to hear Your voice. Speak to me through the Scriptures. Help me not just to read but to listen, not just to study but to pray. May Your Word transform my life. Amen.'
+      prayer: 'Lord, as I approach Your Word, open my heart to hear Your voice. Speak to me through the Scriptures. Help me not just to read but to listen, not just to study but to pray. May Your Word transform my life. Amen.',
+    bibleLink: {
+      book: '1-corinthians',
+      chapter: 15,
+      label: '1 Corinthians 15'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 2,
@@ -1367,7 +1970,16 @@ const lectioDivina: Devotional = {
 <p>The word or phrase that stands out is God's gift to you for this moment. It may be comforting or challenging, familiar or surprising. Trust that God is speaking to you through it.</p>
 <p>St. Ambrose said: "When we pray, we speak to God; when we read Scripture, God speaks to us." In Lectio, we position ourselves to hear God's voice.</p>`,
       scripture: 'Isaiah 55:10-11 - "For as the rain and the snow come down from heaven and do not return there but water the earth... so shall my word be that goes out from my mouth; it shall not return to me empty."',
-      prayer: 'Lord, give me ears to hear Your voice in Scripture. Help me to read slowly and attentively, trusting that You will speak to me. May Your Word not return empty but accomplish Your purpose in my life. Amen.'
+      prayer: 'Lord, give me ears to hear Your voice in Scripture. Help me to read slowly and attentively, trusting that You will speak to me. May Your Word not return empty but accomplish Your purpose in my life. Amen.',
+    bibleLink: {
+      book: 'galatians',
+      chapter: 6,
+      label: 'Galatians 6'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 3,
@@ -1384,7 +1996,16 @@ const lectioDivina: Devotional = {
 <p>Meditation is not analysis but rumination. We are not trying to figure out what the text meant to its original audience but what God is saying to us today.</p>
 <p>This is where Scripture becomes personal. The Word of God is "living and active" (Hebrews 4:12), and in meditation, it penetrates our hearts and transforms us.</p>`,
       scripture: 'Psalm 1:2 - "But his delight is in the law of the Lord, and on his law he meditates day and night."',
-      prayer: 'Lord, help me to meditate on Your Word day and night. May I chew on it, savor it, and let it nourish my soul. Speak to me through the Scriptures and show me how to apply them to my life. Amen.'
+      prayer: 'Lord, help me to meditate on Your Word day and night. May I chew on it, savor it, and let it nourish my soul. Speak to me through the Scriptures and show me how to apply them to my life. Amen.',
+    bibleLink: {
+      book: 'ephesians',
+      chapter: 2,
+      label: 'Ephesians 2'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 4,
@@ -1401,7 +2022,16 @@ const lectioDivina: Devotional = {
 <p>Oratio is not about finding the right words but about opening your heart to God. He already knows what you need; prayer is about relationship, not information.</p>
 <p>St. Thérèse of Lisieux said: "For me, prayer is a surge of the heart; it is a simple look turned toward heaven, it is a cry of recognition and of love, embracing both trial and joy."</p>`,
       scripture: 'Psalm 62:8 - "Trust in him at all times, O people; pour out your heart before him; God is a refuge for us."',
-      prayer: 'Lord, I pour out my heart before You. [Speak to God about what arose in your meditation. Be honest about your feelings, needs, and desires. Ask for the grace to respond to what He has shown you.] Amen.'
+      prayer: 'Lord, I pour out my heart before You. [Speak to God about what arose in your meditation. Be honest about your feelings, needs, and desires. Ask for the grace to respond to what He has shown you.] Amen.',
+    bibleLink: {
+      book: 'james',
+      chapter: 1,
+      label: 'James 1'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 5,
@@ -1434,7 +2064,16 @@ const lectioDivina: Devotional = {
 <p>Lectio Divina is not meant to be a private spiritual experience disconnected from life. The Word of God is meant to transform us and, through us, the world.</p>
 <p>St. James wrote: "Be doers of the word, and not hearers only, deceiving yourselves" (James 1:22). True encounter with God always bears fruit in action.</p>`,
       scripture: 'James 1:22 - "But be doers of the word, and not hearers only, deceiving yourselves."',
-      prayer: 'Lord, help me to be a doer of Your Word, not just a hearer. Show me how to live what I have received. May my encounter with You in Scripture bear fruit in love and service. Amen.'
+      prayer: 'Lord, help me to be a doer of Your Word, not just a hearer. Show me how to live what I have received. May my encounter with You in Scripture bear fruit in love and service. Amen.',
+    bibleLink: {
+      book: '1-peter',
+      chapter: 1,
+      label: '1 Peter 1'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 7,
@@ -1451,7 +2090,16 @@ const lectioDivina: Devotional = {
 <p>Don't be discouraged if your mind wanders or if you don't have profound experiences. Faithfulness matters more than feelings. Simply showing up day after day opens us to God's transforming grace.</p>
 <p>As Guigo II, a 12th-century Carthusian monk, wrote: "Reading seeks, meditation finds, prayer asks, contemplation tastes."</p>`,
       scripture: 'Joshua 1:8 - "This Book of the Law shall not depart from your mouth, but you shall meditate on it day and night, so that you may be careful to do according to all that is written in it."',
-      prayer: 'Lord, help me to make Lectio Divina a regular part of my life. Give me discipline to show up each day and openness to receive whatever You want to give. May Your Word dwell richly in me and transform me into the image of Christ. Amen.'
+      prayer: 'Lord, help me to make Lectio Divina a regular part of my life. Give me discipline to show up each day and openness to receive whatever You want to give. May Your Word dwell richly in me and transform me into the image of Christ. Amen.',
+    bibleLink: {
+      book: '1-john',
+      chapter: 4,
+      label: '1 John 4'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     }
   ]
 };
@@ -1476,7 +2124,16 @@ const rosaryMeditations: Devotional = {
 <p><strong>Reflection:</strong> In this mystery, we contemplate Mary's perfect faith and obedience. She did not fully understand what was being asked of her, but she trusted God completely. Her "yes" changed the course of human history.</p>
 <p>We too are called to say "yes" to God's will, even when we don't understand. Like Mary, we can trust that God's plans for us are good, even when they seem impossible.</p>`,
       scripture: 'Luke 1:38 - "And Mary said, Behold, I am the servant of the Lord; let it be to me according to your word."',
-      prayer: 'Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.'
+      prayer: 'Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.',
+    bibleLink: {
+      book: 'hebrews',
+      chapter: 12,
+      label: 'Hebrews 12'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 2,
@@ -1487,7 +2144,16 @@ const rosaryMeditations: Devotional = {
 <p><strong>Reflection:</strong> At His baptism, Jesus is revealed as the beloved Son of the Father, anointed by the Holy Spirit. The Trinity is manifested: the Father speaks, the Son is baptized, the Spirit descends.</p>
 <p>In our own baptism, we became children of God, temples of the Holy Spirit, members of Christ's Body. We too heard the Father say, "You are my beloved child." Do we live as beloved children of God?</p>`,
       scripture: 'Matthew 3:17 - "And a voice from heaven said, This is my beloved Son, with whom I am well pleased."',
-      prayer: 'Lord Jesus, at Your baptism You were revealed as the beloved Son of the Father. Help me to live as a beloved child of God, faithful to my baptismal promises. May I always walk in the light of Your grace. Amen.'
+      prayer: 'Lord Jesus, at Your baptism You were revealed as the beloved Son of the Father. Help me to live as a beloved child of God, faithful to my baptismal promises. May I always walk in the light of Your grace. Amen.',
+    bibleLink: {
+      book: 'proverbs',
+      chapter: 3,
+      label: 'Proverbs 3'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 3,
@@ -1510,7 +2176,16 @@ const rosaryMeditations: Devotional = {
 <p><strong>Reflection:</strong> The Resurrection is the foundation of our faith. If Christ has not been raised, our faith is in vain. But He has been raised, and because He lives, we too shall live.</p>
 <p>The Resurrection transforms everything. Death is not the end. Suffering is not meaningless. Sin does not have the final word. In Christ, we have hope that conquers despair, life that conquers death.</p>`,
       scripture: 'Luke 24:5-6 - "Why do you seek the living among the dead? He is not here, but has risen."',
-      prayer: 'Lord Jesus, You have conquered death and risen in glory. Fill me with Easter joy and resurrection hope. Help me to live as one who believes that death is not the end, that You are the resurrection and the life. Amen.'
+      prayer: 'Lord Jesus, You have conquered death and risen in glory. Fill me with Easter joy and resurrection hope. Help me to live as one who believes that death is not the end, that You are the resurrection and the life. Amen.',
+    bibleLink: {
+      book: 'isaiah',
+      chapter: 55,
+      label: 'Isaiah 55'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 5,
@@ -1522,7 +2197,16 @@ const rosaryMeditations: Devotional = {
 <p><strong>Reflection:</strong> The King of Kings is born in a stable, laid in a manger, announced to shepherds. God enters the world not in power and glory but in poverty and humility.</p>
 <p>This is the mystery of the Incarnation: God becomes man, the infinite becomes finite, the Creator becomes a creature. He does this out of love for us, to save us from our sins.</p>`,
       scripture: 'Luke 2:11 - "For unto you is born this day in the city of David a Savior, who is Christ the Lord."',
-      prayer: 'Lord Jesus, You humbled Yourself to be born in a stable. Help me to embrace humility and simplicity. May I find You not in the palaces of the world but in the manger of my heart. Amen.'
+      prayer: 'Lord Jesus, You humbled Yourself to be born in a stable. Help me to embrace humility and simplicity. May I find You not in the palaces of the world but in the manger of my heart. Amen.',
+    bibleLink: {
+      book: 'jeremiah',
+      chapter: 31,
+      label: 'Jeremiah 31'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 6,
@@ -1534,7 +2218,16 @@ const rosaryMeditations: Devotional = {
 <p><strong>Reflection:</strong> On the Cross, Jesus accomplishes our salvation. He takes upon Himself the sins of the world and offers Himself as the perfect sacrifice. "It is finished."</p>
 <p>At the foot of the Cross, Mary becomes our mother. Jesus gives her to us as a gift, and we are entrusted to her care. In our sufferings, we are never alone—Mary stands with us as she stood with Jesus.</p>`,
       scripture: 'John 19:30 - "When Jesus had received the sour wine, he said, It is finished, and he bowed his head and gave up his spirit."',
-      prayer: 'Lord Jesus, You died on the Cross for my sins. Help me to understand the depth of Your love. May I never take for granted the price You paid for my salvation. Mary, Mother of Sorrows, pray for me. Amen.'
+      prayer: 'Lord Jesus, You died on the Cross for my sins. Help me to understand the depth of Your love. May I never take for granted the price You paid for my salvation. Mary, Mother of Sorrows, pray for me. Amen.',
+    bibleLink: {
+      book: 'luke',
+      chapter: 15,
+      label: 'Luke 15'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 7,
@@ -1545,7 +2238,16 @@ const rosaryMeditations: Devotional = {
 <p><strong>Reflection:</strong> Mary's Assumption gives us hope. Where she has gone, we hope to follow. Her glorified body is a preview of our own destiny if we remain faithful to Christ.</p>
 <p>The Assumption also reminds us of the dignity of the human body. Our bodies are not prisons for our souls but temples of the Holy Spirit, destined for resurrection and glory.</p>`,
       scripture: 'Revelation 12:1 - "And a great sign appeared in heaven: a woman clothed with the sun, with the moon under her feet, and on her head a crown of twelve stars."',
-      prayer: 'Hail, Holy Queen, Mother of Mercy, our life, our sweetness, and our hope. To thee do we cry, poor banished children of Eve. Turn then, most gracious advocate, thine eyes of mercy toward us, and after this our exile, show unto us the blessed fruit of thy womb, Jesus. Amen.'
+      prayer: 'Hail, Holy Queen, Mother of Mercy, our life, our sweetness, and our hope. To thee do we cry, poor banished children of Eve. Turn then, most gracious advocate, thine eyes of mercy toward us, and after this our exile, show unto us the blessed fruit of thy womb, Jesus. Amen.',
+    bibleLink: {
+      book: 'mark',
+      chapter: 10,
+      label: 'Mark 10'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     }
   ]
 };
@@ -1575,7 +2277,16 @@ const adventDaily: Devotional = {
 <p>Waiting is hard. We live in a culture of instant gratification, where waiting seems like wasted time. But Advent teaches us that waiting has value. In waiting, we learn patience. In waiting, our desire grows. In waiting, we make room for God.</p>
 <p><strong>Advent Practice:</strong> Set up an Advent wreath in your home. Light one candle the first week, two the second, and so on. Let the growing light remind you that Christ, the Light of the World, is coming.</p>`,
       scripture: 'Isaiah 9:2 - "The people who walked in darkness have seen a great light; those who dwelt in a land of deep darkness, on them has light shone."',
-      prayer: 'Lord Jesus, Light of the World, I wait for You in the darkness of this season. Increase my longing for Your coming. Help me to use this Advent well, preparing my heart to receive You at Christmas. Come, Lord Jesus. Amen.'
+      prayer: 'Lord Jesus, Light of the World, I wait for You in the darkness of this season. Increase my longing for Your coming. Help me to use this Advent well, preparing my heart to receive You at Christmas. Come, Lord Jesus. Amen.',
+    bibleLink: {
+      book: 'genesis',
+      chapter: 1,
+      label: 'Genesis 1'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 2,
@@ -1586,7 +2297,16 @@ const adventDaily: Devotional = {
 <p>What valleys need to be filled in your life? What mountains need to be brought low? What crooked paths need to be made straight? John's message is clear: prepare the way of the Lord.</p>
 <p><strong>Advent Practice:</strong> Make a good confession during Advent. Examine your conscience carefully and approach the sacrament with sincere repentance. Let Christ find a clean dwelling place in your heart.</p>`,
       scripture: 'Matthew 3:2 - "Repent, for the kingdom of heaven is at hand."',
-      prayer: 'Lord, send Your Spirit to convict me of sin and lead me to repentance. Help me to prepare the way for Your coming by removing every obstacle in my heart. Give me the courage to make a sincere confession. Amen.'
+      prayer: 'Lord, send Your Spirit to convict me of sin and lead me to repentance. Help me to prepare the way for Your coming by removing every obstacle in my heart. Give me the courage to make a sincere confession. Amen.',
+    bibleLink: {
+      book: 'exodus',
+      chapter: 3,
+      label: 'Exodus 3'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 3,
@@ -1611,7 +2331,16 @@ const adventDaily: Devotional = {
 <p><strong>O Emmanuel</strong> (December 23): Come and save us, O Lord our God.</p>
 <p>These prayers express the longing of Israel for the Messiah—and our own longing for Christ's coming. The first letters of the Latin titles, read backwards, spell "Ero Cras"—"Tomorrow I will come."</p>`,
       scripture: 'Revelation 22:20 - "He who testifies to these things says, Surely I am coming soon. Amen. Come, Lord Jesus!"',
-      prayer: 'O come, O come, Emmanuel, and ransom captive Israel, that mourns in lonely exile here, until the Son of God appear. Rejoice! Rejoice! Emmanuel shall come to thee, O Israel. Amen.'
+      prayer: 'O come, O come, Emmanuel, and ransom captive Israel, that mourns in lonely exile here, until the Son of God appear. Rejoice! Rejoice! Emmanuel shall come to thee, O Israel. Amen.',
+    bibleLink: {
+      book: 'matthew',
+      chapter: 18,
+      label: 'Matthew 18'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 5,
@@ -1621,7 +2350,16 @@ const adventDaily: Devotional = {
 <p>Joseph teaches us to trust God even when we don't understand. He didn't receive explanations—just instructions. Yet he obeyed promptly and completely. His faith was shown in action.</p>
 <p><strong>Advent Practice:</strong> Ask St. Joseph to help you trust God in confusing situations. Pray for the grace to obey God's will even when you don't understand His plan.</p>`,
       scripture: 'Matthew 1:24 - "When Joseph woke from sleep, he did as the angel of the Lord commanded him: he took his wife."',
-      prayer: 'St. Joseph, righteous and obedient, help me to trust God as you did. When I am confused or afraid, give me the grace to obey. Protect my family as you protected the Holy Family. Pray for me. Amen.'
+      prayer: 'St. Joseph, righteous and obedient, help me to trust God as you did. When I am confused or afraid, give me the grace to obey. Protect my family as you protected the Holy Family. Pray for me. Amen.',
+    bibleLink: {
+      book: 'john',
+      chapter: 10,
+      label: 'John 10'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 6,
@@ -1631,7 +2369,16 @@ const adventDaily: Devotional = {
 <p>The shepherds responded immediately. "Let us go over to Bethlehem and see this thing that has happened." They didn't delay or make excuses. They went, they saw, and they glorified God.</p>
 <p><strong>Advent Practice:</strong> Like the shepherds, respond to God's invitation without delay. Don't put off prayer, confession, or acts of charity. Go to Bethlehem—go to Christ—today.</p>`,
       scripture: 'Luke 2:10-11 - "Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord."',
-      prayer: 'Lord, like the shepherds, I want to respond to Your call without delay. Help me to go to Bethlehem, to find You in the manger of my heart, and to glorify You with my life. Amen.'
+      prayer: 'Lord, like the shepherds, I want to respond to Your call without delay. Help me to go to Bethlehem, to find You in the manger of my heart, and to glorify You with my life. Amen.',
+    bibleLink: {
+      book: 'psalms',
+      chapter: 51,
+      label: 'Psalms 51'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 7,
@@ -1642,7 +2389,16 @@ const adventDaily: Devotional = {
 <p>Christmas is not just a birthday party for Jesus. It is the celebration of our salvation, the feast of God's incredible love for us. "For God so loved the world, that he gave his only Son."</p>
 <p>As you celebrate Christmas, remember the reason for the season. In the midst of gifts and gatherings, take time to kneel before the manger and adore the newborn King.</p>`,
       scripture: 'John 1:14 - "And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth."',
-      prayer: 'Lord Jesus, Word made flesh, I adore You in the manger. Thank You for becoming man for my salvation. Help me to receive You not just at Christmas but every day. May You be born anew in my heart. Amen.'
+      prayer: 'Lord Jesus, Word made flesh, I adore You in the manger. Thank You for becoming man for my salvation. Help me to receive You not just at Christmas but every day. May You be born anew in my heart. Amen.',
+    bibleLink: {
+      book: 'romans',
+      chapter: 8,
+      label: 'Romans 8'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     }
   ]
 };
@@ -1690,7 +2446,16 @@ const familyRosary: Devotional = {
 <p><strong>For Older Children:</strong> Encourage them to add their own intentions. Help them see how the mysteries connect to their lives.</p>
 <p>Don't worry if children are wiggly or distracted. The goal is to plant seeds of faith that will grow over time. Consistency matters more than perfection.</p>`,
       scripture: 'Mark 10:14 - "Let the children come to me; do not hinder them, for to such belongs the kingdom of God."',
-      prayer: 'Mary, Mother of Jesus and our mother, help our children to love the Rosary. Plant in their hearts a devotion to you and your Son. May the seeds we plant today bear fruit throughout their lives. Amen.'
+      prayer: 'Mary, Mother of Jesus and our mother, help our children to love the Rosary. Plant in their hearts a devotion to you and your Son. May the seeds we plant today bear fruit throughout their lives. Amen.',
+    bibleLink: {
+      book: 'philippians',
+      chapter: 2,
+      label: 'Philippians 2'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 3,
@@ -1707,7 +2472,16 @@ const familyRosary: Devotional = {
 <p><strong>For Families:</strong> Have different family members share what they imagine or what strikes them about each mystery. This makes the meditation come alive and helps everyone engage more deeply.</p>
 <p>Don't worry if your mind wanders. Gently bring it back to the mystery. The Rosary is a school of prayer—we are always learning.</p>`,
       scripture: 'Luke 2:19 - "But Mary treasured up all these things, pondering them in her heart."',
-      prayer: 'Mary, teach us to meditate as you did, pondering the mysteries of your Son in our hearts. Help us to see Jesus more clearly through the Rosary. Amen.'
+      prayer: 'Mary, teach us to meditate as you did, pondering the mysteries of your Son in our hearts. Help us to see Jesus more clearly through the Rosary. Amen.',
+    bibleLink: {
+      book: 'colossians',
+      chapter: 1,
+      label: 'Colossians 1'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 4,
@@ -1725,7 +2499,16 @@ const familyRosary: Devotional = {
 <p><strong>Involving Everyone:</strong> Let each family member offer an intention before a decade. This teaches children that prayer is personal and that God cares about their concerns.</p>
 <p>Keep a family prayer journal to record intentions and answered prayers. Looking back at how God has worked builds faith for future needs.</p>`,
       scripture: 'Philippians 4:6 - "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God."',
-      prayer: 'Mary, we entrust our family to your care. Present our intentions to your Son. Intercede for us in all our needs. We trust in your motherly love. Amen.'
+      prayer: 'Mary, we entrust our family to your care. Present our intentions to your Son. Intercede for us in all our needs. We trust in your motherly love. Amen.',
+    bibleLink: {
+      book: '1-corinthians',
+      chapter: 13,
+      label: '1 Corinthians 13'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 5,
@@ -1748,7 +2531,16 @@ const familyRosary: Devotional = {
 </ul>
 <p><strong>When You Miss a Day:</strong> Don't give up! Simply start again the next day. The goal is progress, not perfection. God blesses our efforts, even imperfect ones.</p>`,
       scripture: 'Colossians 4:2 - "Continue steadfastly in prayer, being watchful in it with thanksgiving."',
-      prayer: 'Lord, help our family to be faithful to the Rosary. When we are tired or busy, give us the grace to persevere. May this prayer become a treasured part of our family life. Amen.'
+      prayer: 'Lord, help our family to be faithful to the Rosary. When we are tired or busy, give us the grace to persevere. May this prayer become a treasured part of our family life. Amen.',
+    bibleLink: {
+      book: 'galatians',
+      chapter: 5,
+      label: 'Galatians 5'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 6,
@@ -1764,7 +2556,16 @@ const familyRosary: Devotional = {
 </ul>
 <p>These promises remind us that the Rosary is not just a pious practice but a powerful spiritual weapon. Mary herself has promised to help those who pray it faithfully.</p>`,
       scripture: 'Luke 1:48-49 - "For he who is mighty has done great things for me, and holy is his name."',
-      prayer: 'Mary, we trust in your promises. Help us to be faithful to the Rosary, confident that you will obtain for us the graces we need. We place our family under your protection. Amen.'
+      prayer: 'Mary, we trust in your promises. Help us to be faithful to the Rosary, confident that you will obtain for us the graces we need. We place our family under your protection. Amen.',
+    bibleLink: {
+      book: 'ephesians',
+      chapter: 3,
+      label: 'Ephesians 3'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 7,
@@ -1781,7 +2582,16 @@ const familyRosary: Devotional = {
 <p>As we pray the Rosary, we walk with Mary through the life of Jesus. We see Him through her eyes, love Him with her heart, and learn from her example how to be His disciples.</p>
 <p>The Rosary is not just about Mary—it is about Jesus. Mary always points us to her Son: "Do whatever He tells you."</p>`,
       scripture: 'John 2:5 - "His mother said to the servants, Do whatever he tells you."',
-      prayer: 'Mary, be our teacher in the school of the Rosary. Help us to know Jesus better, love Him more deeply, and follow Him more faithfully. Lead our family closer to your Son. Amen.'
+      prayer: 'Mary, be our teacher in the school of the Rosary. Help us to know Jesus better, love Him more deeply, and follow Him more faithfully. Lead our family closer to your Son. Amen.',
+    bibleLink: {
+      book: 'james',
+      chapter: 2,
+      label: 'James 2'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     }
   ]
 };
@@ -1812,7 +2622,16 @@ const johnPaulIIDaily: Devotional = {
 <p>"The future starts today, not tomorrow. We are not the sum of our weaknesses and failures; we are the sum of the Father's love for us and our real capacity to become the image of his Son."</p>
 <p>What are you afraid of? Christ says to you today: "Be not afraid!" He is with you. He will never abandon you. Trust in Him.</p>`,
       scripture: 'Isaiah 41:10 - "Fear not, for I am with you; be not dismayed, for I am your God; I will strengthen you, I will help you."',
-      prayer: 'Lord Jesus, You told us not to be afraid. Help me to trust in You completely, even when I face difficulties and uncertainties. Give me the courage of St. John Paul II to live my faith boldly. Be not afraid! Amen.'
+      prayer: 'Lord Jesus, You told us not to be afraid. Help me to trust in You completely, even when I face difficulties and uncertainties. Give me the courage of St. John Paul II to live my faith boldly. Be not afraid! Amen.',
+    bibleLink: {
+      book: '1-peter',
+      chapter: 2,
+      label: '1 Peter 2'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 2,
@@ -1823,7 +2642,16 @@ const johnPaulIIDaily: Devotional = {
 <p>John Paul II defended human dignity against all threats: abortion, euthanasia, poverty, war, and the culture of death. He called us to build a "civilization of love" where every person is valued.</p>
 <p>"Freedom consists not in doing what we like, but in having the right to do what we ought."</p>`,
       scripture: 'Genesis 1:27 - "So God created man in his own image, in the image of God he created him; male and female he created them."',
-      prayer: 'Lord, help me to see the dignity of every person I meet. May I defend human life from conception to natural death. Give me the grace to build a civilization of love in my family, my community, and my world. Amen.'
+      prayer: 'Lord, help me to see the dignity of every person I meet. May I defend human life from conception to natural death. Give me the grace to build a civilization of love in my family, my community, and my world. Amen.',
+    bibleLink: {
+      book: '1-john',
+      chapter: 3,
+      label: '1 John 3'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 3,
@@ -1834,7 +2662,16 @@ const johnPaulIIDaily: Devotional = {
 <p>In a world that attacks the family, John Paul II called us to defend and strengthen it. Strong families build strong societies. Holy families build a holy Church.</p>
 <p>"Love is never something ready-made, something merely 'given' to man and woman; it must always be 'worked out' by them."</p>`,
       scripture: 'Ephesians 5:25 - "Husbands, love your wives, as Christ loved the church and gave himself up for her."',
-      prayer: 'Lord, bless and protect my family. Help us to be a domestic church where faith is lived and love is learned. Give parents the grace to be holy educators of their children. St. John Paul II, pray for families. Amen.'
+      prayer: 'Lord, bless and protect my family. Help us to be a domestic church where faith is lived and love is learned. Give parents the grace to be holy educators of their children. St. John Paul II, pray for families. Amen.',
+    bibleLink: {
+      book: 'hebrews',
+      chapter: 11,
+      label: 'Hebrews 11'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 4,
@@ -1845,7 +2682,16 @@ const johnPaulIIDaily: Devotional = {
 <p>"Man and woman were created for each other—not that God left them half-made and incomplete: he created them to be a communion of persons, in which each can be 'helpmate' to the other."</p>
 <p>The Theology of the Body calls us to live our sexuality according to God's design, finding in it a path to holiness and a reflection of divine love.</p>`,
       scripture: '1 Corinthians 6:19-20 - "Do you not know that your body is a temple of the Holy Spirit within you? You are not your own, for you were bought with a price. So glorify God in your body."',
-      prayer: 'Lord, help me to understand and live the truth about my body and sexuality. May I honor my body as a temple of the Holy Spirit and live according to Your design for human love. Amen.'
+      prayer: 'Lord, help me to understand and live the truth about my body and sexuality. May I honor my body as a temple of the Holy Spirit and live according to Your design for human love. Amen.',
+    bibleLink: {
+      book: 'proverbs',
+      chapter: 4,
+      label: 'Proverbs 4'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 5,
@@ -1856,7 +2702,16 @@ const johnPaulIIDaily: Devotional = {
 <p>"Do not be afraid to go out on the streets and into public places, like the first Apostles who preached Christ and the Good News of salvation in the squares of cities, towns and villages."</p>
 <p>John Paul II himself was the greatest evangelist of his time, using modern media, World Youth Days, and his personal witness to bring millions to Christ.</p>`,
       scripture: 'Matthew 28:19-20 - "Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you."',
-      prayer: 'Lord, give me the courage to share my faith with others. Help me to be a missionary disciple in my daily life. May the new evangelization begin with me. Amen.'
+      prayer: 'Lord, give me the courage to share my faith with others. Help me to be a missionary disciple in my daily life. May the new evangelization begin with me. Amen.',
+    bibleLink: {
+      book: 'isaiah',
+      chapter: 40,
+      label: 'Isaiah 40'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 6,
@@ -1867,7 +2722,16 @@ const johnPaulIIDaily: Devotional = {
 <p>"I have lived through much darkness... but I have also experienced much light. And in this light I have seen that suffering is not the last word. The last word is love."</p>
 <p>John Paul II's witness of suffering with dignity and faith inspired millions. He showed that even in weakness, we can glorify God.</p>`,
       scripture: 'Colossians 1:24 - "Now I rejoice in my sufferings for your sake, and in my flesh I am filling up what is lacking in Christ\'s afflictions for the sake of his body, that is, the church."',
-      prayer: 'Lord Jesus, help me to unite my sufferings to Your Cross. May my trials become a source of grace for others. Give me the faith to trust You in darkness and to witness to Your love in all circumstances. Amen.'
+      prayer: 'Lord Jesus, help me to unite my sufferings to Your Cross. May my trials become a source of grace for others. Give me the faith to trust You in darkness and to witness to Your love in all circumstances. Amen.',
+    bibleLink: {
+      book: 'jeremiah',
+      chapter: 29,
+      label: 'Jeremiah 29'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 7,
@@ -1878,7 +2742,16 @@ const johnPaulIIDaily: Devotional = {
 <p>He credited Mary with saving his life during the assassination attempt on May 13, 1981—the feast of Our Lady of Fatima. The bullet that nearly killed him is now in the crown of the statue at Fatima.</p>
 <p>"Have recourse to that fountain of mercy and grace which is the Heart of Mary. Entrust yourselves to her who knows the way to the Heart of her Son."</p>`,
       scripture: 'John 19:27 - "Then he said to the disciple, Behold, your mother! And from that hour the disciple took her to his own home."',
-      prayer: 'Mary, my Mother, I consecrate myself entirely to you. Totus Tuus—I am totally yours. Lead me to Jesus. Protect me under your mantle. Help me to love your Son as you do. Amen.'
+      prayer: 'Mary, my Mother, I consecrate myself entirely to you. Totus Tuus—I am totally yours. Lead me to Jesus. Protect me under your mantle. Help me to love your Son as you do. Amen.',
+    bibleLink: {
+      book: 'luke',
+      chapter: 1,
+      label: 'Luke 1'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     }
   ]
 };
@@ -1902,7 +2775,16 @@ const fultonSheenDaily: Devotional = {
 <p>"There are not one hundred people in the United States who hate the Catholic Church, but there are millions who hate what they wrongly perceive the Catholic Church to be."</p>
 <p>Our purpose is to know God, to love Him, and to serve Him in this life, and to be happy with Him forever in the next. Everything else is secondary.</p>`,
       scripture: 'Ecclesiastes 12:13 - "The end of the matter; all has been heard. Fear God and keep his commandments, for this is the whole duty of man."',
-      prayer: 'Lord, help me to remember my purpose in life. May I seek first Your kingdom and Your righteousness. Free me from the distractions that keep me from You. Amen.'
+      prayer: 'Lord, help me to remember my purpose in life. May I seek first Your kingdom and Your righteousness. Free me from the distractions that keep me from You. Amen.',
+    bibleLink: {
+      book: 'mark',
+      chapter: 1,
+      label: 'Mark 1'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 2,
@@ -1913,7 +2795,16 @@ const fultonSheenDaily: Devotional = {
 <p>"The purpose of the Holy Hour is to encourage deep personal encounter with Christ. The holy and glorious God is constantly inviting us to come to Him, to hold converse with Him, to ask for such things as we need."</p>
 <p>He challenged every Catholic to make a weekly holy hour: "You will find that the hour passes quickly, and you will wonder why you did not begin this practice sooner."</p>`,
       scripture: 'Matthew 26:40 - "And he came to the disciples and found them sleeping. And he said to Peter, So, could you not watch with me one hour?"',
-      prayer: 'Lord Jesus, present in the Blessed Sacrament, draw me to spend time with You. Help me to make the Holy Hour a regular part of my life. May I watch with You and grow in love for You. Amen.'
+      prayer: 'Lord Jesus, present in the Blessed Sacrament, draw me to spend time with You. Help me to make the Holy Hour a regular part of my life. May I watch with You and grow in love for You. Amen.',
+    bibleLink: {
+      book: 'genesis',
+      chapter: 12,
+      label: 'Genesis 12'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 3,
@@ -1925,7 +2816,16 @@ const fultonSheenDaily: Devotional = {
 <p>"The only way to get rid of the cross is to carry it. The only way to get rid of suffering is to suffer. The only way to get rid of death is to die."</p>
 <p>Sheen himself suffered greatly in his final years, yet he maintained his faith and joy. His example teaches us how to suffer well.</p>`,
       scripture: 'Romans 8:17 - "And if children, then heirs—heirs of God and fellow heirs with Christ, provided we suffer with him in order that we may also be glorified with him."',
-      prayer: 'Lord, help me to embrace the crosses in my life. May I unite my sufferings to Yours for the salvation of souls. Give me the grace to suffer with faith, hope, and love. Amen.'
+      prayer: 'Lord, help me to embrace the crosses in my life. May I unite my sufferings to Yours for the salvation of souls. Give me the grace to suffer with faith, hope, and love. Amen.',
+    bibleLink: {
+      book: 'exodus',
+      chapter: 14,
+      label: 'Exodus 14'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 4,
@@ -1937,7 +2837,16 @@ const fultonSheenDaily: Devotional = {
 <p>"There are only two classes of people: those who say to God, 'Thy will be done,' and those to whom God says, 'All right, then, have it your way.'"</p>
 <p>Sheen called people to confession, to repentance, and to trust in God's infinite mercy. No sin is too great for God to forgive.</p>`,
       scripture: 'Luke 15:7 - "Just so, I tell you, there will be more joy in heaven over one sinner who repents than over ninety-nine righteous persons who need no repentance."',
-      prayer: 'Merciful Father, I acknowledge my sins before You. I am sorry for having offended You. Help me to trust in Your mercy and to make a sincere confession. Forgive me and make me new. Amen.'
+      prayer: 'Merciful Father, I acknowledge my sins before You. I am sorry for having offended You. Help me to trust in Your mercy and to make a sincere confession. Forgive me and make me new. Amen.',
+    bibleLink: {
+      book: 'matthew',
+      chapter: 25,
+      label: 'Matthew 25'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 5,
@@ -1949,7 +2858,16 @@ const fultonSheenDaily: Devotional = {
 <p>"The difference between love and lust is the difference between lightning and a lightning bug."</p>
 <p>Sheen encouraged couples to pray together, to go to Mass together, and to keep God at the center of their marriage. "The family that prays together stays together."</p>`,
       scripture: '1 Corinthians 13:4-7 - "Love is patient and kind; love does not envy or boast; it is not arrogant or rude. It does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrongdoing, but rejoices with the truth."',
-      prayer: 'Lord, bless all married couples. Help them to love each other with Your love. Keep God at the center of their marriage. Protect families from all that would divide them. Amen.'
+      prayer: 'Lord, bless all married couples. Help them to love each other with Your love. Keep God at the center of their marriage. Protect families from all that would divide them. Amen.',
+    bibleLink: {
+      book: 'john',
+      chapter: 14,
+      label: 'John 14'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 6,
@@ -1961,7 +2879,16 @@ const fultonSheenDaily: Devotional = {
 <p>"Mary is the window through which our humanity first catches a glimpse of Divinity on earth. Or she is the window through which Divinity first catches a glimpse of humanity."</p>
 <p>Sheen prayed the Rosary daily and encouraged all Catholics to develop a relationship with Mary.</p>`,
       scripture: 'Luke 1:48 - "For he has looked on the humble estate of his servant. For behold, from now on all generations will call me blessed."',
-      prayer: 'Mary, my Mother, lead me to Jesus. Help me to know Him, love Him, and serve Him as you did. Protect me under your mantle and pray for me always. Amen.'
+      prayer: 'Mary, my Mother, lead me to Jesus. Help me to know Him, love Him, and serve Him as you did. Protect me under your mantle and pray for me always. Amen.',
+    bibleLink: {
+      book: 'psalms',
+      chapter: 91,
+      label: 'Psalms 91'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 7,
@@ -1973,7 +2900,16 @@ const fultonSheenDaily: Devotional = {
 <p>"The only tragedy in life is not to become a saint."</p>
 <p>Sheen died on December 9, 1979, in his chapel before the Blessed Sacrament—the place where he had spent so many hours in prayer. His life was a preparation for eternity.</p>`,
       scripture: '1 Corinthians 2:9 - "What no eye has seen, nor ear heard, nor the heart of man imagined, what God has prepared for those who love him."',
-      prayer: 'Lord, help me to live with eternity in view. May I make choices today that lead to heaven. Give me the grace to become a saint. Venerable Fulton Sheen, pray for me. Amen.'
+      prayer: 'Lord, help me to live with eternity in view. May I make choices today that lead to heaven. Give me the grace to become a saint. Venerable Fulton Sheen, pray for me. Amen.',
+    bibleLink: {
+      book: 'romans',
+      chapter: 12,
+      label: 'Romans 12'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     }
   ]
 };
@@ -2006,7 +2942,16 @@ const psalmsDailyDevo: Devotional = {
 <p>The shepherd doesn\'t promise to keep us from dark valleys, but to be with us through them. His presence is our comfort and protection.</p>
 <p><strong>Surely goodness and mercy shall follow me all the days of my life, and I shall dwell in the house of the Lord forever.</strong></p>`,
       scripture: 'Psalm 23:1 - "The Lord is my shepherd; I shall not want."',
-      prayer: 'Lord, You are my shepherd. I trust in Your care and provision. Lead me beside still waters and restore my soul. Be with me through every dark valley. May I dwell in Your house forever. Amen.'
+      prayer: 'Lord, You are my shepherd. I trust in Your care and provision. Lead me beside still waters and restore my soul. Be with me through every dark valley. May I dwell in Your house forever. Amen.',
+    bibleLink: {
+      book: 'philippians',
+      chapter: 4,
+      label: 'Philippians 4'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 2,
@@ -2019,7 +2964,16 @@ const psalmsDailyDevo: Devotional = {
 <p>David asks not just for forgiveness but for transformation. He wants a new heart, a right spirit, the continued presence of God.</p>
 <p><strong>The sacrifices of God are a broken spirit; a broken and contrite heart, O God, you will not despise.</strong></p>`,
       scripture: 'Psalm 51:10 - "Create in me a clean heart, O God, and renew a right spirit within me."',
-      prayer: 'Have mercy on me, O God. Wash me from my sins and create in me a clean heart. Do not cast me away from Your presence. Restore to me the joy of Your salvation. Amen.'
+      prayer: 'Have mercy on me, O God. Wash me from my sins and create in me a clean heart. Do not cast me away from Your presence. Restore to me the joy of Your salvation. Amen.',
+    bibleLink: {
+      book: 'colossians',
+      chapter: 3,
+      label: 'Colossians 3'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 3,
@@ -2032,7 +2986,16 @@ const psalmsDailyDevo: Devotional = {
 <p>God created each of us with care and intention. We are not accidents but masterpieces of His creative love.</p>
 <p><strong>Search me, O God, and know my heart! Try me and know my thoughts! And see if there be any grievous way in me, and lead me in the way everlasting!</strong></p>`,
       scripture: 'Psalm 139:14 - "I praise you, for I am fearfully and wonderfully made."',
-      prayer: 'Lord, You know me completely and love me unconditionally. Search my heart and reveal anything that displeases You. Lead me in the way everlasting. Amen.'
+      prayer: 'Lord, You know me completely and love me unconditionally. Search my heart and reveal anything that displeases You. Lead me in the way everlasting. Amen.',
+    bibleLink: {
+      book: '1-corinthians',
+      chapter: 15,
+      label: '1 Corinthians 15'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 4,
@@ -2046,7 +3009,16 @@ const psalmsDailyDevo: Devotional = {
 <p><strong>Because he holds fast to me in love, I will deliver him; I will protect him, because he knows my name.</strong></p>
 <p>The condition for this protection is love and trust. Those who cling to God find safety in Him.</p>`,
       scripture: 'Psalm 91:1-2 - "He who dwells in the shelter of the Most High will abide in the shadow of the Almighty. I will say to the Lord, My refuge and my fortress, my God, in whom I trust."',
-      prayer: 'Lord, You are my refuge and fortress. I trust in You. Cover me with Your wings and protect me from all evil. I hold fast to You in love. Amen.'
+      prayer: 'Lord, You are my refuge and fortress. I trust in You. Cover me with Your wings and protect me from all evil. I hold fast to You in love. Amen.',
+    bibleLink: {
+      book: 'galatians',
+      chapter: 6,
+      label: 'Galatians 6'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 5,
@@ -2058,7 +3030,16 @@ const psalmsDailyDevo: Devotional = {
 <p><strong>Wait for the Lord; be strong, and let your heart take courage; wait for the Lord!</strong></p>
 <p>The psalm ends with a call to patient trust. God\'s timing is not always our timing, but He is always faithful.</p>`,
       scripture: 'Psalm 27:1 - "The Lord is my light and my salvation; whom shall I fear?"',
-      prayer: 'Lord, You are my light and salvation. I will not fear. My one desire is to dwell in Your presence. Give me patience to wait for You and courage to trust in Your timing. Amen.'
+      prayer: 'Lord, You are my light and salvation. I will not fear. My one desire is to dwell in Your presence. Give me patience to wait for You and courage to trust in Your timing. Amen.',
+    bibleLink: {
+      book: 'ephesians',
+      chapter: 6,
+      label: 'Ephesians 6'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 6,
@@ -2071,7 +3052,16 @@ const psalmsDailyDevo: Devotional = {
 <p>God\'s mercy is infinite. When He forgives, He removes our sins completely—as far as east is from west.</p>
 <p><strong>As a father shows compassion to his children, so the Lord shows compassion to those who fear him. For he knows our frame; he remembers that we are dust.</strong></p>`,
       scripture: 'Psalm 103:12 - "As far as the east is from the west, so far does he remove our transgressions from us."',
-      prayer: 'Bless the Lord, O my soul! I praise You for Your mercy and compassion. Thank You for forgiving my sins and crowning me with love. I will not forget all Your benefits. Amen.'
+      prayer: 'Bless the Lord, O my soul! I praise You for Your mercy and compassion. Thank You for forgiving my sins and crowning me with love. I will not forget all Your benefits. Amen.',
+    bibleLink: {
+      book: 'james',
+      chapter: 5,
+      label: 'James 5'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 7,
@@ -2085,7 +3075,16 @@ const psalmsDailyDevo: Devotional = {
 <p><strong>Let everything that has breath praise the Lord! Praise the Lord!</strong></p>
 <p>The final verse is the climax: everything that breathes is called to praise. This includes you. Your very breath is an invitation to worship.</p>`,
       scripture: 'Psalm 150:6 - "Let everything that has breath praise the Lord! Praise the Lord!"',
-      prayer: 'Praise the Lord! With every breath, I praise You. With my whole being, I worship You. Let everything I am and everything I do give glory to Your name. Hallelujah! Amen.'
+      prayer: 'Praise the Lord! With every breath, I praise You. With my whole being, I worship You. Let everything I am and everything I do give glory to Your name. Hallelujah! Amen.',
+    bibleLink: {
+      book: '1-peter',
+      chapter: 5,
+      label: '1 Peter 5'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     }
   ]
 };
@@ -2109,7 +3108,16 @@ const anxietyPeace: Devotional = {
 <p>The result is "the peace of God, which surpasses all understanding." This peace doesn\'t depend on our circumstances changing. It guards our hearts even when problems remain.</p>
 <p><strong>St. Padre Pio said:</strong> "Pray, hope, and don\'t worry. Worry is useless. God is merciful and will hear your prayer."</p>`,
       scripture: 'Philippians 4:6-7 - "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God."',
-      prayer: 'Lord, I bring my anxieties to You. I thank You for Your faithfulness in the past and trust You with my future. Guard my heart and mind with Your peace that surpasses understanding. Amen.'
+      prayer: 'Lord, I bring my anxieties to You. I thank You for Your faithfulness in the past and trust You with my future. Guard my heart and mind with Your peace that surpasses understanding. Amen.',
+    bibleLink: {
+      book: '1-john',
+      chapter: 4,
+      label: '1 John 4'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 2,
@@ -2120,7 +3128,16 @@ const anxietyPeace: Devotional = {
 <p><strong>St. Francis de Sales wrote:</strong> "Do not look forward to what may happen tomorrow; the same everlasting Father who cares for you today will take care of you tomorrow and every day."</p>
 <p>Anxiety often comes from trying to carry burdens God never meant us to bear alone. He is strong enough to carry them. Let Him.</p>`,
       scripture: '1 Peter 5:7 - "Cast all your anxieties on him, because he cares for you."',
-      prayer: 'Lord, I cast my anxieties on You. I release my worries into Your hands. Thank You for caring for me. Help me to trust that You will take care of tomorrow. Amen.'
+      prayer: 'Lord, I cast my anxieties on You. I release my worries into Your hands. Thank You for caring for me. Help me to trust that You will take care of tomorrow. Amen.',
+    bibleLink: {
+      book: 'hebrews',
+      chapter: 12,
+      label: 'Hebrews 12'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 3,
@@ -2131,7 +3148,16 @@ const anxietyPeace: Devotional = {
 <p><strong>St. Teresa of Ávila wrote:</strong> "Let nothing disturb you, let nothing frighten you. All things are passing; God never changes. Patience obtains all things. Whoever has God lacks nothing. God alone suffices."</p>
 <p>When anxiety rises, remember: Jesus has given you His peace. It is already yours. Receive it.</p>`,
       scripture: 'John 14:27 - "Peace I leave with you; my peace I give to you. Not as the world gives do I give to you."',
-      prayer: 'Lord Jesus, I receive Your peace. Let not my heart be troubled or afraid. When anxiety rises, remind me that Your peace is already mine. You alone suffice. Amen.'
+      prayer: 'Lord Jesus, I receive Your peace. Let not my heart be troubled or afraid. When anxiety rises, remind me that Your peace is already mine. You alone suffice. Amen.',
+    bibleLink: {
+      book: 'proverbs',
+      chapter: 31,
+      label: 'Proverbs 31'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 4,
@@ -2142,7 +3168,16 @@ const anxietyPeace: Devotional = {
 <p><strong>Practical Exercise:</strong> Set a timer for five minutes. Sit quietly. Breathe slowly. When anxious thoughts arise, gently release them to God. Repeat: "Be still and know that I am God."</p>
 <p><strong>St. John of the Cross wrote:</strong> "In the evening of life, we will be judged on love alone." Not on how much we worried, but on how much we loved and trusted.</p>`,
       scripture: 'Psalm 46:10 - "Be still, and know that I am God."',
-      prayer: 'Lord, help me to be still. Quiet my racing thoughts. In the stillness, help me to know that You are God—sovereign, loving, faithful. I trust in You. Amen.'
+      prayer: 'Lord, help me to be still. Quiet my racing thoughts. In the stillness, help me to know that You are God—sovereign, loving, faithful. I trust in You. Amen.',
+    bibleLink: {
+      book: 'isaiah',
+      chapter: 41,
+      label: 'Isaiah 41'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 5,
@@ -2164,7 +3199,16 @@ const anxietyPeace: Devotional = {
 <p><strong>Anointing of the Sick:</strong> This sacrament is not just for the dying but for anyone suffering from serious illness, including mental health conditions. Ask your priest about receiving this sacrament.</p>
 <p><strong>St. John Vianney said:</strong> "When we have been to Holy Communion, the balm of love envelops the soul as the flower envelops the bee."</p>`,
       scripture: 'Matthew 11:28 - "Come to me, all who labor and are heavy laden, and I will give you rest."',
-      prayer: 'Lord Jesus, I come to You in the sacraments. Meet me there with Your grace and peace. Heal my anxious heart. Give me rest for my weary soul. Amen.'
+      prayer: 'Lord Jesus, I come to You in the sacraments. Meet me there with Your grace and peace. Heal my anxious heart. Give me rest for my weary soul. Amen.',
+    bibleLink: {
+      book: 'jeremiah',
+      chapter: 31,
+      label: 'Jeremiah 31'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 7,
@@ -2175,7 +3219,16 @@ const anxietyPeace: Devotional = {
 <p>Mental health is part of physical health. If you needed treatment for diabetes or a broken bone, you would seek medical help. Anxiety deserves the same care.</p>
 <p><strong>Remember:</strong> You are not alone. Many saints struggled with anxiety and depression. God\'s grace is sufficient for you, and He provides many channels for that grace to flow.</p>`,
       scripture: 'Sirach 38:1-4 - "Honor physicians for their services, for the Lord created them... The Lord created medicines out of the earth, and the sensible will not despise them."',
-      prayer: 'Lord, give me the wisdom to seek help when I need it. Thank You for doctors, therapists, and all who work for healing. Help me to receive care without shame, trusting that You work through many means. Amen.'
+      prayer: 'Lord, give me the wisdom to seek help when I need it. Thank You for doctors, therapists, and all who work for healing. Help me to receive care without shame, trusting that You work through many means. Amen.',
+    bibleLink: {
+      book: 'luke',
+      chapter: 2,
+      label: 'Luke 2'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     }
   ]
 };
@@ -2207,7 +3260,16 @@ const easterDaily: Devotional = {
 <p><strong>St. Augustine exclaimed:</strong> "We are an Easter people, and Alleluia is our song!"</p>
 <p>Let the joy of Easter fill your heart today. Christ is risen! He is truly risen!</p>`,
       scripture: 'Matthew 28:5-6 - "Do not be afraid, for I know that you seek Jesus who was crucified. He is not here, for he has risen, as he said."',
-      prayer: 'Lord Jesus, You have conquered death and risen in glory! Fill me with Easter joy. Help me to live as one who believes in the Resurrection. Alleluia! Amen.'
+      prayer: 'Lord Jesus, You have conquered death and risen in glory! Fill me with Easter joy. Help me to live as one who believes in the Resurrection. Alleluia! Amen.',
+    bibleLink: {
+      book: 'mark',
+      chapter: 10,
+      label: 'Mark 10'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 2,
@@ -2218,7 +3280,16 @@ const easterDaily: Devotional = {
 <p>Mary became the first witness to the Resurrection—the "apostle to the apostles." She ran to tell the disciples: "I have seen the Lord!"</p>
 <p>We too are called to be witnesses. Having encountered the risen Christ, we cannot keep the good news to ourselves.</p>`,
       scripture: 'John 20:16 - "Jesus said to her, Mary. She turned and said to him in Aramaic, Rabboni! (which means Teacher)."',
-      prayer: 'Lord Jesus, You call me by name. Help me to recognize Your voice and respond with joy. Make me a witness to Your resurrection. Amen.'
+      prayer: 'Lord Jesus, You call me by name. Help me to recognize Your voice and respond with joy. Make me a witness to Your resurrection. Amen.',
+    bibleLink: {
+      book: 'genesis',
+      chapter: 22,
+      label: 'Genesis 22'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 3,
@@ -2229,7 +3300,16 @@ const easterDaily: Devotional = {
 <p>We encounter the risen Christ in the same way: in the Scriptures and in the breaking of bread. Every Mass is an Emmaus experience.</p>
 <p>The disciples returned immediately to Jerusalem to share the good news. Encounter with Christ always leads to mission.</p>`,
       scripture: 'Luke 24:32 - "They said to each other, Did not our hearts burn within us while he talked to us on the road, while he opened to us the Scriptures?"',
-      prayer: 'Lord Jesus, open the Scriptures to me. Make my heart burn with love for You. Help me to recognize You in the breaking of bread. Amen.'
+      prayer: 'Lord Jesus, open the Scriptures to me. Make my heart burn with love for You. Help me to recognize You in the breaking of bread. Amen.',
+    bibleLink: {
+      book: 'exodus',
+      chapter: 20,
+      label: 'Exodus 20'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 4,
@@ -2240,7 +3320,16 @@ const easterDaily: Devotional = {
 <p>He breathed on them and said, "Receive the Holy Spirit. If you forgive anyone\'s sins, their sins are forgiven." The Resurrection leads to Pentecost, and both lead to the Sacrament of Reconciliation.</p>
 <p>The risen Christ still comes to us, offering peace and the power to forgive.</p>`,
       scripture: 'John 20:19-21 - "Jesus came and stood among them and said to them, Peace be with you... As the Father has sent me, even so I am sending you."',
-      prayer: 'Lord Jesus, come into my locked rooms and fearful heart. Speak Your peace to me. Send me as the Father sent You. Amen.'
+      prayer: 'Lord Jesus, come into my locked rooms and fearful heart. Speak Your peace to me. Send me as the Father sent You. Amen.',
+    bibleLink: {
+      book: 'matthew',
+      chapter: 28,
+      label: 'Matthew 28'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 5,
@@ -2251,7 +3340,16 @@ const easterDaily: Devotional = {
 <p>Jesus said, "Because you have seen me, you have believed; blessed are those who have not seen and yet have believed."</p>
 <p>That\'s us. We have not seen the risen Christ with our eyes, yet we believe. And we are blessed.</p>`,
       scripture: 'John 20:28-29 - "Thomas answered him, My Lord and my God! Jesus said to him, Have you believed because you have seen me? Blessed are those who have not seen and yet have believed."',
-      prayer: 'My Lord and my God! I believe in You, though I have not seen. Strengthen my faith. Help me to trust even when I cannot see. Amen.'
+      prayer: 'My Lord and my God! I believe in You, though I have not seen. Strengthen my faith. Help me to trust even when I cannot see. Amen.',
+    bibleLink: {
+      book: 'john',
+      chapter: 15,
+      label: 'John 15'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 6,
@@ -2262,7 +3360,16 @@ const easterDaily: Devotional = {
 <p>Jesus asks each of us the same question: "Do you love me?" Not "Are you perfect?" or "Have you never failed?" but simply, "Do you love me?"</p>
 <p>If we can answer yes—even imperfectly, even after failure—He has work for us to do.</p>`,
       scripture: 'John 21:17 - "He said to him the third time, Simon, son of John, do you love me?... Jesus said to him, Feed my sheep."',
-      prayer: 'Lord, You know everything. You know that I love You—imperfectly, but truly. Restore me after my failures. Give me work to do in Your kingdom. Amen.'
+      prayer: 'Lord, You know everything. You know that I love You—imperfectly, but truly. Restore me after my failures. Give me work to do in Your kingdom. Amen.',
+    bibleLink: {
+      book: 'psalms',
+      chapter: 103,
+      label: 'Psalms 103'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 7,
@@ -2298,7 +3405,16 @@ const griefComfort: Devotional = {
 <p><strong>St. Augustine, after his mother\'s death, wrote:</strong> "I wept for my mother... Let anyone who wishes condemn me. But if he has great charity, let him weep for my sins before You, the Father of all."</p>
 <p>It is okay to weep. Jesus wept too.</p>`,
       scripture: 'Matthew 5:4 - "Blessed are those who mourn, for they shall be comforted."',
-      prayer: 'Lord Jesus, You promised comfort to those who mourn. I bring my grief to You. Hold me in my pain. Give me hope in the midst of sorrow. Amen.'
+      prayer: 'Lord Jesus, You promised comfort to those who mourn. I bring my grief to You. Hold me in my pain. Give me hope in the midst of sorrow. Amen.',
+    bibleLink: {
+      book: 'romans',
+      chapter: 5,
+      label: 'Romans 5'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 2,
@@ -2310,7 +3426,16 @@ const griefComfort: Devotional = {
 <p><strong>The Letter to the Hebrews says:</strong> "For we do not have a high priest who is unable to sympathize with our weaknesses" (4:15). Jesus knows what it is to lose someone He loved.</p>
 <p>You are not alone in your grief. Jesus is with you, weeping with you.</p>`,
       scripture: 'John 11:35 - "Jesus wept."',
-      prayer: 'Lord Jesus, You wept at the tomb of Your friend. Thank You for understanding my grief. Weep with me. Be present with me in my pain. Amen.'
+      prayer: 'Lord Jesus, You wept at the tomb of Your friend. Thank You for understanding my grief. Weep with me. Be present with me in my pain. Amen.',
+    bibleLink: {
+      book: 'philippians',
+      chapter: 2,
+      label: 'Philippians 2'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 3,
@@ -2321,7 +3446,16 @@ const griefComfort: Devotional = {
 <p>The separation is real and painful. But it is temporary. One day, you will be reunited in the presence of God, where there will be no more death or mourning or crying or pain.</p>
 <p><strong>St. Paul wrote:</strong> "For I am sure that neither death nor life... will be able to separate us from the love of God in Christ Jesus our Lord" (Romans 8:38-39).</p>`,
       scripture: 'John 11:25-26 - "I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live."',
-      prayer: 'Lord Jesus, You are the resurrection and the life. I believe in You. Give me hope in the promise of eternal life and reunion with those I love. Amen.'
+      prayer: 'Lord Jesus, You are the resurrection and the life. I believe in You. Give me hope in the promise of eternal life and reunion with those I love. Amen.',
+    bibleLink: {
+      book: 'colossians',
+      chapter: 1,
+      label: 'Colossians 1'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 4,
@@ -2338,7 +3472,16 @@ const griefComfort: Devotional = {
 </ul>
 <p>Praying for the dead is also healing for us. It gives us something meaningful to do with our grief and keeps us connected to those we have lost.</p>`,
       scripture: '2 Maccabees 12:46 - "Thus he made atonement for the dead that they might be freed from this sin."',
-      prayer: 'Eternal rest grant unto them, O Lord, and let perpetual light shine upon them. May they rest in peace. May their souls and the souls of all the faithful departed, through the mercy of God, rest in peace. Amen.'
+      prayer: 'Eternal rest grant unto them, O Lord, and let perpetual light shine upon them. May they rest in peace. May their souls and the souls of all the faithful departed, through the mercy of God, rest in peace. Amen.',
+    bibleLink: {
+      book: '1-corinthians',
+      chapter: 13,
+      label: '1 Corinthians 13'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 5,
@@ -2349,7 +3492,16 @@ const griefComfort: Devotional = {
 <p>You can talk to your loved ones who have died. You can ask for their prayers. You can trust that the bond of love continues.</p>
 <p>The communion of saints means we are never truly separated from those we love in Christ.</p>`,
       scripture: 'Hebrews 12:1 - "Therefore, since we are surrounded by so great a cloud of witnesses, let us also lay aside every weight, and sin which clings so closely, and let us run with endurance the race that is set before us."',
-      prayer: 'Lord, thank You for the communion of saints. Thank You that death does not separate us from those we love. Help me to trust in this bond and to live in hope of reunion. Amen.'
+      prayer: 'Lord, thank You for the communion of saints. Thank You that death does not separate us from those we love. Help me to trust in this bond and to live in hope of reunion. Amen.',
+    bibleLink: {
+      book: 'galatians',
+      chapter: 5,
+      label: 'Galatians 5'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 6,
@@ -2360,7 +3512,16 @@ const griefComfort: Devotional = {
 <p>Your grief is real and valid. But it is not the final word. Joy comes in the morning. Reunion awaits. God Himself will comfort you.</p>
 <p><strong>St. John Chrysostom preached:</strong> "He who has gone, has not perished, but has gone before us on the journey we all must take."</p>`,
       scripture: 'Revelation 21:4 - "He will wipe away every tear from their eyes, and death shall be no more."',
-      prayer: 'Lord, I long for the day when You will wipe away every tear. Give me hope in Your promises. Help me to grieve with hope, trusting in the resurrection and eternal life. Amen.'
+      prayer: 'Lord, I long for the day when You will wipe away every tear. Give me hope in Your promises. Help me to grieve with hope, trusting in the resurrection and eternal life. Amen.',
+    bibleLink: {
+      book: 'ephesians',
+      chapter: 2,
+      label: 'Ephesians 2'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 7,
@@ -2378,7 +3539,16 @@ const griefComfort: Devotional = {
 <p>Grief changes us. We will never be the same. But we can integrate our loss into our lives and find meaning and even joy again.</p>
 <p><strong>St. Francis de Sales wrote:</strong> "Do not look forward to what may happen tomorrow; the same everlasting Father who cares for you today will take care of you tomorrow and every day."</p>`,
       scripture: 'Psalm 34:18 - "The Lord is near to the brokenhearted and saves the crushed in spirit."',
-      prayer: 'Lord, You are near to the brokenhearted. Be near to me. Help me to live with this loss, one day at a time. Give me grace for today and hope for tomorrow. Amen.'
+      prayer: 'Lord, You are near to the brokenhearted. Be near to me. Help me to live with this loss, one day at a time. Give me grace for today and hope for tomorrow. Amen.',
+    bibleLink: {
+      book: 'james',
+      chapter: 1,
+      label: 'James 1'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     }
   ]
 };
@@ -2408,7 +3578,16 @@ const marianMonths: Devotional = {
 <p>Mary\'s divine motherhood is the source of all her privileges and the foundation of our devotion to her. Because she is the Mother of God, she is also our mother, given to us by Jesus from the Cross.</p>
 <p><strong>St. Cyril of Alexandria wrote:</strong> "Hail, Mary, Mother of God, venerable treasure of the whole world... through whom the Holy Trinity is glorified and worshipped."</p>`,
       scripture: 'Luke 1:43 - "And why is this granted to me that the mother of my Lord should come to me?"',
-      prayer: 'Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.'
+      prayer: 'Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.',
+    bibleLink: {
+      book: '1-peter',
+      chapter: 1,
+      label: '1 Peter 1'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 2,
@@ -2418,7 +3597,16 @@ const marianMonths: Devotional = {
 <p>At Lourdes, Mary identified herself to St. Bernadette: "I am the Immaculate Conception." This confirmed the Church\'s teaching and revealed Mary\'s own understanding of her unique privilege.</p>
 <p>Mary\'s sinlessness does not make her distant from us. Rather, she shows us what humanity was meant to be and what we can become through grace.</p>`,
       scripture: 'Luke 1:28 - "And he came to her and said, Hail, full of grace, the Lord is with you!"',
-      prayer: 'O Mary, conceived without sin, pray for us who have recourse to thee. Help us to live in the grace of God and to avoid all sin. Amen.'
+      prayer: 'O Mary, conceived without sin, pray for us who have recourse to thee. Help us to live in the grace of God and to avoid all sin. Amen.',
+    bibleLink: {
+      book: '1-john',
+      chapter: 3,
+      label: '1 John 3'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 3,
@@ -2428,7 +3616,16 @@ const marianMonths: Devotional = {
 <p>Mary\'s "yes" made the Incarnation possible. God, who respects human freedom, waited for her consent. Her faith and obedience opened the door for our salvation.</p>
 <p>We are called to imitate Mary\'s "fiat"—to say yes to God\'s will in our own lives, even when we don\'t fully understand.</p>`,
       scripture: 'Luke 1:38 - "And Mary said, Behold, I am the servant of the Lord; let it be to me according to your word."',
-      prayer: 'Mary, help me to say yes to God as you did. Give me faith to trust His plan and courage to follow His will. Let it be done to me according to His word. Amen.'
+      prayer: 'Mary, help me to say yes to God as you did. Give me faith to trust His plan and courage to follow His will. Let it be done to me according to His word. Amen.',
+    bibleLink: {
+      book: 'hebrews',
+      chapter: 11,
+      label: 'Hebrews 11'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 4,
@@ -2438,7 +3635,16 @@ const marianMonths: Devotional = {
 <p>In that moment, Mary became the mother of all disciples. She is our mother too, given to us by Jesus Himself.</p>
 <p><strong>St. Bernard wrote:</strong> "In dangers, in doubts, in difficulties, think of Mary, call upon Mary. Let not her name depart from your lips, never suffer it to leave your heart."</p>`,
       scripture: 'John 19:26-27 - "When Jesus saw his mother and the disciple whom he loved standing nearby, he said to his mother, Woman, behold, your son! Then he said to the disciple, Behold, your mother!"',
-      prayer: 'Mary, my Mother, you stood faithfully at the Cross. Stand with me in my trials. Be my mother as you were mother to John. I take you into my heart and my home. Amen.'
+      prayer: 'Mary, my Mother, you stood faithfully at the Cross. Stand with me in my trials. Be my mother as you were mother to John. I take you into my heart and my home. Amen.',
+    bibleLink: {
+      book: 'proverbs',
+      chapter: 3,
+      label: 'Proverbs 3'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 5,
@@ -2448,7 +3654,16 @@ const marianMonths: Devotional = {
 <p>Mary\'s Assumption gives us hope. Where she has gone, we hope to follow. Her glorified body is a preview of our own destiny.</p>
 <p><strong>Pope Pius XII wrote:</strong> "The Immaculate Mother of God, the ever Virgin Mary, having completed the course of her earthly life, was assumed body and soul into heavenly glory."</p>`,
       scripture: 'Revelation 12:1 - "And a great sign appeared in heaven: a woman clothed with the sun, with the moon under her feet, and on her head a crown of twelve stars."',
-      prayer: 'Mary, assumed into heaven, pray for us. Help us to keep our eyes fixed on our heavenly home. May we one day share in your glory. Amen.'
+      prayer: 'Mary, assumed into heaven, pray for us. Help us to keep our eyes fixed on our heavenly home. May we one day share in your glory. Amen.',
+    bibleLink: {
+      book: 'isaiah',
+      chapter: 53,
+      label: 'Isaiah 53'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 6,
@@ -2458,7 +3673,16 @@ const marianMonths: Devotional = {
 <p>The Rosary is simple enough for children yet deep enough for saints. It can be prayed anywhere, anytime. It is a powerful weapon against evil and a source of countless graces.</p>
 <p>Our Lady of Fatima urged: "Pray the Rosary every day to obtain peace for the world." This simple prayer has the power to change hearts and history.</p>`,
       scripture: 'Luke 1:48 - "For behold, from now on all generations will call me blessed."',
-      prayer: 'Mary, Queen of the Holy Rosary, help me to pray this prayer faithfully. Through its mysteries, draw me closer to your Son. Obtain for me the graces I need. Amen.'
+      prayer: 'Mary, Queen of the Holy Rosary, help me to pray this prayer faithfully. Through its mysteries, draw me closer to your Son. Obtain for me the graces I need. Amen.',
+    bibleLink: {
+      book: 'jeremiah',
+      chapter: 29,
+      label: 'Jeremiah 29'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 7,
@@ -2469,7 +3693,16 @@ const marianMonths: Devotional = {
 <p>To consecrate yourself to Mary means to give her your prayers, works, joys, and sufferings, so that she can offer them to Jesus and obtain for you the graces you need.</p>
 <p><strong>St. John Paul II\'s motto was:</strong> "Totus Tuus"—Totally Yours, Mary.</p>`,
       scripture: 'John 2:5 - "His mother said to the servants, Do whatever he tells you."',
-      prayer: 'Mary, I consecrate myself entirely to you. I give you my body and soul, my goods, both interior and exterior. Use me for the glory of God and the salvation of souls. Totus Tuus. Amen.'
+      prayer: 'Mary, I consecrate myself entirely to you. I give you my body and soul, my goods, both interior and exterior. Use me for the glory of God and the salvation of souls. Totus Tuus. Amen.',
+    bibleLink: {
+      book: 'luke',
+      chapter: 10,
+      label: 'Luke 10'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     }
   ]
 };
@@ -2492,7 +3725,16 @@ const marriageMoments: Devotional = {
 <p>Your marriage is meant to reflect Christ\'s love for the Church—faithful, sacrificial, life-giving. This is a high calling, but God gives you the grace to live it.</p>
 <p><strong>Reflection for Couples:</strong> How have you experienced God\'s grace in your marriage? How can you be a better channel of grace to your spouse?</p>`,
       scripture: 'Ephesians 5:25 - "Husbands, love your wives, as Christ loved the church and gave himself up for her."',
-      prayer: 'Lord, thank You for the sacrament of our marriage. Help us to be channels of Your grace to each other. May our love reflect Your love for the Church. Amen.'
+      prayer: 'Lord, thank You for the sacrament of our marriage. Help us to be channels of Your grace to each other. May our love reflect Your love for the Church. Amen.',
+    bibleLink: {
+      book: 'mark',
+      chapter: 1,
+      label: 'Mark 1'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 2,
@@ -2509,7 +3751,16 @@ const marriageMoments: Devotional = {
 <p>When you pray together, you invite God into the center of your relationship. You acknowledge your dependence on Him and your commitment to each other.</p>
 <p><strong>Challenge:</strong> If you don\'t already pray together, start today. Even five minutes of shared prayer can transform your marriage.</p>`,
       scripture: 'Matthew 18:20 - "For where two or three are gathered in my name, there am I among them."',
-      prayer: 'Lord, help us to make prayer a regular part of our marriage. Be present with us as we pray. Unite our hearts to You and to each other. Amen.'
+      prayer: 'Lord, help us to make prayer a regular part of our marriage. Be present with us as we pray. Unite our hearts to You and to each other. Amen.',
+    bibleLink: {
+      book: 'genesis',
+      chapter: 1,
+      label: 'Genesis 1'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 3,
@@ -2526,7 +3777,16 @@ const marriageMoments: Devotional = {
 </ul>
 <p>Forgiveness is not a feeling but a decision. Choose to forgive, and the feelings will follow.</p>`,
       scripture: 'Colossians 3:13 - "Bearing with one another and, if one has a complaint against another, forgiving each other; as the Lord has forgiven you, so you also must forgive."',
-      prayer: 'Lord, help us to forgive each other as You have forgiven us. Heal the wounds we have caused. Give us humble hearts that are quick to apologize and quick to forgive. Amen.'
+      prayer: 'Lord, help us to forgive each other as You have forgiven us. Heal the wounds we have caused. Give us humble hearts that are quick to apologize and quick to forgive. Amen.',
+    bibleLink: {
+      book: 'exodus',
+      chapter: 3,
+      label: 'Exodus 3'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 4,
@@ -2544,7 +3804,16 @@ const marriageMoments: Devotional = {
 <p>Remember that men and women often communicate differently. Be patient with each other and seek to understand your spouse\'s communication style.</p>
 <p><strong>St. Francis de Sales advised:</strong> "Have patience with all things, but chiefly have patience with yourself."</p>`,
       scripture: 'James 1:19 - "Let every person be quick to hear, slow to speak, slow to anger."',
-      prayer: 'Lord, help us to communicate with love and patience. Give us ears to listen and hearts to understand. May our words build up rather than tear down. Amen.'
+      prayer: 'Lord, help us to communicate with love and patience. Give us ears to listen and hearts to understand. May our words build up rather than tear down. Amen.',
+    bibleLink: {
+      book: 'matthew',
+      chapter: 5,
+      label: 'Matthew 5'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 5,
@@ -2554,7 +3823,16 @@ const marriageMoments: Devotional = {
 <p>St. John Paul II\'s Theology of the Body reveals the profound meaning of the body and sexuality. Our bodies are not just biological machines but expressions of the person, capable of communicating love.</p>
 <p><strong>For reflection:</strong> How can you nurture intimacy in your marriage—not just physical but emotional and spiritual as well?</p>`,
       scripture: 'Genesis 2:24 - "Therefore a man shall leave his father and his mother and hold fast to his wife, and they shall become one flesh."',
-      prayer: 'Lord, thank You for the gift of intimacy in marriage. Help us to honor each other with our bodies. May our physical union reflect our spiritual union with You. Amen.'
+      prayer: 'Lord, thank You for the gift of intimacy in marriage. Help us to honor each other with our bodies. May our physical union reflect our spiritual union with You. Amen.',
+    bibleLink: {
+      book: 'john',
+      chapter: 17,
+      label: 'John 17'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 6,
@@ -2572,7 +3850,16 @@ const marriageMoments: Devotional = {
 <p>Service is love in action. It\'s easy to say "I love you" but harder to show it through daily acts of kindness and sacrifice.</p>
 <p><strong>St. Josemaría Escrivá wrote:</strong> "Marriage is a path to holiness. The home is a school of virtue."</p>`,
       scripture: 'Galatians 5:13 - "Through love serve one another."',
-      prayer: 'Lord, help us to serve each other with joy. May we compete in generosity and kindness. Transform our home into a school of love. Amen.'
+      prayer: 'Lord, help us to serve each other with joy. May we compete in generosity and kindness. Transform our home into a school of love. Amen.',
+    bibleLink: {
+      book: 'psalms',
+      chapter: 139,
+      label: 'Psalms 139'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 7,
@@ -2590,7 +3877,16 @@ const marriageMoments: Devotional = {
 </ul>
 <p>The goal of marriage is not just to stay together but to help each other become saints. May your love lead you both to heaven.</p>`,
       scripture: 'Proverbs 5:18 - "Let your fountain be blessed, and rejoice in the wife of your youth."',
-      prayer: 'Lord, bless our marriage for all the years to come. Help us to grow in love and holiness together. May we one day rejoice together in Your presence forever. Amen.'
+      prayer: 'Lord, bless our marriage for all the years to come. Help us to grow in love and holiness together. May we one day rejoice together in Your presence forever. Amen.',
+    bibleLink: {
+      book: 'romans',
+      chapter: 8,
+      label: 'Romans 8'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     }
   ]
 };
@@ -2614,7 +3910,16 @@ const discernmentJourney: Devotional = {
 <p>Don\'t be afraid of God\'s plan. He knows you better than you know yourself, and He wants your happiness more than you do. His plan is always for your good.</p>
 <p><strong>St. John Henry Newman prayed:</strong> "God has created me to do Him some definite service. He has committed some work to me which He has not committed to another."</p>`,
       scripture: 'Jeremiah 29:11 - "For I know the plans I have for you, declares the Lord, plans for welfare and not for evil, to give you a future and a hope."',
-      prayer: 'Lord, I believe You have a plan for my life. Help me to discover it. Give me the courage to follow wherever You lead. I trust in Your goodness. Amen.'
+      prayer: 'Lord, I believe You have a plan for my life. Help me to discover it. Give me the courage to follow wherever You lead. I trust in Your goodness. Amen.',
+    bibleLink: {
+      book: 'philippians',
+      chapter: 4,
+      label: 'Philippians 4'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 2,
@@ -2626,7 +3931,16 @@ const discernmentJourney: Devotional = {
 <p><strong>Consecrated Single Life:</strong> The call to live celibacy in the world, dedicating oneself to prayer and service.</p>
 <p>Each vocation is a path to holiness. The question is not which is "better" but which is God\'s will for you.</p>`,
       scripture: '1 Corinthians 7:7 - "I wish that all were as I myself am. But each has his own gift from God, one of one kind and one of another."',
-      prayer: 'Lord, show me the vocation to which You are calling me. Help me to be open to all possibilities. May I seek not what I want but what You want for me. Amen.'
+      prayer: 'Lord, show me the vocation to which You are calling me. Help me to be open to all possibilities. May I seek not what I want but what You want for me. Amen.',
+    bibleLink: {
+      book: 'colossians',
+      chapter: 3,
+      label: 'Colossians 3'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 3,
@@ -2639,7 +3953,16 @@ const discernmentJourney: Devotional = {
 <p><strong>Fruit:</strong> When you take steps in this direction, do you experience spiritual fruit?</p>
 <p>No single sign is definitive. Discernment involves weighing all these factors in prayer and with guidance.</p>`,
       scripture: 'Romans 12:2 - "Do not be conformed to this world, but be transformed by the renewal of your mind, that by testing you may discern what is the will of God."',
-      prayer: 'Lord, help me to read the signs You are giving me. Clarify my desires. Give me peace about Your will. Confirm my direction through others. Amen.'
+      prayer: 'Lord, help me to read the signs You are giving me. Clarify my desires. Give me peace about Your will. Confirm my direction through others. Amen.',
+    bibleLink: {
+      book: '1-corinthians',
+      chapter: 15,
+      label: '1 Corinthians 15'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 4,
@@ -2652,7 +3975,16 @@ const discernmentJourney: Devotional = {
 <p><strong>Impatience:</strong> Discernment takes time. Rushing leads to poor decisions.</p>
 <p>Address these obstacles honestly. Create space for God to speak.</p>`,
       scripture: 'Psalm 46:10 - "Be still, and know that I am God."',
-      prayer: 'Lord, remove the obstacles that prevent me from hearing Your voice. Forgive my sins. Quiet my fears. Free me from unhealthy attachments. Give me patience. Amen.'
+      prayer: 'Lord, remove the obstacles that prevent me from hearing Your voice. Forgive my sins. Quiet my fears. Free me from unhealthy attachments. Give me patience. Amen.',
+    bibleLink: {
+      book: 'galatians',
+      chapter: 6,
+      label: 'Galatians 6'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 5,
@@ -2669,7 +4001,16 @@ const discernmentJourney: Devotional = {
 </ul>
 <p>A good spiritual director doesn\'t tell you what to do but helps you discover what God is saying. Look for a priest, religious, or trained layperson who can accompany you.</p>`,
       scripture: 'Proverbs 11:14 - "Where there is no guidance, a people falls, but in an abundance of counselors there is safety."',
-      prayer: 'Lord, lead me to a wise spiritual director. Give me humility to seek guidance and openness to receive it. Amen.'
+      prayer: 'Lord, lead me to a wise spiritual director. Give me humility to seek guidance and openness to receive it. Amen.',
+    bibleLink: {
+      book: 'ephesians',
+      chapter: 3,
+      label: 'Ephesians 3'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 6,
@@ -2686,7 +4027,16 @@ const discernmentJourney: Devotional = {
 </ul>
 <p>Don\'t wait for perfect certainty before acting. Take a step, evaluate the fruit, and adjust as needed. God guides us as we move.</p>`,
       scripture: 'Proverbs 16:9 - "The heart of man plans his way, but the Lord establishes his steps."',
-      prayer: 'Lord, give me courage to take steps in discernment. Guide my path as I move forward. Help me to trust that You will direct my steps. Amen.'
+      prayer: 'Lord, give me courage to take steps in discernment. Guide my path as I move forward. Help me to trust that You will direct my steps. Amen.',
+    bibleLink: {
+      book: 'james',
+      chapter: 2,
+      label: 'James 2'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 7,
@@ -2697,7 +4047,16 @@ const discernmentJourney: Devotional = {
 <p><strong>St. John Paul II said:</strong> "It is Jesus who stirs in you the desire to do something great with your lives, the will to follow an ideal, the refusal to allow yourselves to be ground down by mediocrity."</p>
 <p>Don\'t settle for mediocrity. Say yes to God\'s call.</p>`,
       scripture: 'Isaiah 6:8 - "And I heard the voice of the Lord saying, Whom shall I send, and who will go for us? Then I said, Here I am! Send me."',
-      prayer: 'Lord, here I am. Send me. I say yes to Your call, whatever it may be. Give me the grace to follow You faithfully. May my life glorify You. Amen.'
+      prayer: 'Lord, here I am. Send me. I say yes to Your call, whatever it may be. Give me the grace to follow You faithfully. May my life glorify You. Amen.',
+    bibleLink: {
+      book: '1-peter',
+      chapter: 2,
+      label: '1 Peter 2'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     }
   ]
 };
@@ -2725,7 +4084,16 @@ const darkNightSoul: Devotional = {
 <p>God does this not to abandon us but to draw us deeper. He wants us to love Him for Himself, not for the good feelings He gives. The darkness purifies our motives.</p>
 <p><strong>St. John writes:</strong> "God perceives the imperfections within us, and because of His love for us, urges us to grow up... His love is not content to leave us in our weakness."</p>`,
       scripture: 'Psalm 139:12 - "Even the darkness is not dark to you; the night is bright as the day, for darkness is as light with you."',
-      prayer: 'Lord, when prayer feels dry and You seem distant, help me to trust that You are still at work. Purify my heart of all that is not of You. May I seek You alone, not Your consolations. Amen.'
+      prayer: 'Lord, when prayer feels dry and You seem distant, help me to trust that You are still at work. Purify my heart of all that is not of You. May I seek You alone, not Your consolations. Amen.',
+    bibleLink: {
+      book: '1-john',
+      chapter: 4,
+      label: '1 John 4'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 2,
@@ -2737,7 +4105,16 @@ const darkNightSoul: Devotional = {
 <p>If all three signs are present, this is likely the dark night. God is transitioning us from meditation to contemplation, from active prayer to receptive prayer.</p>
 <p>The key is to remain faithful. Don't abandon prayer because it feels fruitless. Simply be present to God in loving attention.</p>`,
       scripture: 'Isaiah 50:10 - "Who among you fears the Lord and obeys the voice of his servant? Let him who walks in darkness and has no light trust in the name of the Lord and rely on his God."',
-      prayer: 'Lord, I trust You even when I cannot feel You. Help me to remain faithful in prayer even when it seems fruitless. I believe You are working in ways I cannot see. Amen.'
+      prayer: 'Lord, I trust You even when I cannot feel You. Help me to remain faithful in prayer even when it seems fruitless. I believe You are working in ways I cannot see. Amen.',
+    bibleLink: {
+      book: 'hebrews',
+      chapter: 12,
+      label: 'Hebrews 12'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 3,
@@ -2748,7 +4125,16 @@ const darkNightSoul: Devotional = {
 <p><strong>St. John writes:</strong> "The soul began to set out on the way of the spirit, the way of proficients and of beginners... God is transferring all the goods and energies of the senses to the spirit."</p>
 <p>This is painful but liberating. We are being freed from spiritual selfishness to love God purely.</p>`,
       scripture: 'Matthew 16:24 - "If anyone would come after me, let him deny himself and take up his cross and follow me."',
-      prayer: 'Lord, free me from attachment to spiritual consolations. Help me to love You for who You are, not for what You give me. Purify my senses that I may serve You with pure love. Amen.'
+      prayer: 'Lord, free me from attachment to spiritual consolations. Help me to love You for who You are, not for what You give me. Purify my senses that I may serve You with pure love. Amen.',
+    bibleLink: {
+      book: 'proverbs',
+      chapter: 4,
+      label: 'Proverbs 4'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 4,
@@ -2759,7 +4145,16 @@ const darkNightSoul: Devotional = {
 <p><strong>St. John writes:</strong> "This dark night is an inflowing of God into the soul, which purges it of its habitual ignorances and imperfections... and which the contemplatives call infused contemplation."</p>
 <p>The darkness is actually God's light—so bright that it blinds our weak spiritual eyes.</p>`,
       scripture: '2 Corinthians 4:17-18 - "For this light momentary affliction is preparing for us an eternal weight of glory beyond all comparison, as we look not to the things that are seen but to the things that are unseen."',
-      prayer: 'Lord, when the darkness is deepest, help me to believe that Your light is at work. Transform me like the log into flame. Make me one with You. Amen.'
+      prayer: 'Lord, when the darkness is deepest, help me to believe that Your light is at work. Transform me like the log into flame. Make me one with You. Amen.',
+    bibleLink: {
+      book: 'isaiah',
+      chapter: 55,
+      label: 'Isaiah 55'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 5,
@@ -2777,7 +4172,16 @@ const darkNightSoul: Devotional = {
 </ul>
 <p><strong>St. John writes:</strong> "Have patience and persevere... for in due time God will give you what is best for you."</p>`,
       scripture: 'James 1:12 - "Blessed is the man who remains steadfast under trial, for when he has stood the test he will receive the crown of life."',
-      prayer: 'Lord, give me the grace to persevere. When I want to give up, strengthen my resolve. Help me to trust that this darkness is leading to light. Amen.'
+      prayer: 'Lord, give me the grace to persevere. When I want to give up, strengthen my resolve. Help me to trust that this darkness is leading to light. Amen.',
+    bibleLink: {
+      book: 'jeremiah',
+      chapter: 31,
+      label: 'Jeremiah 31'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 6,
@@ -2788,7 +4192,16 @@ const darkNightSoul: Devotional = {
 <p>This is the goal of the spiritual life—not just to avoid sin but to be united with God in love. The dark night makes this union possible.</p>
 <p>Few souls reach the heights of mystical union, but all are called to grow in love. The dark night, in some form, is part of every serious spiritual journey.</p>`,
       scripture: 'Song of Solomon 3:4 - "I found him whom my soul loves. I held him, and would not let him go."',
-      prayer: 'Lord, bring me through the darkness into the light of Your love. Unite my soul to Yourself. May I love You with the pure love of the saints. Amen.'
+      prayer: 'Lord, bring me through the darkness into the light of Your love. Unite my soul to Yourself. May I love You with the pure love of the saints. Amen.',
+    bibleLink: {
+      book: 'luke',
+      chapter: 15,
+      label: 'Luke 15'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 7,
@@ -2800,7 +4213,16 @@ const darkNightSoul: Devotional = {
 <p><strong>St. John writes:</strong> "The soul now feels that it is all inflamed in divine union, and that its palate is all bathed in glory and love."</p>
 <p>May we all aspire to this union, trusting God through every darkness.</p>`,
       scripture: 'Deuteronomy 4:24 - "For the Lord your God is a consuming fire."',
-      prayer: 'O Living Flame of Love, consume all that is not of You in my soul. Transform me by Your fire. Make me a flame of Your love in the world. Through Christ our Lord. Amen.'
+      prayer: 'O Living Flame of Love, consume all that is not of You in my soul. Transform me by Your fire. Make me a flame of Your love in the world. Through Christ our Lord. Amen.',
+    bibleLink: {
+      book: 'mark',
+      chapter: 10,
+      label: 'Mark 10'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     }
   ]
 };
@@ -2825,7 +4247,16 @@ const interiorCastle: Devotional = {
 <p>The door to the castle is prayer. Without prayer, we cannot enter. Without self-knowledge, we cannot progress.</p>
 <p>Today, consider: Do you know your own soul? Have you entered the castle through prayer? Or are you still living outside, distracted by lesser things?</p>`,
       scripture: 'John 14:2 - "In my Father\'s house are many rooms. If it were not so, would I have told you that I go to prepare a place for you?"',
-      prayer: 'Lord, help me to enter the castle of my soul through prayer. Show me the beauty You have placed within me. Draw me ever deeper toward the center where You dwell. Amen.'
+      prayer: 'Lord, help me to enter the castle of my soul through prayer. Show me the beauty You have placed within me. Draw me ever deeper toward the center where You dwell. Amen.',
+    bibleLink: {
+      book: 'genesis',
+      chapter: 12,
+      label: 'Genesis 12'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 2,
@@ -2836,7 +4267,16 @@ const interiorCastle: Devotional = {
 <p>The key virtue here is humility—recognizing our need for God and our inability to save ourselves. Without humility, we cannot progress.</p>
 <p>The danger is staying too long in these outer rooms, content with minimal prayer and maximum worldliness.</p>`,
       scripture: 'Psalm 139:23-24 - "Search me, O God, and know my heart! Try me and know my thoughts! And see if there be any grievous way in me, and lead me in the way everlasting!"',
-      prayer: 'Lord, grant me true self-knowledge. Show me my attachments and weaknesses. Give me humility to acknowledge my need for You. Help me not to linger in the outer rooms but to press inward. Amen.'
+      prayer: 'Lord, grant me true self-knowledge. Show me my attachments and weaknesses. Give me humility to acknowledge my need for You. Help me not to linger in the outer rooms but to press inward. Amen.',
+    bibleLink: {
+      book: 'exodus',
+      chapter: 14,
+      label: 'Exodus 14'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 3,
@@ -2858,7 +4298,16 @@ const interiorCastle: Devotional = {
 <p>The Prayer of Quiet begins here—a simple, loving attention to God without many words or thoughts. The soul rests in God's presence.</p>
 <p>This is pure gift. We cannot produce it by effort. We can only dispose ourselves through faithfulness and receive what God gives.</p>`,
       scripture: 'Psalm 46:10 - "Be still, and know that I am God."',
-      prayer: 'Lord, teach me to be still in Your presence. Help me to receive what You want to give. May I love much, even when I cannot think much. Amen.'
+      prayer: 'Lord, teach me to be still in Your presence. Help me to receive what You want to give. May I love much, even when I cannot think much. Amen.',
+    bibleLink: {
+      book: 'matthew',
+      chapter: 6,
+      label: 'Matthew 6'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 5,
@@ -2869,7 +4318,16 @@ const interiorCastle: Devotional = {
 <p>The soul in the fifth mansions is being prepared for spiritual marriage. It must die to self completely to be united with the Beloved.</p>
 <p>Few reach these heights, but all are called to desire them.</p>`,
       scripture: 'Galatians 2:20 - "I have been crucified with Christ. It is no longer I who live, but Christ who lives in me."',
-      prayer: 'Lord, I desire union with You. Help me to die to self that I may live in You. Transform me like the silkworm into a butterfly, restless for heaven. Amen.'
+      prayer: 'Lord, I desire union with You. Help me to die to self that I may live in You. Transform me like the silkworm into a butterfly, restless for heaven. Amen.',
+    bibleLink: {
+      book: 'john',
+      chapter: 1,
+      label: 'John 1'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 6,
@@ -2880,7 +4338,16 @@ const interiorCastle: Devotional = {
 <p>The trials purify the soul for the final union. The graces strengthen it to endure. Both are necessary.</p>
 <p>Teresa warns against seeking extraordinary experiences. What matters is love and conformity to God's will, not visions or raptures.</p>`,
       scripture: 'Hosea 2:19-20 - "I will betroth you to me forever. I will betroth you to me in righteousness and in justice, in steadfast love and in mercy. I will betroth you to me in faithfulness."',
-      prayer: 'Lord, betroth my soul to Yourself. Purify me through whatever trials are necessary. Help me to seek not experiences but You alone. Amen.'
+      prayer: 'Lord, betroth my soul to Yourself. Purify me through whatever trials are necessary. Help me to seek not experiences but You alone. Amen.',
+    bibleLink: {
+      book: 'psalms',
+      chapter: 23,
+      label: 'Psalms 23'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 7,
@@ -2891,7 +4358,16 @@ const interiorCastle: Devotional = {
 <p>The fruit of this union is not withdrawal from the world but apostolic zeal. Teresa insists: "This is the reason for prayer, my daughters, the purpose of this spiritual marriage: the birth always of good works, good works."</p>
 <p>May we all aspire to this union, knowing that God desires it for every soul.</p>`,
       scripture: 'Revelation 19:7 - "Let us rejoice and exult and give him the glory, for the marriage of the Lamb has come, and his Bride has made herself ready."',
-      prayer: 'Lord Jesus, my Bridegroom, draw me into the innermost chamber of my soul where You dwell. Unite me to Yourself forever. May this union bear fruit in good works for Your glory. Amen.'
+      prayer: 'Lord Jesus, my Bridegroom, draw me into the innermost chamber of my soul where You dwell. Unite me to Yourself forever. May this union bear fruit in good works for Your glory. Amen.',
+    bibleLink: {
+      book: 'romans',
+      chapter: 12,
+      label: 'Romans 12'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     }
   ]
 };
@@ -2916,7 +4392,16 @@ const divineOfficeReflections: Devotional = {
 <p>The Hours consist primarily of Psalms, Scripture readings, hymns, and intercessions. The two principal Hours are Morning Prayer (Lauds) and Evening Prayer (Vespers).</p>
 <p>Even if you cannot pray all the Hours, you can participate in this great prayer of the Church.</p>`,
       scripture: 'Psalm 119:164 - "Seven times a day I praise you for your righteous rules."',
-      prayer: 'Lord, help me to join my prayer with the prayer of the whole Church. May my voice be united with all who praise You throughout the day. Sanctify my time with Your presence. Amen.'
+      prayer: 'Lord, help me to join my prayer with the prayer of the whole Church. May my voice be united with all who praise You throughout the day. Sanctify my time with Your presence. Amen.',
+    bibleLink: {
+      book: 'philippians',
+      chapter: 2,
+      label: 'Philippians 2'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 2,
@@ -2935,7 +4420,16 @@ const divineOfficeReflections: Devotional = {
 </ul>
 <p>The Canticle of Zechariah, prayed every morning, celebrates Christ as the "dawn from on high" who visits us.</p>`,
       scripture: 'Psalm 5:3 - "O Lord, in the morning you hear my voice; in the morning I prepare a sacrifice for you and watch."',
-      prayer: 'Lord, I offer You this new day. May my first thoughts be of You. Let the light of Christ dispel all darkness in my heart. Blessed be the Lord, the God of Israel! Amen.'
+      prayer: 'Lord, I offer You this new day. May my first thoughts be of You. Let the light of Christ dispel all darkness in my heart. Blessed be the Lord, the God of Israel! Amen.',
+    bibleLink: {
+      book: 'colossians',
+      chapter: 1,
+      label: 'Colossians 1'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 3,
@@ -2954,7 +4448,16 @@ const divineOfficeReflections: Devotional = {
 </ul>
 <p>The Magnificat, Mary's song of praise, is the crown of Evening Prayer. We join our voice with hers in praising God's mighty deeds.</p>`,
       scripture: 'Psalm 141:2 - "Let my prayer be counted as incense before you, and the lifting up of my hands as the evening sacrifice!"',
-      prayer: 'Lord, as this day ends, I thank You for Your blessings and ask forgiveness for my sins. My soul magnifies the Lord, and my spirit rejoices in God my Savior. Amen.'
+      prayer: 'Lord, as this day ends, I thank You for Your blessings and ask forgiveness for my sins. My soul magnifies the Lord, and my spirit rejoices in God my Savior. Amen.',
+    bibleLink: {
+      book: '1-corinthians',
+      chapter: 13,
+      label: '1 Corinthians 13'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 4,
@@ -2965,7 +4468,16 @@ const divineOfficeReflections: Devotional = {
 <p>Some Psalms are difficult—the cursing psalms, the psalms of vengeance. The Church prays these too, understanding them as cries against evil, not personal enemies.</p>
 <p>Let the Psalms become your prayer. Let them give voice to what you cannot express on your own.</p>`,
       scripture: 'Colossians 3:16 - "Let the word of Christ dwell in you richly, teaching and admonishing one another in all wisdom, singing psalms and hymns and spiritual songs."',
-      prayer: 'Lord, teach me to pray the Psalms with Christ. May these ancient words become my own. Let them express my praise, my sorrow, my trust, and my hope. Amen.'
+      prayer: 'Lord, teach me to pray the Psalms with Christ. May these ancient words become my own. Let them express my praise, my sorrow, my trust, and my hope. Amen.',
+    bibleLink: {
+      book: 'galatians',
+      chapter: 5,
+      label: 'Galatians 5'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 5,
@@ -2984,7 +4496,16 @@ const divineOfficeReflections: Devotional = {
 </ul>
 <p>The second reading connects us to the living Tradition of the Church. We hear the voices of Augustine, Jerome, Gregory, and countless others who have meditated on God's Word.</p>`,
       scripture: 'Psalm 119:148 - "My eyes are awake before the watches of the night, that I may meditate on your promise."',
-      prayer: 'Lord, feed my mind with Your Word and the wisdom of the saints. May I meditate on Your truth day and night. Open my heart to receive what You want to teach me. Amen.'
+      prayer: 'Lord, feed my mind with Your Word and the wisdom of the saints. May I meditate on Your truth day and night. Open my heart to receive what You want to teach me. Amen.',
+    bibleLink: {
+      book: 'ephesians',
+      chapter: 6,
+      label: 'Ephesians 6'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 6,
@@ -2995,7 +4516,16 @@ const divineOfficeReflections: Devotional = {
 <p>Compline is particularly beautiful—a peaceful surrender of the day to God, asking His protection through the night. The Nunc Dimittis echoes Simeon's words: "Now you may dismiss your servant in peace."</p>
 <p>Even if you pray no other Hour, Night Prayer is a wonderful way to end each day in God's presence.</p>`,
       scripture: 'Psalm 4:8 - "In peace I will both lie down and sleep; for you alone, O Lord, make me dwell in safety."',
-      prayer: 'Lord, into Your hands I commend my spirit. Protect me through the night. Grant me peaceful sleep and wake me to serve You tomorrow. Now You may dismiss Your servant in peace. Amen.'
+      prayer: 'Lord, into Your hands I commend my spirit. Protect me through the night. Grant me peaceful sleep and wake me to serve You tomorrow. Now You may dismiss Your servant in peace. Amen.',
+    bibleLink: {
+      book: 'james',
+      chapter: 5,
+      label: 'James 5'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 7,
@@ -3013,7 +4543,16 @@ const divineOfficeReflections: Devotional = {
 <p><strong>The Second Vatican Council taught:</strong> "The divine office... is so devised that the whole course of the day and night is made holy by the praise of God." (Sacrosanctum Concilium, 84)</p>
 <p>May the Hours become the rhythm of your life.</p>`,
       scripture: '1 Thessalonians 5:17 - "Pray without ceasing."',
-      prayer: 'Lord, help me to sanctify my day with prayer. May the Liturgy of the Hours become the rhythm of my life. Unite my prayer with the prayer of the whole Church. Amen.'
+      prayer: 'Lord, help me to sanctify my day with prayer. May the Liturgy of the Hours become the rhythm of my life. Unite my prayer with the prayer of the whole Church. Amen.',
+    bibleLink: {
+      book: '1-peter',
+      chapter: 5,
+      label: '1 Peter 5'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     }
   ]
 };
@@ -3041,7 +4580,16 @@ const catechismDaily: Devotional = {
 <p>The world offers many substitutes for God—pleasure, power, possessions, prestige. But none of these can satisfy the infinite longing of the human heart. Only the Infinite can fill us.</p>
 <p>This capacity for God is both our dignity and our responsibility. We are called to seek Him, to know Him, to love Him.</p>`,
       scripture: 'Ecclesiastes 3:11 - "He has made everything beautiful in its time. Also, he has put eternity into man\'s heart."',
-      prayer: 'Lord, You have made me for Yourself. Fill the longing of my heart. Help me to seek You above all things and to find in You alone my true happiness. Amen.'
+      prayer: 'Lord, You have made me for Yourself. Fill the longing of my heart. Help me to seek You above all things and to find in You alone my true happiness. Amen.',
+    bibleLink: {
+      book: '1-john',
+      chapter: 3,
+      label: '1 John 3'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 2,
@@ -3052,7 +4600,16 @@ const catechismDaily: Devotional = {
 <p>For this, God had to speak. He revealed Himself gradually through the patriarchs and prophets, and finally and fully through His Son, Jesus Christ.</p>
 <p><strong>The Catechism teaches:</strong> "Christ, the Son of God made man, is the Father's one, perfect, and unsurpassable Word. In him he has said everything; there will be no other word than this one." (CCC 65)</p>`,
       scripture: 'Hebrews 1:1-2 - "Long ago, at many times and in many ways, God spoke to our fathers by the prophets, but in these last days he has spoken to us by his Son."',
-      prayer: 'Lord, thank You for revealing Yourself to us. Help me to know You through creation and through Your Word. Open my heart to receive all that You want to show me. Amen.'
+      prayer: 'Lord, thank You for revealing Yourself to us. Help me to know You through creation and through Your Word. Open my heart to receive all that You want to show me. Amen.',
+    bibleLink: {
+      book: 'hebrews',
+      chapter: 11,
+      label: 'Hebrews 11'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 3,
@@ -3063,7 +4620,16 @@ const catechismDaily: Devotional = {
 <p><strong>The Catechism explains:</strong> "The whole Christian life is a communion with each of the divine persons, without in any way separating them. Everyone who glorifies the Father does so through the Son in the Holy Spirit." (CCC 259)</p>
 <p>We pray to the Father, through the Son, in the Holy Spirit. This Trinitarian pattern shapes all Christian prayer and life.</p>`,
       scripture: 'Matthew 28:19 - "Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit."',
-      prayer: 'Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.'
+      prayer: 'Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.',
+    bibleLink: {
+      book: 'proverbs',
+      chapter: 31,
+      label: 'Proverbs 31'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 4,
@@ -3074,7 +4640,16 @@ const catechismDaily: Devotional = {
 <p><strong>The Catechism teaches:</strong> "God wills the interdependence of creatures. The sun and the moon, the cedar and the little flower, the eagle and the sparrow: the spectacle of their countless diversities and inequalities tells us that no creature is self-sufficient." (CCC 340)</p>
 <p>We are stewards of creation, called to care for it and use it according to God's purposes.</p>`,
       scripture: 'Genesis 1:31 - "And God saw everything that he had made, and behold, it was very good."',
-      prayer: 'Creator God, thank You for the gift of creation. Help me to see Your wisdom and love in all that You have made. Make me a faithful steward of Your world. Amen.'
+      prayer: 'Creator God, thank You for the gift of creation. Help me to see Your wisdom and love in all that You have made. Make me a faithful steward of Your world. Amen.',
+    bibleLink: {
+      book: 'isaiah',
+      chapter: 40,
+      label: 'Isaiah 40'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 5,
@@ -3085,7 +4660,16 @@ const catechismDaily: Devotional = {
 <p><strong>The Catechism teaches:</strong> "The human body shares in the dignity of 'the image of God': it is a human body precisely because it is animated by a spiritual soul, and it is the whole human person that is intended to become, in the body of Christ, a temple of the Spirit." (CCC 364)</p>
 <p>This dignity demands respect for every human life, from conception to natural death.</p>`,
       scripture: 'Genesis 1:27 - "So God created man in his own image, in the image of God he created him; male and female he created them."',
-      prayer: 'Lord, help me to see Your image in every person I meet. Give me reverence for human life and dignity. May I treat others as You would have me treat them. Amen.'
+      prayer: 'Lord, help me to see Your image in every person I meet. Give me reverence for human life and dignity. May I treat others as You would have me treat them. Amen.',
+    bibleLink: {
+      book: 'jeremiah',
+      chapter: 29,
+      label: 'Jeremiah 29'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 6,
@@ -3096,7 +4680,16 @@ const catechismDaily: Devotional = {
 <p><strong>The Catechism explains:</strong> "As a result of original sin, human nature is weakened in its powers, subject to ignorance, suffering, and the domination of death, and inclined to sin (this inclination is called 'concupiscence')." (CCC 418)</p>
 <p>But this is not the end of the story. God promised a Savior from the beginning. The fall is a "happy fault" that occasioned so great a Redeemer.</p>`,
       scripture: 'Romans 5:19 - "For as by the one man\'s disobedience the many were made sinners, so by the one man\'s obedience the many will be made righteous."',
-      prayer: 'Lord, I acknowledge my need for salvation. Thank You for sending Your Son to redeem us from sin. Help me to resist temptation and to live in the freedom of Your grace. Amen.'
+      prayer: 'Lord, I acknowledge my need for salvation. Thank You for sending Your Son to redeem us from sin. Help me to resist temptation and to live in the freedom of Your grace. Amen.',
+    bibleLink: {
+      book: 'luke',
+      chapter: 1,
+      label: 'Luke 1'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 7,
@@ -3107,7 +4700,16 @@ const catechismDaily: Devotional = {
 <p><strong>The Catechism teaches:</strong> "The Son of God... worked with human hands; he thought with a human mind. He acted with a human will, and with a human heart he loved. Born of the Virgin Mary, he has truly been made one of us, like to us in all things except sin." (CCC 470)</p>
 <p>In Jesus, God has come close to us. He knows our struggles from the inside.</p>`,
       scripture: 'John 1:14 - "And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth."',
-      prayer: 'Lord Jesus Christ, Son of God and Son of Mary, I believe that You are true God and true man. Thank You for becoming one of us to save us. Help me to know You and love You more each day. Amen.'
+      prayer: 'Lord Jesus Christ, Son of God and Son of Mary, I believe that You are true God and true man. Thank You for becoming one of us to save us. Help me to know You and love You more each day. Amen.',
+    bibleLink: {
+      book: 'mark',
+      chapter: 1,
+      label: 'Mark 1'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     }
   ]
 };
@@ -3131,7 +4733,16 @@ const churchFathersDaily: Devotional = {
 <p>From the earliest days, the Church believed in the Real Presence of Christ in the Eucharist. This was not a later development but the faith received from the Apostles.</p>
 <p>Ignatius went joyfully to his death, eager to be "ground by the teeth of wild beasts" to become "the pure bread of Christ."</p>`,
       scripture: 'John 6:55 - "For my flesh is true food, and my blood is true drink."',
-      prayer: 'Lord Jesus, truly present in the Eucharist, increase my faith in this great mystery. May I receive You with the devotion of the early Christians. St. Ignatius, pray for us. Amen.'
+      prayer: 'Lord Jesus, truly present in the Eucharist, increase my faith in this great mystery. May I receive You with the devotion of the early Christians. St. Ignatius, pray for us. Amen.',
+    bibleLink: {
+      book: 'genesis',
+      chapter: 22,
+      label: 'Genesis 22'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 2,
@@ -3141,7 +4752,16 @@ const churchFathersDaily: Devotional = {
 <p>Irenaeus argued that the true faith is found in the churches founded by the Apostles, especially the Church of Rome, "with which, because of its superior origin, all churches must agree."</p>
 <p>The Catholic Church today maintains this unbroken succession from the Apostles—the same faith, the same sacraments, the same authority.</p>`,
       scripture: '2 Thessalonians 2:15 - "So then, brothers, stand firm and hold to the traditions that you were taught by us, either by our spoken word or by our letter."',
-      prayer: 'Lord, thank You for the gift of Apostolic Tradition. Help me to receive the faith handed down from the Apostles and to pass it on faithfully. St. Irenaeus, pray for us. Amen.'
+      prayer: 'Lord, thank You for the gift of Apostolic Tradition. Help me to receive the faith handed down from the Apostles and to pass it on faithfully. St. Irenaeus, pray for us. Amen.',
+    bibleLink: {
+      book: 'exodus',
+      chapter: 20,
+      label: 'Exodus 20'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 3,
@@ -3152,7 +4772,16 @@ const churchFathersDaily: Devotional = {
 <p><strong>He prayed:</strong> "Late have I loved you, O Beauty ever ancient, ever new, late have I loved you! You were within me, but I was outside, and it was there that I searched for you."</p>
 <p>We cannot save ourselves. Every good we do is God's gift. This is not cause for despair but for gratitude and trust.</p>`,
       scripture: 'Ephesians 2:8-9 - "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast."',
-      prayer: 'Lord, all that I have is Your gift. Help me to rely not on my own strength but on Your grace. Convert my heart as You converted Augustine. Amen.'
+      prayer: 'Lord, all that I have is Your gift. Help me to rely not on my own strength but on Your grace. Convert my heart as You converted Augustine. Amen.',
+    bibleLink: {
+      book: 'matthew',
+      chapter: 7,
+      label: 'Matthew 7'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 4,
@@ -3163,7 +4792,16 @@ const churchFathersDaily: Devotional = {
 <p>Chrysostom taught that prayer is not just for monks but for everyone—merchants, soldiers, mothers, servants. No one is too busy to pray.</p>
 <p><strong>He advised:</strong> "When you are about to pray, say to yourself: 'I am going to speak with God.' This thought alone should fill you with awe and reverence."</p>`,
       scripture: 'Philippians 4:6-7 - "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God."',
-      prayer: 'Lord, teach me to pray always. May prayer be my refuge in every worry and my source of constant joy. St. John Chrysostom, pray for us. Amen.'
+      prayer: 'Lord, teach me to pray always. May prayer be my refuge in every worry and my source of constant joy. St. John Chrysostom, pray for us. Amen.',
+    bibleLink: {
+      book: 'john',
+      chapter: 3,
+      label: 'John 3'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 5,
@@ -3175,7 +4813,16 @@ const churchFathersDaily: Devotional = {
 <p><strong>He advised:</strong> "Make knowledge of the Scripture your love... Live with them, meditate on them, make them the sole object of your knowledge and inquiries."</p>
 <p>The Church has always encouraged the faithful to read Scripture, guided by Tradition and the Magisterium.</p>`,
       scripture: '2 Timothy 3:16-17 - "All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness."',
-      prayer: 'Lord, give me a love for Your Word. Help me to read Scripture daily and to find Christ in its pages. St. Jerome, pray for us. Amen.'
+      prayer: 'Lord, give me a love for Your Word. Help me to read Scripture daily and to find Christ in its pages. St. Jerome, pray for us. Amen.',
+    bibleLink: {
+      book: 'psalms',
+      chapter: 27,
+      label: 'Psalms 27'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 6,
@@ -3186,7 +4833,16 @@ const churchFathersDaily: Devotional = {
 <p>This stunning statement—that we might become God—refers to theosis or divinization: sharing in God's divine nature through grace. This is the goal of the Christian life.</p>
 <p>Athanasius stood firm when almost the whole world had embraced Arianism. His courage reminds us that truth is not determined by majority vote.</p>`,
       scripture: '2 Peter 1:4 - "He has granted to us his precious and very great promises, so that through them you may become partakers of the divine nature."',
-      prayer: 'Lord Jesus, You became man so that I might share in Your divine life. Help me to grow in holiness and to become more like You each day. St. Athanasius, pray for us. Amen.'
+      prayer: 'Lord Jesus, You became man so that I might share in Your divine life. Help me to grow in holiness and to become more like You each day. St. Athanasius, pray for us. Amen.',
+    bibleLink: {
+      book: 'romans',
+      chapter: 5,
+      label: 'Romans 5'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 7,
@@ -3197,7 +4853,16 @@ const churchFathersDaily: Devotional = {
 <p><strong>He taught:</strong> "No one does more harm in the Church than one who has the name or rank of holiness and acts perversely."</p>
 <p>Gregory's writings on the spiritual life, especially his "Moralia on Job," have nourished Christians for centuries. He reminds us that contemplation and action must go together.</p>`,
       scripture: 'Mark 10:43-44 - "Whoever would be great among you must be your servant, and whoever would be first among you must be slave of all."',
-      prayer: 'Lord, help me to serve others with compassion and humility. May I lead by example and never cause scandal by my actions. St. Gregory the Great, pray for us. Amen.'
+      prayer: 'Lord, help me to serve others with compassion and humility. May I lead by example and never cause scandal by my actions. St. Gregory the Great, pray for us. Amen.',
+    bibleLink: {
+      book: 'philippians',
+      chapter: 4,
+      label: 'Philippians 4'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     }
   ]
 };
@@ -3222,7 +4887,16 @@ const papalTeachings: Devotional = {
 <p>The Rosary combines vocal prayer (the Our Father, Hail Mary, Glory Be) with meditation on the mysteries of Christ's life. It is both simple enough for a child and deep enough for a mystic.</p>
 <p><strong>Leo XIII taught:</strong> "The Rosary is a powerful weapon to put the demons to flight and to keep oneself from sin... If you desire peace in your hearts, in your homes, and in your country, assemble each evening to recite the Rosary."</p>`,
       scripture: 'Luke 1:28 - "Hail, full of grace, the Lord is with you!"',
-      prayer: 'Blessed Virgin Mary, help me to pray the Rosary with devotion. May this prayer bring peace to my heart, my home, and the world. Our Lady of the Rosary, pray for us. Amen.'
+      prayer: 'Blessed Virgin Mary, help me to pray the Rosary with devotion. May this prayer bring peace to my heart, my home, and the world. Our Lady of the Rosary, pray for us. Amen.',
+    bibleLink: {
+      book: 'colossians',
+      chapter: 3,
+      label: 'Colossians 3'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 2,
@@ -3233,7 +4907,16 @@ const papalTeachings: Devotional = {
 <p>Pius X also lowered the age for First Communion, wanting children to receive Jesus as soon as they could distinguish the Eucharist from ordinary bread.</p>
 <p><strong>He taught:</strong> "Holy Communion is the shortest and safest way to Heaven."</p>`,
       scripture: 'John 6:35 - "Jesus said to them, I am the bread of life; whoever comes to me shall not hunger, and whoever believes in me shall never thirst."',
-      prayer: 'Lord Jesus, present in the Eucharist, draw me to receive You frequently. May Holy Communion strengthen me against sin and unite me more closely to You. Amen.'
+      prayer: 'Lord Jesus, present in the Eucharist, draw me to receive You frequently. May Holy Communion strengthen me against sin and unite me more closely to You. Amen.',
+    bibleLink: {
+      book: '1-corinthians',
+      chapter: 15,
+      label: '1 Corinthians 15'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 3,
@@ -3244,7 +4927,16 @@ const papalTeachings: Devotional = {
 <p>In an age of secularism and totalitarianism, Pius XI reminded the world that no human authority is absolute. All authority comes from God and must be exercised according to His law.</p>
 <p><strong>He taught:</strong> "The rebellion of individuals and states against the authority of Christ has produced deplorable consequences... If the kingdom of Christ were received by all men, there would be no reason to despair of peace."</p>`,
       scripture: 'Revelation 19:16 - "On his robe and on his thigh he has a name written, King of kings and Lord of lords."',
-      prayer: 'Christ Jesus, You are King of the universe. Reign in my heart, in my family, in my nation. May all peoples acknowledge Your sovereignty and live according to Your law. Amen.'
+      prayer: 'Christ Jesus, You are King of the universe. Reign in my heart, in my family, in my nation. May all peoples acknowledge Your sovereignty and live according to Your law. Amen.',
+    bibleLink: {
+      book: 'galatians',
+      chapter: 6,
+      label: 'Galatians 6'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 4,
@@ -3256,7 +4948,16 @@ const papalTeachings: Devotional = {
 <p><strong>He wrote:</strong> "Every human being has the right to life, to bodily integrity, and to the means which are suitable for the proper development of life."</p>
 <p>Peace begins in the human heart and extends to families, communities, nations, and the world.</p>`,
       scripture: 'Isaiah 32:17 - "And the effect of righteousness will be peace, and the result of righteousness, quietness and trust forever."',
-      prayer: 'Lord, make me an instrument of Your peace. Help me to build peace in my heart, my home, and my community. May justice and charity reign in all nations. Amen.'
+      prayer: 'Lord, make me an instrument of Your peace. Help me to build peace in my heart, my home, and my community. May justice and charity reign in all nations. Amen.',
+    bibleLink: {
+      book: 'ephesians',
+      chapter: 2,
+      label: 'Ephesians 2'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 5,
@@ -3267,7 +4968,16 @@ const papalTeachings: Devotional = {
 <p>This prophetic encyclical predicted the consequences of separating sex from procreation: increased infidelity, disrespect for women, and government coercion in family planning.</p>
 <p><strong>Paul VI wrote:</strong> "Responsible parenthood... concerns the objective moral order which was established by God, and of which a right conscience is the true interpreter."</p>`,
       scripture: 'Genesis 1:28 - "And God blessed them. And God said to them, Be fruitful and multiply and fill the earth."',
-      prayer: 'Lord, help me to respect the gift of human life and sexuality according to Your design. Give married couples the grace to be generous and responsible in transmitting life. Amen.'
+      prayer: 'Lord, help me to respect the gift of human life and sexuality according to Your design. Give married couples the grace to be generous and responsible in transmitting life. Amen.',
+    bibleLink: {
+      book: 'james',
+      chapter: 1,
+      label: 'James 1'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 6,
@@ -3278,7 +4988,16 @@ const papalTeachings: Devotional = {
 <p>John Paul II canonized St. Faustina and established Divine Mercy Sunday. He understood that the modern world, wounded by sin and despair, desperately needs to encounter God's mercy.</p>
 <p><strong>He wrote:</strong> "Mercy is love's second name... The Church must consider it one of her principal duties—at every stage of history and especially at the present stage—to proclaim and to introduce into life the mystery of mercy."</p>`,
       scripture: 'Luke 6:36 - "Be merciful, even as your Father is merciful."',
-      prayer: 'Jesus, I trust in You. Help me to receive Your mercy and to show mercy to others. May the message of Divine Mercy spread throughout the world. Amen.'
+      prayer: 'Jesus, I trust in You. Help me to receive Your mercy and to show mercy to others. May the message of Divine Mercy spread throughout the world. Amen.',
+    bibleLink: {
+      book: '1-peter',
+      chapter: 1,
+      label: '1 Peter 1'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 7,
@@ -3290,7 +5009,16 @@ const papalTeachings: Devotional = {
 <p><strong>He wrote:</strong> "Love of God and love of neighbor are thus inseparable, they form a single commandment. But both live from the love of God who has loved us first."</p>
 <p>The Church's charitable activity is not social work but an expression of her very nature as a community of love.</p>`,
       scripture: '1 John 4:19 - "We love because he first loved us."',
-      prayer: 'God of love, fill my heart with Your love. Help me to love You above all things and to love my neighbor as myself. May my life be a witness to Your love. Amen.'
+      prayer: 'God of love, fill my heart with Your love. Help me to love You above all things and to love my neighbor as myself. May my life be a witness to Your love. Amen.',
+    bibleLink: {
+      book: '1-john',
+      chapter: 4,
+      label: '1 John 4'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     }
   ]
 };
@@ -3318,7 +5046,16 @@ const parentingSaints: Devotional = {
 <p><strong>Zélie wrote:</strong> "I want to become a saint. It will not be easy... but I want to work at it. I want my children to be saints."</p>
 <p>Your primary job as a parent is not to make your children successful, popular, or wealthy. It is to help them become saints.</p>`,
       scripture: 'Proverbs 22:6 - "Train up a child in the way he should go; even when he is old he will not depart from it."',
-      prayer: 'Lord, help me to embrace my vocation as a parent. Give me wisdom to guide my children to You. May our home be a school of holiness. Sts. Louis and Zélie, pray for us. Amen.'
+      prayer: 'Lord, help me to embrace my vocation as a parent. Give me wisdom to guide my children to You. May our home be a school of holiness. Sts. Louis and Zélie, pray for us. Amen.',
+    bibleLink: {
+      book: 'hebrews',
+      chapter: 12,
+      label: 'Hebrews 12'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 2,
@@ -3336,7 +5073,16 @@ const parentingSaints: Devotional = {
 </ul>
 <p>Children learn more from what they see than what they hear. Your own faith—lived authentically—is the most powerful catechesis.</p>`,
       scripture: 'Deuteronomy 6:6-7 - "And these words that I command you today shall be on your heart. You shall teach them diligently to your children."',
-      prayer: 'Lord, help me to teach my children the faith by word and example. May our home be filled with Your presence. Give me creativity and consistency in passing on the faith. Amen.'
+      prayer: 'Lord, help me to teach my children the faith by word and example. May our home be filled with Your presence. Give me creativity and consistency in passing on the faith. Amen.',
+    bibleLink: {
+      book: 'proverbs',
+      chapter: 3,
+      label: 'Proverbs 3'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 3,
@@ -3353,7 +5099,16 @@ const parentingSaints: Devotional = {
 <p><strong>Don Bosco said:</strong> "Do not use force with young people. I have always used persuasion with them."</p>
 <p>The goal of discipline is not control but formation—helping children develop self-discipline and virtue.</p>`,
       scripture: 'Hebrews 12:11 - "For the moment all discipline seems painful rather than pleasant, but later it yields the peaceful fruit of righteousness to those who have been trained by it."',
-      prayer: 'Lord, give me wisdom to discipline my children with love. Help me to be firm but gentle, consistent but merciful. May my correction lead them to virtue. St. John Bosco, pray for us. Amen.'
+      prayer: 'Lord, give me wisdom to discipline my children with love. Help me to be firm but gentle, consistent but merciful. May my correction lead them to virtue. St. John Bosco, pray for us. Amen.',
+    bibleLink: {
+      book: 'isaiah',
+      chapter: 41,
+      label: 'Isaiah 41'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 4,
@@ -3371,7 +5126,16 @@ const parentingSaints: Devotional = {
 <li>Fast for their intentions</li>
 </ul>`,
       scripture: 'James 5:16 - "The prayer of a righteous person has great power as it is working."',
-      prayer: 'Lord, I entrust my children to You. Protect them from evil. Guide them in Your ways. Bring them safely to heaven. St. Monica, pray for my children. Amen.'
+      prayer: 'Lord, I entrust my children to You. Protect them from evil. Guide them in Your ways. Bring them safely to heaven. St. Monica, pray for my children. Amen.',
+    bibleLink: {
+      book: 'jeremiah',
+      chapter: 31,
+      label: 'Jeremiah 31'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 5,
@@ -3389,7 +5153,16 @@ const parentingSaints: Devotional = {
 </ul>
 <p>Your faithfulness during difficult times may be the very thing that eventually brings them back to God.</p>`,
       scripture: 'Luke 15:20 - "But while he was still a long way off, his father saw him and felt compassion, and ran and embraced him and kissed him."',
-      prayer: 'Lord, when my children struggle, help me to love like the father of the prodigal son. Give me patience, wisdom, and unwavering hope. I trust in Your mercy. Amen.'
+      prayer: 'Lord, when my children struggle, help me to love like the father of the prodigal son. Give me patience, wisdom, and unwavering hope. I trust in Your mercy. Amen.',
+    bibleLink: {
+      book: 'luke',
+      chapter: 2,
+      label: 'Luke 2'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 6,
@@ -3400,7 +5173,16 @@ const parentingSaints: Devotional = {
 <p><strong>The Quattrocchi Family:</strong> Blessed Luigi and Maria Quattrocchi are the first married couple beatified together in modern times. They raised four children, three of whom entered religious life.</p>
 <p>These families were not perfect, but they were faithful. They made God the center of their homes and trusted Him with their children.</p>`,
       scripture: 'Joshua 24:15 - "As for me and my house, we will serve the Lord."',
-      prayer: 'Holy Family of Nazareth, pray for our family. Help us to make our home a place of prayer, love, and service. May we follow your example of faithfulness. Amen.'
+      prayer: 'Holy Family of Nazareth, pray for our family. Help us to make our home a place of prayer, love, and service. May we follow your example of faithfulness. Amen.',
+    bibleLink: {
+      book: 'mark',
+      chapter: 10,
+      label: 'Mark 10'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 7,
@@ -3418,7 +5200,16 @@ const parentingSaints: Devotional = {
 </ul>
 <p>You may not see the full fruit of your efforts in this life. But one day, by God's grace, you may be reunited with your children in heaven—the ultimate goal of Catholic parenting.</p>`,
       scripture: '3 John 1:4 - "I have no greater joy than to hear that my children are walking in the truth."',
-      prayer: 'Lord, help me to raise my children to be saints. May they know You, love You, and serve You all their days. Bring us all safely to heaven, where we will praise You forever. Amen.'
+      prayer: 'Lord, help me to raise my children to be saints. May they know You, love You, and serve You all their days. Bring us all safely to heaven, where we will praise You forever. Amen.',
+    bibleLink: {
+      book: 'genesis',
+      chapter: 1,
+      label: 'Genesis 1'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     }
   ]
 };
@@ -3443,7 +5234,16 @@ const theologyOfBody: Devotional = {
 <p>This is why what we do with our bodies matters. Sexual morality is not arbitrary rules but flows from the meaning of the body itself.</p>
 <p>The body speaks a "language"—it can express love, commitment, gift of self. Or it can lie, using the language of total self-gift without the reality.</p>`,
       scripture: '1 Corinthians 6:19-20 - "Do you not know that your body is a temple of the Holy Spirit within you, whom you have from God? You are not your own, for you were bought with a price. So glorify God in your body."',
-      prayer: 'Lord, help me to see my body as You see it—as a temple of Your Spirit and a revelation of my soul. May I honor You in my body. Amen.'
+      prayer: 'Lord, help me to see my body as You see it—as a temple of Your Spirit and a revelation of my soul. May I honor You in my body. Amen.',
+    bibleLink: {
+      book: 'exodus',
+      chapter: 3,
+      label: 'Exodus 3'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 2,
@@ -3454,7 +5254,16 @@ const theologyOfBody: Devotional = {
 <p><strong>John Paul II wrote:</strong> "Man became the image of God not only through his own humanity, but also through the communion of persons which man and woman form from the very beginning."</p>
 <p>We image God not just as individuals but in relationship—especially in the communion of marriage.</p>`,
       scripture: 'Genesis 2:24 - "Therefore a man shall leave his father and his mother and hold fast to his wife, and they shall become one flesh."',
-      prayer: 'Lord, thank You for creating us male and female. Help me to appreciate the gift of complementarity and to build authentic communion with others. Amen.'
+      prayer: 'Lord, thank You for creating us male and female. Help me to appreciate the gift of complementarity and to build authentic communion with others. Amen.',
+    bibleLink: {
+      book: 'matthew',
+      chapter: 11,
+      label: 'Matthew 11'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 3,
@@ -3465,7 +5274,16 @@ const theologyOfBody: Devotional = {
 <p>Sin introduced shame because it introduced the possibility of using another person. Lust reduces the person to an object of desire.</p>
 <p>The goal of redemption is to restore this original vision—to see others as persons to be loved, not objects to be used.</p>`,
       scripture: 'Genesis 2:25 - "And the man and his wife were both naked and were not ashamed."',
-      prayer: 'Lord, purify my vision. Help me to see others as persons made in Your image, not as objects. Restore in me the purity of heart that sees as You see. Amen.'
+      prayer: 'Lord, purify my vision. Help me to see others as persons made in Your image, not as objects. Restore in me the purity of heart that sees as You see. Amen.',
+    bibleLink: {
+      book: 'john',
+      chapter: 6,
+      label: 'John 6'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 4,
@@ -3479,7 +5297,16 @@ const theologyOfBody: Devotional = {
 </ul>
 <p>Both vocations express the same truth: we are made for love, for gift, for communion.</p>`,
       scripture: 'Ephesians 5:31-32 - "Therefore a man shall leave his father and mother and hold fast to his wife, and the two shall become one flesh. This mystery is profound, and I am saying that it refers to Christ and the church."',
-      prayer: 'Lord, help me to understand and live the spousal meaning of my body. Whether in marriage or celibacy, may I give myself completely in love. Amen.'
+      prayer: 'Lord, help me to understand and live the spousal meaning of my body. Whether in marriage or celibacy, may I give myself completely in love. Amen.',
+    bibleLink: {
+      book: 'psalms',
+      chapter: 34,
+      label: 'Psalms 34'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 5,
@@ -3495,7 +5322,16 @@ const theologyOfBody: Devotional = {
 </ul>
 <p>This transformation is possible through prayer, the sacraments, and cooperation with grace.</p>`,
       scripture: 'Romans 8:23 - "And not only the creation, but we ourselves, who have the firstfruits of the Spirit, groan inwardly as we wait eagerly for adoption as sons, the redemption of our bodies."',
-      prayer: 'Lord Jesus, redeem my body and my sexuality. Free me from lust and selfishness. Help me to love as You love—purely, freely, faithfully, fruitfully. Amen.'
+      prayer: 'Lord Jesus, redeem my body and my sexuality. Free me from lust and selfishness. Help me to love as You love—purely, freely, faithfully, fruitfully. Amen.',
+    bibleLink: {
+      book: 'romans',
+      chapter: 8,
+      label: 'Romans 8'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 6,
@@ -3511,7 +5347,16 @@ const theologyOfBody: Devotional = {
 </ul>
 <p>When these elements are present, the marital act speaks the truth. When any is missing, the body "lies"—it says total gift while withholding something.</p>`,
       scripture: 'Ephesians 5:25 - "Husbands, love your wives, as Christ loved the church and gave himself up for her."',
-      prayer: 'Lord, help married couples to live their vocation as a sacrament. May their love reflect Your love for the Church. Bless all marriages with fidelity and fruitfulness. Amen.'
+      prayer: 'Lord, help married couples to live their vocation as a sacrament. May their love reflect Your love for the Church. Bless all marriages with fidelity and fruitfulness. Amen.',
+    bibleLink: {
+      book: 'philippians',
+      chapter: 2,
+      label: 'Philippians 2'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 7,
@@ -3523,7 +5368,16 @@ const theologyOfBody: Devotional = {
 <p>Celibacy for the kingdom anticipates this reality. Those who embrace celibacy witness that our ultimate fulfillment is not in marriage but in God.</p>
 <p>Whether married or celibate, we are all destined for the eternal wedding feast of the Lamb.</p>`,
       scripture: '1 Corinthians 15:42-44 - "So is it with the resurrection of the dead. What is sown is perishable; what is raised is imperishable... It is sown a natural body; it is raised a spiritual body."',
-      prayer: 'Lord, I believe in the resurrection of the body. Help me to live now in light of eternity. May my body glorify You until it is raised in glory. Amen.'
+      prayer: 'Lord, I believe in the resurrection of the body. Help me to live now in light of eternity. May my body glorify You until it is raised in glory. Amen.',
+    bibleLink: {
+      book: 'colossians',
+      chapter: 1,
+      label: 'Colossians 1'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     }
   ]
 };
@@ -3548,7 +5402,16 @@ const priestsDaily: Devotional = {
 <p><strong>St. John Vianney said:</strong> "The priest is not a priest for himself; he does not give himself absolution; he does not administer the Sacraments to himself. He is not for himself, he is for you."</p>
 <p>Never forget the dignity of your calling. You are another Christ.</p>`,
       scripture: '2 Corinthians 5:20 - "Therefore, we are ambassadors for Christ, God making his appeal through us."',
-      prayer: 'Lord Jesus, thank You for calling me to share in Your priesthood. Help me to be a worthy instrument of Your grace. May I decrease so that You may increase. Amen.'
+      prayer: 'Lord Jesus, thank You for calling me to share in Your priesthood. Help me to be a worthy instrument of Your grace. May I decrease so that You may increase. Amen.',
+    bibleLink: {
+      book: '1-corinthians',
+      chapter: 13,
+      label: '1 Corinthians 13'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 2,
@@ -3559,7 +5422,16 @@ const priestsDaily: Devotional = {
 <p><strong>St. Padre Pio</strong> often wept during Mass and took hours to celebrate. He understood what was happening.</p>
 <p>Prepare well. Celebrate reverently. Give thanks afterward. Let the Eucharist transform you.</p>`,
       scripture: 'Luke 22:19 - "And he took bread, and when he had given thanks, he broke it and gave it to them, saying, This is my body, which is given for you. Do this in remembrance of me."',
-      prayer: 'Lord, help me to celebrate the Holy Sacrifice with ever-greater devotion. May each Mass renew my priesthood and set my heart on fire with love for You. Amen.'
+      prayer: 'Lord, help me to celebrate the Holy Sacrifice with ever-greater devotion. May each Mass renew my priesthood and set my heart on fire with love for You. Amen.',
+    bibleLink: {
+      book: 'galatians',
+      chapter: 5,
+      label: 'Galatians 5'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 3,
@@ -3570,7 +5442,16 @@ const priestsDaily: Devotional = {
 <p>Be available for confession. Be patient with penitents. Be merciful as the Father is merciful. Speak words of encouragement and hope.</p>
 <p>And go to confession yourself regularly. You need mercy too. A priest who does not confess cannot effectively minister mercy to others.</p>`,
       scripture: 'John 20:23 - "If you forgive the sins of any, they are forgiven them; if you withhold forgiveness from any, it is withheld."',
-      prayer: 'Lord, make me a minister of Your mercy. Help me to be patient, compassionate, and wise in the confessional. May many souls find healing through this sacrament. Amen.'
+      prayer: 'Lord, make me a minister of Your mercy. Help me to be patient, compassionate, and wise in the confessional. May many souls find healing through this sacrament. Amen.',
+    bibleLink: {
+      book: 'ephesians',
+      chapter: 3,
+      label: 'Ephesians 3'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 4,
@@ -3588,7 +5469,16 @@ const priestsDaily: Devotional = {
 </ul>
 <p>Protect your prayer time fiercely. The devil will try to steal it through busyness, discouragement, or distraction. Without prayer, you have nothing to give.</p>`,
       scripture: 'Mark 1:35 - "And rising very early in the morning, while it was still dark, he departed and went out to a desolate place, and there he prayed."',
-      prayer: 'Lord, help me to be faithful to prayer. When I am busy, remind me that prayer is not optional. Fill my prayer with Your presence and renew my strength. Amen.'
+      prayer: 'Lord, help me to be faithful to prayer. When I am busy, remind me that prayer is not optional. Fill my prayer with Your presence and renew my strength. Amen.',
+    bibleLink: {
+      book: 'james',
+      chapter: 2,
+      label: 'James 2'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 5,
@@ -3606,7 +5496,16 @@ const priestsDaily: Devotional = {
 </ul>
 <p>Your celibacy is a gift to the Church. Live it joyfully.</p>`,
       scripture: 'Matthew 19:12 - "There are eunuchs who have made themselves eunuchs for the sake of the kingdom of heaven. Let the one who is able to receive this receive it."',
-      prayer: 'Lord, help me to live my celibacy faithfully and joyfully. May it be a sign of Your kingdom and a gift to Your people. Protect me from temptation. Amen.'
+      prayer: 'Lord, help me to live my celibacy faithfully and joyfully. May it be a sign of Your kingdom and a gift to Your people. Protect me from temptation. Amen.',
+    bibleLink: {
+      book: '1-peter',
+      chapter: 2,
+      label: '1 Peter 2'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 6,
@@ -3618,7 +5517,16 @@ const priestsDaily: Devotional = {
 <p><strong>St. Augustine wrote:</strong> "For you I am a bishop, but with you I am a Christian. The first is an office, the second a grace; the first a danger, the second salvation."</p>
 <p>Never lord it over your people. Serve them as Christ served.</p>`,
       scripture: 'John 10:11 - "I am the good shepherd. The good shepherd lays down his life for the sheep."',
-      prayer: 'Lord, make me a good shepherd. Help me to know my sheep, to love them, and to lay down my life for them. May I lead them safely to You. Amen.'
+      prayer: 'Lord, make me a good shepherd. Help me to know my sheep, to love them, and to lay down my life for them. May I lead them safely to You. Amen.',
+    bibleLink: {
+      book: '1-john',
+      chapter: 3,
+      label: '1 John 3'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 7,
@@ -3637,7 +5545,16 @@ const priestsDaily: Devotional = {
 <p><strong>St. John Vianney said:</strong> "The priesthood is the love of the heart of Jesus."</p>
 <p>You are loved. You are called. You are equipped. Persevere to the end, and you will receive the crown of life.</p>`,
       scripture: 'Hebrews 10:23 - "Let us hold fast the confession of our hope without wavering, for he who promised is faithful."',
-      prayer: 'Lord, give me the grace to persevere in my priesthood until the end. When I am weary, renew my strength. When I am tempted, deliver me. Bring me safely home. Amen.'
+      prayer: 'Lord, give me the grace to persevere in my priesthood until the end. When I am weary, renew my strength. When I am tempted, deliver me. Bring me safely home. Amen.',
+    bibleLink: {
+      book: 'hebrews',
+      chapter: 11,
+      label: 'Hebrews 11'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     }
   ]
 };
@@ -3665,7 +5582,16 @@ const religiousLife: Devotional = {
 <p><strong>St. Teresa of Ávila wrote:</strong> "Let nothing disturb you, let nothing frighten you. All things pass away: God never changes. Patience obtains all things. Whoever has God lacks nothing; God alone suffices."</p>
 <p>This is the heart of religious life: God alone suffices.</p>`,
       scripture: 'Matthew 19:21 - "Jesus said to him, If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven; and come, follow me."',
-      prayer: 'Lord, thank You for calling me to religious life. Help me to follow You radically, holding nothing back. May my life proclaim that You alone are enough. Amen.'
+      prayer: 'Lord, thank You for calling me to religious life. Help me to follow You radically, holding nothing back. May my life proclaim that You alone are enough. Amen.',
+    bibleLink: {
+      book: 'proverbs',
+      chapter: 4,
+      label: 'Proverbs 4'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 2,
@@ -3682,7 +5608,16 @@ const religiousLife: Devotional = {
 <li>Trusting God for your needs</li>
 </ul>`,
       scripture: 'Matthew 6:19-21 - "Do not lay up for yourselves treasures on earth... but lay up for yourselves treasures in heaven... For where your treasure is, there your heart will be also."',
-      prayer: 'Lord, free me from attachment to material things. Help me to live poverty joyfully, trusting in Your providence. May my life witness that You are my only treasure. Amen.'
+      prayer: 'Lord, free me from attachment to material things. Help me to live poverty joyfully, trusting in Your providence. May my life witness that You are my only treasure. Amen.',
+    bibleLink: {
+      book: 'isaiah',
+      chapter: 53,
+      label: 'Isaiah 53'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 3,
@@ -3693,7 +5628,16 @@ const religiousLife: Devotional = {
 <p>Your chastity is a gift to the Church. It frees you to love many without exclusive attachment. It witnesses that human love finds its fulfillment in God.</p>
 <p>Guard your chastity through prayer, prudence, and healthy relationships. It is a treasure worth protecting.</p>`,
       scripture: '1 Corinthians 7:34 - "The unmarried woman or virgin is anxious about the things of the Lord, how to be holy in body and spirit."',
-      prayer: 'Lord, help me to live chastity faithfully and joyfully. May my celibate love be fruitful for Your kingdom. Protect me from temptation and fill my heart with Your love. Amen.'
+      prayer: 'Lord, help me to live chastity faithfully and joyfully. May my celibate love be fruitful for Your kingdom. Protect me from temptation and fill my heart with Your love. Amen.',
+    bibleLink: {
+      book: 'jeremiah',
+      chapter: 29,
+      label: 'Jeremiah 29'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 4,
@@ -3704,7 +5648,16 @@ const religiousLife: Devotional = {
 <p>Obedience is not blind submission but trusting surrender. You believe that God speaks through your superiors, even when you disagree.</p>
 <p>This vow frees you from the tyranny of your own will and unites you to Christ's saving obedience.</p>`,
       scripture: 'Philippians 2:8 - "And being found in human form, he humbled himself by becoming obedient to the point of death, even death on a cross."',
-      prayer: 'Lord, help me to obey joyfully, even when it is difficult. Unite my will to Yours through the structures of my community. May my obedience be a sacrifice pleasing to You. Amen.'
+      prayer: 'Lord, help me to obey joyfully, even when it is difficult. Unite my will to Yours through the structures of my community. May my obedience be a sacrifice pleasing to You. Amen.',
+    bibleLink: {
+      book: 'luke',
+      chapter: 10,
+      label: 'Luke 10'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 5,
@@ -3715,7 +5668,16 @@ const religiousLife: Devotional = {
 <p><strong>St. Teresa of Ávila said:</strong> "Christ has no body now but yours. No hands, no feet on earth but yours."</p>
 <p>Your community is Christ's body. Love it, serve it, build it up.</p>`,
       scripture: 'Psalm 133:1 - "Behold, how good and pleasant it is when brothers dwell in unity!"',
-      prayer: 'Lord, help me to love my community as You love the Church. Give me patience with difficult members and gratitude for the gift of shared life. May our community be a sign of Your kingdom. Amen.'
+      prayer: 'Lord, help me to love my community as You love the Church. Give me patience with difficult members and gratitude for the gift of shared life. May our community be a sign of Your kingdom. Amen.',
+    bibleLink: {
+      book: 'mark',
+      chapter: 1,
+      label: 'Mark 1'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 6,
@@ -3734,7 +5696,16 @@ const religiousLife: Devotional = {
 </ul>
 <p>Be faithful to your prayer commitments. They are the foundation of your vocation.</p>`,
       scripture: 'Luke 18:1 - "And he told them a parable to the effect that they ought always to pray and not lose heart."',
-      prayer: 'Lord, help me to be faithful to prayer. May the rhythm of community prayer sanctify my days. Fill my prayer with Your presence and transform me into Your likeness. Amen.'
+      prayer: 'Lord, help me to be faithful to prayer. May the rhythm of community prayer sanctify my days. Fill my prayer with Your presence and transform me into Your likeness. Amen.',
+    bibleLink: {
+      book: 'genesis',
+      chapter: 12,
+      label: 'Genesis 12'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 7,
@@ -3771,7 +5742,16 @@ const sufferingMeaning: Devotional = {
 <p><strong>St. John Paul II wrote:</strong> "Suffering is present in the world in order to release love, in order to give birth to works of love towards neighbor."</p>
 <p>Suffering can destroy us or transform us. Faith makes the difference.</p>`,
       scripture: 'Romans 8:28 - "And we know that for those who love God all things work together for good, for those who are called according to his purpose."',
-      prayer: 'Lord, I do not understand why I suffer, but I trust in Your goodness. Help me to find meaning in my pain and to grow through it. Amen.'
+      prayer: 'Lord, I do not understand why I suffer, but I trust in Your goodness. Help me to find meaning in my pain and to grow through it. Amen.',
+    bibleLink: {
+      book: 'exodus',
+      chapter: 14,
+      label: 'Exodus 14'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 2,
@@ -3782,7 +5762,16 @@ const sufferingMeaning: Devotional = {
 <p>The Cross shows that suffering is not meaningless. It can be redemptive. It can bring life out of death, hope out of despair.</p>
 <p><strong>Isaiah prophesied:</strong> "He was wounded for our transgressions; he was crushed for our iniquities; upon him was the chastisement that brought us peace, and with his stripes we are healed." (Isaiah 53:5)</p>`,
       scripture: 'Hebrews 4:15 - "For we do not have a high priest who is unable to sympathize with our weaknesses, but one who in every respect has been tempted as we are, yet without sin."',
-      prayer: 'Lord Jesus, You know what it is to suffer. Thank You for entering into my pain. Help me to unite my suffering with Yours on the Cross. Amen.'
+      prayer: 'Lord Jesus, You know what it is to suffer. Thank You for entering into my pain. Help me to unite my suffering with Yours on the Cross. Amen.',
+    bibleLink: {
+      book: 'matthew',
+      chapter: 18,
+      label: 'Matthew 18'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 3,
@@ -3799,7 +5788,16 @@ const sufferingMeaning: Devotional = {
 </ul>
 <p>Your suffering is not wasted. It can save souls.</p>`,
       scripture: 'Colossians 1:24 - "Now I rejoice in my sufferings for your sake, and in my flesh I am filling up what is lacking in Christ\'s afflictions for the sake of his body, that is, the church."',
-      prayer: 'Lord, I offer You my suffering, united with Your Passion. Use it for the salvation of souls and the good of Your Church. May nothing be wasted. Amen.'
+      prayer: 'Lord, I offer You my suffering, united with Your Passion. Use it for the salvation of souls and the good of Your Church. May nothing be wasted. Amen.',
+    bibleLink: {
+      book: 'john',
+      chapter: 8,
+      label: 'John 8'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 4,
@@ -3810,7 +5808,16 @@ const sufferingMeaning: Devotional = {
 <p><strong>St. John of the Cross wrote:</strong> "God perceives the imperfections within us, and because of his love for us, urges us to grow up... His love is not content to leave us in our weakness."</p>
 <p>This does not mean God sends suffering to punish us. But He can use it to transform us, if we cooperate with His grace.</p>`,
       scripture: '1 Peter 1:6-7 - "In this you rejoice, though now for a little while, if necessary, you have been grieved by various trials, so that the tested genuineness of your faith—more precious than gold that perishes though it is tested by fire—may be found to result in praise and glory and honor at the revelation of Jesus Christ."',
-      prayer: 'Lord, use my suffering to purify me. Burn away all that is not of You. Make me more like Christ through this trial. Amen.'
+      prayer: 'Lord, use my suffering to purify me. Burn away all that is not of You. Make me more like Christ through this trial. Amen.',
+    bibleLink: {
+      book: 'psalms',
+      chapter: 46,
+      label: 'Psalms 46'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 5,
@@ -3821,7 +5828,16 @@ const sufferingMeaning: Devotional = {
 <p><strong>Henri Nouwen called this being a "wounded healer":</strong> "The great illusion of leadership is to think that man can be led out of the desert by someone who has never been there."</p>
 <p>Let your wounds become sources of healing for others.</p>`,
       scripture: '2 Corinthians 1:4 - "Who comforts us in all our affliction, so that we may be able to comfort those who are in any affliction, with the comfort with which we ourselves are comforted by God."',
-      prayer: 'Lord, use my suffering to make me more compassionate. Help me to comfort others with the comfort I have received from You. May my wounds bring healing. Amen.'
+      prayer: 'Lord, use my suffering to make me more compassionate. Help me to comfort others with the comfort I have received from You. May my wounds bring healing. Amen.',
+    bibleLink: {
+      book: 'romans',
+      chapter: 12,
+      label: 'Romans 12'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 6,
@@ -3833,7 +5849,16 @@ const sufferingMeaning: Devotional = {
 <p>In heaven, every tear will be wiped away. Every pain will be healed. Every loss will be restored. This hope sustains us in the darkest moments.</p>
 <p>Hold on to hope. The best is yet to come.</p>`,
       scripture: 'Revelation 21:4 - "He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning, nor crying, nor pain anymore, for the former things have passed away."',
-      prayer: 'Lord, fill me with hope. Help me to see beyond my present suffering to the glory You have prepared. Sustain me with the promise of heaven. Amen.'
+      prayer: 'Lord, fill me with hope. Help me to see beyond my present suffering to the glory You have prepared. Sustain me with the promise of heaven. Amen.',
+    bibleLink: {
+      book: 'philippians',
+      chapter: 4,
+      label: 'Philippians 4'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 7,
@@ -3845,7 +5870,16 @@ const sufferingMeaning: Devotional = {
 <p>This simple prayer is the heart of the Christian response to suffering. We may not understand, but we trust. We may not see the purpose, but we believe in God's goodness.</p>
 <p>Trust Him. He has not abandoned you. He is working all things for your good.</p>`,
       scripture: 'Proverbs 3:5-6 - "Trust in the Lord with all your heart, and do not lean on your own understanding. In all your ways acknowledge him, and he will make straight your paths."',
-      prayer: 'Jesus, I trust in You. I do not understand my suffering, but I trust in Your love. Hold me close and bring me through this trial. Amen.'
+      prayer: 'Jesus, I trust in You. I do not understand my suffering, but I trust in Your love. Hold me close and bring me through this trial. Amen.',
+    bibleLink: {
+      book: 'colossians',
+      chapter: 3,
+      label: 'Colossians 3'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     }
   ]
 };
@@ -3871,7 +5905,16 @@ const addictionRecovery: Devotional = {
 <p><strong>Jesus said:</strong> "Apart from me you can do nothing." (John 15:5)</p>
 <p>You are not alone in your struggle. God sees you, loves you, and wants to set you free.</p>`,
       scripture: '2 Corinthians 12:9 - "But he said to me, My grace is sufficient for you, for my power is made perfect in weakness."',
-      prayer: 'Lord, I admit that I am powerless over my addiction. I cannot free myself. I need Your help. Come to my aid and begin my healing. Amen.'
+      prayer: 'Lord, I admit that I am powerless over my addiction. I cannot free myself. I need Your help. Come to my aid and begin my healing. Amen.',
+    bibleLink: {
+      book: '1-corinthians',
+      chapter: 15,
+      label: '1 Corinthians 15'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 2,
@@ -3888,7 +5931,16 @@ const addictionRecovery: Devotional = {
 </ul>
 <p>This is not a one-time decision but a daily surrender. Each day, turn your will and your life over to God's care.</p>`,
       scripture: 'Jeremiah 29:11 - "For I know the plans I have for you, declares the Lord, plans for welfare and not for evil, to give you a future and a hope."',
-      prayer: 'Lord, I turn my life over to Your care. I believe You can restore me. Guide my steps today and every day. I surrender to Your will. Amen.'
+      prayer: 'Lord, I turn my life over to Your care. I believe You can restore me. Guide my steps today and every day. I surrender to Your will. Amen.',
+    bibleLink: {
+      book: 'galatians',
+      chapter: 6,
+      label: 'Galatians 6'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 3,
@@ -3906,7 +5958,16 @@ const addictionRecovery: Devotional = {
 </ul>
 <p>Write it down. Be thorough. Be honest. This is the foundation for confession and healing.</p>`,
       scripture: 'Lamentations 3:40 - "Let us test and examine our ways, and return to the Lord!"',
-      prayer: 'Lord, help me to see myself honestly. Show me my sins and defects. Give me courage to face the truth. I want to be healed. Amen.'
+      prayer: 'Lord, help me to see myself honestly. Show me my sins and defects. Give me courage to face the truth. I want to be healed. Amen.',
+    bibleLink: {
+      book: 'ephesians',
+      chapter: 6,
+      label: 'Ephesians 6'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     },
     {
       day: 4,
@@ -3923,7 +5984,16 @@ const addictionRecovery: Devotional = {
 </ul>
 <p>Do not be afraid to confess. The priest has heard it all. He is there to offer Christ's mercy, not judgment.</p>`,
       scripture: 'James 5:16 - "Therefore, confess your sins to one another and pray for one another, that you may be healed."',
-      prayer: 'Lord, I confess my sins to You. I am sorry for the harm I have caused. Thank You for Your mercy and forgiveness. Cleanse me and make me new. Amen.'
+      prayer: 'Lord, I confess my sins to You. I am sorry for the harm I have caused. Thank You for Your mercy and forgiveness. Cleanse me and make me new. Amen.',
+    bibleLink: {
+      book: 'james',
+      chapter: 5,
+      label: 'James 5'
+    },
+    blogLink: {
+      slug: 'saint-patrick-day-2026-faith-history-celebration',
+      title: 'Saint Patrick: Faith & History'
+    }
     },
     {
       day: 5,
@@ -3940,7 +6010,16 @@ const addictionRecovery: Devotional = {
 <p>This is difficult but liberating. It frees us from the burden of guilt and begins to heal broken relationships.</p>
 <p>Some amends cannot be made directly. In those cases, we can make "living amends"—changing our behavior going forward.</p>`,
       scripture: 'Luke 19:8 - "And Zacchaeus stood and said to the Lord, Behold, Lord, the half of my goods I give to the poor. And if I have defrauded anyone of anything, I restore it fourfold."',
-      prayer: 'Lord, give me courage to make amends. Show me who I have harmed and how to repair the damage. Help me to be humble and sincere. Amen.'
+      prayer: 'Lord, give me courage to make amends. Show me who I have harmed and how to repair the damage. Help me to be humble and sincere. Amen.',
+    bibleLink: {
+      book: '1-peter',
+      chapter: 5,
+      label: '1 Peter 5'
+    },
+    blogLink: {
+      slug: 'catholic-faith-mental-health-2026-complete-guide',
+      title: 'Faith and Mental Health'
+    }
     },
     {
       day: 6,
@@ -3959,7 +6038,16 @@ const addictionRecovery: Devotional = {
 <p>Recovery is not a destination but a journey. Each day, we must choose sobriety and seek God's grace.</p>
 <p><strong>St. Paul wrote:</strong> "Work out your own salvation with fear and trembling, for it is God who works in you." (Philippians 2:12-13)</p>`,
       scripture: 'Philippians 4:13 - "I can do all things through him who strengthens me."',
-      prayer: 'Lord, help me to be faithful to daily spiritual practice. Strengthen me against temptation. Keep me close to You today and every day. Amen.'
+      prayer: 'Lord, help me to be faithful to daily spiritual practice. Strengthen me against temptation. Keep me close to You today and every day. Amen.',
+    bibleLink: {
+      book: '1-john',
+      chapter: 4,
+      label: '1 John 4'
+    },
+    blogLink: {
+      slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+      title: 'Catholic Ethics Guide'
+    }
     },
     {
       day: 7,
@@ -3978,7 +6066,16 @@ const addictionRecovery: Devotional = {
 <p><strong>St. Paul wrote:</strong> "Blessed be the God and Father of our Lord Jesus Christ... who comforts us in all our affliction, so that we may be able to comfort those who are in any affliction." (2 Corinthians 1:3-4)</p>
 <p>Your recovery is a gift. Share it generously.</p>`,
       scripture: 'Galatians 6:2 - "Bear one another\'s burdens, and so fulfill the law of Christ."',
-      prayer: 'Lord, use my recovery to help others. Show me who needs my support. Give me the words to share hope. May my story bring glory to You. Amen.'
+      prayer: 'Lord, use my recovery to help others. Show me who needs my support. Give me the words to share hope. May my story bring glory to You. Amen.',
+    bibleLink: {
+      book: 'hebrews',
+      chapter: 12,
+      label: 'Hebrews 12'
+    },
+    blogLink: {
+      slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+      title: 'Lent: 40 Days of Transformation'
+    }
     }
   ]
 };
