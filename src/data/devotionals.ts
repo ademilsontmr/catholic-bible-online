@@ -868,9 +868,16 @@ export function getDevotionalBySlug(slug: string): Devotional | undefined {
   return devotionals.find(d => d.slug === slug);
 }
 
-// Helper function to get today's reading
+// Helper function to get today's reading (cycles through readings based on day of year)
 export function getTodaysReading(devotional: Devotional): DevotionalReading {
-  const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86400000);
-  const readingIndex = dayOfYear % devotional.readings.length;
+  // Get day of year (1-366)
+  const now = new Date();
+  const start = new Date(now.getFullYear(), 0, 1); // Jan 1st
+  const diff = now.getTime() - start.getTime();
+  const oneDay = 1000 * 60 * 60 * 24;
+  const dayOfYear = Math.floor(diff / oneDay) + 1; // +1 because Jan 1 should be day 1
+  
+  // Cycle through readings (day 1 = index 0, day 2 = index 1, etc.)
+  const readingIndex = (dayOfYear - 1) % devotional.readings.length;
   return devotional.readings[readingIndex];
 }
