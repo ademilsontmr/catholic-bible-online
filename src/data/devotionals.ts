@@ -1714,3 +1714,600 @@ const familyRosary: Devotional = {
 };
 
 devotionals.push(adventDaily, familyRosary);
+
+
+// ============================================
+// MORE SAINTS DEVOTIONALS
+// ============================================
+
+const johnPaulIIDaily: Devotional = {
+  slug: 'john-paul-ii-daily',
+  title: 'St. John Paul II Daily',
+  author: 'St. John Paul II',
+  description: 'Teachings from the beloved Pope on faith, family, and the dignity of the human person.',
+  longDescription: 'Pope St. John Paul II (1920-2005) was one of the most influential figures of the 20th century. His teachings on human dignity, the family, and the new evangelization continue to shape the Church today. These daily reflections draw from his writings and homilies to inspire your faith journey.',
+  frequency: 'Daily',
+  category: 'Saints for Today',
+  icon: '🇻🇦',
+  readings: [
+    {
+      day: 1,
+      title: 'Be Not Afraid',
+      content: `<p>"Be not afraid!" These words, spoken at the beginning of John Paul II's pontificate, became the theme of his entire ministry. They echo Christ's words to His disciples and to us.</p>
+<p>"Do not be afraid. Do not be satisfied with mediocrity. Put out into the deep and let down your nets for a catch."</p>
+<p>John Paul II lived these words. He faced down communism, traveled to 129 countries, survived an assassination attempt, and continued his ministry even as Parkinson's disease ravaged his body. He was not afraid because he trusted in Christ.</p>
+<p>"The future starts today, not tomorrow. We are not the sum of our weaknesses and failures; we are the sum of the Father's love for us and our real capacity to become the image of his Son."</p>
+<p>What are you afraid of? Christ says to you today: "Be not afraid!" He is with you. He will never abandon you. Trust in Him.</p>`,
+      scripture: 'Isaiah 41:10 - "Fear not, for I am with you; be not dismayed, for I am your God; I will strengthen you, I will help you."',
+      prayer: 'Lord Jesus, You told us not to be afraid. Help me to trust in You completely, even when I face difficulties and uncertainties. Give me the courage of St. John Paul II to live my faith boldly. Be not afraid! Amen.'
+    },
+    {
+      day: 2,
+      title: 'The Dignity of the Human Person',
+      content: `<p>"The human person is the only creature on earth that God has wanted for its own sake." This profound truth from the Second Vatican Council was central to John Paul II's teaching.</p>
+<p>Every human being, from conception to natural death, has infinite dignity because we are created in God's image. This dignity cannot be earned or lost—it is inherent to our nature.</p>
+<p>"Man cannot live without love. He remains a being that is incomprehensible for himself, his life is senseless, if love is not revealed to him, if he does not encounter love, if he does not experience it and make it his own."</p>
+<p>John Paul II defended human dignity against all threats: abortion, euthanasia, poverty, war, and the culture of death. He called us to build a "civilization of love" where every person is valued.</p>
+<p>"Freedom consists not in doing what we like, but in having the right to do what we ought."</p>`,
+      scripture: 'Genesis 1:27 - "So God created man in his own image, in the image of God he created him; male and female he created them."',
+      prayer: 'Lord, help me to see the dignity of every person I meet. May I defend human life from conception to natural death. Give me the grace to build a civilization of love in my family, my community, and my world. Amen.'
+    },
+    {
+      day: 3,
+      title: 'The Family: School of Love',
+      content: `<p>"As the family goes, so goes the nation and so goes the whole world in which we live." John Paul II understood that the family is the foundation of society and the Church.</p>
+<p>He called the family the "domestic church"—the first place where children learn to pray, to love, and to live the faith. Parents are the primary educators of their children in the ways of God.</p>
+<p>"The future of humanity passes by way of the family. It is therefore indispensable and urgent that every person of good will should endeavor to save and foster the values and requirements of the family."</p>
+<p>In a world that attacks the family, John Paul II called us to defend and strengthen it. Strong families build strong societies. Holy families build a holy Church.</p>
+<p>"Love is never something ready-made, something merely 'given' to man and woman; it must always be 'worked out' by them."</p>`,
+      scripture: 'Ephesians 5:25 - "Husbands, love your wives, as Christ loved the church and gave himself up for her."',
+      prayer: 'Lord, bless and protect my family. Help us to be a domestic church where faith is lived and love is learned. Give parents the grace to be holy educators of their children. St. John Paul II, pray for families. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Theology of the Body',
+      content: `<p>John Paul II's Theology of the Body is one of the most significant contributions to Catholic thought in modern times. In 129 Wednesday audiences, he explored the meaning of human sexuality and the body.</p>
+<p>"The body, in fact, and only the body, is capable of making visible what is invisible: the spiritual and the divine. It has been created to transfer into the visible reality of the world the mystery hidden from eternity in God."</p>
+<p>Our bodies are not prisons for our souls but temples of the Holy Spirit. Sexuality is not shameful but sacred—a gift from God that reflects His own life-giving love.</p>
+<p>"Man and woman were created for each other—not that God left them half-made and incomplete: he created them to be a communion of persons, in which each can be 'helpmate' to the other."</p>
+<p>The Theology of the Body calls us to live our sexuality according to God's design, finding in it a path to holiness and a reflection of divine love.</p>`,
+      scripture: '1 Corinthians 6:19-20 - "Do you not know that your body is a temple of the Holy Spirit within you? You are not your own, for you were bought with a price. So glorify God in your body."',
+      prayer: 'Lord, help me to understand and live the truth about my body and sexuality. May I honor my body as a temple of the Holy Spirit and live according to Your design for human love. Amen.'
+    },
+    {
+      day: 5,
+      title: 'The New Evangelization',
+      content: `<p>John Paul II called the Church to a "new evangelization"—new in ardor, methods, and expression. The Gospel must be proclaimed anew to a world that has forgotten it.</p>
+<p>"The Church which 'goes forth' is a community of missionary disciples who take the first step, who are involved and supportive, who bear fruit and rejoice."</p>
+<p>The new evangelization is not just for missionaries in foreign lands but for every Catholic in their daily life. We are all called to share the faith with others.</p>
+<p>"Do not be afraid to go out on the streets and into public places, like the first Apostles who preached Christ and the Good News of salvation in the squares of cities, towns and villages."</p>
+<p>John Paul II himself was the greatest evangelist of his time, using modern media, World Youth Days, and his personal witness to bring millions to Christ.</p>`,
+      scripture: 'Matthew 28:19-20 - "Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you."',
+      prayer: 'Lord, give me the courage to share my faith with others. Help me to be a missionary disciple in my daily life. May the new evangelization begin with me. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Suffering and Redemption',
+      content: `<p>John Paul II knew suffering intimately. He lost his mother at age 8, his brother at 12, and his father at 20. He was shot by an assassin. He lived his final years with Parkinson's disease, visible to the whole world.</p>
+<p>"Suffering is present in the world in order to release love, in order to give birth to works of love towards neighbor, in order to transform the whole of human civilization into a 'civilization of love.'"</p>
+<p>He taught that suffering, united to Christ's Cross, has redemptive value. It is not meaningless but can become a source of grace for ourselves and others.</p>
+<p>"I have lived through much darkness... but I have also experienced much light. And in this light I have seen that suffering is not the last word. The last word is love."</p>
+<p>John Paul II's witness of suffering with dignity and faith inspired millions. He showed that even in weakness, we can glorify God.</p>`,
+      scripture: 'Colossians 1:24 - "Now I rejoice in my sufferings for your sake, and in my flesh I am filling up what is lacking in Christ\'s afflictions for the sake of his body, that is, the church."',
+      prayer: 'Lord Jesus, help me to unite my sufferings to Your Cross. May my trials become a source of grace for others. Give me the faith to trust You in darkness and to witness to Your love in all circumstances. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Totus Tuus: Totally Yours',
+      content: `<p>"Totus Tuus"—Totally Yours—was John Paul II's papal motto, expressing his complete consecration to Mary. This Marian devotion shaped his entire life and ministry.</p>
+<p>"To Jesus through Mary." John Paul II believed that devotion to Mary leads us closer to her Son. She is the surest path to Christ.</p>
+<p>"The Rosary is my favorite prayer. A marvelous prayer! Marvelous in its simplicity and its depth... It can be said that the Rosary is, in a certain way, a prayer-commentary on the final chapter of the Constitution Lumen Gentium of Vatican II."</p>
+<p>He credited Mary with saving his life during the assassination attempt on May 13, 1981—the feast of Our Lady of Fatima. The bullet that nearly killed him is now in the crown of the statue at Fatima.</p>
+<p>"Have recourse to that fountain of mercy and grace which is the Heart of Mary. Entrust yourselves to her who knows the way to the Heart of her Son."</p>`,
+      scripture: 'John 19:27 - "Then he said to the disciple, Behold, your mother! And from that hour the disciple took her to his own home."',
+      prayer: 'Mary, my Mother, I consecrate myself entirely to you. Totus Tuus—I am totally yours. Lead me to Jesus. Protect me under your mantle. Help me to love your Son as you do. Amen.'
+    }
+  ]
+};
+
+const fultonSheenDaily: Devotional = {
+  slug: 'fulton-sheen-daily',
+  title: 'Venerable Fulton Sheen',
+  author: 'Archbishop Fulton Sheen',
+  description: 'Timeless wisdom from America\'s most famous Catholic broadcaster.',
+  longDescription: 'Archbishop Fulton J. Sheen (1895-1979) was a pioneer of religious broadcasting, reaching millions through radio and television. His wit, wisdom, and ability to explain the faith made him one of the most influential Catholics of the 20th century. His cause for canonization is underway.',
+  frequency: 'Daily',
+  category: 'Saints for Today',
+  icon: '📺',
+  readings: [
+    {
+      day: 1,
+      title: 'The Purpose of Life',
+      content: `<p>"Life is worth living" was the title of Fulton Sheen's famous television program. But what makes life worth living? Sheen had a clear answer: knowing, loving, and serving God.</p>
+<p>"The big print giveth and the fine print taketh away. The big print of life says: 'You are free.' The fine print says: 'You are responsible.'"</p>
+<p>Sheen understood that modern people are searching for meaning. We have more comforts than any generation in history, yet we are often unhappy. Why? Because we have forgotten our purpose.</p>
+<p>"There are not one hundred people in the United States who hate the Catholic Church, but there are millions who hate what they wrongly perceive the Catholic Church to be."</p>
+<p>Our purpose is to know God, to love Him, and to serve Him in this life, and to be happy with Him forever in the next. Everything else is secondary.</p>`,
+      scripture: 'Ecclesiastes 12:13 - "The end of the matter; all has been heard. Fear God and keep his commandments, for this is the whole duty of man."',
+      prayer: 'Lord, help me to remember my purpose in life. May I seek first Your kingdom and Your righteousness. Free me from the distractions that keep me from You. Amen.'
+    },
+    {
+      day: 2,
+      title: 'The Holy Hour',
+      content: `<p>Fulton Sheen made a holy hour before the Blessed Sacrament every day of his priestly life. He credited this practice with whatever good he accomplished.</p>
+<p>"The Holy Hour is not a devotion; it is a sharing in the work of redemption... In the Garden of Gethsemane, Our Lord asked: 'Could you not watch one hour with me?'"</p>
+<p>Sheen believed that time spent before the Eucharist was never wasted. It was the source of his preaching, his writing, and his apostolate.</p>
+<p>"The purpose of the Holy Hour is to encourage deep personal encounter with Christ. The holy and glorious God is constantly inviting us to come to Him, to hold converse with Him, to ask for such things as we need."</p>
+<p>He challenged every Catholic to make a weekly holy hour: "You will find that the hour passes quickly, and you will wonder why you did not begin this practice sooner."</p>`,
+      scripture: 'Matthew 26:40 - "And he came to the disciples and found them sleeping. And he said to Peter, So, could you not watch with me one hour?"',
+      prayer: 'Lord Jesus, present in the Blessed Sacrament, draw me to spend time with You. Help me to make the Holy Hour a regular part of my life. May I watch with You and grow in love for You. Amen.'
+    },
+    {
+      day: 3,
+      title: 'The Cross and Suffering',
+      content: `<p>"It is not the fast that sanctifies, but the motive; not the giving up of pleasures, but the reason for giving them up. The Cross is the condition of the crown."</p>
+<p>Fulton Sheen spoke often about suffering because he understood its redemptive value. Suffering united to Christ's Cross becomes a source of grace.</p>
+<p>"Unless there is a Good Friday in your life, there can be no Easter Sunday."</p>
+<p>He taught that we should not seek suffering for its own sake, but when it comes, we should embrace it as an opportunity for growth and sanctification.</p>
+<p>"The only way to get rid of the cross is to carry it. The only way to get rid of suffering is to suffer. The only way to get rid of death is to die."</p>
+<p>Sheen himself suffered greatly in his final years, yet he maintained his faith and joy. His example teaches us how to suffer well.</p>`,
+      scripture: 'Romans 8:17 - "And if children, then heirs—heirs of God and fellow heirs with Christ, provided we suffer with him in order that we may also be glorified with him."',
+      prayer: 'Lord, help me to embrace the crosses in my life. May I unite my sufferings to Yours for the salvation of souls. Give me the grace to suffer with faith, hope, and love. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Sin and Mercy',
+      content: `<p>"Sin is not the worst thing in the world. The worst thing is the denial of sin." Fulton Sheen understood that acknowledging our sin is the first step toward healing.</p>
+<p>Modern psychology often explains away sin as neurosis or social conditioning. But Sheen insisted that sin is real—and so is God's mercy.</p>
+<p>"The sinner who is sorry for his sins is closer to God than the just man who boasts of his good works."</p>
+<p>He preached God's mercy with passion: "God does not love us because we are valuable. We are valuable because God loves us."</p>
+<p>"There are only two classes of people: those who say to God, 'Thy will be done,' and those to whom God says, 'All right, then, have it your way.'"</p>
+<p>Sheen called people to confession, to repentance, and to trust in God's infinite mercy. No sin is too great for God to forgive.</p>`,
+      scripture: 'Luke 15:7 - "Just so, I tell you, there will be more joy in heaven over one sinner who repents than over ninety-nine righteous persons who need no repentance."',
+      prayer: 'Merciful Father, I acknowledge my sins before You. I am sorry for having offended You. Help me to trust in Your mercy and to make a sincere confession. Forgive me and make me new. Amen.'
+    },
+    {
+      day: 5,
+      title: 'Love and Marriage',
+      content: `<p>"It takes three to make love, not two: you, your spouse, and God. Without God people only succeed in bringing out the worst in one another."</p>
+<p>Fulton Sheen wrote extensively on love and marriage. He understood that human love, to be lasting, must be rooted in divine love.</p>
+<p>"Love is a mutual self-giving which ends in self-recovery."</p>
+<p>He warned against the dangers of lust, which uses others for pleasure, and called couples to authentic love, which seeks the good of the other.</p>
+<p>"The difference between love and lust is the difference between lightning and a lightning bug."</p>
+<p>Sheen encouraged couples to pray together, to go to Mass together, and to keep God at the center of their marriage. "The family that prays together stays together."</p>`,
+      scripture: '1 Corinthians 13:4-7 - "Love is patient and kind; love does not envy or boast; it is not arrogant or rude. It does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrongdoing, but rejoices with the truth."',
+      prayer: 'Lord, bless all married couples. Help them to love each other with Your love. Keep God at the center of their marriage. Protect families from all that would divide them. Amen.'
+    },
+    {
+      day: 6,
+      title: 'The Blessed Mother',
+      content: `<p>"God who made the sun also made the moon. The moon does not take away from the brilliance of the sun... Mary reflects her Divine Son; without Him, she is nothing."</p>
+<p>Fulton Sheen had a deep devotion to Mary. He wrote "The World's First Love," a beautiful meditation on the Blessed Mother.</p>
+<p>"When we have Our Lady, we have everything. When we lose Our Lady, we lose everything."</p>
+<p>He explained that devotion to Mary does not take away from Christ but leads us to Him. Mary always points to her Son: "Do whatever He tells you."</p>
+<p>"Mary is the window through which our humanity first catches a glimpse of Divinity on earth. Or she is the window through which Divinity first catches a glimpse of humanity."</p>
+<p>Sheen prayed the Rosary daily and encouraged all Catholics to develop a relationship with Mary.</p>`,
+      scripture: 'Luke 1:48 - "For he has looked on the humble estate of his servant. For behold, from now on all generations will call me blessed."',
+      prayer: 'Mary, my Mother, lead me to Jesus. Help me to know Him, love Him, and serve Him as you did. Protect me under your mantle and pray for me always. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Heaven and Eternity',
+      content: `<p>"Each of us makes his own weather, determines the color of the skies in the emotional universe which he inhabits." But ultimately, our choices determine our eternal destiny.</p>
+<p>Fulton Sheen spoke often about heaven and hell because he believed in them. Our choices in this life have eternal consequences.</p>
+<p>"Hell is not a place where God puts you; hell is a place where you put yourself by refusing to love."</p>
+<p>He described heaven as the fulfillment of all our deepest desires: "Heaven is the eternal now, where we shall see God face to face and be perfectly happy forever."</p>
+<p>"The only tragedy in life is not to become a saint."</p>
+<p>Sheen died on December 9, 1979, in his chapel before the Blessed Sacrament—the place where he had spent so many hours in prayer. His life was a preparation for eternity.</p>`,
+      scripture: '1 Corinthians 2:9 - "What no eye has seen, nor ear heard, nor the heart of man imagined, what God has prepared for those who love him."',
+      prayer: 'Lord, help me to live with eternity in view. May I make choices today that lead to heaven. Give me the grace to become a saint. Venerable Fulton Sheen, pray for me. Amen.'
+    }
+  ]
+};
+
+devotionals.push(johnPaulIIDaily, fultonSheenDaily);
+
+
+// ============================================
+// SCRIPTURE & HEALING DEVOTIONALS
+// ============================================
+
+const psalmsDailyDevo: Devotional = {
+  slug: 'psalms-daily',
+  title: 'Psalms for Today',
+  author: 'Catholic Bible Online',
+  description: 'A daily Psalm with meditation rooted in Catholic tradition.',
+  longDescription: 'The Psalms have been the prayer book of God\'s people for three thousand years. Jesus prayed them, Mary sang them, and the Church continues to pray them daily in the Liturgy of the Hours. These reflections help you enter into the Psalms and make them your own prayer.',
+  frequency: 'Daily',
+  category: 'Scripture & Faith',
+  icon: '🎵',
+  readings: [
+    {
+      day: 1,
+      title: 'Psalm 23: The Lord Is My Shepherd',
+      content: `<p><strong>The Lord is my shepherd; I shall not want.</strong></p>
+<p>This beloved psalm paints a picture of God as a caring shepherd who provides for all our needs. In ancient Israel, shepherds were responsible for finding pasture, water, and protection for their flocks. God does all this and more for us.</p>
+<p><strong>He makes me lie down in green pastures. He leads me beside still waters. He restores my soul.</strong></p>
+<p>Notice that the shepherd makes the sheep lie down. Sometimes we need to be made to rest. God knows when we need refreshment and restoration, even when we don\'t.</p>
+<p><strong>Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me.</strong></p>
+<p>The shepherd doesn\'t promise to keep us from dark valleys, but to be with us through them. His presence is our comfort and protection.</p>
+<p><strong>Surely goodness and mercy shall follow me all the days of my life, and I shall dwell in the house of the Lord forever.</strong></p>`,
+      scripture: 'Psalm 23:1 - "The Lord is my shepherd; I shall not want."',
+      prayer: 'Lord, You are my shepherd. I trust in Your care and provision. Lead me beside still waters and restore my soul. Be with me through every dark valley. May I dwell in Your house forever. Amen.'
+    },
+    {
+      day: 2,
+      title: 'Psalm 51: A Prayer of Repentance',
+      content: `<p><strong>Have mercy on me, O God, according to your steadfast love; according to your abundant mercy blot out my transgressions.</strong></p>
+<p>Psalm 51 is David\'s prayer of repentance after his sin with Bathsheba. It is the model for all who seek God\'s forgiveness.</p>
+<p><strong>Wash me thoroughly from my iniquity, and cleanse me from my sin! For I know my transgressions, and my sin is ever before me.</strong></p>
+<p>True repentance begins with honest acknowledgment of sin. David doesn\'t make excuses or minimize his guilt. He confesses fully and throws himself on God\'s mercy.</p>
+<p><strong>Create in me a clean heart, O God, and renew a right spirit within me. Cast me not away from your presence, and take not your Holy Spirit from me.</strong></p>
+<p>David asks not just for forgiveness but for transformation. He wants a new heart, a right spirit, the continued presence of God.</p>
+<p><strong>The sacrifices of God are a broken spirit; a broken and contrite heart, O God, you will not despise.</strong></p>`,
+      scripture: 'Psalm 51:10 - "Create in me a clean heart, O God, and renew a right spirit within me."',
+      prayer: 'Have mercy on me, O God. Wash me from my sins and create in me a clean heart. Do not cast me away from Your presence. Restore to me the joy of Your salvation. Amen.'
+    },
+    {
+      day: 3,
+      title: 'Psalm 139: God Knows Me Completely',
+      content: `<p><strong>O Lord, you have searched me and known me! You know when I sit down and when I rise up; you discern my thoughts from afar.</strong></p>
+<p>Psalm 139 celebrates God\'s intimate knowledge of each person. He knows us better than we know ourselves—and He loves us completely.</p>
+<p><strong>Where shall I go from your Spirit? Or where shall I flee from your presence? If I ascend to heaven, you are there! If I make my bed in Sheol, you are there!</strong></p>
+<p>There is nowhere we can go to escape God\'s presence. This is not a threat but a comfort. He is always with us.</p>
+<p><strong>For you formed my inward parts; you knitted me together in my mother\'s womb. I praise you, for I am fearfully and wonderfully made.</strong></p>
+<p>God created each of us with care and intention. We are not accidents but masterpieces of His creative love.</p>
+<p><strong>Search me, O God, and know my heart! Try me and know my thoughts! And see if there be any grievous way in me, and lead me in the way everlasting!</strong></p>`,
+      scripture: 'Psalm 139:14 - "I praise you, for I am fearfully and wonderfully made."',
+      prayer: 'Lord, You know me completely and love me unconditionally. Search my heart and reveal anything that displeases You. Lead me in the way everlasting. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Psalm 91: Under His Wings',
+      content: `<p><strong>He who dwells in the shelter of the Most High will abide in the shadow of the Almighty.</strong></p>
+<p>Psalm 91 is a psalm of protection and trust. It promises God\'s care for those who make Him their refuge.</p>
+<p><strong>He will cover you with his pinions, and under his wings you will find refuge; his faithfulness is a shield and buckler.</strong></p>
+<p>The image of God as a mother bird protecting her young is tender and powerful. Under His wings, we are safe from all harm.</p>
+<p><strong>You will not fear the terror of the night, nor the arrow that flies by day, nor the pestilence that stalks in darkness, nor the destruction that wastes at noonday.</strong></p>
+<p>This doesn\'t mean we will never face danger, but that we need not fear. God is our protector.</p>
+<p><strong>Because he holds fast to me in love, I will deliver him; I will protect him, because he knows my name.</strong></p>
+<p>The condition for this protection is love and trust. Those who cling to God find safety in Him.</p>`,
+      scripture: 'Psalm 91:1-2 - "He who dwells in the shelter of the Most High will abide in the shadow of the Almighty. I will say to the Lord, My refuge and my fortress, my God, in whom I trust."',
+      prayer: 'Lord, You are my refuge and fortress. I trust in You. Cover me with Your wings and protect me from all evil. I hold fast to You in love. Amen.'
+    },
+    {
+      day: 5,
+      title: 'Psalm 27: The Lord Is My Light',
+      content: `<p><strong>The Lord is my light and my salvation; whom shall I fear? The Lord is the stronghold of my life; of whom shall I be afraid?</strong></p>
+<p>Psalm 27 expresses confident trust in God even in the face of enemies and danger. When God is our light, we need not fear the darkness.</p>
+<p><strong>One thing have I asked of the Lord, that will I seek after: that I may dwell in the house of the Lord all the days of my life, to gaze upon the beauty of the Lord and to inquire in his temple.</strong></p>
+<p>The psalmist\'s one desire is to be in God\'s presence. Everything else is secondary to this.</p>
+<p><strong>Wait for the Lord; be strong, and let your heart take courage; wait for the Lord!</strong></p>
+<p>The psalm ends with a call to patient trust. God\'s timing is not always our timing, but He is always faithful.</p>`,
+      scripture: 'Psalm 27:1 - "The Lord is my light and my salvation; whom shall I fear?"',
+      prayer: 'Lord, You are my light and salvation. I will not fear. My one desire is to dwell in Your presence. Give me patience to wait for You and courage to trust in Your timing. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Psalm 103: Bless the Lord, O My Soul',
+      content: `<p><strong>Bless the Lord, O my soul, and all that is within me, bless his holy name! Bless the Lord, O my soul, and forget not all his benefits.</strong></p>
+<p>Psalm 103 is a hymn of praise for God\'s mercy and compassion. It calls us to remember all that God has done for us.</p>
+<p><strong>Who forgives all your iniquity, who heals all your diseases, who redeems your life from the pit, who crowns you with steadfast love and mercy.</strong></p>
+<p>God forgives, heals, redeems, and crowns us with love. How can we not praise Him?</p>
+<p><strong>The Lord is merciful and gracious, slow to anger and abounding in steadfast love... As far as the east is from the west, so far does he remove our transgressions from us.</strong></p>
+<p>God\'s mercy is infinite. When He forgives, He removes our sins completely—as far as east is from west.</p>
+<p><strong>As a father shows compassion to his children, so the Lord shows compassion to those who fear him. For he knows our frame; he remembers that we are dust.</strong></p>`,
+      scripture: 'Psalm 103:12 - "As far as the east is from the west, so far does he remove our transgressions from us."',
+      prayer: 'Bless the Lord, O my soul! I praise You for Your mercy and compassion. Thank You for forgiving my sins and crowning me with love. I will not forget all Your benefits. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Psalm 150: Let Everything Praise the Lord',
+      content: `<p><strong>Praise the Lord! Praise God in his sanctuary; praise him in his mighty heavens!</strong></p>
+<p>Psalm 150 is the grand finale of the Psalter—a call for all creation to praise God with every instrument and every breath.</p>
+<p><strong>Praise him for his mighty deeds; praise him according to his excellent greatness!</strong></p>
+<p>We praise God for what He has done (His mighty deeds) and for who He is (His excellent greatness).</p>
+<p><strong>Praise him with trumpet sound; praise him with lute and harp! Praise him with tambourine and dance; praise him with strings and pipe! Praise him with sounding cymbals; praise him with loud clashing cymbals!</strong></p>
+<p>Every instrument, every form of music, every expression of joy is called to praise God. Nothing is too exuberant for worship.</p>
+<p><strong>Let everything that has breath praise the Lord! Praise the Lord!</strong></p>
+<p>The final verse is the climax: everything that breathes is called to praise. This includes you. Your very breath is an invitation to worship.</p>`,
+      scripture: 'Psalm 150:6 - "Let everything that has breath praise the Lord! Praise the Lord!"',
+      prayer: 'Praise the Lord! With every breath, I praise You. With my whole being, I worship You. Let everything I am and everything I do give glory to Your name. Hallelujah! Amen.'
+    }
+  ]
+};
+
+const anxietyPeace: Devotional = {
+  slug: 'anxiety-peace',
+  title: 'From Anxiety to Peace',
+  author: 'Catholic Bible Online',
+  description: 'Scripture and saints\' wisdom for overcoming anxiety.',
+  longDescription: 'Anxiety affects millions of people, including many faithful Catholics. This devotional combines Scripture, the wisdom of the saints, and practical spiritual practices to help you find peace in Christ. Remember: seeking professional help for anxiety is also an act of faith.',
+  frequency: 'Daily',
+  category: 'Healing & Hope',
+  icon: '🕊️',
+  readings: [
+    {
+      day: 1,
+      title: 'Do Not Be Anxious',
+      content: `<p><strong>"Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus."</strong> (Philippians 4:6-7)</p>
+<p>Anxiety is not a sin, but it is an invitation to trust God more deeply. When worry grips our hearts, we are called to bring our concerns to God in prayer.</p>
+<p>Notice that Paul says to pray "with thanksgiving." Even in anxiety, we can thank God for His past faithfulness, His present love, and His promised future care.</p>
+<p>The result is "the peace of God, which surpasses all understanding." This peace doesn\'t depend on our circumstances changing. It guards our hearts even when problems remain.</p>
+<p><strong>St. Padre Pio said:</strong> "Pray, hope, and don\'t worry. Worry is useless. God is merciful and will hear your prayer."</p>`,
+      scripture: 'Philippians 4:6-7 - "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God."',
+      prayer: 'Lord, I bring my anxieties to You. I thank You for Your faithfulness in the past and trust You with my future. Guard my heart and mind with Your peace that surpasses understanding. Amen.'
+    },
+    {
+      day: 2,
+      title: 'Cast Your Cares on Him',
+      content: `<p><strong>"Cast all your anxieties on him, because he cares for you."</strong> (1 Peter 5:7)</p>
+<p>God invites us to cast—to throw, to hurl—our anxieties onto Him. This is not a gentle suggestion but an urgent invitation. He wants to carry our burdens.</p>
+<p>Why can we do this? "Because he cares for you." God is not indifferent to your struggles. He loves you personally and wants to help you.</p>
+<p><strong>St. Francis de Sales wrote:</strong> "Do not look forward to what may happen tomorrow; the same everlasting Father who cares for you today will take care of you tomorrow and every day."</p>
+<p>Anxiety often comes from trying to carry burdens God never meant us to bear alone. He is strong enough to carry them. Let Him.</p>`,
+      scripture: '1 Peter 5:7 - "Cast all your anxieties on him, because he cares for you."',
+      prayer: 'Lord, I cast my anxieties on You. I release my worries into Your hands. Thank You for caring for me. Help me to trust that You will take care of tomorrow. Amen.'
+    },
+    {
+      day: 3,
+      title: 'Peace I Leave with You',
+      content: `<p><strong>"Peace I leave with you; my peace I give to you. Not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid."</strong> (John 14:27)</p>
+<p>Jesus offers us His peace—not the world\'s peace, which depends on circumstances, but His peace, which remains even in storms.</p>
+<p>The world\'s peace is fragile: it comes when things go well and disappears when they don\'t. Christ\'s peace is different. It is rooted in His presence, His promises, and His power.</p>
+<p><strong>St. Teresa of Ávila wrote:</strong> "Let nothing disturb you, let nothing frighten you. All things are passing; God never changes. Patience obtains all things. Whoever has God lacks nothing. God alone suffices."</p>
+<p>When anxiety rises, remember: Jesus has given you His peace. It is already yours. Receive it.</p>`,
+      scripture: 'John 14:27 - "Peace I leave with you; my peace I give to you. Not as the world gives do I give to you."',
+      prayer: 'Lord Jesus, I receive Your peace. Let not my heart be troubled or afraid. When anxiety rises, remind me that Your peace is already mine. You alone suffice. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Be Still and Know',
+      content: `<p><strong>"Be still, and know that I am God."</strong> (Psalm 46:10)</p>
+<p>Anxiety often drives us to constant activity—planning, worrying, trying to control outcomes. God calls us to stillness.</p>
+<p>In stillness, we remember who God is. He is sovereign over all things. He is working even when we can\'t see it. He is faithful to His promises.</p>
+<p><strong>Practical Exercise:</strong> Set a timer for five minutes. Sit quietly. Breathe slowly. When anxious thoughts arise, gently release them to God. Repeat: "Be still and know that I am God."</p>
+<p><strong>St. John of the Cross wrote:</strong> "In the evening of life, we will be judged on love alone." Not on how much we worried, but on how much we loved and trusted.</p>`,
+      scripture: 'Psalm 46:10 - "Be still, and know that I am God."',
+      prayer: 'Lord, help me to be still. Quiet my racing thoughts. In the stillness, help me to know that You are God—sovereign, loving, faithful. I trust in You. Amen.'
+    },
+    {
+      day: 5,
+      title: 'One Day at a Time',
+      content: `<p><strong>"Therefore do not be anxious about tomorrow, for tomorrow will be anxious for itself. Sufficient for the day is its own trouble."</strong> (Matthew 6:34)</p>
+<p>Much of our anxiety is about the future—things that haven\'t happened and may never happen. Jesus calls us to live one day at a time.</p>
+<p>God gives us grace for today, not for tomorrow. When tomorrow comes, He will give us grace for that day too. But we cannot live on tomorrow\'s grace today.</p>
+<p><strong>St. Thérèse of Lisieux wrote:</strong> "If I did not simply live from one moment to another, it would be impossible for me to be patient, but I look only at the present, I forget the past, and I take good care not to forestall the future."</p>
+<p>Focus on today. What does God ask of you right now? Do that, and trust Him with the rest.</p>`,
+      scripture: 'Matthew 6:34 - "Therefore do not be anxious about tomorrow, for tomorrow will be anxious for itself."',
+      prayer: 'Lord, help me to live one day at a time. I release tomorrow into Your hands. Give me grace for today\'s challenges. I trust You with my future. Amen.'
+    },
+    {
+      day: 6,
+      title: 'The Sacraments and Anxiety',
+      content: `<p>The sacraments are powerful sources of grace for those struggling with anxiety. God meets us in these sacred encounters and gives us strength.</p>
+<p><strong>The Eucharist:</strong> Receiving Jesus in Holy Communion unites us to the Prince of Peace. Make time for daily Mass when possible, or visit Jesus in Eucharistic Adoration.</p>
+<p><strong>Confession:</strong> Anxiety is often linked to guilt and shame. The Sacrament of Reconciliation brings forgiveness and peace. Regular confession lightens the soul.</p>
+<p><strong>Anointing of the Sick:</strong> This sacrament is not just for the dying but for anyone suffering from serious illness, including mental health conditions. Ask your priest about receiving this sacrament.</p>
+<p><strong>St. John Vianney said:</strong> "When we have been to Holy Communion, the balm of love envelops the soul as the flower envelops the bee."</p>`,
+      scripture: 'Matthew 11:28 - "Come to me, all who labor and are heavy laden, and I will give you rest."',
+      prayer: 'Lord Jesus, I come to You in the sacraments. Meet me there with Your grace and peace. Heal my anxious heart. Give me rest for my weary soul. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Seeking Help Is Holy',
+      content: `<p>If you struggle with anxiety, seeking professional help is not a lack of faith—it is an act of wisdom and self-care.</p>
+<p>God works through many means: prayer, sacraments, community, and also through doctors, therapists, and medication. Using these resources is not a failure but a recognition that we are embodied souls who need care at every level.</p>
+<p><strong>The Catechism teaches:</strong> "Life and physical health are precious gifts entrusted to us by God. We must take reasonable care of them" (CCC 2288).</p>
+<p>Mental health is part of physical health. If you needed treatment for diabetes or a broken bone, you would seek medical help. Anxiety deserves the same care.</p>
+<p><strong>Remember:</strong> You are not alone. Many saints struggled with anxiety and depression. God\'s grace is sufficient for you, and He provides many channels for that grace to flow.</p>`,
+      scripture: 'Sirach 38:1-4 - "Honor physicians for their services, for the Lord created them... The Lord created medicines out of the earth, and the sensible will not despise them."',
+      prayer: 'Lord, give me the wisdom to seek help when I need it. Thank You for doctors, therapists, and all who work for healing. Help me to receive care without shame, trusting that You work through many means. Amen.'
+    }
+  ]
+};
+
+devotionals.push(psalmsDailyDevo, anxietyPeace);
+
+
+// ============================================
+// MORE DEVOTIONALS
+// ============================================
+
+const easterDaily: Devotional = {
+  slug: 'easter-daily',
+  title: 'Easter Season Joy',
+  author: 'Catholic Bible Online',
+  description: '50 days celebrating the Resurrection of Our Lord.',
+  longDescription: 'The Easter Season is the most joyful time in the Church\'s calendar—fifty days of celebrating Christ\'s victory over sin and death. These reflections help you enter into the joy of the Resurrection and live as Easter people.',
+  frequency: 'Seasonal',
+  category: 'Liturgical Seasons',
+  icon: '🐣',
+  readings: [
+    {
+      day: 1,
+      title: 'He Is Risen!',
+      content: `<p><strong>"He is not here, for he has risen, as he said."</strong> (Matthew 28:6)</p>
+<p>The stone is rolled away. The tomb is empty. Christ is risen! This is the central truth of our faith, the foundation of everything we believe.</p>
+<p>If Christ has not been raised, Paul says, our faith is in vain. But He has been raised, and because He lives, we too shall live.</p>
+<p>The Resurrection changes everything. Death is not the end. Sin does not have the final word. The grave could not hold Him, and it will not hold us.</p>
+<p><strong>St. Augustine exclaimed:</strong> "We are an Easter people, and Alleluia is our song!"</p>
+<p>Let the joy of Easter fill your heart today. Christ is risen! He is truly risen!</p>`,
+      scripture: 'Matthew 28:5-6 - "Do not be afraid, for I know that you seek Jesus who was crucified. He is not here, for he has risen, as he said."',
+      prayer: 'Lord Jesus, You have conquered death and risen in glory! Fill me with Easter joy. Help me to live as one who believes in the Resurrection. Alleluia! Amen.'
+    },
+    {
+      day: 2,
+      title: 'The Appearance to Mary Magdalene',
+      content: `<p>Mary Magdalene came to the tomb while it was still dark. Finding it empty, she wept, thinking someone had taken the Lord\'s body.</p>
+<p>Then Jesus appeared to her, but she did not recognize Him at first. He said to her, "Mary." At the sound of her name, she knew Him: "Rabboni!" (Teacher)</p>
+<p>Jesus calls each of us by name. He knows us personally, intimately. In our grief and confusion, He comes to us and speaks our name.</p>
+<p>Mary became the first witness to the Resurrection—the "apostle to the apostles." She ran to tell the disciples: "I have seen the Lord!"</p>
+<p>We too are called to be witnesses. Having encountered the risen Christ, we cannot keep the good news to ourselves.</p>`,
+      scripture: 'John 20:16 - "Jesus said to her, Mary. She turned and said to him in Aramaic, Rabboni! (which means Teacher)."',
+      prayer: 'Lord Jesus, You call me by name. Help me to recognize Your voice and respond with joy. Make me a witness to Your resurrection. Amen.'
+    },
+    {
+      day: 3,
+      title: 'The Road to Emmaus',
+      content: `<p>Two disciples were walking to Emmaus, discussing the events of the crucifixion. Jesus joined them, but they did not recognize Him.</p>
+<p>He explained the Scriptures to them, showing how the Messiah had to suffer and enter into His glory. Their hearts burned within them as He spoke.</p>
+<p>When they reached Emmaus, they urged Him to stay. At table, He took bread, blessed it, broke it, and gave it to them. Then their eyes were opened, and they recognized Him—and He vanished.</p>
+<p>We encounter the risen Christ in the same way: in the Scriptures and in the breaking of bread. Every Mass is an Emmaus experience.</p>
+<p>The disciples returned immediately to Jerusalem to share the good news. Encounter with Christ always leads to mission.</p>`,
+      scripture: 'Luke 24:32 - "They said to each other, Did not our hearts burn within us while he talked to us on the road, while he opened to us the Scriptures?"',
+      prayer: 'Lord Jesus, open the Scriptures to me. Make my heart burn with love for You. Help me to recognize You in the breaking of bread. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Peace Be with You',
+      content: `<p>On the evening of the Resurrection, the disciples were hiding behind locked doors, afraid of the Jewish leaders. Jesus came and stood among them.</p>
+<p>"Peace be with you," He said, and showed them His hands and side. The disciples were overjoyed when they saw the Lord.</p>
+<p>The risen Christ brings peace—not the absence of trouble, but the presence of God. His peace penetrates locked doors and fearful hearts.</p>
+<p>He breathed on them and said, "Receive the Holy Spirit. If you forgive anyone\'s sins, their sins are forgiven." The Resurrection leads to Pentecost, and both lead to the Sacrament of Reconciliation.</p>
+<p>The risen Christ still comes to us, offering peace and the power to forgive.</p>`,
+      scripture: 'John 20:19-21 - "Jesus came and stood among them and said to them, Peace be with you... As the Father has sent me, even so I am sending you."',
+      prayer: 'Lord Jesus, come into my locked rooms and fearful heart. Speak Your peace to me. Send me as the Father sent You. Amen.'
+    },
+    {
+      day: 5,
+      title: 'Doubting Thomas',
+      content: `<p>Thomas was not with the other disciples when Jesus appeared. When they told him, "We have seen the Lord," he refused to believe without proof.</p>
+<p>A week later, Jesus appeared again. He said to Thomas, "Put your finger here; see my hands. Reach out your hand and put it into my side. Stop doubting and believe."</p>
+<p>Thomas responded with the greatest confession of faith in the Gospels: "My Lord and my God!"</p>
+<p>Jesus said, "Because you have seen me, you have believed; blessed are those who have not seen and yet have believed."</p>
+<p>That\'s us. We have not seen the risen Christ with our eyes, yet we believe. And we are blessed.</p>`,
+      scripture: 'John 20:28-29 - "Thomas answered him, My Lord and my God! Jesus said to him, Have you believed because you have seen me? Blessed are those who have not seen and yet have believed."',
+      prayer: 'My Lord and my God! I believe in You, though I have not seen. Strengthen my faith. Help me to trust even when I cannot see. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Do You Love Me?',
+      content: `<p>After the Resurrection, Jesus appeared to the disciples by the Sea of Galilee. After breakfast, He asked Peter three times: "Do you love me?"</p>
+<p>Three times Peter had denied Jesus. Three times Jesus gave him the chance to affirm his love. "Lord, you know everything; you know that I love you."</p>
+<p>"Feed my sheep," Jesus said. Peter\'s restoration was complete. His failure was not the end of his story.</p>
+<p>Jesus asks each of us the same question: "Do you love me?" Not "Are you perfect?" or "Have you never failed?" but simply, "Do you love me?"</p>
+<p>If we can answer yes—even imperfectly, even after failure—He has work for us to do.</p>`,
+      scripture: 'John 21:17 - "He said to him the third time, Simon, son of John, do you love me?... Jesus said to him, Feed my sheep."',
+      prayer: 'Lord, You know everything. You know that I love You—imperfectly, but truly. Restore me after my failures. Give me work to do in Your kingdom. Amen.'
+    },
+    {
+      day: 7,
+      title: 'The Ascension and Promise',
+      content: `<p>Forty days after the Resurrection, Jesus led His disciples to the Mount of Olives. He commissioned them to be His witnesses "to the ends of the earth."</p>
+<p>Then He was taken up before their eyes, and a cloud hid Him from their sight. Two angels appeared: "This same Jesus, who has been taken from you into heaven, will come back in the same way you have seen him go."</p>
+<p>The Ascension is not an ending but a beginning. Jesus has gone to prepare a place for us. He has sent His Spirit to empower us. And He will come again.</p>
+<p>We live between the Ascension and the Second Coming—witnesses to the risen Christ, empowered by His Spirit, awaiting His return.</p>
+<p>Come, Lord Jesus!</p>`,
+      scripture: 'Acts 1:8 - "But you will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth."',
+      prayer: 'Lord Jesus, You have ascended to the Father\'s right hand. Send Your Spirit upon me. Make me Your witness. Come again in glory. Maranatha! Amen.'
+    }
+  ]
+};
+
+const griefComfort: Devotional = {
+  slug: 'grief-comfort',
+  title: 'Comfort in Grief',
+  author: 'Catholic Bible Online',
+  description: 'Daily consolation for those mourning the loss of loved ones.',
+  longDescription: 'Grief is one of the most painful experiences in life. This devotional offers daily comfort from Scripture, the saints, and Catholic tradition for those who mourn. May you find consolation in Christ, who wept at the tomb of His friend Lazarus and who promises to wipe away every tear.',
+  frequency: 'Daily',
+  category: 'Healing & Hope',
+  icon: '💔',
+  readings: [
+    {
+      day: 1,
+      title: 'Blessed Are Those Who Mourn',
+      content: `<p><strong>"Blessed are those who mourn, for they shall be comforted."</strong> (Matthew 5:4)</p>
+<p>Jesus does not say, "Blessed are those who don\'t mourn" or "Blessed are those who get over it quickly." He says those who mourn are blessed—and they will be comforted.</p>
+<p>Grief is not a sign of weak faith. It is a sign of deep love. We grieve because we have loved, and love is never wasted.</p>
+<p>The comfort Jesus promises is not a quick fix. It is His presence with us in our pain, His grace sustaining us day by day, and His promise of reunion in eternal life.</p>
+<p><strong>St. Augustine, after his mother\'s death, wrote:</strong> "I wept for my mother... Let anyone who wishes condemn me. But if he has great charity, let him weep for my sins before You, the Father of all."</p>
+<p>It is okay to weep. Jesus wept too.</p>`,
+      scripture: 'Matthew 5:4 - "Blessed are those who mourn, for they shall be comforted."',
+      prayer: 'Lord Jesus, You promised comfort to those who mourn. I bring my grief to You. Hold me in my pain. Give me hope in the midst of sorrow. Amen.'
+    },
+    {
+      day: 2,
+      title: 'Jesus Wept',
+      content: `<p><strong>"Jesus wept."</strong> (John 11:35)</p>
+<p>The shortest verse in the Bible is also one of the most profound. At the tomb of His friend Lazarus, Jesus wept.</p>
+<p>He knew He was about to raise Lazarus from the dead. Yet He wept. He entered into the grief of Mary and Martha. He felt the pain of death, even though He would soon conquer it.</p>
+<p>Jesus understands your grief. He does not stand apart from your pain but enters into it with you. He weeps with you.</p>
+<p><strong>The Letter to the Hebrews says:</strong> "For we do not have a high priest who is unable to sympathize with our weaknesses" (4:15). Jesus knows what it is to lose someone He loved.</p>
+<p>You are not alone in your grief. Jesus is with you, weeping with you.</p>`,
+      scripture: 'John 11:35 - "Jesus wept."',
+      prayer: 'Lord Jesus, You wept at the tomb of Your friend. Thank You for understanding my grief. Weep with me. Be present with me in my pain. Amen.'
+    },
+    {
+      day: 3,
+      title: 'The Resurrection and the Life',
+      content: `<p><strong>"I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live, and everyone who lives and believes in me shall never die."</strong> (John 11:25-26)</p>
+<p>Before raising Lazarus, Jesus made this stunning declaration to Martha. Death is not the end for those who believe in Him.</p>
+<p>Your loved one who died in Christ is not gone forever. They have passed from this life to eternal life. They are more alive now than ever before.</p>
+<p>The separation is real and painful. But it is temporary. One day, you will be reunited in the presence of God, where there will be no more death or mourning or crying or pain.</p>
+<p><strong>St. Paul wrote:</strong> "For I am sure that neither death nor life... will be able to separate us from the love of God in Christ Jesus our Lord" (Romans 8:38-39).</p>`,
+      scripture: 'John 11:25-26 - "I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live."',
+      prayer: 'Lord Jesus, You are the resurrection and the life. I believe in You. Give me hope in the promise of eternal life and reunion with those I love. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Praying for the Dead',
+      content: `<p>The Catholic Church teaches that we can and should pray for our deceased loved ones. This is an act of love that continues beyond death.</p>
+<p>The souls in purgatory are being purified for heaven. Our prayers can help them on their journey. This is the communion of saints in action—the living and the dead united in Christ.</p>
+<p><strong>Ways to pray for the dead:</strong></p>
+<ul>
+<li>Have Masses offered for their souls</li>
+<li>Pray the Rosary for them</li>
+<li>Offer your sufferings for their purification</li>
+<li>Gain indulgences on their behalf</li>
+<li>Visit their graves and pray</li>
+</ul>
+<p>Praying for the dead is also healing for us. It gives us something meaningful to do with our grief and keeps us connected to those we have lost.</p>`,
+      scripture: '2 Maccabees 12:46 - "Thus he made atonement for the dead that they might be freed from this sin."',
+      prayer: 'Eternal rest grant unto them, O Lord, and let perpetual light shine upon them. May they rest in peace. May their souls and the souls of all the faithful departed, through the mercy of God, rest in peace. Amen.'
+    },
+    {
+      day: 5,
+      title: 'The Communion of Saints',
+      content: `<p>Death does not end our relationship with those we love. In the communion of saints, we remain connected to them through Christ.</p>
+<p>Those who have died in Christ are not far from us. They are part of the great cloud of witnesses (Hebrews 12:1) cheering us on. They can intercede for us before God.</p>
+<p><strong>St. Thérèse of Lisieux promised:</strong> "I will spend my heaven doing good on earth." The saints in heaven are active on our behalf.</p>
+<p>You can talk to your loved ones who have died. You can ask for their prayers. You can trust that the bond of love continues.</p>
+<p>The communion of saints means we are never truly separated from those we love in Christ.</p>`,
+      scripture: 'Hebrews 12:1 - "Therefore, since we are surrounded by so great a cloud of witnesses, let us also lay aside every weight, and sin which clings so closely, and let us run with endurance the race that is set before us."',
+      prayer: 'Lord, thank You for the communion of saints. Thank You that death does not separate us from those we love. Help me to trust in this bond and to live in hope of reunion. Amen.'
+    },
+    {
+      day: 6,
+      title: 'God Will Wipe Away Every Tear',
+      content: `<p><strong>"He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning, nor crying, nor pain anymore, for the former things have passed away."</strong> (Revelation 21:4)</p>
+<p>This is God\'s promise for the future. A day is coming when grief will be no more. Every tear will be wiped away. Death itself will be destroyed.</p>
+<p>We do not grieve as those who have no hope. We grieve with hope—hope in the resurrection, hope in eternal life, hope in the God who makes all things new.</p>
+<p>Your grief is real and valid. But it is not the final word. Joy comes in the morning. Reunion awaits. God Himself will comfort you.</p>
+<p><strong>St. John Chrysostom preached:</strong> "He who has gone, has not perished, but has gone before us on the journey we all must take."</p>`,
+      scripture: 'Revelation 21:4 - "He will wipe away every tear from their eyes, and death shall be no more."',
+      prayer: 'Lord, I long for the day when You will wipe away every tear. Give me hope in Your promises. Help me to grieve with hope, trusting in the resurrection and eternal life. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Living with Loss',
+      content: `<p>Grief does not follow a timeline. It comes in waves—sometimes expected, sometimes surprising. Be patient with yourself.</p>
+<p><strong>Practical suggestions:</strong></p>
+<ul>
+<li>Allow yourself to grieve. Don\'t rush the process.</li>
+<li>Talk about your loved one. Share memories.</li>
+<li>Seek support from family, friends, or a grief group.</li>
+<li>Maintain spiritual practices: Mass, prayer, sacraments.</li>
+<li>Take care of your physical health.</li>
+<li>Consider professional counseling if needed.</li>
+</ul>
+<p>Grief changes us. We will never be the same. But we can integrate our loss into our lives and find meaning and even joy again.</p>
+<p><strong>St. Francis de Sales wrote:</strong> "Do not look forward to what may happen tomorrow; the same everlasting Father who cares for you today will take care of you tomorrow and every day."</p>`,
+      scripture: 'Psalm 34:18 - "The Lord is near to the brokenhearted and saves the crushed in spirit."',
+      prayer: 'Lord, You are near to the brokenhearted. Be near to me. Help me to live with this loss, one day at a time. Give me grace for today and hope for tomorrow. Amen.'
+    }
+  ]
+};
+
+devotionals.push(easterDaily, griefComfort);
