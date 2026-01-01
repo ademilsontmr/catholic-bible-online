@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-escape */
 export interface DevotionalReading {
   day: number;
   title: string;
