@@ -2311,3 +2311,322 @@ const griefComfort: Devotional = {
 };
 
 devotionals.push(easterDaily, griefComfort);
+
+
+// ============================================
+// FINAL DEVOTIONALS
+// ============================================
+
+const marianMonths: Devotional = {
+  slug: 'marian-months',
+  title: 'Marian Devotions',
+  author: 'Catholic Bible Online',
+  description: 'Special devotions for May and October, months of Mary.',
+  longDescription: 'May and October are traditionally dedicated to the Blessed Virgin Mary. These reflections help you grow in devotion to Our Lady through meditation on her life, her virtues, and her role in salvation history.',
+  frequency: 'Seasonal',
+  category: 'Liturgical Seasons',
+  icon: '🌹',
+  readings: [
+    {
+      day: 1,
+      title: 'Mary, Mother of God',
+      content: `<p>The Council of Ephesus in 431 AD declared Mary to be Theotokos—the God-bearer, the Mother of God. This title is not primarily about Mary but about Jesus: He is truly God, and Mary is truly His mother.</p>
+<p>When Elizabeth greeted Mary, she exclaimed: "Why is this granted to me that the mother of my Lord should come to me?" Elizabeth recognized that Mary carried within her womb the Lord Himself.</p>
+<p>Mary\'s divine motherhood is the source of all her privileges and the foundation of our devotion to her. Because she is the Mother of God, she is also our mother, given to us by Jesus from the Cross.</p>
+<p><strong>St. Cyril of Alexandria wrote:</strong> "Hail, Mary, Mother of God, venerable treasure of the whole world... through whom the Holy Trinity is glorified and worshipped."</p>`,
+      scripture: 'Luke 1:43 - "And why is this granted to me that the mother of my Lord should come to me?"',
+      prayer: 'Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.'
+    },
+    {
+      day: 2,
+      title: 'The Immaculate Conception',
+      content: `<p>From the first moment of her conception, Mary was preserved from original sin by a singular grace of God. This is the dogma of the Immaculate Conception, proclaimed by Pope Pius IX in 1854.</p>
+<p>Mary was not saved by her own merits but by the merits of her Son, applied to her in advance. She is the first fruit of Christ\'s redemption.</p>
+<p>At Lourdes, Mary identified herself to St. Bernadette: "I am the Immaculate Conception." This confirmed the Church\'s teaching and revealed Mary\'s own understanding of her unique privilege.</p>
+<p>Mary\'s sinlessness does not make her distant from us. Rather, she shows us what humanity was meant to be and what we can become through grace.</p>`,
+      scripture: 'Luke 1:28 - "And he came to her and said, Hail, full of grace, the Lord is with you!"',
+      prayer: 'O Mary, conceived without sin, pray for us who have recourse to thee. Help us to live in the grace of God and to avoid all sin. Amen.'
+    },
+    {
+      day: 3,
+      title: 'The Annunciation',
+      content: `<p>The angel Gabriel was sent to a virgin named Mary. "Hail, full of grace, the Lord is with you!" Mary was troubled, but the angel said, "Do not be afraid. You will conceive and bear a son, and you shall call his name Jesus."</p>
+<p>Mary asked, "How can this be?" The angel explained that the Holy Spirit would overshadow her. Then Mary spoke the words that changed history: "Behold, I am the handmaid of the Lord; let it be to me according to your word."</p>
+<p>Mary\'s "yes" made the Incarnation possible. God, who respects human freedom, waited for her consent. Her faith and obedience opened the door for our salvation.</p>
+<p>We are called to imitate Mary\'s "fiat"—to say yes to God\'s will in our own lives, even when we don\'t fully understand.</p>`,
+      scripture: 'Luke 1:38 - "And Mary said, Behold, I am the servant of the Lord; let it be to me according to your word."',
+      prayer: 'Mary, help me to say yes to God as you did. Give me faith to trust His plan and courage to follow His will. Let it be done to me according to His word. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Mary at the Cross',
+      content: `<p>When everyone else had fled, Mary stood at the foot of the Cross. She watched her Son suffer and die. She shared in His Passion with a mother\'s heart.</p>
+<p>Jesus looked down and saw His mother and the disciple He loved. He said to Mary, "Woman, behold, your son!" and to John, "Behold, your mother!" From that hour, John took her into his home.</p>
+<p>In that moment, Mary became the mother of all disciples. She is our mother too, given to us by Jesus Himself.</p>
+<p><strong>St. Bernard wrote:</strong> "In dangers, in doubts, in difficulties, think of Mary, call upon Mary. Let not her name depart from your lips, never suffer it to leave your heart."</p>`,
+      scripture: 'John 19:26-27 - "When Jesus saw his mother and the disciple whom he loved standing nearby, he said to his mother, Woman, behold, your son! Then he said to the disciple, Behold, your mother!"',
+      prayer: 'Mary, my Mother, you stood faithfully at the Cross. Stand with me in my trials. Be my mother as you were mother to John. I take you into my heart and my home. Amen.'
+    },
+    {
+      day: 5,
+      title: 'The Assumption',
+      content: `<p>At the end of her earthly life, Mary was assumed body and soul into heavenly glory. This dogma, proclaimed by Pope Pius XII in 1950, affirms that Mary did not experience the corruption of death.</p>
+<p>The Assumption is the fulfillment of God\'s promise. Mary, who was preserved from sin, was also preserved from sin\'s consequence—bodily decay. She is the first to receive what all the faithful will receive at the resurrection.</p>
+<p>Mary\'s Assumption gives us hope. Where she has gone, we hope to follow. Her glorified body is a preview of our own destiny.</p>
+<p><strong>Pope Pius XII wrote:</strong> "The Immaculate Mother of God, the ever Virgin Mary, having completed the course of her earthly life, was assumed body and soul into heavenly glory."</p>`,
+      scripture: 'Revelation 12:1 - "And a great sign appeared in heaven: a woman clothed with the sun, with the moon under her feet, and on her head a crown of twelve stars."',
+      prayer: 'Mary, assumed into heaven, pray for us. Help us to keep our eyes fixed on our heavenly home. May we one day share in your glory. Amen.'
+    },
+    {
+      day: 6,
+      title: 'The Rosary',
+      content: `<p>The Rosary is the most beloved Marian prayer. Through its mysteries, we meditate on the life of Christ with Mary as our guide.</p>
+<p><strong>Pope St. John Paul II wrote:</strong> "The Rosary, though clearly Marian in character, is at heart a Christocentric prayer... With the Rosary, the Christian people sits at the school of Mary and is led to contemplate the beauty on the face of Christ."</p>
+<p>The Rosary is simple enough for children yet deep enough for saints. It can be prayed anywhere, anytime. It is a powerful weapon against evil and a source of countless graces.</p>
+<p>Our Lady of Fatima urged: "Pray the Rosary every day to obtain peace for the world." This simple prayer has the power to change hearts and history.</p>`,
+      scripture: 'Luke 1:48 - "For behold, from now on all generations will call me blessed."',
+      prayer: 'Mary, Queen of the Holy Rosary, help me to pray this prayer faithfully. Through its mysteries, draw me closer to your Son. Obtain for me the graces I need. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Consecration to Mary',
+      content: `<p>Many saints have recommended total consecration to Jesus through Mary. This means entrusting ourselves entirely to Mary so that she can lead us to her Son.</p>
+<p><strong>St. Louis de Montfort wrote:</strong> "The more the Holy Spirit finds Mary, His dear and inseparable spouse, in any soul, the more active and mighty He becomes in producing Jesus Christ in that soul."</p>
+<p>Consecration to Mary is not worship of Mary but recognition of her role in God\'s plan. She is the surest, easiest, and shortest way to Jesus.</p>
+<p>To consecrate yourself to Mary means to give her your prayers, works, joys, and sufferings, so that she can offer them to Jesus and obtain for you the graces you need.</p>
+<p><strong>St. John Paul II\'s motto was:</strong> "Totus Tuus"—Totally Yours, Mary.</p>`,
+      scripture: 'John 2:5 - "His mother said to the servants, Do whatever he tells you."',
+      prayer: 'Mary, I consecrate myself entirely to you. I give you my body and soul, my goods, both interior and exterior. Use me for the glory of God and the salvation of souls. Totus Tuus. Amen.'
+    }
+  ]
+};
+
+const marriageMoments: Devotional = {
+  slug: 'marriage-moments',
+  title: 'Marriage Moments',
+  author: 'Catholic Bible Online',
+  description: 'Brief daily reflections for Catholic couples.',
+  longDescription: 'Marriage is a vocation to holiness. These brief daily reflections help Catholic couples grow in love for God and each other. Whether you are newlyweds or have been married for decades, these moments of reflection can strengthen your marriage.',
+  frequency: 'Daily',
+  category: 'Family & Marriage',
+  icon: '💒',
+  readings: [
+    {
+      day: 1,
+      title: 'Marriage as Sacrament',
+      content: `<p>Catholic marriage is not just a contract but a sacrament—a visible sign of invisible grace. When you married, you became a channel of God\'s grace to each other.</p>
+<p>The Catechism teaches: "The sacrament of Matrimony signifies the union of Christ and the Church. It gives spouses the grace to love each other with the love with which Christ has loved his Church" (CCC 1661).</p>
+<p>Your marriage is meant to reflect Christ\'s love for the Church—faithful, sacrificial, life-giving. This is a high calling, but God gives you the grace to live it.</p>
+<p><strong>Reflection for Couples:</strong> How have you experienced God\'s grace in your marriage? How can you be a better channel of grace to your spouse?</p>`,
+      scripture: 'Ephesians 5:25 - "Husbands, love your wives, as Christ loved the church and gave himself up for her."',
+      prayer: 'Lord, thank You for the sacrament of our marriage. Help us to be channels of Your grace to each other. May our love reflect Your love for the Church. Amen.'
+    },
+    {
+      day: 2,
+      title: 'Praying Together',
+      content: `<p>"The family that prays together stays together." This simple saying contains profound wisdom. Couples who pray together build their marriage on the strongest foundation.</p>
+<p>Prayer together doesn\'t have to be complicated. It can be as simple as:</p>
+<ul>
+<li>Praying grace before meals</li>
+<li>Saying a decade of the Rosary together</li>
+<li>Reading Scripture and sharing reflections</li>
+<li>Praying for each other\'s intentions</li>
+<li>Attending Mass together</li>
+</ul>
+<p>When you pray together, you invite God into the center of your relationship. You acknowledge your dependence on Him and your commitment to each other.</p>
+<p><strong>Challenge:</strong> If you don\'t already pray together, start today. Even five minutes of shared prayer can transform your marriage.</p>`,
+      scripture: 'Matthew 18:20 - "For where two or three are gathered in my name, there am I among them."',
+      prayer: 'Lord, help us to make prayer a regular part of our marriage. Be present with us as we pray. Unite our hearts to You and to each other. Amen.'
+    },
+    {
+      day: 3,
+      title: 'Forgiveness in Marriage',
+      content: `<p>Every marriage needs forgiveness. Two imperfect people living together will inevitably hurt each other. The question is not whether you will need to forgive but whether you will choose to forgive.</p>
+<p>Jesus said to forgive "seventy times seven"—in other words, without limit. This is especially true in marriage, where small offenses can accumulate into resentment if not addressed.</p>
+<p><strong>Keys to forgiveness in marriage:</strong></p>
+<ul>
+<li>Don\'t let the sun go down on your anger</li>
+<li>Apologize sincerely and specifically</li>
+<li>Forgive even when you don\'t feel like it</li>
+<li>Let go of the need to be right</li>
+<li>Receive the Sacrament of Reconciliation regularly</li>
+</ul>
+<p>Forgiveness is not a feeling but a decision. Choose to forgive, and the feelings will follow.</p>`,
+      scripture: 'Colossians 3:13 - "Bearing with one another and, if one has a complaint against another, forgiving each other; as the Lord has forgiven you, so you also must forgive."',
+      prayer: 'Lord, help us to forgive each other as You have forgiven us. Heal the wounds we have caused. Give us humble hearts that are quick to apologize and quick to forgive. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Communication',
+      content: `<p>Good communication is essential for a healthy marriage. This means not just talking but truly listening—seeking to understand before being understood.</p>
+<p><strong>Tips for better communication:</strong></p>
+<ul>
+<li>Put away phones and screens when talking</li>
+<li>Use "I" statements instead of "you" accusations</li>
+<li>Listen without planning your response</li>
+<li>Ask clarifying questions</li>
+<li>Validate your spouse\'s feelings</li>
+<li>Schedule regular time for meaningful conversation</li>
+</ul>
+<p>Remember that men and women often communicate differently. Be patient with each other and seek to understand your spouse\'s communication style.</p>
+<p><strong>St. Francis de Sales advised:</strong> "Have patience with all things, but chiefly have patience with yourself."</p>`,
+      scripture: 'James 1:19 - "Let every person be quick to hear, slow to speak, slow to anger."',
+      prayer: 'Lord, help us to communicate with love and patience. Give us ears to listen and hearts to understand. May our words build up rather than tear down. Amen.'
+    },
+    {
+      day: 5,
+      title: 'Intimacy as Gift',
+      content: `<p>Sexual intimacy in marriage is a gift from God—a way of expressing and deepening the love between husband and wife. It is not something shameful but something sacred.</p>
+<p>The Church teaches that marital intimacy has two purposes: unity (bonding the couple together) and procreation (openness to new life). These purposes should not be separated.</p>
+<p>St. John Paul II\'s Theology of the Body reveals the profound meaning of the body and sexuality. Our bodies are not just biological machines but expressions of the person, capable of communicating love.</p>
+<p><strong>For reflection:</strong> How can you nurture intimacy in your marriage—not just physical but emotional and spiritual as well?</p>`,
+      scripture: 'Genesis 2:24 - "Therefore a man shall leave his father and his mother and hold fast to his wife, and they shall become one flesh."',
+      prayer: 'Lord, thank You for the gift of intimacy in marriage. Help us to honor each other with our bodies. May our physical union reflect our spiritual union with You. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Serving Each Other',
+      content: `<p>Jesus said, "Whoever would be great among you must be your servant." This applies especially in marriage. The happiest couples are those who compete to out-serve each other.</p>
+<p><strong>Ways to serve your spouse:</strong></p>
+<ul>
+<li>Do a chore without being asked</li>
+<li>Prepare their favorite meal</li>
+<li>Give them time for rest or hobbies</li>
+<li>Listen when they need to talk</li>
+<li>Pray for their intentions</li>
+<li>Express appreciation and gratitude</li>
+</ul>
+<p>Service is love in action. It\'s easy to say "I love you" but harder to show it through daily acts of kindness and sacrifice.</p>
+<p><strong>St. Josemaría Escrivá wrote:</strong> "Marriage is a path to holiness. The home is a school of virtue."</p>`,
+      scripture: 'Galatians 5:13 - "Through love serve one another."',
+      prayer: 'Lord, help us to serve each other with joy. May we compete in generosity and kindness. Transform our home into a school of love. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Growing Old Together',
+      content: `<p>Marriage is a lifelong journey. The love you share today is meant to deepen and mature over the years, becoming richer and more beautiful with time.</p>
+<p>The challenges of each stage of marriage—newlywed adjustments, raising children, empty nest, retirement—are opportunities for growth. Each stage brings new graces.</p>
+<p><strong>Keys to a lasting marriage:</strong></p>
+<ul>
+<li>Keep God at the center</li>
+<li>Never stop dating each other</li>
+<li>Grow together spiritually</li>
+<li>Face challenges as a team</li>
+<li>Renew your commitment regularly</li>
+<li>Seek help when needed</li>
+</ul>
+<p>The goal of marriage is not just to stay together but to help each other become saints. May your love lead you both to heaven.</p>`,
+      scripture: 'Proverbs 5:18 - "Let your fountain be blessed, and rejoice in the wife of your youth."',
+      prayer: 'Lord, bless our marriage for all the years to come. Help us to grow in love and holiness together. May we one day rejoice together in Your presence forever. Amen.'
+    }
+  ]
+};
+
+const discernmentJourney: Devotional = {
+  slug: 'discernment-journey',
+  title: 'Discernment Journey',
+  author: 'Catholic Bible Online',
+  description: 'For those discerning their vocation in life.',
+  longDescription: 'Every person has a vocation—a calling from God to a particular way of life. Whether you are discerning marriage, priesthood, religious life, or consecrated single life, these reflections will help you listen for God\'s voice and respond with generosity.',
+  frequency: 'Daily',
+  category: 'Vocations & Ministry',
+  icon: '🙏',
+  readings: [
+    {
+      day: 1,
+      title: 'God Has a Plan for You',
+      content: `<p><strong>"For I know the plans I have for you, declares the Lord, plans for welfare and not for evil, to give you a future and a hope."</strong> (Jeremiah 29:11)</p>
+<p>God has a plan for your life. He created you for a purpose, and He wants to reveal that purpose to you. Your vocation is not something you invent but something you discover.</p>
+<p>Discernment is the process of discovering God\'s will. It requires prayer, patience, and openness to wherever God may lead.</p>
+<p>Don\'t be afraid of God\'s plan. He knows you better than you know yourself, and He wants your happiness more than you do. His plan is always for your good.</p>
+<p><strong>St. John Henry Newman prayed:</strong> "God has created me to do Him some definite service. He has committed some work to me which He has not committed to another."</p>`,
+      scripture: 'Jeremiah 29:11 - "For I know the plans I have for you, declares the Lord, plans for welfare and not for evil, to give you a future and a hope."',
+      prayer: 'Lord, I believe You have a plan for my life. Help me to discover it. Give me the courage to follow wherever You lead. I trust in Your goodness. Amen.'
+    },
+    {
+      day: 2,
+      title: 'The Four Vocations',
+      content: `<p>The Church recognizes four primary vocations:</p>
+<p><strong>Marriage:</strong> The call to give yourself completely to a spouse and to be open to children. Most Catholics are called to this vocation.</p>
+<p><strong>Priesthood:</strong> The call to serve God\'s people as an ordained minister, offering the sacraments and shepherding souls.</p>
+<p><strong>Religious Life:</strong> The call to live the evangelical counsels (poverty, chastity, obedience) in community as a brother, sister, monk, or nun.</p>
+<p><strong>Consecrated Single Life:</strong> The call to live celibacy in the world, dedicating oneself to prayer and service.</p>
+<p>Each vocation is a path to holiness. The question is not which is "better" but which is God\'s will for you.</p>`,
+      scripture: '1 Corinthians 7:7 - "I wish that all were as I myself am. But each has his own gift from God, one of one kind and one of another."',
+      prayer: 'Lord, show me the vocation to which You are calling me. Help me to be open to all possibilities. May I seek not what I want but what You want for me. Amen.'
+    },
+    {
+      day: 3,
+      title: 'Signs of a Vocation',
+      content: `<p>How do you know if God is calling you to a particular vocation? Here are some signs to consider:</p>
+<p><strong>Desire:</strong> Do you feel drawn to this way of life? Desire is often God\'s way of leading us.</p>
+<p><strong>Peace:</strong> When you imagine yourself in this vocation, do you feel peace or anxiety?</p>
+<p><strong>Gifts:</strong> Do you have the gifts and abilities needed for this vocation?</p>
+<p><strong>Confirmation:</strong> Do others who know you well affirm this direction?</p>
+<p><strong>Fruit:</strong> When you take steps in this direction, do you experience spiritual fruit?</p>
+<p>No single sign is definitive. Discernment involves weighing all these factors in prayer and with guidance.</p>`,
+      scripture: 'Romans 12:2 - "Do not be conformed to this world, but be transformed by the renewal of your mind, that by testing you may discern what is the will of God."',
+      prayer: 'Lord, help me to read the signs You are giving me. Clarify my desires. Give me peace about Your will. Confirm my direction through others. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Obstacles to Discernment',
+      content: `<p>Several things can block our ability to hear God\'s voice:</p>
+<p><strong>Sin:</strong> Unconfessed sin clouds our spiritual vision. Regular confession clears the way for discernment.</p>
+<p><strong>Noise:</strong> Too much activity and distraction drowns out God\'s voice. We need silence to hear Him.</p>
+<p><strong>Fear:</strong> Fear of what God might ask can make us avoid discernment altogether.</p>
+<p><strong>Attachments:</strong> If we\'re too attached to a particular outcome, we may not be open to God\'s will.</p>
+<p><strong>Impatience:</strong> Discernment takes time. Rushing leads to poor decisions.</p>
+<p>Address these obstacles honestly. Create space for God to speak.</p>`,
+      scripture: 'Psalm 46:10 - "Be still, and know that I am God."',
+      prayer: 'Lord, remove the obstacles that prevent me from hearing Your voice. Forgive my sins. Quiet my fears. Free me from unhealthy attachments. Give me patience. Amen.'
+    },
+    {
+      day: 5,
+      title: 'The Role of a Spiritual Director',
+      content: `<p>Discernment is not meant to be done alone. A spiritual director can help you hear God\'s voice and avoid self-deception.</p>
+<p><strong>What a spiritual director does:</strong></p>
+<ul>
+<li>Listens to your experience</li>
+<li>Asks clarifying questions</li>
+<li>Helps you recognize God\'s movements</li>
+<li>Offers wisdom from the Church\'s tradition</li>
+<li>Holds you accountable</li>
+<li>Prays for and with you</li>
+</ul>
+<p>A good spiritual director doesn\'t tell you what to do but helps you discover what God is saying. Look for a priest, religious, or trained layperson who can accompany you.</p>`,
+      scripture: 'Proverbs 11:14 - "Where there is no guidance, a people falls, but in an abundance of counselors there is safety."',
+      prayer: 'Lord, lead me to a wise spiritual director. Give me humility to seek guidance and openness to receive it. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Taking Steps',
+      content: `<p>Discernment is not just thinking and praying—it also involves action. Sometimes we only discover God\'s will by taking steps and seeing what happens.</p>
+<p><strong>Practical steps in discernment:</strong></p>
+<ul>
+<li>Visit a seminary or religious community</li>
+<li>Go on a retreat focused on vocations</li>
+<li>Talk to people living the vocation you\'re considering</li>
+<li>Date intentionally if considering marriage</li>
+<li>Volunteer in ministry</li>
+<li>Try a "come and see" experience</li>
+</ul>
+<p>Don\'t wait for perfect certainty before acting. Take a step, evaluate the fruit, and adjust as needed. God guides us as we move.</p>`,
+      scripture: 'Proverbs 16:9 - "The heart of man plans his way, but the Lord establishes his steps."',
+      prayer: 'Lord, give me courage to take steps in discernment. Guide my path as I move forward. Help me to trust that You will direct my steps. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Saying Yes to God',
+      content: `<p>Ultimately, discernment leads to a decision—a "yes" to God\'s call. This yes may feel scary, but it is the path to joy and fulfillment.</p>
+<p>Mary said yes to the angel: "Let it be to me according to your word." Her yes changed history. Your yes can change your life and the lives of others.</p>
+<p>Saying yes to God doesn\'t mean you have all the answers. It means you trust Him enough to follow where He leads, one step at a time.</p>
+<p><strong>St. John Paul II said:</strong> "It is Jesus who stirs in you the desire to do something great with your lives, the will to follow an ideal, the refusal to allow yourselves to be ground down by mediocrity."</p>
+<p>Don\'t settle for mediocrity. Say yes to God\'s call.</p>`,
+      scripture: 'Isaiah 6:8 - "And I heard the voice of the Lord saying, Whom shall I send, and who will go for us? Then I said, Here I am! Send me."',
+      prayer: 'Lord, here I am. Send me. I say yes to Your call, whatever it may be. Give me the grace to follow You faithfully. May my life glorify You. Amen.'
+    }
+  ]
+};
+
+devotionals.push(marianMonths, marriageMoments, discernmentJourney);
