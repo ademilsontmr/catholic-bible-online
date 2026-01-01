@@ -1,59 +1,59 @@
 const fs = require('fs');
 const path = require('path');
 
-// All devotional slugs with their number of days
+// All devotional slugs (no more individual day pages)
 const devotionals = [
   // Classic Catholic Devotionals
-  { slug: 'imitation-of-christ', days: 7 },
-  { slug: 'story-of-a-soul', days: 7 },
-  { slug: 'introduction-devout-life', days: 7 },
-  { slug: 'confessions-augustine', days: 7 },
-  { slug: 'dark-night-soul', days: 7 },
-  { slug: 'interior-castle', days: 7 },
+  'imitation-of-christ',
+  'story-of-a-soul',
+  'introduction-devout-life',
+  'confessions-augustine',
+  'dark-night-soul',
+  'interior-castle',
   
   // Saints for Today
-  { slug: 'saint-of-the-day', days: 7 },
-  { slug: 'padre-pio-daily', days: 7 },
-  { slug: 'mother-teresa-daily', days: 7 },
-  { slug: 'john-paul-ii-daily', days: 7 },
-  { slug: 'fulton-sheen-daily', days: 7 },
+  'saint-of-the-day',
+  'padre-pio-daily',
+  'mother-teresa-daily',
+  'john-paul-ii-daily',
+  'fulton-sheen-daily',
   
   // Prayer & Meditation
-  { slug: 'daily-examen', days: 7 },
-  { slug: 'lectio-divina', days: 7 },
-  { slug: 'divine-office-reflections', days: 7 },
-  { slug: 'rosary-meditations', days: 7 },
-  { slug: 'divine-mercy-reflections', days: 7 },
+  'daily-examen',
+  'lectio-divina',
+  'divine-office-reflections',
+  'rosary-meditations',
+  'divine-mercy-reflections',
   
   // Scripture & Faith
-  { slug: 'gospel-of-the-day', days: 7 },
-  { slug: 'psalms-daily', days: 7 },
-  { slug: 'catechism-daily', days: 7 },
-  { slug: 'church-fathers-daily', days: 7 },
-  { slug: 'papal-teachings', days: 7 },
+  'gospel-of-the-day',
+  'psalms-daily',
+  'catechism-daily',
+  'church-fathers-daily',
+  'papal-teachings',
   
   // Family & Marriage
-  { slug: 'family-rosary', days: 7 },
-  { slug: 'marriage-moments', days: 7 },
-  { slug: 'parenting-saints', days: 7 },
-  { slug: 'theology-of-body', days: 7 },
+  'family-rosary',
+  'marriage-moments',
+  'parenting-saints',
+  'theology-of-body',
   
   // Liturgical Seasons
-  { slug: 'advent-daily', days: 7 },
-  { slug: 'lenten-daily', days: 7 },
-  { slug: 'easter-daily', days: 7 },
-  { slug: 'marian-months', days: 7 },
+  'advent-daily',
+  'lenten-daily',
+  'easter-daily',
+  'marian-months',
   
   // Vocations & Ministry
-  { slug: 'priests-daily', days: 7 },
-  { slug: 'religious-life', days: 7 },
-  { slug: 'discernment-journey', days: 7 },
+  'priests-daily',
+  'religious-life',
+  'discernment-journey',
   
   // Healing & Hope
-  { slug: 'grief-comfort', days: 7 },
-  { slug: 'anxiety-peace', days: 7 },
-  { slug: 'suffering-meaning', days: 7 },
-  { slug: 'addiction-recovery', days: 7 },
+  'grief-comfort',
+  'anxiety-peace',
+  'suffering-meaning',
+  'addiction-recovery',
 ];
 
 const siteUrl = 'https://catholicbibleonline.com';
@@ -69,23 +69,13 @@ function generateDevotionalUrls() {
     priority: '0.8'
   });
   
-  // Each devotional main page and day pages
-  devotionals.forEach(devotional => {
-    // Devotional main page
+  // Each devotional main page (all days loaded via dropdown, no separate day pages)
+  devotionals.forEach(slug => {
     urls.push({
-      loc: `${siteUrl}/devotionals/${devotional.slug}/`,
+      loc: `${siteUrl}/devotionals/${slug}/`,
       changefreq: 'weekly',
       priority: '0.7'
     });
-    
-    // Each day page
-    for (let day = 1; day <= devotional.days; day++) {
-      urls.push({
-        loc: `${siteUrl}/devotionals/${devotional.slug}/${day}/`,
-        changefreq: 'monthly',
-        priority: '0.6'
-      });
-    }
   });
   
   return urls;
@@ -97,10 +87,9 @@ function updateSitemap() {
   // Read existing sitemap
   let sitemap = fs.readFileSync(sitemapPath, 'utf8');
   
-  // Check if devotionals already exist
+  // Remove existing devotional entries (including day pages)
   if (sitemap.includes('/devotionals/')) {
-    console.log('Devotionals already in sitemap. Removing old entries...');
-    // Remove existing devotional entries
+    console.log('Removing old devotional entries from sitemap...');
     sitemap = sitemap.replace(/<url><loc>https:\/\/catholicbibleonline\.com\/devotionals\/[^<]*<\/loc>[^<]*<\/url>\n?/g, '');
   }
   
@@ -121,8 +110,7 @@ function updateSitemap() {
   console.log(`✅ Sitemap updated with ${devotionalUrls.length} devotional URLs:`);
   console.log(`   - 1 main devotionals page`);
   console.log(`   - ${devotionals.length} devotional pages`);
-  console.log(`   - ${devotionals.length * 7} daily reading pages`);
-  console.log(`   Total: ${devotionalUrls.length} new URLs`);
+  console.log(`   Total: ${devotionalUrls.length} URLs (reduced from 289)`);
 }
 
 updateSitemap();
