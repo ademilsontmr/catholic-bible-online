@@ -2630,3 +2630,1284 @@ const discernmentJourney: Devotional = {
 };
 
 devotionals.push(marianMonths, marriageMoments, discernmentJourney);
+
+
+// Dark Night of the Soul - St. John of the Cross
+const darkNightSoul: Devotional = {
+  slug: 'dark-night-soul',
+  title: 'Dark Night of the Soul',
+  author: 'St. John of the Cross',
+  description: 'Mystical poetry and commentary on the soul\'s journey to union with God.',
+  longDescription: 'St. John of the Cross, a Doctor of the Church and Carmelite mystic, wrote this masterpiece of spiritual literature describing the soul\'s purification on its journey to divine union. These reflections help us understand that spiritual darkness is often a sign of God\'s deeper work in our souls.',
+  frequency: 'Weekly',
+  category: 'Classic Catholic Devotionals',
+  icon: '🌙',
+  readings: [
+    {
+      day: 1,
+      title: 'The Beginning of the Dark Night',
+      content: `<p><strong>"One dark night, fired with love's urgent longings—ah, the sheer grace!—I went out unseen, my house being now all stilled."</strong></p>
+<p>St. John of the Cross describes the soul's journey to God as passing through a "dark night." This darkness is not punishment but purification—God's way of freeing us from attachments that keep us from Him.</p>
+<p>The dark night begins when God withdraws the consolations we once felt in prayer. What once brought joy now feels dry and empty. This is disorienting but necessary.</p>
+<p>God does this not to abandon us but to draw us deeper. He wants us to love Him for Himself, not for the good feelings He gives. The darkness purifies our motives.</p>
+<p><strong>St. John writes:</strong> "God perceives the imperfections within us, and because of His love for us, urges us to grow up... His love is not content to leave us in our weakness."</p>`,
+      scripture: 'Psalm 139:12 - "Even the darkness is not dark to you; the night is bright as the day, for darkness is as light with you."',
+      prayer: 'Lord, when prayer feels dry and You seem distant, help me to trust that You are still at work. Purify my heart of all that is not of You. May I seek You alone, not Your consolations. Amen.'
+    },
+    {
+      day: 2,
+      title: 'Signs of the Dark Night',
+      content: `<p>How do we know if we are experiencing the dark night of the soul rather than simply being lukewarm? St. John gives three signs:</p>
+<p><strong>First:</strong> We find no satisfaction or consolation in the things of God or in created things. Nothing seems to fill the emptiness.</p>
+<p><strong>Second:</strong> We are anxious about whether we are serving God well. We fear we are going backward, not forward.</p>
+<p><strong>Third:</strong> We cannot meditate or use our imagination in prayer as we once did. Discursive prayer becomes impossible.</p>
+<p>If all three signs are present, this is likely the dark night. God is transitioning us from meditation to contemplation, from active prayer to receptive prayer.</p>
+<p>The key is to remain faithful. Don't abandon prayer because it feels fruitless. Simply be present to God in loving attention.</p>`,
+      scripture: 'Isaiah 50:10 - "Who among you fears the Lord and obeys the voice of his servant? Let him who walks in darkness and has no light trust in the name of the Lord and rely on his God."',
+      prayer: 'Lord, I trust You even when I cannot feel You. Help me to remain faithful in prayer even when it seems fruitless. I believe You are working in ways I cannot see. Amen.'
+    },
+    {
+      day: 3,
+      title: 'The Night of the Senses',
+      content: `<p>St. John describes two phases of the dark night: the night of the senses and the night of the spirit. The first purifies our sensory attachments.</p>
+<p>We are attached to many things through our senses—comfort, pleasure, recognition, control. These attachments, even when directed toward spiritual things, can become obstacles to God.</p>
+<p>In the night of the senses, God withdraws the sensory satisfaction we found in prayer, devotions, and good works. We must learn to serve God without the reward of good feelings.</p>
+<p><strong>St. John writes:</strong> "The soul began to set out on the way of the spirit, the way of proficients and of beginners... God is transferring all the goods and energies of the senses to the spirit."</p>
+<p>This is painful but liberating. We are being freed from spiritual selfishness to love God purely.</p>`,
+      scripture: 'Matthew 16:24 - "If anyone would come after me, let him deny himself and take up his cross and follow me."',
+      prayer: 'Lord, free me from attachment to spiritual consolations. Help me to love You for who You are, not for what You give me. Purify my senses that I may serve You with pure love. Amen.'
+    },
+    {
+      day: 4,
+      title: 'The Night of the Spirit',
+      content: `<p>The deeper purification is the night of the spirit. Here God purifies not just our senses but our very soul—our intellect, memory, and will.</p>
+<p>This is a more intense darkness. We may feel abandoned by God, unable to pray, plagued by doubts and temptations. Even our faith seems to fail.</p>
+<p>St. John compares this to a log being transformed into fire. At first, the fire makes the log dark, ugly, and smelly as it burns away impurities. Only later does the log become one with the flame.</p>
+<p><strong>St. John writes:</strong> "This dark night is an inflowing of God into the soul, which purges it of its habitual ignorances and imperfections... and which the contemplatives call infused contemplation."</p>
+<p>The darkness is actually God's light—so bright that it blinds our weak spiritual eyes.</p>`,
+      scripture: '2 Corinthians 4:17-18 - "For this light momentary affliction is preparing for us an eternal weight of glory beyond all comparison, as we look not to the things that are seen but to the things that are unseen."',
+      prayer: 'Lord, when the darkness is deepest, help me to believe that Your light is at work. Transform me like the log into flame. Make me one with You. Amen.'
+    },
+    {
+      day: 5,
+      title: 'Perseverance in Darkness',
+      content: `<p>The temptation in the dark night is to give up—to abandon prayer, to return to worldly comforts, to conclude that God has rejected us.</p>
+<p>St. John urges perseverance. The darkness will not last forever. Dawn is coming. But we must remain faithful through the night.</p>
+<p><strong>Practical advice for the dark night:</strong></p>
+<ul>
+<li>Continue to pray, even when it feels useless</li>
+<li>Don't try to force consolations</li>
+<li>Rest in God's presence without words</li>
+<li>Trust that God is working invisibly</li>
+<li>Seek guidance from a spiritual director</li>
+<li>Remember that saints have walked this path</li>
+</ul>
+<p><strong>St. John writes:</strong> "Have patience and persevere... for in due time God will give you what is best for you."</p>`,
+      scripture: 'James 1:12 - "Blessed is the man who remains steadfast under trial, for when he has stood the test he will receive the crown of life."',
+      prayer: 'Lord, give me the grace to persevere. When I want to give up, strengthen my resolve. Help me to trust that this darkness is leading to light. Amen.'
+    },
+    {
+      day: 6,
+      title: 'The Dawn of Union',
+      content: `<p>The dark night is not the end but the passage to something glorious—union with God. St. John describes the soul emerging from darkness into the light of divine love.</p>
+<p><strong>"O guiding night! O night more lovely than the dawn! O night that has united the Lover with his beloved, transforming the beloved in her Lover."</strong></p>
+<p>The soul that has passed through the dark night is transformed. It loves God purely, without self-interest. It is free from disordered attachments. It experiences God's presence in a new way.</p>
+<p>This is the goal of the spiritual life—not just to avoid sin but to be united with God in love. The dark night makes this union possible.</p>
+<p>Few souls reach the heights of mystical union, but all are called to grow in love. The dark night, in some form, is part of every serious spiritual journey.</p>`,
+      scripture: 'Song of Solomon 3:4 - "I found him whom my soul loves. I held him, and would not let him go."',
+      prayer: 'Lord, bring me through the darkness into the light of Your love. Unite my soul to Yourself. May I love You with the pure love of the saints. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Living Flame of Love',
+      content: `<p>St. John's final work, "The Living Flame of Love," describes the soul fully transformed by God's love:</p>
+<p><strong>"O living flame of love that tenderly wounds my soul in its deepest center! Since now you are not oppressive, now consummate! if it be your will: tear through the veil of this sweet encounter!"</strong></p>
+<p>The soul that has passed through the dark night now burns with divine love. The fire that once seemed to destroy now gives warmth and light. The wound of love is sweet.</p>
+<p>This is the goal of all Christian life—to be so transformed by God's love that we become flames of that love in the world.</p>
+<p><strong>St. John writes:</strong> "The soul now feels that it is all inflamed in divine union, and that its palate is all bathed in glory and love."</p>
+<p>May we all aspire to this union, trusting God through every darkness.</p>`,
+      scripture: 'Deuteronomy 4:24 - "For the Lord your God is a consuming fire."',
+      prayer: 'O Living Flame of Love, consume all that is not of You in my soul. Transform me by Your fire. Make me a flame of Your love in the world. Through Christ our Lord. Amen.'
+    }
+  ]
+};
+
+// Interior Castle - St. Teresa of Ávila
+const interiorCastle: Devotional = {
+  slug: 'interior-castle',
+  title: 'The Interior Castle',
+  author: 'St. Teresa of Ávila',
+  description: 'A guide to the seven mansions of the soul in its journey toward God.',
+  longDescription: 'St. Teresa of Ávila, Doctor of the Church and Carmelite mystic, describes the soul as a castle with seven mansions. As we journey inward through prayer and virtue, we move closer to the center where God dwells. This devotional guides you through Teresa\'s profound spiritual wisdom.',
+  frequency: 'Weekly',
+  category: 'Classic Catholic Devotionals',
+  icon: '🏰',
+  readings: [
+    {
+      day: 1,
+      title: 'The Soul as a Castle',
+      content: `<p>St. Teresa invites us to imagine the soul as a beautiful castle made of a single diamond or crystal, containing many rooms—seven mansions arranged concentrically, with God dwelling in the innermost chamber.</p>
+<p><strong>Teresa writes:</strong> "I began to think of the soul as if it were a castle made of a single diamond or of very clear crystal, in which there are many rooms, just as in Heaven there are many mansions."</p>
+<p>Most people, Teresa observes, live outside the castle, unaware of its beauty or even that it exists. They are distracted by the world and never enter within.</p>
+<p>The door to the castle is prayer. Without prayer, we cannot enter. Without self-knowledge, we cannot progress.</p>
+<p>Today, consider: Do you know your own soul? Have you entered the castle through prayer? Or are you still living outside, distracted by lesser things?</p>`,
+      scripture: 'John 14:2 - "In my Father\'s house are many rooms. If it were not so, would I have told you that I go to prepare a place for you?"',
+      prayer: 'Lord, help me to enter the castle of my soul through prayer. Show me the beauty You have placed within me. Draw me ever deeper toward the center where You dwell. Amen.'
+    },
+    {
+      day: 2,
+      title: 'The First Mansions: Self-Knowledge',
+      content: `<p>The first mansions are the outermost rooms of the castle. Here the soul begins its journey through self-knowledge and the desire for God.</p>
+<p>In these mansions, we are still very attached to the world. We pray occasionally but are easily distracted. We know we should seek God but are pulled in many directions.</p>
+<p><strong>Teresa writes:</strong> "The souls in the first mansions are still absorbed in the world and engulfed in their pleasures... yet they have some desire to do right and sometimes commend themselves to God."</p>
+<p>The key virtue here is humility—recognizing our need for God and our inability to save ourselves. Without humility, we cannot progress.</p>
+<p>The danger is staying too long in these outer rooms, content with minimal prayer and maximum worldliness.</p>`,
+      scripture: 'Psalm 139:23-24 - "Search me, O God, and know my heart! Try me and know my thoughts! And see if there be any grievous way in me, and lead me in the way everlasting!"',
+      prayer: 'Lord, grant me true self-knowledge. Show me my attachments and weaknesses. Give me humility to acknowledge my need for You. Help me not to linger in the outer rooms but to press inward. Amen.'
+    },
+    {
+      day: 3,
+      title: 'The Second and Third Mansions: Perseverance',
+      content: `<p>In the second mansions, the soul hears God's call more clearly—through sermons, books, trials, and good companions. The battle intensifies as we try to respond.</p>
+<p>The third mansions are for those who have achieved a certain stability in the spiritual life. They pray regularly, avoid serious sin, practice charity. But they are not yet fully surrendered.</p>
+<p><strong>Teresa writes:</strong> "These souls long not to offend His Majesty; they avoid committing even venial sins; they love doing penance; they spend hours in recollection; they use their time well."</p>
+<p>The danger here is spiritual complacency—being satisfied with being "good enough." These souls may resist when God asks for more.</p>
+<p>The key is perseverance and willingness to go deeper, even when it costs us.</p>`,
+      scripture: 'Philippians 3:13-14 - "Forgetting what lies behind and straining forward to what lies ahead, I press on toward the goal for the prize of the upward call of God in Christ Jesus."',
+      prayer: 'Lord, don\'t let me be satisfied with mediocrity. Give me the courage to go deeper, to surrender more fully, to follow wherever You lead. Amen.'
+    },
+    {
+      day: 4,
+      title: 'The Fourth Mansions: Supernatural Prayer',
+      content: `<p>The fourth mansions mark a turning point. Here, God begins to work more directly in the soul. Prayer becomes less about our effort and more about receiving God's action.</p>
+<p>Teresa distinguishes between "consolations" (sweetness we produce through meditation) and "spiritual delights" (sweetness God infuses directly). The fourth mansions introduce us to infused prayer.</p>
+<p><strong>Teresa writes:</strong> "The important thing is not to think much but to love much; and so do that which best stirs you to love."</p>
+<p>The Prayer of Quiet begins here—a simple, loving attention to God without many words or thoughts. The soul rests in God's presence.</p>
+<p>This is pure gift. We cannot produce it by effort. We can only dispose ourselves through faithfulness and receive what God gives.</p>`,
+      scripture: 'Psalm 46:10 - "Be still, and know that I am God."',
+      prayer: 'Lord, teach me to be still in Your presence. Help me to receive what You want to give. May I love much, even when I cannot think much. Amen.'
+    },
+    {
+      day: 5,
+      title: 'The Fifth Mansions: Union',
+      content: `<p>In the fifth mansions, the soul experiences true union with God—brief but unmistakable. Teresa compares it to a silkworm that dies in its cocoon and emerges as a butterfly.</p>
+<p><strong>Teresa writes:</strong> "The soul has been as it were dead to the world so that it may live more fully in God... When it comes to itself, it cannot doubt that it has been in God and God in it."</p>
+<p>This union is not imaginary or emotional—it is a real encounter with God that transforms the soul. The butterfly that emerges is restless for heaven, detached from earthly things.</p>
+<p>The soul in the fifth mansions is being prepared for spiritual marriage. It must die to self completely to be united with the Beloved.</p>
+<p>Few reach these heights, but all are called to desire them.</p>`,
+      scripture: 'Galatians 2:20 - "I have been crucified with Christ. It is no longer I who live, but Christ who lives in me."',
+      prayer: 'Lord, I desire union with You. Help me to die to self that I may live in You. Transform me like the silkworm into a butterfly, restless for heaven. Amen.'
+    },
+    {
+      day: 6,
+      title: 'The Sixth Mansions: Spiritual Betrothal',
+      content: `<p>The sixth mansions are the longest section of Teresa's book. Here the soul is betrothed to Christ but not yet married. It experiences both great graces and great trials.</p>
+<p>God grants extraordinary favors—visions, locutions, raptures, flights of the spirit. But He also permits intense suffering—misunderstanding, illness, spiritual darkness.</p>
+<p><strong>Teresa writes:</strong> "The soul is now completely determined to take no other spouse; but the Spouse does not look at the soul's great desires that the betrothal should take place."</p>
+<p>The trials purify the soul for the final union. The graces strengthen it to endure. Both are necessary.</p>
+<p>Teresa warns against seeking extraordinary experiences. What matters is love and conformity to God's will, not visions or raptures.</p>`,
+      scripture: 'Hosea 2:19-20 - "I will betroth you to me forever. I will betroth you to me in righteousness and in justice, in steadfast love and in mercy. I will betroth you to me in faithfulness."',
+      prayer: 'Lord, betroth my soul to Yourself. Purify me through whatever trials are necessary. Help me to seek not experiences but You alone. Amen.'
+    },
+    {
+      day: 7,
+      title: 'The Seventh Mansions: Spiritual Marriage',
+      content: `<p>The seventh mansions are the innermost chamber where God dwells. Here the soul enters into spiritual marriage with Christ—a permanent, transforming union.</p>
+<p><strong>Teresa writes:</strong> "The soul is brought into this mansion by means of an intellectual vision, in which the Most Holy Trinity reveals Itself... The soul understands with the greatest clearness that all three Persons are one substance and one power and one knowledge and one God alone."</p>
+<p>Unlike betrothal, marriage is permanent. The soul enjoys habitual union with God, even amid activity. Martha and Mary work together.</p>
+<p>The fruit of this union is not withdrawal from the world but apostolic zeal. Teresa insists: "This is the reason for prayer, my daughters, the purpose of this spiritual marriage: the birth always of good works, good works."</p>
+<p>May we all aspire to this union, knowing that God desires it for every soul.</p>`,
+      scripture: 'Revelation 19:7 - "Let us rejoice and exult and give him the glory, for the marriage of the Lamb has come, and his Bride has made herself ready."',
+      prayer: 'Lord Jesus, my Bridegroom, draw me into the innermost chamber of my soul where You dwell. Unite me to Yourself forever. May this union bear fruit in good works for Your glory. Amen.'
+    }
+  ]
+};
+
+// Divine Office Reflections
+const divineOfficeReflections: Devotional = {
+  slug: 'divine-office-reflections',
+  title: 'Liturgy of the Hours',
+  author: 'Catholic Church',
+  description: 'Reflections based on the Church\'s official daily prayer.',
+  longDescription: 'The Liturgy of the Hours, also called the Divine Office, is the Church\'s official daily prayer, sanctifying every hour of the day. These reflections introduce you to this ancient practice and help you enter into the prayer of the whole Church.',
+  frequency: 'Daily',
+  category: 'Prayer & Meditation',
+  icon: '⏰',
+  readings: [
+    {
+      day: 1,
+      title: 'The Prayer of the Church',
+      content: `<p>The Liturgy of the Hours is not private devotion but the official prayer of the Church. When you pray the Hours, you join your voice with the whole Body of Christ—priests, religious, and laity around the world.</p>
+<p><strong>The Catechism teaches:</strong> "The Liturgy of the Hours is intended to become the prayer of the whole People of God. In it Christ himself 'continues his priestly work through his Church.'" (CCC 1175)</p>
+<p>This prayer sanctifies the whole day, marking time with praise and petition. It connects us to the ancient practice of the Church, reaching back to the Apostles.</p>
+<p>The Hours consist primarily of Psalms, Scripture readings, hymns, and intercessions. The two principal Hours are Morning Prayer (Lauds) and Evening Prayer (Vespers).</p>
+<p>Even if you cannot pray all the Hours, you can participate in this great prayer of the Church.</p>`,
+      scripture: 'Psalm 119:164 - "Seven times a day I praise you for your righteous rules."',
+      prayer: 'Lord, help me to join my prayer with the prayer of the whole Church. May my voice be united with all who praise You throughout the day. Sanctify my time with Your presence. Amen.'
+    },
+    {
+      day: 2,
+      title: 'Morning Prayer (Lauds)',
+      content: `<p>Morning Prayer, or Lauds, is prayed at the beginning of the day. It consecrates the first moments of our waking to God and sets the tone for all that follows.</p>
+<p>The word "Lauds" comes from the Latin for "praise." This Hour is characterized by praise and thanksgiving for the new day, for the resurrection of Christ (which occurred at dawn), and for the light that dispels darkness.</p>
+<p><strong>Structure of Morning Prayer:</strong></p>
+<ul>
+<li>Opening verse and hymn</li>
+<li>Psalmody (usually three psalms or canticles)</li>
+<li>Scripture reading</li>
+<li>Responsory</li>
+<li>Canticle of Zechariah (Benedictus)</li>
+<li>Intercessions</li>
+<li>Our Father and concluding prayer</li>
+</ul>
+<p>The Canticle of Zechariah, prayed every morning, celebrates Christ as the "dawn from on high" who visits us.</p>`,
+      scripture: 'Psalm 5:3 - "O Lord, in the morning you hear my voice; in the morning I prepare a sacrifice for you and watch."',
+      prayer: 'Lord, I offer You this new day. May my first thoughts be of You. Let the light of Christ dispel all darkness in my heart. Blessed be the Lord, the God of Israel! Amen.'
+    },
+    {
+      day: 3,
+      title: 'Evening Prayer (Vespers)',
+      content: `<p>Evening Prayer, or Vespers, is prayed as the day ends. It gives thanks for the day's blessings, asks forgiveness for its failures, and commends the coming night to God.</p>
+<p>Vespers has been called "the hinge" of the day, marking the transition from work to rest. In ancient times, it coincided with the lighting of lamps, symbolizing Christ as the Light of the World.</p>
+<p><strong>Structure of Evening Prayer:</strong></p>
+<ul>
+<li>Opening verse and hymn</li>
+<li>Psalmody (usually two psalms and a canticle)</li>
+<li>Scripture reading</li>
+<li>Responsory</li>
+<li>Canticle of Mary (Magnificat)</li>
+<li>Intercessions</li>
+<li>Our Father and concluding prayer</li>
+</ul>
+<p>The Magnificat, Mary's song of praise, is the crown of Evening Prayer. We join our voice with hers in praising God's mighty deeds.</p>`,
+      scripture: 'Psalm 141:2 - "Let my prayer be counted as incense before you, and the lifting up of my hands as the evening sacrifice!"',
+      prayer: 'Lord, as this day ends, I thank You for Your blessings and ask forgiveness for my sins. My soul magnifies the Lord, and my spirit rejoices in God my Savior. Amen.'
+    },
+    {
+      day: 4,
+      title: 'The Psalms: Heart of the Hours',
+      content: `<p>The Psalms are the heart of the Liturgy of the Hours. These ancient prayers, inspired by the Holy Spirit, express every human emotion—praise, lament, thanksgiving, petition, trust, and even anger.</p>
+<p><strong>St. Athanasius wrote:</strong> "The Psalms seem to me to be like a mirror, in which the person using them can see himself, and the stirrings of his own heart."</p>
+<p>When we pray the Psalms, we pray with Christ. He prayed these same words during His earthly life. The Psalms speak of Him and through Him.</p>
+<p>Some Psalms are difficult—the cursing psalms, the psalms of vengeance. The Church prays these too, understanding them as cries against evil, not personal enemies.</p>
+<p>Let the Psalms become your prayer. Let them give voice to what you cannot express on your own.</p>`,
+      scripture: 'Colossians 3:16 - "Let the word of Christ dwell in you richly, teaching and admonishing one another in all wisdom, singing psalms and hymns and spiritual songs."',
+      prayer: 'Lord, teach me to pray the Psalms with Christ. May these ancient words become my own. Let them express my praise, my sorrow, my trust, and my hope. Amen.'
+    },
+    {
+      day: 5,
+      title: 'The Office of Readings',
+      content: `<p>The Office of Readings (formerly called Matins) provides extended Scripture readings and writings from the Church Fathers and saints. It can be prayed at any time of day.</p>
+<p>This Hour nourishes the mind and heart with the riches of Sacred Scripture and Tradition. The readings are longer than in other Hours, allowing for deeper meditation.</p>
+<p><strong>Structure of the Office of Readings:</strong></p>
+<ul>
+<li>Opening verse and hymn</li>
+<li>Psalmody (three psalms)</li>
+<li>First reading (Scripture)</li>
+<li>Responsory</li>
+<li>Second reading (Patristic or hagiographic)</li>
+<li>Responsory</li>
+<li>Concluding prayer</li>
+</ul>
+<p>The second reading connects us to the living Tradition of the Church. We hear the voices of Augustine, Jerome, Gregory, and countless others who have meditated on God's Word.</p>`,
+      scripture: 'Psalm 119:148 - "My eyes are awake before the watches of the night, that I may meditate on your promise."',
+      prayer: 'Lord, feed my mind with Your Word and the wisdom of the saints. May I meditate on Your truth day and night. Open my heart to receive what You want to teach me. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Daytime Prayer and Night Prayer',
+      content: `<p>The Liturgy of the Hours also includes Daytime Prayer (Terce, Sext, None) and Night Prayer (Compline).</p>
+<p><strong>Daytime Prayer</strong> sanctifies the working hours. Traditionally prayed at the third, sixth, and ninth hours (9am, noon, 3pm), these brief Hours pause the day for prayer.</p>
+<p><strong>Night Prayer (Compline)</strong> is the last prayer of the day, prayed before sleep. It includes an examination of conscience, psalms of trust, the Canticle of Simeon (Nunc Dimittis), and a Marian antiphon.</p>
+<p>Compline is particularly beautiful—a peaceful surrender of the day to God, asking His protection through the night. The Nunc Dimittis echoes Simeon's words: "Now you may dismiss your servant in peace."</p>
+<p>Even if you pray no other Hour, Night Prayer is a wonderful way to end each day in God's presence.</p>`,
+      scripture: 'Psalm 4:8 - "In peace I will both lie down and sleep; for you alone, O Lord, make me dwell in safety."',
+      prayer: 'Lord, into Your hands I commend my spirit. Protect me through the night. Grant me peaceful sleep and wake me to serve You tomorrow. Now You may dismiss Your servant in peace. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Beginning to Pray the Hours',
+      content: `<p>You don't need to pray all the Hours to participate in the Liturgy of the Hours. Start where you can and grow from there.</p>
+<p><strong>Practical suggestions:</strong></p>
+<ul>
+<li>Begin with Morning and Evening Prayer</li>
+<li>Add Night Prayer before bed</li>
+<li>Use a breviary, app, or website (like iBreviary or Universalis)</li>
+<li>Join a parish or community that prays the Hours together</li>
+<li>Don't worry about doing it perfectly—just begin</li>
+</ul>
+<p>The Liturgy of the Hours is a gift, not a burden. It structures our day around prayer and connects us to the universal Church.</p>
+<p><strong>The Second Vatican Council taught:</strong> "The divine office... is so devised that the whole course of the day and night is made holy by the praise of God." (Sacrosanctum Concilium, 84)</p>
+<p>May the Hours become the rhythm of your life.</p>`,
+      scripture: '1 Thessalonians 5:17 - "Pray without ceasing."',
+      prayer: 'Lord, help me to sanctify my day with prayer. May the Liturgy of the Hours become the rhythm of my life. Unite my prayer with the prayer of the whole Church. Amen.'
+    }
+  ]
+};
+
+devotionals.push(darkNightSoul, interiorCastle, divineOfficeReflections);
+
+
+// Catechism in a Year
+const catechismDaily: Devotional = {
+  slug: 'catechism-daily',
+  title: 'Catechism in a Year',
+  author: 'Catholic Church',
+  description: 'Journey through the Catechism with daily readings and reflections.',
+  longDescription: 'The Catechism of the Catholic Church is a comprehensive summary of what Catholics believe. These daily reflections guide you through key teachings, helping you understand and live your faith more deeply.',
+  frequency: 'Daily',
+  category: 'Scripture & Faith',
+  icon: '📖',
+  readings: [
+    {
+      day: 1,
+      title: 'Man\'s Capacity for God',
+      content: `<p><strong>From the Catechism:</strong> "The desire for God is written in the human heart, because man is created by God and for God; and God never ceases to draw man to himself. Only in God will he find the truth and happiness he never stops searching for." (CCC 27)</p>
+<p>We are made for God. This is the fundamental truth about human existence. Every longing, every desire, every restless searching points to our ultimate destiny—union with God.</p>
+<p>St. Augustine expressed this beautifully: "You have made us for yourself, O Lord, and our heart is restless until it rests in you."</p>
+<p>The world offers many substitutes for God—pleasure, power, possessions, prestige. But none of these can satisfy the infinite longing of the human heart. Only the Infinite can fill us.</p>
+<p>This capacity for God is both our dignity and our responsibility. We are called to seek Him, to know Him, to love Him.</p>`,
+      scripture: 'Ecclesiastes 3:11 - "He has made everything beautiful in its time. Also, he has put eternity into man\'s heart."',
+      prayer: 'Lord, You have made me for Yourself. Fill the longing of my heart. Help me to seek You above all things and to find in You alone my true happiness. Amen.'
+    },
+    {
+      day: 2,
+      title: 'God Reveals Himself',
+      content: `<p><strong>From the Catechism:</strong> "By natural reason man can know God with certainty, on the basis of his works. But there is another order of knowledge, which man cannot possibly arrive at by his own powers: the order of divine Revelation." (CCC 50)</p>
+<p>God has revealed Himself in two ways: through creation (natural revelation) and through His Word (supernatural revelation).</p>
+<p>Looking at creation, we can know that God exists, that He is powerful, wise, and good. But we cannot know His inner life, His plan of salvation, or His invitation to share His divine life.</p>
+<p>For this, God had to speak. He revealed Himself gradually through the patriarchs and prophets, and finally and fully through His Son, Jesus Christ.</p>
+<p><strong>The Catechism teaches:</strong> "Christ, the Son of God made man, is the Father's one, perfect, and unsurpassable Word. In him he has said everything; there will be no other word than this one." (CCC 65)</p>`,
+      scripture: 'Hebrews 1:1-2 - "Long ago, at many times and in many ways, God spoke to our fathers by the prophets, but in these last days he has spoken to us by his Son."',
+      prayer: 'Lord, thank You for revealing Yourself to us. Help me to know You through creation and through Your Word. Open my heart to receive all that You want to show me. Amen.'
+    },
+    {
+      day: 3,
+      title: 'The Holy Trinity',
+      content: `<p><strong>From the Catechism:</strong> "The mystery of the Most Holy Trinity is the central mystery of Christian faith and life. It is the mystery of God in himself. It is therefore the source of all the other mysteries of faith." (CCC 234)</p>
+<p>God is one, yet three Persons—Father, Son, and Holy Spirit. This is not a contradiction but a mystery that exceeds our understanding while not contradicting reason.</p>
+<p>The Trinity is not just an abstract doctrine but the very life of God into which we are invited. Through Baptism, we enter into relationship with all three Persons.</p>
+<p><strong>The Catechism explains:</strong> "The whole Christian life is a communion with each of the divine persons, without in any way separating them. Everyone who glorifies the Father does so through the Son in the Holy Spirit." (CCC 259)</p>
+<p>We pray to the Father, through the Son, in the Holy Spirit. This Trinitarian pattern shapes all Christian prayer and life.</p>`,
+      scripture: 'Matthew 28:19 - "Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit."',
+      prayer: 'Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Creation',
+      content: `<p><strong>From the Catechism:</strong> "We believe that God created the world according to his wisdom. It is not the product of any necessity whatever, nor of blind fate or chance. We believe that it proceeds from God's free will." (CCC 295)</p>
+<p>God created everything from nothing—not out of necessity but out of love. Creation is a gift, an expression of God's goodness and wisdom.</p>
+<p>The world is not divine (pantheism) nor is it evil (Gnosticism). It is good, made by a good God, though wounded by sin.</p>
+<p><strong>The Catechism teaches:</strong> "God wills the interdependence of creatures. The sun and the moon, the cedar and the little flower, the eagle and the sparrow: the spectacle of their countless diversities and inequalities tells us that no creature is self-sufficient." (CCC 340)</p>
+<p>We are stewards of creation, called to care for it and use it according to God's purposes.</p>`,
+      scripture: 'Genesis 1:31 - "And God saw everything that he had made, and behold, it was very good."',
+      prayer: 'Creator God, thank You for the gift of creation. Help me to see Your wisdom and love in all that You have made. Make me a faithful steward of Your world. Amen.'
+    },
+    {
+      day: 5,
+      title: 'The Human Person',
+      content: `<p><strong>From the Catechism:</strong> "Being in the image of God the human individual possesses the dignity of a person, who is not just something, but someone. He is capable of self-knowledge, of self-possession and of freely giving himself and entering into communion with other persons." (CCC 357)</p>
+<p>Every human being is created in God's image and likeness. This is the foundation of human dignity—not our abilities, achievements, or usefulness, but our very nature as God's image-bearers.</p>
+<p>We are body and soul, matter and spirit united. The body is not a prison for the soul but an integral part of who we are.</p>
+<p><strong>The Catechism teaches:</strong> "The human body shares in the dignity of 'the image of God': it is a human body precisely because it is animated by a spiritual soul, and it is the whole human person that is intended to become, in the body of Christ, a temple of the Spirit." (CCC 364)</p>
+<p>This dignity demands respect for every human life, from conception to natural death.</p>`,
+      scripture: 'Genesis 1:27 - "So God created man in his own image, in the image of God he created him; male and female he created them."',
+      prayer: 'Lord, help me to see Your image in every person I meet. Give me reverence for human life and dignity. May I treat others as You would have me treat them. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Original Sin and Its Consequences',
+      content: `<p><strong>From the Catechism:</strong> "By his sin Adam, as the first man, lost the original holiness and justice he had received from God, not only for himself but for all human beings." (CCC 416)</p>
+<p>The doctrine of original sin explains why the world is not as it should be. Our first parents, tempted by the devil, disobeyed God. Their sin wounded human nature and is transmitted to all their descendants.</p>
+<p>Original sin is not personal sin but a state—the loss of original holiness and the wounding of our nature. We are born into this condition.</p>
+<p><strong>The Catechism explains:</strong> "As a result of original sin, human nature is weakened in its powers, subject to ignorance, suffering, and the domination of death, and inclined to sin (this inclination is called 'concupiscence')." (CCC 418)</p>
+<p>But this is not the end of the story. God promised a Savior from the beginning. The fall is a "happy fault" that occasioned so great a Redeemer.</p>`,
+      scripture: 'Romans 5:19 - "For as by the one man\'s disobedience the many were made sinners, so by the one man\'s obedience the many will be made righteous."',
+      prayer: 'Lord, I acknowledge my need for salvation. Thank You for sending Your Son to redeem us from sin. Help me to resist temptation and to live in the freedom of Your grace. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Jesus Christ, True God and True Man',
+      content: `<p><strong>From the Catechism:</strong> "The unique and altogether singular event of the Incarnation of the Son of God does not mean that Jesus Christ is part God and part man, nor does it imply that he is the result of a confused mixture of the divine and the human. He became truly man while remaining truly God." (CCC 464)</p>
+<p>Jesus Christ is the center of our faith. He is not merely a great teacher or prophet but the eternal Son of God who became man for our salvation.</p>
+<p>The Incarnation is the mystery of the wonderful union of the divine and human natures in the one person of the Word. Jesus has two natures (divine and human) but is one Person (the Second Person of the Trinity).</p>
+<p><strong>The Catechism teaches:</strong> "The Son of God... worked with human hands; he thought with a human mind. He acted with a human will, and with a human heart he loved. Born of the Virgin Mary, he has truly been made one of us, like to us in all things except sin." (CCC 470)</p>
+<p>In Jesus, God has come close to us. He knows our struggles from the inside.</p>`,
+      scripture: 'John 1:14 - "And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth."',
+      prayer: 'Lord Jesus Christ, Son of God and Son of Mary, I believe that You are true God and true man. Thank You for becoming one of us to save us. Help me to know You and love You more each day. Amen.'
+    }
+  ]
+};
+
+// Church Fathers Daily
+const churchFathersDaily: Devotional = {
+  slug: 'church-fathers-daily',
+  title: 'Church Fathers Daily',
+  author: 'Early Church Fathers',
+  description: 'Wisdom from the first centuries of Christianity.',
+  longDescription: 'The Church Fathers are the great teachers of the early Church whose writings shaped Christian doctrine and spirituality. These daily reflections introduce you to their wisdom, connecting you to the living Tradition that flows from the Apostles.',
+  frequency: 'Daily',
+  category: 'Scripture & Faith',
+  icon: '📜',
+  readings: [
+    {
+      day: 1,
+      title: 'St. Ignatius of Antioch on the Eucharist',
+      content: `<p><strong>St. Ignatius of Antioch (c. 35-108 AD)</strong> was the third bishop of Antioch, a disciple of the Apostle John, and a martyr. His letters, written on his way to martyrdom in Rome, are among the earliest Christian writings outside the New Testament.</p>
+<p><strong>On the Eucharist, he wrote:</strong> "Take note of those who hold heterodox opinions on the grace of Jesus Christ which has come to us, and see how contrary their opinions are to the mind of God... They abstain from the Eucharist and from prayer because they do not confess that the Eucharist is the flesh of our Savior Jesus Christ, flesh which suffered for our sins and which that Father, in his goodness, raised up again."</p>
+<p>From the earliest days, the Church believed in the Real Presence of Christ in the Eucharist. This was not a later development but the faith received from the Apostles.</p>
+<p>Ignatius went joyfully to his death, eager to be "ground by the teeth of wild beasts" to become "the pure bread of Christ."</p>`,
+      scripture: 'John 6:55 - "For my flesh is true food, and my blood is true drink."',
+      prayer: 'Lord Jesus, truly present in the Eucharist, increase my faith in this great mystery. May I receive You with the devotion of the early Christians. St. Ignatius, pray for us. Amen.'
+    },
+    {
+      day: 2,
+      title: 'St. Irenaeus on Apostolic Tradition',
+      content: `<p><strong>St. Irenaeus of Lyon (c. 130-202 AD)</strong> was a bishop and theologian who defended the faith against Gnosticism. He was a disciple of St. Polycarp, who was a disciple of the Apostle John.</p>
+<p><strong>On Apostolic Tradition, he wrote:</strong> "It is possible, then, for everyone in every church, who may wish to know the truth, to contemplate the tradition of the apostles which has been made known to us throughout the whole world. And we are in a position to enumerate those who were instituted bishops by the apostles and their successors down to our own times."</p>
+<p>Irenaeus argued that the true faith is found in the churches founded by the Apostles, especially the Church of Rome, "with which, because of its superior origin, all churches must agree."</p>
+<p>The Catholic Church today maintains this unbroken succession from the Apostles—the same faith, the same sacraments, the same authority.</p>`,
+      scripture: '2 Thessalonians 2:15 - "So then, brothers, stand firm and hold to the traditions that you were taught by us, either by our spoken word or by our letter."',
+      prayer: 'Lord, thank You for the gift of Apostolic Tradition. Help me to receive the faith handed down from the Apostles and to pass it on faithfully. St. Irenaeus, pray for us. Amen.'
+    },
+    {
+      day: 3,
+      title: 'St. Augustine on Grace',
+      content: `<p><strong>St. Augustine of Hippo (354-430 AD)</strong> is one of the most influential theologians in Church history. His writings on grace, free will, and the nature of God have shaped Western Christianity.</p>
+<p><strong>On grace, he wrote:</strong> "What do you have that you did not receive? And if you received it, why do you boast as if you did not receive it? Grace is given not because we have done good works, but in order that we may be able to do them."</p>
+<p>Augustine's own conversion taught him the power of grace. After years of sin and searching, he was converted not by his own efforts but by God's relentless pursuit.</p>
+<p><strong>He prayed:</strong> "Late have I loved you, O Beauty ever ancient, ever new, late have I loved you! You were within me, but I was outside, and it was there that I searched for you."</p>
+<p>We cannot save ourselves. Every good we do is God's gift. This is not cause for despair but for gratitude and trust.</p>`,
+      scripture: 'Ephesians 2:8-9 - "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast."',
+      prayer: 'Lord, all that I have is Your gift. Help me to rely not on my own strength but on Your grace. Convert my heart as You converted Augustine. Amen.'
+    },
+    {
+      day: 4,
+      title: 'St. John Chrysostom on Prayer',
+      content: `<p><strong>St. John Chrysostom (c. 349-407 AD)</strong> was Archbishop of Constantinople and one of the greatest preachers in Church history. His name means "golden-mouthed."</p>
+<p><strong>On prayer, he wrote:</strong> "Prayer is the place of refuge for every worry, a foundation for cheerfulness, a source of constant happiness, a protection against sadness."</p>
+<p>"It is not possible, I say, it is not possible for anyone to be without anxiety who does not pray. Just as those who are deprived of light cannot walk straight, so those who do not pray cannot see the way."</p>
+<p>Chrysostom taught that prayer is not just for monks but for everyone—merchants, soldiers, mothers, servants. No one is too busy to pray.</p>
+<p><strong>He advised:</strong> "When you are about to pray, say to yourself: 'I am going to speak with God.' This thought alone should fill you with awe and reverence."</p>`,
+      scripture: 'Philippians 4:6-7 - "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God."',
+      prayer: 'Lord, teach me to pray always. May prayer be my refuge in every worry and my source of constant joy. St. John Chrysostom, pray for us. Amen.'
+    },
+    {
+      day: 5,
+      title: 'St. Jerome on Scripture',
+      content: `<p><strong>St. Jerome (c. 347-420 AD)</strong> was a priest, theologian, and historian best known for translating the Bible into Latin (the Vulgate). He spent years in Bethlehem studying Hebrew and Greek to produce an accurate translation.</p>
+<p><strong>On Scripture, he wrote:</strong> "Ignorance of Scripture is ignorance of Christ."</p>
+<p>"Read the divine Scriptures constantly; never let the sacred volume out of your hand. Learn what you have to teach."</p>
+<p>Jerome was passionate about the Word of God. He believed that daily Scripture reading was essential for every Christian, not just clergy.</p>
+<p><strong>He advised:</strong> "Make knowledge of the Scripture your love... Live with them, meditate on them, make them the sole object of your knowledge and inquiries."</p>
+<p>The Church has always encouraged the faithful to read Scripture, guided by Tradition and the Magisterium.</p>`,
+      scripture: '2 Timothy 3:16-17 - "All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness."',
+      prayer: 'Lord, give me a love for Your Word. Help me to read Scripture daily and to find Christ in its pages. St. Jerome, pray for us. Amen.'
+    },
+    {
+      day: 6,
+      title: 'St. Athanasius on the Incarnation',
+      content: `<p><strong>St. Athanasius of Alexandria (c. 296-373 AD)</strong> was a bishop and Doctor of the Church who defended the divinity of Christ against the Arian heresy. He was exiled five times for his faithfulness to orthodox teaching.</p>
+<p><strong>On the Incarnation, he wrote:</strong> "The Word of God, incorporeal, incorruptible, and immaterial, entered our world... He did this out of sheer love for us, so that in His death all might die, and the law of death thereby be abolished."</p>
+<p>"For the Son of God became man so that we might become God."</p>
+<p>This stunning statement—that we might become God—refers to theosis or divinization: sharing in God's divine nature through grace. This is the goal of the Christian life.</p>
+<p>Athanasius stood firm when almost the whole world had embraced Arianism. His courage reminds us that truth is not determined by majority vote.</p>`,
+      scripture: '2 Peter 1:4 - "He has granted to us his precious and very great promises, so that through them you may become partakers of the divine nature."',
+      prayer: 'Lord Jesus, You became man so that I might share in Your divine life. Help me to grow in holiness and to become more like You each day. St. Athanasius, pray for us. Amen.'
+    },
+    {
+      day: 7,
+      title: 'St. Gregory the Great on Pastoral Care',
+      content: `<p><strong>St. Gregory the Great (c. 540-604 AD)</strong> was Pope and Doctor of the Church. He reformed the liturgy, sent missionaries to England, and wrote extensively on pastoral care and spirituality.</p>
+<p><strong>On pastoral care, he wrote:</strong> "The ruler should be a neighbor to everyone in compassion, and exalted above all in contemplation, so that through the bowels of loving-kindness he may transfer the infirmities of others to himself."</p>
+<p>Gregory understood that leadership in the Church is service. He called himself "servant of the servants of God"—a title still used by popes today.</p>
+<p><strong>He taught:</strong> "No one does more harm in the Church than one who has the name or rank of holiness and acts perversely."</p>
+<p>Gregory's writings on the spiritual life, especially his "Moralia on Job," have nourished Christians for centuries. He reminds us that contemplation and action must go together.</p>`,
+      scripture: 'Mark 10:43-44 - "Whoever would be great among you must be your servant, and whoever would be first among you must be slave of all."',
+      prayer: 'Lord, help me to serve others with compassion and humility. May I lead by example and never cause scandal by my actions. St. Gregory the Great, pray for us. Amen.'
+    }
+  ]
+};
+
+// Papal Teachings
+const papalTeachings: Devotional = {
+  slug: 'papal-teachings',
+  title: 'Papal Teachings',
+  author: 'Various Popes',
+  description: 'Excerpts from encyclicals and apostolic letters with reflection.',
+  longDescription: 'The Pope, as successor of St. Peter, guides the Church with authoritative teaching. These weekly reflections draw from papal encyclicals and apostolic letters, helping you understand and apply the Church\'s teaching to your life.',
+  frequency: 'Weekly',
+  category: 'Scripture & Faith',
+  icon: '⛪',
+  readings: [
+    {
+      day: 1,
+      title: 'Pope Leo XIII on the Rosary',
+      content: `<p><strong>From "Supremi Apostolatus Officio" (1883):</strong></p>
+<p>"The Rosary is the most excellent form of prayer and the most efficacious means of attaining eternal life. It is the remedy for all our evils, the root of all our blessings. There is no more excellent way of praying."</p>
+<p>Pope Leo XIII wrote eleven encyclicals on the Rosary, earning him the title "Pope of the Rosary." He saw this prayer as the answer to the challenges facing the Church and the world.</p>
+<p>The Rosary combines vocal prayer (the Our Father, Hail Mary, Glory Be) with meditation on the mysteries of Christ's life. It is both simple enough for a child and deep enough for a mystic.</p>
+<p><strong>Leo XIII taught:</strong> "The Rosary is a powerful weapon to put the demons to flight and to keep oneself from sin... If you desire peace in your hearts, in your homes, and in your country, assemble each evening to recite the Rosary."</p>`,
+      scripture: 'Luke 1:28 - "Hail, full of grace, the Lord is with you!"',
+      prayer: 'Blessed Virgin Mary, help me to pray the Rosary with devotion. May this prayer bring peace to my heart, my home, and the world. Our Lady of the Rosary, pray for us. Amen.'
+    },
+    {
+      day: 2,
+      title: 'Pope Pius X on the Eucharist',
+      content: `<p><strong>From "Sacra Tridentina" (1905):</strong></p>
+<p>Pope St. Pius X encouraged frequent, even daily, reception of Holy Communion. Before his time, many Catholics received Communion only once a year.</p>
+<p>"The desire of Jesus Christ and of the Church that all the faithful should daily approach the sacred banquet is directed chiefly to this end, that the faithful, being united to God by means of the Sacrament, may thence derive strength to resist their sensual passions, to cleanse themselves from the stains of daily faults."</p>
+<p>Pius X also lowered the age for First Communion, wanting children to receive Jesus as soon as they could distinguish the Eucharist from ordinary bread.</p>
+<p><strong>He taught:</strong> "Holy Communion is the shortest and safest way to Heaven."</p>`,
+      scripture: 'John 6:35 - "Jesus said to them, I am the bread of life; whoever comes to me shall not hunger, and whoever believes in me shall never thirst."',
+      prayer: 'Lord Jesus, present in the Eucharist, draw me to receive You frequently. May Holy Communion strengthen me against sin and unite me more closely to You. Amen.'
+    },
+    {
+      day: 3,
+      title: 'Pope Pius XI on Christ the King',
+      content: `<p><strong>From "Quas Primas" (1925):</strong></p>
+<p>Pope Pius XI established the Feast of Christ the King to proclaim Christ's sovereignty over all creation, including nations and governments.</p>
+<p>"When once men recognize, both in private and in public life, that Christ is King, society will at last receive the great blessings of real liberty, well-ordered discipline, peace and harmony."</p>
+<p>In an age of secularism and totalitarianism, Pius XI reminded the world that no human authority is absolute. All authority comes from God and must be exercised according to His law.</p>
+<p><strong>He taught:</strong> "The rebellion of individuals and states against the authority of Christ has produced deplorable consequences... If the kingdom of Christ were received by all men, there would be no reason to despair of peace."</p>`,
+      scripture: 'Revelation 19:16 - "On his robe and on his thigh he has a name written, King of kings and Lord of lords."',
+      prayer: 'Christ Jesus, You are King of the universe. Reign in my heart, in my family, in my nation. May all peoples acknowledge Your sovereignty and live according to Your law. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Pope St. John XXIII on Peace',
+      content: `<p><strong>From "Pacem in Terris" (1963):</strong></p>
+<p>Pope St. John XXIII wrote this encyclical during the Cold War, addressing it not only to Catholics but to "all men of good will."</p>
+<p>"Peace on earth, which all men of every era have most eagerly yearned for, can be firmly established only if the order laid down by God be dutifully observed."</p>
+<p>True peace, John XXIII taught, is not merely the absence of war but the presence of justice, truth, charity, and freedom. It must be built on respect for human rights and the common good.</p>
+<p><strong>He wrote:</strong> "Every human being has the right to life, to bodily integrity, and to the means which are suitable for the proper development of life."</p>
+<p>Peace begins in the human heart and extends to families, communities, nations, and the world.</p>`,
+      scripture: 'Isaiah 32:17 - "And the effect of righteousness will be peace, and the result of righteousness, quietness and trust forever."',
+      prayer: 'Lord, make me an instrument of Your peace. Help me to build peace in my heart, my home, and my community. May justice and charity reign in all nations. Amen.'
+    },
+    {
+      day: 5,
+      title: 'Pope St. Paul VI on Human Life',
+      content: `<p><strong>From "Humanae Vitae" (1968):</strong></p>
+<p>Pope St. Paul VI reaffirmed the Church's teaching on the sanctity of human life and the inseparable connection between the unitive and procreative meanings of marriage.</p>
+<p>"The Church, calling men back to the observance of the norms of the natural law, as interpreted by her constant doctrine, teaches that each and every marriage act must remain open to the transmission of life."</p>
+<p>This prophetic encyclical predicted the consequences of separating sex from procreation: increased infidelity, disrespect for women, and government coercion in family planning.</p>
+<p><strong>Paul VI wrote:</strong> "Responsible parenthood... concerns the objective moral order which was established by God, and of which a right conscience is the true interpreter."</p>`,
+      scripture: 'Genesis 1:28 - "And God blessed them. And God said to them, Be fruitful and multiply and fill the earth."',
+      prayer: 'Lord, help me to respect the gift of human life and sexuality according to Your design. Give married couples the grace to be generous and responsible in transmitting life. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Pope St. John Paul II on Divine Mercy',
+      content: `<p><strong>From "Dives in Misericordia" (1980):</strong></p>
+<p>Pope St. John Paul II devoted his second encyclical to God's mercy, a theme central to his pontificate.</p>
+<p>"The Church lives an authentic life when she professes and proclaims mercy—the most stupendous attribute of the Creator and of the Redeemer—and when she brings people close to the sources of the Savior's mercy."</p>
+<p>John Paul II canonized St. Faustina and established Divine Mercy Sunday. He understood that the modern world, wounded by sin and despair, desperately needs to encounter God's mercy.</p>
+<p><strong>He wrote:</strong> "Mercy is love's second name... The Church must consider it one of her principal duties—at every stage of history and especially at the present stage—to proclaim and to introduce into life the mystery of mercy."</p>`,
+      scripture: 'Luke 6:36 - "Be merciful, even as your Father is merciful."',
+      prayer: 'Jesus, I trust in You. Help me to receive Your mercy and to show mercy to others. May the message of Divine Mercy spread throughout the world. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Pope Benedict XVI on Love',
+      content: `<p><strong>From "Deus Caritas Est" (2005):</strong></p>
+<p>Pope Benedict XVI's first encyclical explored the nature of love—God's love for us and our love for God and neighbor.</p>
+<p>"God is love, and he who abides in love abides in God, and God abides in him. These words from the First Letter of John express with remarkable clarity the heart of the Christian faith."</p>
+<p>Benedict distinguished between eros (romantic love) and agape (self-giving love), showing how both are purified and united in Christian love.</p>
+<p><strong>He wrote:</strong> "Love of God and love of neighbor are thus inseparable, they form a single commandment. But both live from the love of God who has loved us first."</p>
+<p>The Church's charitable activity is not social work but an expression of her very nature as a community of love.</p>`,
+      scripture: '1 John 4:19 - "We love because he first loved us."',
+      prayer: 'God of love, fill my heart with Your love. Help me to love You above all things and to love my neighbor as myself. May my life be a witness to Your love. Amen.'
+    }
+  ]
+};
+
+devotionals.push(catechismDaily, churchFathersDaily, papalTeachings);
+
+
+// Parenting with the Saints
+const parentingSaints: Devotional = {
+  slug: 'parenting-saints',
+  title: 'Parenting with the Saints',
+  author: 'Catholic Bible Online',
+  description: 'Wisdom from holy parents throughout Church history.',
+  longDescription: 'Many saints were also parents who raised holy children. These reflections draw from their wisdom and example, offering practical guidance for Catholic parents seeking to raise their children in the faith.',
+  frequency: 'Daily',
+  category: 'Family & Marriage',
+  icon: '👨‍👩‍👧‍👦',
+  readings: [
+    {
+      day: 1,
+      title: 'The Vocation of Parenthood',
+      content: `<p>Parenthood is a vocation—a calling from God. When you became a parent, you received a sacred mission: to guide your children to heaven.</p>
+<p><strong>The Catechism teaches:</strong> "Parents have the first responsibility for the education of their children. They bear witness to this responsibility first by creating a home where tenderness, forgiveness, respect, fidelity, and disinterested service are the rule." (CCC 2223)</p>
+<p>Saints Louis and Zélie Martin, parents of St. Thérèse of Lisieux, understood this. They created a home saturated with faith, where prayer was as natural as breathing.</p>
+<p><strong>Zélie wrote:</strong> "I want to become a saint. It will not be easy... but I want to work at it. I want my children to be saints."</p>
+<p>Your primary job as a parent is not to make your children successful, popular, or wealthy. It is to help them become saints.</p>`,
+      scripture: 'Proverbs 22:6 - "Train up a child in the way he should go; even when he is old he will not depart from it."',
+      prayer: 'Lord, help me to embrace my vocation as a parent. Give me wisdom to guide my children to You. May our home be a school of holiness. Sts. Louis and Zélie, pray for us. Amen.'
+    },
+    {
+      day: 2,
+      title: 'Teaching the Faith at Home',
+      content: `<p>The home is the first school of faith. Before children learn about God in church or school, they should encounter Him at home.</p>
+<p><strong>St. John Chrysostom taught:</strong> "Let everything take second place to our care of our children, our bringing them up in the discipline and instruction of the Lord."</p>
+<p>Practical ways to teach the faith at home:</p>
+<ul>
+<li>Pray together daily—morning, meals, bedtime</li>
+<li>Display religious images and crucifixes</li>
+<li>Read Bible stories and lives of the saints</li>
+<li>Celebrate feast days and liturgical seasons</li>
+<li>Talk about God naturally throughout the day</li>
+<li>Bring children to Mass and the sacraments</li>
+</ul>
+<p>Children learn more from what they see than what they hear. Your own faith—lived authentically—is the most powerful catechesis.</p>`,
+      scripture: 'Deuteronomy 6:6-7 - "And these words that I command you today shall be on your heart. You shall teach them diligently to your children."',
+      prayer: 'Lord, help me to teach my children the faith by word and example. May our home be filled with Your presence. Give me creativity and consistency in passing on the faith. Amen.'
+    },
+    {
+      day: 3,
+      title: 'Discipline with Love',
+      content: `<p>Discipline is an act of love. Children need boundaries to feel secure and to learn right from wrong.</p>
+<p><strong>The Book of Proverbs teaches:</strong> "Whoever spares the rod hates his son, but he who loves him is diligent to discipline him." (Proverbs 13:24)</p>
+<p>This does not mean harsh or abusive punishment. It means consistent, loving correction that helps children grow in virtue.</p>
+<p><strong>St. John Bosco's preventive system:</strong></p>
+<ul>
+<li>Reason: Explain why rules exist</li>
+<li>Religion: Ground discipline in faith</li>
+<li>Loving-kindness: Correct with affection, not anger</li>
+</ul>
+<p><strong>Don Bosco said:</strong> "Do not use force with young people. I have always used persuasion with them."</p>
+<p>The goal of discipline is not control but formation—helping children develop self-discipline and virtue.</p>`,
+      scripture: 'Hebrews 12:11 - "For the moment all discipline seems painful rather than pleasant, but later it yields the peaceful fruit of righteousness to those who have been trained by it."',
+      prayer: 'Lord, give me wisdom to discipline my children with love. Help me to be firm but gentle, consistent but merciful. May my correction lead them to virtue. St. John Bosco, pray for us. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Praying for Your Children',
+      content: `<p>The most important thing you can do for your children is pray for them. Your prayers have power that no parenting technique can match.</p>
+<p><strong>St. Monica</strong> prayed for her wayward son Augustine for over 17 years. She wept, fasted, and begged God for his conversion. Her prayers were answered beyond her dreams—Augustine became one of the greatest saints and Doctors of the Church.</p>
+<p><strong>A bishop told Monica:</strong> "It is not possible that the son of so many tears should perish."</p>
+<p>Never give up praying for your children, no matter how far they stray. God hears a parent's prayers.</p>
+<p><strong>Ways to pray for your children:</strong></p>
+<ul>
+<li>Pray over them while they sleep</li>
+<li>Offer your daily Mass and Communion for them</li>
+<li>Entrust them to Mary and their guardian angels</li>
+<li>Pray specific prayers for their needs</li>
+<li>Fast for their intentions</li>
+</ul>`,
+      scripture: 'James 5:16 - "The prayer of a righteous person has great power as it is working."',
+      prayer: 'Lord, I entrust my children to You. Protect them from evil. Guide them in Your ways. Bring them safely to heaven. St. Monica, pray for my children. Amen.'
+    },
+    {
+      day: 5,
+      title: 'When Children Struggle',
+      content: `<p>Every parent faces times when children struggle—with faith, behavior, relationships, or life choices. These moments test our trust in God.</p>
+<p><strong>St. Elizabeth Ann Seton</strong> faced heartbreak when her sons struggled with faith and morality. She wrote: "I will cling to God and trust in Him... He will take care of my poor boys."</p>
+<p>When children struggle:</p>
+<ul>
+<li>Keep loving them unconditionally</li>
+<li>Maintain your own faith and prayer life</li>
+<li>Set appropriate boundaries without rejecting them</li>
+<li>Seek help from priests, counselors, or other parents</li>
+<li>Trust in God's timing and mercy</li>
+<li>Remember that their story is not over</li>
+</ul>
+<p>Your faithfulness during difficult times may be the very thing that eventually brings them back to God.</p>`,
+      scripture: 'Luke 15:20 - "But while he was still a long way off, his father saw him and felt compassion, and ran and embraced him and kissed him."',
+      prayer: 'Lord, when my children struggle, help me to love like the father of the prodigal son. Give me patience, wisdom, and unwavering hope. I trust in Your mercy. Amen.'
+    },
+    {
+      day: 6,
+      title: 'The Example of Holy Families',
+      content: `<p>The Church gives us many examples of holy families to inspire and guide us.</p>
+<p><strong>The Holy Family</strong> of Jesus, Mary, and Joseph is our primary model. In their home in Nazareth, the Son of God grew in wisdom and grace. Their family life was marked by prayer, work, and mutual love.</p>
+<p><strong>The Martin Family:</strong> Louis and Zélie Martin raised nine children, five of whom became nuns. All four who survived to adulthood are now canonized or on the path to canonization.</p>
+<p><strong>The Quattrocchi Family:</strong> Blessed Luigi and Maria Quattrocchi are the first married couple beatified together in modern times. They raised four children, three of whom entered religious life.</p>
+<p>These families were not perfect, but they were faithful. They made God the center of their homes and trusted Him with their children.</p>`,
+      scripture: 'Joshua 24:15 - "As for me and my house, we will serve the Lord."',
+      prayer: 'Holy Family of Nazareth, pray for our family. Help us to make our home a place of prayer, love, and service. May we follow your example of faithfulness. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Raising Saints',
+      content: `<p>Your ultimate goal as a Catholic parent is to raise saints—children who will spend eternity with God in heaven.</p>
+<p><strong>St. Gianna Molla</strong> wrote to her fiancé: "With God's help and blessing, we will do all we can to make our new family a little cenacle where Jesus will reign over all our affections, desires, and actions."</p>
+<p>Raising saints means:</p>
+<ul>
+<li>Prioritizing their spiritual formation over worldly success</li>
+<li>Teaching them to love God above all things</li>
+<li>Helping them discover and follow their vocation</li>
+<li>Modeling holiness in your own life</li>
+<li>Creating a home where virtue is practiced daily</li>
+<li>Trusting God with their future</li>
+</ul>
+<p>You may not see the full fruit of your efforts in this life. But one day, by God's grace, you may be reunited with your children in heaven—the ultimate goal of Catholic parenting.</p>`,
+      scripture: '3 John 1:4 - "I have no greater joy than to hear that my children are walking in the truth."',
+      prayer: 'Lord, help me to raise my children to be saints. May they know You, love You, and serve You all their days. Bring us all safely to heaven, where we will praise You forever. Amen.'
+    }
+  ]
+};
+
+// Theology of the Body
+const theologyOfBody: Devotional = {
+  slug: 'theology-of-body',
+  title: 'Theology of the Body',
+  author: 'St. John Paul II',
+  description: 'Weekly reflections on the meaning of human love and sexuality.',
+  longDescription: 'St. John Paul II\'s Theology of the Body is a profound reflection on the meaning of the human body, sexuality, and love. These weekly reflections introduce you to this revolutionary teaching that has transformed how Catholics understand marriage, celibacy, and the human person.',
+  frequency: 'Weekly',
+  category: 'Family & Marriage',
+  icon: '💑',
+  readings: [
+    {
+      day: 1,
+      title: 'The Body Reveals the Person',
+      content: `<p>St. John Paul II began his Theology of the Body with a revolutionary insight: the human body is not just biological matter but a revelation of the person.</p>
+<p><strong>He wrote:</strong> "The body, in fact, and only the body, is capable of making visible what is invisible: the spiritual and the divine."</p>
+<p>Your body is not something you have but something you are. It expresses your soul, your identity, your capacity for love.</p>
+<p>This is why what we do with our bodies matters. Sexual morality is not arbitrary rules but flows from the meaning of the body itself.</p>
+<p>The body speaks a "language"—it can express love, commitment, gift of self. Or it can lie, using the language of total self-gift without the reality.</p>`,
+      scripture: '1 Corinthians 6:19-20 - "Do you not know that your body is a temple of the Holy Spirit within you, whom you have from God? You are not your own, for you were bought with a price. So glorify God in your body."',
+      prayer: 'Lord, help me to see my body as You see it—as a temple of Your Spirit and a revelation of my soul. May I honor You in my body. Amen.'
+    },
+    {
+      day: 2,
+      title: 'Original Solitude and Unity',
+      content: `<p>John Paul II reflected on the creation accounts in Genesis to understand God's original plan for humanity.</p>
+<p><strong>Original Solitude:</strong> Adam was alone before Eve was created. This solitude revealed that humans are different from animals—we are persons, capable of self-awareness and relationship with God.</p>
+<p><strong>Original Unity:</strong> When God created Eve, Adam recognized her as "bone of my bones and flesh of my flesh." Man and woman are made for each other, complementary in their differences.</p>
+<p><strong>John Paul II wrote:</strong> "Man became the image of God not only through his own humanity, but also through the communion of persons which man and woman form from the very beginning."</p>
+<p>We image God not just as individuals but in relationship—especially in the communion of marriage.</p>`,
+      scripture: 'Genesis 2:24 - "Therefore a man shall leave his father and his mother and hold fast to his wife, and they shall become one flesh."',
+      prayer: 'Lord, thank You for creating us male and female. Help me to appreciate the gift of complementarity and to build authentic communion with others. Amen.'
+    },
+    {
+      day: 3,
+      title: 'Original Nakedness',
+      content: `<p>Before the Fall, Adam and Eve were "naked and not ashamed." This original nakedness reveals something profound about God's plan.</p>
+<p><strong>John Paul II explained:</strong> "Nakedness signifies the original good of the divine vision... The human body in its original masculinity and femininity... is the witness of creation as a fundamental gift."</p>
+<p>In their innocence, Adam and Eve could see each other's bodies without lust—they saw the person, not an object to be used. Their nakedness expressed vulnerability, trust, and total self-gift.</p>
+<p>Sin introduced shame because it introduced the possibility of using another person. Lust reduces the person to an object of desire.</p>
+<p>The goal of redemption is to restore this original vision—to see others as persons to be loved, not objects to be used.</p>`,
+      scripture: 'Genesis 2:25 - "And the man and his wife were both naked and were not ashamed."',
+      prayer: 'Lord, purify my vision. Help me to see others as persons made in Your image, not as objects. Restore in me the purity of heart that sees as You see. Amen.'
+    },
+    {
+      day: 4,
+      title: 'The Spousal Meaning of the Body',
+      content: `<p>The body has a "spousal meaning"—it is made for self-gift. This is the deepest truth about human sexuality.</p>
+<p><strong>John Paul II wrote:</strong> "The body, and it alone, is capable of making visible what is invisible: the spiritual and divine. It was created to transfer into the visible reality of the world the mystery hidden since time immemorial in God, and thus be a sign of it."</p>
+<p>The spousal meaning of the body is fulfilled in two ways:</p>
+<ul>
+<li><strong>Marriage:</strong> The total gift of self to a spouse, expressed in sexual union open to life</li>
+<li><strong>Celibacy:</strong> The gift of self directly to God and His people, anticipating the resurrection</li>
+</ul>
+<p>Both vocations express the same truth: we are made for love, for gift, for communion.</p>`,
+      scripture: 'Ephesians 5:31-32 - "Therefore a man shall leave his father and mother and hold fast to his wife, and the two shall become one flesh. This mystery is profound, and I am saying that it refers to Christ and the church."',
+      prayer: 'Lord, help me to understand and live the spousal meaning of my body. Whether in marriage or celibacy, may I give myself completely in love. Amen.'
+    },
+    {
+      day: 5,
+      title: 'Redemption of the Body',
+      content: `<p>Sin has wounded our experience of the body and sexuality. Lust, shame, and the tendency to use others are consequences of the Fall.</p>
+<p>But Christ came to redeem us—including our bodies. The redemption of the body is not escape from the body but its transformation.</p>
+<p><strong>John Paul II taught:</strong> "Christ came to restore creation to its original purity... The redemption of the body guarantees the continuity and unity of the human vocation."</p>
+<p>Through grace, we can begin to experience sexuality as God intended:</p>
+<ul>
+<li>Purity of heart that sees persons, not objects</li>
+<li>Self-mastery that frees us from slavery to lust</li>
+<li>The ability to make a sincere gift of self</li>
+</ul>
+<p>This transformation is possible through prayer, the sacraments, and cooperation with grace.</p>`,
+      scripture: 'Romans 8:23 - "And not only the creation, but we ourselves, who have the firstfruits of the Spirit, groan inwardly as we wait eagerly for adoption as sons, the redemption of our bodies."',
+      prayer: 'Lord Jesus, redeem my body and my sexuality. Free me from lust and selfishness. Help me to love as You love—purely, freely, faithfully, fruitfully. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Marriage as Sacrament',
+      content: `<p>Christian marriage is not just a contract but a sacrament—a visible sign of invisible grace. It makes present the love of Christ for His Church.</p>
+<p><strong>John Paul II wrote:</strong> "Spouses are therefore the permanent reminder to the Church of what happened on the Cross."</p>
+<p>The sexual union of husband and wife is meant to be an icon of Christ's self-giving love. It should be:</p>
+<ul>
+<li><strong>Free:</strong> Given without coercion</li>
+<li><strong>Total:</strong> Holding nothing back</li>
+<li><strong>Faithful:</strong> Exclusive and permanent</li>
+<li><strong>Fruitful:</strong> Open to new life</li>
+</ul>
+<p>When these elements are present, the marital act speaks the truth. When any is missing, the body "lies"—it says total gift while withholding something.</p>`,
+      scripture: 'Ephesians 5:25 - "Husbands, love your wives, as Christ loved the church and gave himself up for her."',
+      prayer: 'Lord, help married couples to live their vocation as a sacrament. May their love reflect Your love for the Church. Bless all marriages with fidelity and fruitfulness. Amen.'
+    },
+    {
+      day: 7,
+      title: 'The Resurrection of the Body',
+      content: `<p>The Theology of the Body culminates in the resurrection. Our bodies are not temporary shells but will be raised and glorified for eternity.</p>
+<p><strong>John Paul II reflected on Jesus' words:</strong> "In the resurrection they neither marry nor are given in marriage, but are like angels in heaven." (Matthew 22:30)</p>
+<p>This does not mean we become disembodied spirits. Rather, our bodies will be transformed, and the spousal meaning of the body will be fulfilled in direct communion with God.</p>
+<p><strong>He wrote:</strong> "The resurrection will constitute the definitive accomplishment of the redemption of the body."</p>
+<p>Celibacy for the kingdom anticipates this reality. Those who embrace celibacy witness that our ultimate fulfillment is not in marriage but in God.</p>
+<p>Whether married or celibate, we are all destined for the eternal wedding feast of the Lamb.</p>`,
+      scripture: '1 Corinthians 15:42-44 - "So is it with the resurrection of the dead. What is sown is perishable; what is raised is imperishable... It is sown a natural body; it is raised a spiritual body."',
+      prayer: 'Lord, I believe in the resurrection of the body. Help me to live now in light of eternity. May my body glorify You until it is raised in glory. Amen.'
+    }
+  ]
+};
+
+// For Priests
+const priestsDaily: Devotional = {
+  slug: 'priests-daily',
+  title: 'For Priests',
+  author: 'Catholic Bible Online',
+  description: 'Daily encouragement and spiritual nourishment for priests.',
+  longDescription: 'The priesthood is a demanding vocation that requires constant spiritual nourishment. These daily reflections offer encouragement, wisdom, and prayer for priests, helping them to persevere in their sacred calling.',
+  frequency: 'Daily',
+  category: 'Vocations & Ministry',
+  icon: '⛪',
+  readings: [
+    {
+      day: 1,
+      title: 'Configured to Christ',
+      content: `<p>At your ordination, you were configured to Christ the Head and Shepherd. You act in His person when you celebrate the sacraments.</p>
+<p><strong>The Catechism teaches:</strong> "Through the ordained ministry, especially that of bishops and priests, the presence of Christ as head of the Church is made visible in the midst of the community of believers." (CCC 1549)</p>
+<p>This is an awesome responsibility and an incredible gift. When you say "This is my body," Christ speaks through you. When you absolve sins, Christ forgives through you.</p>
+<p><strong>St. John Vianney said:</strong> "The priest is not a priest for himself; he does not give himself absolution; he does not administer the Sacraments to himself. He is not for himself, he is for you."</p>
+<p>Never forget the dignity of your calling. You are another Christ.</p>`,
+      scripture: '2 Corinthians 5:20 - "Therefore, we are ambassadors for Christ, God making his appeal through us."',
+      prayer: 'Lord Jesus, thank You for calling me to share in Your priesthood. Help me to be a worthy instrument of Your grace. May I decrease so that You may increase. Amen.'
+    },
+    {
+      day: 2,
+      title: 'The Eucharist: Source and Summit',
+      content: `<p>The celebration of the Eucharist is the source and summit of your priestly life. Everything flows from the altar and returns to it.</p>
+<p><strong>St. John Paul II wrote:</strong> "The Eucharist is the principal and central raison d'être of the sacrament of priesthood, which effectively came into being at the moment of the institution of the Eucharist."</p>
+<p>Never celebrate Mass routinely. Each Mass is Calvary made present. Each Mass is the wedding feast of the Lamb. Each Mass is the most important thing happening in the world at that moment.</p>
+<p><strong>St. Padre Pio</strong> often wept during Mass and took hours to celebrate. He understood what was happening.</p>
+<p>Prepare well. Celebrate reverently. Give thanks afterward. Let the Eucharist transform you.</p>`,
+      scripture: 'Luke 22:19 - "And he took bread, and when he had given thanks, he broke it and gave it to them, saying, This is my body, which is given for you. Do this in remembrance of me."',
+      prayer: 'Lord, help me to celebrate the Holy Sacrifice with ever-greater devotion. May each Mass renew my priesthood and set my heart on fire with love for You. Amen.'
+    },
+    {
+      day: 3,
+      title: 'The Ministry of Confession',
+      content: `<p>In the confessional, you exercise one of the most powerful ministries given to the Church—the forgiveness of sins.</p>
+<p><strong>St. John Vianney spent 16-18 hours a day</strong> hearing confessions. People came from all over France to confess to him. He understood that this ministry was essential.</p>
+<p><strong>He said:</strong> "The priest is the minister of God's mercy. He is the instrument which God uses to loose the bonds of iniquity."</p>
+<p>Be available for confession. Be patient with penitents. Be merciful as the Father is merciful. Speak words of encouragement and hope.</p>
+<p>And go to confession yourself regularly. You need mercy too. A priest who does not confess cannot effectively minister mercy to others.</p>`,
+      scripture: 'John 20:23 - "If you forgive the sins of any, they are forgiven them; if you withhold forgiveness from any, it is withheld."',
+      prayer: 'Lord, make me a minister of Your mercy. Help me to be patient, compassionate, and wise in the confessional. May many souls find healing through this sacrament. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Prayer: The Priest\'s Lifeline',
+      content: `<p>Without prayer, the priesthood becomes impossible. Prayer is not one task among many—it is the foundation of everything else.</p>
+<p><strong>St. Charles Borromeo said:</strong> "If we wish to make any progress in the service of God, we must begin every day of our life with new eagerness."</p>
+<p>Essential elements of priestly prayer:</p>
+<ul>
+<li>Daily Mass (even when not required)</li>
+<li>Liturgy of the Hours</li>
+<li>Mental prayer/meditation</li>
+<li>Eucharistic adoration</li>
+<li>The Rosary</li>
+<li>Examination of conscience</li>
+</ul>
+<p>Protect your prayer time fiercely. The devil will try to steal it through busyness, discouragement, or distraction. Without prayer, you have nothing to give.</p>`,
+      scripture: 'Mark 1:35 - "And rising very early in the morning, while it was still dark, he departed and went out to a desolate place, and there he prayed."',
+      prayer: 'Lord, help me to be faithful to prayer. When I am busy, remind me that prayer is not optional. Fill my prayer with Your presence and renew my strength. Amen.'
+    },
+    {
+      day: 5,
+      title: 'Celibacy: Gift and Sacrifice',
+      content: `<p>Celibacy is both a gift and a sacrifice. It frees you for total dedication to Christ and His Church, but it also involves real renunciation.</p>
+<p><strong>St. John Paul II wrote:</strong> "Celibacy is a sign of a love that has no reservations; it is an impetus to a charity open to all."</p>
+<p>Live your celibacy positively, not just as what you give up but as what you gain—freedom to love many, availability for service, witness to the kingdom.</p>
+<p>Guard your celibacy carefully:</p>
+<ul>
+<li>Maintain appropriate boundaries</li>
+<li>Cultivate healthy friendships</li>
+<li>Avoid isolation and loneliness</li>
+<li>Be honest with your spiritual director</li>
+<li>Flee temptation immediately</li>
+</ul>
+<p>Your celibacy is a gift to the Church. Live it joyfully.</p>`,
+      scripture: 'Matthew 19:12 - "There are eunuchs who have made themselves eunuchs for the sake of the kingdom of heaven. Let the one who is able to receive this receive it."',
+      prayer: 'Lord, help me to live my celibacy faithfully and joyfully. May it be a sign of Your kingdom and a gift to Your people. Protect me from temptation. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Shepherding God\'s People',
+      content: `<p>You are called to be a shepherd after the heart of Christ, the Good Shepherd who lays down His life for His sheep.</p>
+<p><strong>Pope Francis said:</strong> "I ask you to be shepherds with the smell of the sheep."</p>
+<p>Know your people. Visit the sick. Comfort the grieving. Challenge the complacent. Seek the lost. Feed them with Word and Sacrament.</p>
+<p>Be present. Be available. Be approachable. People need to know that their priest cares about them.</p>
+<p><strong>St. Augustine wrote:</strong> "For you I am a bishop, but with you I am a Christian. The first is an office, the second a grace; the first a danger, the second salvation."</p>
+<p>Never lord it over your people. Serve them as Christ served.</p>`,
+      scripture: 'John 10:11 - "I am the good shepherd. The good shepherd lays down his life for the sheep."',
+      prayer: 'Lord, make me a good shepherd. Help me to know my sheep, to love them, and to lay down my life for them. May I lead them safely to You. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Perseverance to the End',
+      content: `<p>The priesthood is a lifelong commitment. You will face discouragement, criticism, loneliness, and temptation. But God who called you will give you the grace to persevere.</p>
+<p><strong>St. Paul wrote:</strong> "I have fought the good fight, I have finished the race, I have kept the faith." (2 Timothy 4:7)</p>
+<p>Keys to perseverance:</p>
+<ul>
+<li>Daily fidelity to prayer</li>
+<li>Regular confession and spiritual direction</li>
+<li>Fraternity with brother priests</li>
+<li>Ongoing formation</li>
+<li>Care for your health</li>
+<li>Trust in God's grace</li>
+</ul>
+<p><strong>St. John Vianney said:</strong> "The priesthood is the love of the heart of Jesus."</p>
+<p>You are loved. You are called. You are equipped. Persevere to the end, and you will receive the crown of life.</p>`,
+      scripture: 'Hebrews 10:23 - "Let us hold fast the confession of our hope without wavering, for he who promised is faithful."',
+      prayer: 'Lord, give me the grace to persevere in my priesthood until the end. When I am weary, renew my strength. When I am tempted, deliver me. Bring me safely home. Amen.'
+    }
+  ]
+};
+
+devotionals.push(parentingSaints, theologyOfBody, priestsDaily);
+
+
+// Religious Life Today
+const religiousLife: Devotional = {
+  slug: 'religious-life',
+  title: 'Religious Life Today',
+  author: 'Catholic Bible Online',
+  description: 'Reflections for those in consecrated life.',
+  longDescription: 'Religious life—as a brother, sister, monk, or nun—is a radical following of Christ through the evangelical counsels of poverty, chastity, and obedience. These reflections offer spiritual nourishment for those living this beautiful vocation.',
+  frequency: 'Daily',
+  category: 'Vocations & Ministry',
+  icon: '🙏',
+  readings: [
+    {
+      day: 1,
+      title: 'Called to Radical Discipleship',
+      content: `<p>Religious life is a radical response to Christ's invitation: "If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven; and come, follow me." (Matthew 19:21)</p>
+<p><strong>The Catechism teaches:</strong> "The religious state is thus one way of experiencing a more intimate consecration, rooted in Baptism and dedicated totally to God." (CCC 916)</p>
+<p>You have chosen—or rather, been chosen—to follow Christ in a total way. Your life is a sign to the Church and the world that God alone is enough.</p>
+<p><strong>St. Teresa of Ávila wrote:</strong> "Let nothing disturb you, let nothing frighten you. All things pass away: God never changes. Patience obtains all things. Whoever has God lacks nothing; God alone suffices."</p>
+<p>This is the heart of religious life: God alone suffices.</p>`,
+      scripture: 'Matthew 19:21 - "Jesus said to him, If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven; and come, follow me."',
+      prayer: 'Lord, thank You for calling me to religious life. Help me to follow You radically, holding nothing back. May my life proclaim that You alone are enough. Amen.'
+    },
+    {
+      day: 2,
+      title: 'The Vow of Poverty',
+      content: `<p>Through the vow of poverty, you renounce the ownership of material goods and depend on your community for your needs.</p>
+<p>This is not mere simplicity of life but a radical trust in God's providence. You imitate Christ who "though he was rich, yet for your sake he became poor." (2 Corinthians 8:9)</p>
+<p><strong>St. Francis of Assisi</strong> called poverty his "Lady" and embraced it joyfully. He saw that attachment to things weighs down the soul and prevents freedom.</p>
+<p>Poverty frees you to focus on what matters most. It witnesses to a world obsessed with possessions that true wealth is found in God.</p>
+<p><strong>Practical poverty means:</strong></p>
+<ul>
+<li>Using things, not owning them</li>
+<li>Sharing generously with your community</li>
+<li>Living simply and avoiding waste</li>
+<li>Trusting God for your needs</li>
+</ul>`,
+      scripture: 'Matthew 6:19-21 - "Do not lay up for yourselves treasures on earth... but lay up for yourselves treasures in heaven... For where your treasure is, there your heart will be also."',
+      prayer: 'Lord, free me from attachment to material things. Help me to live poverty joyfully, trusting in Your providence. May my life witness that You are my only treasure. Amen.'
+    },
+    {
+      day: 3,
+      title: 'The Vow of Chastity',
+      content: `<p>Through the vow of chastity, you renounce marriage and sexual intimacy to give yourself entirely to God and His people.</p>
+<p>This is not a rejection of sexuality but a redirection of its energy toward divine love. You anticipate the resurrection, when "they neither marry nor are given in marriage." (Matthew 22:30)</p>
+<p><strong>St. John Paul II taught:</strong> "Virginity or celibacy for the sake of the Kingdom of God not only does not contradict the dignity of marriage but presupposes it and confirms it."</p>
+<p>Your chastity is a gift to the Church. It frees you to love many without exclusive attachment. It witnesses that human love finds its fulfillment in God.</p>
+<p>Guard your chastity through prayer, prudence, and healthy relationships. It is a treasure worth protecting.</p>`,
+      scripture: '1 Corinthians 7:34 - "The unmarried woman or virgin is anxious about the things of the Lord, how to be holy in body and spirit."',
+      prayer: 'Lord, help me to live chastity faithfully and joyfully. May my celibate love be fruitful for Your kingdom. Protect me from temptation and fill my heart with Your love. Amen.'
+    },
+    {
+      day: 4,
+      title: 'The Vow of Obedience',
+      content: `<p>Through the vow of obedience, you submit your will to your superiors, seeking God's will through the structures of your community.</p>
+<p>This is perhaps the most difficult vow because it touches our deepest desire for autonomy. Yet it imitates Christ who "became obedient to the point of death." (Philippians 2:8)</p>
+<p><strong>St. Ignatius of Loyola</strong> saw obedience as the supreme virtue of religious life. He wrote: "We should always be disposed to believe that what appears white is really black, if the hierarchical Church so defines it."</p>
+<p>Obedience is not blind submission but trusting surrender. You believe that God speaks through your superiors, even when you disagree.</p>
+<p>This vow frees you from the tyranny of your own will and unites you to Christ's saving obedience.</p>`,
+      scripture: 'Philippians 2:8 - "And being found in human form, he humbled himself by becoming obedient to the point of death, even death on a cross."',
+      prayer: 'Lord, help me to obey joyfully, even when it is difficult. Unite my will to Yours through the structures of my community. May my obedience be a sacrifice pleasing to You. Amen.'
+    },
+    {
+      day: 5,
+      title: 'Community Life',
+      content: `<p>Religious life is lived in community. You are called not just to individual holiness but to build up the Body of Christ with your brothers or sisters.</p>
+<p><strong>The Acts of the Apostles describes the early community:</strong> "All who believed were together and had all things in common... And day by day, attending the temple together and breaking bread in their homes, they received their food with glad and generous hearts." (Acts 2:44, 46)</p>
+<p>Community life is both gift and challenge. It provides support, accountability, and the joy of shared mission. It also requires patience, forgiveness, and dying to self.</p>
+<p><strong>St. Teresa of Ávila said:</strong> "Christ has no body now but yours. No hands, no feet on earth but yours."</p>
+<p>Your community is Christ's body. Love it, serve it, build it up.</p>`,
+      scripture: 'Psalm 133:1 - "Behold, how good and pleasant it is when brothers dwell in unity!"',
+      prayer: 'Lord, help me to love my community as You love the Church. Give me patience with difficult members and gratitude for the gift of shared life. May our community be a sign of Your kingdom. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Prayer: The Heart of Religious Life',
+      content: `<p>Prayer is the heart of religious life. Everything else flows from your relationship with God cultivated in prayer.</p>
+<p><strong>The Rule of St. Benedict</strong> established the principle: "Let nothing be preferred to the Work of God" (the Divine Office).</p>
+<p>Your community's prayer schedule is not a burden but a gift. It structures your day around God and ensures that prayer is not crowded out by activity.</p>
+<p><strong>Elements of religious prayer life:</strong></p>
+<ul>
+<li>Liturgy of the Hours</li>
+<li>Daily Mass</li>
+<li>Mental prayer/meditation</li>
+<li>Lectio Divina</li>
+<li>Eucharistic adoration</li>
+<li>Examination of conscience</li>
+</ul>
+<p>Be faithful to your prayer commitments. They are the foundation of your vocation.</p>`,
+      scripture: 'Luke 18:1 - "And he told them a parable to the effect that they ought always to pray and not lose heart."',
+      prayer: 'Lord, help me to be faithful to prayer. May the rhythm of community prayer sanctify my days. Fill my prayer with Your presence and transform me into Your likeness. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Mission and Apostolate',
+      content: `<p>Religious life is not just about personal holiness but about mission. You are sent to serve the Church and the world according to your community's charism.</p>
+<p><strong>Pope Francis said:</strong> "Religious life is prophecy. God asks us to fly the nest and to be sent to the frontiers of the world."</p>
+<p>Whether your apostolate is teaching, nursing, contemplative prayer, or any other service, it flows from your consecration. You do not work for yourself but for Christ.</p>
+<p><strong>St. Catherine of Siena wrote:</strong> "Be who God meant you to be and you will set the world on fire."</p>
+<p>Your community's charism is a gift to the Church. Live it fully. Let it shape your prayer, your work, your entire life.</p>
+<p>The world needs your witness. Be faithful to your mission.</p>`,
+      scripture: 'Matthew 28:19-20 - "Go therefore and make disciples of all nations... teaching them to observe all that I have commanded you."',
+      prayer: 'Lord, help me to live my community\'s charism faithfully. May my apostolate flow from my prayer and consecration. Use me to build Your kingdom. Amen.'
+    }
+  ]
+};
+
+// Finding Meaning in Suffering
+const sufferingMeaning: Devotional = {
+  slug: 'suffering-meaning',
+  title: 'Finding Meaning in Suffering',
+  author: 'Catholic Bible Online',
+  description: 'Catholic perspective on redemptive suffering.',
+  longDescription: 'Suffering is one of life\'s greatest mysteries. The Catholic faith offers a profound understanding of suffering\'s meaning and purpose. These reflections help you find hope and redemption in the midst of pain.',
+  frequency: 'Daily',
+  category: 'Healing & Hope',
+  icon: '✝️',
+  readings: [
+    {
+      day: 1,
+      title: 'The Mystery of Suffering',
+      content: `<p>Suffering is a mystery that touches every human life. We cannot fully explain why God permits it, but we can find meaning in it through faith.</p>
+<p><strong>The Catechism teaches:</strong> "In time we can discover that God in his almighty providence can bring a good from the consequences of an evil, even a moral evil, caused by his creatures." (CCC 312)</p>
+<p>God does not will suffering for its own sake. But in a world wounded by sin, suffering is inevitable. The question is not whether we will suffer but how we will respond.</p>
+<p><strong>St. John Paul II wrote:</strong> "Suffering is present in the world in order to release love, in order to give birth to works of love towards neighbor."</p>
+<p>Suffering can destroy us or transform us. Faith makes the difference.</p>`,
+      scripture: 'Romans 8:28 - "And we know that for those who love God all things work together for good, for those who are called according to his purpose."',
+      prayer: 'Lord, I do not understand why I suffer, but I trust in Your goodness. Help me to find meaning in my pain and to grow through it. Amen.'
+    },
+    {
+      day: 2,
+      title: 'Christ\'s Suffering',
+      content: `<p>The Cross of Christ transforms our understanding of suffering. God Himself entered into human suffering and redeemed it from within.</p>
+<p><strong>St. John Paul II wrote:</strong> "In the Cross of Christ not only is the Redemption accomplished through suffering, but also human suffering itself has been redeemed."</p>
+<p>Jesus did not explain suffering—He entered it. He experienced rejection, betrayal, physical agony, and even the sense of abandonment by God. He knows what you are going through.</p>
+<p>The Cross shows that suffering is not meaningless. It can be redemptive. It can bring life out of death, hope out of despair.</p>
+<p><strong>Isaiah prophesied:</strong> "He was wounded for our transgressions; he was crushed for our iniquities; upon him was the chastisement that brought us peace, and with his stripes we are healed." (Isaiah 53:5)</p>`,
+      scripture: 'Hebrews 4:15 - "For we do not have a high priest who is unable to sympathize with our weaknesses, but one who in every respect has been tempted as we are, yet without sin."',
+      prayer: 'Lord Jesus, You know what it is to suffer. Thank You for entering into my pain. Help me to unite my suffering with Yours on the Cross. Amen.'
+    },
+    {
+      day: 3,
+      title: 'Redemptive Suffering',
+      content: `<p>Catholic teaching holds that our suffering, united with Christ's, can have redemptive value. We can "offer up" our pain for the good of others.</p>
+<p><strong>St. Paul wrote:</strong> "Now I rejoice in my sufferings for your sake, and in my flesh I am filling up what is lacking in Christ's afflictions for the sake of his body, that is, the church." (Colossians 1:24)</p>
+<p>This does not mean Christ's sacrifice was incomplete. Rather, He invites us to participate in His redemptive work. Our suffering, united with His, becomes fruitful.</p>
+<p><strong>How to offer up suffering:</strong></p>
+<ul>
+<li>Unite your pain with Christ's Passion</li>
+<li>Offer it for a specific intention</li>
+<li>Ask Mary to present it to Jesus</li>
+<li>Trust that God will use it for good</li>
+</ul>
+<p>Your suffering is not wasted. It can save souls.</p>`,
+      scripture: 'Colossians 1:24 - "Now I rejoice in my sufferings for your sake, and in my flesh I am filling up what is lacking in Christ\'s afflictions for the sake of his body, that is, the church."',
+      prayer: 'Lord, I offer You my suffering, united with Your Passion. Use it for the salvation of souls and the good of Your Church. May nothing be wasted. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Suffering and Purification',
+      content: `<p>Suffering can purify us, burning away selfishness and attachment, and drawing us closer to God.</p>
+<p><strong>The Letter to the Hebrews teaches:</strong> "For the moment all discipline seems painful rather than pleasant, but later it yields the peaceful fruit of righteousness to those who have been trained by it." (Hebrews 12:11)</p>
+<p>Like gold refined in fire, we are purified through trials. Suffering strips away what is superficial and reveals what is essential.</p>
+<p><strong>St. John of the Cross wrote:</strong> "God perceives the imperfections within us, and because of his love for us, urges us to grow up... His love is not content to leave us in our weakness."</p>
+<p>This does not mean God sends suffering to punish us. But He can use it to transform us, if we cooperate with His grace.</p>`,
+      scripture: '1 Peter 1:6-7 - "In this you rejoice, though now for a little while, if necessary, you have been grieved by various trials, so that the tested genuineness of your faith—more precious than gold that perishes though it is tested by fire—may be found to result in praise and glory and honor at the revelation of Jesus Christ."',
+      prayer: 'Lord, use my suffering to purify me. Burn away all that is not of You. Make me more like Christ through this trial. Amen.'
+    },
+    {
+      day: 5,
+      title: 'Suffering and Compassion',
+      content: `<p>Those who have suffered are often the most compassionate. Suffering opens our hearts to the pain of others.</p>
+<p><strong>St. Paul wrote:</strong> "Blessed be the God and Father of our Lord Jesus Christ, the Father of mercies and God of all comfort, who comforts us in all our affliction, so that we may be able to comfort those who are in any affliction, with the comfort with which we ourselves are comforted by God." (2 Corinthians 1:3-4)</p>
+<p>Your suffering is not just for you. It equips you to minister to others who suffer. You understand their pain in a way that those who have not suffered cannot.</p>
+<p><strong>Henri Nouwen called this being a "wounded healer":</strong> "The great illusion of leadership is to think that man can be led out of the desert by someone who has never been there."</p>
+<p>Let your wounds become sources of healing for others.</p>`,
+      scripture: '2 Corinthians 1:4 - "Who comforts us in all our affliction, so that we may be able to comfort those who are in any affliction, with the comfort with which we ourselves are comforted by God."',
+      prayer: 'Lord, use my suffering to make me more compassionate. Help me to comfort others with the comfort I have received from You. May my wounds bring healing. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Suffering and Hope',
+      content: `<p>Christian hope does not deny suffering but looks beyond it to the glory that awaits us.</p>
+<p><strong>St. Paul wrote:</strong> "For I consider that the sufferings of this present time are not worth comparing with the glory that is to be revealed to us." (Romans 8:18)</p>
+<p>This is not escapism but perspective. Our suffering is real, but it is temporary. The glory that awaits us is eternal.</p>
+<p><strong>St. Teresa of Ávila said:</strong> "Let nothing disturb you, let nothing frighten you. All things pass away: God never changes."</p>
+<p>In heaven, every tear will be wiped away. Every pain will be healed. Every loss will be restored. This hope sustains us in the darkest moments.</p>
+<p>Hold on to hope. The best is yet to come.</p>`,
+      scripture: 'Revelation 21:4 - "He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning, nor crying, nor pain anymore, for the former things have passed away."',
+      prayer: 'Lord, fill me with hope. Help me to see beyond my present suffering to the glory You have prepared. Sustain me with the promise of heaven. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Suffering and Trust',
+      content: `<p>Ultimately, suffering calls us to trust—to believe that God is good even when we cannot understand His ways.</p>
+<p><strong>Job, after all his suffering, declared:</strong> "I know that you can do all things, and that no purpose of yours can be thwarted... I had heard of you by the hearing of the ear, but now my eye sees you." (Job 42:2, 5)</p>
+<p>Suffering can deepen our relationship with God. It strips away our illusions of control and throws us upon His mercy.</p>
+<p><strong>St. Faustina wrote:</strong> "Jesus, I trust in You."</p>
+<p>This simple prayer is the heart of the Christian response to suffering. We may not understand, but we trust. We may not see the purpose, but we believe in God's goodness.</p>
+<p>Trust Him. He has not abandoned you. He is working all things for your good.</p>`,
+      scripture: 'Proverbs 3:5-6 - "Trust in the Lord with all your heart, and do not lean on your own understanding. In all your ways acknowledge him, and he will make straight your paths."',
+      prayer: 'Jesus, I trust in You. I do not understand my suffering, but I trust in Your love. Hold me close and bring me through this trial. Amen.'
+    }
+  ]
+};
+
+// Recovery & Redemption
+const addictionRecovery: Devotional = {
+  slug: 'addiction-recovery',
+  title: 'Recovery & Redemption',
+  author: 'Catholic Bible Online',
+  description: 'Faith-based support for those in recovery.',
+  longDescription: 'Addiction is a disease that affects body, mind, and spirit. Recovery requires healing on all levels. These reflections offer Catholic spiritual support for those struggling with addiction, drawing on the Church\'s rich tradition of grace, mercy, and transformation.',
+  frequency: 'Daily',
+  category: 'Healing & Hope',
+  icon: '🕊️',
+  readings: [
+    {
+      day: 1,
+      title: 'Admitting Powerlessness',
+      content: `<p>The first step of recovery is admitting that we are powerless over our addiction. This is not weakness but wisdom—the beginning of healing.</p>
+<p><strong>St. Paul experienced this:</strong> "For I do not do the good I want to do, but the evil I do not want to do—this I keep on doing." (Romans 7:19)</p>
+<p>Addiction hijacks our will. We cannot simply "decide" to stop. We need help beyond ourselves.</p>
+<p>This admission opens the door to grace. When we acknowledge our powerlessness, we become ready to receive God's power.</p>
+<p><strong>Jesus said:</strong> "Apart from me you can do nothing." (John 15:5)</p>
+<p>You are not alone in your struggle. God sees you, loves you, and wants to set you free.</p>`,
+      scripture: '2 Corinthians 12:9 - "But he said to me, My grace is sufficient for you, for my power is made perfect in weakness."',
+      prayer: 'Lord, I admit that I am powerless over my addiction. I cannot free myself. I need Your help. Come to my aid and begin my healing. Amen.'
+    },
+    {
+      day: 2,
+      title: 'Turning to God',
+      content: `<p>Having admitted our powerlessness, we turn to a Power greater than ourselves—God, who alone can restore us to sanity.</p>
+<p><strong>The Catechism teaches:</strong> "God, infinitely perfect and blessed in himself, in a plan of sheer goodness freely created man to make him share in his own blessed life." (CCC 1)</p>
+<p>God created you for freedom and joy, not slavery to addiction. He wants to restore you to the life He intended for you.</p>
+<p>Turning to God means:</p>
+<ul>
+<li>Acknowledging that He exists and cares</li>
+<li>Believing that He can help you</li>
+<li>Asking for His help</li>
+<li>Being willing to follow His guidance</li>
+</ul>
+<p>This is not a one-time decision but a daily surrender. Each day, turn your will and your life over to God's care.</p>`,
+      scripture: 'Jeremiah 29:11 - "For I know the plans I have for you, declares the Lord, plans for welfare and not for evil, to give you a future and a hope."',
+      prayer: 'Lord, I turn my life over to Your care. I believe You can restore me. Guide my steps today and every day. I surrender to Your will. Amen.'
+    },
+    {
+      day: 3,
+      title: 'Moral Inventory',
+      content: `<p>Recovery requires honesty—a fearless moral inventory of ourselves. We must face the truth about our actions and their consequences.</p>
+<p><strong>The Psalmist prayed:</strong> "Search me, O God, and know my heart! Try me and know my thoughts! And see if there be any grievous way in me, and lead me in the way everlasting!" (Psalm 139:23-24)</p>
+<p>This is not about shame or self-condemnation. It is about truth—seeing ourselves as we really are, so that we can be healed.</p>
+<p>A moral inventory includes:</p>
+<ul>
+<li>Resentments we hold</li>
+<li>Fears that drive us</li>
+<li>Harms we have caused</li>
+<li>Patterns of selfishness</li>
+<li>Character defects</li>
+</ul>
+<p>Write it down. Be thorough. Be honest. This is the foundation for confession and healing.</p>`,
+      scripture: 'Lamentations 3:40 - "Let us test and examine our ways, and return to the Lord!"',
+      prayer: 'Lord, help me to see myself honestly. Show me my sins and defects. Give me courage to face the truth. I want to be healed. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Confession and Forgiveness',
+      content: `<p>Having made our inventory, we confess our sins to God and to another person. In the Catholic tradition, this means the Sacrament of Reconciliation.</p>
+<p><strong>Scripture promises:</strong> "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness." (1 John 1:9)</p>
+<p>Confession is not about earning forgiveness—it is about receiving it. God's mercy is already available. We simply need to accept it.</p>
+<p>The Sacrament of Reconciliation offers:</p>
+<ul>
+<li>Certainty of forgiveness</li>
+<li>Grace to overcome sin</li>
+<li>Healing of the soul</li>
+<li>Accountability and guidance</li>
+</ul>
+<p>Do not be afraid to confess. The priest has heard it all. He is there to offer Christ's mercy, not judgment.</p>`,
+      scripture: 'James 5:16 - "Therefore, confess your sins to one another and pray for one another, that you may be healed."',
+      prayer: 'Lord, I confess my sins to You. I am sorry for the harm I have caused. Thank You for Your mercy and forgiveness. Cleanse me and make me new. Amen.'
+    },
+    {
+      day: 5,
+      title: 'Making Amends',
+      content: `<p>Recovery involves making amends to those we have harmed. This is not just apologizing but taking action to repair the damage.</p>
+<p><strong>Jesus taught:</strong> "So if you are offering your gift at the altar and there remember that your brother has something against you, leave your gift there before the altar and go. First be reconciled to your brother, and then come and offer your gift." (Matthew 5:23-24)</p>
+<p>Making amends requires:</p>
+<ul>
+<li>Listing those we have harmed</li>
+<li>Being willing to make amends to all of them</li>
+<li>Making direct amends wherever possible</li>
+<li>Except when doing so would cause more harm</li>
+</ul>
+<p>This is difficult but liberating. It frees us from the burden of guilt and begins to heal broken relationships.</p>
+<p>Some amends cannot be made directly. In those cases, we can make "living amends"—changing our behavior going forward.</p>`,
+      scripture: 'Luke 19:8 - "And Zacchaeus stood and said to the Lord, Behold, Lord, the half of my goods I give to the poor. And if I have defrauded anyone of anything, I restore it fourfold."',
+      prayer: 'Lord, give me courage to make amends. Show me who I have harmed and how to repair the damage. Help me to be humble and sincere. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Daily Spiritual Practice',
+      content: `<p>Recovery is maintained through daily spiritual practice. We must continually seek God's help and remain vigilant against relapse.</p>
+<p><strong>Jesus warned:</strong> "Watch and pray that you may not enter into temptation. The spirit indeed is willing, but the flesh is weak." (Matthew 26:41)</p>
+<p>Essential daily practices:</p>
+<ul>
+<li>Morning prayer and surrender</li>
+<li>Daily examination of conscience</li>
+<li>Regular Mass and Communion</li>
+<li>Frequent Confession</li>
+<li>Contact with sponsor or support group</li>
+<li>Evening review and gratitude</li>
+</ul>
+<p>Recovery is not a destination but a journey. Each day, we must choose sobriety and seek God's grace.</p>
+<p><strong>St. Paul wrote:</strong> "Work out your own salvation with fear and trembling, for it is God who works in you." (Philippians 2:12-13)</p>`,
+      scripture: 'Philippians 4:13 - "I can do all things through him who strengthens me."',
+      prayer: 'Lord, help me to be faithful to daily spiritual practice. Strengthen me against temptation. Keep me close to You today and every day. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Carrying the Message',
+      content: `<p>Those who have found recovery are called to help others who still suffer. This is both a gift and a responsibility.</p>
+<p><strong>Jesus said:</strong> "Freely you have received; freely give." (Matthew 10:8)</p>
+<p>Helping others strengthens our own recovery. It reminds us where we came from and keeps us humble. It gives purpose to our suffering.</p>
+<p>Ways to carry the message:</p>
+<ul>
+<li>Share your story with those who struggle</li>
+<li>Sponsor others in recovery</li>
+<li>Participate in support groups</li>
+<li>Pray for those still suffering</li>
+<li>Support recovery ministries</li>
+</ul>
+<p><strong>St. Paul wrote:</strong> "Blessed be the God and Father of our Lord Jesus Christ... who comforts us in all our affliction, so that we may be able to comfort those who are in any affliction." (2 Corinthians 1:3-4)</p>
+<p>Your recovery is a gift. Share it generously.</p>`,
+      scripture: 'Galatians 6:2 - "Bear one another\'s burdens, and so fulfill the law of Christ."',
+      prayer: 'Lord, use my recovery to help others. Show me who needs my support. Give me the words to share hope. May my story bring glory to You. Amen.'
+    }
+  ]
+};
+
+devotionals.push(religiousLife, sufferingMeaning, addictionRecovery);
