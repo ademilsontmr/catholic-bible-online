@@ -214,14 +214,19 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Footer Links - Grid no mobile */}
             <div>
-              <nav className="grid grid-cols-3 gap-3 sm:flex sm:flex-wrap sm:justify-center sm:gap-x-6 sm:gap-y-2 mb-6">
+              <nav className="grid grid-cols-3 sm:grid-cols-4 gap-3 sm:flex sm:flex-wrap sm:justify-center sm:gap-x-6 sm:gap-y-2 mb-6">
+                <Link href="/" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Home</Link>
+                <Link href="/bible" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Bible</Link>
+                <Link href="/prayers" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Prayers</Link>
+                <Link href="/novenas" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Novenas</Link>
+                <Link href="/saints" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Saints</Link>
                 <Link href="/devotionals" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Devotionals</Link>
+                <Link href="/blog" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Blog</Link>
                 <Link href="/contact" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Contact</Link>
                 <Link href="/about" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">About</Link>
                 <Link href="/privacy" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Privacy</Link>
                 <Link href="/terms" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Terms</Link>
                 <Link href="/legal" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Legal</Link>
-                <Link href="/blog" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1 col-span-3 sm:col-span-1">Blog</Link>
               </nav>
               
               {/* Copyright */}
