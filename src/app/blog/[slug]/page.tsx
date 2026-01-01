@@ -4,6 +4,8 @@ import Link from 'next/link'
 import blogData from '@/data/blog.json'
 import { generateSEO, generateStructuredData } from '@/components/SEO'
 import ShareButton from '@/components/ShareButton'
+import { getRelatedBlogArticles } from '@/lib/relatedArticles'
+import { addInternalLinks } from '@/lib/contentInterlinking'
 import type { BlogData, BlogPost } from '@/types/blog'
 
 const typedBlogData = blogData as BlogData
@@ -47,17 +49,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     notFound()
   }
 
-  // Find 3 random related posts (excluding current post)
-  // Use slug as seed for consistent but different results per post
-  const seed = post.slug.split('').reduce((a, b) => a + b.charCodeAt(0), 0)
-  const shuffled = typedBlogData
-    .filter((p: BlogPost) => p.slug !== post.slug)
-    .sort((a, b) => {
-      const aHash = a.slug.split('').reduce((sum, char) => sum + char.charCodeAt(0), 0)
-      const bHash = b.slug.split('').reduce((sum, char) => sum + char.charCodeAt(0), 0)
-      return (aHash + seed) % 1000 - (bHash + seed) % 1000
-    })
-  const relatedPosts = shuffled.slice(0, 3)
+  // Get intelligently related posts based on content similarity
+  const relatedPosts = getRelatedBlogArticles(slug, 3)
+
+  // Process content to add internal links
+  const processedContent = addInternalLinks(post.content, slug)
 
   const getCategoryColor = (category: string) => {
     switch (category) {
@@ -132,7 +128,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           <article className="prose prose-lg max-w-none mb-12">
             <div 
               className="blog-content text-black leading-relaxed"
-              dangerouslySetInnerHTML={{ __html: post.content }}
+              dangerouslySetInnerHTML={{ __html: processedContent }}
             />
           </article>
 
@@ -153,31 +149,40 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           {/* Related Articles */}
           {relatedPosts.length > 0 && (
             <section className="border-t border-gray-200 pt-8 mb-8">
-              <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-8 text-center">
-                Related Articles
+              <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent mb-2 text-center">
+                📚 Related Articles
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <p className="text-center text-gray-600 mb-6 text-sm">
+                Continue exploring topics related to this article
+              </p>
+              <div className="space-y-4">
                 {relatedPosts.map((relatedPost: BlogPost) => (
                   <Link
                     key={relatedPost.slug}
                     href={`/blog/${relatedPost.slug}`}
-                    className="group block"
+                    className="block bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 rounded-xl p-4 md:p-5 hover:shadow-md transition-all duration-300 group border border-gray-100 hover:border-blue-200"
                   >
-                    <div className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
-                      <div className="p-4">
-                        <span className={`px-3 py-1 rounded-full text-xs font-bold ${getCategoryColor(relatedPost.category)} shadow-sm`}>
-                          {relatedPost.category}
-                        </span>
-                        <h3 className="text-lg font-semibold text-black mt-3 group-hover:text-blue-600 transition-colors line-clamp-2">
+                    <div className="flex flex-col md:flex-row md:items-start gap-3">
+                      <span className={`inline-block px-3 py-1 rounded-full text-xs font-bold whitespace-nowrap self-start ${getCategoryColor(relatedPost.category)}`}>
+                        {relatedPost.category}
+                      </span>
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold text-gray-900 group-hover:text-blue-600 transition-colors text-base leading-snug">
                           {relatedPost.title}
                         </h3>
-                        <p className="text-gray-600 text-sm mt-2 line-clamp-2">
+                        <p className="text-sm text-gray-600 mt-1 line-clamp-2">
                           {relatedPost.excerpt}
                         </p>
-                        <div className="mt-3 flex items-center justify-between">
-                          <span className="text-xs text-gray-500">{relatedPost.readTime}</span>
-                          <span className="text-blue-600 text-sm font-semibold group-hover:text-blue-800">
-                            Read More →
+                        <div className="flex items-center mt-2 text-xs text-gray-500">
+                          <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          {relatedPost.readTime}
+                          <span className="ml-auto text-blue-600 font-medium group-hover:translate-x-1 transition-transform inline-flex items-center">
+                            Read article
+                            <svg className="w-3.5 h-3.5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
                           </span>
                         </div>
                       </div>

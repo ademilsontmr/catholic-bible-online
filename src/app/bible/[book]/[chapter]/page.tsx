@@ -3,6 +3,7 @@ import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getBook, getBibleIndex } from '@/lib/bibleLoader'
 import { getReflection } from '@/lib/reflections'
+import { getRelatedArticles } from '@/lib/relatedArticles'
 
 interface ChapterPageProps {
   params: Promise<{
@@ -79,6 +80,9 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
 
   // Generate reflection for this chapter
   const reflection = getReflection(book.name, chapterNumber)
+
+  // Get related blog articles
+  const relatedArticles = getRelatedArticles(bookSlug, book.testament, 3)
 
   // Generate comprehensive JSON-LD structured data
   const jsonLd = {
@@ -236,6 +240,71 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
               </p>
             </div>
           </section>
+
+          {/* Related Articles Section */}
+          {relatedArticles.length > 0 && (
+            <section className="mt-12 bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 rounded-2xl p-6 md:p-8 border border-gray-100" aria-labelledby="related-articles-title">
+              <h2 id="related-articles-title" className="text-2xl font-bold text-center mb-2 bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent">
+                📚 Continue Your Faith Journey
+              </h2>
+              <p className="text-center text-gray-600 mb-6 text-sm">
+                Deepen your understanding with these related articles
+              </p>
+              <div className="space-y-4">
+                {relatedArticles.map((article) => (
+                  <Link
+                    key={article.slug}
+                    href={`/blog/${article.slug}`}
+                    className="block bg-white rounded-xl p-4 md:p-5 shadow-sm hover:shadow-md transition-all duration-300 group border border-gray-100 hover:border-blue-200"
+                  >
+                    <div className="flex flex-col md:flex-row md:items-start gap-3">
+                      <span className={`inline-block px-3 py-1 rounded-full text-xs font-bold whitespace-nowrap self-start ${
+                        article.category === 'How to Pray'
+                          ? 'bg-blue-100 text-blue-700'
+                          : article.category === 'Catholic Living'
+                          ? 'bg-emerald-100 text-emerald-700'
+                          : article.category === 'Saints & Feast Days'
+                          ? 'bg-purple-100 text-purple-700'
+                          : article.category === 'Bible & Faith'
+                          ? 'bg-orange-100 text-orange-700'
+                          : 'bg-gray-100 text-gray-700'
+                      }`}>
+                        {article.category}
+                      </span>
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold text-gray-900 group-hover:text-blue-600 transition-colors text-base leading-snug">
+                          {article.title}
+                        </h3>
+                        <div className="flex items-center mt-2 text-xs text-gray-500">
+                          <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          {article.readTime}
+                          <span className="ml-auto text-blue-600 font-medium group-hover:translate-x-1 transition-transform inline-flex items-center">
+                            Read article
+                            <svg className="w-3.5 h-3.5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+              <div className="text-center mt-6">
+                <Link
+                  href="/blog"
+                  className="inline-flex items-center px-5 py-2.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold text-sm rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 hover:shadow-lg"
+                >
+                  Explore All Articles
+                  <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              </div>
+            </section>
+          )}
         </div>
       </div>
     </>

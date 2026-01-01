@@ -531,6 +531,18 @@
   @apply text-blue-600 hover:text-blue-800 underline;
 }
 
+/* Internal article links */
+.blog-content a.internal-link {
+  @apply text-blue-600 hover:text-blue-800 no-underline font-medium;
+  @apply bg-blue-50 px-1 py-0.5 rounded;
+  @apply hover:bg-blue-100 transition-colors;
+  @apply border-b-2 border-blue-300 hover:border-blue-500;
+}
+
+.blog-content a.internal-link:hover {
+  @apply no-underline;
+}
+
 .blog-content strong {
   @apply font-semibold text-black;
 }
