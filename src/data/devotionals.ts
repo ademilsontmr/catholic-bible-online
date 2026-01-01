@@ -881,3 +881,836 @@ export function getTodaysReading(devotional: Devotional): DevotionalReading {
   const readingIndex = (dayOfYear - 1) % devotional.readings.length;
   return devotional.readings[readingIndex];
 }
+
+// ============================================
+// MORE CLASSIC DEVOTIONALS
+// ============================================
+
+const introductionDevoutLife: Devotional = {
+  slug: 'introduction-devout-life',
+  title: 'Introduction to the Devout Life',
+  author: 'St. Francis de Sales',
+  description: 'Practical guidance for living a holy life in the midst of everyday activities.',
+  longDescription: 'St. Francis de Sales wrote this masterpiece for laypeople seeking holiness in their ordinary lives. Unlike other spiritual works of his time written for monks and nuns, this book shows that everyone—married or single, rich or poor—can grow in holiness through their daily duties and relationships.',
+  frequency: 'Daily',
+  category: 'Classic Catholic Devotionals',
+  icon: '📚',
+  readings: [
+    {
+      day: 1,
+      title: 'True Devotion',
+      content: `<p>You wish to live a devout life, dear reader, because as a Christian you know that such devotion is most pleasing to God's Divine Majesty. But since small errors committed in the beginning of any undertaking grow infinitely greater as we advance, and become in the end almost irreparable, you must first understand what the virtue of devotion is.</p>
+<p>True devotion is nothing other than a true love of God. But it is not always love in its highest form. When divine love adorns our souls and makes us pleasing to His Divine Majesty, it is called grace. When it gives us strength to do good, it is called charity. But when it reaches such a degree of perfection that it makes us not only do good but do so carefully, frequently, and promptly, it is called devotion.</p>
+<p>Devotion is simply a spiritual agility and liveliness by which charity works in us, or we work by charity, promptly and lovingly. Just as charity leads us to observe all God's commandments, so devotion leads us to observe them promptly and diligently.</p>
+<p>In short, devotion is nothing else than a spiritual agility and vivacity by which charity does its work in us, or by aid of which we work quickly and lovingly.</p>`,
+      scripture: 'Psalm 119:32 - "I will run in the way of your commandments when you enlarge my heart!"',
+      prayer: 'Lord, I desire to live a devout life, not out of obligation but out of love for You. Help me to serve You not reluctantly but promptly and joyfully. May my devotion be genuine—flowing from a heart transformed by Your grace. St. Francis de Sales, pray for me. Amen.'
+    },
+    {
+      day: 2,
+      title: 'Devotion Is for Everyone',
+      content: `<p>In the creation God commanded the plants to bring forth their fruit, each one according to its kind. In the same way, He commands Christians, who are the living plants of His Church, to bring forth the fruits of devotion, each according to his position and vocation.</p>
+<p>Devotion must be practiced differently by the gentleman, the worker, the servant, the prince, the widow, the young girl, and the married woman. Not only this, but the practice of devotion must also be adapted to the strength, the employment, and the duties of each individual.</p>
+<p>Is it fitting that a bishop should want to live a solitary life like a Carthusian? Or that married people should want to own no more property than a Capuchin? If a workman spent as much time in church as a religious, his work would suffer. Would not such devotion be ridiculous, disorganized, and intolerable?</p>
+<p>True devotion does no harm whatever, but instead perfects everything. When it goes contrary to one's lawful vocation, it is undoubtedly false. The bee gathers honey from flowers without injuring them, leaving them as fresh and whole as it found them. True devotion does even better. It not only does no harm to any vocation or employment, but on the contrary adorns and beautifies it.</p>`,
+      scripture: '1 Corinthians 7:17 - "Only let each person lead the life that the Lord has assigned to him, and to which God has called him."',
+      prayer: 'Lord, help me to live my devotion according to my state in life. I do not need to be a monk or nun to be holy—I can find You in my daily duties, my work, my family. Show me how to sanctify the ordinary moments of my life. Amen.'
+    },
+    {
+      day: 3,
+      title: 'The Need for a Spiritual Director',
+      content: `<p>When young Tobias was commanded to go to Rages, he said, "I do not know the way." His father answered, "Go then and find a man to guide you." I say the same to you. If you truly wish to travel the road to devotion, find a good guide and conductor.</p>
+<p>This is the most important of all words of advice. As the devout Avila says, "Although you seek God's will, you will never find it with such certainty as on the path of humble obedience so universally praised and practiced by all devout people of ancient times."</p>
+<p>When we have found our guide, we must open our hearts to him with all sincerity and fidelity, manifesting clearly and openly both our good and our evil without pretense or dissimulation. By this means our good will be examined and confirmed, and our evil will be corrected and remedied.</p>
+<p>Have great confidence in your director, but let it be mingled with a holy reverence, so that reverence does not diminish confidence nor confidence diminish reverence. Trust him with the respect of a daughter for her father; respect him with the confidence of a son for his mother.</p>`,
+      scripture: 'Proverbs 11:14 - "Where there is no guidance, a people falls, but in an abundance of counselors there is safety."',
+      prayer: 'Lord, guide me to a wise spiritual director who can help me on my journey to You. Give me humility to seek guidance and openness to receive correction. May I find in spiritual direction the support I need to grow in holiness. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Beginning with Purification',
+      content: `<p>The flowers appear on the earth, says the heavenly Spouse, and the time of pruning has come. What are the flowers of our hearts but good desires? As soon as they appear, we must take the pruning knife in hand to cut away from our conscience all dead and superfluous works.</p>
+<p>Before the Israelites entered the Promised Land, they had to get rid of all the idols they had brought from Egypt. So too, the soul that aspires to the honor of being the spouse of Christ must put off the old man and put on the new, forsaking sin and removing and cutting away everything that obstructs union with God.</p>
+<p>The first purification that must be made is that of sin. The means of making it is the holy sacrament of Penance. Seek the best confessor you can find, take in hand one of the many little books written to help examine your conscience, read them carefully, and note point by point wherein you have offended.</p>
+<p>Having made this confession with all possible humility and contrition, listen attentively to the advice and commands of your confessor, and say in your heart, "Speak, Lord, for your servant is listening."</p>`,
+      scripture: 'Psalm 51:10 - "Create in me a clean heart, O God, and renew a right spirit within me."',
+      prayer: 'Lord, I desire to begin my devout life with a clean heart. Help me to make a thorough examination of conscience and a sincere confession. Remove from my heart everything that separates me from You. Create in me a new heart, ready to receive Your grace. Amen.'
+    },
+    {
+      day: 5,
+      title: 'Meditation: The Heart of Devotion',
+      content: `<p>Meditation is the mother and nurse of devotion. Without it, we cannot have true devotion. It is the means by which we come to know God and ourselves, and by which we inflame our hearts with love for Him.</p>
+<p>Place yourself in the presence of God. Acknowledge that God is present everywhere and in all things. Just as birds, wherever they fly, always encounter the air, so we, wherever we go or wherever we are, find God present.</p>
+<p>Everyone knows this truth, but not everyone is attentive to it. Blind men do not see a prince who is present among them, and therefore do not show him the respect they would if they saw him. But because they do not see him, they easily forget his presence, and having forgotten it, they still more easily lose the respect due to him.</p>
+<p>We do not see God who is present with us, and although faith assures us of His presence, yet because we do not see Him with our eyes, we often forget Him and behave as if God were far away. We know well that God is present in all things, but because we do not reflect on this, we act as if we did not know it.</p>`,
+      scripture: 'Psalm 46:10 - "Be still, and know that I am God."',
+      prayer: 'Lord, help me to be aware of Your presence in every moment. Open the eyes of my heart to see You in all things. May my meditation draw me closer to You and inflame my heart with love. Teach me to be still and know that You are God. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Little Virtues',
+      content: `<p>The king's daughter is all glorious within, says David. The great works of those who are perfect consist in the great virtues they practice. But the little virtues are like the flowers that adorn the garden of the soul.</p>
+<p>We must not neglect the practice of the little virtues: patience, meekness, mortification of the heart, humility, obedience, poverty, chastity, tenderness toward our neighbor, bearing with their imperfections, diligence, and holy fervor.</p>
+<p>Great occasions for serving God come rarely, but little ones surround us daily. He who is faithful in little things will also be faithful in great ones. Do all things in the name of God, and you will do all things well.</p>
+<p>Whether you eat or drink, whether you sleep or take recreation, whether you work or rest, you can always gather the fruit of the little virtues. These little virtues will grow and multiply in your soul like bees in a hive, and will make your spiritual life sweet and delightful.</p>`,
+      scripture: 'Luke 16:10 - "One who is faithful in a very little is also faithful in much."',
+      prayer: 'Lord, help me to be faithful in the little things. May I practice patience in small annoyances, kindness in daily interactions, and diligence in ordinary duties. Let me not despise the little virtues, for through them I can grow in holiness every day. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Perseverance in Devotion',
+      content: `<p>The devout life is a life of constant beginning again. We must not be discouraged by our falls, but must rise again with renewed courage and continue on our way.</p>
+<p>The soul that aspires to devotion must expect to meet with difficulties and temptations. The devil, who cannot bear to see a soul advancing in virtue, will do everything in his power to discourage and distract us.</p>
+<p>When you find yourself fallen into some fault, do not be troubled or discouraged, but immediately humble yourself before God and say: "Lord, I have done what I am—a weak and miserable creature. What else could be expected of me?" Then, with confidence in His mercy, return to the path of virtue.</p>
+<p>Never be astonished at finding yourself imperfect, for you will never be otherwise in this life. Be patient with everyone, but above all with yourself. I mean, do not be disturbed about your imperfections, and always have courage to pick yourself up after a fall.</p>
+<p>Our progress in the devout life depends not on never falling, but on always rising again. The saints themselves fell many times, but they never stayed down. They rose again and continued their journey with renewed fervor.</p>`,
+      scripture: 'Proverbs 24:16 - "For the righteous falls seven times and rises again."',
+      prayer: 'Lord, give me perseverance in the devout life. When I fall, help me to rise again without discouragement. May I never give up on the journey to holiness, trusting in Your mercy and grace. St. Francis de Sales, pray for me that I may persevere to the end. Amen.'
+    }
+  ]
+};
+
+const confessionsAugustine: Devotional = {
+  slug: 'confessions-augustine',
+  title: 'Confessions of St. Augustine',
+  author: 'St. Augustine',
+  description: 'Profound reflections on conversion, grace, and the human search for God.',
+  longDescription: 'The Confessions of St. Augustine is one of the most influential spiritual autobiographies ever written. In it, Augustine traces his journey from a life of sin to his conversion to Christianity, offering profound insights into the human heart, the nature of sin, and the transforming power of God\'s grace.',
+  frequency: 'Daily',
+  category: 'Classic Catholic Devotionals',
+  icon: '📜',
+  readings: [
+    {
+      day: 1,
+      title: 'Our Hearts Are Restless',
+      content: `<p>"You have made us for yourself, O Lord, and our hearts are restless until they rest in you."</p>
+<p>These famous words open Augustine's Confessions and capture the central theme of his life and thought. We are made for God, and nothing else can satisfy the deepest longings of our hearts.</p>
+<p>Augustine tried to fill the void in his heart with many things—pleasure, ambition, philosophy, human love. But none of these could give him lasting peace. Only when he surrendered to God did he find the rest his soul craved.</p>
+<p>This restlessness is not a curse but a gift. It is God's way of drawing us to Himself. The dissatisfaction we feel with earthly things is a sign that we are made for something greater—for eternal union with God.</p>
+<p>Do you feel restless? Do you sense that something is missing in your life? This is the voice of God calling you to Himself. Do not try to silence it with distractions. Let it lead you to the One who alone can satisfy your heart.</p>`,
+      scripture: 'Psalm 62:1 - "For God alone my soul waits in silence; from him comes my salvation."',
+      prayer: 'Lord, my heart is restless until it rests in You. I have sought happiness in many places, but only You can satisfy the deepest longings of my soul. Draw me to Yourself. Help me to find in You the peace and joy I seek. Amen.'
+    },
+    {
+      day: 2,
+      title: 'Late Have I Loved You',
+      content: `<p>"Late have I loved you, O Beauty ever ancient, ever new, late have I loved you! You were within me, but I was outside, and it was there that I searched for you. In my unloveliness I plunged into the lovely things which you created. You were with me, but I was not with you."</p>
+<p>Augustine spent years searching for God in the wrong places. He sought truth in philosophy, pleasure in sin, fulfillment in worldly success. All the while, God was closer to him than he was to himself.</p>
+<p>This is the tragedy of sin—it blinds us to the presence of God who is always near. We look for happiness outside ourselves when the source of all happiness dwells within us through grace.</p>
+<p>"Created things kept me from you; yet if they had not been in you, they would not have been at all." The beauty of creation is meant to lead us to the Creator, but sin distorts our vision so that we stop at creatures instead of rising to God.</p>
+<p>Augustine's conversion came when he finally turned inward and found God waiting for him. "You called, you shouted, and you broke through my deafness. You flashed, you shone, and you dispelled my blindness."</p>`,
+      scripture: 'Jeremiah 29:13 - "You will seek me and find me, when you seek me with all your heart."',
+      prayer: 'Lord, You are ever ancient, ever new. Forgive me for seeking You in the wrong places. Open my eyes to see Your presence within me and around me. Help me to love You with my whole heart, without delay. Amen.'
+    },
+    {
+      day: 3,
+      title: 'The Weight of Sin',
+      content: `<p>Augustine describes his youth as a time of wandering far from God. He stole pears not because he was hungry but for the sheer pleasure of doing wrong. He pursued sexual pleasure without restraint. He was enslaved to habits he could not break.</p>
+<p>"I was bound by the iron chain of my own will. The enemy held my will, and from it had made a chain and bound me. From a perverse will came lust, and slavery to lust became habit, and habit not resisted became necessity."</p>
+<p>Sin is not freedom but slavery. What begins as a choice becomes a compulsion. We think we are free when we indulge our desires, but we are actually forging chains that bind us ever more tightly.</p>
+<p>Augustine cried out to God: "Give me chastity and continence, but not yet." He wanted to be free from sin, but he also wanted to enjoy it a little longer. This divided will kept him in bondage.</p>
+<p>Only God's grace could break the chains. "You converted me to yourself, so that I no longer sought a wife or any other worldly hope."</p>`,
+      scripture: 'John 8:34 - "Jesus answered them, Truly, truly, I say to you, everyone who practices sin is a slave to sin."',
+      prayer: 'Lord, I confess that I am bound by sins I cannot break on my own. Free me from the chains of bad habits and disordered desires. Give me the grace to want what You want, to love what You love. Break the power of sin in my life. Amen.'
+    },
+    {
+      day: 4,
+      title: 'The Garden Conversion',
+      content: `<p>The climax of Augustine's conversion came in a garden in Milan. Torn between his desire for God and his attachment to sin, he threw himself down under a fig tree and wept.</p>
+<p>"How long, O Lord? How long? Will you be angry forever? Remember not my past iniquities." He heard a child's voice from a nearby house, chanting: "Take up and read, take up and read."</p>
+<p>Augustine took this as a divine command. He picked up the book of Paul's letters and read the first passage his eyes fell upon: "Not in rioting and drunkenness, not in chambering and wantonness, not in strife and envying, but put on the Lord Jesus Christ, and make no provision for the flesh to fulfill its lusts."</p>
+<p>"I had no wish to read further, and no need. For in that instant, as the sentence ended, there was infused in my heart something like the light of full certainty and all the gloom of doubt vanished away."</p>
+<p>In one moment, God did what Augustine could not do in years of struggle. Grace accomplished what willpower could not achieve.</p>`,
+      scripture: 'Romans 13:14 - "But put on the Lord Jesus Christ, and make no provision for the flesh, to gratify its desires."',
+      prayer: 'Lord, I hear Your voice calling me to conversion. Give me the grace to respond without delay. Do in me what I cannot do myself. Put on me the Lord Jesus Christ and free me from the power of sin. Amen.'
+    },
+    {
+      day: 5,
+      title: 'The Gift of Tears',
+      content: `<p>After his conversion, Augustine wept tears of joy and gratitude. "The tears streamed down, and I let them flow as freely as they would, making of them a pillow for my heart. On them it rested."</p>
+<p>These were not tears of sadness but of relief—the relief of a prisoner set free, a sick man healed, a lost son come home. Augustine had finally found what he had been seeking all his life.</p>
+<p>He also wept for his mother, Monica, who had prayed for his conversion for many years. Her tears had watered the seed of faith that finally bore fruit. "You converted me to yourself, so that I no longer sought a wife or any other worldly hope, standing now on that rule of faith where you had shown me to her in a vision so many years before."</p>
+<p>The gift of tears is a grace. It softens our hearts and opens us to God's mercy. Do not be ashamed to weep before God—for your sins, for His goodness, for the gift of salvation.</p>`,
+      scripture: 'Psalm 126:5 - "Those who sow in tears shall reap with shouts of joy!"',
+      prayer: 'Lord, give me the gift of tears—tears of repentance for my sins, tears of gratitude for Your mercy, tears of joy for Your salvation. Soften my heart and open it to receive Your grace. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Memory and the Search for God',
+      content: `<p>In one of the most profound sections of the Confessions, Augustine explores the mystery of memory and its role in our search for God.</p>
+<p>"Great is the power of memory, exceedingly great, O my God, a spreading limitless room within me. Who can reach its uttermost depth? Yet it is a faculty of my soul and belongs to my nature. In fact I cannot totally grasp all that I am."</p>
+<p>Augustine realizes that we could not seek God unless we already knew Him in some way. The very desire for God is a kind of memory of God—a trace of the divine image in which we were created.</p>
+<p>"Where then did I find you to learn of you? For you were not in my memory before I learned of you. Where then did I find you to learn of you, if not in yourself, above me?"</p>
+<p>God is both within us and beyond us. He is closer to us than we are to ourselves, yet infinitely transcends our understanding. The search for God is both an inward journey and an upward ascent.</p>`,
+      scripture: 'Acts 17:27-28 - "He is actually not far from each one of us, for in him we live and move and have our being."',
+      prayer: 'Lord, You are within me and above me, closer than my own heart yet beyond all my understanding. Help me to seek You where You may be found—in the depths of my soul and in the heights of Your glory. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Rest in God Alone',
+      content: `<p>Augustine concludes his Confessions with a meditation on rest—the rest that comes only from God.</p>
+<p>"You are the rest of the weary, the comfort of the sorrowful. You are the strength of the weak, the hope of the despairing. In you alone is there peace."</p>
+<p>The restlessness that drove Augustine through years of wandering finally found its resolution in God. Not in philosophy, not in pleasure, not in human love, but in the eternal God who made him for Himself.</p>
+<p>"Our hearts are restless until they rest in you." This is not just Augustine's story—it is the story of every human heart. We are all pilgrims seeking our true home, wanderers longing for rest.</p>
+<p>The good news is that God is seeking us even as we seek Him. He pursues us with His grace, calls us with His love, and welcomes us with His mercy. All we need to do is stop running and let ourselves be found.</p>
+<p>"You have made us for yourself, O Lord, and our hearts are restless until they rest in you."</p>`,
+      scripture: 'Matthew 11:28 - "Come to me, all who labor and are heavy laden, and I will give you rest."',
+      prayer: 'Lord, I am weary from seeking rest in things that cannot satisfy. I come to You now, just as I am. Give me the rest that only You can give. Let me find in You my peace, my joy, my home. My heart is restless until it rests in You. Amen.'
+    }
+  ]
+};
+
+devotionals.push(introductionDevoutLife, confessionsAugustine);
+
+
+// ============================================
+// SAINTS DEVOTIONALS
+// ============================================
+
+const padrePioDaily: Devotional = {
+  slug: 'padre-pio-daily',
+  title: 'Words of Padre Pio',
+  author: 'St. Padre Pio',
+  description: 'Daily wisdom from the beloved stigmatist and confessor of San Giovanni Rotondo.',
+  longDescription: 'St. Padre Pio of Pietrelcina (1887-1968) was a Capuchin friar who bore the stigmata for fifty years. Known for his holiness, his gift of reading souls, and his hours spent in the confessional, Padre Pio left behind a treasury of spiritual wisdom that continues to guide souls today.',
+  frequency: 'Daily',
+  category: 'Saints for Today',
+  icon: '🙏',
+  readings: [
+    {
+      day: 1,
+      title: 'Pray, Hope, and Don\'t Worry',
+      content: `<p>"Pray, hope, and don't worry. Worry is useless. God is merciful and will hear your prayer."</p>
+<p>This was Padre Pio's most famous counsel, repeated countless times to the thousands who sought his guidance. In a world filled with anxiety, these simple words offer profound peace.</p>
+<p>Prayer is our lifeline to God. Through prayer, we place our concerns in His hands and trust in His providence. Hope is the confident expectation that God will fulfill His promises. And worry? Worry is useless because it changes nothing and only robs us of peace.</p>
+<p>Padre Pio lived these words. Despite bearing the painful wounds of Christ, despite spiritual attacks from the devil, despite persecution from within the Church, he maintained a deep peace rooted in trust in God.</p>
+<p>"The life of a Christian is nothing but a perpetual struggle against self; there is no flowering of the soul to the beauty of its perfection except at the price of pain."</p>`,
+      scripture: 'Philippians 4:6-7 - "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus."',
+      prayer: 'Lord, help me to pray, hope, and not worry. I place all my concerns in Your hands, trusting in Your mercy and providence. Free me from anxiety and fill me with Your peace. St. Padre Pio, pray for me. Amen.'
+    },
+    {
+      day: 2,
+      title: 'The Value of Suffering',
+      content: `<p>"The most beautiful act of faith is the one made in darkness, in sacrifice, and with extreme effort."</p>
+<p>Padre Pio understood suffering as few others have. For fifty years, he bore the wounds of Christ in his hands, feet, and side. The pain was constant and intense, yet he offered it all for the salvation of souls.</p>
+<p>"I am devoured by the love of God and the love of my neighbor. God is always fixed in my mind and stamped in my heart. I never lose sight of Him."</p>
+<p>Suffering, united to Christ's Passion, has redemptive value. It is not meaningless pain but a participation in the work of salvation. This is the mystery of the Cross—that through suffering, God brings forth life.</p>
+<p>"The longer the trial to which God subjects you, the greater the goodness in comforting you during the time of trial and in the exaltation after the combat."</p>`,
+      scripture: 'Colossians 1:24 - "Now I rejoice in my sufferings for your sake, and in my flesh I am filling up what is lacking in Christ\'s afflictions for the sake of his body, that is, the church."',
+      prayer: 'Lord Jesus, help me to embrace my sufferings and unite them to Your Cross. May my trials become a source of grace for myself and others. Give me the faith to trust You in the darkness. St. Padre Pio, pray for me. Amen.'
+    },
+    {
+      day: 3,
+      title: 'The Holy Mass',
+      content: `<p>"It would be easier for the world to survive without the sun than to do without Holy Mass."</p>
+<p>Padre Pio celebrated Mass with extraordinary devotion, often taking two or more hours. He experienced the Passion of Christ so intensely during Mass that he would weep and sometimes appear to be in agony.</p>
+<p>"The Mass is infinite like Jesus. Ask an angel what the Mass is, and he will reply to you in truth, 'I understand what it is and why it is offered, but I do not understand how much value it has.' One angel, a thousand angels, all of Heaven, know this and think like this."</p>
+<p>For Padre Pio, the Mass was not a ritual to be rushed through but the very sacrifice of Calvary made present. He urged the faithful to attend Mass with reverence and devotion, recognizing the infinite treasure being offered.</p>
+<p>"Once, a person asked me if Jesus was pleased with his way of attending Mass. I replied: 'Do you think that Jesus is pleased when you attend Mass with your body in church and your mind at home or in the office?'"</p>`,
+      scripture: 'Hebrews 9:14 - "How much more will the blood of Christ, who through the eternal Spirit offered himself without blemish to God, purify our conscience from dead works to serve the living God."',
+      prayer: 'Lord Jesus, help me to attend Mass with reverence and devotion. Open my eyes to see the infinite value of this holy sacrifice. May I never take for granted the gift of Your Body and Blood. St. Padre Pio, pray for me. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Confession and Mercy',
+      content: `<p>"Confession is the soul's bath. You must go at least once a week. I do not want souls to stay away from confession more than a week."</p>
+<p>Padre Pio spent up to sixteen hours a day in the confessional. He had the gift of reading souls—knowing sins before they were confessed, seeing the state of souls, and guiding penitents to true conversion.</p>
+<p>He was sometimes severe with those who were not truly repentant, but infinitely gentle with those who came with sincere hearts. "Have courage and do not fear the confessional. It is there that the mercy of God awaits you."</p>
+<p>"A soul can do nothing that is more pleasing to God than to communicate in a state of grace. The devil knows this and that is why he tries to keep us away from the sacraments."</p>
+<p>Padre Pio urged frequent confession not because we are terrible sinners but because we need God's grace to grow in holiness. "The confession of our faults is the beginning of our good works."</p>`,
+      scripture: '1 John 1:9 - "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness."',
+      prayer: 'Merciful Father, give me the grace to make frequent and sincere confessions. Help me to overcome any fear or shame that keeps me from this sacrament of mercy. St. Padre Pio, pray for me. Amen.'
+    },
+    {
+      day: 5,
+      title: 'The Guardian Angel',
+      content: `<p>"Invoke your guardian angel, who will enlighten you and guide you. God has given him to you for your protection and your help in all your needs. Have recourse to him always."</p>
+<p>Padre Pio had a special devotion to the guardian angels. He could see them and communicate with them. He often sent his own guardian angel to help those who asked for his prayers.</p>
+<p>"Your guardian angel is always at your side. He is your most faithful friend. He is always there to console you, to help you, to protect you. Speak to him often."</p>
+<p>Many people reported that when they prayed to Padre Pio, they would smell the fragrance of flowers or incense—a sign that their prayers had been heard. Padre Pio explained that he sent his guardian angel to bring comfort to those in need.</p>
+<p>"If you need me, send your guardian angel to me with your message and I will answer you."</p>`,
+      scripture: 'Psalm 91:11 - "For he will command his angels concerning you to guard you in all your ways."',
+      prayer: 'Angel of God, my guardian dear, to whom God\'s love commits me here, ever this day be at my side, to light and guard, to rule and guide. St. Padre Pio, pray for me. Amen.'
+    },
+    {
+      day: 6,
+      title: 'Humility and Obedience',
+      content: `<p>"The devil is not afraid of our penances, but he trembles before our humility and obedience."</p>
+<p>Despite his extraordinary gifts, Padre Pio remained deeply humble. When Church authorities restricted his ministry due to suspicions about his stigmata, he obeyed without complaint, trusting that God would vindicate him in His own time.</p>
+<p>"I am nothing but a poor friar who prays." This was how Padre Pio described himself, even as thousands flocked to him for healing and guidance.</p>
+<p>"Humility is truth. We must see ourselves as we really are—sinners in need of God's mercy. Pride is the root of all sin, and humility is the foundation of all virtue."</p>
+<p>Padre Pio's obedience was tested severely. For years, he was forbidden to celebrate Mass publicly or hear confessions. He accepted these restrictions with patience, knowing that obedience to legitimate authority is obedience to God.</p>`,
+      scripture: 'James 4:6 - "God opposes the proud but gives grace to the humble."',
+      prayer: 'Lord, give me true humility. Help me to see myself as I really am and to trust in Your mercy. May I be obedient to Your will, even when it is difficult. St. Padre Pio, pray for me. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Perseverance to the End',
+      content: `<p>"In all the events of life, you must recognize the Divine will. Adore and bless it, especially in the things which are the hardest for you."</p>
+<p>Padre Pio died on September 23, 1968, the day after celebrating the 50th anniversary of receiving the stigmata. His last words were "Jesus, Mary." He died as he had lived—with the names of Jesus and Mary on his lips.</p>
+<p>"Stay with me, Lord, for it is necessary to have You present so that I do not forget You. You know how easily I abandon You."</p>
+<p>Padre Pio's life was a constant battle—against the devil, against his own weaknesses, against misunderstanding and persecution. But he persevered to the end, trusting in God's grace.</p>
+<p>"Do not worry about tomorrow. Think of today and of the present moment. Leave tomorrow to Providence. The Lord knows what He is doing."</p>
+<p>His final counsel to us: "Love the Madonna and pray the Rosary, for her Rosary is the weapon against the evils of the world today."</p>`,
+      scripture: 'Matthew 24:13 - "But the one who endures to the end will be saved."',
+      prayer: 'Lord, give me the grace to persevere to the end. Help me to trust in Your providence in all circumstances. May I die with the names of Jesus and Mary on my lips. St. Padre Pio, pray for me. Amen.'
+    }
+  ]
+};
+
+const motherTeresaDaily: Devotional = {
+  slug: 'mother-teresa-daily',
+  title: 'Mother Teresa\'s Meditations',
+  author: 'St. Mother Teresa',
+  description: 'Reflections on love, service, and finding Christ in the poorest of the poor.',
+  longDescription: 'St. Teresa of Calcutta (1910-1997) founded the Missionaries of Charity and dedicated her life to serving "the poorest of the poor." Her simple yet profound teachings on love, prayer, and service continue to inspire millions to see Christ in the faces of the suffering.',
+  frequency: 'Daily',
+  category: 'Saints for Today',
+  icon: '💙',
+  readings: [
+    {
+      day: 1,
+      title: 'Do Small Things with Great Love',
+      content: `<p>"Not all of us can do great things. But we can do small things with great love."</p>
+<p>This is perhaps Mother Teresa's most famous saying, and it captures the essence of her spirituality. Holiness is not about doing extraordinary things but about doing ordinary things with extraordinary love.</p>
+<p>"We can do no great things, only small things with great love. It is not how much we do, but how much love we put into the doing."</p>
+<p>Mother Teresa saw every act of service as an encounter with Christ. Feeding the hungry, clothing the naked, caring for the sick—these were not just charitable works but acts of love for Jesus Himself.</p>
+<p>"I see Jesus in every human being. I say to myself, this is hungry Jesus, I must feed him. This is sick Jesus. This one has leprosy or gangrene; I must wash him and tend to him. I serve because I love Jesus."</p>`,
+      scripture: 'Matthew 25:40 - "Truly, I say to you, as you did it to one of the least of these my brothers, you did it to me."',
+      prayer: 'Lord Jesus, help me to do small things with great love. Open my eyes to see You in everyone I meet, especially the poor and suffering. May every act of kindness be an act of love for You. Amen.'
+    },
+    {
+      day: 2,
+      title: 'The Fruit of Silence',
+      content: `<p>"The fruit of silence is prayer. The fruit of prayer is faith. The fruit of faith is love. The fruit of love is service. The fruit of service is peace."</p>
+<p>Mother Teresa understood that service without prayer becomes mere activism. We need silence to hear God's voice, prayer to deepen our relationship with Him, and faith to sustain us in difficult times.</p>
+<p>"We need to find God, and He cannot be found in noise and restlessness. God is the friend of silence. See how nature—trees, flowers, grass—grows in silence; see the stars, the moon and the sun, how they move in silence."</p>
+<p>In our noisy world, silence is countercultural. But it is essential for the spiritual life. "In the silence of the heart God speaks. If you face God in prayer and silence, God will speak to you."</p>
+<p>Mother Teresa spent an hour each day in Eucharistic adoration, even with her incredibly busy schedule. This was the source of her strength and the foundation of her service.</p>`,
+      scripture: 'Psalm 46:10 - "Be still, and know that I am God."',
+      prayer: 'Lord, help me to cultivate silence in my life. In the stillness, speak to my heart. May my prayer bear fruit in faith, my faith in love, my love in service, and my service in peace. Amen.'
+    },
+    {
+      day: 3,
+      title: 'The Greatest Poverty',
+      content: `<p>"The greatest disease in the West today is not TB or leprosy; it is being unwanted, unloved, and uncared for. We can cure physical diseases with medicine, but the only cure for loneliness, despair, and hopelessness is love."</p>
+<p>Mother Teresa recognized that poverty takes many forms. Material poverty is devastating, but spiritual poverty—the poverty of being unloved—is even more painful.</p>
+<p>"There is more hunger in the world for love and appreciation than for bread. The poverty of the West is a different kind of poverty—it is not only a poverty of loneliness but also of spirituality."</p>
+<p>She challenged the wealthy nations: "You have the poverty of the spirit, of loneliness, of being unwanted. And that is the worst disease in the world today, not tuberculosis or leprosy."</p>
+<p>The cure for this poverty is simple: love. "Spread love everywhere you go. Let no one ever come to you without leaving happier."</p>`,
+      scripture: 'Romans 12:10 - "Love one another with brotherly affection. Outdo one another in showing honor."',
+      prayer: 'Lord, open my eyes to the poverty around me—not just material poverty but the poverty of loneliness and despair. Help me to bring Your love to those who feel unwanted and unloved. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Joy in Service',
+      content: `<p>"Joy is a net of love by which you can catch souls. A joyful heart is the normal result of a heart burning with love."</p>
+<p>Despite working with the dying and destitute, Mother Teresa was known for her radiant smile. Her joy was not dependent on circumstances but rooted in her love for Christ.</p>
+<p>"Joy is prayer; joy is strength; joy is love. God loves a cheerful giver. The best way to show our gratitude to God and to people is to accept everything with joy."</p>
+<p>She taught her sisters: "Let us always meet each other with a smile, for the smile is the beginning of love." A smile costs nothing but gives much.</p>
+<p>"We shall never know all the good that a simple smile can do. Be faithful in small things because it is in them that your strength lies."</p>`,
+      scripture: 'Nehemiah 8:10 - "The joy of the Lord is your strength."',
+      prayer: 'Lord, fill me with Your joy. May my smile be a reflection of Your love. Help me to serve others with a joyful heart, knowing that joy is contagious and draws souls to You. Amen.'
+    },
+    {
+      day: 5,
+      title: 'The Call Within the Call',
+      content: `<p>On September 10, 1946, during a train ride to Darjeeling, Mother Teresa received what she called "the call within the call"—a divine inspiration to leave her convent and serve Christ among the poorest of the poor.</p>
+<p>"I was to leave the convent and help the poor while living among them. It was an order. To fail would have been to break the faith."</p>
+<p>This call required great sacrifice. Mother Teresa had to leave the security of her religious community and step into the unknown. But she trusted that God would provide.</p>
+<p>"I know God will not give me anything I can't handle. I just wish He didn't trust me so much."</p>
+<p>Each of us has a vocation—a call from God to serve Him in a particular way. "Many people mistake our work for our vocation. Our vocation is the love of Jesus."</p>`,
+      scripture: 'Isaiah 6:8 - "And I heard the voice of the Lord saying, Whom shall I send, and who will go for us? Then I said, Here I am! Send me."',
+      prayer: 'Lord, help me to hear Your call and respond with generosity. Give me the courage to follow where You lead, even when the path is uncertain. May my vocation be the love of Jesus. Amen.'
+    },
+    {
+      day: 6,
+      title: 'The Dark Night',
+      content: `<p>After Mother Teresa's death, her private letters revealed that she experienced a profound spiritual darkness for nearly fifty years. She felt abandoned by God, unable to sense His presence.</p>
+<p>"Where is my faith? Even deep down... there is nothing but emptiness and darkness... If there be God—please forgive me."</p>
+<p>Yet she persevered in faith and service. Her darkness was not a sign of God's absence but a participation in the suffering of those she served—the spiritual poverty of feeling unloved and abandoned.</p>
+<p>"I have come to love the darkness, for I believe now that it is a part, a very, very small part, of Jesus' darkness and pain on earth."</p>
+<p>Mother Teresa's example teaches us that feelings are not faith. We can serve God faithfully even when we don't feel His presence. "Faith is not a feeling. It is a decision."</p>`,
+      scripture: 'Psalm 22:1 - "My God, my God, why have you forsaken me?"',
+      prayer: 'Lord, when I feel Your absence, help me to persevere in faith. May I trust You not because of what I feel but because of who You are. Unite my darkness to the darkness Jesus experienced on the Cross. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Love Until It Hurts',
+      content: `<p>"I have found the paradox, that if you love until it hurts, there can be no more hurt, only more love."</p>
+<p>Mother Teresa's love was not sentimental but sacrificial. She gave everything—her comfort, her health, her very self—for the sake of the poor.</p>
+<p>"Love, to be real, it must cost—it must hurt—it must empty us of self."</p>
+<p>This is the love of the Cross. Jesus loved us to the point of death, and He calls us to love with the same self-giving love. "If you really love one another, you will not be able to avoid making sacrifices."</p>
+<p>"At the end of life we will not be judged by how many diplomas we have received, how much money we have made, how many great things we have done. We will be judged by 'I was hungry, and you gave me something to eat, I was naked and you clothed me. I was homeless, and you took me in.'"</p>
+<p>Mother Teresa's final message: "Keep the joy of loving Jesus in your heart and share this joy with all you meet."</p>`,
+      scripture: 'John 15:13 - "Greater love has no one than this, that someone lay down his life for his friends."',
+      prayer: 'Lord Jesus, teach me to love until it hurts. Empty me of selfishness and fill me with Your self-giving love. May I see Your face in the poor and serve You in them with joy. St. Teresa of Calcutta, pray for me. Amen.'
+    }
+  ]
+};
+
+devotionals.push(padrePioDaily, motherTeresaDaily);
+
+
+// ============================================
+// PRAYER & MEDITATION DEVOTIONALS
+// ============================================
+
+const lectioDivina: Devotional = {
+  slug: 'lectio-divina',
+  title: 'Lectio Divina',
+  author: 'Benedictine Tradition',
+  description: 'Ancient practice of prayerful Scripture reading in four movements.',
+  longDescription: 'Lectio Divina (Divine Reading) is an ancient practice of praying with Scripture that dates back to the early Church and was systematized by the Benedictine monks. This method of prayer involves four movements: reading, meditation, prayer, and contemplation, leading us into deep communion with God through His Word.',
+  frequency: 'Daily',
+  category: 'Prayer & Meditation',
+  icon: '📖',
+  readings: [
+    {
+      day: 1,
+      title: 'Introduction to Lectio Divina',
+      content: `<p>Lectio Divina, or "Divine Reading," is an ancient way of praying with Scripture that has nourished Christians for centuries. Unlike Bible study, which seeks to understand the text intellectually, Lectio Divina seeks to encounter God personally through His Word.</p>
+<p><strong>The Four Movements:</strong></p>
+<p><strong>1. Lectio (Reading):</strong> Read the Scripture passage slowly, perhaps several times. Listen for a word or phrase that catches your attention.</p>
+<p><strong>2. Meditatio (Meditation):</strong> Reflect on the word or phrase that stood out. What is God saying to you through it? How does it connect to your life?</p>
+<p><strong>3. Oratio (Prayer):</strong> Respond to God in prayer. This might be praise, thanksgiving, confession, or petition—whatever rises from your heart.</p>
+<p><strong>4. Contemplatio (Contemplation):</strong> Rest silently in God's presence. Let go of words and thoughts. Simply be with God.</p>
+<p>There is no "right" way to do Lectio Divina. The goal is not to finish a certain amount of Scripture but to encounter the living God who speaks through His Word.</p>`,
+      scripture: 'Psalm 119:105 - "Your word is a lamp to my feet and a light to my path."',
+      prayer: 'Lord, as I approach Your Word, open my heart to hear Your voice. Speak to me through the Scriptures. Help me not just to read but to listen, not just to study but to pray. May Your Word transform my life. Amen.'
+    },
+    {
+      day: 2,
+      title: 'Lectio: Reading with the Heart',
+      content: `<p>The first movement of Lectio Divina is Lectio—reading. But this is not ordinary reading. It is slow, attentive, receptive reading that listens for God's voice.</p>
+<p><strong>How to Practice Lectio:</strong></p>
+<ul>
+<li>Choose a short Scripture passage (5-10 verses is enough)</li>
+<li>Read slowly, perhaps aloud</li>
+<li>Read the passage two or three times</li>
+<li>Listen for a word or phrase that catches your attention</li>
+<li>Don't analyze—just receive</li>
+</ul>
+<p>The word or phrase that stands out is God's gift to you for this moment. It may be comforting or challenging, familiar or surprising. Trust that God is speaking to you through it.</p>
+<p>St. Ambrose said: "When we pray, we speak to God; when we read Scripture, God speaks to us." In Lectio, we position ourselves to hear God's voice.</p>`,
+      scripture: 'Isaiah 55:10-11 - "For as the rain and the snow come down from heaven and do not return there but water the earth... so shall my word be that goes out from my mouth; it shall not return to me empty."',
+      prayer: 'Lord, give me ears to hear Your voice in Scripture. Help me to read slowly and attentively, trusting that You will speak to me. May Your Word not return empty but accomplish Your purpose in my life. Amen.'
+    },
+    {
+      day: 3,
+      title: 'Meditatio: Chewing the Word',
+      content: `<p>The second movement is Meditatio—meditation. The ancient monks compared this to a cow chewing its cud: we "chew" on the word or phrase, turning it over in our minds, savoring its meaning.</p>
+<p><strong>How to Practice Meditatio:</strong></p>
+<ul>
+<li>Take the word or phrase from your reading</li>
+<li>Repeat it slowly, letting it sink in</li>
+<li>Ask: What is God saying to me through this?</li>
+<li>How does this connect to my life right now?</li>
+<li>What memories, feelings, or desires does it evoke?</li>
+</ul>
+<p>Meditation is not analysis but rumination. We are not trying to figure out what the text meant to its original audience but what God is saying to us today.</p>
+<p>This is where Scripture becomes personal. The Word of God is "living and active" (Hebrews 4:12), and in meditation, it penetrates our hearts and transforms us.</p>`,
+      scripture: 'Psalm 1:2 - "But his delight is in the law of the Lord, and on his law he meditates day and night."',
+      prayer: 'Lord, help me to meditate on Your Word day and night. May I chew on it, savor it, and let it nourish my soul. Speak to me through the Scriptures and show me how to apply them to my life. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Oratio: Responding to God',
+      content: `<p>The third movement is Oratio—prayer. Having heard God speak through Scripture, we now respond. This is the dialogue of love between the soul and God.</p>
+<p><strong>How to Practice Oratio:</strong></p>
+<ul>
+<li>Let your meditation lead naturally into prayer</li>
+<li>Speak to God from your heart</li>
+<li>Your prayer might be praise, thanksgiving, confession, or petition</li>
+<li>Be honest—tell God what you're feeling</li>
+<li>Ask for the grace to live what you've heard</li>
+</ul>
+<p>Oratio is not about finding the right words but about opening your heart to God. He already knows what you need; prayer is about relationship, not information.</p>
+<p>St. Thérèse of Lisieux said: "For me, prayer is a surge of the heart; it is a simple look turned toward heaven, it is a cry of recognition and of love, embracing both trial and joy."</p>`,
+      scripture: 'Psalm 62:8 - "Trust in him at all times, O people; pour out your heart before him; God is a refuge for us."',
+      prayer: 'Lord, I pour out my heart before You. [Speak to God about what arose in your meditation. Be honest about your feelings, needs, and desires. Ask for the grace to respond to what He has shown you.] Amen.'
+    },
+    {
+      day: 5,
+      title: 'Contemplatio: Resting in God',
+      content: `<p>The fourth movement is Contemplatio—contemplation. This is the goal of Lectio Divina: to rest in God's presence, beyond words and thoughts, in loving communion.</p>
+<p><strong>How to Practice Contemplatio:</strong></p>
+<ul>
+<li>Let go of words and thoughts</li>
+<li>Simply be present to God</li>
+<li>Rest in His love</li>
+<li>If thoughts arise, gently return to stillness</li>
+<li>Stay as long as you feel drawn to stay</li>
+</ul>
+<p>Contemplation is pure gift. We cannot make it happen; we can only dispose ourselves to receive it. Sometimes God grants deep experiences of His presence; other times, we simply sit in faith, trusting He is there.</p>
+<p>The author of The Cloud of Unknowing wrote: "God may be reached and held close by means of love, but by means of thought, never."</p>`,
+      scripture: 'Psalm 46:10 - "Be still, and know that I am God."',
+      prayer: 'Lord, I rest in Your presence. I let go of words and thoughts. I simply want to be with You. Hold me in Your love. [Spend time in silence, resting in God\'s presence.] Amen.'
+    },
+    {
+      day: 6,
+      title: 'Actio: Living the Word',
+      content: `<p>Some traditions add a fifth movement: Actio—action. Having encountered God in Scripture, we go forth to live what we have received.</p>
+<p><strong>How to Practice Actio:</strong></p>
+<ul>
+<li>Ask: How is God calling me to respond?</li>
+<li>What concrete action can I take today?</li>
+<li>How can I live this Word in my relationships, work, and daily life?</li>
+<li>Carry the word or phrase with you throughout the day</li>
+</ul>
+<p>Lectio Divina is not meant to be a private spiritual experience disconnected from life. The Word of God is meant to transform us and, through us, the world.</p>
+<p>St. James wrote: "Be doers of the word, and not hearers only, deceiving yourselves" (James 1:22). True encounter with God always bears fruit in action.</p>`,
+      scripture: 'James 1:22 - "But be doers of the word, and not hearers only, deceiving yourselves."',
+      prayer: 'Lord, help me to be a doer of Your Word, not just a hearer. Show me how to live what I have received. May my encounter with You in Scripture bear fruit in love and service. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Making Lectio Divina a Habit',
+      content: `<p>Lectio Divina is not just a technique but a way of life. The goal is to develop a habit of prayerful reading that shapes how we approach all of Scripture and all of life.</p>
+<p><strong>Practical Tips:</strong></p>
+<ul>
+<li>Set aside a regular time each day (15-30 minutes)</li>
+<li>Find a quiet place where you won't be interrupted</li>
+<li>Use the daily Mass readings or work through a book of the Bible</li>
+<li>Keep a journal to record insights</li>
+<li>Be patient—this is a lifelong practice</li>
+</ul>
+<p>Don't be discouraged if your mind wanders or if you don't have profound experiences. Faithfulness matters more than feelings. Simply showing up day after day opens us to God's transforming grace.</p>
+<p>As Guigo II, a 12th-century Carthusian monk, wrote: "Reading seeks, meditation finds, prayer asks, contemplation tastes."</p>`,
+      scripture: 'Joshua 1:8 - "This Book of the Law shall not depart from your mouth, but you shall meditate on it day and night, so that you may be careful to do according to all that is written in it."',
+      prayer: 'Lord, help me to make Lectio Divina a regular part of my life. Give me discipline to show up each day and openness to receive whatever You want to give. May Your Word dwell richly in me and transform me into the image of Christ. Amen.'
+    }
+  ]
+};
+
+const rosaryMeditations: Devotional = {
+  slug: 'rosary-meditations',
+  title: 'Rosary Meditations',
+  author: 'Catholic Bible Online',
+  description: 'Deep reflections on each mystery of the Holy Rosary.',
+  longDescription: 'The Rosary is the most beloved prayer of Catholics, a meditation on the life of Christ through the eyes of Mary. These reflections guide you through the mysteries of the Rosary, helping you to pray with greater depth and devotion.',
+  frequency: 'Daily',
+  category: 'Prayer & Meditation',
+  icon: '📿',
+  readings: [
+    {
+      day: 1,
+      title: 'The Joyful Mysteries: The Annunciation',
+      content: `<p><strong>The First Joyful Mystery: The Annunciation</strong></p>
+<p>The angel Gabriel was sent from God to a virgin named Mary. "Hail, full of grace, the Lord is with you!" Mary was troubled at his words, but the angel said, "Do not be afraid, Mary, for you have found favor with God. You will conceive and bear a son, and you shall call his name Jesus."</p>
+<p>Mary asked, "How can this be, since I have no husband?" The angel answered, "The Holy Spirit will come upon you, and the power of the Most High will overshadow you; therefore the child to be born will be called holy—the Son of God."</p>
+<p>And Mary said, "Behold, I am the handmaid of the Lord; let it be to me according to your word."</p>
+<p><strong>Reflection:</strong> In this mystery, we contemplate Mary's perfect faith and obedience. She did not fully understand what was being asked of her, but she trusted God completely. Her "yes" changed the course of human history.</p>
+<p>We too are called to say "yes" to God's will, even when we don't understand. Like Mary, we can trust that God's plans for us are good, even when they seem impossible.</p>`,
+      scripture: 'Luke 1:38 - "And Mary said, Behold, I am the servant of the Lord; let it be to me according to your word."',
+      prayer: 'Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.'
+    },
+    {
+      day: 2,
+      title: 'The Luminous Mysteries: The Baptism of Jesus',
+      content: `<p><strong>The First Luminous Mystery: The Baptism of Jesus</strong></p>
+<p>Jesus came from Galilee to the Jordan to be baptized by John. John tried to prevent him, saying, "I need to be baptized by you, and do you come to me?" But Jesus answered, "Let it be so now, for thus it is fitting for us to fulfill all righteousness."</p>
+<p>When Jesus was baptized, he went up immediately from the water, and behold, the heavens were opened to him, and he saw the Spirit of God descending like a dove and coming to rest on him. And a voice from heaven said, "This is my beloved Son, with whom I am well pleased."</p>
+<p><strong>Reflection:</strong> At His baptism, Jesus is revealed as the beloved Son of the Father, anointed by the Holy Spirit. The Trinity is manifested: the Father speaks, the Son is baptized, the Spirit descends.</p>
+<p>In our own baptism, we became children of God, temples of the Holy Spirit, members of Christ's Body. We too heard the Father say, "You are my beloved child." Do we live as beloved children of God?</p>`,
+      scripture: 'Matthew 3:17 - "And a voice from heaven said, This is my beloved Son, with whom I am well pleased."',
+      prayer: 'Lord Jesus, at Your baptism You were revealed as the beloved Son of the Father. Help me to live as a beloved child of God, faithful to my baptismal promises. May I always walk in the light of Your grace. Amen.'
+    },
+    {
+      day: 3,
+      title: 'The Sorrowful Mysteries: The Agony in the Garden',
+      content: `<p><strong>The First Sorrowful Mystery: The Agony in the Garden</strong></p>
+<p>Jesus went with his disciples to a place called Gethsemane. He said to them, "Sit here while I go over there and pray." Taking Peter and the two sons of Zebedee, he began to be sorrowful and troubled. He said to them, "My soul is very sorrowful, even to death; remain here, and watch with me."</p>
+<p>Going a little farther, he fell on his face and prayed, "My Father, if it be possible, let this cup pass from me; nevertheless, not as I will, but as you will."</p>
+<p>And being in agony he prayed more earnestly; and his sweat became like great drops of blood falling down to the ground.</p>
+<p><strong>Reflection:</strong> In Gethsemane, we see Jesus fully human—afraid, sorrowful, longing for the cup to pass. Yet He surrenders His will to the Father. "Not my will, but yours be done."</p>
+<p>When we face our own Gethsemanes—moments of fear, suffering, and difficult choices—we can unite our struggles to Christ's. He understands our weakness and gives us grace to surrender to God's will.</p>`,
+      scripture: 'Luke 22:42 - "Father, if you are willing, remove this cup from me. Nevertheless, not my will, but yours, be done."',
+      prayer: 'Lord Jesus, in Your agony You surrendered Your will to the Father. When I face suffering and fear, help me to trust in God\'s plan. Give me the grace to say, "Not my will, but Yours be done." Amen.'
+    },
+    {
+      day: 4,
+      title: 'The Glorious Mysteries: The Resurrection',
+      content: `<p><strong>The First Glorious Mystery: The Resurrection</strong></p>
+<p>On the first day of the week, at early dawn, the women went to the tomb, taking the spices they had prepared. They found the stone rolled away from the tomb, but when they went in they did not find the body of the Lord Jesus.</p>
+<p>Two men in dazzling apparel stood beside them. The women were frightened, but the men said, "Why do you seek the living among the dead? He is not here, but has risen. Remember how he told you, while he was still in Galilee, that the Son of Man must be delivered into the hands of sinful men and be crucified and on the third day rise."</p>
+<p><strong>Reflection:</strong> The Resurrection is the foundation of our faith. If Christ has not been raised, our faith is in vain. But He has been raised, and because He lives, we too shall live.</p>
+<p>The Resurrection transforms everything. Death is not the end. Suffering is not meaningless. Sin does not have the final word. In Christ, we have hope that conquers despair, life that conquers death.</p>`,
+      scripture: 'Luke 24:5-6 - "Why do you seek the living among the dead? He is not here, but has risen."',
+      prayer: 'Lord Jesus, You have conquered death and risen in glory. Fill me with Easter joy and resurrection hope. Help me to live as one who believes that death is not the end, that You are the resurrection and the life. Amen.'
+    },
+    {
+      day: 5,
+      title: 'The Joyful Mysteries: The Nativity',
+      content: `<p><strong>The Third Joyful Mystery: The Nativity</strong></p>
+<p>In those days a decree went out from Caesar Augustus that all the world should be registered. And Joseph went up from Galilee to Bethlehem, to be registered with Mary, his betrothed, who was with child.</p>
+<p>And while they were there, the time came for her to give birth. And she gave birth to her firstborn son and wrapped him in swaddling cloths and laid him in a manger, because there was no place for them in the inn.</p>
+<p>And in the same region there were shepherds out in the field, keeping watch over their flock by night. And an angel of the Lord appeared to them, and the glory of the Lord shone around them. The angel said, "Fear not, for behold, I bring you good news of great joy: unto you is born this day in the city of David a Savior, who is Christ the Lord."</p>
+<p><strong>Reflection:</strong> The King of Kings is born in a stable, laid in a manger, announced to shepherds. God enters the world not in power and glory but in poverty and humility.</p>
+<p>This is the mystery of the Incarnation: God becomes man, the infinite becomes finite, the Creator becomes a creature. He does this out of love for us, to save us from our sins.</p>`,
+      scripture: 'Luke 2:11 - "For unto you is born this day in the city of David a Savior, who is Christ the Lord."',
+      prayer: 'Lord Jesus, You humbled Yourself to be born in a stable. Help me to embrace humility and simplicity. May I find You not in the palaces of the world but in the manger of my heart. Amen.'
+    },
+    {
+      day: 6,
+      title: 'The Sorrowful Mysteries: The Crucifixion',
+      content: `<p><strong>The Fifth Sorrowful Mystery: The Crucifixion</strong></p>
+<p>When they came to the place called The Skull, they crucified him there, along with the criminals—one on his right, the other on his left. Jesus said, "Father, forgive them, for they do not know what they are doing."</p>
+<p>Standing near the cross of Jesus were his mother, and his mother's sister, Mary the wife of Clopas, and Mary Magdalene. When Jesus saw his mother and the disciple whom he loved standing nearby, he said to his mother, "Woman, behold, your son!" Then he said to the disciple, "Behold, your mother!"</p>
+<p>Jesus cried out in a loud voice, "Father, into your hands I commit my spirit." When he had said this, he breathed his last.</p>
+<p><strong>Reflection:</strong> On the Cross, Jesus accomplishes our salvation. He takes upon Himself the sins of the world and offers Himself as the perfect sacrifice. "It is finished."</p>
+<p>At the foot of the Cross, Mary becomes our mother. Jesus gives her to us as a gift, and we are entrusted to her care. In our sufferings, we are never alone—Mary stands with us as she stood with Jesus.</p>`,
+      scripture: 'John 19:30 - "When Jesus had received the sour wine, he said, It is finished, and he bowed his head and gave up his spirit."',
+      prayer: 'Lord Jesus, You died on the Cross for my sins. Help me to understand the depth of Your love. May I never take for granted the price You paid for my salvation. Mary, Mother of Sorrows, pray for me. Amen.'
+    },
+    {
+      day: 7,
+      title: 'The Glorious Mysteries: The Assumption',
+      content: `<p><strong>The Fourth Glorious Mystery: The Assumption of Mary</strong></p>
+<p>At the end of her earthly life, Mary was assumed body and soul into heavenly glory. This dogma, proclaimed by Pope Pius XII in 1950, affirms that Mary, who was preserved from original sin and remained sinless throughout her life, did not experience the corruption of death but was taken up into heaven.</p>
+<p>The Assumption is the fulfillment of God's promise to those who are faithful. Mary is the first to receive what all the faithful will receive at the resurrection of the dead—a glorified body united with the soul in eternal life.</p>
+<p><strong>Reflection:</strong> Mary's Assumption gives us hope. Where she has gone, we hope to follow. Her glorified body is a preview of our own destiny if we remain faithful to Christ.</p>
+<p>The Assumption also reminds us of the dignity of the human body. Our bodies are not prisons for our souls but temples of the Holy Spirit, destined for resurrection and glory.</p>`,
+      scripture: 'Revelation 12:1 - "And a great sign appeared in heaven: a woman clothed with the sun, with the moon under her feet, and on her head a crown of twelve stars."',
+      prayer: 'Hail, Holy Queen, Mother of Mercy, our life, our sweetness, and our hope. To thee do we cry, poor banished children of Eve. Turn then, most gracious advocate, thine eyes of mercy toward us, and after this our exile, show unto us the blessed fruit of thy womb, Jesus. Amen.'
+    }
+  ]
+};
+
+devotionals.push(lectioDivina, rosaryMeditations);
+
+
+// ============================================
+// FAMILY & SEASONAL DEVOTIONALS
+// ============================================
+
+const adventDaily: Devotional = {
+  slug: 'advent-daily',
+  title: 'Advent Journey',
+  author: 'Catholic Bible Online',
+  description: 'Prepare your heart for Christmas with daily Advent reflections.',
+  longDescription: 'Advent is a season of joyful expectation as we prepare for the coming of Christ—both His historical birth at Christmas and His future coming in glory. These daily reflections help you enter into the spirit of Advent through prayer, Scripture, and practical suggestions for the season.',
+  frequency: 'Seasonal',
+  category: 'Liturgical Seasons',
+  icon: '🕯️',
+  readings: [
+    {
+      day: 1,
+      title: 'The Season of Waiting',
+      content: `<p>Advent begins in darkness. The days are short, the nights are long, and we light candles to push back the gloom. This is fitting, for Advent is about waiting in darkness for the Light of the World.</p>
+<p>The word "Advent" comes from the Latin adventus, meaning "coming." We await a threefold coming of Christ: His coming in history (Christmas), His coming in mystery (in the sacraments and in our hearts), and His coming in majesty (at the end of time).</p>
+<p>Waiting is hard. We live in a culture of instant gratification, where waiting seems like wasted time. But Advent teaches us that waiting has value. In waiting, we learn patience. In waiting, our desire grows. In waiting, we make room for God.</p>
+<p><strong>Advent Practice:</strong> Set up an Advent wreath in your home. Light one candle the first week, two the second, and so on. Let the growing light remind you that Christ, the Light of the World, is coming.</p>`,
+      scripture: 'Isaiah 9:2 - "The people who walked in darkness have seen a great light; those who dwelt in a land of deep darkness, on them has light shone."',
+      prayer: 'Lord Jesus, Light of the World, I wait for You in the darkness of this season. Increase my longing for Your coming. Help me to use this Advent well, preparing my heart to receive You at Christmas. Come, Lord Jesus. Amen.'
+    },
+    {
+      day: 2,
+      title: 'John the Baptist: Prepare the Way',
+      content: `<p>"A voice cries in the wilderness: Prepare the way of the Lord, make straight in the desert a highway for our God."</p>
+<p>John the Baptist is the great prophet of Advent. He came to prepare the way for Jesus, calling people to repentance and baptizing them in the Jordan River. His message was urgent: "Repent, for the kingdom of heaven is at hand!"</p>
+<p>John's call to repentance is also addressed to us. Advent is a time to examine our lives, to identify the obstacles that block Christ's coming into our hearts, and to remove them through confession and conversion.</p>
+<p>What valleys need to be filled in your life? What mountains need to be brought low? What crooked paths need to be made straight? John's message is clear: prepare the way of the Lord.</p>
+<p><strong>Advent Practice:</strong> Make a good confession during Advent. Examine your conscience carefully and approach the sacrament with sincere repentance. Let Christ find a clean dwelling place in your heart.</p>`,
+      scripture: 'Matthew 3:2 - "Repent, for the kingdom of heaven is at hand."',
+      prayer: 'Lord, send Your Spirit to convict me of sin and lead me to repentance. Help me to prepare the way for Your coming by removing every obstacle in my heart. Give me the courage to make a sincere confession. Amen.'
+    },
+    {
+      day: 3,
+      title: 'Mary: Handmaid of the Lord',
+      content: `<p>No one prepared for Christ's coming more perfectly than Mary. When the angel announced that she would bear the Son of God, she responded with total surrender: "Behold, I am the handmaid of the Lord; let it be to me according to your word."</p>
+<p>Mary's "yes" made the Incarnation possible. God, who respects human freedom, waited for her consent before entering the world as a child. Her faith and obedience opened the door for our salvation.</p>
+<p>Advent invites us to imitate Mary's receptivity. Like her, we are called to make room for Christ, to say "yes" to God's will, to bear Christ to the world. Mary is our model and our mother in this journey.</p>
+<p><strong>Advent Practice:</strong> Pray the Rosary daily during Advent, meditating especially on the Joyful Mysteries. Ask Mary to help you prepare your heart for her Son's coming.</p>`,
+      scripture: 'Luke 1:38 - "And Mary said, Behold, I am the servant of the Lord; let it be to me according to your word."',
+      prayer: 'Mary, Mother of God and my mother, help me to imitate your faith and obedience. Teach me to say "yes" to God as you did. Prepare my heart to receive your Son at Christmas. Pray for me, that I may be ready when He comes. Amen.'
+    },
+    {
+      day: 4,
+      title: 'The O Antiphons: Come, Lord Jesus',
+      content: `<p>In the final days before Christmas, the Church prays the "O Antiphons"—ancient prayers that cry out for the Messiah using titles from the Old Testament.</p>
+<p><strong>O Wisdom</strong> (December 17): Come and teach us the way of prudence.</p>
+<p><strong>O Adonai</strong> (December 18): Come and redeem us with outstretched arm.</p>
+<p><strong>O Root of Jesse</strong> (December 19): Come to deliver us, and do not delay.</p>
+<p><strong>O Key of David</strong> (December 20): Come and bring forth the captive from prison.</p>
+<p><strong>O Radiant Dawn</strong> (December 21): Come and enlighten those who sit in darkness.</p>
+<p><strong>O King of Nations</strong> (December 22): Come and save us whom You formed from clay.</p>
+<p><strong>O Emmanuel</strong> (December 23): Come and save us, O Lord our God.</p>
+<p>These prayers express the longing of Israel for the Messiah—and our own longing for Christ's coming. The first letters of the Latin titles, read backwards, spell "Ero Cras"—"Tomorrow I will come."</p>`,
+      scripture: 'Revelation 22:20 - "He who testifies to these things says, Surely I am coming soon. Amen. Come, Lord Jesus!"',
+      prayer: 'O come, O come, Emmanuel, and ransom captive Israel, that mourns in lonely exile here, until the Son of God appear. Rejoice! Rejoice! Emmanuel shall come to thee, O Israel. Amen.'
+    },
+    {
+      day: 5,
+      title: 'Joseph: The Righteous Man',
+      content: `<p>Joseph, the husband of Mary, is often overlooked in the Advent story. Yet his role was essential. When he discovered that Mary was pregnant, he planned to divorce her quietly. But an angel appeared to him in a dream: "Joseph, son of David, do not fear to take Mary as your wife, for that which is conceived in her is from the Holy Spirit."</p>
+<p>Joseph obeyed. He took Mary into his home, protected her and the child, and became the foster father of the Son of God. His obedience, like Mary's, made the Incarnation possible.</p>
+<p>Joseph teaches us to trust God even when we don't understand. He didn't receive explanations—just instructions. Yet he obeyed promptly and completely. His faith was shown in action.</p>
+<p><strong>Advent Practice:</strong> Ask St. Joseph to help you trust God in confusing situations. Pray for the grace to obey God's will even when you don't understand His plan.</p>`,
+      scripture: 'Matthew 1:24 - "When Joseph woke from sleep, he did as the angel of the Lord commanded him: he took his wife."',
+      prayer: 'St. Joseph, righteous and obedient, help me to trust God as you did. When I am confused or afraid, give me the grace to obey. Protect my family as you protected the Holy Family. Pray for me. Amen.'
+    },
+    {
+      day: 6,
+      title: 'The Shepherds: Good News of Great Joy',
+      content: `<p>On the night Jesus was born, shepherds were keeping watch over their flocks. An angel appeared to them, and the glory of the Lord shone around them. "Fear not," the angel said, "for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord."</p>
+<p>The shepherds were the first to hear the good news. Not the religious leaders, not the wealthy, not the powerful—but poor shepherds watching their sheep in the night. God chose the lowly to receive the greatest announcement in history.</p>
+<p>The shepherds responded immediately. "Let us go over to Bethlehem and see this thing that has happened." They didn't delay or make excuses. They went, they saw, and they glorified God.</p>
+<p><strong>Advent Practice:</strong> Like the shepherds, respond to God's invitation without delay. Don't put off prayer, confession, or acts of charity. Go to Bethlehem—go to Christ—today.</p>`,
+      scripture: 'Luke 2:10-11 - "Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord."',
+      prayer: 'Lord, like the shepherds, I want to respond to Your call without delay. Help me to go to Bethlehem, to find You in the manger of my heart, and to glorify You with my life. Amen.'
+    },
+    {
+      day: 7,
+      title: 'Christmas: The Word Made Flesh',
+      content: `<p>"And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth."</p>
+<p>This is the mystery we celebrate at Christmas: God became man. The infinite became finite. The Creator became a creature. The Word became flesh.</p>
+<p>Why did God do this? "For us and for our salvation," as the Creed says. He became what we are so that we might become what He is. He took on our humanity so that we might share in His divinity.</p>
+<p>Christmas is not just a birthday party for Jesus. It is the celebration of our salvation, the feast of God's incredible love for us. "For God so loved the world, that he gave his only Son."</p>
+<p>As you celebrate Christmas, remember the reason for the season. In the midst of gifts and gatherings, take time to kneel before the manger and adore the newborn King.</p>`,
+      scripture: 'John 1:14 - "And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth."',
+      prayer: 'Lord Jesus, Word made flesh, I adore You in the manger. Thank You for becoming man for my salvation. Help me to receive You not just at Christmas but every day. May You be born anew in my heart. Amen.'
+    }
+  ]
+};
+
+const familyRosary: Devotional = {
+  slug: 'family-rosary',
+  title: 'Family Rosary Devotional',
+  author: 'Catholic Bible Online',
+  description: 'Daily reflections to enrich your family\'s Rosary practice.',
+  longDescription: 'The family that prays together stays together. This devotional provides daily reflections to help families pray the Rosary with greater understanding and devotion. Each day focuses on a different aspect of the Rosary, making this ancient prayer accessible and meaningful for all ages.',
+  frequency: 'Daily',
+  category: 'Family & Marriage',
+  icon: '👨‍👩‍👧‍👦',
+  readings: [
+    {
+      day: 1,
+      title: 'Why Pray the Rosary as a Family?',
+      content: `<p>"The family that prays together stays together." This famous saying, popularized by Father Patrick Peyton, captures a profound truth: shared prayer strengthens family bonds and draws families closer to God.</p>
+<p>The Rosary is the perfect family prayer. It is simple enough for children to learn, yet deep enough to nourish adults. It can be prayed in fifteen minutes or extended with meditation. It brings the whole family together before God.</p>
+<p><strong>Benefits of the Family Rosary:</strong></p>
+<ul>
+<li>Creates a daily habit of family prayer</li>
+<li>Teaches children the faith through the mysteries</li>
+<li>Invites Mary's protection over the family</li>
+<li>Provides peace and unity in the home</li>
+<li>Offers intentions for family needs</li>
+</ul>
+<p>Our Lady of Fatima asked us to pray the Rosary daily for peace. What better place to start than in our own homes, bringing peace to our families?</p>`,
+      scripture: 'Matthew 18:20 - "For where two or three are gathered in my name, there am I among them."',
+      prayer: 'Lord, bless our family as we gather to pray the Rosary. Help us to be faithful to this practice. May Mary\'s intercession bring peace, unity, and holiness to our home. Amen.'
+    },
+    {
+      day: 2,
+      title: 'Making the Rosary Accessible for Children',
+      content: `<p>Children can pray the Rosary! With a little creativity, this ancient prayer becomes engaging and meaningful for even young children.</p>
+<p><strong>Tips for Praying with Children:</strong></p>
+<ul>
+<li>Start small—one decade is enough for little ones</li>
+<li>Use pictures or icons of the mysteries</li>
+<li>Let children take turns leading decades</li>
+<li>Explain the mysteries in simple terms</li>
+<li>Keep it joyful, not forced</li>
+</ul>
+<p><strong>For Young Children:</strong> Focus on the Joyful Mysteries, which tell stories children can understand—the angel visiting Mary, baby Jesus in the manger, finding Jesus in the Temple.</p>
+<p><strong>For Older Children:</strong> Encourage them to add their own intentions. Help them see how the mysteries connect to their lives.</p>
+<p>Don't worry if children are wiggly or distracted. The goal is to plant seeds of faith that will grow over time. Consistency matters more than perfection.</p>`,
+      scripture: 'Mark 10:14 - "Let the children come to me; do not hinder them, for to such belongs the kingdom of God."',
+      prayer: 'Mary, Mother of Jesus and our mother, help our children to love the Rosary. Plant in their hearts a devotion to you and your Son. May the seeds we plant today bear fruit throughout their lives. Amen.'
+    },
+    {
+      day: 3,
+      title: 'Meditating on the Mysteries',
+      content: `<p>The Rosary is not just repetition of prayers—it is meditation on the life of Christ. The Hail Marys provide a rhythm that frees the mind to contemplate the mysteries.</p>
+<p><strong>How to Meditate:</strong></p>
+<ul>
+<li>Before each decade, read the Scripture passage for that mystery</li>
+<li>Picture the scene in your imagination</li>
+<li>Place yourself in the story—what do you see, hear, feel?</li>
+<li>Ask: What is God saying to me through this mystery?</li>
+<li>Let the prayers flow while your heart rests in the scene</li>
+</ul>
+<p><strong>For Families:</strong> Have different family members share what they imagine or what strikes them about each mystery. This makes the meditation come alive and helps everyone engage more deeply.</p>
+<p>Don't worry if your mind wanders. Gently bring it back to the mystery. The Rosary is a school of prayer—we are always learning.</p>`,
+      scripture: 'Luke 2:19 - "But Mary treasured up all these things, pondering them in her heart."',
+      prayer: 'Mary, teach us to meditate as you did, pondering the mysteries of your Son in our hearts. Help us to see Jesus more clearly through the Rosary. Amen.'
+    },
+    {
+      day: 4,
+      title: 'Praying for Family Intentions',
+      content: `<p>The Rosary is a powerful prayer of intercession. Each decade can be offered for a specific intention, bringing our family's needs before God through Mary's intercession.</p>
+<p><strong>Family Intentions to Consider:</strong></p>
+<ul>
+<li>For each family member by name</li>
+<li>For family unity and peace</li>
+<li>For health and protection</li>
+<li>For those who are struggling</li>
+<li>For deceased family members</li>
+<li>For the Church and the world</li>
+</ul>
+<p><strong>Involving Everyone:</strong> Let each family member offer an intention before a decade. This teaches children that prayer is personal and that God cares about their concerns.</p>
+<p>Keep a family prayer journal to record intentions and answered prayers. Looking back at how God has worked builds faith for future needs.</p>`,
+      scripture: 'Philippians 4:6 - "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God."',
+      prayer: 'Mary, we entrust our family to your care. Present our intentions to your Son. Intercede for us in all our needs. We trust in your motherly love. Amen.'
+    },
+    {
+      day: 5,
+      title: 'Creating a Rosary Routine',
+      content: `<p>Consistency is key to making the family Rosary a lasting habit. Choose a time that works for your family and protect it.</p>
+<p><strong>When to Pray:</strong></p>
+<ul>
+<li>After dinner, before dessert</li>
+<li>Before bedtime</li>
+<li>During a car ride</li>
+<li>First thing in the morning</li>
+<li>After Sunday Mass</li>
+</ul>
+<p><strong>Creating Sacred Space:</strong></p>
+<ul>
+<li>Gather in a special place (living room, bedroom, backyard)</li>
+<li>Light a candle</li>
+<li>Place an image of Mary nearby</li>
+<li>Turn off phones and screens</li>
+</ul>
+<p><strong>When You Miss a Day:</strong> Don't give up! Simply start again the next day. The goal is progress, not perfection. God blesses our efforts, even imperfect ones.</p>`,
+      scripture: 'Colossians 4:2 - "Continue steadfastly in prayer, being watchful in it with thanksgiving."',
+      prayer: 'Lord, help our family to be faithful to the Rosary. When we are tired or busy, give us the grace to persevere. May this prayer become a treasured part of our family life. Amen.'
+    },
+    {
+      day: 6,
+      title: 'The Promises of the Rosary',
+      content: `<p>Our Lady has made many promises to those who faithfully pray the Rosary. These promises, given to St. Dominic and Blessed Alan de la Roche, encourage us to persevere in this devotion.</p>
+<p><strong>Selected Promises:</strong></p>
+<ul>
+<li>Whoever shall faithfully serve me by the recitation of the Rosary shall receive signal graces.</li>
+<li>I promise my special protection and the greatest graces to all those who shall recite the Rosary.</li>
+<li>The Rosary shall be a powerful armor against hell; it will destroy vice, decrease sin, and defeat heresies.</li>
+<li>The soul which recommends itself to me by the recitation of the Rosary shall not perish.</li>
+<li>Those who are faithful to recite the Rosary shall have during their life and at their death the light of God and the plenitude of His graces.</li>
+</ul>
+<p>These promises remind us that the Rosary is not just a pious practice but a powerful spiritual weapon. Mary herself has promised to help those who pray it faithfully.</p>`,
+      scripture: 'Luke 1:48-49 - "For he who is mighty has done great things for me, and holy is his name."',
+      prayer: 'Mary, we trust in your promises. Help us to be faithful to the Rosary, confident that you will obtain for us the graces we need. We place our family under your protection. Amen.'
+    },
+    {
+      day: 7,
+      title: 'The Rosary: A School of Mary',
+      content: `<p>Pope St. John Paul II called the Rosary "a school of Mary." Through this prayer, we learn from Mary how to follow Jesus.</p>
+<p><strong>What Mary Teaches Us:</strong></p>
+<ul>
+<li><strong>Faith:</strong> Mary believed the angel's message, even when it seemed impossible.</li>
+<li><strong>Obedience:</strong> She said "yes" to God's will, whatever the cost.</li>
+<li><strong>Humility:</strong> She called herself the "handmaid of the Lord."</li>
+<li><strong>Perseverance:</strong> She stood at the foot of the Cross when others fled.</li>
+<li><strong>Joy:</strong> She rejoiced in God her Savior.</li>
+</ul>
+<p>As we pray the Rosary, we walk with Mary through the life of Jesus. We see Him through her eyes, love Him with her heart, and learn from her example how to be His disciples.</p>
+<p>The Rosary is not just about Mary—it is about Jesus. Mary always points us to her Son: "Do whatever He tells you."</p>`,
+      scripture: 'John 2:5 - "His mother said to the servants, Do whatever he tells you."',
+      prayer: 'Mary, be our teacher in the school of the Rosary. Help us to know Jesus better, love Him more deeply, and follow Him more faithfully. Lead our family closer to your Son. Amen.'
+    }
+  ]
+};
+
+devotionals.push(adventDaily, familyRosary);
