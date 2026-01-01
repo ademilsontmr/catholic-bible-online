@@ -5,6 +5,15 @@ export interface DevotionalReading {
   content: string;
   scripture?: string;
   prayer: string;
+  bibleLink?: {
+    book: string;
+    chapter: number;
+    label: string;
+  };
+  blogLink?: {
+    slug: string;
+    title: string;
+  };
 }
 
 export interface Devotional {
@@ -43,7 +52,16 @@ export const devotionals: Devotional[] = [
 <p>I would rather feel compunction than know how to define it. If you knew the whole Bible by heart and the sayings of all the philosophers, what would it profit you without the love of God and His grace?</p>
 <p>"Vanity of vanities, and all is vanity," except to love God and serve Him alone. This is the highest wisdom: by contempt of the world to tend toward the kingdom of heaven.</p>`,
         scripture: 'John 8:12 - "I am the light of the world. Whoever follows me will not walk in darkness, but will have the light of life."',
-        prayer: 'Lord Jesus Christ, You are the Way, the Truth, and the Life. Grant me the grace to follow You faithfully, to imitate Your humility and love, and to find in You alone my true happiness. Help me to see through the vanities of this world and to seek only what leads to eternal life. Through Your most holy Name. Amen.'
+        prayer: 'Lord Jesus Christ, You are the Way, the Truth, and the Life. Grant me the grace to follow You faithfully, to imitate Your humility and love, and to find in You alone my true happiness. Help me to see through the vanities of this world and to seek only what leads to eternal life. Through Your most holy Name. Amen.',
+        bibleLink: {
+          book: 'john',
+          chapter: 8,
+          label: 'John 8 - Light of the World'
+        },
+        blogLink: {
+          slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+          title: 'Lent 2026: Guide to Spiritual Transformation'
+        }
       },
       {
         day: 2,
@@ -55,7 +73,16 @@ export const devotionals: Devotional[] = [
 <p>The more you know and the better you understand, the more severely will you be judged, unless your life be also more holy. Be not therefore lifted up by any skill or knowledge that you have, but rather fear for the knowledge that is given you.</p>
 <p>If you think you know many things and understand them well enough, know also that there are many more things of which you are ignorant. Be not high-minded, but rather acknowledge your ignorance.</p>`,
         scripture: 'Proverbs 3:7 - "Be not wise in your own eyes; fear the Lord, and turn away from evil."',
-        prayer: 'O Lord, grant me true humility of heart. Help me to know myself as I truly am before You—a sinner in need of Your mercy. Deliver me from pride and vainglory. Let me seek not the praise of men but only Your approval. May I use whatever knowledge I have for Your glory and the salvation of souls. Amen.'
+        prayer: 'O Lord, grant me true humility of heart. Help me to know myself as I truly am before You—a sinner in need of Your mercy. Deliver me from pride and vainglory. Let me seek not the praise of men but only Your approval. May I use whatever knowledge I have for Your glory and the salvation of souls. Amen.',
+        bibleLink: {
+          book: 'proverbs',
+          chapter: 3,
+          label: 'Proverbs 3 - Trust in the Lord'
+        },
+        blogLink: {
+          slug: 'catholic-faith-mental-health-2026-complete-guide',
+          title: 'Catholic Faith and Mental Health Guide'
+        }
       },
       {
         day: 3,
@@ -67,7 +94,16 @@ export const devotionals: Devotional[] = [
 <p>He to whom all things are one, who reduces all things to one, and who sees all things in one, may be steady in heart and remain peacefully in God. O God, who art the Truth, make me one with Thee in everlasting love.</p>
 <p>It wearies me often to read and hear many things. In Thee is all that I will and desire. Let all teachers hold their peace; let all creatures be silent before Thee: speak Thou alone to me.</p>`,
         scripture: 'John 14:6 - "Jesus said to him, I am the way, and the truth, and the life. No one comes to the Father except through me."',
-        prayer: 'Eternal Word, speak to my heart. Silence the noise of the world and my own restless thoughts. Let me hear Your voice alone and find in You all truth and wisdom. Unite me to Yourself, O Lord, that I may see all things in the light of Your eternal truth. Amen.'
+        prayer: 'Eternal Word, speak to my heart. Silence the noise of the world and my own restless thoughts. Let me hear Your voice alone and find in You all truth and wisdom. Unite me to Yourself, O Lord, that I may see all things in the light of Your eternal truth. Amen.',
+        bibleLink: {
+          book: 'john',
+          chapter: 14,
+          label: 'John 14 - The Way, Truth, and Life'
+        },
+        blogLink: {
+          slug: 'artificial-intelligence-catholic-ethics-guide-2026',
+          title: 'AI and Catholic Ethics Guide'
+        }
       },
       {
         day: 4,
@@ -77,7 +113,16 @@ export const devotionals: Devotional[] = [
 <p>It is wisdom also not to believe everything we hear, nor to pour it immediately into other ears. Take counsel with a wise and conscientious man, and seek to be instructed by one better than yourself, rather than to follow your own inventions.</p>
 <p>A good life makes a man wise according to God and gives him experience in many things. The more humble a man is in himself and the more subject to God, the wiser and more at peace he will be in all things.</p>`,
         scripture: 'James 1:19 - "Know this, my beloved brothers: let every person be quick to hear, slow to speak, slow to anger."',
-        prayer: 'Lord, grant me prudence in all my actions. Help me to think before I speak, to listen before I judge, and to seek Your will before I act. Deliver me from rash decisions and hasty words. May I always seek wise counsel and remain humble in my own opinions. Amen.'
+        prayer: 'Lord, grant me prudence in all my actions. Help me to think before I speak, to listen before I judge, and to seek Your will before I act. Deliver me from rash decisions and hasty words. May I always seek wise counsel and remain humble in my own opinions. Amen.',
+        bibleLink: {
+          book: 'james',
+          chapter: 1,
+          label: 'James 1 - Hearing and Doing'
+        },
+        blogLink: {
+          slug: 'saint-patrick-day-2026-faith-history-celebration',
+          title: 'Saint Patrick\'s Day: Faith Behind the Celebration'
+        }
       },
       {
         day: 5,
@@ -88,7 +133,16 @@ export const devotionals: Devotional[] = [
 <p>Our own curiosity often hinders us in reading the Scriptures, when we wish to understand and discuss what we should simply pass over. If you would profit by reading, read humbly, simply, and faithfully, and never desire the reputation of being learned.</p>
 <p>Inquire willingly and hear in silence the words of holy men; let not the parables of the elders displease you, for they are not spoken without cause.</p>`,
         scripture: '2 Timothy 3:16-17 - "All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work."',
-        prayer: 'Holy Spirit, open my heart to receive the Word of God. Help me to read Scripture not for knowledge alone but for transformation. Let Your truth penetrate my soul and change my life. Give me humility to accept what I read and courage to live it. Amen.'
+        prayer: 'Holy Spirit, open my heart to receive the Word of God. Help me to read Scripture not for knowledge alone but for transformation. Let Your truth penetrate my soul and change my life. Give me humility to accept what I read and courage to live it. Amen.',
+        bibleLink: {
+          book: '2-timothy',
+          chapter: 3,
+          label: '2 Timothy 3 - All Scripture is God-breathed'
+        },
+        blogLink: {
+          slug: 'lent-2026-complete-guide-40-days-spiritual-transformation',
+          title: 'Lent 2026: Spiritual Transformation Guide'
+        }
       },
       {
         day: 6,
@@ -98,7 +152,16 @@ export const devotionals: Devotional[] = [
 <p>And therefore he is often afflicted when he withdraws himself from them, and easily falls into anger when anyone opposes him. But if he has obtained what he desires, he is immediately burdened with remorse of conscience, because he has followed his passion, which helps not at all toward the peace he sought.</p>
 <p>True peace of heart, therefore, is found by resisting our passions, not by obeying them. There is no peace in the heart of a carnal man, nor in him who is given to outward things, but only in the fervent and spiritual man.</p>`,
         scripture: 'Galatians 5:16 - "But I say, walk by the Spirit, and you will not gratify the desires of the flesh."',
-        prayer: 'Lord Jesus, free me from disordered attachments. Help me to desire only what leads to You and to find my peace in Your will alone. Mortify in me all that is contrary to Your love. Grant me the grace of holy detachment, that I may possess You who are my only true Good. Amen.'
+        prayer: 'Lord Jesus, free me from disordered attachments. Help me to desire only what leads to You and to find my peace in Your will alone. Mortify in me all that is contrary to Your love. Grant me the grace of holy detachment, that I may possess You who are my only true Good. Amen.',
+        bibleLink: {
+          book: 'galatians',
+          chapter: 5,
+          label: 'Galatians 5 - Walk by the Spirit'
+        },
+        blogLink: {
+          slug: 'catholic-faith-mental-health-2026-complete-guide',
+          title: 'Faith and Mental Health: Finding Peace'
+        }
       },
       {
         day: 7,
@@ -109,7 +172,16 @@ export const devotionals: Devotional[] = [
 <p>Boast not of your stature nor of the beauty of your body, which is spoiled and disfigured by a little sickness. Take no pleasure in your ability or your wit, lest you displease God, to whom belongs all the natural good that you have.</p>
 <p>Esteem not yourself better than others, lest perhaps in the sight of God, who knows what is in man, you be accounted worse than they. Be not proud of your good works, for the judgments of God are different from the judgments of men, and what pleases men often displeases Him.</p>`,
         scripture: 'Jeremiah 9:23-24 - "Let not the wise man boast in his wisdom, let not the mighty man boast in his might, let not the rich man boast in his riches, but let him who boasts boast in this, that he understands and knows me."',
-        prayer: 'Humble my heart, O Lord. Strip away all vain pride and self-reliance. Let me glory only in You and in Your Cross. Help me to see that all good comes from You and to return all praise to You alone. Make me truly humble, that I may be truly great in Your kingdom. Amen.'
+        prayer: 'Humble my heart, O Lord. Strip away all vain pride and self-reliance. Let me glory only in You and in Your Cross. Help me to see that all good comes from You and to return all praise to You alone. Make me truly humble, that I may be truly great in Your kingdom. Amen.',
+        bibleLink: {
+          book: 'jeremiah',
+          chapter: 9,
+          label: 'Jeremiah 9 - Boast in the Lord'
+        },
+        blogLink: {
+          slug: 'saint-patrick-day-2026-faith-history-celebration',
+          title: 'Saint Patrick: Humility and Faith'
+        }
       }
     ]
   },

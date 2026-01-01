@@ -469,7 +469,7 @@ export default function VerseOfTheDay() {
     <section className="py-10">
       <div className="max-w-2xl mx-auto px-4">
         <div className="bg-gray-50 border border-gray-200 rounded-xl shadow-lg p-8 text-center">
-          <div className="text-2xl font-bold text-black mb-2">Verse of the Day</div>
+          <h2 className="text-2xl font-bold text-black mb-2">Verse of the Day</h2>
           <div className={`text-lg text-gray-700 mb-4 italic ${!isClient ? 'animate-pulse' : ''}`}>
             {isClient ? (
               `"${todaysVerse.verseText}"`
@@ -506,7 +506,7 @@ export default function VerseOfTheDay() {
           {/* Social Sharing Section */}
           {isClient && (
             <div className="mt-6 pt-6 border-t border-gray-200">
-              <div className="text-sm text-gray-600 mb-3">Share this inspiration</div>
+              <h3 className="text-sm font-medium text-gray-600 mb-3">Share this inspiration</h3>
               <div className="flex flex-wrap justify-center gap-2">
                 {/* Facebook */}
                 <a

@@ -359,19 +359,19 @@ export default function DevotionalsPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-12">
         {/* Header */}
-        <div className="text-center mb-12 bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 rounded-2xl p-8 border border-gray-100">
-          <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 gradient-text mb-6">
+        <div className="text-center mb-8 sm:mb-12 bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 rounded-xl sm:rounded-2xl p-4 sm:p-8 border border-gray-100">
+          <h1 className="text-3xl sm:text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 gradient-text mb-4 sm:mb-6">
             Catholic Devotionals
           </h1>
-          <p className="text-xl text-gray-700 mb-8 max-w-4xl mx-auto">
+          <p className="text-base sm:text-xl text-gray-700 mb-6 sm:mb-8 max-w-4xl mx-auto">
             Nourish your soul with {totalDevotionals}+ daily and weekly devotionals from Catholic saints, 
             spiritual masters, and the rich tradition of the Church.
           </p>
 
           {/* Search Box */}
-          <div className="max-w-md mx-auto mb-8">
+          <div className="max-w-md mx-auto mb-6 sm:mb-8">
             <div className="relative">
               <input
                 type="search"
@@ -389,75 +389,77 @@ export default function DevotionalsPage() {
           </div>
 
           {/* Statistics */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-            <div className="bg-white rounded-lg p-4 shadow-md border border-gray-100">
-              <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 gradient-text">{totalDevotionals}+</div>
-              <div className="text-sm text-gray-700">Devotionals</div>
+          <div className="grid grid-cols-4 gap-2 sm:gap-4 mb-6 sm:mb-8">
+            <div className="bg-white rounded-lg p-2 sm:p-4 shadow-md border border-gray-100">
+              <div className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 gradient-text">{totalDevotionals}+</div>
+              <div className="text-xs sm:text-sm text-gray-700">Devotionals</div>
             </div>
-            <div className="bg-white rounded-lg p-4 shadow-md border border-gray-100">
-              <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-emerald-600 gradient-text">{devotionalCategories.length}</div>
-              <div className="text-sm text-gray-700">Categories</div>
+            <div className="bg-white rounded-lg p-2 sm:p-4 shadow-md border border-gray-100">
+              <div className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-purple-600 to-emerald-600 gradient-text">{devotionalCategories.length}</div>
+              <div className="text-xs sm:text-sm text-gray-700">Categories</div>
             </div>
-            <div className="bg-white rounded-lg p-4 shadow-md border border-gray-100">
-              <div className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 gradient-text">Daily</div>
-              <div className="text-sm text-gray-700">Updates</div>
+            <div className="bg-white rounded-lg p-2 sm:p-4 shadow-md border border-gray-100">
+              <div className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 gradient-text">Daily</div>
+              <div className="text-xs sm:text-sm text-gray-700">Updates</div>
             </div>
-            <div className="bg-white rounded-lg p-4 shadow-md border border-gray-100">
-              <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-emerald-600 gradient-text">Free</div>
-              <div className="text-sm text-gray-700">Access</div>
+            <div className="bg-white rounded-lg p-2 sm:p-4 shadow-md border border-gray-100">
+              <div className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-emerald-600 gradient-text">Free</div>
+              <div className="text-xs sm:text-sm text-gray-700">Access</div>
             </div>
           </div>
 
-          {/* Category Filter Pills */}
-          <div className="flex flex-wrap justify-center gap-2">
-            <button
-              onClick={() => setSelectedCategory(null)}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                selectedCategory === null
-                  ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-              }`}
-            >
-              All Categories
-            </button>
-            {devotionalCategories.map(cat => (
+          {/* Category Filter Pills - Horizontal scroll no mobile */}
+          <div className="overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0 pb-2">
+            <div className="flex sm:flex-wrap sm:justify-center gap-2 min-w-max sm:min-w-0">
               <button
-                key={cat.id}
-                onClick={() => setSelectedCategory(cat.id === selectedCategory ? null : cat.id)}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                  selectedCategory === cat.id
+                onClick={() => setSelectedCategory(null)}
+                className={`px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-medium transition-all whitespace-nowrap ${
+                  selectedCategory === null
                     ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
-                {cat.icon} {cat.name}
+                All
               </button>
-            ))}
+              {devotionalCategories.map(cat => (
+                <button
+                  key={cat.id}
+                  onClick={() => setSelectedCategory(cat.id === selectedCategory ? null : cat.id)}
+                  className={`px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-medium transition-all whitespace-nowrap ${
+                    selectedCategory === cat.id
+                      ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  }`}
+                >
+                  {cat.icon} <span className="hidden sm:inline">{cat.name}</span><span className="sm:hidden">{cat.name.split(' ')[0]}</span>
+                </button>
+              ))}
+            </div>
           </div>
         </div>
 
         {/* Featured Devotional */}
-        <section className="mb-12">
-          <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl p-8 border border-amber-200">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="bg-amber-500 text-white px-3 py-1 rounded-full text-sm font-bold">⭐ Featured</span>
-              <span className="text-amber-700 text-sm">Most Popular</span>
+        <section className="mb-8 sm:mb-12">
+          <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl sm:rounded-2xl p-4 sm:p-8 border border-amber-200">
+            <div className="flex items-center gap-2 mb-3 sm:mb-4">
+              <span className="bg-amber-500 text-white px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-bold">⭐ Featured</span>
+              <span className="text-amber-700 text-xs sm:text-sm">Most Popular</span>
             </div>
-            <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="grid md:grid-cols-2 gap-4 sm:gap-8 items-center">
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">The Imitation of Christ</h2>
-                <p className="text-gray-700 mb-4">
+                <h2 className="text-xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">The Imitation of Christ</h2>
+                <p className="text-gray-700 text-sm sm:text-base mb-3 sm:mb-4">
                   Written by Thomas à Kempis in the 15th century, this masterpiece has guided countless souls 
                   toward holiness. Its timeless wisdom on humility, devotion, and the interior life continues 
                   to transform hearts today.
                 </p>
-                <div className="flex items-center gap-4 mb-6">
-                  <span className="text-sm text-gray-600">✍️ Thomas à Kempis</span>
-                  <span className="text-sm text-gray-600">📅 Daily</span>
+                <div className="flex items-center gap-3 sm:gap-4 mb-4 sm:mb-6">
+                  <span className="text-xs sm:text-sm text-gray-600">✍️ Thomas à Kempis</span>
+                  <span className="text-xs sm:text-sm text-gray-600">📅 Daily</span>
                 </div>
                 <Link 
                   href="/devotionals/imitation-of-christ"
-                  className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-amber-500 to-orange-600 text-white font-bold rounded-lg hover:from-amber-600 hover:to-orange-700 transition-all"
+                  className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-amber-500 to-orange-600 text-white font-bold rounded-lg hover:from-amber-600 hover:to-orange-700 transition-all text-sm sm:text-base"
                 >
                   Start Reading
                   <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -465,7 +467,7 @@ export default function DevotionalsPage() {
                   </svg>
                 </Link>
               </div>
-              <div className="text-center">
+              <div className="text-center hidden sm:block">
                 <div className="text-8xl mb-4">📚</div>
                 <blockquote className="italic text-gray-600 border-l-4 border-amber-400 pl-4">
                   "He who follows Me, walks not in darkness, says the Lord."
@@ -478,33 +480,33 @@ export default function DevotionalsPage() {
 
         {/* Devotional Categories */}
         {filteredCategories.map(category => (
-          <section key={category.id} className="mb-12">
-            <div className="flex items-center gap-3 mb-6">
-              <span className="text-3xl">{category.icon}</span>
+          <section key={category.id} className="mb-8 sm:mb-12">
+            <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
+              <span className="text-2xl sm:text-3xl">{category.icon}</span>
               <div>
-                <h2 className="text-2xl font-bold text-gray-900">{category.name}</h2>
-                <p className="text-gray-600">{category.description}</p>
+                <h2 className="text-xl sm:text-2xl font-bold text-gray-900">{category.name}</h2>
+                <p className="text-gray-600 text-sm sm:text-base">{category.description}</p>
               </div>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               {category.devotionals.map(devotional => (
                 <Link
                   key={devotional.slug}
                   href={`/devotionals/${devotional.slug}`}
-                  className="group block bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg hover:border-blue-300 transition-all"
+                  className="group block bg-white border border-gray-200 rounded-xl p-4 sm:p-6 hover:shadow-lg hover:border-blue-300 transition-all"
                 >
-                  <div className="flex items-start justify-between mb-3">
-                    <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                  <div className="flex items-start justify-between mb-2 sm:mb-3">
+                    <h3 className="text-base sm:text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition-colors pr-2">
                       {devotional.title}
                     </h3>
-                    <span className={`px-2 py-1 rounded-full text-xs font-medium bg-gradient-to-r ${category.color} text-white`}>
+                    <span className={`px-2 py-1 rounded-full text-xs font-medium bg-gradient-to-r ${category.color} text-white shrink-0`}>
                       {devotional.frequency}
                     </span>
                   </div>
-                  <p className="text-sm text-gray-500 mb-3">by {devotional.author}</p>
-                  <p className="text-gray-700 text-sm mb-4">{devotional.description}</p>
-                  <div className="flex items-center text-blue-600 text-sm font-medium group-hover:translate-x-1 transition-transform">
+                  <p className="text-xs sm:text-sm text-gray-500 mb-2 sm:mb-3">by {devotional.author}</p>
+                  <p className="text-gray-700 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-2">{devotional.description}</p>
+                  <div className="flex items-center text-blue-600 text-xs sm:text-sm font-medium group-hover:translate-x-1 transition-transform">
                     Read Now
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -517,30 +519,30 @@ export default function DevotionalsPage() {
         ))}
 
         {/* Today's Readings CTA */}
-        <section className="bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 rounded-2xl p-8 border border-gray-100 text-center">
-          <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 gradient-text mb-4">
+        <section className="bg-gradient-to-r from-blue-50 via-purple-50 to-emerald-50 rounded-xl sm:rounded-2xl p-4 sm:p-8 border border-gray-100 text-center">
+          <h2 className="text-xl sm:text-3xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 gradient-text mb-3 sm:mb-4">
             Start Your Spiritual Journey Today
           </h2>
-          <p className="text-gray-700 mb-8 max-w-2xl mx-auto">
+          <p className="text-gray-700 text-sm sm:text-base mb-6 sm:mb-8 max-w-2xl mx-auto">
             Choose a devotional that speaks to your heart and commit to daily spiritual reading. 
             The saints remind us that consistent prayer and meditation transform our souls.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 justify-center">
             <Link
               href="/devotionals/gospel-of-the-day"
-              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all"
+              className="inline-flex items-center justify-center px-6 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all text-sm sm:text-base"
             >
               📖 Today's Gospel
             </Link>
             <Link
               href="/devotionals/saint-of-the-day"
-              className="inline-flex items-center px-8 py-4 border-2 border-blue-600 text-blue-600 font-bold rounded-lg hover:bg-blue-600 hover:text-white transition-all"
+              className="inline-flex items-center justify-center px-6 py-3 sm:px-8 sm:py-4 border-2 border-blue-600 text-blue-600 font-bold rounded-lg hover:bg-blue-600 hover:text-white transition-all text-sm sm:text-base"
             >
               👼 Saint of the Day
             </Link>
             <Link
               href="/prayers"
-              className="inline-flex items-center px-8 py-4 border-2 border-purple-600 text-purple-600 font-bold rounded-lg hover:bg-purple-600 hover:text-white transition-all"
+              className="inline-flex items-center justify-center px-6 py-3 sm:px-8 sm:py-4 border-2 border-purple-600 text-purple-600 font-bold rounded-lg hover:bg-purple-600 hover:text-white transition-all text-sm sm:text-base"
             >
               🙏 Catholic Prayers
             </Link>

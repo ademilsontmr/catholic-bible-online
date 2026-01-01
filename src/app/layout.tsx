@@ -13,18 +13,17 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Catholic Bible Online - Douay-Rheims Version | Read Complete Catholic Bible',
+    default: 'Catholic Bible Online - Read the Complete Catholic Bible Free',
     template: '%s | Catholic Bible Online'
   },
-  description: 'Read the complete Catholic Bible online with the Douay-Rheims translation. All 73 books, 1,334 chapters with easy navigation, Catholic reflections, and devotional content. Free online Bible study.',
+  description: 'Read the complete Catholic Bible online for free. All 73 books with prayers, novenas, saints, devotionals, and daily reflections to strengthen your faith.',
   keywords: [
     'catholic bible online',
-    'douay-rheims bible',
+    'catholic bible',
     'holy bible',
     'catholic scripture',
     'bible study',
     'catholic bible reading',
-    'douay-rheims translation',
     'catholic bible verses',
     'bible chapters',
     'catholic devotionals',
@@ -36,8 +35,8 @@ export const metadata: Metadata = {
     'old testament',
     'new testament',
     'catholic prayers',
-    'bible navigation',
-    'catholic bible app'
+    'novenas',
+    'catholic saints'
   ],
   authors: [{ name: 'Catholic Bible Online', url: 'https://catholicbibleonline.com' }],
   creator: 'Catholic Bible Online',
@@ -66,22 +65,22 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://catholicbibleonline.com',
-    title: 'Catholic Bible Online - Douay-Rheims Version | Complete Catholic Bible',
-    description: 'Read the complete Catholic Bible online with the Douay-Rheims translation. All 73 books, 1,334 chapters with easy navigation and Catholic reflections.',
+    title: 'Catholic Bible Online - Read the Complete Catholic Bible Free',
+    description: 'Read the complete Catholic Bible online for free. All 73 books with prayers, novenas, saints, and daily reflections.',
     siteName: 'Catholic Bible Online',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Catholic Bible Online - Douay-Rheims Version',
+        alt: 'Catholic Bible Online - Complete Catholic Bible',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Catholic Bible Online - Douay-Rheims Version',
-    description: 'Read the complete Catholic Bible online with the Douay-Rheims translation. All 73 books with easy navigation.',
+    title: 'Catholic Bible Online - Read the Complete Catholic Bible Free',
+    description: 'Read the complete Catholic Bible online for free. All 73 books with prayers, novenas, and daily reflections.',
     images: ['/og-image.jpg'],
     creator: '@catholicbibleonline',
     site: '@catholicbibleonline',
@@ -211,40 +210,24 @@ export default function RootLayout({
         
         <ConditionalVerseOfTheDay />
         
-        <footer className="bg-white border-t border-gray-200 py-12">
+        <footer className="bg-white border-t border-gray-200 py-6 sm:py-8">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-8">
-              <div className="space-y-4">
-                <h3 className="text-lg font-bold text-black mb-4">Catholic Bible Online</h3>
-                <p className="text-black">
-                  Complete Douay-Rheims Catholic Bible with easy navigation, reflections, and devotional content.
-                </p>
-                <div className="flex justify-center space-x-4">
-                  <a href="https://www.pinterest.com/catholicbibleonline/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 transition-colors">
-                    <span className="sr-only">Pinterest</span>
-                    <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.746-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001 12.017.001z"/>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-            
-            <div className="mt-8 pt-8 border-t border-gray-200">
-              <div className="flex flex-col md:flex-row justify-between items-center">
-                <p className="text-black">
-                  © {new Date().getFullYear()} Catholic Bible Online. All rights reserved.
-                </p>
-                <div className="mt-4 md:mt-0 flex space-x-6">
-                  <Link href="/devotionals" className="text-black hover:text-gray-600 transition-colors">Devotionals</Link>
-                  <Link href="/contact" className="text-black hover:text-gray-600 transition-colors">Contact Us</Link>
-                  <Link href="/about" className="text-black hover:text-gray-600 transition-colors">About</Link>
-                  <Link href="/privacy" className="text-black hover:text-gray-600 transition-colors">Privacy</Link>
-                  <Link href="/terms" className="text-black hover:text-gray-600 transition-colors">Terms</Link>
-                  <Link href="/legal" className="text-black hover:text-gray-600 transition-colors">Legal</Link>
-                  <Link href="/blog" className="text-black hover:text-gray-600 transition-colors">Blog</Link>
-                </div>
-              </div>
+            {/* Footer Links - Grid no mobile */}
+            <div>
+              <nav className="grid grid-cols-3 gap-3 sm:flex sm:flex-wrap sm:justify-center sm:gap-x-6 sm:gap-y-2 mb-6">
+                <Link href="/devotionals" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Devotionals</Link>
+                <Link href="/contact" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Contact</Link>
+                <Link href="/about" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">About</Link>
+                <Link href="/privacy" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Privacy</Link>
+                <Link href="/terms" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Terms</Link>
+                <Link href="/legal" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1">Legal</Link>
+                <Link href="/blog" className="text-black hover:text-gray-600 transition-colors text-sm text-center py-1 col-span-3 sm:col-span-1">Blog</Link>
+              </nav>
+              
+              {/* Copyright */}
+              <p className="text-black text-xs sm:text-sm text-center">
+                © {new Date().getFullYear()} Catholic Bible Online. All rights reserved.
+              </p>
             </div>
           </div>
         </footer>
